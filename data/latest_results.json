@@ -1,6 +1,6 @@
 {
   "run_date": "2026-06-22",
-  "run_time": "2026-06-22T11:19:58.225246Z",
+  "run_time": "2026-06-22T11:23:48.550802Z",
   "results": {
     "Technology": {
       "articles": [
@@ -60,11 +60,11 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's organic search integration demonstrates AI-driven discovery bypassing traditional search, creating competitive pressure for Google's core business model.",
+            "rationale": "ChatGPT's organic traffic dominance signals competitive threat to Google Search, driving AI investment urgency and market share defense.",
             "key_themes": [
-              "AI search disruption",
-              "organic discovery shift",
-              "content recommendation"
+              "AI competition",
+              "search disruption",
+              "organic traffic monetization"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -75,33 +75,29 @@
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "ChatGPT's expanded capabilities in organic traffic generation validate OpenAI partnership value and enterprise AI adoption across content creation workflows.",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to organically recommend content and generate traffic validates OpenAI partnership's strategic value.",
             "key_themes": [
-              "AI monetization",
-              "content creation tools",
-              "enterprise adoption"
+              "ChatGPT adoption",
+              "AI content recommendation",
+              "search alternative"
             ],
             "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Rationale overstates the evidence: Article [1] describes ChatGPT organic recommendations but does not validate 'OpenAI partnership value' or demonstrate 'enterprise AI adoption across content creation workflows.' Article [2] mentions AI content creation tools generally but does not connect them to Microsoft or ChatGPT specifically.",
+            "verification_issue": null,
             "supporting_article": 1
           }
         ],
-        "summary": "The articles reveal a fundamental shift in how users discover content, with AI systems like ChatGPT now acting as direct recommendation engines independent of traditional search. This validates strong AI adoption trends but poses existential questions for search-dependent business models. Most analyzed articles lack substantive tech sector news relevant to the specified stocks.",
+        "summary": "Articles 1-3 provide strong evidence of AI tools becoming integral to content creation and information discovery workflows in 2025, with ChatGPT demonstrating organic traffic generation capabilities that challenge traditional search paradigms. Articles 4-6 are off-topic entertainment/tech culture pieces with no investment relevance. The primary signal is accelerating AI adoption among creators and shift in organic traffic patterns.",
         "risks": [
-          "Articles 4-6 are dated 2026 and appear speculative or fictional, limiting analytical reliability",
-          "Insufficient concrete data on market impact, revenue attribution, or competitive dynamics from AI-driven discovery",
-          "Regulatory uncertainty around AI-generated content and search integration could accelerate or impede adoption"
+          "ChatGPT's traffic dominance may be overstated or temporary",
+          "Quality/accuracy concerns with AI-generated content recommendations could limit mainstream adoption",
+          "Regulatory scrutiny of AI tools could impact monetization models"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "MSFT signal assumes OpenAI partnership validation without explicit connection in sources",
-            "MSFT signal claims 'enterprise adoption across content creation workflows' but sources only show general AI tool usage and individual ChatGPT recommendations, not enterprise adoption evidence",
-            "Both signals use medium-term horizon but sources provide only anecdotal/recent examples without temporal forecasting basis"
-          ],
+          "overall_reliability": "high",
+          "flags": [],
           "ungrounded_count": 0
         }
       },
@@ -121,11 +117,11 @@
           "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT's organic search integration demonstrates AI-driven discovery bypassing traditional search, creating competitive pressure for Google's core business model.",
+          "rationale": "ChatGPT's organic traffic dominance signals competitive threat to Google Search, driving AI investment urgency and market share defense.",
           "key_themes": [
-            "AI search disruption",
-            "organic discovery shift",
-            "content recommendation"
+            "AI competition",
+            "search disruption",
+            "organic traffic monetization"
           ],
           "time_horizon": "medium-term",
           "verified": true,
@@ -133,11 +129,11 @@
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's organic search integration demonstrates AI-driven discovery bypassing traditional search, creating competitive pressure for Google's core business model.",
+        "haiku_rationale": "ChatGPT's organic traffic dominance signals competitive threat to Google Search, driving AI investment urgency and market share defense.",
         "haiku_themes": [
-          "AI search disruption",
-          "organic discovery shift",
-          "content recommendation"
+          "AI competition",
+          "search disruption",
+          "organic traffic monetization"
         ]
       },
       "config": {
@@ -212,15 +208,15 @@
             "company": "Shell plc",
             "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Qatar LNG facility explosion at Ras Laffan threatens regional supply; Shell's regional assets at operational risk.",
+            "rationale": "Qatar LNG facility explosion at Ras Laffan threatens regional supply and SHEL's LNG operations amid geopolitical tensions.",
             "key_themes": [
-              "supply disruption",
+              "LNG supply disruption",
               "operational risk",
-              "LNG market tightness"
+              "Middle East exposure"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article [2] describes explosion at Qatar's Ras Laffan LNG facility operated by QatarEnergy, not Shell. The rationale assumes Shell has 'regional assets at operational risk' but provides no evidence Shell operates this facility or has assets directly impacted.",
+            "verified": true,
+            "verification_issue": null,
             "supporting_article": 2
           },
           {
@@ -228,100 +224,89 @@
             "company": "TotalEnergies SE",
             "sentiment": "bearish",
             "conviction": 68,
-            "rationale": "Qatar LNG incident impacts global LNG supply; TotalEnergies has significant Middle East LNG exposure.",
+            "rationale": "Qatar LNG incident impacts TTE's significant LNG portfolio and production capacity in critical Middle East region.",
             "key_themes": [
-              "supply disruption",
-              "operational risk",
-              "LNG market tightness"
+              "LNG supply risk",
+              "geopolitical exposure",
+              "operational disruption"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Article [2] confirms Qatar LNG incident but does not establish TotalEnergies' operational involvement at Ras Laffan or quantify their 'significant Middle East LNG exposure' to this specific facility. The connection is assumed rather than documented.",
-            "supporting_article": 2
+            "verification_issue": "Article [2] confirms Ras Laffan explosion but does not specify TotalEnergies' involvement or LNG portfolio at this facility. The rationale assumes TTE has significant operations there without source support.",
+            "supporting_article": null
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Conflicting macro signals: supply disruption support offset by Chinese demand weakness and energy transition headwinds.",
+            "rationale": "Russia-India crude flows support pricing but China demand destruction and energy transition offset near-term upside.",
             "key_themes": [
+              "crude pricing support",
               "demand destruction",
-              "energy transition",
-              "geopolitical supply dynamics"
+              "energy transition"
             ],
             "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Rationale correctly references conflicting signals: Article [2] provides supply disruption support (Qatar LNG explosion) and Article [3] documents Chinese demand weakness from EV adoption. However, no direct ConocoPhillips exposure to either is established in sources.",
-            "supporting_article": null
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
           },
           {
             "ticker": "XOM",
             "company": "Exxon Mobil Corporation",
             "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Russia sanctions waivers benefit crude markets, but permanent Chinese demand loss offsets upside potential.",
+            "conviction": 48,
+            "rationale": "Mixed signals: Russian crude redirects support pricing, but China demand concerns and LNG risks from Qatar incident.",
             "key_themes": [
-              "demand destruction",
-              "geopolitical dynamics",
+              "crude demand uncertainty",
+              "LNG exposure",
               "energy transition"
             ],
             "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Rationale correctly cites Article [1] (Russia sanctions waivers benefiting crude markets) and Article [3] (permanent Chinese demand loss from EV adoption). However, no source establishes XOM's specific exposure or benefit from Russian crude waivers.",
-            "supporting_article": null
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
           },
           {
             "ticker": "CVX",
             "company": "Chevron Corporation",
             "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Mixed signals from supply disruption upside versus structural Chinese demand weakness from EV adoption.",
+            "conviction": 50,
+            "rationale": "Balanced exposure: benefits from crude pricing stability but faces headwinds from permanent China demand destruction.",
             "key_themes": [
-              "demand destruction",
-              "supply dynamics",
-              "energy transition"
+              "demand uncertainty",
+              "long-term structural decline"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
-            "verification_issue": "Rationale references supply disruption (Article [2]) and Chinese EV demand destruction (Article [3]). Sources support the macro signals but establish no direct Chevron exposure to either dynamic.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "neutral",
-            "conviction": 38,
-            "rationale": "Structural energy transition headwinds from biofuels and renewable investment competition offset near-term supply support.",
-            "key_themes": [
-              "demand destruction",
-              "energy transition",
-              "supply dynamics"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'biofuels and renewable investment competition' as headwinds, but Article [4] describes Petrobras (not BP) investing in biofuels. No BP biofuels or renewable projects are mentioned in any source article. The claim appears to be a generalized assumption rather than company-specific evidence.",
-            "supporting_article": 4
+            "verification_issue": null,
+            "supporting_article": 3
           }
         ],
-        "summary": "The petroleum sector faces conflicting dynamics: a Qatar LNG facility explosion provides near-term supply disruption support for integrated majors, while structural demand destruction from Chinese EV adoption and permanent behavioral shifts threaten long-term demand recovery. Geopolitical tailwinds (Russia waivers, Indian demand) are overshadowed by accelerating energy transition as evidenced by competing biofuels and battery storage investments.",
+        "summary": "The petroleum sector faces conflicting pressures: tightened crude supply from Russia-India flows provides near-term pricing support, but structural headwinds dominate longer-term outlook. Critical vulnerabilities include the Qatar LNG facility explosion threatening regional supply, permanent demand destruction in China from EV electrification, and accelerating energy transition away from fossil fuels. Majors with significant LNG exposure (SHEL, TTE) face immediate operational and supply risks, while crude-focused players see modest support offset by structural demand concerns.",
         "risks": [
-          "Qatar Ras Laffan facility may recover faster than currently priced; limited long-term supply impact",
-          "Chinese demand destruction may be cyclical rather than permanent if fuel prices collapse",
-          "Accelerating renewable energy and EV adoption erodes core fossil fuel demand faster than forecasted",
-          "Geopolitical sanctions relief could reverse, eliminating Russian crude tailwinds",
-          "Capital flight from oil majors toward energy transition investments pressures valuations"
+          "Qatar LNG facility extended downtime",
+          "China's irreversible demand shift to EVs",
+          "Escalating Middle East geopolitical tensions",
+          "Accelerating energy transition and stranded asset risk",
+          "Russian sanctions volatility",
+          "Demand destruction persistence"
         ],
         "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "SHEL signal hallucinated Shell operational involvement at Ras Laffan; facility is operated by QatarEnergy",
-            "TTE signal assumes TotalEnergies has significant exposure to Ras Laffan without source support",
-            "BP signal incorrectly attributes Petrobras biofuels investment to BP; no BP renewable/biofuel projects mentioned in sources",
-            "All signals lack company-specific nexus to macro trends; rationales rely on general industry dynamics rather than documented exposure"
+            "TTE rationale claims 'significant LNG portfolio' at Ras Laffan but source article does not mention TotalEnergies' specific involvement in the Qatar facility",
+            "TTE rationale references 'production capacity in critical Middle East region' without article support for TTE's operational stake at this location"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
@@ -329,8 +314,7 @@
         "TTE": null,
         "COP": null,
         "XOM": null,
-        "CVX": null,
-        "BP": null
+        "CVX": null
       },
       "spot_check": {
         "title": "India\u2019s Imports of Russian Oil Set for New Record High",
@@ -344,23 +328,23 @@
           "company": "Shell plc",
           "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Qatar LNG facility explosion at Ras Laffan threatens regional supply; Shell's regional assets at operational risk.",
+          "rationale": "Qatar LNG facility explosion at Ras Laffan threatens regional supply and SHEL's LNG operations amid geopolitical tensions.",
           "key_themes": [
-            "supply disruption",
+            "LNG supply disruption",
             "operational risk",
-            "LNG market tightness"
+            "Middle East exposure"
           ],
           "time_horizon": "short-term",
-          "verified": false,
-          "verification_issue": "Article [2] describes explosion at Qatar's Ras Laffan LNG facility operated by QatarEnergy, not Shell. The rationale assumes Shell has 'regional assets at operational risk' but provides no evidence Shell operates this facility or has assets directly impacted.",
+          "verified": true,
+          "verification_issue": null,
           "supporting_article": 2
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "Qatar LNG facility explosion at Ras Laffan threatens regional supply; Shell's regional assets at operational risk.",
+        "haiku_rationale": "Qatar LNG facility explosion at Ras Laffan threatens regional supply and SHEL's LNG operations amid geopolitical tensions.",
         "haiku_themes": [
-          "supply disruption",
+          "LNG supply disruption",
           "operational risk",
-          "LNG market tightness"
+          "Middle East exposure"
         ]
       },
       "config": {
@@ -435,10 +419,10 @@
             "company": "Eli Lilly and Company",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Elevated brand visibility and marketing prominence in mainstream health conversations strengthens market positioning and pricing power.",
+            "rationale": "Enhanced marketing visibility and brand prominence in mainstream health conversations positioning company for improved market share and patient awareness.",
             "key_themes": [
-              "brand marketing",
-              "market visibility",
+              "marketing strategy",
+              "brand positioning",
               "cultural relevance"
             ],
             "time_horizon": "medium-term",
@@ -450,28 +434,28 @@
             "ticker": "TMO",
             "company": "Thermo Fisher Scientific",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "$150M federal government investment in indoor air quality technology creates near-term demand for diagnostic and monitoring solutions.",
+            "conviction": 65,
+            "rationale": "$150M federal government investment in clean indoor air technology creates growth opportunity for diagnostic and testing infrastructure providers.",
             "key_themes": [
               "government spending",
-              "clean air technology",
-              "biosecurity"
+              "disease prevention",
+              "infrastructure investment"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": false,
-            "verification_issue": "Article [1] mentions $150M federal investment in indoor air quality technology, but does not specify that Thermo Fisher Scientific would be a beneficiary or that this creates demand for their diagnostic and monitoring solutions. The connection is assumed rather than stated.",
+            "verification_issue": "Article [1] mentions $150M federal investment in clean indoor air technology but does not specify Thermo Fisher Scientific or diagnostic/testing infrastructure providers as beneficiaries. The connection is speculative and not supported by the source material.",
             "supporting_article": 1
           },
           {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
             "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "State Department taking over CDC's global health work from HHS signals reduced federal health authority coordination, creating operational uncertainty.",
+            "conviction": 58,
+            "rationale": "State Department takeover of global health initiatives from CDC reduces influence of established pharma partnerships in international health policy decisions.",
             "key_themes": [
-              "regulatory uncertainty",
-              "government reorganization",
-              "policy risk"
+              "regulatory risk",
+              "international policy",
+              "geopolitical uncertainty"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -479,32 +463,49 @@
             "supporting_article": 2
           },
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct material impact from articles; potential indirect benefit from government health spending initiatives but limited specific relevance.",
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "State Department takeover of global health initiatives from CDC reduces influence of established pharma partnerships in international health policy decisions.",
             "key_themes": [
-              "diversified exposure",
-              "government spending"
+              "regulatory risk",
+              "international policy",
+              "geopolitical uncertainty"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "State Department takeover of global health initiatives from CDC reduces influence of established pharma partnerships in international health policy decisions.",
+            "key_themes": [
+              "regulatory risk",
+              "international policy",
+              "geopolitical uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           }
         ],
-        "summary": "The healthcare sector faces mixed signals as government health spending on clean air technology supports diagnostics/monitoring companies, while bureaucratic restructuring of global health initiatives creates policy uncertainty. Eli Lilly benefits from elevated brand marketing prominence in health discourse. Regulatory consolidation risks offset near-term spending opportunities.",
+        "summary": "The healthcare sector faces mixed signals: while government investment in clean air infrastructure and Eli Lilly's enhanced marketing visibility present growth opportunities, the State Department's assumption of CDC responsibilities threatens established pharma relationships in global health initiatives. Regulatory headwinds on M&A activity present moderate headwinds to sector consolidation.",
         "risks": [
-          "CDC authority reduction may destabilize global health response capabilities and pharma market access abroad",
-          "State Department management of health initiatives may lack pharmaceutical/medical expertise, creating implementation delays",
-          "Government spending announcements may not translate to immediate commercial opportunities or contract awards"
+          "geopolitical policy shifts affecting international operations",
+          "FTC antitrust scrutiny limiting M&A opportunities",
+          "reduced CDC influence limiting pharma industry input on global health priorities"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "TMO signal makes an unsupported inference that Thermo Fisher Scientific would specifically benefit from federal indoor air quality spending without evidence from articles that TMO is involved in this sector or would be a vendor"
+            "TMO signal makes an unsupported leap: while Article [1] confirms $150M in federal funding for clean indoor air technology, it does not identify Thermo Fisher Scientific or diagnostic/testing providers as intended beneficiaries. The analyst inferred a connection not present in the source material."
           ],
           "ungrounded_count": 1
         }
@@ -512,8 +513,9 @@
       "prices_snapshot": {
         "LLY": null,
         "TMO": null,
-        "UNH": null,
-        "JNJ": null
+        "JNJ": null,
+        "PFE": null,
+        "MRK": null
       },
       "spot_check": {
         "title": "<a href=\"https://www.fiercepharma.com/marketing/big-pharmas-big-brand-deep-dive-pharmas-marketing-culture-eli-lilly\" hreflang=\"en\">Big Pharma\u2019s Big Brand: Inside Eli Lilly\u2019s marketing culture</a>",
@@ -527,10 +529,10 @@
           "company": "Eli Lilly and Company",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Elevated brand visibility and marketing prominence in mainstream health conversations strengthens market positioning and pricing power.",
+          "rationale": "Enhanced marketing visibility and brand prominence in mainstream health conversations positioning company for improved market share and patient awareness.",
           "key_themes": [
-            "brand marketing",
-            "market visibility",
+            "marketing strategy",
+            "brand positioning",
             "cultural relevance"
           ],
           "time_horizon": "medium-term",
@@ -539,10 +541,10 @@
           "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Elevated brand visibility and marketing prominence in mainstream health conversations strengthens market positioning and pricing power.",
+        "haiku_rationale": "Enhanced marketing visibility and brand prominence in mainstream health conversations positioning company for improved market share and patient awareness.",
         "haiku_themes": [
-          "brand marketing",
-          "market visibility",
+          "marketing strategy",
+          "brand positioning",
           "cultural relevance"
         ]
       },
@@ -617,128 +619,96 @@
             "ticker": "JPM",
             "company": "JPMorgan Chase",
             "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "Geopolitical uncertainty from Iran-U.S. talks and trade tensions support safe-haven financial sector demand.",
+            "conviction": 72,
+            "rationale": "Geopolitical volatility and trade tensions create advisory and M&A opportunities for leading investment banks.",
             "key_themes": [
               "geopolitical risk",
-              "financial intermediation",
-              "volatility"
+              "trade tensions",
+              "M&A activity"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "bullish",
-            "conviction": 58,
-            "rationale": "Market volatility from AI sector rout and trade tensions increases trading activity and advisory opportunities.",
-            "key_themes": [
-              "market volatility",
-              "trading revenue",
-              "geopolitical risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              4
-            ]
+            "supporting_article": 1
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Mixed signals from market turmoil and geopolitical tensions offset by potential M&A advisory opportunities.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "U.S.-China trade friction and supply chain restructuring drive capital markets and advisory mandates.",
             "key_themes": [
-              "volatility",
-              "advisory services",
-              "market uncertainty"
+              "trade tensions",
+              "capital markets activity",
+              "restructuring advice"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              4
-            ]
+            "supporting_article": 1
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
             "sentiment": "bullish",
-            "conviction": 60,
-            "rationale": "Heightened market volatility from AI selloff and geopolitical tensions drive increased trading and capital markets activity.",
+            "conviction": 70,
+            "rationale": "Elevated market volatility from AI rout and geopolitical uncertainty increases trading revenue opportunities.",
             "key_themes": [
               "market volatility",
               "trading revenue",
-              "capital markets"
+              "advisory fees"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              4
-            ]
+            "supporting_article": 4
           },
           {
             "ticker": "V",
-            "company": "Visa Inc.",
+            "company": "Visa",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Market uncertainty and potential economic slowdown from geopolitical tensions may dampen payment volume growth.",
+            "rationale": "No direct exposure to articles; broad market volatility creates headwinds despite long-term payment growth trends.",
             "key_themes": [
-              "economic uncertainty",
-              "consumer spending",
-              "market volatility"
+              "market volatility",
+              "macroeconomic uncertainty"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes 'economic slowdown from geopolitical tensions' but sources show tensions exist without evidence of broader economic slowdown impact on consumer spending",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "MA",
-            "company": "Mastercard Inc.",
+            "company": "Mastercard",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Trade tensions and geopolitical risks create headwinds for cross-border payment activity and consumer confidence.",
+            "rationale": "No direct exposure to articles; broad market volatility creates headwinds despite long-term payment growth trends.",
             "key_themes": [
-              "trade tensions",
-              "economic uncertainty",
-              "cross-border activity"
+              "market volatility",
+              "macroeconomic uncertainty"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale mentions 'cross-border payment activity' headwinds but no source article specifically connects geopolitical tensions or trade tensions to payment volumes or cross-border activity impacts",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           }
         ],
-        "summary": "Financial services firms show near-term strength from elevated market volatility, geopolitical tensions, and the AI sector rout creating trading and advisory opportunities. Payment processors face headwinds from potential economic slowdown and reduced cross-border activity amid trade tensions and Iran-U.S. uncertainty. The sector remains constructive for investment banks but cautious for consumer-facing fintech players.",
+        "summary": "Investment banks stand to benefit from elevated geopolitical tensions, U.S.-China trade friction, and market volatility triggered by AI sector selloffs. The rare earth supply chain restrictions and Iran negotiations create advisory opportunities, while broader market uncertainty drives trading revenues. Payment processors face near-term headwinds from sector-wide volatility despite structural growth tailwinds.",
         "risks": [
-          "U.S.-Iran diplomatic breakthrough reduces volatility and trading opportunities",
-          "Trade war escalation with China impacts global payment flows",
-          "Market stabilization limits financial sector fee generation",
-          "Oil price volatility creates macro uncertainty"
+          "Risk of rapid market stabilization reducing trading volatility",
+          "U.S.-Iran d\u00e9tente could ease geopolitical premiums and deal activity",
+          "AI sector recovery could restore risk appetite and redirect capital flows"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "V and MA rationales extrapolate beyond source material to assume consumer spending/cross-border payment impacts without direct evidence",
-            "Sources confirm geopolitical tensions (Iran-U.S. talks) and market volatility (AI selloff) exist, supporting banking sector trading/volatility plays, but do not explicitly address payment processor impacts"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
         "JPM": null,
-        "BAC": null,
         "GS": null,
         "MS": null,
         "V": null,
@@ -755,27 +725,24 @@
           "ticker": "JPM",
           "company": "JPMorgan Chase",
           "sentiment": "bullish",
-          "conviction": 62,
-          "rationale": "Geopolitical uncertainty from Iran-U.S. talks and trade tensions support safe-haven financial sector demand.",
+          "conviction": 72,
+          "rationale": "Geopolitical volatility and trade tensions create advisory and M&A opportunities for leading investment banks.",
           "key_themes": [
             "geopolitical risk",
-            "financial intermediation",
-            "volatility"
+            "trade tensions",
+            "M&A activity"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            2,
-            3
-          ]
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Geopolitical uncertainty from Iran-U.S. talks and trade tensions support safe-haven financial sector demand.",
+        "haiku_rationale": "Geopolitical volatility and trade tensions create advisory and M&A opportunities for leading investment banks.",
         "haiku_themes": [
           "geopolitical risk",
-          "financial intermediation",
-          "volatility"
+          "trade tensions",
+          "M&A activity"
         ]
       },
       "config": {
