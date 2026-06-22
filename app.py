@@ -18,7 +18,7 @@ from utils.stock_fetcher import StockFetcher
 from utils.claude_analyser import ClaudeAnalyser
 from utils.data_store import DataStore
 from utils.hallucination_guard import HallucinationGuard
-from utils import database as db
+from utils import supabase_db as db
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
