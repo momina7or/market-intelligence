@@ -35,6 +35,17 @@ st.markdown("""
   html,body,[class*="css"]{font-family:'Inter',sans-serif;}
   .stApp{background:#0d1117;color:#e6edf3;}
   section[data-testid="stSidebar"]{background:#161b22;border-right:1px solid #21262d;}
+  section[data-testid="stSidebar"] *{color:#e6edf3 !important;}
+  section[data-testid="stSidebar"] .stRadio label{color:#e6edf3 !important;font-size:.875rem;}
+  section[data-testid="stSidebar"] .stRadio [data-testid="stMarkdownContainer"] p{color:#e6edf3 !important;}
+  section[data-testid="stSidebar"] .stCheckbox label{color:#c9d1d9 !important;font-size:.85rem;}
+  section[data-testid="stSidebar"] .stCheckbox label p{color:#c9d1d9 !important;}
+  section[data-testid="stSidebar"] .stSlider label{color:#8b949e !important;font-size:.8rem;}
+  section[data-testid="stSidebar"] .stTextInput label{color:#8b949e !important;font-size:.8rem;}
+  section[data-testid="stSidebar"] input{background:#0d1117 !important;color:#e6edf3 !important;border-color:#30363d !important;}
+  section[data-testid="stSidebar"] .stToggle label{color:#c9d1d9 !important;}
+  section[data-testid="stSidebar"] h2{color:#e6edf3 !important;}
+  section[data-testid="stSidebar"] hr{border-color:#21262d !important;}
   .signal-card{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:16px 20px;margin-bottom:12px;}
   .signal-card:hover{border-color:#388bfd;}
   .signal-card .ticker{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:600;color:#79c0ff;}
