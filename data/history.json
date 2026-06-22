@@ -1,0 +1,340 @@
+[
+  {
+    "run_date": "2026-06-22",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic recommendation capability demonstrates AI search disruption; Google must accelerate AI-integrated search to maintain traffic dominance.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic threats",
+              "AI integration urgency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's expanding content recommendation role validates OpenAI partnership value; demonstrates ChatGPT monetization pathway through organic discovery.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI monetization",
+              "organic search disruption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": null,
+          "MSFT": null
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Permanent demand destruction from China's EV adoption reduces long-term crude demand outlook and refining margins.",
+            "key_themes": [
+              "demand destruction",
+              "China electrification",
+              "structural headwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Corporate electrification initiatives and sticky consumer EV adoption threaten downstream demand and integrated margins.",
+            "key_themes": [
+              "electrification trend",
+              "demand destruction",
+              "energy transition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Permanent China demand depression and corporate shift away from volatile fuel markets pressures long-term oil demand.",
+            "key_themes": [
+              "China demand concerns",
+              "electrification",
+              "structural decline"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "China's depressed oil imports and accelerating global electrification reduce crude demand prospects and upstream returns.",
+            "key_themes": [
+              "demand destruction",
+              "China headwinds",
+              "energy transition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "LNG export recovery from Qatar provides near-term gas demand support but offset by long-term oil demand concerns.",
+            "key_themes": [
+              "Qatar LNG recovery",
+              "energy transition",
+              "mixed signals"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "LNG upside from Qatar's restart partially offsets crude demand risks from permanent China electrification trend.",
+            "key_themes": [
+              "Qatar LNG upside",
+              "China demand risk",
+              "energy transition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": null,
+          "CVX": null,
+          "BP": null,
+          "COP": null,
+          "TTE": null,
+          "SHEL": null
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Enhanced marketing visibility and brand positioning as pharma companies gain prominence in mainstream health conversations.",
+            "key_themes": [
+              "marketing strategy",
+              "brand positioning",
+              "industry prominence"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "$150M federal government investment in clean indoor air technology creates opportunities for diagnostic and monitoring equipment providers.",
+            "key_themes": [
+              "government spending",
+              "indoor air quality",
+              "disease prevention tech"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "CDC's reduced global health authority and State Department takeover may disrupt international health initiatives that UNH's Optum division relies on.",
+            "key_themes": [
+              "policy uncertainty",
+              "global health restructuring",
+              "operational risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": null,
+          "TMO": null,
+          "UNH": null
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "De-escalation in U.S.-Iran tensions reduces geopolitical risk premium, supporting investment banking and trading volumes.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "M&A activity recovery",
+              "trading volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Declining oil prices and reduced commodity volatility benefit consumer lending and improve credit quality outlook.",
+            "key_themes": [
+              "commodity price stabilization",
+              "credit quality",
+              "consumer spending"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals from geopolitical de-escalation supporting M&A but offset by tech sector volatility impacting advisory fees.",
+            "key_themes": [
+              "M&A pipeline uncertainty",
+              "tech sector volatility",
+              "capital markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Easing geopolitical tensions and stabilizing oil prices reduce market uncertainty, boosting wealth management and trading revenue.",
+            "key_themes": [
+              "risk sentiment improvement",
+              "wealth management flows",
+              "market stabilization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Lower oil prices and reduced geopolitical risk support consumer confidence and cross-border transaction growth.",
+            "key_themes": [
+              "consumer spending recovery",
+              "macro stabilization",
+              "travel normalization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Easing geopolitical tensions and commodity price stability enhance consumer purchasing power and payment volume growth.",
+            "key_themes": [
+              "consumer spending",
+              "macro stabilization",
+              "emerging market exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": null,
+          "BAC": null,
+          "GS": null,
+          "MS": null,
+          "V": null,
+          "MA": null
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
+  }
+]
