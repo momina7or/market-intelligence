@@ -94,6 +94,29 @@ def run():
             "spot_check":      spot,
             "config":          cfg,
         }
+
+        # 6. Log to Supabase
+        try:
+            from utils import supabase_db as db
+            db.log_analysis(today, industry, articles, analysis)
+            for sig in signals:
+                ticker = sig["ticker"]
+                price = prices_snapshot.get(ticker)
+                db.upsert_outcome(today, ticker, sig["sentiment"], sig["conviction"], price)
+            if spot:
+                db.create_daily_eval(
+                    today, spot,
+                    spot.get("haiku_sentiment", "neutral"),
+                    spot.get("haiku_rationale", ""),
+                    spot.get("haiku_themes", []),
+                )
+            for art in articles:
+                if art.get("source"):
+                    db.upsert_source(art["source"], industry, art.get("url", ""))
+            print(f"  ✅ Logged to Supabase")
+        except Exception as e:
+            print(f"  ⚠ Supabase logging failed: {e}")
+
         print(f"  ✅ {industry} done")
 
     # Build output payload
