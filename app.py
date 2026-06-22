@@ -32,26 +32,74 @@ st.set_page_config(
 st.markdown("""
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  /* ── Base ── */
   html,body,[class*="css"]{font-family:'Inter',sans-serif;}
   .stApp{background:#0d1117;color:#e6edf3;}
+  p,span,label,div{color:#e6edf3;}
+  h1,h2,h3,h4{color:#e6edf3 !important;}
+
+  /* ── Sidebar ── */
   section[data-testid="stSidebar"]{background:#161b22;border-right:1px solid #21262d;}
   section[data-testid="stSidebar"] *{color:#e6edf3 !important;}
-  section[data-testid="stSidebar"] .stRadio label{color:#e6edf3 !important;font-size:.875rem;}
-  section[data-testid="stSidebar"] .stRadio [data-testid="stMarkdownContainer"] p{color:#e6edf3 !important;}
-  section[data-testid="stSidebar"] .stCheckbox label{color:#c9d1d9 !important;font-size:.85rem;}
-  section[data-testid="stSidebar"] .stCheckbox label p{color:#c9d1d9 !important;}
-  section[data-testid="stSidebar"] .stSlider label{color:#8b949e !important;font-size:.8rem;}
-  section[data-testid="stSidebar"] .stTextInput label{color:#8b949e !important;font-size:.8rem;}
-  section[data-testid="stSidebar"] input{background:#0d1117 !important;color:#e6edf3 !important;border-color:#30363d !important;}
-  section[data-testid="stSidebar"] .stToggle label{color:#c9d1d9 !important;}
-  section[data-testid="stSidebar"] h2{color:#e6edf3 !important;}
-  section[data-testid="stSidebar"] hr{border-color:#21262d !important;}
+  section[data-testid="stSidebar"] input{background:#0d1117 !important;color:#e6edf3 !important;border:1px solid #30363d !important;border-radius:6px !important;}
+  section[data-testid="stSidebar"] hr{border-color:#21262d !important;opacity:1 !important;}
+
+  /* ── Main content inputs & widgets ── */
+  .stTextInput input,.stTextArea textarea{background:#161b22 !important;color:#e6edf3 !important;border:1px solid #30363d !important;border-radius:8px !important;}
+  .stTextInput label,.stTextArea label,.stSlider label,.stSelectbox label,.stRadio label,.stCheckbox label,.stToggle label{color:#c9d1d9 !important;}
+  .stSelectbox > div > div{background:#161b22 !important;color:#e6edf3 !important;border:1px solid #30363d !important;}
+  .stRadio [data-testid="stMarkdownContainer"] p{color:#c9d1d9 !important;}
+  .stRadio div[role="radiogroup"] label{color:#c9d1d9 !important;}
+  .stCheckbox label p{color:#c9d1d9 !important;}
+  .stToggle label p{color:#c9d1d9 !important;}
+
+  /* ── Spot-check eval form specifically ── */
+  [data-testid="stForm"] label{color:#e6edf3 !important;}
+  [data-testid="stForm"] p{color:#e6edf3 !important;}
+  [data-testid="stForm"] .stRadio label{color:#c9d1d9 !important;}
+  [data-testid="stForm"] .stSlider label{color:#c9d1d9 !important;}
+  [data-testid="stForm"] textarea{background:#161b22 !important;color:#e6edf3 !important;border:1px solid #30363d !important;}
+
+  /* ── Slider ── */
+  .stSlider [data-baseweb="slider"] [role="slider"]{background:#388bfd !important;}
+  .stSlider p{color:#c9d1d9 !important;}
+  [data-testid="stSliderTickBarMin"],[data-testid="stSliderTickBarMax"]{color:#8b949e !important;}
+
+  /* ── Buttons ── */
+  div[data-testid="stButton"] button{background:#1f6feb !important;color:white !important;border:none !important;border-radius:8px !important;font-weight:600 !important;}
+  div[data-testid="stButton"] button:hover{background:#388bfd !important;}
+  button[kind="formSubmit"]{background:#1f6feb !important;color:white !important;border:none !important;border-radius:8px !important;font-weight:600 !important;padding:8px 20px !important;}
+
+  /* ── Tabs ── */
+  .stTabs [data-baseweb="tab-list"]{background:#161b22 !important;border-radius:8px !important;padding:4px !important;gap:4px !important;}
+  .stTabs [data-baseweb="tab"]{color:#8b949e !important;border-radius:6px !important;font-size:.85rem !important;background:transparent !important;}
+  .stTabs [aria-selected="true"]{background:#1f6feb !important;color:white !important;}
+  .stTabs [data-baseweb="tab"]:hover{color:#e6edf3 !important;}
+
+  /* ── Dataframes ── */
+  .stDataFrame{border-radius:10px !important;overflow:hidden !important;border:1px solid #21262d !important;}
+  .stDataFrame thead tr th{background:#161b22 !important;color:#79c0ff !important;font-size:.78rem !important;font-weight:600 !important;text-transform:uppercase !important;letter-spacing:.05em !important;padding:10px 14px !important;border-bottom:1px solid #21262d !important;}
+  .stDataFrame tbody tr td{background:#0d1117 !important;color:#e6edf3 !important;font-size:.82rem !important;padding:8px 14px !important;border-bottom:1px solid #161b22 !important;}
+  .stDataFrame tbody tr:hover td{background:#161b22 !important;}
+
+  /* ── Alerts ── */
+  .stAlert{border-radius:8px !important;}
+  [data-testid="stNotification"]{background:#1c2128 !important;border:1px solid #30363d !important;color:#e6edf3 !important;}
+  .stAlert p{color:#e6edf3 !important;}
+
+  /* ── Expanders ── */
+  [data-testid="stExpander"]{background:#161b22 !important;border:1px solid #21262d !important;border-radius:10px !important;}
+  [data-testid="stExpander"] summary{color:#e6edf3 !important;}
+  [data-testid="stExpander"] summary:hover{color:#79c0ff !important;}
+
+  /* ── Custom components ── */
   .signal-card{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:16px 20px;margin-bottom:12px;}
   .signal-card:hover{border-color:#388bfd;}
   .signal-card .ticker{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:600;color:#79c0ff;}
   .signal-card .company{font-size:0.8rem;color:#8b949e;margin-bottom:8px;}
   .score-bar{height:4px;border-radius:2px;margin:8px 0;}
-  .badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+  .badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
   .badge-bullish{background:#0d4429;color:#3fb950;border:1px solid #238636;}
   .badge-bearish{background:#4d1f1f;color:#f85149;border:1px solid #da3633;}
   .badge-neutral{background:#1c2128;color:#8b949e;border:1px solid #30363d;}
@@ -69,23 +117,9 @@ st.markdown("""
   .section-title{font-size:.7rem;font-weight:600;color:#8b949e;letter-spacing:.1em;text-transform:uppercase;margin:20px 0 10px;}
   .eval-box{background:#161b22;border:1px solid #388bfd;border-radius:12px;padding:20px;margin:12px 0;}
   .source-row{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 16px;margin-bottom:8px;}
-  div[data-testid="stButton"] button{background:#1f6feb;color:white;border:none;border-radius:8px;font-weight:600;width:100%;}
-  div[data-testid="stButton"] button:hover{background:#388bfd;}
+
+  /* ── Hide Streamlit chrome ── */
   #MainMenu,footer,header{visibility:hidden;}
-  /* Dataframe / table styling */
-  .stDataFrame {border-radius:10px;overflow:hidden;}
-  .stDataFrame thead tr th {background:#161b22 !important;color:#79c0ff !important;font-size:.78rem !important;font-weight:600 !important;text-transform:uppercase !important;letter-spacing:.05em !important;padding:10px 14px !important;border-bottom:1px solid #21262d !important;}
-  .stDataFrame tbody tr td {background:#0d1117 !important;color:#e6edf3 !important;font-size:.82rem !important;padding:8px 14px !important;border-bottom:1px solid #161b22 !important;}
-  .stDataFrame tbody tr:hover td {background:#161b22 !important;}
-  .stDataFrame tbody tr td:first-child {color:#8b949e !important;}
-  /* Tab styling */
-  .stTabs [data-baseweb="tab-list"] {background:#161b22;border-radius:8px;padding:4px;}
-  .stTabs [data-baseweb="tab"] {color:#8b949e !important;border-radius:6px !important;font-size:.85rem !important;}
-  .stTabs [aria-selected="true"] {background:#1f6feb !important;color:white !important;}
-  /* Slider */
-  .stSlider [data-baseweb="slider"] .thumb {background:#388bfd !important;}
-  /* Info/success boxes */
-  .stAlert {border-radius:8px !important;}
 </style>
 """, unsafe_allow_html=True)
 
