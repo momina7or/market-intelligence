@@ -123,6 +123,47 @@ if "results" not in st.session_state: st.session_state.results = None
 if "last_run" not in st.session_state: st.session_state.last_run = None
 if "spot_check" not in st.session_state: st.session_state.spot_check = None
 
+# ── Load from JSON file (written by GitHub Actions) ───────────────────────────
+import os
+RESULTS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "latest_results.json")
+HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "history.json")
+
+def load_from_json():
+    if not os.path.exists(RESULTS_FILE):
+        return None
+    try:
+        with open(RESULTS_FILE) as f:
+            payload = json.load(f)
+        raw = payload.get("results", {})
+        results = {}
+        for industry, r in raw.items():
+            cfg = INDUSTRIES.get(industry, r.get("config", {}))
+            prices = {}
+            for ticker in r.get("prices_snapshot", {}):
+                df = svc["stocks"].fetch(ticker, days=30)
+                if df is not None:
+                    prices[ticker] = df
+            results[industry] = {
+                "articles": r.get("articles", []),
+                "analysis": r.get("analysis", {}),
+                "prices":   prices,
+                "config":   cfg,
+            }
+            if not st.session_state.spot_check and r.get("spot_check"):
+                st.session_state.spot_check = r["spot_check"]
+        return results, payload.get("run_date"), payload.get("run_time")
+    except Exception:
+        return None
+
+def load_history():
+    if not os.path.exists(HISTORY_FILE):
+        return []
+    try:
+        with open(HISTORY_FILE) as f:
+            return json.load(f)
+    except Exception:
+        return []
+
 
 # ── Run analysis ───────────────────────────────────────────────────────────────
 def run_analysis():
@@ -206,10 +247,22 @@ def run_analysis():
 
 if run_btn:
     run_analysis()
-elif demo_mode and st.session_state.results is None:
-    with st.spinner("Loading demo data…"):
-        st.session_state.results = svc["store"].load_demo()
-        st.session_state.last_run = datetime.now()
+elif st.session_state.results is None:
+    # First: try loading from the GitHub Actions JSON file
+    json_data = load_from_json()
+    if json_data:
+        st.session_state.results, run_date, run_time = json_data
+        try:
+            st.session_state.last_run = datetime.fromisoformat(run_time.replace("Z",""))
+        except Exception:
+            st.session_state.last_run = datetime.now()
+        # Override demo_mode since we have real data
+        demo_mode = False
+    elif demo_mode:
+        # Fall back to demo data if no JSON file exists yet
+        with st.spinner("Loading demo data…"):
+            st.session_state.results = svc["store"].load_demo()
+            st.session_state.last_run = datetime.now()
 
 
 results = st.session_state.results
