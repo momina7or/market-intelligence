@@ -2,7 +2,10 @@ name: Daily Market Analysis
 
 on:
   schedule:
+    # 7am UTC weekdays = 7am UK winter, 8am UK summer
     - cron: '0 7 * * 1-5'
+    # Weekend keep-alive ping to prevent Supabase pausing (Sat + Sun 8am UTC)
+    - cron: '0 8 * * 0,6'
   workflow_dispatch:
 
 jobs:
@@ -23,14 +26,28 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic yfinance feedparser pandas numpy requests supabase
 
-      - name: Run daily analysis
+      - name: Weekend keep-alive (Sat/Sun — ping Supabase only, skip analysis)
+        if: github.event.schedule == '0 8 * * 0,6'
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          python - << 'PYEOF'
+          from utils.supabase_db import get_client
+          sb = get_client()
+          # Light read to keep project active
+          sb.table("analysis_log").select("id").limit(1).execute()
+          print("✅ Weekend keep-alive ping sent to Supabase")
+          PYEOF
+
+      - name: Run daily analysis (weekdays only)
+        if: github.event.schedule != '0 8 * * 0,6'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python daily_run.py
 
-      - name: Commit results back to repo
+      - name: Commit results back to repo (weekdays only)
+        if: github.event.schedule != '0 8 * * 0,6'
         run: |
           git config user.name "Market Intel Bot"
           git config user.email "actions@github.com"
