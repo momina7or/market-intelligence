@@ -12,18 +12,13 @@ from supabase import create_client, Client
 
 _client: Optional[Client] = None
 
+SUPABASE_URL = "https://beqwpuiqmtbposzlpmlv.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJlcXdwdWlxbXRicG9zemxwbWx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIxMTc2NTgsImV4cCI6MjA5NzY5MzY1OH0.0ShxlCWQp3UbVZLTU4J-Lyph_a5rbpVS558DnZzf45A"
+
 def get_client() -> Client:
     global _client
     if _client is None:
-        # Try Streamlit secrets first, then env vars, then hardcoded fallback
-        try:
-            import streamlit as st
-            url = st.secrets.get("SUPABASE_URL", os.environ.get("SUPABASE_URL", "https://beqwpuiqmtbposzlpmlv.supabase.co"))
-            key = st.secrets.get("SUPABASE_KEY", os.environ.get("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJlcXdwdWlxbXRicG9zemxwbWx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIxMTc2NTgsImV4cCI6MjA5NzY5MzY1OH0.0ShxlCWQp3UbVZLTU4J-Lyph_a5rbpVS558DnZzf45A"))
-        except Exception:
-            url = os.environ.get("SUPABASE_URL", "https://beqwpuiqmtbposzlpmlv.supabase.co")
-            key = os.environ.get("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJlcXdwdWlxbXRicG9zemxwbWx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIxMTc2NTgsImV4cCI6MjA5NzY5MzY1OH0.0ShxlCWQp3UbVZLTU4J-Lyph_a5rbpVS558DnZzf45A")
-        _client = create_client(url, key)
+        _client = create_client(SUPABASE_URL, SUPABASE_KEY)
     return _client
 
 
