@@ -61,6 +61,20 @@ st.markdown("""
   div[data-testid="stButton"] button{background:#1f6feb;color:white;border:none;border-radius:8px;font-weight:600;width:100%;}
   div[data-testid="stButton"] button:hover{background:#388bfd;}
   #MainMenu,footer,header{visibility:hidden;}
+  /* Dataframe / table styling */
+  .stDataFrame {border-radius:10px;overflow:hidden;}
+  .stDataFrame thead tr th {background:#161b22 !important;color:#79c0ff !important;font-size:.78rem !important;font-weight:600 !important;text-transform:uppercase !important;letter-spacing:.05em !important;padding:10px 14px !important;border-bottom:1px solid #21262d !important;}
+  .stDataFrame tbody tr td {background:#0d1117 !important;color:#e6edf3 !important;font-size:.82rem !important;padding:8px 14px !important;border-bottom:1px solid #161b22 !important;}
+  .stDataFrame tbody tr:hover td {background:#161b22 !important;}
+  .stDataFrame tbody tr td:first-child {color:#8b949e !important;}
+  /* Tab styling */
+  .stTabs [data-baseweb="tab-list"] {background:#161b22;border-radius:8px;padding:4px;}
+  .stTabs [data-baseweb="tab"] {color:#8b949e !important;border-radius:6px !important;font-size:.85rem !important;}
+  .stTabs [aria-selected="true"] {background:#1f6feb !important;color:white !important;}
+  /* Slider */
+  .stSlider [data-baseweb="slider"] .thumb {background:#388bfd !important;}
+  /* Info/success boxes */
+  .stAlert {border-radius:8px !important;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -664,10 +678,27 @@ elif page == "🗄️ Database":
             if ind_filter != "All": filtered_log = filtered_log[filtered_log["industry"]==ind_filter]
             if sent_filter != "All": filtered_log = filtered_log[filtered_log["sentiment"]==sent_filter]
 
-            st.dataframe(filtered_log.rename(columns={
-                "run_date":"Date","industry":"Industry","ticker":"Ticker","company":"Company",
-                "sentiment":"Sentiment","conviction":"Conviction","rationale":"Rationale","time_horizon":"Horizon"
-            }), use_container_width=True, hide_index=True)
+            # Show clean columns only
+            display_cols = ["run_date","industry","ticker","company","sentiment","conviction","rationale","time_horizon"]
+            display_cols = [c for c in display_cols if c in filtered_log.columns]
+            st.dataframe(
+                filtered_log[display_cols].rename(columns={
+                    "run_date":"Date","industry":"Industry","ticker":"Ticker","company":"Company",
+                    "sentiment":"Sentiment","conviction":"Conviction %","rationale":"Rationale","time_horizon":"Horizon"
+                }),
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "Date":         st.column_config.TextColumn(width="small"),
+                    "Industry":     st.column_config.TextColumn(width="medium"),
+                    "Ticker":       st.column_config.TextColumn(width="small"),
+                    "Company":      st.column_config.TextColumn(width="medium"),
+                    "Sentiment":    st.column_config.TextColumn(width="small"),
+                    "Conviction %": st.column_config.NumberColumn(width="small", format="%d%%"),
+                    "Rationale":    st.column_config.TextColumn(width="large"),
+                    "Horizon":      st.column_config.TextColumn(width="small"),
+                }
+            )
 
             st.markdown(f"<div style='color:#8b949e;font-size:.8rem'>{len(filtered_log)} records shown</div>", unsafe_allow_html=True)
 
@@ -700,13 +731,12 @@ elif page == "🗄️ Database":
             # JSON (fine-tuning format)
             def to_finetune_json(row):
                 return {
-                    "prompt": f"Industry: {row['industry']}. Ticker: {row['ticker']}. Rationale: {row['rationale']}",
+                    "prompt": f"Industry: {row.get('industry','')}. Ticker: {row.get('ticker','')}. Rationale: {row.get('rationale','')}",
                     "completion": {
-                        "sentiment": row["predicted_sentiment"],
-                        "conviction": row["predicted_conviction"],
+                        "sentiment": row.get("sentiment", row.get("predicted_sentiment","")),
+                        "conviction": row.get("conviction", row.get("predicted_conviction",0)),
                         "correct_1d": row.get("signal_correct_1d"),
                         "correct_1w": row.get("signal_correct_1w"),
-                        "human_eval": row.get("human_eval_score"),
                     }
                 }
             jsonl = "\n".join(json.dumps(to_finetune_json(row)) for _, row in training_df.iterrows())
