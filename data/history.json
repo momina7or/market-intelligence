@@ -280,5 +280,361 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-06-23",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Prime Day discounting on Apple products indicates competitive pricing pressure but maintains ecosystem engagement.",
+            "key_themes": [
+              "promotional pressure",
+              "consumer demand",
+              "hardware sales"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 297.010009765625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "U.S. LPG export surge to India at record highs directly benefits major U.S. LPG producers; strong demand replacement opportunity.",
+            "key_themes": [
+              "LPG exports",
+              "Asian demand",
+              "U.S. supply advantage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Record U.S. LPG exports to India strengthen downstream and liquefied gas segments; benefits from Middle East supply constraints.",
+            "key_themes": [
+              "LPG exports",
+              "global demand",
+              "capacity utilization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Iran sanctions waiver creates uncertain long-term implications; mixed signals on global oil supply dynamics and geopolitical stability.",
+            "key_themes": [
+              "Iran supply",
+              "geopolitical risk",
+              "supply uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Europe's accelerating EV adoption (34% annual growth) pressures long-term refined product demand; structural headwind to traditional fuels.",
+            "key_themes": [
+              "EV competition",
+              "demand erosion",
+              "energy transition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "European EV boom with Chinese competitor gains threatens downstream refining and fuel retail segments; structural demand decline accelerating.",
+            "key_themes": [
+              "EV disruption",
+              "demand decline",
+              "European weakness"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 63,
+            "rationale": "Europe's 34% annual EV sales growth and gasoline/diesel price weakness signal structural demand erosion for traditional fuel products.",
+            "key_themes": [
+              "EV substitution",
+              "fuel demand",
+              "European market"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 138.47000122070312,
+          "CVX": 175.05999755859375,
+          "COP": 109.69999694824219,
+          "TTE": 80.66999816894531,
+          "BP": 39.779998779296875,
+          "SHEL": 79.66000366210938
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: promotional scrutiny from PMCPA complaint offset by potential CAR-T opportunities in oncology pipeline.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "competitive positioning in cell therapy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Generic drug competition and international drug pricing pressure threaten branded pharmaceutical margins and global revenue.",
+            "key_themes": [
+              "generic competition",
+              "international pricing pressure",
+              "drug cost controls"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Germany's drug spending reforms and U.S. investigation into European pricing create headwinds for future revenue growth.",
+            "key_themes": [
+              "pricing pressure",
+              "regulatory scrutiny",
+              "international market access"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Generics proliferation and global drug pricing reforms directly threaten revenue streams from branded specialty pharmaceuticals.",
+            "key_themes": [
+              "generic competition",
+              "pricing reform",
+              "margin compression"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Pricing pressures balanced by innovation potential; less directly exposed than competitors to immediate generic threats.",
+            "key_themes": [
+              "pricing pressure",
+              "innovation pipeline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Generic drug availability and international pricing controls reduce input costs, benefiting payer margins and profitability.",
+            "key_themes": [
+              "cost containment",
+              "margin expansion",
+              "pricing transparency"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Federal investment in indoor air quality technology and CAR-T therapy development supports life sciences tools and services demand.",
+            "key_themes": [
+              "government R&D spending",
+              "cell therapy infrastructure",
+              "biotech enablement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 25.079999923706055,
+          "JNJ": 231.2899932861328,
+          "MRK": 115.4800033569336,
+          "ABBV": 230.00999450683594,
+          "LLY": 1102.0799560546875,
+          "UNH": 406.67999267578125,
+          "TMO": 464.010009765625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Market volatility from tech sell-off typically increases trading volumes and advisory fees for major investment banks.",
+            "key_themes": [
+              "market volatility",
+              "trading opportunity",
+              "M&A advisory"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Articles document market volatility and tech sell-off but contain no information about JPMorgan Chase, trading volumes, advisory fees, or investment banking activity. The rationale makes a theoretical assumption not supported by source material.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Broad market sell-off and tech rout create heightened demand for investment banking and trading services during uncertainty.",
+            "key_themes": [
+              "market volatility",
+              "trading volume",
+              "risk management"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Articles document market sell-off and tech rout but contain no information about Goldman Sachs, investment banking demand, trading services, or client activity. The rationale is speculative and unsupported.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Global market recoil and AI sector uncertainty drive increased client engagement for wealth management and strategic advice.",
+            "key_themes": [
+              "market volatility",
+              "wealth management",
+              "client engagement"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Articles document global market recoil and AI uncertainty but contain no information about Morgan Stanley, wealth management engagement, or client interactions. The rationale lacks evidentiary support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market sell-off may reduce consumer spending and payment volumes short-term, but no direct evidence in articles.",
+            "key_themes": [
+              "consumer spending risk",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Analyst acknowledges 'no direct evidence in articles' yet still provides a signal. Articles contain no data on consumer spending, payment volumes, or Visa operations. The caveat contradicts the signal's validity.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa, market volatility poses spending headwinds, but articles provide insufficient direct evidence of impact.",
+            "key_themes": [
+              "consumer spending risk",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Analyst acknowledges 'articles provide insufficient direct evidence' yet still provides a signal. Articles contain no data on consumer spending, payment volumes, or Mastercard operations. The caveat contradicts the signal's validity.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 331.4800109863281,
+          "GS": 1106.3699951171875,
+          "MS": 227.08999633789062,
+          "V": 326.6000061035156,
+          "MA": 484.0899963378906
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      }
+    }
   }
 ]
