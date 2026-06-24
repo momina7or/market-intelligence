@@ -636,5 +636,280 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-06-24",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Prime Day deals drive consumer demand and ecosystem engagement; strong product pricing power demonstrated across Apple Watch and AirPods.",
+            "key_themes": [
+              "consumer demand",
+              "product pricing",
+              "ecosystem strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT organic traffic displacement creates urgency for Google to enhance AI search capabilities and monetize AI-driven content recommendations.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic",
+              "content monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale overstates article content. Article [1] describes one anecdotal case of ChatGPT recommending a course, not systematic 'organic traffic displacement' or evidence of broader market threat to Google search.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT's expanding role in content discovery and traffic generation validates OpenAI investment thesis and enterprise AI platform adoption potential.",
+            "key_themes": [
+              "AI platform adoption",
+              "content discovery",
+              "enterprise AI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale assumes Microsoft ownership/investment in OpenAI from ChatGPT usage pattern, but articles do not explicitly confirm this relationship or discuss Microsoft's stake.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 294.29998779296875,
+          "GOOGL": 346.1300048828125,
+          "MSFT": 373.94000244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Petronas gas discovery in Suriname expands regional upstream opportunities; TTE has downstream exposure through biofuels transition.",
+            "key_themes": [
+              "upstream growth",
+              "emerging market exploration",
+              "energy transition positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims TTE has 'downstream exposure through biofuels transition,' but article [6] discusses Petrobras (not TotalEnergies) proceeding with a biofuels facility. No evidence in sources that TTE has direct involvement in biofuels transition or that Petronas discovery directly benefits TTE. The Suriname discovery [3] involves Petronas (Malaysian firm), not TTE.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Multiple upstream projects advancing (Suriname discovery, Petrobras $1.2bn facility) drive oilfield services demand.",
+            "key_themes": [
+              "project activity increase",
+              "deepwater development",
+              "biofuels infrastructure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              6
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure evident in articles; LNG normalization from Qatar is marginal positive for integrated energy players.",
+            "key_themes": [
+              "LNG supply recovery",
+              "global energy balance"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 80.30999755859375,
+          "SLB": 47.790000915527344,
+          "COP": 109.97000122070312
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Medicare fraud charges targeting overused wound care products (skin substitutes) that cost $15B in 2025 directly impacts JNJ's wound care division.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "reimbursement pressure",
+              "fraud investigation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "As major payer, UNH benefits from DOJ crackdown on healthcare fraud and overutilization of expensive wound care treatments, reducing claims costs.",
+            "key_themes": [
+              "fraud reduction",
+              "cost control",
+              "claims management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Generic cystic fibrosis drug competition from Bangladesh threatens pricing power for CF medications, but ABBV's Rinvoq franchise remains strong.",
+            "key_themes": [
+              "generic competition",
+              "pricing pressure",
+              "market access"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article 3 discusses generic cystic fibrosis drug competition but does not mention AbbVie or its CF medications. No evidence ABBV has CF drug exposure in provided sources.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; JAK inhibitor regulatory clarity (Article 5) is marginally positive but insufficient to drive conviction for LLY portfolio.",
+            "key_themes": [
+              "regulatory clarity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article 5 concerns Incyte's Opzelura (JAK inhibitor cream), not Eli Lilly. While the analyst notes 'no direct exposure,' the rationale incorrectly attributes JAK inhibitor regulatory news to LLY portfolio without evidence.",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 239.0800018310547,
+          "UNH": 409.25,
+          "ABBV": 234.75999450683594,
+          "LLY": 1107.0799560546875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Housing package passage will drive mortgage origination and lending activity over medium-term implementation period.",
+            "key_themes": [
+              "housing market stimulus",
+              "lending growth",
+              "mortgage demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Housing package catalyst will increase loan origination and consumer credit demand as market responds to new policies.",
+            "key_themes": [
+              "housing stimulus",
+              "credit growth",
+              "mortgage pipeline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI sector selloff creates near-term headwinds; housing stimulus could support consumer spending long-term.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI-driven market selloff creates uncertainty; housing package provides modest longer-term consumer transaction upside.",
+            "key_themes": [
+              "market volatility",
+              "consumer activity",
+              "tech sector pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 334.1400146484375,
+          "BAC": 57.90999984741211,
+          "V": 328.4800109863281,
+          "MA": 488.07000732421875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
