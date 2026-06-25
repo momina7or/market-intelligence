@@ -911,5 +911,331 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-06-25",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates competitive pressure; Google must accelerate AI-driven search monetization.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "AI Creator Assistant launched to help creators grow on Facebook; positions Meta strongly in creator economy and AI tooling.",
+            "key_themes": [
+              "AI creator tools",
+              "creator monetization",
+              "platform engagement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Strong Prime Day discounting on Apple products (Watch Series 11, AirPods Pro 3) signals healthy demand and retail momentum.",
+            "key_themes": [
+              "product demand",
+              "wearables sales",
+              "retail performance"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 345.2900085449219,
+          "META": 557.6699829101562,
+          "AAPL": 293.0799865722656
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Singled out by Trump administration in price-gouging probe; regulatory scrutiny threatens margins and operations.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "reputational damage"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Named in federal price-gouging investigation by Trump; faces potential regulatory action and political backlash.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP p.l.c.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Explicitly targeted in Trump's price-gouging accusations; exposure to U.S. regulatory and political risk escalating.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "operational risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell p.l.c.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Called out by Trump administration in price-gouging probe; regulatory scrutiny could impact refining margins.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "refining exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Not directly targeted in Trump probe; benefits from recovered Gulf oil trade flows and stable demand backdrop.",
+            "key_themes": [
+              "supply recovery",
+              "geographic diversification",
+              "stable demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims TTE 'not directly targeted in Trump probe' and 'benefits from recovered Gulf oil trade flows' - while the first part is technically true (TTE not mentioned), the second claim about benefiting from Gulf trade recovery is not supported by any article. Article [3] mentions Qatar's crude deals but does not discuss TTE or its benefits.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 136.89999389648438,
+          "CVX": 171.4499969482422,
+          "BP": 37.86000061035156,
+          "SHEL": 77.69999694824219,
+          "TTE": 78.69000244140625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Ebola outbreak creates demand for diagnostic and vaccine solutions; JNJ has historical vaccine development capabilities.",
+            "key_themes": [
+              "infectious disease outbreak",
+              "vaccine development opportunity",
+              "public health crisis"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Articles mention Ebola outbreak and Bundibugyo virus, but no source article discusses JNJ's involvement in vaccine development, diagnostic solutions, or any role in the outbreak response. Rationale assumes JNJ's capabilities without evidence from provided sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Ebola outbreak may accelerate vaccine development partnerships and government funding for infectious disease countermeasures.",
+            "key_themes": [
+              "infectious disease outbreak",
+              "vaccine opportunity",
+              "government funding"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Articles mention Ebola outbreak but do not reference Pfizer, vaccine development partnerships, or government funding related to Pfizer. Rationale is speculative and not grounded in any source article.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Ebola outbreak drives demand for diagnostic testing, sequencing, and laboratory equipment for virus identification and surveillance.",
+            "key_themes": [
+              "diagnostic testing",
+              "outbreak response",
+              "lab equipment demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While articles discuss the Ebola outbreak and mention that scientists have not identified the animal reservoir species (Article 1), there is no mention of diagnostic testing companies, sequencing demand, or laboratory equipment manufacturers. Articles reference specific antivirals (MBP134, remdesivir) being deployed in trials, but not Thermo Fisher or diagnostic testing demand.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 241.0,
+          "PFE": 24.040000915527344,
+          "TMO": 492.20001220703125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Inflation persistence may support higher rates, benefiting net interest margins, but economic uncertainty limits upside.",
+            "key_themes": [
+              "interest rate environment",
+              "macroeconomic uncertainty",
+              "inflation trajectory"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Fed policy divergence on rates creates mixed signals; NIM benefit offset by potential recession risks from inflation concerns.",
+            "key_themes": [
+              "monetary policy",
+              "net interest margins",
+              "economic slowdown risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Investment banking activity tied to broader economic health; inflation uncertainty and tech volatility create headwinds.",
+            "key_themes": [
+              "economic outlook",
+              "M&A activity",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Wealth management benefits from market uncertainty driving advisory demand, but equity losses hurt client portfolios.",
+            "key_themes": [
+              "market volatility",
+              "wealth management",
+              "equity market stress"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Inflation persistence may reduce consumer spending; however, payment volumes remain resilient amid economic uncertainty.",
+            "key_themes": [
+              "consumer spending",
+              "inflation impact",
+              "transaction volumes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Inflation concerns threaten consumer spending and cross-border travel; payment growth tied to economic resilience.",
+            "key_themes": [
+              "consumer spending",
+              "inflation pressure",
+              "international payments"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 333.45001220703125,
+          "BAC": 57.72999954223633,
+          "GS": 1076.9100341796875,
+          "MS": 219.86000061035156,
+          "V": 332.2300109863281,
+          "MA": 494.4100036621094
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]

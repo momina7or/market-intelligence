@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-06-24",
-  "run_time": "2026-06-24T10:22:01.807168Z",
+  "run_date": "2026-06-25",
+  "run_time": "2026-06-25T10:15:11.365136Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,132 +29,128 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Bob Iger\u2019s Disney wanted Apple, Twitter, and 007",
-          "summary": "Bob Iger's tenure as CEO of Disney came to an end a few months ago, after two decades of leading the entertainment giant through some of its most pivotal transformations and acquisitions. Iger, in an exit interview with The Financial Times, has now confirmed some significant efforts that didn't pan out, such as walking away [&#8230;]",
-          "url": "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger",
+          "title": "Facebook\u2019s Creator Studio has been revived as an AI companion app",
+          "summary": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Assistant is a central focus of [&#8230;]",
+          "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
           "source": "Theverge",
-          "published": "24 Jun 2026",
+          "published": "25 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The best robot vacuum deals available during Prime Day",
-          "summary": "If you&#8217;ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day has kicked off, though more than just Amazon is offering deals on several models we&#8217;ve tested from brands like [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
+          "title": "The top tech Prime Day deals to shop on day two",
+          "summary": "Welcome to day two of Amazon&#8217;s four-day Prime Day event, which, if we&#8217;re being honest, looks a lot like day one. That&#8217;s actually good news, though, because many of the best deals are still around, and some new ones have joined them. If you&#8217;ve got a Prime subscription, whether through a free trial or a [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale",
           "source": "Theverge",
           "published": "24 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
           "title": "This year\u2019s Prime Day deals on Apple products are the best I\u2019ve seen",
-          "summary": "Amazon&#8217;s Prime Day sale is here, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there\u2019s a good chance you\u2019ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 recently hit a record-low $169 at Walmart. That particular [&#8230;]",
+          "summary": "Amazon&#8217;s Prime Day is now in its second day, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there\u2019s a good chance you\u2019ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 are discounted to $179. With Tim [&#8230;]",
           "url": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
           "source": "Theverge",
-          "published": "23 Jun 2026",
-          "sentiment_hint": "bullish"
+          "published": "24 Jun 2026",
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates competitive pressure; Google must accelerate AI-driven search monetization.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "AI Creator Assistant launched to help creators grow on Facebook; positions Meta strongly in creator economy and AI tooling.",
+            "key_themes": [
+              "AI creator tools",
+              "creator monetization",
+              "platform engagement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
             "ticker": "AAPL",
             "company": "Apple Inc.",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Prime Day deals drive consumer demand and ecosystem engagement; strong product pricing power demonstrated across Apple Watch and AirPods.",
+            "conviction": 68,
+            "rationale": "Strong Prime Day discounting on Apple products (Watch Series 11, AirPods Pro 3) signals healthy demand and retail momentum.",
             "key_themes": [
-              "consumer demand",
-              "product pricing",
-              "ecosystem strength"
+              "product demand",
+              "wearables sales",
+              "retail performance"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 6
-          },
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT organic traffic displacement creates urgency for Google to enhance AI search capabilities and monetize AI-driven content recommendations.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic",
-              "content monetization"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Rationale overstates article content. Article [1] describes one anecdotal case of ChatGPT recommending a course, not systematic 'organic traffic displacement' or evidence of broader market threat to Google search.",
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "ChatGPT's expanding role in content discovery and traffic generation validates OpenAI investment thesis and enterprise AI platform adoption potential.",
-            "key_themes": [
-              "AI platform adoption",
-              "content discovery",
-              "enterprise AI"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Rationale assumes Microsoft ownership/investment in OpenAI from ChatGPT usage pattern, but articles do not explicitly confirm this relationship or discuss Microsoft's stake.",
-            "supporting_article": 1
           }
         ],
-        "summary": "Articles highlight growing AI disruption in content discovery and search, with ChatGPT demonstrating real traffic redirection capabilities that threaten traditional SEO models. This validates significant investments in generative AI platforms by tech leaders, particularly benefiting companies with strong AI infrastructure and search capabilities. The broader tech sector sentiment remains constructive around AI adoption and content creation tools.",
+        "summary": "The tech sector shows mixed but generally positive signals centered on AI and consumer demand. Generative AI tools are reshaping digital content creation and search behavior, creating both opportunities and competitive pressures\u2014particularly for search engines and creator platforms. Consumer hardware demand remains robust, evidenced by strong Prime Day sales, though traditional search monetization faces near-term disruption from AI chatbot alternatives.",
         "risks": [
-          "AI content moderation and liability concerns could impact platform valuations",
-          "Regulatory scrutiny on AI-generated content and copyright infringement",
-          "Market saturation of AI tools reducing differentiation and pricing power"
+          "ChatGPT and AI tools cannibalizing traditional search traffic and ad revenue",
+          "Creator economy monetization uncertainty as AI tools proliferate",
+          "Intensifying AI competition requiring significant R&D investment"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "GOOGL rationale generalizes from single anecdotal ChatGPT recommendation to broad 'organic traffic displacement' claim not supported by source",
-            "MSFT rationale assumes Microsoft-OpenAI investment relationship without article confirmation",
-            "GOOGL conviction (68) and MSFT conviction (65) appear high relative to speculative nature of claims"
-          ],
+          "overall_reliability": "high",
+          "flags": [],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "AAPL": 294.29998779296875,
-        "GOOGL": 346.1300048828125,
-        "MSFT": 373.94000244140625
+        "GOOGL": 345.2900085449219,
+        "META": 557.6699829101562,
+        "AAPL": 293.0799865722656
       },
       "spot_check": {
-        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
-        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
-        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
-        "source": "Feedburner",
-        "published": "04 Dec 2025",
+        "title": "Facebook\u2019s Creator Studio has been revived as an AI companion app",
+        "summary": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Assistant is a central focus of [&#8230;]",
+        "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+        "source": "Theverge",
+        "published": "25 Jun 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
+          "ticker": "META",
+          "company": "Meta Platforms Inc.",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Prime Day deals drive consumer demand and ecosystem engagement; strong product pricing power demonstrated across Apple Watch and AirPods.",
+          "conviction": 75,
+          "rationale": "AI Creator Assistant launched to help creators grow on Facebook; positions Meta strongly in creator economy and AI tooling.",
           "key_themes": [
-            "consumer demand",
-            "product pricing",
-            "ecosystem strength"
+            "AI creator tools",
+            "creator monetization",
+            "platform engagement"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 6
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Prime Day deals drive consumer demand and ecosystem engagement; strong product pricing power demonstrated across Apple Watch and AirPods.",
+        "haiku_rationale": "AI Creator Assistant launched to help creators grow on Facebook; positions Meta strongly in creator economy and AI tooling.",
         "haiku_themes": [
-          "consumer demand",
-          "product pricing",
-          "ecosystem strength"
+          "AI creator tools",
+          "creator monetization",
+          "platform engagement"
         ]
       },
       "config": {
@@ -174,159 +170,189 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "India Cuts Coal Imports as Power Plants Turn to Domestic Fuel",
-          "summary": "India is boosting the share of domestic coal used in power plants designated to run on imported fuel, as rising local coal production and expanding renewables have helped to cut coal imports to multi-year lows. India has raised the use of domestic coal to 50% at many power plants that have typically run on imported coal, industry and government officials told Reuters on Wednesday. Power producers are currently running the coal-fired power plants on a mix of imported and domestic coal, and some p",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Cuts-Coal-Imports-as-Power-Plants-Turn-to-Domestic-Fuel.html",
+          "title": "Iraq Could Quit OPEC in Bid to Pump More Oil",
+          "summary": "OPEC\u2019s second-largest producer, Iraq, is considering exiting the cartel if the organization rejects Baghdad\u2019s plan to boost its oil production quota in line with some of the other members, sources in the Iraqi government have told local news outlet Shafaq. Iraq proposes to boost its oil exports to compensate for the losses in production and sales it has incurred since the start of the war, according to Shafaq\u2019s sources. The federal government is also estimating the impact of Iraq potentially exc",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Could-Quit-OPEC-in-Bid-to-Pump-More-Oil.html",
           "source": "Oilprice",
-          "published": "24 Jun 2026",
+          "published": "25 Jun 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Qatar Says LNG Exports Could Return to Normal Within Weeks",
-          "summary": "Qatar will be back to normal production of liquefied natural gas in a few weeks, the country\u2019s prime minister, Sheikh Mohammed bin Abdulrahman al-Thani, told the Financial Times today. \u201cWithin a few weeks, production will come back to normal, except the damaged facility,\u201d he said. \u201cOur teams have been mobilised already for a few weeks. QatarEnergy is preparing for operations to come back to normal as soon as the situation in the strait normalises.\u201d Al-Thani also told the FT that it was essential",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Says-LNG-Exports-Could-Return-to-Normal-Within-Weeks.html",
+          "title": "Trump Singles Out Exxon, Chevron, Shell, and BP Over High Gas Prices",
+          "summary": "President Donald Trump has listed Exxon, Chevron, Shell, and BP as being among companies responsible for excessively high fuel prices, following the announcement of a federal government probe into price-gouging earlier in the week. \u201cOil prices have come down so much and we are not seeing anything at the pump by comparison the way they should be,\u201d the U.S. president told media, as quoted by the BBC. \u201cWe should be, in my opinion, at $2.25 [a gallon] right now at the pump and we are higher than tha",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Singles-Out-Exxon-Chevron-Shell-and-BP-Over-High-Gas-Prices.html",
           "source": "Oilprice",
-          "published": "24 Jun 2026",
+          "published": "25 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Malaysian Major Makes Gas Discovery in Suriname",
-          "summary": "Malaysia\u2019s state energy firm Petronas has made a natural gas discovery offshore Suriname, the country\u2019s president said this week, as quoted by Reuters, expecting the Malaysian major to make the final investment decision on the development of Block 52 by the end of the year. \u201cTo date, we have made eight successful exploration discoveries, unlocking over more than one billion barrels of oil equivalent, while continuing advancing lower-carbon solutions, safe operations and investment in people, tec",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Malaysian-Major-Makes-Gas-Discovery-in-Suriname.html",
+          "title": "Qatar Signs Crude Deal With Taiwan as Gulf Oil Trade Recovers",
+          "summary": "In the latest sign of recovering oil flows in the Persian Gulf, Qatar inked a deal with a Taiwanese refiner for the sale of a cargo of Al-Shaheen crude, Bloomberg reported today, citing unnamed trading sources. The deal follows the sale of Marine and Land Qatari crude to an Indian refiner last week, the sources also told the publication. Bloomberg also reported that ship-tracking data showed a Gfreek-owned supertanker currently loading at the Al-Shaheen floating storage terminal. Separately, Qat",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Signs-Crude-Deal-With-Taiwan-as-Gulf-Oil-Trade-Recovers.html",
           "source": "Oilprice",
+          "published": "25 Jun 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Protected: Why the European LNG hiring aggregate is normalising, but the cross-section is not",
+          "summary": "European LNG hiring is normalising, but operator-by-operator differences reveal strategic growth signals across roles and markets.",
+          "url": "https://www.energymonitor.ai/sponsored/why-the-european-lng-hiring-aggregate-is-normalising-but-the-cross-section-is-not/",
+          "source": "Energymonitor",
+          "published": "25 Jun 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Australia selects 15 BESS projects totalling 4.2GW",
+          "summary": "The Australian government has selected 15 BESS projects with a combined capacity of 4.2GW/16.1GWh through CIS Tender 8.",
+          "url": "https://www.energymonitor.ai/news/australia-selects-15-bess-4-2gw/",
+          "source": "Energymonitor",
+          "published": "25 Jun 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Google and Energy Dome plan 200MWh CO2 battery project in Ireland",
+          "summary": "Google and Energy Dome have announced plans for a commercial energy storage facility in County Offaly, Ireland.",
+          "url": "https://www.energymonitor.ai/news/google-energy-dome-co2-battery-project/",
+          "source": "Energymonitor",
           "published": "24 Jun 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Syntholene starts operations at geothermal-integrated SOEC site",
-          "summary": "Syntholene completed construction of its geothermal-integrated SOEC demonstration facility in H\u00fasav\u00edk, nearly six months ahead of schedule.",
-          "url": "https://www.energymonitor.ai/news/syntholene-starts-operations-soec/",
-          "source": "Energymonitor",
-          "published": "23 Jun 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "New York completes 100-mile Smart Path Connect project",
-          "summary": "New York Governor Kathy Hochul has announced the completion and energisation of the 100-mile Smart Path Connect transmission project.",
-          "url": "https://www.energymonitor.ai/news/new-york-completes-smart-path-connect-project/",
-          "source": "Energymonitor",
-          "published": "23 Jun 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Petrobras to proceed with $1.2bn biofuels facility at Cubat\u00e3o refinery",
-          "summary": "Petrobras has received board approval for its final investment decision on a new biofuels facility at its RPBC in Cubat\u00e3o, S\u00e3o Paulo, Brazil.",
-          "url": "https://www.energymonitor.ai/news/petrobras-proceed-biofuels-facility-cubatao/",
-          "source": "Energymonitor",
-          "published": "22 Jun 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "TTE",
-            "company": "TotalEnergies",
-            "sentiment": "bullish",
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Petronas gas discovery in Suriname expands regional upstream opportunities; TTE has downstream exposure through biofuels transition.",
+            "rationale": "Singled out by Trump administration in price-gouging probe; regulatory scrutiny threatens margins and operations.",
             "key_themes": [
-              "upstream growth",
-              "emerging market exploration",
-              "energy transition positioning"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims TTE has 'downstream exposure through biofuels transition,' but article [6] discusses Petrobras (not TotalEnergies) proceeding with a biofuels facility. No evidence in sources that TTE has direct involvement in biofuels transition or that Petronas discovery directly benefits TTE. The Suriname discovery [3] involves Petronas (Malaysian firm), not TTE.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Multiple upstream projects advancing (Suriname discovery, Petrobras $1.2bn facility) drive oilfield services demand.",
-            "key_themes": [
-              "project activity increase",
-              "deepwater development",
-              "biofuels infrastructure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              3,
-              6
-            ]
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct exposure evident in articles; LNG normalization from Qatar is marginal positive for integrated energy players.",
-            "key_themes": [
-              "LNG supply recovery",
-              "global energy balance"
+              "regulatory risk",
+              "political pressure",
+              "reputational damage"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Named in federal price-gouging investigation by Trump; faces potential regulatory action and political backlash.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP p.l.c.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Explicitly targeted in Trump's price-gouging accusations; exposure to U.S. regulatory and political risk escalating.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "operational risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell p.l.c.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Called out by Trump administration in price-gouging probe; regulatory scrutiny could impact refining margins.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure",
+              "refining exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Not directly targeted in Trump probe; benefits from recovered Gulf oil trade flows and stable demand backdrop.",
+            "key_themes": [
+              "supply recovery",
+              "geographic diversification",
+              "stable demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims TTE 'not directly targeted in Trump probe' and 'benefits from recovered Gulf oil trade flows' - while the first part is technically true (TTE not mentioned), the second claim about benefiting from Gulf trade recovery is not supported by any article. Article [3] mentions Qatar's crude deals but does not discuss TTE or its benefits.",
+            "supporting_article": null
           }
         ],
-        "summary": "Energy sector faces mixed signals: upstream exploration accelerates in emerging markets (Suriname) and biofuels infrastructure investments expand, supporting oilfield services; however, structural headwinds persist with India reducing coal imports and renewable energy expansion limiting traditional fuel demand. Near-term LNG supply normalization from Qatar provides modest support to global gas markets.",
+        "summary": "U.S. majors face acute near-term regulatory and political headwinds following Trump's price-gouging probe targeting XOM, CVX, BP, and SHEL, creating significant downside risk. Meanwhile, global oil supply stabilizes with recovering Persian Gulf trade flows (Qatar-Taiwan deal), offsetting OPEC fragmentation risks from Iraq's potential exit. Energy transition themes (BESS, CO2 storage) remain structural headwinds for fossil fuel operators.",
         "risks": [
-          "Accelerating renewable energy adoption reducing long-term fossil fuel demand",
-          "India's pivot to domestic coal and renewables signals demand erosion in key Asian market",
-          "Energy transition investments (geothermal, biofuels, transmission) compete with traditional oil/gas capex",
-          "Qatar LNG disruption resolution may pressure prices if supply suddenly normalizes"
+          "Trump administration antitrust or windfall tax actions against named majors",
+          "Iraq's OPEC exit could trigger supply surge and oil price collapse",
+          "Accelerating energy storage and battery technology adoption reducing long-term oil demand",
+          "Margin compression if refinery throughputs decline due to regulatory pressure"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "TTE signal incorrectly attributes Petronas (Malaysian state energy firm) discovery to TotalEnergies or implies direct TTE involvement",
-            "TTE signal mischaracterizes Petrobras biofuels facility as evidence of TTE's biofuels transition positioning without source support",
-            "TTE conviction level (72) appears overstated given lack of direct company exposure in sources"
+            "TTE rationale contains unsupported inference about company benefiting from Gulf oil trade recovery; source articles do not establish this connection"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "TTE": 80.30999755859375,
-        "SLB": 47.790000915527344,
-        "COP": 109.97000122070312
+        "XOM": 136.89999389648438,
+        "CVX": 171.4499969482422,
+        "BP": 37.86000061035156,
+        "SHEL": 77.69999694824219,
+        "TTE": 78.69000244140625
       },
       "spot_check": {
-        "title": "India Cuts Coal Imports as Power Plants Turn to Domestic Fuel",
-        "summary": "India is boosting the share of domestic coal used in power plants designated to run on imported fuel, as rising local coal production and expanding renewables have helped to cut coal imports to multi-year lows. India has raised the use of domestic coal to 50% at many power plants that have typically run on imported coal, industry and government officials told Reuters on Wednesday. Power producers are currently running the coal-fired power plants on a mix of imported and domestic coal, and some p",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Cuts-Coal-Imports-as-Power-Plants-Turn-to-Domestic-Fuel.html",
+        "title": "Iraq Could Quit OPEC in Bid to Pump More Oil",
+        "summary": "OPEC\u2019s second-largest producer, Iraq, is considering exiting the cartel if the organization rejects Baghdad\u2019s plan to boost its oil production quota in line with some of the other members, sources in the Iraqi government have told local news outlet Shafaq. Iraq proposes to boost its oil exports to compensate for the losses in production and sales it has incurred since the start of the war, according to Shafaq\u2019s sources. The federal government is also estimating the impact of Iraq potentially exc",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Could-Quit-OPEC-in-Bid-to-Pump-More-Oil.html",
         "source": "Oilprice",
-        "published": "24 Jun 2026",
+        "published": "25 Jun 2026",
         "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "TTE",
-          "company": "TotalEnergies",
-          "sentiment": "bullish",
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Petronas gas discovery in Suriname expands regional upstream opportunities; TTE has downstream exposure through biofuels transition.",
+          "rationale": "Singled out by Trump administration in price-gouging probe; regulatory scrutiny threatens margins and operations.",
           "key_themes": [
-            "upstream growth",
-            "emerging market exploration",
-            "energy transition positioning"
+            "regulatory risk",
+            "political pressure",
+            "reputational damage"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Rationale claims TTE has 'downstream exposure through biofuels transition,' but article [6] discusses Petrobras (not TotalEnergies) proceeding with a biofuels facility. No evidence in sources that TTE has direct involvement in biofuels transition or that Petronas discovery directly benefits TTE. The Suriname discovery [3] involves Petronas (Malaysian firm), not TTE.",
-          "supporting_article": null
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Petronas gas discovery in Suriname expands regional upstream opportunities; TTE has downstream exposure through biofuels transition.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Singled out by Trump administration in price-gouging probe; regulatory scrutiny threatens margins and operations.",
         "haiku_themes": [
-          "upstream growth",
-          "emerging market exploration",
-          "energy transition positioning"
+          "regulatory risk",
+          "political pressure",
+          "reputational damage"
         ]
       },
       "config": {
@@ -346,11 +372,19 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Justice Dept. Unveils Medicare Fraud Charges as Part of Larger Health Care Prosecutions",
-          "summary": "The department is taking aim at pricey \u201cskin substitutes,\u201d an overused wound care treatment that cost the government nearly $15 billion in 2025.",
-          "url": "https://www.nytimes.com/2026/06/23/us/skin-substitutes-medicare-fraud.html",
+          "title": "The Ebola Outbreak\u2019s Central Mystery: Where Did This Virus Come From?",
+          "summary": "Scientists believe that the Bundibugyo virus persists in an animal species, occasionally spilling over into humans. But they have yet to identify the species.",
+          "url": "https://www.nytimes.com/2026/06/24/science/ebola-bundibugyo-animal-reservoir.html",
           "source": "Rss",
-          "published": "23 Jun 2026",
+          "published": "24 Jun 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "France Identifies Its First Case of Ebola",
+          "summary": "A doctor who had traveled to the Democratic Republic of Congo was infected, the French health ministry said. The authorities said the risk to the wider population was low.",
+          "url": "https://www.nytimes.com/2026/06/24/world/europe/ebola-france.html",
+          "source": "Rss",
+          "published": "24 Jun 2026",
           "sentiment_hint": "bearish"
         },
         {
@@ -362,33 +396,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A Loophole Brings Cystic Fibrosis Patients a \u2018Miracle Drug\u2019 in Generic Form",
-          "summary": "A generic version of a breakthrough cystic fibrosis drug, manufactured in Bangladesh for a fraction of the American price, may give some families around the world an unlikely lifeline.",
-          "url": "https://www.nytimes.com/2026/06/22/health/cystic-fibrosis-drug-triko-trikafta.html",
-          "source": "Rss",
-          "published": "23 Jun 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/revance-taps-dancer-julianne-hough-choreograph-social-media-push-botox-rival\" hreflang=\"en\">Revance taps dancer Julianne Hough to choreograph social media push for Botox rival</a>",
-          "summary": "Julianne Hough is the new face of Revance\u2019s Botox rival Daxxify. The company has enlisted the dancer, actress and host for an awareness and consumer education campaign designed to encourage people to try its wrinkle-busting product.",
-          "url": "https://www.fiercepharma.com/marketing/revance-taps-dancer-julianne-hough-choreograph-social-media-push-botox-rival",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/astrazeneca-spells-out-community-cancer-screening-strategy-ymca\" hreflang=\"en\">AstraZeneca spells out a community cancer screening strategy with the YMCA</a>",
+          "summary": "AstraZeneca has partnered with YMCA of the USA to increase awareness of cancer screening and early detection.",
+          "url": "https://www.fiercepharma.com/marketing/astrazeneca-spells-out-community-cancer-screening-strategy-ymca",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/incyte-drops-lawsuit-cms-relents-classification-opzelura\" hreflang=\"en\">Incyte drops lawsuit as CMS relents on classification of Opzelura</a>",
-          "summary": "Incyte has dropped its lawsuit in exchange for the CMS agreeing not to classify its JAK inhibitor cream Opzelura as a line extension of Jakafi.",
-          "url": "https://www.fiercepharma.com/pharma/incyte-drops-lawsuit-cms-relents-classification-opzelura",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/gilead-trodelvy-nabs-broad-fda-approval-front-line-tnbc-fueling-trop2-adc-market-war\" hreflang=\"en\">Gilead\u2019s Trodelvy nabs broad FDA approval in front-line TNBC, fueling TROP2 ADC market war</a>",
+          "summary": "Less than a month after an approval for Daiichi Sankyo and AstraZeneca\u2019s Datroway for front-line TNBC patients who are not candidates for PD-1/L1 inhibitors, the FDA has handed Gilead\u2019s Trodelvy a rivaling approval that allows the drug to be used regardless of patients\u2019 PD-L1 status.",
+          "url": "https://www.fiercepharma.com/pharma/gilead-trodelvy-nabs-broad-fda-approval-front-line-tnbc-fueling-trop2-adc-market-war",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026\" hreflang=\"en\">Regulatory tracker: Pierre Fabre expands Braftovi\u2019s European label to first-line colorectal cancer</a>",
-          "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
-          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026",
+          "title": "<a href=\"https://www.fiercepharma.com/biotech/mapp-gilead-antivirals-be-deployed-drc-ebola-trial-who-chief\" hreflang=\"en\">Mapp, Gilead antivirals to be deployed in DRC Ebola trial: WHO chief</a>",
+          "summary": "Officials are planning to study Mapp Biopharmaceutical\u2019s MBP134 and Gilead Sciences\u2019 remdesivir, which gained prominence during the COVID-19 pandemic, against the&nbsp;Bundibugyo ebolavirus.",
+          "url": "https://www.fiercepharma.com/biotech/mapp-gilead-antivirals-be-deployed-drc-ebola-trial-who-chief",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
@@ -399,118 +425,104 @@
           {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Medicare fraud charges targeting overused wound care products (skin substitutes) that cost $15B in 2025 directly impacts JNJ's wound care division.",
-            "key_themes": [
-              "regulatory scrutiny",
-              "reimbursement pressure",
-              "fraud investigation"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "As major payer, UNH benefits from DOJ crackdown on healthcare fraud and overutilization of expensive wound care treatments, reducing claims costs.",
+            "conviction": 62,
+            "rationale": "Ebola outbreak creates demand for diagnostic and vaccine solutions; JNJ has historical vaccine development capabilities.",
             "key_themes": [
-              "fraud reduction",
-              "cost control",
-              "claims management"
+              "infectious disease outbreak",
+              "vaccine development opportunity",
+              "public health crisis"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "ABBV",
-            "company": "AbbVie",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Generic cystic fibrosis drug competition from Bangladesh threatens pricing power for CF medications, but ABBV's Rinvoq franchise remains strong.",
-            "key_themes": [
-              "generic competition",
-              "pricing pressure",
-              "market access"
-            ],
-            "time_horizon": "long-term",
             "verified": false,
-            "verification_issue": "Article 3 discusses generic cystic fibrosis drug competition but does not mention AbbVie or its CF medications. No evidence ABBV has CF drug exposure in provided sources.",
-            "supporting_article": 3
+            "verification_issue": "Articles mention Ebola outbreak and Bundibugyo virus, but no source article discusses JNJ's involvement in vaccine development, diagnostic solutions, or any role in the outbreak response. Rationale assumes JNJ's capabilities without evidence from provided sources.",
+            "supporting_article": null
           },
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct exposure to articles; JAK inhibitor regulatory clarity (Article 5) is marginally positive but insufficient to drive conviction for LLY portfolio.",
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Ebola outbreak may accelerate vaccine development partnerships and government funding for infectious disease countermeasures.",
             "key_themes": [
-              "regulatory clarity"
+              "infectious disease outbreak",
+              "vaccine opportunity",
+              "government funding"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Articles mention Ebola outbreak but do not reference Pfizer, vaccine development partnerships, or government funding related to Pfizer. Rationale is speculative and not grounded in any source article.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Ebola outbreak drives demand for diagnostic testing, sequencing, and laboratory equipment for virus identification and surveillance.",
+            "key_themes": [
+              "diagnostic testing",
+              "outbreak response",
+              "lab equipment demand"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Article 5 concerns Incyte's Opzelura (JAK inhibitor cream), not Eli Lilly. While the analyst notes 'no direct exposure,' the rationale incorrectly attributes JAK inhibitor regulatory news to LLY portfolio without evidence.",
-            "supporting_article": 5
+            "verification_issue": "While articles discuss the Ebola outbreak and mention that scientists have not identified the animal reservoir species (Article 1), there is no mention of diagnostic testing companies, sequencing demand, or laboratory equipment manufacturers. Articles reference specific antivirals (MBP134, remdesivir) being deployed in trials, but not Thermo Fisher or diagnostic testing demand.",
+            "supporting_article": null
           }
         ],
-        "summary": "Healthcare sector faces mixed signals: regulatory headwinds emerge around fraud in wound care driving investigative scrutiny on manufacturers, while payers benefit from cost-control opportunities. Generic drug competition and regulatory clarity on JAK inhibitors present longer-term margin pressures. Disease outbreak risks remain elevated but manageable.",
+        "summary": "The Ebola outbreak in DRC and France creates near-term opportunities for diagnostic and vaccine developers, with TMO best positioned for immediate testing demand. Gilead's cancer approvals show strength in oncology pipeline, but no direct impact on listed tickers. Overall healthcare sector faces mixed signals: infectious disease tailwinds offset by potential market disruption risks from disease spread.",
         "risks": [
-          "expanded DOJ investigations into other high-cost treatment categories",
-          "accelerating generic drug competition eroding branded drug pricing",
-          "potential Ebola outbreak impact on healthcare system capacity"
+          "outbreak containment uncertainty may reduce addressable market",
+          "milder symptoms complicate diagnosis and slow revenue recognition",
+          "clinical trial execution risks for antiviral candidates in emerging markets"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "ABBV signal assumes AbbVie has cystic fibrosis medications without source support",
-            "LLY signal misattributes Incyte JAK inhibitor regulatory news to Eli Lilly",
-            "Article 3 does not specify which companies manufacture the original CF drug being displaced by generics"
+            "None of the three analyst signals are supported by the source articles provided",
+            "JNJ, PFE, and TMO are not mentioned in any source article",
+            "Rationales rely on general assumptions about outbreak response rather than specific evidence from the articles",
+            "Articles focus on virus origins (Article 1), case identification (Article 2), symptom severity (Article 3), and specific antivirals in trials (Article 6), but do not discuss diagnostic manufacturers or vaccine developers"
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JNJ": 239.0800018310547,
-        "UNH": 409.25,
-        "ABBV": 234.75999450683594,
-        "LLY": 1107.0799560546875
+        "JNJ": 241.0,
+        "PFE": 24.040000915527344,
+        "TMO": 492.20001220703125
       },
       "spot_check": {
-        "title": "Justice Dept. Unveils Medicare Fraud Charges as Part of Larger Health Care Prosecutions",
-        "summary": "The department is taking aim at pricey \u201cskin substitutes,\u201d an overused wound care treatment that cost the government nearly $15 billion in 2025.",
-        "url": "https://www.nytimes.com/2026/06/23/us/skin-substitutes-medicare-fraud.html",
+        "title": "The Ebola Outbreak\u2019s Central Mystery: Where Did This Virus Come From?",
+        "summary": "Scientists believe that the Bundibugyo virus persists in an animal species, occasionally spilling over into humans. But they have yet to identify the species.",
+        "url": "https://www.nytimes.com/2026/06/24/science/ebola-bundibugyo-animal-reservoir.html",
         "source": "Rss",
-        "published": "23 Jun 2026",
-        "sentiment_hint": "bearish",
+        "published": "24 Jun 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
-          "sentiment": "bearish",
-          "conviction": 72,
-          "rationale": "Medicare fraud charges targeting overused wound care products (skin substitutes) that cost $15B in 2025 directly impacts JNJ's wound care division.",
+          "ticker": "TMO",
+          "company": "Thermo Fisher Scientific",
+          "sentiment": "bullish",
+          "conviction": 65,
+          "rationale": "Ebola outbreak drives demand for diagnostic testing, sequencing, and laboratory equipment for virus identification and surveillance.",
           "key_themes": [
-            "regulatory scrutiny",
-            "reimbursement pressure",
-            "fraud investigation"
+            "diagnostic testing",
+            "outbreak response",
+            "lab equipment demand"
           ],
-          "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 1
+          "time_horizon": "short-term",
+          "verified": false,
+          "verification_issue": "While articles discuss the Ebola outbreak and mention that scientists have not identified the animal reservoir species (Article 1), there is no mention of diagnostic testing companies, sequencing demand, or laboratory equipment manufacturers. Articles reference specific antivirals (MBP134, remdesivir) being deployed in trials, but not Thermo Fisher or diagnostic testing demand.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Medicare fraud charges targeting overused wound care products (skin substitutes) that cost $15B in 2025 directly impacts JNJ's wound care division.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Ebola outbreak drives demand for diagnostic testing, sequencing, and laboratory equipment for virus identification and surveillance.",
         "haiku_themes": [
-          "regulatory scrutiny",
-          "reimbursement pressure",
-          "fraud investigation"
+          "diagnostic testing",
+          "outbreak response",
+          "lab equipment demand"
         ]
       },
       "config": {
@@ -530,27 +542,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Housing Package Passed by Congress Has Wide Appeal, but It\u2019s No Quick Fix",
-          "summary": "The first housing package in decades will take time to put into effect, testing the patience of families rankled by high prices.",
-          "url": "https://www.nytimes.com/2026/06/24/business/housing-package-congress-midterms.html",
+          "title": "Big Companies Aim to Ease A.I. Transition for American Workers",
+          "summary": "OpenAI, Anthropic, Amazon and Microsoft have signed on to an effort led by Gina Raimondo, a former commerce secretary.",
+          "url": "https://www.nytimes.com/2026/06/25/business/economy/ai-work-force-training-job-losses.html",
           "source": "Rss",
-          "published": "24 Jun 2026",
+          "published": "25 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Your Home Could Help Solve AI\u2019s Growing Power Demand",
-          "summary": "Tesla, Sunrun and Renew Home plan to tap solar panels, batteries, thermostats and other devices installed in millions of homes to meet the energy demands of artificial intelligence.",
-          "url": "https://www.nytimes.com/2026/06/24/business/energy-environment/ai-data-centers-tesla.html",
+          "title": "Lesson Learned From Iran War: Reduce Reliance on Strait of Hormuz",
+          "summary": "Increased stockpiles, more pipelines and other tactics could loosen the waterway\u2019s stranglehold on the global economy.",
+          "url": "https://www.nytimes.com/2026/06/25/business/strait-of-hormuz-iran-war.html",
           "source": "Rss",
-          "published": "24 Jun 2026",
+          "published": "25 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Another Spirit of \u201976: George Washington\u2019s Whiskey",
-          "summary": "A lesser-known legacy of the first president is his Mount Vernon distillery, whose return has helped revive an interest in American whiskey.",
-          "url": "https://www.nytimes.com/2026/06/24/dining/drinks/george-washington-rye-whiskey.html",
+          "title": "U.S. Inflation Problems Are Far From Over",
+          "summary": "The Federal Reserve\u2019s new chairman has vowed to deliver price stability, but officials are at odds over whether that will require higher borrowing costs.",
+          "url": "https://www.nytimes.com/2026/06/25/business/federal-reserve-inflation-pce.html",
           "source": "Rss",
-          "published": "24 Jun 2026",
+          "published": "25 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -583,73 +595,107 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Housing package passage will drive mortgage origination and lending activity over medium-term implementation period.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Inflation persistence may support higher rates, benefiting net interest margins, but economic uncertainty limits upside.",
             "key_themes": [
-              "housing market stimulus",
-              "lending growth",
-              "mortgage demand"
+              "interest rate environment",
+              "macroeconomic uncertainty",
+              "inflation trajectory"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 3
           },
           {
             "ticker": "BAC",
             "company": "Bank of America",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Housing package catalyst will increase loan origination and consumer credit demand as market responds to new policies.",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Fed policy divergence on rates creates mixed signals; NIM benefit offset by potential recession risks from inflation concerns.",
             "key_themes": [
-              "housing stimulus",
-              "credit growth",
-              "mortgage pipeline"
+              "monetary policy",
+              "net interest margins",
+              "economic slowdown risk"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Investment banking activity tied to broader economic health; inflation uncertainty and tech volatility create headwinds.",
+            "key_themes": [
+              "economic outlook",
+              "M&A activity",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Wealth management benefits from market uncertainty driving advisory demand, but equity losses hurt client portfolios.",
+            "key_themes": [
+              "market volatility",
+              "wealth management",
+              "equity market stress"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "V",
-            "company": "Visa Inc.",
+            "company": "Visa",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Market volatility from AI sector selloff creates near-term headwinds; housing stimulus could support consumer spending long-term.",
+            "conviction": 50,
+            "rationale": "Inflation persistence may reduce consumer spending; however, payment volumes remain resilient amid economic uncertainty.",
             "key_themes": [
-              "market volatility",
               "consumer spending",
-              "tech sector weakness"
+              "inflation impact",
+              "transaction volumes"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 3
           },
           {
             "ticker": "MA",
-            "company": "Mastercard Inc.",
+            "company": "Mastercard",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "AI-driven market selloff creates uncertainty; housing package provides modest longer-term consumer transaction upside.",
+            "conviction": 50,
+            "rationale": "Inflation concerns threaten consumer spending and cross-border travel; payment growth tied to economic resilience.",
             "key_themes": [
-              "market volatility",
-              "consumer activity",
-              "tech sector pressure"
+              "consumer spending",
+              "inflation pressure",
+              "international payments"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 3
           }
         ],
-        "summary": "Financial sector receives mixed signals: housing package passage supports medium-term lending and mortgage growth for banks (JPM, BAC), while payment processors face near-term headwinds from AI sector volatility. The broad market rout sparked by DeepSeek concerns creates short-term uncertainty despite long-term optimism about housing stimulus implementation.",
+        "summary": "The financial sector faces mixed signals from persistent inflation pressures and Fed policy uncertainty, with limited direct exposure in these articles. Banks benefit modestly from higher rate environment but face headwinds from economic slowdown risks, while payment processors face consumer spending headwinds. The broad AI market volatility and geopolitical concerns create macroeconomic uncertainty affecting all financial services valuations.",
         "risks": [
-          "AI sector volatility spreading to consumer confidence",
-          "housing package implementation delays exceeding market expectations",
-          "broader market correction if tech selloff persists"
+          "Persistent inflation forcing more aggressive Fed tightening than anticipated",
+          "Consumer spending deterioration reducing payment volumes and bank lending demand",
+          "Geopolitical tensions (Strait of Hormuz) causing oil price volatility affecting economic growth",
+          "Recession risk from prolonged high interest rates",
+          "Market volatility from AI sector rotation and tech uncertainty"
         ],
         "sector_sentiment": "neutral",
         "verification": {
@@ -659,40 +705,42 @@
         }
       },
       "prices_snapshot": {
-        "JPM": 334.1400146484375,
-        "BAC": 57.90999984741211,
-        "V": 328.4800109863281,
-        "MA": 488.07000732421875
+        "JPM": 333.45001220703125,
+        "BAC": 57.72999954223633,
+        "GS": 1076.9100341796875,
+        "MS": 219.86000061035156,
+        "V": 332.2300109863281,
+        "MA": 494.4100036621094
       },
       "spot_check": {
-        "title": "Housing Package Passed by Congress Has Wide Appeal, but It\u2019s No Quick Fix",
-        "summary": "The first housing package in decades will take time to put into effect, testing the patience of families rankled by high prices.",
-        "url": "https://www.nytimes.com/2026/06/24/business/housing-package-congress-midterms.html",
+        "title": "Big Companies Aim to Ease A.I. Transition for American Workers",
+        "summary": "OpenAI, Anthropic, Amazon and Microsoft have signed on to an effort led by Gina Raimondo, a former commerce secretary.",
+        "url": "https://www.nytimes.com/2026/06/25/business/economy/ai-work-force-training-job-losses.html",
         "source": "Rss",
-        "published": "24 Jun 2026",
+        "published": "25 Jun 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Housing package passage will drive mortgage origination and lending activity over medium-term implementation period.",
+          "ticker": "V",
+          "company": "Visa",
+          "sentiment": "neutral",
+          "conviction": 50,
+          "rationale": "Inflation persistence may reduce consumer spending; however, payment volumes remain resilient amid economic uncertainty.",
           "key_themes": [
-            "housing market stimulus",
-            "lending growth",
-            "mortgage demand"
+            "consumer spending",
+            "inflation impact",
+            "transaction volumes"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 3
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Housing package passage will drive mortgage origination and lending activity over medium-term implementation period.",
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "Inflation persistence may reduce consumer spending; however, payment volumes remain resilient amid economic uncertainty.",
         "haiku_themes": [
-          "housing market stimulus",
-          "lending growth",
-          "mortgage demand"
+          "consumer spending",
+          "inflation impact",
+          "transaction volumes"
         ]
       },
       "config": {
