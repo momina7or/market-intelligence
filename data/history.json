@@ -1237,5 +1237,229 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-06-26",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Prime Day discounts on Apple products (Watch Series 11, AirPods Pro 3) signal strong demand and market positioning in wearables.",
+            "key_themes": [
+              "product demand",
+              "services ecosystem",
+              "wearables growth"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's dominance in AI search recommendations demonstrates competitive threat, validating Google's urgency in AI search integration.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI infrastructure demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content, but this demonstrates OpenAI/ChatGPT's capability, not a competitive threat validating Google's urgency in AI search. The article does not provide evidence of ChatGPT's dominance in search or competitive threat to Google Search. Article does not support the rationale's framing about Google's competitive positioning.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 275.1499938964844,
+          "GOOGL": 343.7099914550781
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Qatar LNG recovery and crude exports resumption post-Iran war benefit major LNG stakeholders with Middle East exposure.",
+            "key_themes": [
+              "LNG exports resumption",
+              "Hormuz shipping normalization",
+              "supply chain recovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "\u20ac240m Spain hydrogen hub funding approval signals strategic clean energy pivot and positions BP for transition infrastructure growth.",
+            "key_themes": [
+              "hydrogen investment",
+              "clean energy transition",
+              "European green funding"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Hormuz traffic normalization supports LNG exports but offset by oil price weakness ($73-70/bbl) limiting short-term upside.",
+            "key_themes": [
+              "LNG demand recovery",
+              "crude price pressure",
+              "geopolitical de-escalation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 78.27999877929688,
+          "BP": 37.720001220703125,
+          "SHEL": 77.33000183105469
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Regulatory pressure from new health secretary creates uncertainty; no direct operational impact evident from articles.",
+            "key_themes": [
+              "regulatory pressure",
+              "CDC oversight"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Alzheimer's disease gaining pharma focus as competitors expand portfolios; LLY's established position strengthens competitive moat.",
+            "key_themes": [
+              "Alzheimer's disease market expansion",
+              "competitive advantage"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Clinical trial integrity issues raise compliance concerns across sector; TMO's lab services may face increased validation demands.",
+            "key_themes": [
+              "clinical trial oversight",
+              "regulatory scrutiny"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 244.8800048828125,
+          "LLY": 1127.68994140625,
+          "TMO": 505.75
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market volatility from AI rout may increase M&A advisory opportunities but near-term uncertainty pressures earnings.",
+            "key_themes": [
+              "market volatility",
+              "advisory services"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims AI rout may increase M&A advisory opportunities, but source articles do not discuss M&A activity or banking advisory impacts. Article [4] describes the AI rout but does not connect it to M&A opportunities.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Ryanair fee elimination signals regulatory pressure on payment-dependent revenue models; airline sector headwinds.",
+            "key_themes": [
+              "regulatory pressure",
+              "fee compression"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale overgeneralizes from Ryanair's ancillary fee elimination (seating fees) to payment card transaction volumes and regulatory pressure on 'payment-dependent revenue models.' Article [1] does not establish that this regulatory action signals broader pressure on payment processors' core fee structures or transaction volumes. The connection between airline seating fee regulation and card processor earnings is not supported.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Ryanair's fee reversal indicates rising regulatory scrutiny on ancillary payment fees, pressuring transaction volumes.",
+            "key_themes": [
+              "regulatory pressure",
+              "fee compression"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale makes the same unsupported leap as the Visa signal. Article [1] covers Ryanair eliminating seating fees due to UK regulator investigation, but does not establish that this indicates regulatory scrutiny on payment card transaction fees or that it will pressure Mastercard's transaction volumes. The analyst conflates airline ancillary fees with payment processor fees.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.1199951171875,
+          "V": 330.5199890136719,
+          "MA": 488.9200134277344
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
