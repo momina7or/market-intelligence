@@ -2139,5 +2139,283 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-01",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search disruption demonstrates AI monetization risk; Google must accelerate AI search integration to defend market share.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic shift",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Rate-limiting AI features and introducing paywalls ($19.99/month) signals monetization struggles and user friction in smart glasses rollout.",
+            "key_themes": [
+              "hardware monetization challenges",
+              "AI feature limitations",
+              "subscription friction"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 357.3699951171875,
+          "META": 563.2899780273438
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Divesting Na Kika stake signals portfolio optimization, but 2027 supply glut poses downstream margin pressure.",
+            "key_themes": [
+              "asset monetization",
+              "supply glut headwind",
+              "deepwater rationalization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Na Kika partnership dissolution neutral; exposed to 2027 supply glut despite strong current production assets.",
+            "key_themes": [
+              "Gulf of Mexico portfolio",
+              "supply glut exposure",
+              "asset partnerships"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Upstream producer facing 2027 supply glut and margin compression despite near-term inventory rebuild tailwind.",
+            "key_themes": [
+              "supply glut 2027",
+              "inventory normalization",
+              "pricing pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Goldman Sachs warns of 2027 supply glut offsetting inventory rebuilds; integrated model provides some refining hedge.",
+            "key_themes": [
+              "supply glut 2027",
+              "crude oversupply",
+              "integrated operations"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 66,
+            "rationale": "Pure-play upstream producer vulnerable to projected 2027 supply glut and resulting crude price compression.",
+            "key_themes": [
+              "supply glut 2027",
+              "upstream exposure",
+              "pricing risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 77.54000091552734,
+          "BP": 36.95000076293945,
+          "XOM": 136.72000122070312,
+          "CVX": 165.75999450683594,
+          "COP": 103.95999908447266
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Medicare GLP-1 coverage expansion (July 1, 2026) significantly broadens addressable market for weight-loss drugs.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "Medicare reimbursement",
+              "weight-loss indication"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Medicare GLP-1 coverage expands utilization but Medicaid work requirements lawsuit creates regulatory uncertainty affecting members.",
+            "key_themes": [
+              "GLP-1 demand increase",
+              "Medicaid regulation risk",
+              "reimbursement uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Medicare GLP-1 coverage expansion benefits J&J's weight-loss portfolio alongside existing pharmaceutical revenue streams.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "Medicare reimbursement",
+              "portfolio diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions Medicare GLP-1 coverage but does not identify J&J as having a weight-loss portfolio or GLP-1 product in the pilot program. No source confirms J&J participation in the GLP-1 market expansion.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Limited exposure to GLP-1 market; surgical billing loophole and kickback enforcement create cost/compliance headwinds.",
+            "key_themes": [
+              "competitive disadvantage in GLP-1",
+              "regulatory enforcement risk",
+              "surprise billing impact"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              5
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1199.4300537109375,
+          "UNH": 415.6300048828125,
+          "JNJ": 253.97000122070312,
+          "PFE": 24.079999923706055
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Trade policy uncertainty from USMCA renegotiation may impact loan portfolio and M&A advisory revenues.",
+            "key_themes": [
+              "trade policy uncertainty",
+              "regulatory environment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Student loan forgiveness court ruling creates regulatory uncertainty affecting consumer lending strategies.",
+            "key_themes": [
+              "regulatory uncertainty",
+              "consumer lending"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Trade policy volatility may increase M&A advisory opportunities but market uncertainty pressures valuations.",
+            "key_themes": [
+              "trade policy",
+              "M&A activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 327.3299865722656,
+          "BAC": 56.97999954223633,
+          "GS": 1011.3699951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]

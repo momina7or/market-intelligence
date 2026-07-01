@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-06-30",
-  "run_time": "2026-06-30T10:31:25.191245Z",
+  "run_date": "2026-07-01",
+  "run_time": "2026-07-01T10:40:59.776016Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "This motor could be the future of e-bikes",
-          "summary": "Imagine an e-bike motor that lets you select your preferred pedaling cadence and then automatically adjusts the gears to keep your legs spinning at that exact speed, no matter how steep the hill gets - all without a fragile derailleur or heavy multi-speed cassette to maintain. Prefer manual control? No problem, you can have as [&#8230;]",
-          "url": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
+          "title": "Fujifilm launches two new QuickSnap cameras because Gen Z can&#8217;t get enough",
+          "summary": "Fujifilm is expanding its QuickSnap lineup with a new disposable camera focused on taking monochrome photos and another built to survive harsh outdoor environments. The $22.90 QuickSnap Black and White and the $24.75 QuickSnap Active are expected to launch sometime later this fall, to the delight of Gen Z snappers driving the current resurgence in [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/960067/fujifilm-quicksnap-active-black-and-white-price-availability",
           "source": "Theverge",
-          "published": "30 Jun 2026",
-          "sentiment_hint": "neutral"
+          "published": "01 Jul 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "This could be our best look yet at Samsung\u2019s new wide foldable",
-          "summary": "Samsung is expected to unveil its next generation of foldables at a Galaxy Unpacked event next month, but now we know what they might look like, courtesy of some leaked images published by Android Headlines. Images shared by the publication include case designs for two new Galaxy Z Fold 8 models and the Galaxy Z [&#8230;]",
-          "url": "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks",
+          "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart",
+          "summary": "Getty is planning to axe its $3.7 billion merger agreement with Shutterstock after a UK regulator imposed restrictions that would prevent part of Shutterstock's business from being included in the deal. The move comes despite the US Department of Justice granting the deal \"unconditional antitrust clearance\" in February. In an SEC filing published on Tuesday [&#8230;]",
+          "url": "https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination",
           "source": "Theverge",
-          "published": "30 Jun 2026",
-          "sentiment_hint": "neutral"
+          "published": "01 Jul 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "T-Mobile is booting customers from its oldest plans",
-          "summary": "Earlier today, T-Mobile started notifying customers that it will be retiring many legacy plans and moving subscribers onto one of its current rate plans. This move includes plans that date back to the 3G era, and it's going about as well as you'd expect. Affected customers began sharing screenshots of the text on reddit and [&#8230;]",
-          "url": "https://www.theverge.com/tech/959144/t-mobile-legacy-plan-retire-sprint",
+          "title": "Meta is adding ridiculous &#8216;rate limits&#8217; and a soft paywall to its smart glasses",
+          "summary": "Would you pay $20 a month for access to AI hardware you already own? That appears to be one of Meta's next bets. This week, it quietly announced that your glasses' Conversation Focus feature will soon be limited to three hours of use per month, unless you pay for a $19.99 Meta One Premium subscription. [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
           "source": "Theverge",
-          "published": "29 Jun 2026",
+          "published": "01 Jul 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -60,11 +60,11 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT integration into search behavior demonstrates competitive AI threat; validates Google's AI investments urgency",
+            "rationale": "ChatGPT's organic search disruption demonstrates AI monetization risk; Google must accelerate AI search integration to defend market share.",
             "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "LLM monetization"
+              "AI search disruption",
+              "organic traffic shift",
+              "competitive pressure"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -72,29 +72,30 @@
             "supporting_article": 1
           },
           {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "ChatGPT's demonstrated organic traffic generation capability validates OpenAI partnership value and enterprise AI adoption",
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Rate-limiting AI features and introducing paywalls ($19.99/month) signals monetization struggles and user friction in smart glasses rollout.",
             "key_themes": [
-              "ChatGPT adoption",
-              "enterprise AI",
-              "content generation tools"
+              "hardware monetization challenges",
+              "AI feature limitations",
+              "subscription friction"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 6
           }
         ],
-        "summary": "Articles reveal growing mainstream AI tool adoption for content creation and search behavior disruption, with ChatGPT demonstrating tangible organic traffic generation capability. This validates the strategic importance of LLM investments by Microsoft and Alphabet, though presents competitive pressure on Google's traditional search monetization model. Limited direct relevance to hardware-focused tech players in this news cycle.",
+        "summary": "The articles reveal a bifurcated AI landscape: generative AI tools like ChatGPT are rapidly disrupting traditional search and content discovery, creating pressure on established platforms, while hardware-based AI initiatives face monetization headwinds. Meta's paywall strategy and rate-limiting indicate early-stage commercialization challenges, whereas Google faces competitive urgency in search.",
         "risks": [
-          "Regulatory scrutiny on AI-generated content quality and copyright implications",
-          "Uncertainty around sustainable monetization models for AI-driven search alternatives",
-          "Market concentration risk if single AI platforms dominate content discovery"
+          "AI monetization uncertainty across platforms",
+          "regulatory scrutiny of mergers (Getty-Shutterstock precedent)",
+          "user adoption resistance to premium AI features",
+          "rapid competitive displacement in AI-driven content discovery"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -102,8 +103,8 @@
         }
       },
       "prices_snapshot": {
-        "GOOGL": 353.6499938964844,
-        "MSFT": 368.57000732421875
+        "GOOGL": 357.3699951171875,
+        "META": 563.2899780273438
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -113,15 +114,15 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "ChatGPT's demonstrated organic traffic generation capability validates OpenAI partnership value and enterprise AI adoption",
+          "conviction": 72,
+          "rationale": "ChatGPT's organic search disruption demonstrates AI monetization risk; Google must accelerate AI search integration to defend market share.",
           "key_themes": [
-            "ChatGPT adoption",
-            "enterprise AI",
-            "content generation tools"
+            "AI search disruption",
+            "organic traffic shift",
+            "competitive pressure"
           ],
           "time_horizon": "medium-term",
           "verified": true,
@@ -129,11 +130,11 @@
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's demonstrated organic traffic generation capability validates OpenAI partnership value and enterprise AI adoption",
+        "haiku_rationale": "ChatGPT's organic search disruption demonstrates AI monetization risk; Google must accelerate AI search integration to defend market share.",
         "haiku_themes": [
-          "ChatGPT adoption",
-          "enterprise AI",
-          "content generation tools"
+          "AI search disruption",
+          "organic traffic shift",
+          "competitive pressure"
         ]
       },
       "config": {
@@ -153,134 +154,145 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Hormuz Tanker Traffic Recovers as Tensions Ease",
-          "summary": "Tanker traffic at the Strait of Hormuz rose over the past 24 hours for the first time since late last week, when two attacks on commercial vessels spooked many operators and forced others to wait for the easing of the tensions before moving to transit the chokepoint. \u00a0\u00a0 A total of 24 commodity vessels, including tankers, LNG and LPG carriers and bulk carriers, transited the Strait of Hormuz inbound and outbound on Monday, according to Kpler\u2019s ship-tracking data reviewed by Bloomberg. Still, tota",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Recovers-as-Tensions-Ease.html",
+          "title": "Goldman Sachs Warns Oil Inventory Rebuild Won\u2019t Prevent 2027 Supply Glut",
+          "summary": "The coming global race to rebuild depleted oil inventories will not be enough to offset a massive glut that\u2019s coming to the market next year, as traffic through the Strait of Hormuz appears to be headed toward normalization, according to Goldman Sachs. \u00a0 Stockpiles of crude and refined petroleum products in many parts of the world have been depleted to multi-decade lows after governments raced to release strategic stockpiles in March after the Middle East crisis trapped millions of barrels of da",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-Oil-Inventory-Rebuild-Wont-Prevent-2027-Supply-Glut.html",
           "source": "Oilprice",
-          "published": "30 Jun 2026",
+          "published": "01 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Pakistan Pays Premium for Urgent LNG Cargo",
-          "summary": "Pakistan has bought a cargo of liquefied natural gas, paying a premium of around $1 per million British thermal units to regional spot market prices in a move highlighting the continued disruption in LNG flows out of the Persian Gulf, despite diplomatic efforts to settle the conflict that caused the disruption. Pakistan LNG Ltd. bought the cargo for prompt delivery, Bloomberg reported, citing unnamed trading sources. The price the state gas company paid stood at $16.74 per mmBtu, compared to Asi",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Pays-Premium-for-Urgent-LNG-Cargo.html",
+          "title": "America Bets $50 Billion on Coal and Gas Power as Electricity Demand Soars",
+          "summary": "U.S. companies are set to spend some $50 billion on power generation from coal and natural gas this year, the International Energy Agency has said, as quoted by the Financial Times. This would be the first time in decades that U.S. spending on coal and gas generation would be higher than what China is investing in the two fuels, with the difference at $3 billion. The surge in spending will come mostly from much stronger demand for gas turbines amid a data center boom in the United States, the FT",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/America-Bets-50-Billion-on-Coal-and-Gas-Power-as-Electricity-Demand-Soars.html",
           "source": "Oilprice",
-          "published": "30 Jun 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "New Report Says U.S. Led Global CO2 Emissions Growth in 2025",
-          "summary": "A report has criticized the United States for leading global carbon dioxide emissions growth in 2025, saying the country accounted for around 30% of the global increase in emissions. The rise in emissions came as a result of a boost in coal power generation in the United States, the report, produced by the Energy Institute, net-zero outlet Ember, the Kearney Institute, and KPMG, said, as quoted by Reuters. U.S. coal power generation jumped by 10% last year, which, according to the report\u2019s autho",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/New-Report-Says-US-Led-Global-CO2-Emissions-Growth-in-2025.html",
-          "source": "Oilprice",
-          "published": "30 Jun 2026",
+          "published": "01 Jul 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Korkia\u2019s Smedjebacken hybrid project secures environmental permit",
-          "summary": "Finnish company Korkia has obtained an environmental permit for its planned Smedjebacken hybrid energy project in Dalarna, central Sweden.",
-          "url": "https://www.energymonitor.ai/news/smedjebacken-project-secures-permit/",
-          "source": "Energymonitor",
-          "published": "29 Jun 2026",
+          "title": "Shell Offloads 50% Stake in Na Kika Platform for $1.7 Billion",
+          "summary": "Shell has struck a deal to sell a 50% stake in the Na Kika oil platform and related assets to Talos Energy and Ridgewood Energy, with the price tag at $1.7 billion, the supermajor said. According to Shell\u2019s partner in Na Kika, BP, the deepwater platform off the Louisiana coast is one of the most prolific production hubs in the Gulf, linked to eight fields, and can produce up to 130,000 barrels of crude daily. Along with Shell\u2019s 50% interest in Na Kika, Talos and Ridgewood will also buy the compa",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Offloads-50-Stake-in-Na-Kika-Platform-for-17-Billion.html",
+          "source": "Oilprice",
+          "published": "01 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "UK\u2019s Ofgem shortlists 16 LDES projects under cap and floor scheme",
-          "summary": "Ofgem has provisionally selected 16 long-duration electricity storage (LDES) projects to move forward under its cap and floor support scheme.",
-          "url": "https://www.energymonitor.ai/news/ofgem-16-ldes-cap-floor-scheme/",
+          "title": "Aker to supply equipment for Tussa II hydropower plant in Norway",
+          "summary": "Aker Solutions has been contracted by Tussa Energi to deliver electromechanical equipment for the Tussa II hydropower plant.",
+          "url": "https://www.energymonitor.ai/news/aker-supply-equipment-tussa-ii-plant/",
           "source": "Energymonitor",
-          "published": "29 Jun 2026",
+          "published": "30 Jun 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "What do dark factories mean for the energy transition?",
+          "summary": "Dark factories' significance for the energy transition may not be the energy they save, but the economics they could change.",
+          "url": "https://www.energymonitor.ai/features/dark-factories-energy-transition/",
+          "source": "Energymonitor",
+          "published": "30 Jun 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Spain authorises $240m Hy2USE reallocation for Castell\u00f3n hydrogen hub",
-          "summary": "Iberdrola Espa\u00f1a and BP have secured approval from Spain for the reallocation of up to \u20ac$240m in funding from the IPCEI Hy2USE programme.",
-          "url": "https://www.energymonitor.ai/news/spain-reallocation-castellon-hydrogen-hub/",
+          "title": "Masdar begins construction of 1GW wind farm in Kazakhstan",
+          "summary": "Masdar has started construction on a 1GW wind farm in Kazakhstan's Zhambyl region, marking its first renewable energy project in the country.",
+          "url": "https://www.energymonitor.ai/news/masdar-construction-1gw-wind-farm-kazakhstan/",
           "source": "Energymonitor",
-          "published": "26 Jun 2026",
+          "published": "30 Jun 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Securing \u20ac240m Spanish hydrogen hub funding signals strategic pivot to energy transition with government backing.",
-            "key_themes": [
-              "hydrogen infrastructure",
-              "energy transition investment",
-              "government support"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
             "ticker": "SHEL",
             "company": "Shell plc",
             "sentiment": "neutral",
             "conviction": 55,
-            "rationale": "Mixed signals: geopolitical tensions ease Hormuz traffic but LNG premium pricing persists from Persian Gulf disruptions.",
+            "rationale": "Divesting Na Kika stake signals portfolio optimization, but 2027 supply glut poses downstream margin pressure.",
             "key_themes": [
-              "geopolitical risk",
-              "LNG supply disruption",
-              "tanker operations"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Persian Gulf LNG disruptions elevate pricing but recent tension easing limits upside; modest tailwind from supply constraints.",
-            "key_themes": [
-              "LNG premium",
-              "geopolitical volatility",
-              "supply disruption"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "U.S. leading 30% of global CO2 emissions growth in 2025 signals regulatory pressure ahead for major fossil fuel producers.",
-            "key_themes": [
-              "emissions scrutiny",
-              "regulatory risk",
-              "energy transition pressure"
+              "asset monetization",
+              "supply glut headwind",
+              "deepwater rationalization"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Na Kika partnership dissolution neutral; exposed to 2027 supply glut despite strong current production assets.",
+            "key_themes": [
+              "Gulf of Mexico portfolio",
+              "supply glut exposure",
+              "asset partnerships"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Upstream producer facing 2027 supply glut and margin compression despite near-term inventory rebuild tailwind.",
+            "key_themes": [
+              "supply glut 2027",
+              "inventory normalization",
+              "pricing pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Goldman Sachs warns of 2027 supply glut offsetting inventory rebuilds; integrated model provides some refining hedge.",
+            "key_themes": [
+              "supply glut 2027",
+              "crude oversupply",
+              "integrated operations"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 66,
+            "rationale": "Pure-play upstream producer vulnerable to projected 2027 supply glut and resulting crude price compression.",
+            "key_themes": [
+              "supply glut 2027",
+              "upstream exposure",
+              "pricing risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
           }
         ],
-        "summary": "The petroleum sector faces divergent pressures: near-term support from Persian Gulf LNG supply disruptions and easing Hormuz tensions, offset by intensifying emissions scrutiny on U.S. operators and accelerating energy transition investments by majors like BP. Majors are pivoting toward hydrogen and renewables while facing regulatory headwinds, particularly in high-emission jurisdictions.",
+        "summary": "Oil majors face structural headwinds from Goldman Sachs' warning of a significant 2027 supply glut that will overwhelm inventory rebuilds despite near-term strength from Strait of Hormuz normalization. Pure-play upstream producers (XOM, COP, CVX) are most vulnerable to margin compression, while integrated players like BP and SHEL show strategic asset rationalization in response to weakening long-term outlooks. Natural gas beneficiaries (from US data center demand) are absent from covered tickers.",
         "risks": [
-          "Geopolitical escalation in Strait of Hormuz disrupting recovery",
-          "Accelerating regulatory pressure on fossil fuel producers globally",
-          "Hydrogen and LDES projects competing with traditional energy capital allocation"
+          "Geopolitical re-escalation in Middle East could tighten supply and invalidate glut thesis",
+          "Goldman Sachs forecast may overestimate supply additions or underestimate demand growth",
+          "Upstream capex cuts by majors could delay production increases and mitigate 2027 glut severity",
+          "Refining margin sustainability unclear amid potential product oversupply in inventory rebuild phase"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -288,40 +300,41 @@
         }
       },
       "prices_snapshot": {
-        "BP": 37.349998474121094,
-        "SHEL": 76.88999938964844,
-        "TTE": 77.66999816894531,
-        "XOM": 136.05999755859375
+        "SHEL": 77.54000091552734,
+        "BP": 36.95000076293945,
+        "XOM": 136.72000122070312,
+        "CVX": 165.75999450683594,
+        "COP": 103.95999908447266
       },
       "spot_check": {
-        "title": "Spain authorises $240m Hy2USE reallocation for Castell\u00f3n hydrogen hub",
-        "summary": "Iberdrola Espa\u00f1a and BP have secured approval from Spain for the reallocation of up to \u20ac$240m in funding from the IPCEI Hy2USE programme.",
-        "url": "https://www.energymonitor.ai/news/spain-reallocation-castellon-hydrogen-hub/",
-        "source": "Energymonitor",
-        "published": "26 Jun 2026",
+        "title": "Goldman Sachs Warns Oil Inventory Rebuild Won\u2019t Prevent 2027 Supply Glut",
+        "summary": "The coming global race to rebuild depleted oil inventories will not be enough to offset a massive glut that\u2019s coming to the market next year, as traffic through the Strait of Hormuz appears to be headed toward normalization, according to Goldman Sachs. \u00a0 Stockpiles of crude and refined petroleum products in many parts of the world have been depleted to multi-decade lows after governments raced to release strategic stockpiles in March after the Middle East crisis trapped millions of barrels of da",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-Oil-Inventory-Rebuild-Wont-Prevent-2027-Supply-Glut.html",
+        "source": "Oilprice",
+        "published": "01 Jul 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "BP",
-          "company": "BP plc",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Securing \u20ac240m Spanish hydrogen hub funding signals strategic pivot to energy transition with government backing.",
+          "ticker": "XOM",
+          "company": "ExxonMobil Corporation",
+          "sentiment": "bearish",
+          "conviction": 68,
+          "rationale": "Upstream producer facing 2027 supply glut and margin compression despite near-term inventory rebuild tailwind.",
           "key_themes": [
-            "hydrogen infrastructure",
-            "energy transition investment",
-            "government support"
+            "supply glut 2027",
+            "inventory normalization",
+            "pricing pressure"
           ],
           "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 6
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Securing \u20ac240m Spanish hydrogen hub funding signals strategic pivot to energy transition with government backing.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Upstream producer facing 2027 supply glut and margin compression despite near-term inventory rebuild tailwind.",
         "haiku_themes": [
-          "hydrogen infrastructure",
-          "energy transition investment",
-          "government support"
+          "supply glut 2027",
+          "inventory normalization",
+          "pricing pressure"
         ]
       },
       "config": {
@@ -341,49 +354,49 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Trump Issues Order to Reduce Pesticides in Food as Kennedy Allies Fume",
-          "summary": "The order, which calls for studying the health risks of pesticides in the food supply, does not involve new federal funding, and does not call for regulations or legislation.",
-          "url": "https://www.nytimes.com/2026/06/25/us/politics/trump-order-pesticides-rfk.html",
+          "title": "States Sue Trump Administration Over Medicaid Work Requirements",
+          "summary": "The lawsuit argues that new federal rules went beyond what Congress enacted and broke from guidance that the federal government previewed to states.",
+          "url": "https://www.nytimes.com/2026/06/30/us/politics/medicaid-work-requirements-lawsuit.html",
           "source": "Rss",
-          "published": "26 Jun 2026",
+          "published": "30 Jun 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "$22,000 Per Hour: Assistants Use a Legislative Loophole to Outearn Surgeons",
+          "summary": "A law meant to end surprise medical billing has led to large paydays for some surgical assistants, who can earn far more than the doctors they help.",
+          "url": "https://www.nytimes.com/2026/06/29/upshot/assistant-surgeons-loophole-pay.html",
+          "source": "Rss",
+          "published": "29 Jun 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Medicare Begins Coverage of GLP-1 Drugs for Weight Loss July 1: What to Know",
+          "summary": "What you should know about the federal government\u2019s pilot program offering GLP-1s solely for weight loss.",
+          "url": "https://www.nytimes.com/2026/05/15/business/glp-1-weight-loss-drugs-cost-medicare.html",
+          "source": "Rss",
+          "published": "15 May 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Congo Ebola Crisis: Contact Tracing Is Dangerously Behind, Officials Warn",
-          "summary": "Most of the people testing positive for Ebola in the Democratic Republic of Congo are not on health workers\u2019 radar, suggesting that contact tracing is lagging dangerously behind.",
-          "url": "https://www.nytimes.com/2026/06/25/world/africa/africa-cdc-congo-ebola.html",
-          "source": "Rss",
-          "published": "25 Jun 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Inside the C.D.C.\u2019s Mad Scramble to Meet Kennedy\u2019s Demands",
-          "summary": "A cache of internal emails offers a look at the pressure the nation\u2019s public health officials faced from the new health secretary in the early months of the Trump administration.",
-          "url": "https://www.nytimes.com/2026/06/25/us/politics/kennedy-cdc-emails.html",
-          "source": "Rss",
-          "published": "25 Jun 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/beone-brukinsa-hits-goal-mantle-cell-lymphoma-confirmatory-trial\" hreflang=\"en\">BeOne\u2019s Brukinsa hits goal in mantle cell lymphoma confirmatory trial</a>",
-          "summary": "A Brukinsa regimen has delivered a large progression-free survival benefit in what BeOne Medicines called a \u201cnew chemotherapy-free standard\u201d in first-line mantle cell lymphoma.",
-          "url": "https://www.fiercepharma.com/pharma/beone-brukinsa-hits-goal-mantle-cell-lymphoma-confirmatory-trial",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/fda-approves-orca-bio-cell-therapy-tregzi-blood-cancer-transplants\" hreflang=\"en\">Orca Bio makes a splash with FDA approval for cell therapy Tregzi. Could an IPO come next?</a>",
+          "summary": "Orca Bio has jumped into the commercial market with an FDA approval for Tregzi, a first-of-its-kind allogeneic regulatory T cell-based therapy for blood cancer patients requiring transplants.&nbsp;&nbsp;",
+          "url": "https://www.fiercepharma.com/pharma/fda-approves-orca-bio-cell-therapy-tregzi-blood-cancer-transplants",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/klick-bags-oxford-pharmagenesis-3rd-takeover-18-months\" hreflang=\"en\">Klick bags Oxford PharmaGenesis in 3rd takeover in 18 months</a>",
-          "summary": "Klick Health has struck its third takeover in 18 months, snapping up Oxford PharmaGenesis to expand its global reach and deepen its scientific expertise.",
-          "url": "https://www.fiercepharma.com/marketing/klick-bags-oxford-pharmagenesis-3rd-takeover-18-months",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/astrazeneca-will-pay-34m-settle-free-nurses-kickback-lawsuit\" hreflang=\"en\">AstraZeneca agrees to pay $34M to settle 'free nurses' kickback lawsuit from Texas</a>",
+          "summary": "AstraZeneca will pay $34 million to resolve a lawsuit that alleged the company used illegal kickbacks to induce providers to write prescriptions for products paid for by Texas Medicaid.",
+          "url": "https://www.fiercepharma.com/pharma/astrazeneca-will-pay-34m-settle-free-nurses-kickback-lawsuit",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/zymeworks-acquires-struggling-theravance-929m\" hreflang=\"en\">Zymeworks acquires struggling Theravance for $929M</a>",
-          "summary": "Four months after Theravance Biopharma shut down its R&amp;D unit, laid off half its staff and signaled it was up for sale, the Dublin-based company has entered into an agreement to be bought out by Zymeworks for $929 million plus a contingent value right.",
-          "url": "https://www.fiercepharma.com/pharma/zymeworks-acquires-struggling-theravance-929m",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/rising-stars-how-novo-nordisks-tara-sparks-went-super-bowl-fan-super-bowl-marketer\" hreflang=\"en\">Rising Stars: How Novo Nordisk\u2019s Tara Sparks Went from Super Bowl Fan to Super Bowl Marketer</a>",
+          "summary": "Tara Sparks was just days away from starting her new job at Novo Nordisk in February 2025 when she gathered with some friends to watch her team, the Philadelphia Eagles, take on reigning Super Bowl champs, the Kansas City Chiefs.",
+          "url": "https://www.fiercepharma.com/marketing/rising-stars-how-novo-nordisks-tara-sparks-went-super-bowl-fan-super-bowl-marketer",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -392,31 +405,15 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Congo Ebola crisis and contact tracing gaps create demand for diagnostic and testing infrastructure solutions.",
+            "conviction": 82,
+            "rationale": "Medicare GLP-1 coverage expansion (July 1, 2026) significantly broadens addressable market for weight-loss drugs.",
             "key_themes": [
-              "infectious disease response",
-              "diagnostic demand",
-              "outbreak management"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Regulatory uncertainty from Kennedy's health secretary pressuring CDC; pesticide order suggests stricter oversight ahead.",
-            "key_themes": [
-              "regulatory pressure",
-              "policy uncertainty",
-              "public health scrutiny"
+              "GLP-1 market expansion",
+              "Medicare reimbursement",
+              "weight-loss indication"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -424,87 +421,111 @@
             "supporting_article": 3
           },
           {
-            "ticker": "PFE",
-            "company": "Pfizer",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
             "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Ebola outbreak may create vaccine/therapeutic opportunity but regulatory environment uncertainty under Kennedy administration.",
+            "conviction": 55,
+            "rationale": "Medicare GLP-1 coverage expands utilization but Medicaid work requirements lawsuit creates regulatory uncertainty affecting members.",
             "key_themes": [
-              "infectious disease opportunity",
-              "regulatory headwinds",
-              "vaccine demand"
+              "GLP-1 demand increase",
+              "Medicaid regulation risk",
+              "reimbursement uncertainty"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              1,
+              3
+            ]
           },
           {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Potential infectious disease vaccine opportunities from Congo Ebola crisis offset by regulatory pressures from Kennedy health agenda.",
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Medicare GLP-1 coverage expansion benefits J&J's weight-loss portfolio alongside existing pharmaceutical revenue streams.",
             "key_themes": [
-              "outbreak response",
-              "regulatory uncertainty",
-              "vaccine development"
+              "GLP-1 market expansion",
+              "Medicare reimbursement",
+              "portfolio diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions Medicare GLP-1 coverage but does not identify J&J as having a weight-loss portfolio or GLP-1 product in the pilot program. No source confirms J&J participation in the GLP-1 market expansion.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Limited exposure to GLP-1 market; surgical billing loophole and kickback enforcement create cost/compliance headwinds.",
+            "key_themes": [
+              "competitive disadvantage in GLP-1",
+              "regulatory enforcement risk",
+              "surprise billing impact"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              2,
+              5
+            ]
           }
         ],
-        "summary": "The healthcare sector faces mixed signals: infectious disease outbreaks (Congo Ebola) create near-term diagnostic and therapeutic opportunities for companies like TMO, while the Kennedy administration's regulatory focus on pesticides and public health oversight creates medium-term uncertainty for traditional pharma. M&A activity in biotech remains active but highlights sector consolidation pressures.",
+        "summary": "The healthcare sector shows mixed signals with significant tailwinds from Medicare's GLP-1 weight-loss coverage expansion (July 1, 2026), directly benefiting LLY and JNJ. However, regulatory headwinds persist through Medicaid work requirements litigation and enforcement actions against pharma kickback schemes, creating compliance risks. The surprise billing loophole presents structural cost pressures across the sector.",
         "risks": [
-          "Kennedy health secretary regulatory overreach deterring pharma investment",
-          "public health infrastructure failures reducing treatment access",
-          "market consolidation reducing competition",
-          "geopolitical instability in disease hotspots"
+          "Medicaid work requirements litigation could reduce enrollment and pharmaceutical demand",
+          "Increased regulatory enforcement and kickback settlements raise compliance costs",
+          "GLP-1 pricing pressure if utilization exceeds reimbursement expectations",
+          "Surprise billing law unintended consequences may drive policy reversal"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "JNJ signal assumes J&J has GLP-1 weight-loss products eligible for Medicare coverage, but source articles do not confirm this. The Medicare GLP-1 pilot article does not mention which manufacturers are included."
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "TMO": 506.4200134277344,
-        "JNJ": 258.510009765625,
-        "PFE": 24.3700008392334,
-        "MRK": 129.3800048828125
+        "LLY": 1199.4300537109375,
+        "UNH": 415.6300048828125,
+        "JNJ": 253.97000122070312,
+        "PFE": 24.079999923706055
       },
       "spot_check": {
-        "title": "Trump Issues Order to Reduce Pesticides in Food as Kennedy Allies Fume",
-        "summary": "The order, which calls for studying the health risks of pesticides in the food supply, does not involve new federal funding, and does not call for regulations or legislation.",
-        "url": "https://www.nytimes.com/2026/06/25/us/politics/trump-order-pesticides-rfk.html",
+        "title": "States Sue Trump Administration Over Medicaid Work Requirements",
+        "summary": "The lawsuit argues that new federal rules went beyond what Congress enacted and broke from guidance that the federal government previewed to states.",
+        "url": "https://www.nytimes.com/2026/06/30/us/politics/medicaid-work-requirements-lawsuit.html",
         "source": "Rss",
-        "published": "26 Jun 2026",
-        "sentiment_hint": "bearish",
+        "published": "30 Jun 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "TMO",
-          "company": "Thermo Fisher Scientific",
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Congo Ebola crisis and contact tracing gaps create demand for diagnostic and testing infrastructure solutions.",
+          "conviction": 82,
+          "rationale": "Medicare GLP-1 coverage expansion (July 1, 2026) significantly broadens addressable market for weight-loss drugs.",
           "key_themes": [
-            "infectious disease response",
-            "diagnostic demand",
-            "outbreak management"
+            "GLP-1 market expansion",
+            "Medicare reimbursement",
+            "weight-loss indication"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Congo Ebola crisis and contact tracing gaps create demand for diagnostic and testing infrastructure solutions.",
+        "haiku_rationale": "Medicare GLP-1 coverage expansion (July 1, 2026) significantly broadens addressable market for weight-loss drugs.",
         "haiku_themes": [
-          "infectious disease response",
-          "diagnostic demand",
-          "outbreak management"
+          "GLP-1 market expansion",
+          "Medicare reimbursement",
+          "weight-loss indication"
         ]
       },
       "config": {
@@ -524,28 +545,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Shipping Traffic in Strait of Hormuz Picks Up Again",
-          "summary": "Vessels stranded for months have started moving in larger numbers, but many pulled back over the weekend after Iran and the U.S. exchanged attacks.",
-          "url": "https://www.nytimes.com/2026/06/30/business/strait-hormuz-ships-iran-war.html",
+          "title": "What to Know About the U.S.-Mexico-Canada Agreement Talks",
+          "summary": "July 1 could be the beginning of the end for a trade pact President Trump has long criticized \u2014 or the start of a path to its renewal.",
+          "url": "https://www.nytimes.com/2026/07/01/business/economy/usmca-north-america-trade.html",
           "source": "Rss",
-          "published": "30 Jun 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Oil Prices Hold Steady as Iran and U.S. Prepare for Talks",
-          "summary": "Iran and the United States were set for further talks after a spurt of hostilities had underscored the uncertainty surrounding attempts to strike a lasting peace deal.",
-          "url": "https://www.nytimes.com/2026/06/30/business/oil-gas-prices-iran.html",
-          "source": "Rss",
-          "published": "30 Jun 2026",
+          "published": "01 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "How Grindr\u2019s C.E.O. Adopted A.I.: \u2018I Just Imposed It\u2019",
-          "summary": "George Arison, the gay dating app\u2019s chief executive, is aiming for all code to be eventually written by artificial intelligence, making the company \u201cleaner.\u201d",
-          "url": "https://www.nytimes.com/2026/06/30/business/grindr-ceo-george-arison-ai.html",
+          "title": "The South Korean Mine at the Center of America\u2019s Tungsten Push",
+          "summary": "Deep beneath a South Korean mountain, workers are reviving a mine that could challenge China\u2019s grip on a metal vital to weapons, chips and industry.",
+          "url": "https://www.nytimes.com/2026/07/01/business/tungsten-mine-south-korea.html",
           "source": "Rss",
-          "published": "30 Jun 2026",
-          "sentiment_hint": "bearish"
+          "published": "01 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Judges Strike Down Trump Rule on Loan Forgiveness for Public Servants",
+          "summary": "Two federal courts have blocked a new Trump administration rule that could have narrowed eligibility for a student loan forgiveness program for public servants.",
+          "url": "https://www.nytimes.com/2026/06/30/business/trump-student-loan-forgiveness.html",
+          "source": "Rss",
+          "published": "01 Jul 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -576,171 +597,95 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
+            "company": "JPMorgan Chase & Co.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Geopolitical tensions (Iran-U.S.) create near-term volatility; financial intermediary benefits from elevated trading activity.",
+            "rationale": "Trade policy uncertainty from USMCA renegotiation may impact loan portfolio and M&A advisory revenues.",
             "key_themes": [
-              "geopolitical risk",
-              "trading volatility",
-              "market uncertainty"
+              "trade policy uncertainty",
+              "regulatory environment"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 1
           },
           {
             "ticker": "BAC",
-            "company": "Bank of America",
+            "company": "Bank of America Corp.",
             "sentiment": "neutral",
             "conviction": 42,
-            "rationale": "Broad market volatility from AI concerns and geopolitical tensions may pressure equities but support trading revenues.",
+            "rationale": "Student loan forgiveness court ruling creates regulatory uncertainty affecting consumer lending strategies.",
             "key_themes": [
-              "market volatility",
-              "trading activity",
-              "economic uncertainty"
+              "regulatory uncertainty",
+              "consumer lending"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              4
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs",
+            "company": "Goldman Sachs Group Inc.",
             "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Investment banking and trading activity elevated by geopolitical tensions and tech sector volatility provide near-term support.",
+            "conviction": 40,
+            "rationale": "Trade policy volatility may increase M&A advisory opportunities but market uncertainty pressures valuations.",
             "key_themes": [
-              "market volatility",
-              "geopolitical risk",
-              "trading revenues"
+              "trade policy",
+              "M&A activity"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              4
-            ]
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 46,
-            "rationale": "Market-making and trading opportunities from AI sector rout and geopolitical uncertainty support near-term revenues.",
-            "key_themes": [
-              "tech sector volatility",
-              "trading activity",
-              "market dislocation"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              4
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 58,
-            "rationale": "Broad market selloff and geopolitical tensions create headwinds for consumer spending and payment volume growth.",
-            "key_themes": [
-              "market volatility",
-              "consumer uncertainty",
-              "economic slowdown risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims market selloff creates headwinds for consumer spending, but source articles do not establish causal link between market volatility and consumer spending impact. Articles cover geopolitical tensions and AI sector volatility but contain no data on consumer behavior or payment volume effects.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 56,
-            "rationale": "Market rout and geopolitical uncertainty dampen near-term consumer spending and transaction growth prospects.",
-            "key_themes": [
-              "market volatility",
-              "consumer demand risk",
-              "economic uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes market rout and geopolitical uncertainty directly dampen consumer spending and transaction growth, but source articles provide no evidence linking these events to consumer payment behavior or transaction volumes.",
-            "supporting_article": null
+            "supporting_article": 1
           }
         ],
-        "summary": "The financial sector faces near-term headwinds from converging risks: AI infrastructure concerns triggering broad equities selloff, geopolitical tensions (Iran-U.S.) creating crude oil and commodity volatility, and elevated market uncertainty. While investment banks (JPM, BAC, GS, MS) may benefit from increased trading activity and volatility, payment processors (V, MA) face downside risk as consumers retract spending amid market turbulence. The outlook remains cautious in the short-term with bifurcated dynamics between transaction processors and financial intermediaries.",
+        "summary": "The finance sector faces mixed headwinds from trade policy uncertainty, regulatory shifts, and broader market volatility. While traditional banking exposure to these macro themes creates some near-term uncertainty, payment processors and diversified financials are better positioned given limited direct exposure to the primary news drivers.",
         "risks": [
-          "Geopolitical escalation between Iran and U.S. could trigger broader market disruptions and flight-to-safety dynamics",
-          "Sustained AI sector volatility and capital reallocation away from tech could compress financial sector trading margins",
-          "Consumer spending deterioration amid market uncertainty would directly pressurize payment processor revenues",
-          "Oil price volatility from Strait of Hormuz tensions could trigger broader economic slowdown concerns"
+          "USMCA renegotiation outcomes",
+          "regulatory changes to student loan programs",
+          "broader market volatility from tech selloffs affecting wealth management revenues"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "Financial intermediaries (JPM, BAC, GS, MS) rationales are well-supported by articles showing geopolitical tensions and AI sector volatility creating trading opportunities",
-            "Payment processors (V, MA) rationales lack grounding: analyst assumes consumer spending will decline from market volatility, but no source articles provide evidence of consumer behavior impact or payment volume effects",
-            "The analyst extrapolates from market volatility to consumer spending without empirical support in the provided sources"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JPM": 329.3900146484375,
-        "BAC": 57.880001068115234,
-        "GS": 1020.2100219726562,
-        "MS": 211.72000122070312,
-        "V": 341.6499938964844,
-        "MA": 509.6400146484375
+        "JPM": 327.3299865722656,
+        "BAC": 56.97999954223633,
+        "GS": 1011.3699951171875
       },
       "spot_check": {
-        "title": "Shipping Traffic in Strait of Hormuz Picks Up Again",
-        "summary": "Vessels stranded for months have started moving in larger numbers, but many pulled back over the weekend after Iran and the U.S. exchanged attacks.",
-        "url": "https://www.nytimes.com/2026/06/30/business/strait-hormuz-ships-iran-war.html",
+        "title": "What to Know About the U.S.-Mexico-Canada Agreement Talks",
+        "summary": "July 1 could be the beginning of the end for a trade pact President Trump has long criticized \u2014 or the start of a path to its renewal.",
+        "url": "https://www.nytimes.com/2026/07/01/business/economy/usmca-north-america-trade.html",
         "source": "Rss",
-        "published": "30 Jun 2026",
-        "sentiment_hint": "bullish",
+        "published": "01 Jul 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa",
-          "sentiment": "bearish",
-          "conviction": 58,
-          "rationale": "Broad market selloff and geopolitical tensions create headwinds for consumer spending and payment volume growth.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sentiment": "neutral",
+          "conviction": 45,
+          "rationale": "Trade policy uncertainty from USMCA renegotiation may impact loan portfolio and M&A advisory revenues.",
           "key_themes": [
-            "market volatility",
-            "consumer uncertainty",
-            "economic slowdown risk"
+            "trade policy uncertainty",
+            "regulatory environment"
           ],
-          "time_horizon": "short-term",
-          "verified": false,
-          "verification_issue": "Rationale claims market selloff creates headwinds for consumer spending, but source articles do not establish causal link between market volatility and consumer spending impact. Articles cover geopolitical tensions and AI sector volatility but contain no data on consumer behavior or payment volume effects.",
-          "supporting_article": null
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Broad market selloff and geopolitical tensions create headwinds for consumer spending and payment volume growth.",
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "Trade policy uncertainty from USMCA renegotiation may impact loan portfolio and M&A advisory revenues.",
         "haiku_themes": [
-          "market volatility",
-          "consumer uncertainty",
-          "economic slowdown risk"
+          "trade policy uncertainty",
+          "regulatory environment"
         ]
       },
       "config": {
