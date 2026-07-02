@@ -2417,5 +2417,283 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-02",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "MacBook Pro redesign launching H1 2027 and new iPad Pro models in spring signal continued hardware innovation cycle.",
+            "key_themes": [
+              "product refresh",
+              "hardware innovation",
+              "internal improvements"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's organic search influence demonstrates competitive pressure; Google's AI search capabilities remain critical differentiator.",
+            "key_themes": [
+              "AI search",
+              "competitive dynamics",
+              "content monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims ChatGPT's organic search influence demonstrates competitive pressure on Google, but source article [1] describes ChatGPT recommending content, not competing with Google Search. The article does not establish competitive dynamics between ChatGPT and Google Search or validate Google's AI search capabilities as a differentiator.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 294.3800048828125,
+          "GOOGL": 361.2099914550781
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "CCS expansion at BKV Texas sites signals growing oilfield services demand for carbon capture technology",
+            "key_themes": [
+              "carbon capture services",
+              "energy transition infrastructure",
+              "Texas operations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [5] confirms BKV CCS operations in Texas, but does not mention Schlumberger or oilfield services demand. The rationale assumes SLB has involvement in these CCS sites without source support.",
+            "supporting_article": 5
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Middle East crude price weakness benefits refiner margins but pressures upstream production economics",
+            "key_themes": [
+              "crude price pressure",
+              "refining exposure",
+              "geopolitical stability"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Beneficiary of Strait of Hormuz stability and Asian demand surge, but offset by falling crude prices",
+            "key_themes": [
+              "Asian demand growth",
+              "crude export volumes",
+              "price pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "SLB": 45.09000015258789,
+          "COP": 103.22000122070312,
+          "TTE": 74.80000305175781
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Medicare coverage of GLP-1 drugs for weight loss starting July 1 significantly expands addressable market for Mounjaro/Zepbound.",
+            "key_themes": [
+              "GLP-1 expansion",
+              "Medicare coverage",
+              "weight loss indication"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "ADC manufacturing expansion by Lonza may benefit MRK's oncology pipeline, but impact unclear without specific partnership details.",
+            "key_themes": [
+              "ADC manufacturing",
+              "oncology pipeline"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [6] mentions Lonza's ADC manufacturing expansion with an unnamed US drugmaker, but does not identify Merck as the partner or confirm Merck benefits from this partnership",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Surprise billing law loophole creating payment inefficiencies signals need for healthcare cost reform, pressuring medical device/pharma margins.",
+            "key_themes": [
+              "surprise billing reform",
+              "cost pressures",
+              "regulatory scrutiny"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "States suing over Medicaid work requirements creates regulatory uncertainty and potential coverage/enrollment reductions for managed care operations.",
+            "key_themes": [
+              "Medicaid uncertainty",
+              "regulatory risk",
+              "enrollment pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1191.739990234375,
+          "MRK": 125.37000274658203,
+          "JNJ": 253.97999572753906,
+          "UNH": 426.5400085449219
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Market volatility from AI sector rout creates trading opportunities and advisory revenues for major investment banks.",
+            "key_themes": [
+              "market volatility",
+              "M&A advisory",
+              "trading desk activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Tech sector selloff and luxury M&A activity (Chanel-Charvet deal) drive investment banking and advisory revenues.",
+            "key_themes": [
+              "luxury M&A",
+              "market volatility",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Broad market selloff and corporate M&A activity in luxury sector support institutional client advisory services.",
+            "key_themes": [
+              "market volatility",
+              "M&A pipeline",
+              "client fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility may temporarily dampen transaction volumes, but no direct exposure to AI rout or luxury M&A activity.",
+            "key_themes": [
+              "payment volumes",
+              "market sentiment"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes market volatility will dampen transaction volumes, but articles do not provide evidence linking stock market volatility to payment transaction volumes or provide data on Visa's exposure to these dynamics",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; luxury spending and M&A deal activity could support volumes, but offset by broader market weakness.",
+            "key_themes": [
+              "payment volumes",
+              "market sentiment"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes luxury spending will support volumes and that market weakness will offset gains, but articles provide no data on Mastercard's exposure to luxury spending or payment volume trends during market volatility",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 334.07000732421875,
+          "GS": 1019.6099853515625,
+          "MS": 211.86000061035156,
+          "V": 351.0799865722656,
+          "MA": 522.4400024414062
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
