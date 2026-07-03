@@ -2695,5 +2695,260 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-03",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT organic traffic displacement creates competitive pressure; Google's AI search integration becomes critical differentiator.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic monetization",
+              "AI tool ecosystem"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "New AI-focused Pocket app demonstrates aggressive AI product expansion; CEO commitment to AI platform differentiation.",
+            "key_themes": [
+              "AI product innovation",
+              "content creation tools",
+              "interactive AI applications"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ChatGPT's organic traffic success validates OpenAI partnership value, but also highlights competitive AI content discovery challenges.",
+            "key_themes": [
+              "AI monetization",
+              "competitive dynamics",
+              "content creation platforms"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial support only - Article confirms ChatGPT organic traffic success but does not address competitive AI content discovery challenges or Microsoft-specific implications",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 359.9100036621094,
+          "META": 582.9000244140625,
+          "MSFT": 390.489990234375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Canadian Pacific pipeline approval expands market access for North American oil producers to Asia.",
+            "key_themes": [
+              "pipeline expansion",
+              "Asian market access",
+              "Canadian upstream"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Japan's LNG imports falling 7% as utilities shift to cheaper coal; elevated LNG prices persist.",
+            "key_themes": [
+              "LNG demand weakness",
+              "coal competition",
+              "pricing pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Extreme heat wave driving maximum generation alerts; boosts near-term energy demand and pricing.",
+            "key_themes": [
+              "demand spike",
+              "power generation",
+              "weather-driven commodity demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes PJM grid alerts for electricity generation during heat wave, not oil/energy commodity demand. ExxonMobil is primarily an oil company; the rationale conflates electric grid demand with oil demand without evidence of connection in source material.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "COP": 104.7300033569336,
+          "TTE": 76.69000244140625,
+          "XOM": 137.08999633789062
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Opioid addiction treatments losing efficacy as tolerance increases, threatening J&J's pain management portfolio",
+            "key_themes": [
+              "opioid crisis",
+              "drug tolerance",
+              "addiction treatment inefficacy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Medicaid work requirements lawsuit creates regulatory uncertainty and potential coverage/enrollment disruptions",
+            "key_themes": [
+              "regulatory risk",
+              "Medicaid policy",
+              "legal challenges"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ADC manufacturing capacity expansion by Lonza signals rising demand for antibody-drug conjugate production capabilities",
+            "key_themes": [
+              "ADC demand growth",
+              "manufacturing expansion",
+              "oncology therapeutics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] discusses Lonza's ADC manufacturing expansion, not Thermo Fisher Scientific. No evidence that TMO is involved in or benefits from this capacity expansion. The rationale incorrectly attributes Lonza's partnership expansion to TMO.",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Not prominently featured in articles; oncology reputation rankings show competitive pressure but no direct impact signal",
+            "key_themes": [
+              "competitive oncology market"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 263.0400085449219,
+          "UNH": 425.3599853515625,
+          "TMO": 523.4400024414062,
+          "MRK": 129.55999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI sector rout may increase banking advisory and trading revenues, offsetting potential loan stress.",
+            "key_themes": [
+              "market volatility",
+              "trading opportunity",
+              "economic uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims market volatility from AI sector rout may increase banking advisory and trading revenues. While Article [4] confirms AI sector rout occurred, no source article discusses impacts on JPMorgan Chase's advisory or trading revenues.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Broad market decline and potential recession fears from overheated market cycles pose headwinds to loan growth and deposits.",
+            "key_themes": [
+              "market correction risk",
+              "economic cycle concerns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Market panic presents opportunity for value-oriented capital deployment; defensive positioning benefits from tech sector volatility.",
+            "key_themes": [
+              "market dislocation",
+              "value opportunity",
+              "defensive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 334.4700012207031,
+          "BAC": 58.72999954223633,
+          "BRK-B": 507.7799987792969
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

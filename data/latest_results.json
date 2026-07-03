@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-07-02",
-  "run_time": "2026-07-02T10:09:38.235025Z",
+  "run_date": "2026-07-03",
+  "run_time": "2026-07-03T09:56:11.843789Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,85 +29,101 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Amazon has enough satellites to launch its Starlink competitor",
-          "summary": "Amazon says it now has enough satellites operating in low-Earth orbit to light up its Starlink internet competitor. With last night's launch, Amazon Leo has 396 satellites deployed, which is \"enough to support continuous service across initial latitudes,\" according to Chris Weber, VP heading up business and product for Amazon Leo. That puts the company [&#8230;]",
-          "url": "https://www.theverge.com/science/960563/amazon-leo-service-tipping-point",
+          "title": "Sony\u2019s PlayStation disc factory is already being repurposed",
+          "summary": "The video game disc is dead, and Sony's been planning to kill it for some time, according to a report out of Austria. The man who leads Sony's discmaking operations, Sony DADC president Dietmar Tanzer, told ORF Salzburg that the company's Thalgau plant produces 600,000 discs every day, half of which are for PlayStation. But [&#8230;]",
+          "url": "https://www.theverge.com/games/961203/sony-austria-thalgau-end-disc-production-microlenses-instead",
+          "source": "Theverge",
+          "published": "03 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Tesla driver faces manslaughter charges over Texas crash that killed a woman inside her home",
+          "summary": "The man whose Tesla struck and killed a woman inside her Texas home last month is now facing manslaughter charges, as reported earlier by The Wall Street Journal and local news outlet KHOU 11. 44-year-old Michael Butler was arrested on Wednesday and claimed to have been driving his Model 3 using Tesla's Full-Self Driving (FSD) [&#8230;]",
+          "url": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges",
           "source": "Theverge",
           "published": "02 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Apple\u2019s entry-level MacBook Pro could be up for a redesign",
-          "summary": "Apple is working on a \"revamped\" version of its entry-level MacBook Pro that it could launch as soon as the first half of 2027, Bloomberg reports. The company is also testing four new iPad Pros that are set to launch in the spring with a focus on \"internal improvements.\" The updated MacBook Pro, which will [&#8230;]",
-          "url": "https://www.theverge.com/news/960541/apple-macbook-pro-entry-level-redesign-ipad-pro-update",
+          "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket",
+          "summary": "Mozilla shut down the well-loved read-it-later Pocket app last year, and now Meta is launching an app called Pocket with an entirely different, AI-focused pitch: this new app lets you make and share little interactive \"gizmos\" built from an AI prompt, as reported by Business Insider. Meta CEO Mark Zuckerberg is all in on AI [&#8230;]",
+          "url": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
           "source": "Theverge",
-          "published": "01 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "The funeral for PlayStation discs has begun",
-          "summary": "Cody Spencer, the co-owner of the small games retail chain Pink Gorilla Games, put it well when I asked about the impact of Sony's recent announcement that it will stop making discs for new games starting January 2028. \"It's sad to see. This decision is only a negative for gamers. We're losing the ability to [&#8230;]",
-          "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores",
-          "source": "Theverge",
-          "published": "01 Jul 2026",
+          "published": "02 Jul 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "MacBook Pro redesign launching H1 2027 and new iPad Pro models in spring signal continued hardware innovation cycle.",
+            "rationale": "ChatGPT organic traffic displacement creates competitive pressure; Google's AI search integration becomes critical differentiator.",
             "key_themes": [
-              "product refresh",
-              "hardware innovation",
-              "internal improvements"
+              "AI search competition",
+              "organic traffic monetization",
+              "AI tool ecosystem"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 5
+            "supporting_article": 1
           },
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
             "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "ChatGPT's organic search influence demonstrates competitive pressure; Google's AI search capabilities remain critical differentiator.",
+            "rationale": "New AI-focused Pocket app demonstrates aggressive AI product expansion; CEO commitment to AI platform differentiation.",
             "key_themes": [
-              "AI search",
-              "competitive dynamics",
-              "content monetization"
+              "AI product innovation",
+              "content creation tools",
+              "interactive AI applications"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims ChatGPT's organic search influence demonstrates competitive pressure on Google, but source article [1] describes ChatGPT recommending content, not competing with Google Search. The article does not establish competitive dynamics between ChatGPT and Google Search or validate Google's AI search capabilities as a differentiator.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ChatGPT's organic traffic success validates OpenAI partnership value, but also highlights competitive AI content discovery challenges.",
+            "key_themes": [
+              "AI monetization",
+              "competitive dynamics",
+              "content creation platforms"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial support only - Article confirms ChatGPT organic traffic success but does not address competitive AI content discovery challenges or Microsoft-specific implications",
+            "supporting_article": 1
           }
         ],
-        "summary": "The articles reveal a maturing AI-driven digital landscape where content discovery and creation tools are reshaping user behavior, creating both opportunities and competitive pressures in search and productivity software. Hardware manufacturers like Apple are responding with product refreshes, while AI capabilities remain central to competitive positioning across consumer and enterprise segments.",
+        "summary": "The articles reveal a fundamental shift in how AI systems (particularly ChatGPT) are capturing organic traffic and user attention, creating both opportunities and competitive pressures for major tech platforms. Meta's aggressive push into AI-powered interactive applications and Google's need to respond to AI-driven search disruption are the dominant themes. However, articles 4-5 introduce non-tech sector developments (gaming hardware decline, autonomous vehicle litigation) that are outside core tech valuations.",
         "risks": [
-          "AI-powered search commoditization reducing reliance on traditional search advertising",
-          "Rapid AI tool proliferation increasing competition and margin pressure",
-          "Limited clarity on near-term monetization of AI content creation platforms"
+          "AI traffic displacement could cannibalize traditional search and social advertising revenue models",
+          "Regulatory scrutiny on AI content generation, data usage, and liability (Tesla FSD precedent suggests emerging legal exposure)",
+          "Consolidation of AI capabilities around few dominant players (OpenAI/Microsoft/Google) may limit differentiation opportunities"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "GOOGL signal conflates ChatGPT content recommendation with Google Search competition\u2014these are different contexts",
-            "No source material substantiates Google's AI search capabilities or their role as a competitive differentiator",
-            "The ChatGPT example describes AI-driven recommendations within ChatGPT itself, not displacement of Google Search results"
+            "MSFT rationale references 'competitive AI content discovery challenges' but source article focuses on ChatGPT's traffic benefits without discussing competitive dynamics or challenges to Microsoft's position",
+            "GOOGL signal extrapolates from ChatGPT traffic displacement to broader claims about Google's AI search integration as 'critical differentiator' - source only shows one anecdotal example, not systematic displacement threat"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "AAPL": 294.3800048828125,
-        "GOOGL": 361.2099914550781
+        "GOOGL": 359.9100036621094,
+        "META": 582.9000244140625,
+        "MSFT": 390.489990234375
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -117,27 +133,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "MacBook Pro redesign launching H1 2027 and new iPad Pro models in spring signal continued hardware innovation cycle.",
+          "rationale": "ChatGPT organic traffic displacement creates competitive pressure; Google's AI search integration becomes critical differentiator.",
           "key_themes": [
-            "product refresh",
-            "hardware innovation",
-            "internal improvements"
+            "AI search competition",
+            "organic traffic monetization",
+            "AI tool ecosystem"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 5
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "MacBook Pro redesign launching H1 2027 and new iPad Pro models in spring signal continued hardware innovation cycle.",
+        "haiku_rationale": "ChatGPT organic traffic displacement creates competitive pressure; Google's AI search integration becomes critical differentiator.",
         "haiku_themes": [
-          "product refresh",
-          "hardware innovation",
-          "internal improvements"
+          "AI search competition",
+          "organic traffic monetization",
+          "AI tool ecosystem"
         ]
       },
       "config": {
@@ -157,84 +173,68 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz",
-          "summary": "About 10 million barrels of Saudi crude have cleared the Strait of Hormuz in recent days, as supertankers continue to load oil from the Saudi port of Ras Tanura in the Persian Gulf and Saudi Arabia is ramping up oil exports to Asia. Saudi oil giant Aramco, the world's single largest crude oil exporter, has already managed to ship at least five supertankers from Ras Tanura through the Strait of Hormuz, Reuters reported on Thursday, citing shipping data and trade sources. At least another four sup",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Rushes-Crude-Exports-Through-Reopened-Strait-of-Hormuz.html",
+          "title": "PJM on Maximum Alert to Prevent Outages Amid Extreme Heat Wave",
+          "summary": "PJM Interconnection, the operator of the largest U.S. electric grid, has issued a maximum generation alert for July 3 asking power producers to maximize electricity generation amid soaring demand in the current extreme heat wave. PJM had a Maximum Generation Alert and Load Management Alert in effect for July 2 across its footprint in the eastern U.S. and Midwest. These alerts have now been issued for the PJM footprint for July 3, too. While the alert does not require any action from customers, g",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/PJM-on-Maximum-Alert-to-Prevent-Outages-Amid-Extreme-Heat-Wave.html",
           "source": "Oilprice",
-          "published": "02 Jul 2026",
+          "published": "03 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "AI Boom Drives Record Surge in Battery Demand",
-          "summary": "Battery demand has soared in recent months as developers of data centers and AI computing are increasingly relying on battery energy storage to manage power surges, executives at battery start-ups have told the Financial Times. For example, U.S.-based sodium-ion battery start-up Alsym Energy, backed by investments from India\u2019s Tata Group, has seen demand surge this year, as developers want energy storage to support their operations at times of extreme power fluctuations. \u201cBattery has become an e",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/AI-Boom-Drives-Record-Surge-in-Battery-Demand.html",
+          "title": "Japan's LNG Imports Fall 7% as Utilities Chase Cheaper Coal",
+          "summary": "Japan last month reduced gas-fired generation in favor of coal as the price of liquefied natural gas remained elevated despite multiple reports of energy flows out of the Strait of Hormuz improving. The country generated 17.3 terawatt-hours from gas-fired power plants in June, Bloomberg reported, which was down by 16% on June 2025. Coal-fired generation, meanwhile, went up by 4.6%, according to data from the nine largest Japanese power utilities. Japan has been burning more coal and less gas for",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-LNG-Imports-Fall-7-as-Utilities-Chase-Cheaper-Coal.html",
           "source": "Oilprice",
-          "published": "02 Jul 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Chinese Teapots Snap Up Middle East Crude As Prices Slide",
-          "summary": "Chinese private refiners are buying Middle Eastern crude on the spot market amid falling prices, Bloomberg reported today, citing two purchases of Saudi and Emirati crude. According to the report, one teapot refiner, Rongsheng Petrochemical Co. bought a cargo of Saudi crude for prompt delivery this month, and another, Shengdong petrochemical Group Co. snapped up an Emirati Upper Zakum crude cargo. A third private refiner from China bought a cargo of Iraqi Basrah crude for delivery next month, un",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Teapots-Snap-Up-Middle-East-Crude-As-Prices-Slide.html",
-          "source": "Oilprice",
-          "published": "02 Jul 2026",
+          "published": "03 Jul 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Can Brazil become a key rare earth supplier for the West?",
-          "summary": "We explore Brazil's growing role in the global rare earth industry and whether it can become a key supplier to Western markets.",
-          "url": "https://www.energymonitor.ai/news/can-brazil-become-a-key-rare-earth-supplier-for-the-west/",
-          "source": "Energymonitor",
-          "published": "01 Jul 2026",
+          "title": "Alberta and Ottawa Greenlight New Pacific Pipeline",
+          "summary": "Alberta\u2019s Premier Danielle Smith and federal Prime Minister Mark Carney have made the official announcement of a new oil pipeline, to be built to Canada\u2019s Pacific coast, broadening the access of Canadian oil producers to the Asian market. The decision is a departure from previous Liberal governments\u2019 energy agenda, which excluded the expansion of oil pipelines due to pressure from environmentalist groups and a focus on the energy transition away from hydrocarbons. Despite his firm support for th",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-and-Ottawa-Greenlight-New-Pacific-Pipeline.html",
+          "source": "Oilprice",
+          "published": "03 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "BKV begins operations at two new CCS sites in Texas",
-          "summary": "BKV, a Colorado-based energy company, has begun operations at two new carbon capture and sequestration (CCS) facilities in Texas.",
-          "url": "https://www.energymonitor.ai/news/bkv-begins-operations-ccs-texas/",
+          "title": "Exus Renewables and Pure Energy partner on energy management",
+          "summary": "Exus Renewables has entered into a commercial partnership with Pure Energy to deliver a unified service for renewable asset management.",
+          "url": "https://www.energymonitor.ai/news/exus-pure-energy-partner/",
           "source": "Energymonitor",
-          "published": "01 Jul 2026",
+          "published": "03 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Siemens Energy to supply technology for two Oman power plants",
-          "summary": "Siemens Energy has agreed to provide major power generation technology and long-term service for two new IPP projects in Oman.",
-          "url": "https://www.energymonitor.ai/news/siemens-supply-technology-oman-plants/",
+          "title": "EnergyPathways advances MESH project after gas storage licence award",
+          "summary": "EnergyPathways has announced its formal acceptance of a gas storage licence offer for its MESH project in the East Irish Sea.",
+          "url": "https://www.energymonitor.ai/news/energypathways-advances-mesh-project/",
           "source": "Energymonitor",
-          "published": "01 Jul 2026",
+          "published": "02 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "National Grid opens consultation on revised LionLink plans",
+          "summary": "National Grid has announced the launch of a targeted consultation focused on proposed changes to its LionLink project in Suffolk, UK.",
+          "url": "https://www.energymonitor.ai/news/national-grid-opens-consultation-lionlink/",
+          "source": "Energymonitor",
+          "published": "02 Jul 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "CCS expansion at BKV Texas sites signals growing oilfield services demand for carbon capture technology",
-            "key_themes": [
-              "carbon capture services",
-              "energy transition infrastructure",
-              "Texas operations"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [5] confirms BKV CCS operations in Texas, but does not mention Schlumberger or oilfield services demand. The rationale assumes SLB has involvement in these CCS sites without source support.",
-            "supporting_article": 5
-          },
-          {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Middle East crude price weakness benefits refiner margins but pressures upstream production economics",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Canadian Pacific pipeline approval expands market access for North American oil producers to Asia.",
             "key_themes": [
-              "crude price pressure",
-              "refining exposure",
-              "geopolitical stability"
+              "pipeline expansion",
+              "Asian market access",
+              "Canadian upstream"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 3
@@ -242,71 +242,85 @@
           {
             "ticker": "TTE",
             "company": "TotalEnergies",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Beneficiary of Strait of Hormuz stability and Asian demand surge, but offset by falling crude prices",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Japan's LNG imports falling 7% as utilities shift to cheaper coal; elevated LNG prices persist.",
             "key_themes": [
-              "Asian demand growth",
-              "crude export volumes",
-              "price pressure"
+              "LNG demand weakness",
+              "coal competition",
+              "pricing pressure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Extreme heat wave driving maximum generation alerts; boosts near-term energy demand and pricing.",
+            "key_themes": [
+              "demand spike",
+              "power generation",
+              "weather-driven commodity demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes PJM grid alerts for electricity generation during heat wave, not oil/energy commodity demand. ExxonMobil is primarily an oil company; the rationale conflates electric grid demand with oil demand without evidence of connection in source material.",
             "supporting_article": 1
           }
         ],
-        "summary": "The petroleum sector faces mixed signals: increased Middle East crude exports and Asian demand provide volume tailwinds, but falling crude prices create headwinds for upstream producers. Energy transition themes (battery demand surge, CCS expansion) offer medium-term growth avenues for integrated majors and service providers, though these remain nascent compared to traditional operations.",
+        "summary": "Mixed signals emerge from global energy markets: North American oil producers benefit from Canadian pipeline greenlight expanding Asian export capacity, while LNG exporters face headwinds from Japanese fuel-switching to coal and sustained price elevation. Short-term energy demand spikes from extreme heat provide near-term support for integrated majors.",
         "risks": [
-          "Crude price weakness eroding upstream margins and capex discipline",
-          "Battery/renewable energy substitution reducing long-term oil demand",
-          "Geopolitical disruptions in Strait of Hormuz and Middle East supply chains",
-          "Chinese refiner competition on spot markets pressuring global pricing"
+          "LNG demand destruction from coal substitution accelerating",
+          "geopolitical disruption to Strait of Hormuz flows materializing",
+          "energy transition policies reversing recent pipeline approval momentum"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "SLB signal lacks grounding: Article [5] mentions BKV CCS operations but does not identify any technology supplier or oilfield services company involvement. The claim that this signals demand for Schlumberger's services is unsupported.",
-            "COP and TTE signals are supported by articles [3] and [1] respectively, which document crude price weakness and export volume/Asian demand dynamics."
+            "XOM signal assumes heat wave electricity demand translates to oil demand/pricing, but source article only discusses electric grid operations, not petroleum markets"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "SLB": 45.09000015258789,
-        "COP": 103.22000122070312,
-        "TTE": 74.80000305175781
+        "COP": 104.7300033569336,
+        "TTE": 76.69000244140625,
+        "XOM": 137.08999633789062
       },
       "spot_check": {
-        "title": "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz",
-        "summary": "About 10 million barrels of Saudi crude have cleared the Strait of Hormuz in recent days, as supertankers continue to load oil from the Saudi port of Ras Tanura in the Persian Gulf and Saudi Arabia is ramping up oil exports to Asia. Saudi oil giant Aramco, the world's single largest crude oil exporter, has already managed to ship at least five supertankers from Ras Tanura through the Strait of Hormuz, Reuters reported on Thursday, citing shipping data and trade sources. At least another four sup",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Rushes-Crude-Exports-Through-Reopened-Strait-of-Hormuz.html",
+        "title": "PJM on Maximum Alert to Prevent Outages Amid Extreme Heat Wave",
+        "summary": "PJM Interconnection, the operator of the largest U.S. electric grid, has issued a maximum generation alert for July 3 asking power producers to maximize electricity generation amid soaring demand in the current extreme heat wave. PJM had a Maximum Generation Alert and Load Management Alert in effect for July 2 across its footprint in the eastern U.S. and Midwest. These alerts have now been issued for the PJM footprint for July 3, too. While the alert does not require any action from customers, g",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/PJM-on-Maximum-Alert-to-Prevent-Outages-Amid-Extreme-Heat-Wave.html",
         "source": "Oilprice",
-        "published": "02 Jul 2026",
+        "published": "03 Jul 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "SLB",
-          "company": "Schlumberger Limited",
+          "ticker": "COP",
+          "company": "ConocoPhillips",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "CCS expansion at BKV Texas sites signals growing oilfield services demand for carbon capture technology",
+          "rationale": "Canadian Pacific pipeline approval expands market access for North American oil producers to Asia.",
           "key_themes": [
-            "carbon capture services",
-            "energy transition infrastructure",
-            "Texas operations"
+            "pipeline expansion",
+            "Asian market access",
+            "Canadian upstream"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [5] confirms BKV CCS operations in Texas, but does not mention Schlumberger or oilfield services demand. The rationale assumes SLB has involvement in these CCS sites without source support.",
-          "supporting_article": 5
+          "time_horizon": "long-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "CCS expansion at BKV Texas sites signals growing oilfield services demand for carbon capture technology",
+        "haiku_rationale": "Canadian Pacific pipeline approval expands market access for North American oil producers to Asia.",
         "haiku_themes": [
-          "carbon capture services",
-          "energy transition infrastructure",
-          "Texas operations"
+          "pipeline expansion",
+          "Asian market access",
+          "Canadian upstream"
         ]
       },
       "config": {
@@ -326,6 +340,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Regular Users Can Tolerate Previously \u2018Unsurvivable\u2019 Amounts of Fentanyl",
+          "summary": "New research shows that tolerance has become so strong that common treatments for opioid addiction are no longer effective for many patients.",
+          "url": "https://www.nytimes.com/2026/07/02/health/fentanyl-opioid-research-los-angeles.html",
+          "source": "Rss",
+          "published": "02 Jul 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
           "title": "States Sue Trump Administration Over Medicaid Work Requirements",
           "summary": "The lawsuit argues that new federal rules went beyond what Congress enacted and broke from guidance that the federal government previewed to states.",
           "url": "https://www.nytimes.com/2026/06/30/us/politics/medicaid-work-requirements-lawsuit.html",
@@ -340,14 +362,6 @@
           "source": "Rss",
           "published": "29 Jun 2026",
           "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Medicare Begins Coverage of GLP-1 Drugs for Weight Loss July 1: What to Know",
-          "summary": "What you should know about the federal government\u2019s pilot program offering GLP-1s solely for weight loss.",
-          "url": "https://www.nytimes.com/2026/05/15/business/glp-1-weight-loss-drugs-cost-medicare.html",
-          "source": "Rss",
-          "published": "15 May 2026",
-          "sentiment_hint": "bearish"
         },
         {
           "title": "<a href=\"https://www.fiercepharma.com/marketing/roche-tops-oncology-reputation-rankings-astrazeneca-climbs-back-2nd-place\" hreflang=\"en\">Roche tops oncology reputation rankings as AstraZeneca climbs back to 2nd place</a>",
@@ -377,46 +391,31 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
-            "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "Medicare coverage of GLP-1 drugs for weight loss starting July 1 significantly expands addressable market for Mounjaro/Zepbound.",
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Opioid addiction treatments losing efficacy as tolerance increases, threatening J&J's pain management portfolio",
             "key_themes": [
-              "GLP-1 expansion",
-              "Medicare coverage",
-              "weight loss indication"
+              "opioid crisis",
+              "drug tolerance",
+              "addiction treatment inefficacy"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 1
           },
           {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "ADC manufacturing expansion by Lonza may benefit MRK's oncology pipeline, but impact unclear without specific partnership details.",
-            "key_themes": [
-              "ADC manufacturing",
-              "oncology pipeline"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [6] mentions Lonza's ADC manufacturing expansion with an unnamed US drugmaker, but does not identify Merck as the partner or confirm Merck benefits from this partnership",
-            "supporting_article": null
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
             "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Surprise billing law loophole creating payment inefficiencies signals need for healthcare cost reform, pressuring medical device/pharma margins.",
+            "conviction": 65,
+            "rationale": "Medicaid work requirements lawsuit creates regulatory uncertainty and potential coverage/enrollment disruptions",
             "key_themes": [
-              "surprise billing reform",
-              "cost pressures",
-              "regulatory scrutiny"
+              "regulatory risk",
+              "Medicaid policy",
+              "legal challenges"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -424,73 +423,87 @@
             "supporting_article": 2
           },
           {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bearish",
-            "conviction": 71,
-            "rationale": "States suing over Medicaid work requirements creates regulatory uncertainty and potential coverage/enrollment reductions for managed care operations.",
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ADC manufacturing capacity expansion by Lonza signals rising demand for antibody-drug conjugate production capabilities",
             "key_themes": [
-              "Medicaid uncertainty",
-              "regulatory risk",
-              "enrollment pressure"
+              "ADC demand growth",
+              "manufacturing expansion",
+              "oncology therapeutics"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] discusses Lonza's ADC manufacturing expansion, not Thermo Fisher Scientific. No evidence that TMO is involved in or benefits from this capacity expansion. The rationale incorrectly attributes Lonza's partnership expansion to TMO.",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Not prominently featured in articles; oncology reputation rankings show competitive pressure but no direct impact signal",
+            "key_themes": [
+              "competitive oncology market"
+            ],
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 4
           }
         ],
-        "summary": "Healthcare sector faces mixed signals: GLP-1 Medicare expansion is significantly bullish for obesity treatment companies, particularly LLY, but regulatory headwinds around Medicaid policy and billing reform create near-term uncertainty for insurers and hospital-based providers. The sector faces elevated compliance and reimbursement risks that could pressure margins.",
+        "summary": "Healthcare sector faces mixed signals: regulatory headwinds from Medicaid policy disputes and opioid treatment failures present near-term headwinds, while oncology biotech and contract manufacturing benefit from strong ADC pipeline momentum. Reputation rankings indicate competitive intensity in cancer therapeutics without clear winners among the listed stocks.",
         "risks": [
-          "Medicaid policy litigation could expand beyond current lawsuit, creating broader state-federal tensions",
-          "GLP-1 adoption rates may be slower than anticipated due to Medicare pilot program structure",
-          "Further surprise billing reforms could compress healthcare provider profitability",
-          "Political changes post-2026 could reverse or modify GLP-1 coverage policies"
+          "Escalating Medicaid litigation could impact health insurer reimbursement models",
+          "Opioid market contraction may accelerate faster than anticipated for pain management companies",
+          "ADC manufacturing capacity may not translate to revenue if pipeline disappoints"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Merck (MRK) signal assumes partnership with Lonza without confirmation from source material. Article [6] explicitly states the US drugmaker partner is unnamed, making this rationale speculative rather than grounded in facts."
+            "TMO signal appears to be based on misidentification of company - Lonza (not Thermo Fisher) is expanding ADC manufacturing capacity with an unnamed U.S. drugmaker",
+            "No evidence provided that Thermo Fisher Scientific is the unnamed U.S. drugmaker mentioned in article [6]"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "LLY": 1191.739990234375,
-        "MRK": 125.37000274658203,
-        "JNJ": 253.97999572753906,
-        "UNH": 426.5400085449219
+        "JNJ": 263.0400085449219,
+        "UNH": 425.3599853515625,
+        "TMO": 523.4400024414062,
+        "MRK": 129.55999755859375
       },
       "spot_check": {
-        "title": "States Sue Trump Administration Over Medicaid Work Requirements",
-        "summary": "The lawsuit argues that new federal rules went beyond what Congress enacted and broke from guidance that the federal government previewed to states.",
-        "url": "https://www.nytimes.com/2026/06/30/us/politics/medicaid-work-requirements-lawsuit.html",
+        "title": "Regular Users Can Tolerate Previously \u2018Unsurvivable\u2019 Amounts of Fentanyl",
+        "summary": "New research shows that tolerance has become so strong that common treatments for opioid addiction are no longer effective for many patients.",
+        "url": "https://www.nytimes.com/2026/07/02/health/fentanyl-opioid-research-los-angeles.html",
         "source": "Rss",
-        "published": "30 Jun 2026",
-        "sentiment_hint": "neutral",
+        "published": "02 Jul 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly",
-          "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "Medicare coverage of GLP-1 drugs for weight loss starting July 1 significantly expands addressable market for Mounjaro/Zepbound.",
+          "ticker": "JNJ",
+          "company": "Johnson & Johnson",
+          "sentiment": "bearish",
+          "conviction": 72,
+          "rationale": "Opioid addiction treatments losing efficacy as tolerance increases, threatening J&J's pain management portfolio",
           "key_themes": [
-            "GLP-1 expansion",
-            "Medicare coverage",
-            "weight loss indication"
+            "opioid crisis",
+            "drug tolerance",
+            "addiction treatment inefficacy"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Medicare coverage of GLP-1 drugs for weight loss starting July 1 significantly expands addressable market for Mounjaro/Zepbound.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Opioid addiction treatments losing efficacy as tolerance increases, threatening J&J's pain management portfolio",
         "haiku_themes": [
-          "GLP-1 expansion",
-          "Medicare coverage",
-          "weight loss indication"
+          "opioid crisis",
+          "drug tolerance",
+          "addiction treatment inefficacy"
         ]
       },
       "config": {
@@ -510,28 +523,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "A.I. Is Reshaping the Economy. Good Luck Measuring How.",
-          "summary": "Some data suggest artificial intelligence is already causing job losses. Other sources show the opposite. Why is it so hard to figure out what\u2019s going on?",
-          "url": "https://www.nytimes.com/2026/07/02/business/economy/ai-economy-data.html",
+          "title": "Will Late-Night TV Work on YouTube?",
+          "summary": "Julian Shapiro-Barnum, best known for a social media series called \u201cRecess Therapy,\u201d has started an online-only late-night show.",
+          "url": "https://www.nytimes.com/2026/07/03/business/media/youtube-julian-shapiro-barnum-late-night.html",
           "source": "Rss",
-          "published": "02 Jul 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Jaguar\u2019s Electric Future: Curves Are Out, and Blunt Is In",
-          "summary": "The storied British automaker is going all-electric, and this fall it will unveil its new flagship, with deliveries coming next year. The strategy is distinctive but risky and has drawn some prominent detractors.",
-          "url": "https://www.nytimes.com/2026/07/02/business/jaguar-electric-cars.html",
-          "source": "Rss",
-          "published": "02 Jul 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Chanel Is Buying Charvet,\u00a0the World\u2019s Oldest Shirt Maker",
-          "summary": "The French luxury group is acquiring Charvet, a Parisian brand that dates to the 1830s, in a bid to add some men\u2019s wear savoir-faire to its portfolio.",
-          "url": "https://www.nytimes.com/2026/07/02/style/chanel-charvet-acquisition.html",
-          "source": "Rss",
-          "published": "02 Jul 2026",
+          "published": "03 Jul 2026",
           "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Why One Global Shipping Choke Point Isn\u2019t a Blueprint for Another",
+          "summary": "The Strait of Malacca may be a model for how Oman and Iran could collect fees in the Strait of Hormuz, but the differences between the waterways are vast.",
+          "url": "https://www.nytimes.com/2026/07/03/business/strait-malacca-hormuz.html",
+          "source": "Rss",
+          "published": "03 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "The Hottest Stock Markets Lead to the Biggest Losses",
+          "summary": "Investor enthusiasm culminated in some of the worst cases of wealth destruction in the last 100 years, a long-running study shows.",
+          "url": "https://www.nytimes.com/2026/07/03/business/stocks-investing-markets.html",
+          "source": "Rss",
+          "published": "03 Jul 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -562,141 +575,104 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Market volatility from AI sector rout creates trading opportunities and advisory revenues for major investment banks.",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI sector rout may increase banking advisory and trading revenues, offsetting potential loan stress.",
             "key_themes": [
               "market volatility",
-              "M&A advisory",
-              "trading desk activity"
+              "trading opportunity",
+              "economic uncertainty"
             ],
             "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims market volatility from AI sector rout may increase banking advisory and trading revenues. While Article [4] confirms AI sector rout occurred, no source article discusses impacts on JPMorgan Chase's advisory or trading revenues.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Broad market decline and potential recession fears from overheated market cycles pose headwinds to loan growth and deposits.",
+            "key_themes": [
+              "market correction risk",
+              "economic cycle concerns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Market panic presents opportunity for value-oriented capital deployment; defensive positioning benefits from tech sector volatility.",
+            "key_themes": [
+              "market dislocation",
+              "value opportunity",
+              "defensive positioning"
+            ],
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 4
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Tech sector selloff and luxury M&A activity (Chanel-Charvet deal) drive investment banking and advisory revenues.",
-            "key_themes": [
-              "luxury M&A",
-              "market volatility",
-              "advisory fees"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              3,
-              4
-            ]
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Broad market selloff and corporate M&A activity in luxury sector support institutional client advisory services.",
-            "key_themes": [
-              "market volatility",
-              "M&A pipeline",
-              "client fees"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              3,
-              4
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Market volatility may temporarily dampen transaction volumes, but no direct exposure to AI rout or luxury M&A activity.",
-            "key_themes": [
-              "payment volumes",
-              "market sentiment"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes market volatility will dampen transaction volumes, but articles do not provide evidence linking stock market volatility to payment transaction volumes or provide data on Visa's exposure to these dynamics",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Similar to Visa; luxury spending and M&A deal activity could support volumes, but offset by broader market weakness.",
-            "key_themes": [
-              "payment volumes",
-              "market sentiment"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes luxury spending will support volumes and that market weakness will offset gains, but articles provide no data on Mastercard's exposure to luxury spending or payment volume trends during market volatility",
-            "supporting_article": null
           }
         ],
-        "summary": "The AI sector rout sparked by DeepSeek creates near-term volatility that benefits financial services intermediaries through increased advisory, trading, and transaction fees. Investment banks (JPM, GS, MS) are well-positioned to capitalize on heightened market activity and corporate M&A (luxury sector deals like Chanel-Charvet). Payment processors face mixed signals with potential headwinds from market uncertainty offset by luxury spending resilience.",
+        "summary": "Recent articles highlight a significant market correction driven by AI sector concerns (DeepSeek), with broad equity declines affecting tech infrastructure stocks. Financial services stocks face mixed signals: while market volatility creates trading opportunities, the broader concern about overheated markets reaching critical peaks suggests potential economic headwinds ahead. Payment processors V and MA and investment banks GS/MS lack direct news catalysts in these articles.",
         "risks": [
-          "AI selloff may be overblown per article 6, reducing advisory activity if markets stabilize quickly",
-          "Prolonged market weakness could suppress M&A and deal-making activity",
-          "Economic uncertainty could compress both trading volumes and fee generation"
+          "Deepening market selloff beyond AI sector to financials",
+          "Economic recession triggered by asset bubble deflation",
+          "Sustained pressure on trading volumes and advisory fees",
+          "Credit quality deterioration in bank loan portfolios"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Visa and Mastercard signals lack evidentiary support in source articles regarding payment volume dynamics during market volatility",
-            "Banking signals (JPM, GS, MS) are logically sound based on Article 4 (market rout) and Article 3 (M&A activity), but articles do not explicitly confirm investment banking fee uplift or advisory revenue impacts"
+            "JPM signal lacks grounding: Articles document the AI sector decline but do not discuss specific impacts on JPMorgan Chase's business segments or revenue opportunities from increased volatility.",
+            "BAC signal is supported by Article [3] which shows overheated market cycles lead to wealth destruction, supporting concerns about economic cycles and loan stress.",
+            "BRK-B signal is supported by Article [4] which documents market panic and tech sector volatility, providing basis for value opportunity thesis."
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "JPM": 334.07000732421875,
-        "GS": 1019.6099853515625,
-        "MS": 211.86000061035156,
-        "V": 351.0799865722656,
-        "MA": 522.4400024414062
+        "JPM": 334.4700012207031,
+        "BAC": 58.72999954223633,
+        "BRK-B": 507.7799987792969
       },
       "spot_check": {
-        "title": "A.I. Is Reshaping the Economy. Good Luck Measuring How.",
-        "summary": "Some data suggest artificial intelligence is already causing job losses. Other sources show the opposite. Why is it so hard to figure out what\u2019s going on?",
-        "url": "https://www.nytimes.com/2026/07/02/business/economy/ai-economy-data.html",
+        "title": "Will Late-Night TV Work on YouTube?",
+        "summary": "Julian Shapiro-Barnum, best known for a social media series called \u201cRecess Therapy,\u201d has started an online-only late-night show.",
+        "url": "https://www.nytimes.com/2026/07/03/business/media/youtube-julian-shapiro-barnum-late-night.html",
         "source": "Rss",
-        "published": "02 Jul 2026",
-        "sentiment_hint": "bearish",
+        "published": "03 Jul 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
+          "ticker": "BRK-B",
+          "company": "Berkshire Hathaway Inc.",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Market volatility from AI sector rout creates trading opportunities and advisory revenues for major investment banks.",
+          "conviction": 65,
+          "rationale": "Market panic presents opportunity for value-oriented capital deployment; defensive positioning benefits from tech sector volatility.",
           "key_themes": [
-            "market volatility",
-            "M&A advisory",
-            "trading desk activity"
+            "market dislocation",
+            "value opportunity",
+            "defensive positioning"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Market volatility from AI sector rout creates trading opportunities and advisory revenues for major investment banks.",
+        "haiku_rationale": "Market panic presents opportunity for value-oriented capital deployment; defensive positioning benefits from tech sector volatility.",
         "haiku_themes": [
-          "market volatility",
-          "M&A advisory",
-          "trading desk activity"
+          "market dislocation",
+          "value opportunity",
+          "defensive positioning"
         ]
       },
       "config": {
