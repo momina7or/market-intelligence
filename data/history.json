@@ -3225,5 +3225,277 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-07",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search integration demonstrates AI's disruption of traditional SEO, validating Google's need for AI-powered search products.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to influence content discovery and recommendations validates OpenAI partnership value and AI assistant adoption.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI integration",
+              "enterprise AI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 366.4599914550781,
+          "MSFT": 386.739990234375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Expects significantly higher Q2 trading and optimization results from Iran-driven energy market volatility",
+            "key_themes": [
+              "trading windfall",
+              "geopolitical volatility",
+              "LNG upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Benefits from high volatility but exposed to Saudi price cuts eroding upstream margins near-term",
+            "key_themes": [
+              "geopolitical risk",
+              "margin pressure",
+              "trading opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Moderate exposure to trading upside offset by aggressive Gulf pricing competition reducing realized prices",
+            "key_themes": [
+              "pricing pressure",
+              "margin headwinds",
+              "volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "neutral",
+            "conviction": 46,
+            "rationale": "Mixed signals: benefits from trading volatility but exposed to Strait of Hormuz supply recovery reducing scarcity premiums",
+            "key_themes": [
+              "trading volatility",
+              "supply normalization",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Significant exposure to realized price realization with Saudi cutting OSPs by $11/bbl and other Gulf producers cutting deeper",
+            "key_themes": [
+              "pricing collapse",
+              "margin pressure",
+              "buyer advantage"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 78.13999938964844,
+          "XOM": 136.44000244140625,
+          "CVX": 168.10000610351562,
+          "BP": 37.38999938964844,
+          "COP": 103.58000183105469
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Dermatology opportunity: 85% of consumers report skin quality impacts quality of life, indicating strong demand for skin treatments.",
+            "key_themes": [
+              "dermatology expansion",
+              "consumer health",
+              "quality-of-life products"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "CDC tobacco control office shutdown and failed antismoking campaigns reduce demand for smoking cessation pharmaceuticals and respiratory products.",
+            "key_themes": [
+              "regulatory headwinds",
+              "smoking cessation decline",
+              "public health policy shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Cyclospora outbreak may drive demand for gastrointestinal treatments, but magnitude and duration of outbreak remain uncertain.",
+            "key_themes": [
+              "infectious disease opportunity",
+              "public health event",
+              "limited visibility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Cyclospora outbreak could increase diagnostic testing demand, though broader COVID-19 emergency revocation may offset gains.",
+            "key_themes": [
+              "diagnostic testing",
+              "infectious disease",
+              "mixed regulatory signals"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'COVID-19 emergency revocation' offsetting gains, but article [6] only mentions RFK Jr.'s HHS plan to revoke COVID-19 emergency authorizations\u2014no clear connection established between this regulatory action and TMO's diagnostic testing business or how it would offset cyclospora-related gains",
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 259.3299865722656,
+          "PFE": 23.719999313354492,
+          "MRK": 126.77999877929688,
+          "TMO": 517.5999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech sector volatility from AI concerns may increase M&A advisory activity, but near-term market uncertainty pressures valuations.",
+            "key_themes": [
+              "market volatility",
+              "potential M&A opportunities"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale about M&A advisory activity from tech sector volatility is speculative and not supported by sources. Articles [4] and [6] discuss AI stock declines but make no connection to M&A advisory demand.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Broad market selloff may reduce transaction volumes short-term, but luxury travel demand (cruise sector expansion) supports payment growth.",
+            "key_themes": [
+              "market volatility",
+              "luxury consumer spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While article [3] mentions Four Seasons cruises, it does not establish luxury travel demand as a broad trend or suggest this would support payment volume growth. The connection between one luxury cruise launch and payment processor transaction volumes is unsupported.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Similar exposure to V; tech rout pressures near-term, but luxury services expansion (Four Seasons cruises) supports mid-term payment trends.",
+            "key_themes": [
+              "market volatility",
+              "luxury consumer spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Same issue as V: article [3] mentions Four Seasons cruises but does not establish this as evidence of 'luxury services expansion' broadly or demonstrate payment volume growth implications.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 337.7200012207031,
+          "V": 357.25,
+          "MA": 533.0999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
