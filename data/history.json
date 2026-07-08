@@ -3497,5 +3497,316 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-07-08",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's dominance in AI search traffic indicates competitive threat; Google must accelerate AI-driven search integration to retain market share.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI integration urgency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Smart glasses privacy update addresses consumer concerns but signals ongoing reputational challenges with AR/VR hardware monetization.",
+            "key_themes": [
+              "AR/VR hardware",
+              "privacy concerns",
+              "consumer adoption friction"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 367.0299987792969,
+          "META": 615.5800170898438
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Hormuz escalation and Iran sanctions waiver cancellation tighten crude supply; Brent at $76.58 supports upstream cash flow.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Iran-US tensions and vessel attacks create sustained oil price upside; strengthens near-term production value realization.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "crude export constraints",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Hormuz transit disruptions and higher Brent crude ($76.58) support integrated oil & gas margins and upstream profitability.",
+            "key_themes": [
+              "supply disruption",
+              "crude price support",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "LNG tanker diversions from Hormuz and Iranian escalation boost LNG premium; Shell's significant LNG portfolio benefits structurally.",
+            "key_themes": [
+              "LNG supply constraints",
+              "route diversification",
+              "price premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Hormuz attacks and LNG tanker U-turns tighten LNG supply; TotalEnergies' diversified LNG exposure captures premium pricing.",
+            "key_themes": [
+              "LNG supply tightness",
+              "geopolitical risk",
+              "energy security"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "contractor_operations": "neutral",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Hormuz escalation supports crude prices but limited direct exposure to Persian Gulf; broader energy market benefit is modest.",
+            "key_themes": [
+              "indirect price support",
+              "diversified geography"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 141.69000244140625,
+          "CVX": 174.00999450683594,
+          "BP": 38.61000061035156,
+          "SHEL": 81.98999786376953,
+          "TTE": 77.95999908447266,
+          "COP": 108.44000244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck KGaA",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Atacicept asset now faces competitive IgAN market with 6 approved drugs; licensing upside offset by commoditization risk.",
+            "key_themes": [
+              "rare disease competition",
+              "asset licensing",
+              "market saturation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 128.86000061035156
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Geopolitical tensions in Persian Gulf could increase volatility, benefiting trading and advisory revenues.",
+            "key_themes": [
+              "geopolitical risk",
+              "trading volatility",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Oil price volatility and energy sector turbulence create opportunities for trading and M&A advisory services.",
+            "key_themes": [
+              "energy sector volatility",
+              "trading opportunities",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Market stress from AI selloff and geopolitical tensions increase demand for investment banking and trading services.",
+            "key_themes": [
+              "market volatility",
+              "trading revenue",
+              "capital markets activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Broad market volatility from tech selloff and geopolitical risks drive trading commissions and wealth management fees.",
+            "key_themes": [
+              "market volatility",
+              "trading activity",
+              "wealth management"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Airport disruptions from EES biometrics system may temporarily impact travel-related transaction volumes.",
+            "key_themes": [
+              "travel disruption",
+              "transaction volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Airport disruptions from EES biometrics system may temporarily impact travel-related transaction volumes.",
+            "key_themes": [
+              "travel disruption",
+              "transaction volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 339.2200012207031,
+          "BAC": 59.86000061035156,
+          "GS": 1042.97998046875,
+          "MS": 222.0399932861328,
+          "V": 352.20001220703125,
+          "MA": 531.6199951171875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
