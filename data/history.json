@@ -3808,5 +3808,261 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-09",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Xbox strategic reset with studio reorganization and 3,200 layoffs signals cost-cutting but unclear gaming revenue impact.",
+            "key_themes": [
+              "gaming strategy shift",
+              "restructuring",
+              "project cancellations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Development of always-on AI-enabled smart glasses represents significant new hardware category and AI integration opportunity.",
+            "key_themes": [
+              "wearable AI",
+              "hardware expansion",
+              "always-on recording"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's prominence in organic search recommendations highlights AI's growing influence on web traffic and search disruption.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic shifts",
+              "content discovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims ChatGPT's prominence in search highlights AI's influence on Google, but ChatGPT is an OpenAI product, not Google/Alphabet. Article [1] describes ChatGPT recommending content, not Google search being disrupted. This conflates competitors and misattributes the competitive threat.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "MSFT": 383.3399963378906,
+          "META": 603.1199951171875,
+          "GOOGL": 361.9200134277344
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Strait of Hormuz escalation threatens 10.5M bbl/day supply gap; major upstream producer benefits from price surge and supply constraints.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "production recovery delays"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Iran-U.S. hostilities create extended supply disruption risk; large-cap integrated producer gains from crude price surge and margin expansion.",
+            "key_themes": [
+              "supply disruption",
+              "price volatility",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Persian Gulf disruptions slow Middle East production recovery; integrated player benefits from 5-7% oil price spike and tightened markets.",
+            "key_themes": [
+              "supply tightening",
+              "price surge",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 77,
+            "rationale": "Hormuz escalation threatens oil flows; major trader and producer positioned to capitalize on crude volatility and supply uncertainty.",
+            "key_themes": [
+              "supply disruption",
+              "trading opportunities",
+              "crude volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 76,
+            "rationale": "Middle East production delays and Hormuz disruption risk support oil prices; large Persian Gulf upstream exposure benefits from supply tightness.",
+            "key_themes": [
+              "supply disruption",
+              "production delays",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 74,
+            "rationale": "Geopolitical escalation halts production recovery; integrated producer benefits from sustained crude price elevation amid supply concerns.",
+            "key_themes": [
+              "supply disruption",
+              "price volatility",
+              "production delays"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Supply disruption delays Middle East production recovery, offsetting near-term service demand; long-term energy transition headwinds persist.",
+            "key_themes": [
+              "production delays",
+              "service demand uncertainty",
+              "energy transition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale cites 'long-term energy transition headwinds' but this appears to conflate unrelated source material (Articles 4-6 cover green hydrogen and solar, not oil service sector headwinds from geopolitical disruption). The supply disruption rationale is supported by Articles 1-3, but the energy transition claim lacks grounding in the Hormuz escalation context.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 141.1300048828125,
+          "CVX": 175.97000122070312,
+          "BP": 39.209999084472656,
+          "SHEL": 82.23999786376953,
+          "TTE": 78.87000274658203,
+          "COP": 110.72000122070312,
+          "SLB": 47.43000030517578
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Legislative scrutiny targeting UNH's control over prescription drugs poses regulatory risk and potential operational restructuring.",
+            "key_themes": [
+              "regulatory pressure",
+              "antitrust concerns",
+              "market consolidation risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "UNH": 425.6000061035156
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Global travel activity referenced in rental car article suggests continued payment processing demand, but no direct financial impact evident.",
+            "key_themes": [
+              "travel spending",
+              "payment processing"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes a billing dispute over rental car fuel charges in Germany. This is a consumer complaint about a specific transaction error, not evidence of 'continued payment processing demand' or broader travel spending trends that would support Visa's business outlook.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "International travel transactions implied in rental car scenario support payment volume, but macro uncertainty from tech selloff dominates sentiment.",
+            "key_themes": [
+              "cross-border payments",
+              "travel transactions"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] is a single anecdotal story about a rental car refueling dispute. This does not constitute evidence of 'international travel transactions' driving payment volume for Mastercard, nor does it support conviction in the company's medium-term outlook.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "V": 347.5299987792969,
+          "MA": 519.8599853515625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
