@@ -4064,5 +4064,309 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-07-10",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Record refining margins ($60+/bbl diesel) and tight global fuel markets directly benefit downstream operations and cash flow.",
+            "key_themes": [
+              "refining margins",
+              "fuel supply tightness",
+              "geopolitical tensions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated refining spreads and sustained Middle East/Hormuz tensions support higher margins for integrated downstream operations.",
+            "key_themes": [
+              "refining margins",
+              "Middle East supply risk",
+              "inventory constraints"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP PLC",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Record European diesel margins ($60+/bbl) and tight fuel inventories benefit UK-based refiner's European refining portfolio.",
+            "key_themes": [
+              "European refining margins",
+              "diesel shortage",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell PLC",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "LNG carriers continuing Hormuz transit despite hostilities supports Shell's LNG export position; record fuel margins aid refining.",
+            "key_themes": [
+              "LNG flows maintained",
+              "refining margins",
+              "supply continuity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Record European refining margins and sustained LNG shipments via Hormuz benefit TotalEnergies' downstream and LNG operations.",
+            "key_themes": [
+              "refining spreads",
+              "LNG logistics",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Upstream-focused producer benefits minimally from refining margin spike; geopolitical tensions create offsetting upstream supply risk.",
+            "key_themes": [
+              "upstream exposure",
+              "Middle East risk",
+              "margin benefit limited"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 137.4600067138672,
+          "CVX": 174.0500030517578,
+          "BP": 38.54999923706055,
+          "SHEL": 81.4000015258789,
+          "TTE": 78.2300033569336,
+          "COP": 108.0199966430664
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Facing legislative pressure to break up control over prescription drugs; regulatory headwinds threaten business model",
+            "key_themes": [
+              "regulatory pressure",
+              "antitrust action",
+              "prescription drug control"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct mention; potential tangential exposure to pharma sector dynamics but insufficient article coverage",
+            "key_themes": [
+              "sector uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'tangential exposure to pharma sector dynamics' but no article discusses JNJ or general pharma sector headwinds; analyst is speculating without source support",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No direct mention; benefits from AZ/Ionis ATTR-CM trial failure but lacks specific news catalyst",
+            "key_themes": [
+              "competitor setback",
+              "oncology competition"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes Pfizer benefits from AZ/Ionis ATTR-CM failure (Article 6), but the trial failure is in cardiac rare disease (ATTR-CM), not oncology as stated. Additionally, no source article mentions Pfizer as a competitor in this space or suggests they would benefit",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 38,
+            "rationale": "No direct mention; potential beneficiary of competitor trial failures in oncology but no confirmed catalysts",
+            "key_themes": [
+              "oncology opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates Merck benefits from 'competitor trial failures in oncology' but the AZ/Ionis failure (Article 6) involves ATTR-CM (cardiac condition), not oncology. No article supports Merck as a competitor or beneficiary in this indication",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "No direct mention; may benefit from microbiome research trends but article lacks commercial specificity",
+            "key_themes": [
+              "emerging research opportunity"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale claims LLY 'may benefit from microbiome research trends' based on Article 3, but that article only discusses basic microbiome science and understanding\u2014it contains no information about commercial applications, drug development, or Eli Lilly's involvement",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "UNH": 431.67999267578125,
+          "JNJ": 259.1000061035156,
+          "PFE": 24.25,
+          "MRK": 125.06999969482422,
+          "LLY": 1216.949951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Market volatility from AI sector rout creates trading opportunities and fee-generating activity for major investment banks.",
+            "key_themes": [
+              "market volatility",
+              "trading volumes",
+              "investment banking fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] confirms AI sector rout and market volatility, but no source material discusses how this volatility generates trading opportunities or fee-generating activity for investment banks. The rationale makes a logical inference not explicitly supported by the sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and sector rotation generate advisory and trading opportunities for premium investment banking franchise.",
+            "key_themes": [
+              "market volatility",
+              "M&A advisory",
+              "trading commissions"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] documents the selloff and Article [6] discusses sector reassessment, but no source material discusses M&A advisory opportunities, trading commissions, or how investment banks benefit from this volatility. The rationale is inferential rather than grounded.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Heightened market uncertainty and AI sector reassessment likely to drive increased advisory and wealth management activity.",
+            "key_themes": [
+              "market volatility",
+              "wealth management fees",
+              "advisory revenues"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] confirms market uncertainty and AI sector volatility, but no source material explicitly connects this to increased wealth management activity or advisory revenues. The rationale is inferential speculation.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Hotel industry booking weakness noted but offset by broader economic resilience; payment volumes remain stable during market corrections.",
+            "key_themes": [
+              "hospitality headwinds",
+              "payment processing stability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; hotel booking concerns are modest headwind but broad payment network activity remains resilient.",
+            "key_themes": [
+              "hospitality headwinds",
+              "payment processing stability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.4700012207031,
+          "GS": 1055.969970703125,
+          "MS": 222.1300048828125,
+          "V": 348.20001220703125,
+          "MA": 523.2000122070312
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-07-09",
-  "run_time": "2026-07-09T10:28:44.602720Z",
+  "run_date": "2026-07-10",
+  "run_time": "2026-07-10T10:22:38.452206Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,133 +29,48 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Meta is reportedly working on smart glasses that would be recording all the time",
-          "summary": "Meta might be the next company to make an always-on AI wearable. The company is working on prototype \"super sensing\" always-aware smart glasses that could continuously record audio and snap photos \"every few seconds,\" according to the Financial Times. The wearer could then ask Meta AI about the captured audio and images. However, the images [&#8230;]",
-          "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
+          "title": "Microsoft\u2019s carbon emissions went up 25 percent last year",
+          "summary": "Microsoft may once again be struggling to keep up with its own climate goals, according to its 2026 sustainability report. As reported by GeekWire, the report states that Microsoft's carbon emissions increased 25 percent in 2025, totalling 34 million metric tons \"without select interventions.\" Microsoft says this was \"driven primarily by the expansion of our [&#8230;]",
+          "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
           "source": "Theverge",
-          "published": "08 Jul 2026",
+          "published": "10 Jul 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Get a $30 credit when you reserve Samsung\u2019s upcoming Galaxy phones",
-          "summary": "Even though they haven\u2019t been officially announced yet, Samsung is giving you a chance to save some cash when you preorder what we\u2019re expecting to be the brand\u2019s updated Galaxy Z Fold phones. The next Galaxy Unpacked event will take place on July 22nd, 2026, and features the tagline \u201cA new shape unfolds.\u201d In addition [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder",
+          "title": "Fidji Simo steps down from leading OpenAI\u2019s AGI work due to illness",
+          "summary": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune condition, shortly after she had taken on the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
           "source": "Theverge",
-          "published": "08 Jul 2026",
+          "published": "09 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
-          "summary": "As part of Microsoft's big Xbox \"reset,\" which includes layoffs affecting 3,200 staffers, jettisoning studios, and shifting investments to focus on \"higher priority projects,\" Obsidian Entertainment is changing its plans. The studio, behind games like Grounded and The Outer Worlds, is starting work on a new Fallout title and has canceled \"multiple projects,\" including a [&#8230;]",
-          "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
+          "title": "Netflix reportedly considers adding always-on channels",
+          "summary": "Netflix is thinking about adding always-on channels that would stream specific shows and movies, according to The Wall Street Journal. The move sounds like a Netflix version of always-on services like Pluto TV and Tubi, except the big hook for those is that they're free - because of the ads you have to watch. Netflix [&#8230;]",
+          "url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles",
           "source": "Theverge",
-          "published": "08 Jul 2026",
-          "sentiment_hint": "bearish"
+          "published": "09 Jul 2026",
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Xbox strategic reset with studio reorganization and 3,200 layoffs signals cost-cutting but unclear gaming revenue impact.",
-            "key_themes": [
-              "gaming strategy shift",
-              "restructuring",
-              "project cancellations"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Development of always-on AI-enabled smart glasses represents significant new hardware category and AI integration opportunity.",
-            "key_themes": [
-              "wearable AI",
-              "hardware expansion",
-              "always-on recording"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT's prominence in organic search recommendations highlights AI's growing influence on web traffic and search disruption.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic shifts",
-              "content discovery"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims ChatGPT's prominence in search highlights AI's influence on Google, but ChatGPT is an OpenAI product, not Google/Alphabet. Article [1] describes ChatGPT recommending content, not Google search being disrupted. This conflates competitors and misattributes the competitive threat.",
-            "supporting_article": 1
-          }
-        ],
-        "summary": "The articles reveal ongoing AI commoditization reshaping digital content discovery and hardware evolution in wearables. Meta's smart glasses initiative and ChatGPT's organic recommendation power indicate major platform shifts, while Microsoft's gaming restructuring suggests selective AI investment priorities. Enterprise AI tools are becoming standard, creating both opportunity and competitive pressure across the sector.",
-        "risks": [
-          "ChatGPT organic recommendation displacement of traditional search could erode advertising models",
-          "Meta smart glasses regulatory scrutiny around always-on recording and privacy concerns",
-          "Microsoft gaming underperformance amid broader industry consolidation",
-          "Wearable AI adoption uncertainty and consumer privacy backlash"
-        ],
-        "sector_sentiment": "bullish",
-        "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "GOOGL signal incorrectly attributes ChatGPT (OpenAI) competitive dynamics to Alphabet/Google as a bullish thesis",
-            "The rationale for GOOGL conflates AI search disruption with evidence of ChatGPT's capabilities, but provides no evidence of impact on Google's business or market position"
-          ],
-          "ungrounded_count": 1
-        }
+        "signals": [],
+        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"MSFT\",\n      \"company\": \"Microsoft Corporation\",\n      \"sentiment\": \"bearish\",\n      \"conviction\": 72,\n      \"rationale\": \"Carbon emissions surged 25% in 2025 due to AI infrastructure expansion, risking ESG commitments and regulatory scrutiny.\",\n      \"key_themes\": [\"sustainability concerns\", \"AI capex intensity\", \"climate risk\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"GOOGL\",\n      \"company\": Alphabet Inc.\",\n      \"sentiment\": \"",
+        "risks": [],
+        "sector_sentiment": "neutral"
       },
-      "prices_snapshot": {
-        "MSFT": 383.3399963378906,
-        "META": 603.1199951171875,
-        "GOOGL": 361.9200134277344
-      },
+      "prices_snapshot": {},
       "spot_check": {
-        "title": "Meta is reportedly working on smart glasses that would be recording all the time",
-        "summary": "Meta might be the next company to make an always-on AI wearable. The company is working on prototype \"super sensing\" always-aware smart glasses that could continuously record audio and snap photos \"every few seconds,\" according to the Financial Times. The wearer could then ask Meta AI about the captured audio and images. However, the images [&#8230;]",
-        "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
-        "source": "Theverge",
-        "published": "08 Jul 2026",
-        "sentiment_hint": "bullish",
-        "related_signal": {
-          "ticker": "META",
-          "company": "Meta Platforms Inc.",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Development of always-on AI-enabled smart glasses represents significant new hardware category and AI integration opportunity.",
-          "key_themes": [
-            "wearable AI",
-            "hardware expansion",
-            "always-on recording"
-          ],
-          "time_horizon": "long-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 4
-        },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Development of always-on AI-enabled smart glasses represents significant new hardware category and AI integration opportunity.",
-        "haiku_themes": [
-          "wearable AI",
-          "hardware expansion",
-          "always-on recording"
-        ]
+        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
+        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
+        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
+        "source": "Feedburner",
+        "published": "04 Dec 2025",
+        "sentiment_hint": "neutral",
+        "related_signal": null,
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "",
+        "haiku_themes": []
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -174,27 +89,27 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Escalation Continues as U.S. and Iran Face Off Over Hormuz",
-          "summary": "The United States is prepared for a continued exchange of fire with Iran over the Strait of Hormuz and Tehran\u2019s attacks on commercial vessels in the chokepoint, U.S. officials have told Axios, while both sides continued to trade strikes early on Thursday. The U.S. is prepared for an escalation that could last from a day or two to multiple weeks to get Iran to back down from attacking ships in the Strait of Hormuz, a U.S. official told Axios. Iran\u2019s next moves will determine how long and how seve",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Escalation-Continues-as-US-and-Iran-Face-Off-Over-Hormuz.html",
+          "title": "Fuel Refining Margins Hit Record Highs as Markets Tighten",
+          "summary": "Refining margins for gasoline and diesel jumped this week to new record highs after the re-escalation in the Middle East, Russia\u2019s ban on diesel exports, and crumbling global fuel inventories. \u00a0 The surge in fuel margins and the price spread over crude prices suggest that the global fuel markets remain very tight despite the millions of barrels of crude that have managed to exit the Strait of Hormuz in recent weeks. Diesel refining margins in Europe jumped to a record high of over $60 per barrel",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Fuel-Refining-Margins-Hit-Record-Highs-as-Markets-Tighten.html",
           "source": "Oilprice",
-          "published": "09 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Oil Price Surge Shows Markets Were Too Relaxed About Iran Deal",
-          "summary": "Wednesday\u2019s jump in oil prices to a two-week high suggests that market participants were too complacent about the U.S.-Iran \u2018deal to make a deal\u2019 and that the ceasefire would hold and oil flows through the Strait of Hormuz would only increase, analysts at ING said on Thursday. Oil prices surged by over 5% on Wednesday, gaining 7% at one point to a two-week high, after the escalation in the region. The Iranian\u00a0attacks\u00a0on three commercial ships on Tuesday, including an oil tanker and an LNG carrie",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Price-Surge-Shows-Markets-Were-Too-Relaxed-About-Iran-Deal.html",
-          "source": "Oilprice",
-          "published": "09 Jul 2026",
+          "published": "10 Jul 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Goldman Sachs Sounds Alarm Over Fresh Threat to Global Oil Supplies",
-          "summary": "A week after it warned that an oil glut is coming, Goldman Sachs has done a U-turn, warning that the renewed hostilities in the Persian Gulf threaten an extended supply disruption. \u201cWhile Middle Eastern producers have started reopening their shut-in wells over the last month, Hormuz disruptions could slow down the production recovery,\u201d the bank\u2019s commodity analysts said, as quoted by Bloomberg. They added that Middle East oil production remains 10.5 million barrels daily below pre-war levels. \u201cT",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sounds-Alarm-Over-Fresh-Threat-to-Global-Oil-Supplies.html",
+          "title": "More LNG Carriers Brave the Strait of Hormuz Despite Renewed Hostilities",
+          "summary": "Close to half a dozen liquefied natural gas carriers have gone into the Strait of Hormuz in the past few days and six have exited the strait, despite the recent return to hostilities between the United States and Iran. According to Kpler data cited by Reuters, five ballast LNG tankers have entered the chokepoint in recent days, four of them linked to Qatar, and the fifth one owned by a Greek shipping company. The five vessels were previously seen outside Hormuz earlier this month. An earlier rep",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/More-LNG-Carriers-Brave-the-Strait-of-Hormuz-Despite-Renewed-Hostilities.html",
           "source": "Oilprice",
-          "published": "09 Jul 2026",
+          "published": "10 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "India Expands Strategic Oil Reserves With New ONGC Storage Plan",
+          "summary": "India\u2019s ONGC plans to build up a strategic national reserve of crude totalling 1.75 million tons, or 12.8 million barrels. The company would also ask the government to allow the commercial use of the stockpile, Reuters reported. India currently has a national crude oil reserve of 5.33 million tons, which is equal to about 39 million barrels, in three locations in the southern part of the country. The sites are managed by a government-owned entity, Indian Strategic Petroleum Reserves Ltd. The max",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Expands-Strategic-Oil-Reserves-With-New-ONGC-Storage-Plan.html",
+          "source": "Oilprice",
+          "published": "10 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -207,7 +122,7 @@
         },
         {
           "title": "UK Government approves 740MW One Earth Solar Farm",
-          "summary": "The UK government has approved 740MW One Earth Solar Farm, located in Nottinghamshire, which is expected to become the country\u2019s second-largest solar installation.",
+          "summary": "The UK has approved 740MW One Earth Solar Farm, which is expected to become the country\u2019s second-largest solar installation.",
           "url": "https://www.energymonitor.ai/news/uk-approves-740mw-one-earth-solar/",
           "source": "Energymonitor",
           "published": "09 Jul 2026",
@@ -226,62 +141,14 @@
         "signals": [
           {
             "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
+            "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "Strait of Hormuz escalation threatens 10.5M bbl/day supply gap; major upstream producer benefits from price surge and supply constraints.",
+            "conviction": 72,
+            "rationale": "Record refining margins ($60+/bbl diesel) and tight global fuel markets directly benefit downstream operations and cash flow.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "production recovery delays"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 80,
-            "rationale": "Iran-U.S. hostilities create extended supply disruption risk; large-cap integrated producer gains from crude price surge and margin expansion.",
-            "key_themes": [
-              "supply disruption",
-              "price volatility",
-              "margin expansion"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Persian Gulf disruptions slow Middle East production recovery; integrated player benefits from 5-7% oil price spike and tightened markets.",
-            "key_themes": [
-              "supply tightening",
-              "price surge",
-              "geopolitical premium"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 77,
-            "rationale": "Hormuz escalation threatens oil flows; major trader and producer positioned to capitalize on crude volatility and supply uncertainty.",
-            "key_themes": [
-              "supply disruption",
-              "trading opportunities",
-              "crude volatility"
+              "refining margins",
+              "fuel supply tightness",
+              "geopolitical tensions"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -289,108 +156,143 @@
             "supporting_article": 1
           },
           {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
             "sentiment": "bullish",
-            "conviction": 76,
-            "rationale": "Middle East production delays and Hormuz disruption risk support oil prices; large Persian Gulf upstream exposure benefits from supply tightness.",
+            "conviction": 70,
+            "rationale": "Elevated refining spreads and sustained Middle East/Hormuz tensions support higher margins for integrated downstream operations.",
             "key_themes": [
-              "supply disruption",
-              "production delays",
-              "price support"
+              "refining margins",
+              "Middle East supply risk",
+              "inventory constraints"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP PLC",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Record European diesel margins ($60+/bbl) and tight fuel inventories benefit UK-based refiner's European refining portfolio.",
+            "key_themes": [
+              "European refining margins",
+              "diesel shortage",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell PLC",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "LNG carriers continuing Hormuz transit despite hostilities supports Shell's LNG export position; record fuel margins aid refining.",
+            "key_themes": [
+              "LNG flows maintained",
+              "refining margins",
+              "supply continuity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Record European refining margins and sustained LNG shipments via Hormuz benefit TotalEnergies' downstream and LNG operations.",
+            "key_themes": [
+              "refining spreads",
+              "LNG logistics",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 74,
-            "rationale": "Geopolitical escalation halts production recovery; integrated producer benefits from sustained crude price elevation amid supply concerns.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Upstream-focused producer benefits minimally from refining margin spike; geopolitical tensions create offsetting upstream supply risk.",
             "key_themes": [
-              "supply disruption",
-              "price volatility",
-              "production delays"
+              "upstream exposure",
+              "Middle East risk",
+              "margin benefit limited"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Supply disruption delays Middle East production recovery, offsetting near-term service demand; long-term energy transition headwinds persist.",
-            "key_themes": [
-              "production delays",
-              "service demand uncertainty",
-              "energy transition"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale cites 'long-term energy transition headwinds' but this appears to conflate unrelated source material (Articles 4-6 cover green hydrogen and solar, not oil service sector headwinds from geopolitical disruption). The supply disruption rationale is supported by Articles 1-3, but the energy transition claim lacks grounding in the Hormuz escalation context.",
-            "supporting_article": null
+            "supporting_article": 1
           }
         ],
-        "summary": "Escalating U.S.-Iran hostilities in the Strait of Hormuz create immediate bullish catalysts for integrated oil majors (XOM, CVX, BP, SHEL, TTE, COP), with crude prices surging 5-7% as markets reassess supply disruption risks and the 10.5M bbl/day production gap. However, articles 4-6 highlight structural energy transition pressures (green hydrogen, solar expansion, cybersecurity requirements) that present medium-to-long-term headwinds for traditional energy producers. Near-term geopolitical premium supports valuations, but conviction diminishes beyond weeks as transition dynamics remain unfavorable.",
+        "summary": "Oil majors with significant downstream/refining exposure (XOM, CVX, BP, SHEL, TTE) face near-term bullish tailwinds from record fuel refining margins ($60+/bbl diesel) driven by Middle East tensions, Russian export bans, and crumbling inventories. LNG continues flowing despite Hormuz hostilities, supporting integrated energy majors' gas operations. Articles on renewables (solar, green hydrogen) represent long-term energy transition headwinds but pose no immediate threat to near-term hydrocarbon economics.",
         "risks": [
-          "Rapid de-escalation or negotiated settlement could collapse geopolitical premium and reverse price gains",
-          "Energy transition acceleration (renewables approval surge, green hydrogen investment) continues structural demand headwinds",
-          "Extended supply disruption could trigger demand destruction and economic recession, offsetting price support",
-          "Cybersecurity vulnerabilities in digital energy infrastructure pose operational risks to integrated producers"
+          "Hormuz escalation could disrupt oil/LNG flows and reverse margin expansion if supply surge occurs",
+          "Refining margin compression if global fuel inventories rebuild or demand weakens",
+          "Geopolitical resolution could eliminate supply-scarcity premium and normalize spreads",
+          "Long-term energy transition pressure limits valuation multiple expansion despite near-term cash generation"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "SLB rationale mixes geopolitical supply disruption logic with energy transition concerns that are not connected in the source articles"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "XOM": 141.1300048828125,
-        "CVX": 175.97000122070312,
-        "BP": 39.209999084472656,
-        "SHEL": 82.23999786376953,
-        "TTE": 78.87000274658203,
-        "COP": 110.72000122070312,
-        "SLB": 47.43000030517578
+        "XOM": 137.4600067138672,
+        "CVX": 174.0500030517578,
+        "BP": 38.54999923706055,
+        "SHEL": 81.4000015258789,
+        "TTE": 78.2300033569336,
+        "COP": 108.0199966430664
       },
       "spot_check": {
-        "title": "Escalation Continues as U.S. and Iran Face Off Over Hormuz",
-        "summary": "The United States is prepared for a continued exchange of fire with Iran over the Strait of Hormuz and Tehran\u2019s attacks on commercial vessels in the chokepoint, U.S. officials have told Axios, while both sides continued to trade strikes early on Thursday. The U.S. is prepared for an escalation that could last from a day or two to multiple weeks to get Iran to back down from attacking ships in the Strait of Hormuz, a U.S. official told Axios. Iran\u2019s next moves will determine how long and how seve",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Escalation-Continues-as-US-and-Iran-Face-Off-Over-Hormuz.html",
+        "title": "Fuel Refining Margins Hit Record Highs as Markets Tighten",
+        "summary": "Refining margins for gasoline and diesel jumped this week to new record highs after the re-escalation in the Middle East, Russia\u2019s ban on diesel exports, and crumbling global fuel inventories. \u00a0 The surge in fuel margins and the price spread over crude prices suggest that the global fuel markets remain very tight despite the millions of barrels of crude that have managed to exit the Strait of Hormuz in recent weeks. Diesel refining margins in Europe jumped to a record high of over $60 per barrel",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Fuel-Refining-Margins-Hit-Record-Highs-as-Markets-Tighten.html",
         "source": "Oilprice",
-        "published": "09 Jul 2026",
-        "sentiment_hint": "neutral",
+        "published": "10 Jul 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
           "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
+          "company": "ExxonMobil Corporation",
           "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "Strait of Hormuz escalation threatens 10.5M bbl/day supply gap; major upstream producer benefits from price surge and supply constraints.",
+          "conviction": 72,
+          "rationale": "Record refining margins ($60+/bbl diesel) and tight global fuel markets directly benefit downstream operations and cash flow.",
           "key_themes": [
-            "supply disruption",
-            "geopolitical risk premium",
-            "production recovery delays"
+            "refining margins",
+            "fuel supply tightness",
+            "geopolitical tensions"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Strait of Hormuz escalation threatens 10.5M bbl/day supply gap; major upstream producer benefits from price surge and supply constraints.",
+        "haiku_rationale": "Record refining margins ($60+/bbl diesel) and tight global fuel markets directly benefit downstream operations and cash flow.",
         "haiku_themes": [
-          "supply disruption",
-          "geopolitical risk premium",
-          "production recovery delays"
+          "refining margins",
+          "fuel supply tightness",
+          "geopolitical tensions"
         ]
       },
       "config": {
@@ -410,6 +312,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "New York Sues Companies Over \u2018Forever Chemicals\u2019",
+          "summary": "The lawsuit claims that the companies, including 3M and DuPont, contaminated the environment and engaged in fraud by withholding information from the public about the harms of the chemicals, known as PFAS.",
+          "url": "https://www.nytimes.com/2026/07/09/nyregion/ny-pfas-lawsuit-3m-dupont.html",
+          "source": "Rss",
+          "published": "09 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "Lawmakers Target the Power of Health Insurance Giants",
           "summary": "UnitedHealth Group, CVS Health and Cigna are battling efforts to break up their control over prescription drugs.",
           "url": "https://www.nytimes.com/2026/07/08/business/health-insurance-cvs-unitedhealth-breakup.html",
@@ -426,33 +336,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Andrea Shaw, Plaintiff in Anti-Vaccine Suit, Is Charged With Murder of Her Twins",
-          "summary": "A lawsuit filed by Children\u2019s Health Defense, an organization founded by Robert F. Kennedy Jr., claims that vaccines caused the twins\u2019 deaths. But a grand jury in Idaho has indicted her on charges of suffocating them.",
-          "url": "https://www.nytimes.com/2026/07/07/us/idaho-twins-death-shaw-vaccines-murder.html",
-          "source": "Rss",
-          "published": "08 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/allergan-aesthetics-helps-map-out-paths-young-women-stem-girls-inc-event\" hreflang=\"en\">Allergan Aesthetics helps map paths for young women in STEM with Girls Inc. event</a>",
-          "summary": "Allergan Aesthetics on Tuesday welcomed Girls Inc. participants to a panel and tour at its Allergan Medical Institute in Orange County, CA.",
-          "url": "https://www.fiercepharma.com/marketing/allergan-aesthetics-helps-map-out-paths-young-women-stem-girls-inc-event",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/sobi-earns-top-spot-bleeding-disorder-patient-groups-pharma-reputation-rankings\" hreflang=\"en\">Sobi earns top spot in bleeding disorder patient groups' pharma reputation rankings </a>",
+          "summary": "Bleeding disorder patient groups put Sobi, Roche and Novo Nordisk on the podium in 2025/2026's corporate reputation rankings from PatientView.",
+          "url": "https://www.fiercepharma.com/marketing/sobi-earns-top-spot-bleeding-disorder-patient-groups-pharma-reputation-rankings",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/fda-hits-lundbeck-untitled-letter-over-efficacy-claims-migraine-drug-vyepti\" hreflang=\"en\">FDA hits Lundbeck with untitled letter over efficacy claims on migraine drug Vyepti</a>",
-          "summary": "The FDA took issue with multiple claims describing Vyepti's efficacy listed on Lundbeck's healthcare provider webpage for the drug.",
-          "url": "https://www.fiercepharma.com/marketing/fda-hits-lundbeck-untitled-letter-over-efficacy-claims-migraine-drug-vyepti",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/biontech-plots-right-sized-her2-adc-launch-build-muscle-bms-partnered-bispecific\" hreflang=\"en\">BioNTech plots right-sized HER2 ADC launch to \u2018build the muscle\u2019 for BMS-partnered bispecific</a>",
+          "summary": "BioNTech is on the verge of returning to its oncology roots with potentially its first commercial cancer drug. Yet, to Chief Commercial Officer Annemarie Hanekamp, the upcoming launch is less of a standalone milestone and more of a strategic springboard for a far more critical pipeline product.",
+          "url": "https://www.fiercepharma.com/pharma/biontech-plots-right-sized-her2-adc-launch-build-muscle-bms-partnered-bispecific",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/cureduchenne-lights-candles-dmd-public-service-campaign-highlighting-birthdays\" hreflang=\"en\">CureDuchenne lights the candles with DMD public service campaign highlighting birthdays</a>",
-          "summary": "CureDuchenne's \"A Cure Can't Wait\" serves as a public service announcement reminding viewers that \"the clock is ticking\" for patients and families with the rare progressive disease Duchenne muscular dystrophy.",
-          "url": "https://www.fiercepharma.com/marketing/cureduchenne-lights-candles-dmd-public-service-campaign-highlighting-birthdays",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/az-ionis-shares-tumble-attr-cm-trial-failure-it-over-reaction\" hreflang=\"en\">AZ, Ionis shares tumble on ATTR-CM trial flop, but analyst flags over-reaction</a>",
+          "summary": "The surprising failure of AstraZeneca and Ionis in a key phase 3 trial of Wainua in patients with ATTR-CM has sent the companies' shares tumbling, while those of their competitors are soaring. The CARDIO-TTRansform study did not meet its primary endpoint, which centered on reducing cardiovascular deaths or recurrent cardiovascular events through 140 weeks.",
+          "url": "https://www.fiercepharma.com/pharma/az-ionis-shares-tumble-attr-cm-trial-failure-it-over-reaction",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -465,63 +367,130 @@
             "company": "UnitedHealth Group",
             "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Legislative scrutiny targeting UNH's control over prescription drugs poses regulatory risk and potential operational restructuring.",
+            "rationale": "Facing legislative pressure to break up control over prescription drugs; regulatory headwinds threaten business model",
             "key_themes": [
               "regulatory pressure",
-              "antitrust concerns",
-              "market consolidation risk"
+              "antitrust action",
+              "prescription drug control"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct mention; potential tangential exposure to pharma sector dynamics but insufficient article coverage",
+            "key_themes": [
+              "sector uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'tangential exposure to pharma sector dynamics' but no article discusses JNJ or general pharma sector headwinds; analyst is speculating without source support",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No direct mention; benefits from AZ/Ionis ATTR-CM trial failure but lacks specific news catalyst",
+            "key_themes": [
+              "competitor setback",
+              "oncology competition"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes Pfizer benefits from AZ/Ionis ATTR-CM failure (Article 6), but the trial failure is in cardiac rare disease (ATTR-CM), not oncology as stated. Additionally, no source article mentions Pfizer as a competitor in this space or suggests they would benefit",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 38,
+            "rationale": "No direct mention; potential beneficiary of competitor trial failures in oncology but no confirmed catalysts",
+            "key_themes": [
+              "oncology opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates Merck benefits from 'competitor trial failures in oncology' but the AZ/Ionis failure (Article 6) involves ATTR-CM (cardiac condition), not oncology. No article supports Merck as a competitor or beneficiary in this indication",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "No direct mention; may benefit from microbiome research trends but article lacks commercial specificity",
+            "key_themes": [
+              "emerging research opportunity"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale claims LLY 'may benefit from microbiome research trends' based on Article 3, but that article only discusses basic microbiome science and understanding\u2014it contains no information about commercial applications, drug development, or Eli Lilly's involvement",
+            "supporting_article": null
           }
         ],
-        "summary": "The healthcare sector faces emerging regulatory headwinds, particularly for insurance intermediaries, while vaccine-related reputational risks persist despite scientific consensus. Most pharma and healthcare services companies remain unaffected by the limited news flow, but UNH faces material regulatory risk from congressional antitrust efforts. Positive long-term tailwinds exist in microbiome research and rare disease therapeutics development.",
+        "summary": "The healthcare sector faces mixed pressures: regulatory headwinds targeting insurance consolidation present medium-term headwinds for UNH, while competitor clinical failures in cardio-oncology create modest opportunities for diversified pharma players. Emerging research areas like microbiome science offer longer-term strategic optionality but lack near-term commercial catalysts for the analyzed cohort.",
         "risks": [
-          "Congressional antitrust action could force UNH divestiture or operational restrictions",
-          "Anti-vaccine litigation and misinformation may create reputational challenges across the broader healthcare sector",
-          "Regulatory enforcement actions (as seen with Lundbeck) suggest stricter FDA marketing oversight"
+          "antitrust/regulatory action expansion to pharma majors",
+          "broader healthcare cost-control legislation",
+          "clinical trial failures affecting pipeline confidence",
+          "pricing pressure from lawmakers"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "low",
+          "flags": [
+            "PFE signal mischaracterizes ATTR-CM as oncology; it is a rare cardiac disease",
+            "MRK signal mischaracterizes ATTR-CM as oncology; it is a rare cardiac disease",
+            "LLY signal over-extrapolates from basic microbiome research article with no commercial or company-specific content",
+            "Multiple neutral conviction signals (JNJ, PFE, MRK, LLY) lack meaningful source support and appear to be analyst speculation rather than grounded analysis"
+          ],
+          "ungrounded_count": 4
         }
       },
       "prices_snapshot": {
-        "UNH": 425.6000061035156
+        "UNH": 431.67999267578125,
+        "JNJ": 259.1000061035156,
+        "PFE": 24.25,
+        "MRK": 125.06999969482422,
+        "LLY": 1216.949951171875
       },
       "spot_check": {
-        "title": "Lawmakers Target the Power of Health Insurance Giants",
-        "summary": "UnitedHealth Group, CVS Health and Cigna are battling efforts to break up their control over prescription drugs.",
-        "url": "https://www.nytimes.com/2026/07/08/business/health-insurance-cvs-unitedhealth-breakup.html",
+        "title": "New York Sues Companies Over \u2018Forever Chemicals\u2019",
+        "summary": "The lawsuit claims that the companies, including 3M and DuPont, contaminated the environment and engaged in fraud by withholding information from the public about the harms of the chemicals, known as PFAS.",
+        "url": "https://www.nytimes.com/2026/07/09/nyregion/ny-pfas-lawsuit-3m-dupont.html",
         "source": "Rss",
-        "published": "08 Jul 2026",
+        "published": "09 Jul 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "UNH",
           "company": "UnitedHealth Group",
           "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Legislative scrutiny targeting UNH's control over prescription drugs poses regulatory risk and potential operational restructuring.",
+          "rationale": "Facing legislative pressure to break up control over prescription drugs; regulatory headwinds threaten business model",
           "key_themes": [
             "regulatory pressure",
-            "antitrust concerns",
-            "market consolidation risk"
+            "antitrust action",
+            "prescription drug control"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 2
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "Legislative scrutiny targeting UNH's control over prescription drugs poses regulatory risk and potential operational restructuring.",
+        "haiku_rationale": "Facing legislative pressure to break up control over prescription drugs; regulatory headwinds threaten business model",
         "haiku_themes": [
           "regulatory pressure",
-          "antitrust concerns",
-          "market consolidation risk"
+          "antitrust action",
+          "prescription drug control"
         ]
       },
       "config": {
@@ -541,27 +510,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Help! I Refueled My Rental Car, but Enterprise Charged Me Anyway.",
-          "summary": "A traveler to Germany returned his vehicle with slightly more gas than it had when he picked it up. So why was he billed $131 to fill up the tank?",
-          "url": "https://www.nytimes.com/2026/07/09/travel/help-i-refueled-my-rental-car-but-enterprise-charged-me-anyway.html",
+          "title": "Meta Ordered by E.U. to Alter \u2018Addictive Design\u2019 of Instagram and Facebook",
+          "summary": "European Union authorities said the company\u2019s use of \u201caddictive design\u201d violated a digital safety law.",
+          "url": "https://www.nytimes.com/2026/07/10/business/meta-instagram-facebook-europe.html",
           "source": "Rss",
-          "published": "09 Jul 2026",
+          "published": "10 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Can Xenom Turn Working Out Into a Sport?",
-          "summary": "Xenom, a new fitness company, wants to make weekend warriors feel like pros.",
-          "url": "https://www.nytimes.com/2026/07/09/style/xenom-crossfit-competition-workout-fitness.html",
+          "title": "You\u2019re Freezing in Your Office Building. Here\u2019s Why.",
+          "summary": "Office temperatures are typically set in the low 70s during summer. But where you sit and the efficiency of the cooling system can make you feel colder.",
+          "url": "https://www.nytimes.com/2026/07/10/business/cold-offices-air-conditioning.html",
           "source": "Rss",
-          "published": "09 Jul 2026",
+          "published": "10 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The World Cup\u2019s Biggest Match Is Nike Vs. Adidas",
-          "summary": "Second place in the hearts and wallets of Americans isn\u2019t good enough for the world\u2019s largest sportswear companies, who bet big on the tournament.",
-          "url": "https://www.nytimes.com/2026/07/09/business/world-cup-nike-adidas.html",
+          "title": "Hotel Workers Hoped the World Cup Would Boost Their Hours. It Didn\u2019t.",
+          "summary": "Even as matches have drawn large crowds, hotel bookings have lagged. And workers in host cities say they\u2019re struggling.",
+          "url": "https://www.nytimes.com/2026/07/10/business/hotel-workers-world-cup.html",
           "source": "Rss",
-          "published": "09 Jul 2026",
+          "published": "10 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -592,85 +561,138 @@
       "analysis": {
         "signals": [
           {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Market volatility from AI sector rout creates trading opportunities and fee-generating activity for major investment banks.",
+            "key_themes": [
+              "market volatility",
+              "trading volumes",
+              "investment banking fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] confirms AI sector rout and market volatility, but no source material discusses how this volatility generates trading opportunities or fee-generating activity for investment banks. The rationale makes a logical inference not explicitly supported by the sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and sector rotation generate advisory and trading opportunities for premium investment banking franchise.",
+            "key_themes": [
+              "market volatility",
+              "M&A advisory",
+              "trading commissions"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] documents the selloff and Article [6] discusses sector reassessment, but no source material discusses M&A advisory opportunities, trading commissions, or how investment banks benefit from this volatility. The rationale is inferential rather than grounded.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Heightened market uncertainty and AI sector reassessment likely to drive increased advisory and wealth management activity.",
+            "key_themes": [
+              "market volatility",
+              "wealth management fees",
+              "advisory revenues"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] confirms market uncertainty and AI sector volatility, but no source material explicitly connects this to increased wealth management activity or advisory revenues. The rationale is inferential speculation.",
+            "supporting_article": null
+          },
+          {
             "ticker": "V",
             "company": "Visa Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Global travel activity referenced in rental car article suggests continued payment processing demand, but no direct financial impact evident.",
+            "rationale": "Hotel industry booking weakness noted but offset by broader economic resilience; payment volumes remain stable during market corrections.",
             "key_themes": [
-              "travel spending",
-              "payment processing"
+              "hospitality headwinds",
+              "payment processing stability"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes a billing dispute over rental car fuel charges in Germany. This is a consumer complaint about a specific transaction error, not evidence of 'continued payment processing demand' or broader travel spending trends that would support Visa's business outlook.",
-            "supporting_article": 1
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "International travel transactions implied in rental car scenario support payment volume, but macro uncertainty from tech selloff dominates sentiment.",
+            "rationale": "Similar to Visa; hotel booking concerns are modest headwind but broad payment network activity remains resilient.",
             "key_themes": [
-              "cross-border payments",
-              "travel transactions"
+              "hospitality headwinds",
+              "payment processing stability"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] is a single anecdotal story about a rental car refueling dispute. This does not constitute evidence of 'international travel transactions' driving payment volume for Mastercard, nor does it support conviction in the company's medium-term outlook.",
-            "supporting_article": 1
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           }
         ],
-        "summary": "The financial services sector shows minimal direct exposure to the provided articles. Travel-related payment activity (rental car dispute) offers modest tailwinds for payment processors, while the broader market turmoil from the AI rout and commodity weakness creates macro headwinds. Banking stocks lack meaningful catalysts in these headlines.",
+        "summary": "Finance sector shows mixed signals as AI-driven market volatility creates near-term opportunities for investment banks (JPM, GS, MS) through increased trading and advisory activity, while payment processors (V, MA) remain stable despite modest hospitality sector headwinds. BAC and BRK-B lack sufficient thematic connection to the news articles for meaningful conviction signals.",
         "risks": [
-          "Broader market volatility from AI sector concerns could pressure financial services valuations",
-          "Weakening commodity prices (gold/silver) may indicate risk-off sentiment affecting bank lending spreads",
-          "No positive catalysts identified for traditional banking operations"
+          "AI panic selling may be short-lived, limiting fee generation window",
+          "broader market downturn could reduce M&A and advisory activity",
+          "payment network volume contraction if economic slowdown accelerates",
+          "regulatory pressures on tech may dampen market sentiment"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "Both signals infer broad payment processing demand from a single consumer complaint article about a billing dispute\u2014this is an inappropriate generalization",
-            "The rental car article does not discuss travel spending trends or payment volumes; it focuses on a customer service problem",
-            "Neither signal acknowledges that Article [4] documents a major tech selloff that would likely dominate near-term sentiment regardless of travel-related fundamentals",
-            "Conviction levels of 45% appear unjustified given the weak evidentiary basis in the source material"
+            "JPM, GS, and MS signals make logical inferences about investment banking fee generation from market volatility, but these connections are not explicitly supported in any source article",
+            "The analyst assumes volatility automatically creates 'trading opportunities' and 'fee-generating activity' without evidence from sources that this actually occurs or benefits these specific firms",
+            "V and MA signals appropriately acknowledge hotel booking weakness from Article [3] but speculate about payment stability without direct source support"
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "V": 347.5299987792969,
-        "MA": 519.8599853515625
+        "JPM": 335.4700012207031,
+        "GS": 1055.969970703125,
+        "MS": 222.1300048828125,
+        "V": 348.20001220703125,
+        "MA": 523.2000122070312
       },
       "spot_check": {
-        "title": "Help! I Refueled My Rental Car, but Enterprise Charged Me Anyway.",
-        "summary": "A traveler to Germany returned his vehicle with slightly more gas than it had when he picked it up. So why was he billed $131 to fill up the tank?",
-        "url": "https://www.nytimes.com/2026/07/09/travel/help-i-refueled-my-rental-car-but-enterprise-charged-me-anyway.html",
+        "title": "Meta Ordered by E.U. to Alter \u2018Addictive Design\u2019 of Instagram and Facebook",
+        "summary": "European Union authorities said the company\u2019s use of \u201caddictive design\u201d violated a digital safety law.",
+        "url": "https://www.nytimes.com/2026/07/10/business/meta-instagram-facebook-europe.html",
         "source": "Rss",
-        "published": "09 Jul 2026",
+        "published": "10 Jul 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa Inc.",
-          "sentiment": "neutral",
-          "conviction": 45,
-          "rationale": "Global travel activity referenced in rental car article suggests continued payment processing demand, but no direct financial impact evident.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sentiment": "bullish",
+          "conviction": 62,
+          "rationale": "Market volatility from AI sector rout creates trading opportunities and fee-generating activity for major investment banks.",
           "key_themes": [
-            "travel spending",
-            "payment processing"
+            "market volatility",
+            "trading volumes",
+            "investment banking fees"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": false,
-          "verification_issue": "Article [1] describes a billing dispute over rental car fuel charges in Germany. This is a consumer complaint about a specific transaction error, not evidence of 'continued payment processing demand' or broader travel spending trends that would support Visa's business outlook.",
-          "supporting_article": 1
+          "verification_issue": "Article [4] confirms AI sector rout and market volatility, but no source material discusses how this volatility generates trading opportunities or fee-generating activity for investment banks. The rationale makes a logical inference not explicitly supported by the sources.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "Global travel activity referenced in rental car article suggests continued payment processing demand, but no direct financial impact evident.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Market volatility from AI sector rout creates trading opportunities and fee-generating activity for major investment banks.",
         "haiku_themes": [
-          "travel spending",
-          "payment processing"
+          "market volatility",
+          "trading volumes",
+          "investment banking fees"
         ]
       },
       "config": {
