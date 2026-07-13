@@ -4368,5 +4368,313 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-07-13",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Gemini AI integration into Waze demonstrates monetization of AI capabilities across consumer products and strengthens competitive positioning.",
+            "key_themes": [
+              "AI integration",
+              "product enhancement",
+              "consumer AI deployment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "EU regulatory restrictions on teen social media access create headwinds for user growth and engagement in a key demographic market.",
+            "key_themes": [
+              "regulatory pressure",
+              "teen user restrictions",
+              "European compliance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mac-specific utility tool mentioned but represents marginal product differentiation; insufficient evidence of material business impact.",
+            "key_themes": [
+              "ecosystem utility",
+              "Mac hardware"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 357.17999267578125,
+          "META": 669.2100219726562,
+          "AAPL": 315.32000732421875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strait of Hormuz disruption reduces global oil supply, supporting crude prices and upstream margins",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical premium",
+              "LNG export constraints"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "U.S.-Iran escalation tightens oil markets; CVX benefits from higher crude and LNG pricing",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical premium",
+              "energy security"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Hormuz tanker traffic collapse and LNG shipping threats elevate hydrocarbon prices globally",
+            "key_themes": [
+              "supply disruption",
+              "LNG market tightening",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "European natural gas prices up 3%+ on Hormuz escalation; SHEL exposed to LNG supply premium",
+            "key_themes": [
+              "LNG export disruption",
+              "natural gas volatility",
+              "Middle East exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Iranian threats of further disruptions support oil and gas prices; TTE benefits from LNG and crude upside",
+            "key_themes": [
+              "supply disruption",
+              "LNG premium",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz supply squeeze and reduced tanker traffic support crude oil pricing and upstream value",
+            "key_themes": [
+              "supply disruption",
+              "crude price support",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 138.8800048828125,
+          "CVX": 176.39999389648438,
+          "BP": 39.20000076293945,
+          "SHEL": 82.2300033569336,
+          "TTE": 78.5,
+          "COP": 109.04000091552734
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Foundayo oral GLP-1 launch remains muted; competitive intensity with Novo's Wegovy pill pressuring market share gains.",
+            "key_themes": [
+              "oral GLP-1 competition",
+              "weight-loss market share",
+              "launch trajectory weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Keytruda-Padcev combination expands bladder cancer indication with FDA approval, strengthening oncology portfolio against AstraZeneca.",
+            "key_themes": [
+              "oncology expansion",
+              "combination therapy success",
+              "competitive advantage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Lawmakers targeting health insurance giants' control over prescription drugs; regulatory pressure threatens current business model and margins.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "antitrust risk",
+              "business model pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1188.5799560546875,
+          "MRK": 123.54000091552734,
+          "UNH": 424.6199951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Wealth management division benefits from affluent clients' discretionary spending on luxury experiences like World Cup travel.",
+            "key_themes": [
+              "wealth management",
+              "luxury spending",
+              "affluent client activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Modest benefit from luxury/entertainment spending but portfolio exposure to tech selloff offsets gains from wealth activity.",
+            "key_themes": [
+              "diversified exposure",
+              "AI volatility",
+              "wealth spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Elevated spending by wealthy individuals on World Cup experiences and luxury travel drives incremental transaction volume.",
+            "key_themes": [
+              "payment volumes",
+              "luxury spending",
+              "travel transactions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bullish",
+            "conviction": 67,
+            "rationale": "Wealthy consumer spending on premium World Cup experiences and high-value travel transactions benefits payment processing volumes.",
+            "key_themes": [
+              "payment volumes",
+              "premium spending",
+              "travel transactions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 336.4700012207031,
+          "BRK-B": 493.7099914550781,
+          "V": 348.9700012207031,
+          "MA": 526.739990234375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
