@@ -4676,5 +4676,347 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-14",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Brent surge above $86 on Iran-UAE tensions boosts upstream margins and cash flow for major producers.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "higher oil prices",
+              "Strait of Hormuz supply disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "3%+ crude rally on Middle East escalation strengthens near-term profitability for integrated oil majors.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "higher oil prices",
+              "supply disruption risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Hormuz tensions and $86+ Brent pricing support near-term earnings uplift for diversified energy majors.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "Strait of Hormuz disruption",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Brent crude surge and reduced Chinese demand volatility create profitable margin environment for traders.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "trading opportunities",
+              "crude price volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz crisis and $86 Brent pricing support cash generation; lower Chinese demand reduces competition.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "reduced demand competition",
+              "higher crude prices"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Iran sanctions and Hormuz supply fears drive Brent above $86, significantly improving production economics.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Oil price strength modestly positive for services demand, but no direct operational impact evident in articles.",
+            "key_themes": [
+              "potential capex uplift",
+              "limited near-term catalyst"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims oil price strength and potential capex uplift, which is supported by source articles. However, the signal acknowledges 'no direct operational impact evident in articles,' making the neutral stance internally consistent but the bullish premise lacks direct grounding for a services company without explicit capex commentary in sources.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 144.50999450683594,
+          "CVX": 182.1999969482422,
+          "BP": 40.83000183105469,
+          "SHEL": 83.9800033569336,
+          "TTE": 81.20999908447266,
+          "COP": 112.8499984741211,
+          "SLB": 47.36000061035156
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Tylenol litigation revival poses material legal and reputational risk from pregnancy-related autism/ADHD claims.",
+            "key_themes": [
+              "litigation risk",
+              "product liability",
+              "legal exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Mental health integration in diabetes care aligns with LLY's growing diabetes portfolio and holistic treatment trends.",
+            "key_themes": [
+              "diabetes care expansion",
+              "mental health integration",
+              "market expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [4] discusses Insulet and Calm partnership, not Eli Lilly. No evidence that LLY is involved in this diabetes-mental health integration initiative or that this trend directly supports LLY's portfolio expansion.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Sports injury recovery trend and holistic diabetes wellness tools support expanded healthcare service opportunities.",
+            "key_themes": [
+              "sports medicine",
+              "preventive care",
+              "wellness integration"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [2] mentions sports injury recovery trends but does not connect this to UnitedHealth Group or expanded healthcare service opportunities. Article [4] discusses Insulet/Calm diabetes wellness tools, not UNH. No direct evidence linking these trends to UNH's business.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "FDA manufacturing streamlining may reduce regulatory burden but impact unclear; no direct article relevance.",
+            "key_themes": [
+              "regulatory efficiency",
+              "manufacturing"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Rationale acknowledges 'no direct article relevance' - this is accurate but undermines the signal's credibility. Article [5] discusses FDA manufacturing streamlining generally, with no specific mention of Pfizer.",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 257.7699890136719,
+          "LLY": 1181.8699951171875,
+          "UNH": 429.0899963378906,
+          "PFE": 24.479999542236328
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Higher oil prices and shipping cost inflation boost energy lending and M&A advisory fees for investment banking",
+            "key_themes": [
+              "energy sector strength",
+              "geopolitical tensions",
+              "investment banking opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rising commodity prices and shipping cost pressures increase corporate financing needs and advisory revenues",
+            "key_themes": [
+              "energy exposure",
+              "corporate lending",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Oil price surge and geopolitical tensions drive energy sector M&A and trading activity benefiting investment banking",
+            "key_themes": [
+              "energy advisory",
+              "commodities trading",
+              "deal activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Rising energy costs and shipping fees create corporate restructuring and financing opportunities for advisory revenues",
+            "key_themes": [
+              "energy sector",
+              "corporate finance",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "No direct exposure to current news themes; potential longer-term impact from shipping inflation on merchant volumes unclear",
+            "key_themes": [
+              "macro uncertainty",
+              "commodity inflation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "No direct exposure to current news themes; potential longer-term impact from shipping inflation on merchant volumes unclear",
+            "key_themes": [
+              "macro uncertainty",
+              "commodity inflation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 334.5299987792969,
+          "BAC": 59.5,
+          "GS": 1045.9100341796875,
+          "MS": 221.08999633789062,
+          "V": 357.75,
+          "MA": 537.7000122070312
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
