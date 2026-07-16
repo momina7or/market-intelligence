@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-07-14",
-  "run_time": "2026-07-14T09:03:43.224034Z",
+  "run_date": "2026-07-16",
+  "run_time": "2026-07-16T09:11:52.528640Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,37 +29,82 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Microsoft tests Windows Search without all the ads and fluff",
-          "summary": "Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it's rolling out the decluttered Search Box to Windows Insiders in the Experimental channel as the company looks to regain trust with users and fix Windows. [&#8230;]",
-          "url": "https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
+          "title": "OnePlus officially gives up on the US and Europe",
+          "summary": "OnePlus has confirmed what industry observers have long expected: it's quitting the US and European markets, and will no longer launch new products in either region. Parent company Oppo promises that it will honor existing support and warranty agreements, with devices transitioning to its ColorOS for future updates. \"Software updates and after-sale support will be [&#8230;]",
+          "url": "https://www.theverge.com/tech/966404/oneplus-oppo-us-europe-withdrawal-realme",
           "source": "Theverge",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "OnePlus is reportedly bailing on the US",
-          "summary": "OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a WinFuture report. Should the exit actually happen, it will mark a conclusion to months of rumors about the future of OnePlus. Android Headlines said [&#8230;]",
-          "url": "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
-          "source": "Theverge",
-          "published": "13 Jul 2026",
+          "published": "16 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A two-pack of DJI&#8217;s most capable wireless mics just got its first price cut",
-          "summary": "Smartphones these days have incredible cameras that are capable of taking smooth, sharp video, but the microphones are often lacking, to say the least. A wireless lavalier microphone can dramatically improve the audio quality of your videos, whether you\u2019re the only one talking, or if you\u2019re getting audio from multiple people. The DJI Mic 3 [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale",
+          "title": "Skullcandy\u2019s bass-boosting Crusher headphones now come with Bose\u2019s ANC",
+          "summary": "Skullcandy announced a new version of its Crusher wireless headphones today featuring a few of Bose's audio technologies including its QuietControl ANC and head-tracking spatial audio. The Crusher headphone line differentiates itself from the competition through the use of both full-range and dedicated bass drivers in each ear cup to boost deeper frequencies. Skullcandy admits [&#8230;]",
+          "url": "https://www.theverge.com/tech/966022/skullcandy-cruser-1080-anc-bose-tuning-noise-cancelling-wireless-headphones",
           "source": "Theverge",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "bearish"
+          "published": "16 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "HP&#8217;s OLED-equipped 2-in-1 laptop is a solid back-to-school deal",
+          "summary": "With storage and memory prices still at an all-time high, we\u2019re happy to tell you about a solid deal on a good laptop when we find one, rare as they are. Best Buy is selling the HP OmniBook X Flip 2 in 1 for $999.99 (usually $1,649.99) with an Intel Core 7 Ultra CPU, 16GB [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale",
+          "source": "Theverge",
+          "published": "15 Jul 2026",
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"MSFT\",\n      \"company\": \"Microsoft Corporation\",\n      \"sentiment\": \"neutral\",\n      \"conviction\": 45,\n      \"rationale\": \"Windows Search redesign shows effort to improve user experience but reflects defensive posture on trust issues.\",\n      \"key_themes\": [\"user experience\", \"Windows platform\", \"trust recovery\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"GOOGL\",\n      \"company\": Alphabet Inc.\",\n      \"sentiment\": \"bullish\",\n      \"",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates competitive threat; Google must accelerate AI-driven search monetization",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI assistant adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's demonstrated ability to influence search and content discovery validates OpenAI partnership value and enterprise AI adoption",
+            "key_themes": [
+              "AI monetization",
+              "content creation tools",
+              "enterprise adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "summary": "Articles reveal a critical inflection point in AI-driven content discovery and creation, with ChatGPT increasingly displacing traditional SEO and search. The proliferation of AI content tools signals growing enterprise and creator adoption, favoring AI infrastructure and cloud providers. However, articles lack specific product announcements or financial metrics from the analyzed companies.",
+        "risks": [
+          "Limited direct evidence linking articles to specific company fundamentals",
+          "Articles lack quantitative data on market adoption or revenue impact",
+          "Potential regulatory scrutiny on AI search integration and creator compensation"
+        ],
+        "sector_sentiment": "bullish",
+        "verification": {
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "GOOGL": 370.9200134277344,
+        "MSFT": 395.6300048828125
+      },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
         "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
@@ -67,10 +112,29 @@
         "source": "Feedburner",
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "related_signal": {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "sentiment": "bullish",
+          "conviction": 75,
+          "rationale": "ChatGPT's demonstrated ability to influence search and content discovery validates OpenAI partnership value and enterprise AI adoption",
+          "key_themes": [
+            "AI monetization",
+            "content creation tools",
+            "enterprise adoption"
+          ],
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "ChatGPT's demonstrated ability to influence search and content discovery validates OpenAI partnership value and enterprise AI adoption",
+        "haiku_themes": [
+          "AI monetization",
+          "content creation tools",
+          "enterprise adoption"
+        ]
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -89,120 +153,131 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Brent Surges Above $86 After Iran Strikes Two UAE Tankers in Hormuz",
-          "summary": "Brent Crude prices soared by 3% early on Tuesday to above $86 per barrel, following an Iranian attack on two tankers of the United Arab Emirates in the southern lane of the Strait of Hormuz, in one of the biggest attacks in the recent re-escalation in the region.\u00a0 \u00a0 In early trading in Europe today, Brent Crude prices jumped by over 3% to above $86 per barrel, and were trading at $86.06 a barrel at 9:00 a.m. London time. \u00a0 The U.S. benchmark, WTI Crude, was surging by 3.1% to top $80 per barrel ",
-          "url": "https://oilprice.com/Energy/Oil-Prices/Brent-Surges-Above-86-After-Iran-Strikes-Two-UAE-Tankers-in-Hormuz.html",
+          "title": "India Hikes Diesel and Jet Fuel Export Tax",
+          "summary": "India has hiked the export duties it will be charging on exports of diesel and jet fuel for the two weeks starting July 16, as the return of the Hormuz crisis is set to further tighten fuel markets. The export taxes on diesel and aviation fuel were nearly doubled per liter of the fuels, a notice from India\u2019s Finance Ministry showed on Thursday. India reviews its export duty policy every fortnight to account for the prevailing domestic and international market conditions, including supply and pri",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Hikes-Diesel-and-Jet-Fuel-Export-Tax.html",
           "source": "Oilprice",
-          "published": "14 Jul 2026",
+          "published": "16 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "IEA Warns World Has Just Weeks to Avoid Hormuz Economic Shock",
+          "summary": "The world has just a few weeks before taking an economic toll from the re-escalation in the Middle East and the new halt to tanker traffic through the Strait of Hormuz, according to Fatih Birol, the Executive Director of the International Energy Agency (IEA). The situation in the region has sharply deteriorated in the past week as Iran struck commercial vessels transiting the Strait of Hormuz, including two supertankers operated by the Abu Dhabi national oil company of the UAE, and the U.S. carr",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-World-Has-Just-Weeks-to-Avoid-Hormuz-Economic-Shock.html",
+          "source": "Oilprice",
+          "published": "16 Jul 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "U.S. Strikes Iran-Linked Tanker Near Kharg Island",
+          "summary": "U.S. forces have struck and disabled an Iran-linked sanctioned oil tanker near Iran\u2019s key export terminal, Kharg Island, deep in the Persian Gulf, the U.S. Central Command (CENTCOM) said early on Thursday, as the U.S. appears to be broadening the scope of the renewed blockade on Iran. \u201cU.S. forces enforced naval blockade measures against Iran on July 15 by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf,\u201d CENTCOM said, after U.S. forces resumed the n",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Strikes-Iran-Linked-Tanker-Near-Kharg-Island.html",
+          "source": "Oilprice",
+          "published": "16 Jul 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Iran Sneaks 12 Million Barrels Past Renewed U.S. Oil Blockade",
-          "summary": "Iran is estimated to have sneaked supertankers with a total of 12 million barrels of crude oil in the week between the end of the U.S. waiver on Iranian oil sales on July 7 and July 14, just as the U.S. announced the renewed blockade on Iranian ports and oil cargoes. \u00a0 Last Tuesday, July 7, Iranian\u00a0attacks on three commercial vessels in the Strait of Hormuz prompted an immediate U.S. reaction, with the U.S military striking multiple targets in Iran and the Treasury canceling the waiver on Iran\u2019s",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Sneaks-12-Million-Barrels-Past-Renewed-US-Oil-Blockade.html",
-          "source": "Oilprice",
+          "title": "OMV secures $512m EIB loan for green hydrogen plant in Austria",
+          "summary": "OMV has received a \u20ac450m ($512m) loan from EIB to support the construction of its flagship green hydrogen production facility.",
+          "url": "https://www.energymonitor.ai/news/omv-secures-eib-loan/",
+          "source": "Energymonitor",
           "published": "14 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "China\u2019s Crude Oil Imports Crash to Decade Low as Hormuz Crisis Bites",
-          "summary": "China\u2019s crude oil imports crashed to a decade-low in June as the reduced flows through the Strait of Hormuz hiked oil prices and reduced refiners\u2019 appetite for costly crude. Overall Chinese imports of crude oil plunged by 41.3% in June from a year earlier, to just 29.27 million tons, or 7.12 million barrels per day (bpd), according to official Chinese customs data released on Tuesday. The June volumes hit a decade low as they were at their lowest level since October 2016, according to the data s",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Crude-Oil-Imports-Crash-to-Decade-Low-as-Hormuz-Crisis-Bites.html",
-          "source": "Oilprice",
+          "title": "EC approves $72bn French scheme for offshore wind farms",
+          "summary": "The EC granted France approval for a state aid scheme valued at up to $72bn aimed at supporting the country\u2019s offshore wind energy sector.",
+          "url": "https://www.energymonitor.ai/news/ec-72bn-french-scheme/",
+          "source": "Energymonitor",
           "published": "14 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Kanadevia and BEC to collaborate on green hydrogen projects in Oman",
-          "summary": "Kanadevia has announced a partnership agreement with BEC to support the development of green hydrogen projects in Oman.",
-          "url": "https://www.energymonitor.ai/news/kanadevia-bec-collaborate-green-hydrogen/",
+          "title": "The execution economy of battery storage",
+          "summary": "As markets mature, competitive advantage is moving away from deploying capacity and towards executing battergy storage projects better.",
+          "url": "https://www.energymonitor.ai/analysis/the-execution-economy-of-battery-storage/",
           "source": "Energymonitor",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Baltic Power delivers first electricity to Polish grid",
-          "summary": "Baltic Power, a 1.1GW offshore wind farm co-owned by Northland Power and ORLEN, has started supplying electricity to Poland\u2019s national grid.",
-          "url": "https://www.energymonitor.ai/news/baltic-power-delivers-first-electricity/",
-          "source": "Energymonitor",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Fujimori\u2019s victory in Peru\u2019s presidential elections brings hope for renewable energy but\u00a0uncertainty\u00a0prevails",
-          "summary": "Fujimori\u2019s victory in Peru\u2019s presidential elections brings hope for mining and renewable energy but uncertainty prevails.",
-          "url": "https://www.energymonitor.ai/analyst-comment/peru-energy-projects-after-election/",
-          "source": "Energymonitor",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "neutral"
+          "published": "14 Jul 2026",
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
             "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
+            "company": "Exxon Mobil Corporation",
             "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Brent surge above $86 on Iran-UAE tensions boosts upstream margins and cash flow for major producers.",
+            "conviction": 82,
+            "rationale": "Hormuz strait disruption tightens global oil/gas markets, benefiting major integrated producers with diversified supply.",
             "key_themes": [
-              "geopolitical risk premium",
-              "higher oil prices",
-              "Strait of Hormuz supply disruption"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "3%+ crude rally on Middle East escalation strengthens near-term profitability for integrated oil majors.",
-            "key_themes": [
-              "geopolitical risk premium",
-              "higher oil prices",
-              "supply disruption risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Hormuz tensions and $86+ Brent pricing support near-term earnings uplift for diversified energy majors.",
-            "key_themes": [
-              "geopolitical risk premium",
-              "Strait of Hormuz disruption",
-              "crude price strength"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Brent crude surge and reduced Chinese demand volatility create profitable margin environment for traders.",
-            "key_themes": [
-              "geopolitical risk premium",
-              "trading opportunities",
-              "crude price volatility"
+              "supply disruption",
+              "geopolitical premium",
+              "integrated operations"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Middle East escalation and tanker traffic halt create supply deficit favoring major oil producers with global reach.",
+            "key_themes": [
+              "supply disruption",
+              "price support",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 79,
+            "rationale": "Hormuz crisis and Iranian blockade restrict supply, supporting crude/product prices for major integrated oil companies.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply tightening",
+              "integrated refining"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 81,
+            "rationale": "Strait of Hormuz disruption and India's diesel export tax hike indicate sustained fuel supply deficit supporting majors.",
+            "key_themes": [
+              "supply disruption",
+              "fuel scarcity",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
               3
             ]
           },
@@ -210,18 +285,18 @@
             "ticker": "TTE",
             "company": "TotalEnergies SE",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Hormuz crisis and $86 Brent pricing support cash generation; lower Chinese demand reduces competition.",
+            "conviction": 78,
+            "rationale": "Middle East geopolitical escalation and tanker blockade tighten oil/LNG markets, benefiting diversified energy majors.",
             "key_themes": [
-              "geopolitical risk premium",
-              "reduced demand competition",
-              "higher crude prices"
+              "supply constraint",
+              "geopolitical premium",
+              "energy transition"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              1,
+              2,
               3
             ]
           },
@@ -229,89 +304,77 @@
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "bullish",
-            "conviction": 73,
-            "rationale": "Iran sanctions and Hormuz supply fears drive Brent above $86, significantly improving production economics.",
+            "conviction": 77,
+            "rationale": "Hormuz strait disruption and Iranian tanker blockade create near-term supply deficit supporting crude price outlook.",
             "key_themes": [
-              "geopolitical risk premium",
               "supply disruption",
-              "crude price strength"
+              "price support",
+              "geopolitical risk"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Oil price strength modestly positive for services demand, but no direct operational impact evident in articles.",
-            "key_themes": [
-              "potential capex uplift",
-              "limited near-term catalyst"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims oil price strength and potential capex uplift, which is supported by source articles. However, the signal acknowledges 'no direct operational impact evident in articles,' making the neutral stance internally consistent but the bullish premise lacks direct grounding for a services company without explicit capex commentary in sources.",
-            "supporting_article": null
+            "supporting_article": [
+              2,
+              3
+            ]
           }
         ],
-        "summary": "Geopolitical escalation in the Strait of Hormuz has driven Brent crude above $86/bbl, creating a near-term bullish environment for integrated oil majors and upstream producers. However, severe demand headwinds from China (crude imports down 41% YoY to decade lows) and renewed U.S. sanctions on Iran create medium-term uncertainty around production economics and crude availability. The sector benefits from higher prices in the short term but faces structural demand weakness that could cap gains.",
+        "summary": "The Middle East geopolitical escalation\u2014including Iran strikes on tankers, U.S. blockade measures, and Hormuz strait disruptions\u2014creates acute near-term supply tightness, directly supporting crude oil and refined product prices favoring integrated majors. India's doubling of diesel/jet fuel export duties signals global fuel market stress. Conversely, parallel green hydrogen and offshore wind investment (OMV, France) indicates long-term structural headwinds for legacy oil businesses.",
         "risks": [
-          "Demand destruction from persistently high prices limiting upside",
-          "Potential rapid de-escalation of Iran tensions reversing price gains",
-          "Continued Chinese import weakness undermining global crude demand",
-          "Expanded U.S. Iran sanctions impacting regional supply stability",
-          "Transition risk from renewable energy expansion (offshore wind, green hydrogen) pressuring long-term demand"
+          "Military de-escalation or diplomatic resolution could rapidly reverse geopolitical premium",
+          "Global recession reducing oil demand faster than supply tightens",
+          "Accelerated energy transition and renewable investment eroding long-term hydrocarbon demand",
+          "Extended supply disruptions triggering demand destruction and strategic reserve releases"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "high",
-          "flags": [
-            "SLB signal contains weak conviction (45%) with acknowledged lack of direct operational evidence; rationale is speculative rather than grounded in source material"
-          ],
-          "ungrounded_count": 1
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
         "XOM": 144.50999450683594,
-        "CVX": 182.1999969482422,
-        "BP": 40.83000183105469,
-        "SHEL": 83.9800033569336,
-        "TTE": 81.20999908447266,
-        "COP": 112.8499984741211,
-        "SLB": 47.36000061035156
+        "CVX": 181.60000610351562,
+        "BP": 41.33000183105469,
+        "SHEL": 84.63999938964844,
+        "TTE": 80.33999633789062,
+        "COP": 111.45999908447266
       },
       "spot_check": {
-        "title": "Brent Surges Above $86 After Iran Strikes Two UAE Tankers in Hormuz",
-        "summary": "Brent Crude prices soared by 3% early on Tuesday to above $86 per barrel, following an Iranian attack on two tankers of the United Arab Emirates in the southern lane of the Strait of Hormuz, in one of the biggest attacks in the recent re-escalation in the region.\u00a0 \u00a0 In early trading in Europe today, Brent Crude prices jumped by over 3% to above $86 per barrel, and were trading at $86.06 a barrel at 9:00 a.m. London time. \u00a0 The U.S. benchmark, WTI Crude, was surging by 3.1% to top $80 per barrel ",
-        "url": "https://oilprice.com/Energy/Oil-Prices/Brent-Surges-Above-86-After-Iran-Strikes-Two-UAE-Tankers-in-Hormuz.html",
+        "title": "India Hikes Diesel and Jet Fuel Export Tax",
+        "summary": "India has hiked the export duties it will be charging on exports of diesel and jet fuel for the two weeks starting July 16, as the return of the Hormuz crisis is set to further tighten fuel markets. The export taxes on diesel and aviation fuel were nearly doubled per liter of the fuels, a notice from India\u2019s Finance Ministry showed on Thursday. India reviews its export duty policy every fortnight to account for the prevailing domestic and international market conditions, including supply and pri",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Hikes-Diesel-and-Jet-Fuel-Export-Tax.html",
         "source": "Oilprice",
-        "published": "14 Jul 2026",
-        "sentiment_hint": "bullish",
+        "published": "16 Jul 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "XOM",
-          "company": "ExxonMobil Corporation",
+          "company": "Exxon Mobil Corporation",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "Brent surge above $86 on Iran-UAE tensions boosts upstream margins and cash flow for major producers.",
+          "conviction": 82,
+          "rationale": "Hormuz strait disruption tightens global oil/gas markets, benefiting major integrated producers with diversified supply.",
           "key_themes": [
-            "geopolitical risk premium",
-            "higher oil prices",
-            "Strait of Hormuz supply disruption"
+            "supply disruption",
+            "geopolitical premium",
+            "integrated operations"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": [
+            1,
+            2,
+            3
+          ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Brent surge above $86 on Iran-UAE tensions boosts upstream margins and cash flow for major producers.",
+        "haiku_rationale": "Hormuz strait disruption tightens global oil/gas markets, benefiting major integrated producers with diversified supply.",
         "haiku_themes": [
-          "geopolitical risk premium",
-          "higher oil prices",
-          "Strait of Hormuz supply disruption"
+          "supply disruption",
+          "geopolitical premium",
+          "integrated operations"
         ]
       },
       "config": {
@@ -331,172 +394,153 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "\u2018Lettuce or Salad Greens\u2019 Identified as Potential Source of Cyclospora Outbreak",
-          "summary": "Michigan health officials announced the preliminary findings, but they cautioned that other foods could not be ruled out. The illness has sickened thousands across the United States.",
-          "url": "https://www.nytimes.com/2026/07/13/well/eat/michigan-cyclospora-outbreak-lettuce-salad-greens.html",
+          "title": "Trump\u2019s Latest C.D.C. Nominee Vows Not to \u2018Betray the Science\u2019",
+          "summary": "Dr. Erica Schwartz told senators in a confirmation hearing that she did not think Robert F. Kennedy Jr. or President Trump would ask her to do anything to hurt public health. Some senators were incredulous.",
+          "url": "https://www.nytimes.com/2026/07/15/health/cdc-erica-schwartz.html",
+          "source": "Rss",
+          "published": "15 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Canada Wildfire Air Pollution and Heat Wave Combo Pose Heightened Health Risks",
+          "summary": "Days that are both extremely hot and polluted come with higher risks of respiratory ailments and other health hazards.",
+          "url": "https://www.nytimes.com/article/heat-air-pollution-climate.html",
+          "source": "Rss",
+          "published": "15 Jul 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Public Health Groups Sue F.D.A. Over Flavored E-Cigarette Policy",
+          "summary": "Executives unhappy with the agency donated and lobbied President Trump directly. Major companies have already begun to prepare and ship new products.",
+          "url": "https://www.nytimes.com/2026/07/14/health/flavored-vapes-fda.html",
           "source": "Rss",
           "published": "14 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "There\u2019s an Injury Epidemic in Pro Sports. There\u2019s Also a Recovery Revolution.",
-          "summary": "Athletes are pushing their bodies to astonishing feats, knowing that medical advances can heal them quickly.",
-          "url": "https://www.nytimes.com/2026/07/13/magazine/theres-an-injury-epidemic-in-pro-sports-theres-also-a-recovery-revolution.html",
-          "source": "Rss",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Appeals Court Revives Lawsuits Tying Tylenol Use in Pregnancy to Autism and A.D.H.D.",
-          "summary": "A federal appeals court overruled a district court judge who dismissed the lawsuits, citing unreliable scientific evidence.",
-          "url": "https://www.nytimes.com/2026/07/13/science/court-lawsuits-tylenol-pregnancy.html",
-          "source": "Rss",
-          "published": "13 Jul 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/insulet-calm-join-forces-widen-holistic-diabetes-care-offerings-mind-range-wellness-tools\" hreflang=\"en\">Insulet, Calm join forces for diabetes care offerings with \u2018Mind in Range\u2019 wellness tools</a>",
-          "summary": "Insulet and Calm are integrating mental health care into diabetes treatment with a series of mindfulness, meditation and sleep tools specifically tailored to the diabetes community.",
-          "url": "https://www.fiercepharma.com/marketing/insulet-calm-join-forces-widen-holistic-diabetes-care-offerings-mind-range-wellness-tools",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/merck-touts-keytruda-front-line-win-endometrial-cancer-subtype-pd-1-first\" hreflang=\"en\">Merck touts Keytruda front-line win in endometrial cancer subtype, marking a PD-1 first</a>",
+          "summary": "Merck &amp; Co.\u2019s almighty Keytruda has become the first PD-1 inhibitor to show a benefit as a single agent for the front-line treatment of a subtype of endometrial cancer.",
+          "url": "https://www.fiercepharma.com/pharma/merck-touts-keytruda-front-line-win-endometrial-cancer-subtype-pd-1-first",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/manufacturing/fda-moves-streamline-registration-drug-manufacturing-facilities-us\" hreflang=\"en\">FDA's latest onshoring move homes in on streamlined facility registration, foreign plant scrutiny</a>",
-          "summary": "The FDA has proposed a streamlined pathway for registering production facilities that operate under a \u201chub-and-spoke\u201d model. The agency has also proposed clarifying the registration requirements for foreign manufacturers, especially those who make active pharmaceutical ingredients.",
-          "url": "https://www.fiercepharma.com/manufacturing/fda-moves-streamline-registration-drug-manufacturing-facilities-us",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/sanofi-opens-new-chapters-pfizers-modernas-mrna-patent-litigation-sagas\" hreflang=\"en\">Sanofi opens new chapters in Pfizer, Moderna mRNA patent litigation sagas</a>",
+          "summary": "As Pfizer and Moderna have tied off certain threads in their separate webs of mRNA patent litigation, Sanofi has opened a new front to challenge the companies\u2019 blockbuster COVID-19 vaccines.",
+          "url": "https://www.fiercepharma.com/pharma/sanofi-opens-new-chapters-pfizers-modernas-mrna-patent-litigation-sagas",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/manufacturing/lupin-recalls-more-25m-bottles-eye-drops-due-possible-contamination\" hreflang=\"en\">Lupin recalls more than 2.5M prescription eye drop bottles, citing possible contamination</a>",
-          "summary": "Lupin Pharmaceuticals, the U.S. unit of India\u2019s Lupin Limited, issued a voluntary recall of more than 2.5 million bottles of prednisolone acetate ophthalmic suspension after an undisclosed contaminant was discovered.",
-          "url": "https://www.fiercepharma.com/manufacturing/lupin-recalls-more-25m-bottles-eye-drops-due-possible-contamination",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/novo-gets-head-start-lilly-europe-ec-approval-wegovy-pill-0\" hreflang=\"en\">Novo gains head start on Lilly with European Commission approval of Wegovy pill</a>",
+          "summary": "The European Commission has granted marketing authorization for Novo Nordisk\u2019s Wegovy pill for people with obesity or who are overweight. The approval comes as Novo\u2019s weight-loss rival, Eli Lilly, awaits European clearance for its oral GLP-1 drug, Foundayo.",
+          "url": "https://www.fiercepharma.com/pharma/novo-gets-head-start-lilly-europe-ec-approval-wegovy-pill-0",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Tylenol litigation revival poses material legal and reputational risk from pregnancy-related autism/ADHD claims.",
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Keytruda achieves first PD-1 single-agent approval in endometrial cancer, expanding blockbuster franchise beyond current indications.",
             "key_themes": [
-              "litigation risk",
-              "product liability",
-              "legal exposure"
+              "Keytruda expansion",
+              "oncology pipeline advancement",
+              "competitive differentiation"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 4
           },
           {
             "ticker": "LLY",
             "company": "Eli Lilly",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Mental health integration in diabetes care aligns with LLY's growing diabetes portfolio and holistic treatment trends.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Novo Nordisk gains European approval for Wegovy pill ahead of Lilly's Foundayo, losing first-mover advantage in oral GLP-1 market.",
             "key_themes": [
-              "diabetes care expansion",
-              "mental health integration",
-              "market expansion"
+              "competitive disadvantage",
+              "market timing risk",
+              "obesity drug race"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [4] discusses Insulet and Calm partnership, not Eli Lilly. No evidence that LLY is involved in this diabetes-mental health integration initiative or that this trend directly supports LLY's portfolio expansion.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bullish",
-            "conviction": 58,
-            "rationale": "Sports injury recovery trend and holistic diabetes wellness tools support expanded healthcare service opportunities.",
-            "key_themes": [
-              "sports medicine",
-              "preventive care",
-              "wellness integration"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [2] mentions sports injury recovery trends but does not connect this to UnitedHealth Group or expanded healthcare service opportunities. Article [4] discusses Insulet/Calm diabetes wellness tools, not UNH. No direct evidence linking these trends to UNH's business.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
           },
           {
             "ticker": "PFE",
             "company": "Pfizer",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "FDA manufacturing streamlining may reduce regulatory burden but impact unclear; no direct article relevance.",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "Sanofi initiates new mRNA patent litigation against Pfizer's COVID-19 vaccine, creating legal uncertainty and potential revenue headwinds.",
             "key_themes": [
-              "regulatory efficiency",
-              "manufacturing"
+              "patent litigation risk",
+              "COVID vaccine pressure",
+              "legal uncertainty"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Rationale acknowledges 'no direct article relevance' - this is accurate but undermines the signal's credibility. Article [5] discusses FDA manufacturing streamlining generally, with no specific mention of Pfizer.",
+            "verification_issue": null,
             "supporting_article": 5
           }
         ],
-        "summary": "The healthcare sector faces mixed signals: significant litigation headwinds for JNJ offset by tailwinds for diabetes care innovation and sports medicine expansion. FDA manufacturing clarifications may benefit larger players with complex supply chains, while holistic care integration drives growth opportunities across chronic disease management.",
+        "summary": "Healthcare sector shows mixed signals with specialized bright spots offset by competitive pressures. Merck's Keytruda expansion provides a genuine growth catalyst, while Eli Lilly faces timing disadvantages in the GLP-1 race and Pfizer confronts escalating patent challenges. Regulatory uncertainty surrounding CDC leadership and tobacco policy adds macro-level headwinds.",
         "risks": [
-          "Tylenol litigation could expand beyond current scope or result in material settlements",
-          "Food contamination events (cyclospora) could trigger broader healthcare demand/supply disruptions",
-          "FDA regulatory changes may disproportionately impact smaller manufacturers or emerging competitors"
+          "Regulatory uncertainty from CDC nominee and potential RFK Jr. influence on health policy",
+          "Accelerating patent litigation threatening vaccine and mRNA technology portfolios",
+          "Intensifying competition in high-value therapeutic areas (GLP-1, immunotherapy)",
+          "Environmental health factors (wildfires, heat) may increase respiratory drug demand but also liability exposure"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "LLY signal conflates Insulet/Calm partnership (separate companies) with Eli Lilly without evidence of LLY involvement",
-            "UNH signal speculates on healthcare service opportunities without demonstrating direct connection to UnitedHealth Group's actual business segments",
-            "PFE signal explicitly admits lack of direct relevance, suggesting analyst may be forcing connection to general regulatory news"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JNJ": 257.7699890136719,
-        "LLY": 1181.8699951171875,
-        "UNH": 429.0899963378906,
-        "PFE": 24.479999542236328
+        "MRK": 123.61000061035156,
+        "LLY": 1156.6300048828125,
+        "PFE": 24.81999969482422
       },
       "spot_check": {
-        "title": "\u2018Lettuce or Salad Greens\u2019 Identified as Potential Source of Cyclospora Outbreak",
-        "summary": "Michigan health officials announced the preliminary findings, but they cautioned that other foods could not be ruled out. The illness has sickened thousands across the United States.",
-        "url": "https://www.nytimes.com/2026/07/13/well/eat/michigan-cyclospora-outbreak-lettuce-salad-greens.html",
+        "title": "Trump\u2019s Latest C.D.C. Nominee Vows Not to \u2018Betray the Science\u2019",
+        "summary": "Dr. Erica Schwartz told senators in a confirmation hearing that she did not think Robert F. Kennedy Jr. or President Trump would ask her to do anything to hurt public health. Some senators were incredulous.",
+        "url": "https://www.nytimes.com/2026/07/15/health/cdc-erica-schwartz.html",
         "source": "Rss",
-        "published": "14 Jul 2026",
+        "published": "15 Jul 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
-          "sentiment": "bearish",
-          "conviction": 72,
-          "rationale": "Tylenol litigation revival poses material legal and reputational risk from pregnancy-related autism/ADHD claims.",
+          "ticker": "MRK",
+          "company": "Merck & Co.",
+          "sentiment": "bullish",
+          "conviction": 82,
+          "rationale": "Keytruda achieves first PD-1 single-agent approval in endometrial cancer, expanding blockbuster franchise beyond current indications.",
           "key_themes": [
-            "litigation risk",
-            "product liability",
-            "legal exposure"
+            "Keytruda expansion",
+            "oncology pipeline advancement",
+            "competitive differentiation"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 4
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Tylenol litigation revival poses material legal and reputational risk from pregnancy-related autism/ADHD claims.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Keytruda achieves first PD-1 single-agent approval in endometrial cancer, expanding blockbuster franchise beyond current indications.",
         "haiku_themes": [
-          "litigation risk",
-          "product liability",
-          "legal exposure"
+          "Keytruda expansion",
+          "oncology pipeline advancement",
+          "competitive differentiation"
         ]
       },
       "config": {
@@ -516,28 +560,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Oil Rises Above $85 a Barrel as Gulf Clash Escalates",
-          "summary": "Brent crude, the international benchmark, breached $85 per barrel for the first time in a month.",
-          "url": "https://www.nytimes.com/2026/07/14/business/oil-prices-iran-war.html",
+          "title": "Diesel Prices Hit $5 a Gallon Again, Up 33% Since Start of Iran War",
+          "summary": "U.S. diesel prices first surpassed $5 a gallon in March. Renewed fighting in the Persian Gulf and reduced refinery capacity is once again pushing up prices.",
+          "url": "https://www.nytimes.com/2026/07/16/business/diesel-prices-us-iran-war.html",
           "source": "Rss",
-          "published": "14 Jul 2026",
+          "published": "16 Jul 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "India Is Moving Fast to Build A.I. Data Centers. A Coastal City May Pay the Price.",
+          "summary": "With India lagging in the technology, officials are embracing giant data centers. But critics say the megaprojects will use up energy and water, without providing long-term jobs.",
+          "url": "https://www.nytimes.com/2026/07/16/world/asia/india-ai-data-centers-google.html",
+          "source": "Rss",
+          "published": "16 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Trump\u2019s Strait of Hormuz Fee Could Double the Cost of Shipping",
-          "summary": "The potential expense of a 20 percent charge to move oil and other goods through the strait has stirred concern among shippers.",
-          "url": "https://www.nytimes.com/2026/07/13/business/trump-hormuz-shipping-fee.html",
+          "title": "Europe Finds It Hard to Break Up With American and Chinese Technology",
+          "summary": "France and Germany want to quit relying on America and China for key technology like artificial intelligence, but they\u2019re having to choose where to do it.",
+          "url": "https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html",
           "source": "Rss",
-          "published": "13 Jul 2026",
+          "published": "16 Jul 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Trump Administration Is Snapping Up Stakes in Private Companies. Could A.I. Be Next?",
-          "summary": "Some tech executives are nervous that the administration\u2019s recent scrutiny of artificial intelligence models could be a prelude to a demand for an ownership stake.",
-          "url": "https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html",
-          "source": "Rss",
-          "published": "13 Jul 2026",
-          "sentiment_hint": "bearish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -568,168 +612,120 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Higher oil prices and shipping cost inflation boost energy lending and M&A advisory fees for investment banking",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: potential M&A advisory opportunities from tech sector consolidation offset by AI rout volatility.",
             "key_themes": [
-              "energy sector strength",
-              "geopolitical tensions",
-              "investment banking opportunity"
+              "M&A activity",
+              "market volatility",
+              "tech sector disruption"
             ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Rising commodity prices and shipping cost pressures increase corporate financing needs and advisory revenues",
-            "key_themes": [
-              "energy exposure",
-              "corporate lending",
-              "market volatility"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'M&A advisory opportunities from tech sector consolidation' but source articles discuss AI market volatility and sector-specific challenges without mentioning consolidation trends or M&A activity",
+            "supporting_article": null
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Oil price surge and geopolitical tensions drive energy sector M&A and trading activity benefiting investment banking",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Investment banking fees could benefit from European tech consolidation amid US dependency concerns.",
             "key_themes": [
-              "energy advisory",
-              "commodities trading",
-              "deal activity"
+              "European tech restructuring",
+              "advisory fees",
+              "geopolitical shift"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Rising energy costs and shipping fees create corporate restructuring and financing opportunities for advisory revenues",
-            "key_themes": [
-              "energy sector",
-              "corporate finance",
-              "advisory fees"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "No direct exposure to current news themes; potential longer-term impact from shipping inflation on merchant volumes unclear",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Data center buildout in India drives increased transaction volumes; resilient to AI market volatility.",
             "key_themes": [
-              "macro uncertainty",
-              "commodity inflation"
+              "infrastructure investment",
+              "emerging market growth",
+              "transaction volume"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              2
-            ]
+            "supporting_article": 2
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "No direct exposure to current news themes; potential longer-term impact from shipping inflation on merchant volumes unclear",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Global data center expansion and tech infrastructure projects increase payment transaction opportunity.",
             "key_themes": [
-              "macro uncertainty",
-              "commodity inflation"
+              "infrastructure investment",
+              "emerging markets",
+              "digital payments growth"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              2
-            ]
+            "supporting_article": 2
           }
         ],
-        "summary": "Financial services sector shows bullish signals driven by elevated oil prices above $85/barrel and proposed shipping fee increases creating advisory and financing opportunities for major investment banks. However, payment processors face neutral outlook as these commodity shocks lack direct relevance to their business models, with longer-term macro impacts still uncertain. Geopolitical tensions and inflationary pressures favor advisory-heavy institutions over transaction-volume dependent players.",
+        "summary": "Financial services sector shows mixed signals amid AI sector volatility and geopolitical shifts. Payment processors (V, MA) benefit from long-term infrastructure buildout in India and Europe's technology independence initiatives, while investment banks face near-term uncertainty from tech sector disruption but potential medium-term M&A opportunities from industry consolidation.",
         "risks": [
-          "Oil price volatility and potential reversal below $85",
-          "Shipping fee policy reversal or negotiation reducing corporate financing needs",
-          "Broader market recession risk from inflation concerns offsetting banking opportunities"
+          "Continued AI sector repricing could trigger broader market volatility affecting capital markets activity",
+          "Escalating Middle East tensions and diesel prices may pressure economic growth and credit quality",
+          "European tech consolidation may concentrate within fewer regional players, limiting advisory opportunities"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "JPM signal lacks source support for 'tech sector consolidation' premise; article [4] shows AI rout/volatility but no consolidation activity mentioned",
+            "JPM conviction of 45% seems reasonable for neutral stance, but the first rationale component about M&A opportunities is unsupported by provided sources"
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "JPM": 334.5299987792969,
-        "BAC": 59.5,
-        "GS": 1045.9100341796875,
-        "MS": 221.08999633789062,
-        "V": 357.75,
-        "MA": 537.7000122070312
+        "JPM": 346.9100036621094,
+        "GS": 1152.0699462890625,
+        "V": 355.1400146484375,
+        "MA": 535.2100219726562
       },
       "spot_check": {
-        "title": "Oil Rises Above $85 a Barrel as Gulf Clash Escalates",
-        "summary": "Brent crude, the international benchmark, breached $85 per barrel for the first time in a month.",
-        "url": "https://www.nytimes.com/2026/07/14/business/oil-prices-iran-war.html",
+        "title": "Diesel Prices Hit $5 a Gallon Again, Up 33% Since Start of Iran War",
+        "summary": "U.S. diesel prices first surpassed $5 a gallon in March. Renewed fighting in the Persian Gulf and reduced refinery capacity is once again pushing up prices.",
+        "url": "https://www.nytimes.com/2026/07/16/business/diesel-prices-us-iran-war.html",
         "source": "Rss",
-        "published": "14 Jul 2026",
-        "sentiment_hint": "neutral",
+        "published": "16 Jul 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
+          "ticker": "MA",
+          "company": "Mastercard Inc.",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Higher oil prices and shipping cost inflation boost energy lending and M&A advisory fees for investment banking",
+          "conviction": 65,
+          "rationale": "Global data center expansion and tech infrastructure projects increase payment transaction opportunity.",
           "key_themes": [
-            "energy sector strength",
-            "geopolitical tensions",
-            "investment banking opportunity"
+            "infrastructure investment",
+            "emerging markets",
+            "digital payments growth"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            1,
-            2
-          ]
+          "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Higher oil prices and shipping cost inflation boost energy lending and M&A advisory fees for investment banking",
+        "haiku_rationale": "Global data center expansion and tech infrastructure projects increase payment transaction opportunity.",
         "haiku_themes": [
-          "energy sector strength",
-          "geopolitical tensions",
-          "investment banking opportunity"
+          "infrastructure investment",
+          "emerging markets",
+          "digital payments growth"
         ]
       },
       "config": {

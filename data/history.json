@@ -5018,5 +5018,317 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-16",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates competitive threat; Google must accelerate AI-driven search monetization",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI assistant adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's demonstrated ability to influence search and content discovery validates OpenAI partnership value and enterprise AI adoption",
+            "key_themes": [
+              "AI monetization",
+              "content creation tools",
+              "enterprise adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 370.9200134277344,
+          "MSFT": 395.6300048828125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Hormuz strait disruption tightens global oil/gas markets, benefiting major integrated producers with diversified supply.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical premium",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Middle East escalation and tanker traffic halt create supply deficit favoring major oil producers with global reach.",
+            "key_themes": [
+              "supply disruption",
+              "price support",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 79,
+            "rationale": "Hormuz crisis and Iranian blockade restrict supply, supporting crude/product prices for major integrated oil companies.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply tightening",
+              "integrated refining"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 81,
+            "rationale": "Strait of Hormuz disruption and India's diesel export tax hike indicate sustained fuel supply deficit supporting majors.",
+            "key_themes": [
+              "supply disruption",
+              "fuel scarcity",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 78,
+            "rationale": "Middle East geopolitical escalation and tanker blockade tighten oil/LNG markets, benefiting diversified energy majors.",
+            "key_themes": [
+              "supply constraint",
+              "geopolitical premium",
+              "energy transition"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 77,
+            "rationale": "Hormuz strait disruption and Iranian tanker blockade create near-term supply deficit supporting crude price outlook.",
+            "key_themes": [
+              "supply disruption",
+              "price support",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 144.50999450683594,
+          "CVX": 181.60000610351562,
+          "BP": 41.33000183105469,
+          "SHEL": 84.63999938964844,
+          "TTE": 80.33999633789062,
+          "COP": 111.45999908447266
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Keytruda achieves first PD-1 single-agent approval in endometrial cancer, expanding blockbuster franchise beyond current indications.",
+            "key_themes": [
+              "Keytruda expansion",
+              "oncology pipeline advancement",
+              "competitive differentiation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Novo Nordisk gains European approval for Wegovy pill ahead of Lilly's Foundayo, losing first-mover advantage in oral GLP-1 market.",
+            "key_themes": [
+              "competitive disadvantage",
+              "market timing risk",
+              "obesity drug race"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "Sanofi initiates new mRNA patent litigation against Pfizer's COVID-19 vaccine, creating legal uncertainty and potential revenue headwinds.",
+            "key_themes": [
+              "patent litigation risk",
+              "COVID vaccine pressure",
+              "legal uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 123.61000061035156,
+          "LLY": 1156.6300048828125,
+          "PFE": 24.81999969482422
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: potential M&A advisory opportunities from tech sector consolidation offset by AI rout volatility.",
+            "key_themes": [
+              "M&A activity",
+              "market volatility",
+              "tech sector disruption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'M&A advisory opportunities from tech sector consolidation' but source articles discuss AI market volatility and sector-specific challenges without mentioning consolidation trends or M&A activity",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Investment banking fees could benefit from European tech consolidation amid US dependency concerns.",
+            "key_themes": [
+              "European tech restructuring",
+              "advisory fees",
+              "geopolitical shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Data center buildout in India drives increased transaction volumes; resilient to AI market volatility.",
+            "key_themes": [
+              "infrastructure investment",
+              "emerging market growth",
+              "transaction volume"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Global data center expansion and tech infrastructure projects increase payment transaction opportunity.",
+            "key_themes": [
+              "infrastructure investment",
+              "emerging markets",
+              "digital payments growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 346.9100036621094,
+          "GS": 1152.0699462890625,
+          "V": 355.1400146484375,
+          "MA": 535.2100219726562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
