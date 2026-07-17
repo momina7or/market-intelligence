@@ -5330,5 +5330,378 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-17",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT competition driving search behavior changes; AI integration in search monetization increasingly critical.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT dominance in organic search and content discovery validates OpenAI/Azure AI strategy and enterprise adoption.",
+            "key_themes": [
+              "AI platform leadership",
+              "enterprise AI tools",
+              "content generation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Netflix adoption of generative AI in production demonstrates mainstream enterprise AI deployment driving compute demand.",
+            "key_themes": [
+              "generative AI adoption",
+              "content production tools",
+              "enterprise AI expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Surge in AI content creation tools and Netflix generative AI usage increases GPU/compute demand across media sector.",
+            "key_themes": [
+              "AI compute demand",
+              "generative AI scaling",
+              "data center growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 354.4599914550781,
+          "MSFT": 401.1000061035156,
+          "META": 664.5399780273438,
+          "NVDA": 207.39999389648438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Middle East escalation and Strait of Hormuz disruption driving crude to 12% weekly surge, benefiting integrated oil majors.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Iran conflict and shipping blockade pushing Brent crude to $85+, supporting upstream margins for major producers.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 79,
+            "rationale": "Highest crude prices in over a month from Middle East tensions benefit integrated European major with strong downstream.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 81,
+            "rationale": "LNG supply disruptions from Strait of Hormuz blockade create spot market opportunity; Pakistan buying six cargoes for August.",
+            "key_themes": [
+              "LNG supply disruption",
+              "spot market strength",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 78,
+            "rationale": "Major LNG supplier positioned to benefit from supply disruptions and higher spot LNG prices amid Pakistan's emergency purchases.",
+            "key_themes": [
+              "LNG supply disruption",
+              "spot market strength",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Rationale claims TotalEnergies is a 'major LNG supplier' but articles do not establish TTE's LNG supply capacity or competitive position. Articles only document that supply disruptions and Pakistan's spot purchases exist, not that TTE is positioned to benefit specifically.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 77,
+            "rationale": "Crude price surge driven by Iran conflict and Strait of Hormuz shutdown benefits upstream production and cash generation.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct mention in articles; crude price strength could support oilfield services demand but impact remains indirect.",
+            "key_themes": [
+              "upstream activity risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Analyst correctly acknowledges no direct mention in articles and conveys appropriate caution with low 35 conviction score.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 145.9499969482422,
+          "CVX": 183.86000061035156,
+          "BP": 41.08000183105469,
+          "SHEL": 85.08000183105469,
+          "TTE": 78.81999969482422,
+          "COP": 112.83999633789062,
+          "SLB": 47.08000183105469
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "FDA approval of new cholesterol-lowering pill expands addressable market for lipid-management therapies beyond statins.",
+            "key_themes": [
+              "FDA approval",
+              "market expansion",
+              "cardiovascular disease"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] confirms FDA approval of new cholesterol pill but does not identify the manufacturer. The rationale assumes Eli Lilly produced this pill without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "New cholesterol pill approval opens significant market opportunity for incumbent pharma players in lipid-management space.",
+            "key_themes": [
+              "FDA approval",
+              "cardiovascular market",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] confirms FDA approval of new cholesterol pill but does not identify the manufacturer. The rationale assumes Pfizer has a connection to this pill without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co., Inc.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Expanded cholesterol treatment category benefits established pharma with existing cardiovascular and metabolic portfolios.",
+            "key_themes": [
+              "FDA approval",
+              "market opportunity",
+              "cardiovascular disease"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] confirms FDA approval of new cholesterol pill but does not identify the manufacturer. The rationale assumes Merck has a connection to this pill without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Cancer biomarker testing market competition intensifies as Foundation Medicine emphasizes quality differentiation.",
+            "key_themes": [
+              "cancer diagnostics",
+              "market competition",
+              "quality standards"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1169.1700439453125,
+          "PFE": 25.139999389648438,
+          "MRK": 127.62999725341797,
+          "TMO": 543.1900024414062
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Truth API product creates new revenue stream for Wall Street trading firms via preferential market access.",
+            "key_themes": [
+              "fintech innovation",
+              "trading edge monetization",
+              "information asymmetry"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] describes Truth API as giving 'Wall Street trading firms an edge in seeing President Trump's posts' but does not establish this as a new revenue stream for JPMorgan Chase or explain how JPM specifically benefits. The rationale makes unsupported causal leaps about revenue creation and monetization.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Truth API could provide Goldman Sachs trading desk competitive advantage in high-frequency trading strategies.",
+            "key_themes": [
+              "algorithmic trading",
+              "market intelligence",
+              "information edge"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions Truth API could give Wall Street firms an edge but contains no information about high-frequency trading strategies, algorithmic trading applications, or how Goldman Sachs' trading desk would derive competitive advantage. Rationale extrapolates beyond source material.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Wall Street integration with Truth API positions Morgan Stanley favorably for sentiment-driven trading strategies.",
+            "key_themes": [
+              "sentiment analysis",
+              "trading infrastructure",
+              "innovation adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] does not discuss sentiment-driven trading strategies, trading infrastructure integration, or Morgan Stanley specifically. The rationale invents a connection between Truth API access and sentiment analysis applications not mentioned in sources.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; macro uncertainty from AI sector volatility may pressure payment volume growth.",
+            "key_themes": [
+              "macro headwinds",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; AI sector turmoil creates broader economic uncertainty affecting transaction volumes.",
+            "key_themes": [
+              "macro uncertainty",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 343.1499938964844,
+          "GS": 1095.4599609375,
+          "MS": 218.3699951171875,
+          "V": 365.1400146484375,
+          "MA": 551.5399780273438
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
