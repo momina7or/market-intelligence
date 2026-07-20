@@ -5703,5 +5703,363 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-07-20",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration driving organic search disruption; AI-powered content discovery replacing traditional SEO monetization models.",
+            "key_themes": [
+              "AI search disruption",
+              "content discovery",
+              "organic traffic monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content, but this demonstrates ChatGPT's capability, not Google disruption. The rationale conflates ChatGPT adoption with negative impact on Google's search business. No evidence in sources that this represents actual search disruption or threatens Google's monetization models.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT articles demonstrate growing enterprise adoption for content strategy and organic traffic generation via AI assistants.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "enterprise AI tools",
+              "content creation platform"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 346.7699890136719,
+          "MSFT": 393.82000732421875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strait of Hormuz disruption reduces competing supply, supporting crude prices and margins for major producers.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "LNG export halt"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz transit halt and LNG export freeze create supply constraints benefiting integrated majors with diversified portfolios.",
+            "key_themes": [
+              "supply disruption",
+              "price support",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Major Hormuz disruption supports oil/gas prices; however, BP's renewable investments provide medium-term hedge against volatility.",
+            "key_themes": [
+              "supply disruption",
+              "energy transition exposure",
+              "price volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "LNG export halt through Hormuz creates acute supply deficit; Shell's global LNG portfolio highly advantaged in pricing environment.",
+            "key_themes": [
+              "LNG supply crisis",
+              "market share gain",
+              "geopolitical disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Hormuz disruption supports upstream; renewable project in South Africa shows energy transition commitment but dilutes near-term upside.",
+            "key_themes": [
+              "supply disruption",
+              "energy transition",
+              "portfolio diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3,
+              6
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "company_name": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Hormuz supply disruption and LNG export freeze directly support crude/gas prices for major upstream-focused producer.",
+            "key_themes": [
+              "supply disruption",
+              "upstream advantage",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 147.36000061035156,
+          "CVX": 187.3800048828125,
+          "BP": 41.900001525878906,
+          "SHEL": 87.31999969482422,
+          "TTE": 81.38999938964844,
+          "COP": 114.70999908447266
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "FDA approval of new cholesterol-lowering pill expands addressable market for non-statin therapeutics.",
+            "key_themes": [
+              "regulatory approval",
+              "cardiovascular market expansion",
+              "competitive opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "FDA cholesterol pill approval validates next-gen lipid management market; Pfizer positioned in similar space.",
+            "key_themes": [
+              "regulatory approval",
+              "cardiovascular therapeutics",
+              "market validation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Cyclospora outbreak affects food supply chain; indirect exposure through consumer health division but minimal pharma impact.",
+            "key_themes": [
+              "supply chain risk",
+              "food safety",
+              "consumer confidence"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes a Cyclospora outbreak linked to lettuce supplier Taylor Farms. The rationale claims JNJ has 'indirect exposure through consumer health division' but the source article contains no information about J&J involvement, ownership, or connection to Taylor Farms, the food supply chain affected, or any consumer health division exposure. The claim about JNJ's involvement is not supported by the source material.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Emphasis on real-world evidence and data analytics in pharma creates tailwinds for diagnostic and lab services providers.",
+            "key_themes": [
+              "data analytics",
+              "commercial evidence",
+              "AI in healthcare"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1179.1099853515625,
+          "PFE": 25.049999237060547,
+          "JNJ": 253.0399932861328,
+          "TMO": 532.47998046875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Oil price volatility and geopolitical tension typically increase trading volumes and advisory fees for major investment banks.",
+            "key_themes": [
+              "geopolitical risk",
+              "commodity volatility",
+              "trading revenue opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Energy sector volatility and potential M&A activity from oil price spikes create advisory and trading opportunities.",
+            "key_themes": [
+              "energy volatility",
+              "trading desk activity",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Increased market volatility from Iran-U.S. tensions and geopolitical uncertainty drive higher trading commissions and hedging activity.",
+            "key_themes": [
+              "market volatility",
+              "trading revenue",
+              "hedging demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Rising gas prices may reduce discretionary spending, offsetting strong entertainment consumption evidenced by box office records.",
+            "key_themes": [
+              "consumer spending",
+              "inflation pressure",
+              "payment volumes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Higher fuel costs pressure consumer budgets, but entertainment spending remains robust; mixed signals for payment volume growth.",
+            "key_themes": [
+              "consumer spending",
+              "inflation headwinds",
+              "transaction growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 341.1000061035156,
+          "GS": 1065.219970703125,
+          "MS": 215.5,
+          "V": 358.55999755859375,
+          "MA": 543.5999755859375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
