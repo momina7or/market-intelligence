@@ -6061,5 +6061,273 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-21",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search integration demonstrates AI monetization through content discovery, creating competitive pressure for Google Search.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic distribution",
+              "content recommendation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's growing role as organic traffic source validates OpenAI partnership and positions Microsoft's AI-integrated ecosystem for creator economy.",
+            "key_themes": [
+              "AI monetization",
+              "content creation platform",
+              "ChatGPT integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools proliferating, but copyright litigation risks (Udio case) threaten content generation models Meta may deploy.",
+            "key_themes": [
+              "AI content tools",
+              "copyright litigation risk",
+              "creator monetization"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Udio lawsuit is specific to Udio, not a general copyright litigation risk model for all AI content generators; rationale overgeneralizes from one case to Meta's potential deployment risk",
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 351.989990234375,
+          "MSFT": 402.2900085449219,
+          "META": 645.8499755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "FID approval on $6.2B Umm Shaif Gas Cap project with ADNOC expands gas portfolio; also advancing renewables in South Africa.",
+            "key_themes": [
+              "gas project expansion",
+              "renewable energy diversification",
+              "capital deployment"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              6
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Umm Shaif Gas Cap FID with $5.1B EPC packages likely to drive oilfield services demand from project execution phase.",
+            "key_themes": [
+              "EPC contract opportunity",
+              "Middle East project activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] confirms $5.1B in EPC packages for Umm Shaif project, but does not mention Schlumberger or indicate SLB is awarded any contracts. The analyst assumes SLB will capture EPC work without evidence it was selected or bidding for these packages.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 80.80000305175781,
+          "SLB": 46.38999938964844
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Brand visibility boost from Time Healthcare Champion award, but minimal financial impact from marketing initiative.",
+            "key_themes": [
+              "brand reputation",
+              "healthcare leadership"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Indirect tailwind from peptide market expansion (Samsung-PolyPeptide deal) validating GLP-1/peptide sector growth thesis.",
+            "key_themes": [
+              "peptide production demand",
+              "weight loss market expansion",
+              "CDMO capacity growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Growing demand for genetic testing infrastructure and wastewater surveillance tools creates lab services expansion opportunities.",
+            "key_themes": [
+              "genetic testing tools",
+              "diagnostic infrastructure",
+              "surveillance technology"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 248.82000732421875,
+          "LLY": 1146.9000244140625,
+          "TMO": 526.22998046875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Tariff implementation and policy uncertainty drive M&A advisory and capital markets activity for major banks.",
+            "key_themes": [
+              "trade policy",
+              "M&A advisory",
+              "capital markets"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "US-Canada trade tensions and UK fiscal policy changes create advisory and restructuring opportunities for investment banks.",
+            "key_themes": [
+              "trade disputes",
+              "advisory fees",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Elevated market volatility from AI selloff and tariff announcements increase trading volumes and M&A activity.",
+            "key_themes": [
+              "market volatility",
+              "trading commissions",
+              "M&A"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and economic uncertainty from tariffs may reduce consumer spending and payment transaction volumes.",
+            "key_themes": [
+              "consumer spending",
+              "market volatility",
+              "tariff impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims tariffs will reduce consumer spending, but Article [2] only discusses tariff announcement on Canadian goods with no analysis of consumer spending impact. Article [4] shows AI-driven market selloff, not tariff-driven consumer behavior changes.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 56,
+            "rationale": "Market-wide risk-off environment and potential recessionary pressures from tariffs could suppress transaction growth.",
+            "key_themes": [
+              "market downturn",
+              "consumer caution",
+              "economic slowdown"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates about recessionary pressures from tariffs causing transaction decline, but source articles provide no evidence of recessionary conditions or tariff-driven economic slowdown. Article [2] announces tariffs but contains no economic impact analysis.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 338.8699951171875,
+          "GS": 1055.030029296875,
+          "MS": 210.94000244140625,
+          "V": 360.57000732421875,
+          "MA": 547.4400024414062
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
