@@ -6329,5 +6329,412 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-22",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure on Google Search; AI-driven content discovery reshaping SEO landscape.",
+            "key_themes": [
+              "AI search competition",
+              "content discovery disruption",
+              "organic traffic shifts"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "OpenAI's advanced AI capabilities (GPT-5.6 Sol) and security testing demonstrate continued innovation in MSFT's strategic AI partnership.",
+            "key_themes": [
+              "AI advancement",
+              "security testing",
+              "model capability escalation"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [6] describes an accidental breach during testing, not evidence of 'continued innovation' in a positive sense. The framing as bullish is unsupported; the incident describes a security vulnerability, not a capability advancement.",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Proliferation of AI tools (10+ new content creation tools, GPT-5.6 testing) indicates sustained GPU demand for training and inference infrastructure.",
+            "key_themes": [
+              "GPU demand",
+              "AI infrastructure",
+              "content generation tools"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 347.1499938964844,
+          "MSFT": 397.75,
+          "NVDA": 207.2899932861328
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Surging oil prices (up 60% YTD) and geopolitical tensions in U.S.-Iran conflict support elevated crude valuations and demand.",
+            "key_themes": [
+              "oil price strength",
+              "geopolitical premium",
+              "supply security concerns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "High oil prices and Asian energy import dependency create favorable upstream economics and long-term demand security.",
+            "key_themes": [
+              "oil price strength",
+              "Asian demand",
+              "import dependency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Elevated oil prices benefit upstream production; European energy independence push may support integrated energy portfolio.",
+            "key_themes": [
+              "oil price strength",
+              "European energy security",
+              "integrated operations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              6
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Strong oil pricing environment and Asian market exposure benefit integrated operations; geopolitical tensions support energy demand.",
+            "key_themes": [
+              "oil price strength",
+              "Asian exposure",
+              "geopolitical support"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Oil price surge benefits upstream; EU electrification plan offers transition opportunities for diversified energy company.",
+            "key_themes": [
+              "oil price strength",
+              "energy transition optionality",
+              "European presence"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              6
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Significant upstream producer benefits from 60% YTD oil price increase and decade-long geopolitical risk premium.",
+            "key_themes": [
+              "oil price strength",
+              "upstream exposure",
+              "geopolitical premium"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "SLB (Schlumberger)",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Oil price strength supports oilfield services demand, but articles lack specific E&P activity indicators to confirm conviction.",
+            "key_themes": [
+              "oil price strength potential",
+              "oilfield services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 151.7100067138672,
+          "CVX": 191.07000732421875,
+          "BP": 42.7599983215332,
+          "SHEL": 87.19999694824219,
+          "TTE": 83.52999877929688,
+          "COP": 117.5,
+          "SLB": 46.59000015258789
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Former Merck KGaA CEO appointment at Sanofi signals competitive leadership shifts but no direct impact on MRK operations.",
+            "key_themes": [
+              "executive talent migration",
+              "competitive dynamics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "HIV treatment site closures following aid cuts will increase uninsured patient burdens, pressuring UNH's medical cost ratios and profitability.",
+            "key_themes": [
+              "public health funding cuts",
+              "medical cost expansion",
+              "vulnerable populations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] documents HIV treatment site closures but contains no information about UnitedHealth Group, medical cost ratios, uninsured patient burdens, or their impact on UNH's profitability. The causal chain from site closures to UNH's specific financial metrics is not established in source material.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Genetic prediction model disparities create regulatory and reputational risks for precision medicine investments and diagnostic partnerships.",
+            "key_themes": [
+              "regulatory risk",
+              "health equity concerns",
+              "precision medicine headwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses genetic prediction model disparities but does not mention Eli Lilly, precision medicine investments, diagnostic partnerships, or any regulatory/reputational risks specific to LLY. No direct connection between the article content and LLY is established.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Genetic risk tools disparities threaten adoption of precision diagnostics; TMO's genomics division faces potential regulatory scrutiny and market resistance.",
+            "key_themes": [
+              "diagnostic equity issues",
+              "precision medicine challenges",
+              "regulatory pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses genetic risk tool disparities but does not mention Thermo Fisher Scientific, its genomics division, adoption of precision diagnostics, regulatory scrutiny, or market resistance. No evidence that TMO specifically manufactures or distributes the flawed genetic prediction models discussed.",
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 126.26000213623047,
+          "UNH": 436.3500061035156,
+          "LLY": 1175.4100341796875,
+          "TMO": 523.4600219726562
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Geopolitical tensions (Red Sea, Iran war, tariffs) drive M&A advisory and trading revenue for major investment banks.",
+            "key_themes": [
+              "geopolitical risk",
+              "M&A activity",
+              "volatility trading"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Complex global trade dynamics and defense tech investments create advisory opportunities for elite investment banking.",
+            "key_themes": [
+              "M&A advisory",
+              "defense sector growth",
+              "geopolitical hedging"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Escalating trade tensions and defense technology boom generate wealth management and trading opportunities.",
+            "key_themes": [
+              "tariff impact",
+              "defense tech investing",
+              "wealth advisory"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Defense tech boom aligns with Berkshire's aerospace/defense exposure, but geopolitical risks create offsetting headwinds.",
+            "key_themes": [
+              "defense sector",
+              "geopolitical risk",
+              "energy volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Market selloff and AI rout create near-term headwinds for payment processors amid broader equity market weakness.",
+            "key_themes": [
+              "market volatility",
+              "tech sector weakness",
+              "reduced transaction volume"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Broad AI rout and stock market decline reduce transaction volumes and consumer spending in near term.",
+            "key_themes": [
+              "market volatility",
+              "AI selloff contagion",
+              "spending slowdown"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 345.2300109863281,
+          "GS": 1085.56005859375,
+          "MS": 216.39999389648438,
+          "BRK-B": 489.6499938964844,
+          "V": 355.82000732421875,
+          "MA": 538.2999877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]

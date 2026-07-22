@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-07-21",
-  "run_time": "2026-07-21T09:26:30.036304Z",
+  "run_date": "2026-07-22",
+  "run_time": "2026-07-22T09:25:37.687901Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,28 +29,28 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
-          "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyonc&#233;'s Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this [&#8230;]",
-          "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+          "title": "Samsung Galaxy Unpacked July 2026: How to watch",
+          "summary": "Samsung's next Galaxy Unpacked event is just around the corner, and the company is expected to take the wraps off a bunch of new devices. Based on the rumors and leaks we've seen so far, Samsung's next generation of foldables will likely be the stars of the show. Samsung is expected to show off a [&#8230;]",
+          "url": "https://www.theverge.com/tech/967926/samsung-galaxy-unpacked-july-2026-watch",
           "source": "Theverge",
-          "published": "20 Jul 2026",
+          "published": "22 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Neill Blomkamp\u2019s new zombie AI \u2018film\u2019 is just slop warmed over",
+          "summary": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. But [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+          "source": "Theverge",
+          "published": "21 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+          "summary": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+          "source": "Theverge",
+          "published": "21 Jul 2026",
           "sentiment_hint": "bullish"
-        },
-        {
-          "title": "The FCC is planning to retroactively ban disguised DJI gadgets",
-          "summary": "Last October, we told you how the FCC had given itself the power to retroactively ban gadgets that have already received its approval to be imported and sold in the United States. Now, the FCC's getting ready to wield that power for the first time, by cracking down on the \"DJI front companies\" suspected of [&#8230;]",
-          "url": "https://www.theverge.com/news/968310/fcc-dji-drone-camera-ban-skyrover-xtra",
-          "source": "Theverge",
-          "published": "20 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "The Odyssey turned me into an IMAX believer",
-          "summary": "After seeing Christopher Nolan's The Odyssey for the first time early last week, I came away impressed, but somewhat conflicted about two of the film's more fantastical set pieces. While those scenes were beautifully crafted and tremendously acted, there was something a little bit off about the way they hit my eye. I spent days [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/968337/the-odyssey-imax-screenings-christopher-nolan",
-          "source": "Theverge",
-          "published": "20 Jul 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
@@ -60,11 +60,11 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's organic search integration demonstrates AI monetization through content discovery, creating competitive pressure for Google Search.",
+            "rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure on Google Search; AI-driven content discovery reshaping SEO landscape.",
             "key_themes": [
-              "AI search disruption",
-              "organic traffic distribution",
-              "content recommendation"
+              "AI search competition",
+              "content discovery disruption",
+              "organic traffic shifts"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -76,55 +76,54 @@
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "ChatGPT's growing role as organic traffic source validates OpenAI partnership and positions Microsoft's AI-integrated ecosystem for creator economy.",
+            "rationale": "OpenAI's advanced AI capabilities (GPT-5.6 Sol) and security testing demonstrate continued innovation in MSFT's strategic AI partnership.",
             "key_themes": [
-              "AI monetization",
-              "content creation platform",
-              "ChatGPT integration"
+              "AI advancement",
+              "security testing",
+              "model capability escalation"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [6] describes an accidental breach during testing, not evidence of 'continued innovation' in a positive sense. The framing as bullish is unsupported; the incident describes a security vulnerability, not a capability advancement.",
+            "supporting_article": 6
           },
           {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "AI content creation tools proliferating, but copyright litigation risks (Udio case) threaten content generation models Meta may deploy.",
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Proliferation of AI tools (10+ new content creation tools, GPT-5.6 testing) indicates sustained GPU demand for training and inference infrastructure.",
             "key_themes": [
-              "AI content tools",
-              "copyright litigation risk",
-              "creator monetization"
+              "GPU demand",
+              "AI infrastructure",
+              "content generation tools"
             ],
             "time_horizon": "long-term",
             "verified": true,
-            "verification_issue": "Udio lawsuit is specific to Udio, not a general copyright litigation risk model for all AI content generators; rationale overgeneralizes from one case to Meta's potential deployment risk",
-            "supporting_article": 4
+            "verification_issue": null,
+            "supporting_article": 2
           }
         ],
-        "summary": "The articles reveal a bifurcated AI landscape: generative AI tools are rapidly commoditizing content creation and disrupting traditional search/discovery models, benefiting Microsoft's ChatGPT ecosystem. However, emerging copyright litigation against AI music generators signals regulatory and legal headwinds that could constrain AI deployment across media-heavy platforms. The shift from SEO to AI-driven organic discovery represents a structural threat to Google's search dominance.",
+        "summary": "The articles reveal an accelerating AI-driven transformation in content creation, search behavior, and media production, with ChatGPT disrupting traditional SEO and Google Search dynamics. Advanced AI model development (GPT-5.6 Sol) and proliferation of generative AI tools suggest sustained demand for foundational AI infrastructure, benefiting semiconductor and cloud providers. Emerging security concerns around AI autonomy warrant monitoring.",
         "risks": [
-          "Regulatory and copyright litigation could impose significant compliance costs on AI platforms",
-          "AI-generated content quality concerns may drive user reversion to traditional search and SEO",
-          "Rapid commoditization of AI tools erodes pricing power and margins across generative AI providers",
-          "Data training practices remain legally contested, threatening model viability"
+          "Regulatory scrutiny on AI security vulnerabilities and autonomous system behavior escalating",
+          "Google Search disruption could accelerate if AI-native interfaces capture meaningful search traffic share",
+          "Sustainability of AI capex investments if ROI metrics disappoint near-term"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "META rationale conflates a specific lawsuit against Udio with generic copyright risks for 'content generation models Meta may deploy' \u2014 the Udio case doesn't establish that Meta-deployed models face similar litigation",
-            "META signal speculates about Meta's future AI content tools without any source material discussing Meta's plans or involvement in generative content creation"
+            "MSFT rationale mischaracterizes Article [6]: OpenAI's accidental breach of Hugging Face during testing is framed as positive 'innovation' when the article presents it as a security incident requiring disclosure.",
+            "MSFT conviction level (68) appears inflated given the negative security implications rather than positive capability demonstration."
           ],
-          "ungrounded_count": 0
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "GOOGL": 351.989990234375,
-        "MSFT": 402.2900085449219,
-        "META": 645.8499755859375
+        "GOOGL": 347.1499938964844,
+        "MSFT": 397.75,
+        "NVDA": 207.2899932861328
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -138,11 +137,11 @@
           "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT's organic search integration demonstrates AI monetization through content discovery, creating competitive pressure for Google Search.",
+          "rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure on Google Search; AI-driven content discovery reshaping SEO landscape.",
           "key_themes": [
-            "AI search disruption",
-            "organic traffic distribution",
-            "content recommendation"
+            "AI search competition",
+            "content discovery disruption",
+            "organic traffic shifts"
           ],
           "time_horizon": "medium-term",
           "verified": true,
@@ -150,11 +149,11 @@
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's organic search integration demonstrates AI monetization through content discovery, creating competitive pressure for Google Search.",
+        "haiku_rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure on Google Search; AI-driven content discovery reshaping SEO landscape.",
         "haiku_themes": [
-          "AI search disruption",
-          "organic traffic distribution",
-          "content recommendation"
+          "AI search competition",
+          "content discovery disruption",
+          "organic traffic shifts"
         ]
       },
       "config": {
@@ -174,142 +173,243 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "ADNOC Approves $6.2 Billion Gas Project in Abu Dhabi",
-          "summary": "Abu Dhabi\u2019s national oil company ADNOC on Tuesday announced a $6.2 billion final investment decision to develop the Umm Shaif Gas Cap project in Abu Dhabi as part of its strategy to grow its global gas portfolio. ADNOC will develop the project alongside its international partners\u2014France\u2019s TotalEnergies, Italy\u2019s Eni, and China National Petroleum Corporation (CNPC). The final investment decision (FID) includes three engineering, procurement, and construction (EPC) packages totaling $5.1 billion fo",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Approves-62-Billion-Gas-Project-in-Abu-Dhabi.html",
+          "title": "China's Oil Output Hits Record High",
+          "summary": "China produced a record amount of crude oil last year, at 216 million tons, with natural gas production also rising substantially, the National Energy Administration reported today. Together, the oil and gas output of China in terms of oil equivalent rose to 420 million tons\u2014a record high. Natural gas alone rose by 10 billion cubic meters last year. The annual growth rate was unchanged for the ninth year in a row, the NEA said. Chinese oil and gas companies also boosted their reserves, with new ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Output-Hits-Record-High.html",
           "source": "Oilprice",
-          "published": "21 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Iran Says U.S. Struck Unfinished Nuclear Plant, Warns of Safety Risk",
-          "summary": "Iran has warned there is a nuclear safety risk after the United States struck a nuclear power plant that is under construction in the southwestern province of Khuzestan. U.S. forces fired multiple missiles at the facility, Iran\u2019s UN ambassador Amir Saeid Iravani told the Security Council in a letter cited by Iran\u2019s Mehr news agency. The facility, Iravani added, is covered by safeguards of the International Atomic Energy Agency and all activities there are \u201cexclusively peaceful, fully transparent",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-US-Struck-Unfinished-Nuclear-Plant-Warns-of-Safety-Risk.html",
-          "source": "Oilprice",
-          "published": "21 Jul 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Oil Reverses Gains on Renewed Hope of Peace in Iran",
-          "summary": "Crude oil prices reversed their climb this morning, retreating on reports that efforts are being made to negotiate another ceasefire between the United States and Iran. Brent crude was trading at $88.77 per barrel at the time of writing, down from over $90 per barrel, and West Texas Intermediate was changing hands for $82.31 per barrel despite continued missile strikes in the Persian Gulf and President Trump\u2019s threat to punish Iran for the deaths of several U.S. troops. Reports about ceasefire e",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
-          "source": "Oilprice",
-          "published": "21 Jul 2026",
+          "published": "22 Jul 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Ocean Winds secures consent for 2GW Caledonia offshore project",
-          "summary": "Ocean Winds has received offshore consent from the Scottish Government for the 2GW Caledonia Offshore Wind Farm.",
-          "url": "https://www.energymonitor.ai/news/ocean-winds-consent-2gw-caledonia-offshore-project/",
+          "title": "Surging Oil Prices Push Japan\u2019s Import Bill to an Unprecedented High",
+          "summary": "Surging oil prices have led to a significant increase in Japan\u2019s import bill, hitting an all-time high last month of $89.46 billion, Reuters has reported, citing government data. The June total was 25.4% higher than a year earlier, as international oil prices rose by over 50% in the 12 months since last July, according to Bloomberg data, as cited by Saxo Bank. In the year to date, Brent crude and WTI have surged by over 60%. \u201cJapan's diversification of oil procurement sources is progressing, wit",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Surging-Oil-Prices-Push-Japans-Import-Bill-to-an-Unprecedented-High.html",
+          "source": "Oilprice",
+          "published": "22 Jul 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "U.S.-Iran Conflict Threatens Long-Term Energy Shock Across Asia",
+          "summary": "The impact of the war between the United States and Iran on oil-importing nations in Asia could last years or even decades because of these countries\u2019 heavy dependence on those imports, energy analyst Vandana Hari of Vanda Insight has warned. \u201cThere is a growing dependency on imports, and with that comes a dependency \u2014 or a vulnerability \u2014 to geopolitics,\u201d Hari said at a Bloomberg event in Singapore. \u201cI think we are in a geopolitical flux; I think this is going to remain with us for decades, def",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Iran-Conflict-Threatens-Long-Term-Energy-Shock-Across-Asia.html",
+          "source": "Oilprice",
+          "published": "22 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Construction to begin on 900MW Waltrop Battery Park in Germany",
+          "summary": "Shareholders of the Waltrop Battery Park in Germany, have agreed to move forward with the next phase of construction.",
+          "url": "https://www.energymonitor.ai/news/construction-begin-waltrop-battery-park/",
+          "source": "Energymonitor",
+          "published": "21 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Exus Renewables secures $356m for Pennsylvania wind farms",
+          "summary": "Exus Renewables North America has closed $356m in construction financing to support two wind energy projects in Pennsylvania, US.",
+          "url": "https://www.energymonitor.ai/news/exus-renewables-356m-pennsylvania-wind-farms/",
+          "source": "Energymonitor",
+          "published": "21 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "EU aims to boost electrification with new action plan and ETS update",
+          "summary": "The EC has introduced an Electrification Action Plan and a review of the EU ETS as part of efforts to increase Europe\u2019s energy independence.",
+          "url": "https://www.energymonitor.ai/news/eu-aims-to-boost-electrification/",
           "source": "Energymonitor",
           "published": "20 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "IDF and Oaktree back $1.7bn Bloom Energy project for AI infrastructure",
-          "summary": "IDF and Oaktree have announced a $1.7bn investment to fund the deployment of Bloom Energy\u2019s fuel-cell technology.",
-          "url": "https://www.energymonitor.ai/news/idf-oaktree-back-bloom-energy/",
-          "source": "Energymonitor",
-          "published": "17 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "TotalEnergies and partners open hybrid renewable project in South Africa",
-          "summary": "TotalEnergies, alongside Hydra Storage and Reatile Renewables, has inaugurated a hybrid renewable energy project in Northern Cape province.",
-          "url": "https://www.energymonitor.ai/news/totalenergies-open-hybrid-project-sa/",
-          "source": "Energymonitor",
-          "published": "17 Jul 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
+            "ticker": "XOM",
+            "company": "ExxonMobil",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "FID approval on $6.2B Umm Shaif Gas Cap project with ADNOC expands gas portfolio; also advancing renewables in South Africa.",
+            "rationale": "Surging oil prices (up 60% YTD) and geopolitical tensions in U.S.-Iran conflict support elevated crude valuations and demand.",
             "key_themes": [
-              "gas project expansion",
-              "renewable energy diversification",
-              "capital deployment"
+              "oil price strength",
+              "geopolitical premium",
+              "supply security concerns"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "High oil prices and Asian energy import dependency create favorable upstream economics and long-term demand security.",
+            "key_themes": [
+              "oil price strength",
+              "Asian demand",
+              "import dependency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Elevated oil prices benefit upstream production; European energy independence push may support integrated energy portfolio.",
+            "key_themes": [
+              "oil price strength",
+              "European energy security",
+              "integrated operations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
               6
             ]
           },
           {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
+            "ticker": "SHEL",
+            "company": "Shell",
             "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Umm Shaif Gas Cap FID with $5.1B EPC packages likely to drive oilfield services demand from project execution phase.",
+            "conviction": 71,
+            "rationale": "Strong oil pricing environment and Asian market exposure benefit integrated operations; geopolitical tensions support energy demand.",
             "key_themes": [
-              "EPC contract opportunity",
-              "Middle East project activity"
+              "oil price strength",
+              "Asian exposure",
+              "geopolitical support"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] confirms $5.1B in EPC packages for Umm Shaif project, but does not mention Schlumberger or indicate SLB is awarded any contracts. The analyst assumes SLB will capture EPC work without evidence it was selected or bidding for these packages.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Oil price surge benefits upstream; EU electrification plan offers transition opportunities for diversified energy company.",
+            "key_themes": [
+              "oil price strength",
+              "energy transition optionality",
+              "European presence"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              6
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Significant upstream producer benefits from 60% YTD oil price increase and decade-long geopolitical risk premium.",
+            "key_themes": [
+              "oil price strength",
+              "upstream exposure",
+              "geopolitical premium"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "SLB (Schlumberger)",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Oil price strength supports oilfield services demand, but articles lack specific E&P activity indicators to confirm conviction.",
+            "key_themes": [
+              "oil price strength potential",
+              "oilfield services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2
+            ]
           }
         ],
-        "summary": "TotalEnergies receives a meaningful boost from the $6.2B Umm Shaif Gas Cap FID approval in Abu Dhabi, supporting its gas expansion strategy while concurrently advancing renewable projects globally. Geopolitical tensions in Iran create oil price volatility but ongoing ceasefire negotiations suggest near-term downside risk to energy prices; broader sector benefits from major capital deployment into both hydrocarbons and renewables.",
+        "summary": "Oil and gas majors face a strongly bullish environment driven by 60% YTD crude price increases and decade-long geopolitical tensions from U.S.-Iran conflict creating long-term Asian import dependency vulnerabilities. However, offsetting headwinds include accelerating European electrification and renewable energy investment (battery parks, wind farms, EU ETS review), which create structural long-term challenges for traditional hydrocarbon producers despite near-term pricing strength.",
         "risks": [
-          "Iran-U.S. ceasefire negotiations reducing oil price support",
-          "Energy transition competition limiting long-term hydrocarbon project economics",
-          "Middle East geopolitical escalation disrupting project execution"
+          "Geopolitical conflict resolution could rapidly deflate the current oil price premium",
+          "Accelerating EU and global electrification/renewable transition threatens long-term demand and stranded assets",
+          "Energy import diversification by Asia (Japan noted) could reduce OPEC/Middle East supply leverage over time",
+          "Renewable energy project financing momentum signals competitive capital allocation away from fossil fuels"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "SLB signal lacks grounding: The Umm Shaif FID announcement does not identify Schlumberger as a contractor or indicate it will be involved in the $5.1B EPC packages. This is speculative attribution without source support."
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "TTE": 80.80000305175781,
-        "SLB": 46.38999938964844
+        "XOM": 151.7100067138672,
+        "CVX": 191.07000732421875,
+        "BP": 42.7599983215332,
+        "SHEL": 87.19999694824219,
+        "TTE": 83.52999877929688,
+        "COP": 117.5,
+        "SLB": 46.59000015258789
       },
       "spot_check": {
-        "title": "Iran Says U.S. Struck Unfinished Nuclear Plant, Warns of Safety Risk",
-        "summary": "Iran has warned there is a nuclear safety risk after the United States struck a nuclear power plant that is under construction in the southwestern province of Khuzestan. U.S. forces fired multiple missiles at the facility, Iran\u2019s UN ambassador Amir Saeid Iravani told the Security Council in a letter cited by Iran\u2019s Mehr news agency. The facility, Iravani added, is covered by safeguards of the International Atomic Energy Agency and all activities there are \u201cexclusively peaceful, fully transparent",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-US-Struck-Unfinished-Nuclear-Plant-Warns-of-Safety-Risk.html",
+        "title": "China's Oil Output Hits Record High",
+        "summary": "China produced a record amount of crude oil last year, at 216 million tons, with natural gas production also rising substantially, the National Energy Administration reported today. Together, the oil and gas output of China in terms of oil equivalent rose to 420 million tons\u2014a record high. Natural gas alone rose by 10 billion cubic meters last year. The annual growth rate was unchanged for the ninth year in a row, the NEA said. Chinese oil and gas companies also boosted their reserves, with new ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Output-Hits-Record-High.html",
         "source": "Oilprice",
-        "published": "21 Jul 2026",
-        "sentiment_hint": "bearish",
+        "published": "22 Jul 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "TTE",
-          "company": "TotalEnergies SE",
+          "ticker": "COP",
+          "company": "ConocoPhillips",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "FID approval on $6.2B Umm Shaif Gas Cap project with ADNOC expands gas portfolio; also advancing renewables in South Africa.",
+          "conviction": 73,
+          "rationale": "Significant upstream producer benefits from 60% YTD oil price increase and decade-long geopolitical risk premium.",
           "key_themes": [
-            "gas project expansion",
-            "renewable energy diversification",
-            "capital deployment"
+            "oil price strength",
+            "upstream exposure",
+            "geopolitical premium"
           ],
-          "time_horizon": "long-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": [
-            1,
-            6
+            2,
+            3
           ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "FID approval on $6.2B Umm Shaif Gas Cap project with ADNOC expands gas portfolio; also advancing renewables in South Africa.",
+        "haiku_rationale": "Significant upstream producer benefits from 60% YTD oil price increase and decade-long geopolitical risk premium.",
         "haiku_themes": [
-          "gas project expansion",
-          "renewable energy diversification",
-          "capital deployment"
+          "oil price strength",
+          "upstream exposure",
+          "geopolitical premium"
         ]
       },
       "config": {
@@ -329,6 +429,22 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "The Ordeal of a 42-Day Hantavirus Quarantine: \u2018I Felt Like a Prisoner\u2019",
+          "summary": "Eighteen Americans were isolated for weeks in a Nebraska quarantine facility after being exposed to the deadly virus on a cruise ship. Many found the experience traumatic.",
+          "url": "https://www.nytimes.com/2026/07/21/health/hantavirus-quarantine-americans.html",
+          "source": "Rss",
+          "published": "21 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "1,700 H.I.V. Treatment Sites Closed After Trump Aid Cuts, a Study Finds",
+          "summary": "New research also shows that children and high-risk adult populations have been particularly affected.",
+          "url": "https://www.nytimes.com/2026/07/21/health/hiv-trump-cuts-pepfar.html",
+          "source": "Rss",
+          "published": "21 Jul 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
           "title": "The Best Genetic Risk Tools Don\u2019t Work Equally for Everyone",
           "summary": "Genetic prediction models are poised to revolutionize medicine. But because they have been trained on European DNA, they threaten to widen health care disparities.",
           "url": "https://www.nytimes.com/2026/07/20/science/polygenic-risk-scores-diversity.html",
@@ -337,146 +453,150 @@
           "sentiment_hint": "bearish"
         },
         {
-          "title": "The Sewer Knows What You Ate",
-          "summary": "During the Covid-19 pandemic, wastewater testing became a virus warning system. Now, scientists are using the approach to understand how communities eat.",
-          "url": "https://www.nytimes.com/2026/07/20/science/sewer-diet-research.html",
-          "source": "Rss",
-          "published": "20 Jul 2026",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/amgen-agrees-74m-settlement-resolve-investor-lawsuit-over-107b-tax-bill\" hreflang=\"en\">Amgen agrees to $74M settlement to resolve investor lawsuit over potential $10.7B tax bill</a>",
+          "summary": "Amgen has agreed to a $74 million settlement with investors to resolve a lawsuit that alleged the company hid a $10.7 billion tax bill from the public and kept the company's share price artificially high from July of 2020 to April of 2022.",
+          "url": "https://www.fiercepharma.com/pharma/amgen-agrees-74m-settlement-resolve-investor-lawsuit-over-107b-tax-bill",
+          "source": "Fiercepharma",
+          "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Taylor Farms Expands Iceberg Lettuce Recall to 27 States Amid Cyclospora Outbreak",
-          "summary": "The affected products were shipped starting June 29 and have expiration dates through Aug. 3.",
-          "url": "https://www.nytimes.com/2026/07/18/health/taylor-farms-iceberg-lettuce-recall.html",
-          "source": "Rss",
-          "published": "20 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/sanofi-survey-uncovers-type-1-diabetes-misconceptions-and-screening-gaps\" hreflang=\"en\">Sanofi survey uncovers Type 1 diabetes misconceptions and screening gaps</a>",
-          "summary": "Widespread misconceptions about Type 1 diabetes could be contributing to a reluctance to get screened for the autoimmune disease, according to a survey Sanofi commissioned.",
-          "url": "https://www.fiercepharma.com/marketing/sanofi-survey-uncovers-type-1-diabetes-misconceptions-and-screening-gaps",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/sanofi-continues-tweaks-executive-roster-new-ceo-garijo-settles\" hreflang=\"en\">Sanofi continues tweaks to executive roster as new CEO Garijo settles in</a>",
+          "summary": "With former Merck KGaA CEO Bel\u00e9n Garijo, M.D., Ph.D., now calling the shots at Sanofi, the French drugmaker continues to refine its executive roster, albeit with fewer high-profile C-suite departures now than earlier in the year.",
+          "url": "https://www.fiercepharma.com/pharma/sanofi-continues-tweaks-executive-roster-new-ceo-garijo-settles",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/jj-time-spotlight-healthcare-workers-newly-launched-healthcare-champion-year-award\" hreflang=\"en\">J&amp;J, Time link up to spotlight healthcare leadership with Healthcare Champion of the Year award </a>",
-          "summary": "The Healthcare Champion of the Year, to be selected by J&amp;J and a panel of industry experts, will be recognized at Time\u2019s \u201cA Year in TIME\u201d celebration in December.",
-          "url": "https://www.fiercepharma.com/marketing/jj-time-spotlight-healthcare-workers-newly-launched-healthcare-champion-year-award",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/alembic-bioequivalence-site-slapped-fda-warning-letter-over-informed-consent-concerns\" hreflang=\"en\">Alembic site slapped with FDA warning letter over patient consent concerns</a>",
+          "summary": "Following an inspection earlier this year that yielded a Form 483, Indian generics juggernaut Alembic Pharmaceuticals has received a harsher reprimand from the U.S. FDA.",
+          "url": "https://www.fiercepharma.com/pharma/alembic-bioequivalence-site-slapped-fda-warning-letter-over-informed-consent-concerns",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/manufacturing/samsung-biologics-spreads-wings-proposed-18b-acquisition-swiss-cdmo-polypeptide\" hreflang=\"en\">Samsung Biologics spreads wings with proposed $1.8B acquisition of Swiss CDMO PolyPeptide</a>",
-          "summary": "South Korean contract manufacturer Samsung Biologics has tapped into the booming peptide production and weight loss market with plans to buy out Switzerland-based CDMO PolyPeptide for 1.46 billion Swiss francs ($1.8 billion).",
-          "url": "https://www.fiercepharma.com/manufacturing/samsung-biologics-spreads-wings-proposed-18b-acquisition-swiss-cdmo-polypeptide",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "MRK",
+            "company": "Merck & Co.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Brand visibility boost from Time Healthcare Champion award, but minimal financial impact from marketing initiative.",
+            "rationale": "Former Merck KGaA CEO appointment at Sanofi signals competitive leadership shifts but no direct impact on MRK operations.",
             "key_themes": [
-              "brand reputation",
-              "healthcare leadership"
+              "executive talent migration",
+              "competitive dynamics"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 5
           },
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Indirect tailwind from peptide market expansion (Samsung-PolyPeptide deal) validating GLP-1/peptide sector growth thesis.",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "HIV treatment site closures following aid cuts will increase uninsured patient burdens, pressuring UNH's medical cost ratios and profitability.",
             "key_themes": [
-              "peptide production demand",
-              "weight loss market expansion",
-              "CDMO capacity growth"
+              "public health funding cuts",
+              "medical cost expansion",
+              "vulnerable populations"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
+            "verified": false,
+            "verification_issue": "Article [2] documents HIV treatment site closures but contains no information about UnitedHealth Group, medical cost ratios, uninsured patient burdens, or their impact on UNH's profitability. The causal chain from site closures to UNH's specific financial metrics is not established in source material.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Genetic prediction model disparities create regulatory and reputational risks for precision medicine investments and diagnostic partnerships.",
+            "key_themes": [
+              "regulatory risk",
+              "health equity concerns",
+              "precision medicine headwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses genetic prediction model disparities but does not mention Eli Lilly, precision medicine investments, diagnostic partnerships, or any regulatory/reputational risks specific to LLY. No direct connection between the article content and LLY is established.",
+            "supporting_article": 3
           },
           {
             "ticker": "TMO",
             "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Growing demand for genetic testing infrastructure and wastewater surveillance tools creates lab services expansion opportunities.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Genetic risk tools disparities threaten adoption of precision diagnostics; TMO's genomics division faces potential regulatory scrutiny and market resistance.",
             "key_themes": [
-              "genetic testing tools",
-              "diagnostic infrastructure",
-              "surveillance technology"
+              "diagnostic equity issues",
+              "precision medicine challenges",
+              "regulatory pressure"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses genetic risk tool disparities but does not mention Thermo Fisher Scientific, its genomics division, adoption of precision diagnostics, regulatory scrutiny, or market resistance. No evidence that TMO specifically manufactures or distributes the flawed genetic prediction models discussed.",
+            "supporting_article": 3
           }
         ],
-        "summary": "Healthcare sector shows mixed signals with emerging opportunities in diagnostics and peptide therapeutics offsetting concerns about healthcare disparities. The validation of peptide market expansion through major M&A and growing demand for genetic testing tools suggest tailwinds for specialized healthcare service providers, though equity inclusion gaps in genetic research present long-term regulatory and reputational risks.",
+        "summary": "Healthcare sector faces headwinds from policy-driven funding cuts, emerging equity concerns in precision medicine, and regulatory compliance risks. HIV treatment accessibility collapse and genetic tool disparities create medium to long-term risks for insurers and diagnostics companies, while creating potential liability exposure across the sector.",
         "risks": [
-          "Genetic prediction models' bias could trigger regulatory scrutiny and healthcare equity mandates affecting R&D costs",
-          "Foodborne illness outbreaks (Cyclospora) may increase healthcare utilization costs",
-          "Type 1 diabetes screening gaps indicate market education challenges for affected manufacturers"
+          "Public health funding cuts eroding treatment access",
+          "Precision medicine regulatory backlash over demographic disparities",
+          "Potential Congressional scrutiny on healthcare equity",
+          "Infectious disease outbreaks increasing quarantine/isolation costs"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "low",
+          "flags": [
+            "UNH signal makes unsupported causal leap from HIV site closures to specific impact on UNH's medical cost ratios and profitability",
+            "LLY signal assumes company involvement in precision medicine/diagnostics without source support",
+            "TMO signal assumes company manufactures genetic prediction tools without source evidence of TMO's involvement",
+            "Three of four signals contain company-specific claims not grounded in the provided articles"
+          ],
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JNJ": 248.82000732421875,
-        "LLY": 1146.9000244140625,
-        "TMO": 526.22998046875
+        "MRK": 126.26000213623047,
+        "UNH": 436.3500061035156,
+        "LLY": 1175.4100341796875,
+        "TMO": 523.4600219726562
       },
       "spot_check": {
-        "title": "The Best Genetic Risk Tools Don\u2019t Work Equally for Everyone",
-        "summary": "Genetic prediction models are poised to revolutionize medicine. But because they have been trained on European DNA, they threaten to widen health care disparities.",
-        "url": "https://www.nytimes.com/2026/07/20/science/polygenic-risk-scores-diversity.html",
+        "title": "The Ordeal of a 42-Day Hantavirus Quarantine: \u2018I Felt Like a Prisoner\u2019",
+        "summary": "Eighteen Americans were isolated for weeks in a Nebraska quarantine facility after being exposed to the deadly virus on a cruise ship. Many found the experience traumatic.",
+        "url": "https://www.nytimes.com/2026/07/21/health/hantavirus-quarantine-americans.html",
         "source": "Rss",
-        "published": "20 Jul 2026",
-        "sentiment_hint": "bearish",
+        "published": "21 Jul 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Indirect tailwind from peptide market expansion (Samsung-PolyPeptide deal) validating GLP-1/peptide sector growth thesis.",
+          "ticker": "UNH",
+          "company": "UnitedHealth Group",
+          "sentiment": "bearish",
+          "conviction": 65,
+          "rationale": "HIV treatment site closures following aid cuts will increase uninsured patient burdens, pressuring UNH's medical cost ratios and profitability.",
           "key_themes": [
-            "peptide production demand",
-            "weight loss market expansion",
-            "CDMO capacity growth"
+            "public health funding cuts",
+            "medical cost expansion",
+            "vulnerable populations"
           ],
           "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 6
+          "verified": false,
+          "verification_issue": "Article [2] documents HIV treatment site closures but contains no information about UnitedHealth Group, medical cost ratios, uninsured patient burdens, or their impact on UNH's profitability. The causal chain from site closures to UNH's specific financial metrics is not established in source material.",
+          "supporting_article": 2
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Indirect tailwind from peptide market expansion (Samsung-PolyPeptide deal) validating GLP-1/peptide sector growth thesis.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "HIV treatment site closures following aid cuts will increase uninsured patient burdens, pressuring UNH's medical cost ratios and profitability.",
         "haiku_themes": [
-          "peptide production demand",
-          "weight loss market expansion",
-          "CDMO capacity growth"
+          "public health funding cuts",
+          "medical cost expansion",
+          "vulnerable populations"
         ]
       },
       "config": {
@@ -496,27 +616,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Why States Are Making It Harder to Save Money With Solar Panels",
-          "summary": "The changes are costing homeowners money. But they also reflect a changing grid \u2014 and the need for home batteries.",
-          "url": "https://www.nytimes.com/2026/07/21/upshot/solar-panels-prices-batteries.html",
+          "title": "See How Houthis Put the Red Sea at Risk as an Alternative Oil Route",
+          "summary": "Saudi Arabia has diverted huge amounts of oil to the Red Sea since the Iran war began, but now the Iranian-backed Houthi militants say that they intend to block that route.",
+          "url": "https://www.nytimes.com/2026/07/22/business/energy-environment/red-sea-saudi-arabia-houthis.html",
           "source": "Rss",
-          "published": "21 Jul 2026",
+          "published": "22 Jul 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Laredo\u2019s Future Rides on Trump\u2019s Next Trade Move",
+          "summary": "The economy of Laredo, Texas, has boomed under the president\u2019s global tariffs. Now, his demands may threaten its success.",
+          "url": "https://www.nytimes.com/2026/07/22/business/economy/trump-tariffs-laredo-trade-mexico.html",
+          "source": "Rss",
+          "published": "22 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Trump to Impose 50% Tariff on Many Canadian Goods",
-          "summary": "The administration will use an untested legal provision to put significant duties on Canadian exports, reigniting a clash with one of America\u2019s biggest trading partners.",
-          "url": "https://www.nytimes.com/2026/07/20/business/economy/trump-tariffs-canada.html",
+          "title": "How Donald Trump Jr.\u2019s 1789 Capital Is Cashing In Without Apology",
+          "summary": "The fledgling firm, run by the president\u2019s oldest son and his partner Omeed Malik, has made investments in A.I. and defense technology that have tripled in value in just months.",
+          "url": "https://www.nytimes.com/2026/07/22/business/donald-trump-jr-1789-capital.html",
           "source": "Rss",
-          "published": "21 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Andy Burnham, New UK Prime Minister, Names John Healey As Top Finance Official",
-          "summary": "As chancellor, John Healey, who quit as defense secretary in the former government, will fill one of the most consequential posts, overseeing fiscal and economic policy.",
-          "url": "https://www.nytimes.com/2026/07/20/business/andy-burnham-john-healey.html",
-          "source": "Rss",
-          "published": "21 Jul 2026",
+          "published": "22 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -551,27 +671,30 @@
             "company": "JPMorgan Chase",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Tariff implementation and policy uncertainty drive M&A advisory and capital markets activity for major banks.",
+            "rationale": "Geopolitical tensions (Red Sea, Iran war, tariffs) drive M&A advisory and trading revenue for major investment banks.",
             "key_themes": [
-              "trade policy",
-              "M&A advisory",
-              "capital markets"
+              "geopolitical risk",
+              "M&A activity",
+              "volatility trading"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "US-Canada trade tensions and UK fiscal policy changes create advisory and restructuring opportunities for investment banks.",
+            "conviction": 70,
+            "rationale": "Complex global trade dynamics and defense tech investments create advisory opportunities for elite investment banking.",
             "key_themes": [
-              "trade disputes",
-              "advisory fees",
-              "geopolitical risk"
+              "M&A advisory",
+              "defense sector growth",
+              "geopolitical hedging"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -585,108 +708,127 @@
             "ticker": "MS",
             "company": "Morgan Stanley",
             "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Elevated market volatility from AI selloff and tariff announcements increase trading volumes and M&A activity.",
+            "conviction": 68,
+            "rationale": "Escalating trade tensions and defense technology boom generate wealth management and trading opportunities.",
             "key_themes": [
-              "market volatility",
-              "trading commissions",
-              "M&A"
+              "tariff impact",
+              "defense tech investing",
+              "wealth advisory"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               2,
-              4
+              3
+            ]
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Defense tech boom aligns with Berkshire's aerospace/defense exposure, but geopolitical risks create offsetting headwinds.",
+            "key_themes": [
+              "defense sector",
+              "geopolitical risk",
+              "energy volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
             ]
           },
           {
             "ticker": "V",
             "company": "Visa",
             "sentiment": "bearish",
-            "conviction": 58,
-            "rationale": "Broad market selloff and economic uncertainty from tariffs may reduce consumer spending and payment transaction volumes.",
+            "conviction": 62,
+            "rationale": "Market selloff and AI rout create near-term headwinds for payment processors amid broader equity market weakness.",
             "key_themes": [
-              "consumer spending",
               "market volatility",
-              "tariff impact"
+              "tech sector weakness",
+              "reduced transaction volume"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims tariffs will reduce consumer spending, but Article [2] only discusses tariff announcement on Canadian goods with no analysis of consumer spending impact. Article [4] shows AI-driven market selloff, not tariff-driven consumer behavior changes.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "MA",
             "company": "Mastercard",
             "sentiment": "bearish",
-            "conviction": 56,
-            "rationale": "Market-wide risk-off environment and potential recessionary pressures from tariffs could suppress transaction growth.",
+            "conviction": 60,
+            "rationale": "Broad AI rout and stock market decline reduce transaction volumes and consumer spending in near term.",
             "key_themes": [
-              "market downturn",
-              "consumer caution",
-              "economic slowdown"
+              "market volatility",
+              "AI selloff contagion",
+              "spending slowdown"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale speculates about recessionary pressures from tariffs causing transaction decline, but source articles provide no evidence of recessionary conditions or tariff-driven economic slowdown. Article [2] announces tariffs but contains no economic impact analysis.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           }
         ],
-        "summary": "Financial sector shows mixed signals as investment banks benefit from increased M&A and advisory activity driven by trade policy uncertainty and geopolitical shifts, while payment processors face headwinds from market volatility and potential consumer spending reductions. Tariff implementation and UK fiscal changes create near-term opportunities for capital markets activity, but broader market selloff driven by AI concerns poses near-term risks to transaction volumes.",
+        "summary": "Investment banks (JPM, GS, MS) face tailwinds from escalating geopolitical tensions, trade disputes, and defense sector growth that should drive advisory and M&A activity. Payment processors (V, MA) and Berkshire (BRK-B) face near-term headwinds from the AI sector selloff and broader market volatility, though long-term defense exposure offers selective upside for Berkshire.",
         "risks": [
-          "AI sector selloff spillover to broader financial markets",
-          "US-Canada trade war escalation reducing cross-border transactions",
-          "Consumer spending contraction from tariff-induced inflation",
-          "Market volatility reversal reducing advisory and trading activity"
+          "Escalation of Red Sea/Iran conflict could disrupt oil markets and create systemic financial stress",
+          "Trump trade policy reversal could deflate expectations for tariff-driven corporate restructuring activity",
+          "Sustained AI sector weakness and valuation repricing could extend equity market selloff beyond tech",
+          "Payment volume contraction if consumer spending deteriorates due to market uncertainty"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "Visa and Mastercard bearish signals lack grounding in source material - analysts extrapolated consumer spending impacts without supporting evidence",
-            "No article discusses tariff effects on consumer behavior or spending patterns",
-            "Recession terminology in MA rationale is not supported by any source article"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JPM": 338.8699951171875,
-        "GS": 1055.030029296875,
-        "MS": 210.94000244140625,
-        "V": 360.57000732421875,
-        "MA": 547.4400024414062
+        "JPM": 345.2300109863281,
+        "GS": 1085.56005859375,
+        "MS": 216.39999389648438,
+        "BRK-B": 489.6499938964844,
+        "V": 355.82000732421875,
+        "MA": 538.2999877929688
       },
       "spot_check": {
-        "title": "Why States Are Making It Harder to Save Money With Solar Panels",
-        "summary": "The changes are costing homeowners money. But they also reflect a changing grid \u2014 and the need for home batteries.",
-        "url": "https://www.nytimes.com/2026/07/21/upshot/solar-panels-prices-batteries.html",
+        "title": "See How Houthis Put the Red Sea at Risk as an Alternative Oil Route",
+        "summary": "Saudi Arabia has diverted huge amounts of oil to the Red Sea since the Iran war began, but now the Iranian-backed Houthi militants say that they intend to block that route.",
+        "url": "https://www.nytimes.com/2026/07/22/business/energy-environment/red-sea-saudi-arabia-houthis.html",
         "source": "Rss",
-        "published": "21 Jul 2026",
-        "sentiment_hint": "neutral",
+        "published": "22 Jul 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
           "ticker": "JPM",
           "company": "JPMorgan Chase",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Tariff implementation and policy uncertainty drive M&A advisory and capital markets activity for major banks.",
+          "rationale": "Geopolitical tensions (Red Sea, Iran war, tariffs) drive M&A advisory and trading revenue for major investment banks.",
           "key_themes": [
-            "trade policy",
-            "M&A advisory",
-            "capital markets"
+            "geopolitical risk",
+            "M&A activity",
+            "volatility trading"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": [
+            1,
+            2
+          ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Tariff implementation and policy uncertainty drive M&A advisory and capital markets activity for major banks.",
+        "haiku_rationale": "Geopolitical tensions (Red Sea, Iran war, tariffs) drive M&A advisory and trading revenue for major investment banks.",
         "haiku_themes": [
-          "trade policy",
-          "M&A advisory",
-          "capital markets"
+          "geopolitical risk",
+          "M&A activity",
+          "volatility trading"
         ]
       },
       "config": {
