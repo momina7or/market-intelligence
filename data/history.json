@@ -6736,5 +6736,326 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-23",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic traffic generation capability threatens Google Search dominance; creates urgency for competitive AI search products.",
+            "key_themes": [
+              "AI search competition",
+              "traffic displacement risk",
+              "AI product development"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Legal victory dismissing social media addiction trial reduces litigation risk and regulatory overhang facing the platform.",
+            "key_themes": [
+              "litigation risk reduction",
+              "regulatory relief",
+              "platform sustainability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 342.0899963378906,
+          "META": 627.1699829101562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Red Sea supply disruptions and rising oil prices ($98 Brent) benefit major integrated oil producers with diverse asset bases.",
+            "key_themes": [
+              "supply disruptions",
+              "oil price recovery",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Brent crude approaching $100/barrel and sustained supply concerns support upstream producer margins and cash generation.",
+            "key_themes": [
+              "crude price strength",
+              "Houthi disruptions",
+              "production economics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Integrated producer benefits from elevated oil prices driven by Red Sea geopolitical tensions and potential supply constraints.",
+            "key_themes": [
+              "supply disruption premium",
+              "oil price upside",
+              "middle east risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "LNG-focused portfolio strengthened by EU sanctions negotiations on Russian LNG, supporting demand for alternative suppliers like Shell.",
+            "key_themes": [
+              "LNG supply dynamics",
+              "EU energy security",
+              "sanctions impact"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Strong LNG portfolio and oil price exposure benefit from both crude rally and geopolitical demand for non-Russian energy.",
+            "key_themes": [
+              "LNG opportunity",
+              "oil price support",
+              "EU diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Pure-play upstream producer gains from Brent near $100 and sustained Red Sea supply disruption risks affecting global markets.",
+            "key_themes": [
+              "supply disruption",
+              "crude price strength",
+              "upstream upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SLB",
+            "company": "SLB Ltd.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Higher oil prices support oilfield services demand, but no direct news on SLB operations; indirect benefit from producer activity.",
+            "key_themes": [
+              "oilfield services demand",
+              "upstream activity",
+              "indirect exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims higher oil prices support oilfield services demand, which is a reasonable inference from Article 1's oil price rise, but the connection is indirect and speculative. No article directly discusses SLB or oilfield services demand changes.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 154.4499969482422,
+          "CVX": 192.97999572753906,
+          "BP": 43.31999969482422,
+          "SHEL": 87.7699966430664,
+          "TTE": 84.91000366210938,
+          "COP": 118.79000091552734,
+          "SLB": 47.66999816894531
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diversified portfolio provides buffer against regulatory headwinds; no direct exposure to articles' themes.",
+            "key_themes": [
+              "regulatory environment",
+              "diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims JNJ has 'no direct exposure to articles' themes,' but this is a general defensive claim not supported by the source articles. The articles do not mention JNJ at all, and the rationale does not reference any specific article content to justify the neutral stance.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rare disease focus aligns with new nonprofit center streamlining gene therapy for underserved markets.",
+            "key_themes": [
+              "rare disease opportunity",
+              "gene therapy innovation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Regulatory scrutiny highlighted by Sanofi FDA letter signals tightening drug promotion oversight affecting industry.",
+            "key_themes": [
+              "regulatory risk",
+              "marketing compliance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Hantavirus quarantine event drives demand for diagnostic testing and infectious disease surveillance capabilities.",
+            "key_themes": [
+              "infectious disease demand",
+              "diagnostic infrastructure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 255.6300048828125,
+          "LLY": 1163.010009765625,
+          "PFE": 24.81999969482422,
+          "TMO": 526.4600219726562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: AI sector volatility may reduce M&A activity, but financial stability supports advisory fees.",
+            "key_themes": [
+              "market volatility",
+              "tech sector uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims AI sector volatility may reduce M&A activity and affect advisory fees, but no source article discusses M&A trends, advisory fee impacts, or JPMorgan Chase specifically. Article [4] mentions AI stock declines but not banking implications.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Broad market decline from AI rout may pressurize trading volumes and capital markets activity.",
+            "key_themes": [
+              "market volatility",
+              "trading uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes broad market decline pressurizes trading volumes and capital markets activity for Bank of America, but no source article discusses trading volumes, capital markets activity, or banking sector impacts from the AI rout.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Market selloff and consumer pullback from discretionary spending (travel, food) likely reduces payment volumes.",
+            "key_themes": [
+              "consumer spending weakness",
+              "cyclical downturn"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims consumer pullback from discretionary spending in travel and food reduces payment volumes. While articles [2] and [3] mention reduced foot traffic and travel concerns, neither directly links these to payment volumes or Visa transaction impact. The connection is speculative.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Broader market decline and reduced consumer discretionary spending (travel, dining) will suppress transaction volumes.",
+            "key_themes": [
+              "consumer spending weakness",
+              "discretionary pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes reduced consumer discretionary spending (travel, dining) will suppress Mastercard transaction volumes. Articles [2] and [3] show some consumer hesitation but don't establish a causal link to payment transaction volume declines or Mastercard specifically.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 348.2099914550781,
+          "BAC": 61.619998931884766,
+          "V": 353.4200134277344,
+          "MA": 531.97998046875
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      }
+    }
   }
 ]
