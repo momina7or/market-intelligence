@@ -7057,5 +7057,311 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-07-24",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search influence demonstrates competitive AI threat, driving GOOGL's AI integration urgency and search monetization evolution.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI-powered results"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to drive organic traffic and content recommendations validates OpenAI partnership value and enterprise AI adoption.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "enterprise AI",
+              "content generation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 317.69000244140625,
+          "MSFT": 381.5799865722656
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "LNG expansion opportunity in Cambodia market as global LNG giants compete for new supply contracts in Southeast Asia.",
+            "key_themes": [
+              "LNG market expansion",
+              "Southeast Asia growth",
+              "energy demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Positioned to supply LNG to Cambodia's new power station amid U.S. priority on energy cooperation in Southeast Asia.",
+            "key_themes": [
+              "LNG export opportunity",
+              "geopolitical positioning",
+              "regional energy demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] mentions U.S., Australia, Canada and some Southeast Asian countries as interested suppliers, but does not specifically name ExxonMobil. The rationale assumes XOM is positioned to supply without direct evidence in the sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Minor exposure to LNG opportunities; Houthi attacks create short-term shipping risk but no direct strategic focus in articles.",
+            "key_themes": [
+              "shipping risk",
+              "geopolitical uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "LNG market opportunity in Cambodia partially offset by increased geopolitical tensions in shipping lanes affecting tanker operations.",
+            "key_themes": [
+              "mixed signals",
+              "regional exposure",
+              "shipping risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 86.2300033569336,
+          "XOM": 156.88999938964844,
+          "COP": 120.19999694824219,
+          "BP": 43.93000030517578
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Peptide market expansion via FDA lifting restrictions on compounded peptides increases addressable market for peptide-based therapeutics.",
+            "key_themes": [
+              "peptide market expansion",
+              "regulatory tailwind",
+              "compounding access"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Trump administration acknowledges No Surprises Act being 'gamed' by doctors, suggesting potential regulatory clampdown impacting surprise billing economics.",
+            "key_themes": [
+              "regulatory risk",
+              "surprise billing vulnerability",
+              "margin pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad pharma company with diversified portfolio; no direct exposure to peptide lifting or surprise billing issues, limited article relevance.",
+            "key_themes": [
+              "neutral positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale correctly identifies lack of direct relevance to articles; neutral stance is appropriately justified",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No specific exposure mentioned in articles; potential minor benefit from peptide market expansion but not a core competency area.",
+            "key_themes": [
+              "limited direct impact"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale correctly identifies limited direct exposure; acknowledges potential minor benefit from peptide expansion which is supported by articles [1, 4]",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1185.8699951171875,
+          "UNH": 423.55999755859375,
+          "JNJ": 259.2699890136719,
+          "PFE": 25.010000228881836
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Geopolitical tensions and tariff inflation create volatility driving advisory and trading revenues",
+            "key_themes": [
+              "geopolitical risk",
+              "inflation hedging",
+              "trading activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rising oil prices and economic uncertainty boost interest rate volatility and client risk management needs",
+            "key_themes": [
+              "commodity volatility",
+              "advisory demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Tariff implementation and geopolitical escalation increase M&A and hedging advisory activity",
+            "key_themes": [
+              "M&A advisory",
+              "risk hedging",
+              "tariff impact"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Market volatility from Iran tensions and tech selloff creates wealth management and advisory opportunities",
+            "key_themes": [
+              "market volatility",
+              "advisory services"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broader economic slowdown risk from tariffs could dampen consumer spending, partially offsetting volatility-driven trading",
+            "key_themes": [
+              "tariff headwind",
+              "macro uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Economic uncertainty from geopolitical tensions and tariffs creates conflicting pressures on payment volume growth",
+            "key_themes": [
+              "macro slowdown",
+              "tariff impact"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 349.8999938964844,
+          "BAC": 61.279998779296875,
+          "GS": 1074.719970703125,
+          "MS": 215.17999267578125,
+          "V": 351.6000061035156,
+          "MA": 530.2899780273438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
