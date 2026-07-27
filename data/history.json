@@ -7363,5 +7363,344 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-07-27",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Smart glasses launch planned for end of 2027 with privacy differentiation against competitors like Meta.",
+            "key_themes": [
+              "smart glasses",
+              "privacy features",
+              "hardware innovation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Smart glasses market competition increasing as Apple enters with privacy-focused positioning.",
+            "key_themes": [
+              "smart glasses competition",
+              "market positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 333.0199890136719,
+          "META": 595.1900024414062
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Japan's $33B U.S. natural gas investment deal supports long-term LNG export demand and U.S. production growth.",
+            "key_themes": [
+              "LNG demand",
+              "U.S. natural gas exports",
+              "Japan trade deal"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Japanese government-backed financing for U.S. natural gas investments directly benefits domestic U.S. producers.",
+            "key_themes": [
+              "U.S. natural gas production",
+              "Japan investment",
+              "long-term contracts"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "U.S.-Iran de-escalation and easing Middle East tensions reduce geopolitical premium supporting oil prices.",
+            "key_themes": [
+              "geopolitical risk reversal",
+              "crude price weakness",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Red Sea disruptions ease as tensions reduce; Brent crude fell to $90/barrel on de-escalation signals.",
+            "key_themes": [
+              "crude price decline",
+              "geopolitical de-escalation",
+              "shipping recovery"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 64,
+            "rationale": "Natural gas price collapse (8.6%) and crude weakness from easing U.S.-Iran tensions pressure downstream margins.",
+            "key_themes": [
+              "natural gas price decline",
+              "energy price weakness",
+              "margin pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Short-term commodity price weakness offset by medium-term benefit from Japan's U.S. natural gas investment commitment.",
+            "key_themes": [
+              "mixed signals",
+              "natural gas upside",
+              "oil price downside"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 156.94000244140625,
+          "COP": 120.26000213623047,
+          "TTE": 86.80000305175781,
+          "BP": 43.81999969482422,
+          "SHEL": 88.37999725341797,
+          "CVX": 194.7899932861328
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "New HIV prevention pill launch with generic manufacturing agreements in Africa/India expands market access and revenue potential",
+            "key_themes": [
+              "HIV prevention",
+              "global market access",
+              "generic partnerships"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Foundayo oral GLP-1 gaining prescription momentum in competitive obesity market with strong launch trajectory data",
+            "key_themes": [
+              "GLP-1 obesity market",
+              "prescription growth",
+              "market share gain"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "IBD treatment gaps survey suggests unmet clinical needs despite existing therapies; potential opportunity but no specific product catalyst",
+            "key_themes": [
+              "IBD market gaps",
+              "treatment durability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Peptide regulatory uncertainty with mixed FDA panel outcomes creates headwinds for compounding pharmacy-dependent pipeline products",
+            "key_themes": [
+              "peptide regulation",
+              "FDA scrutiny",
+              "compounding pharmacy risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Articles [3] and [5] discuss peptide FDA panel concerns and compounding pharmacy regulation, but neither mentions Pfizer as a company involved. The analyst attributes peptide pipeline risk to Pfizer without evidence of Pfizer's actual involvement in these products.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 131.07000732421875,
+          "LLY": 1196.030029296875,
+          "ABBV": 259.3599853515625,
+          "PFE": 24.540000915527344
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Potential Fed rate increase under new chairman Warsh could expand net interest margins for large banks.",
+            "key_themes": [
+              "monetary policy",
+              "interest rates",
+              "net interest margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Fed rate hike scenario benefits regional and large banks through improved lending margins.",
+            "key_themes": [
+              "monetary policy",
+              "interest rates",
+              "profitability"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Investment banking and trading divisions benefit from potential rate increases and market volatility.",
+            "key_themes": [
+              "monetary policy",
+              "market volatility",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article confirms rate increase discussion but does not explicitly discuss investment banking/trading revenue benefits",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rate increase scenario supports wealth management and trading operations; diversified earnings streams.",
+            "key_themes": [
+              "monetary policy",
+              "interest rates",
+              "wealth management"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article confirms rate increase discussion but does not explicitly discuss wealth management or trading operations",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech sector weakness from AI rout may dampen transaction volumes; no direct exposure to rate policy.",
+            "key_themes": [
+              "market sentiment",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; broader market weakness could impact consumer spending and transaction growth.",
+            "key_themes": [
+              "market sentiment",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 353.2099914550781,
+          "BAC": 62.04999923706055,
+          "GS": 1061.22998046875,
+          "MS": 214.47999572753906,
+          "V": 355.739990234375,
+          "MA": 539.6599731445312
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
