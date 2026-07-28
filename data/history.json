@@ -7702,5 +7702,224 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-28",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT displacing traditional SEO creates urgency for Google to monetize AI search and defend search advertising revenue.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "monetization pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT integration demonstrates OpenAI partnership value in capturing AI-driven content discovery and search traffic monetization.",
+            "key_themes": [
+              "ChatGPT dominance",
+              "AI search integration",
+              "organic traffic capture"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "AI-generated content and deepfake abuse (Article 4) signal regulatory risk and platform safety challenges requiring costly moderation investments.",
+            "key_themes": [
+              "AI abuse",
+              "regulatory risk",
+              "content moderation costs"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article 4 discusses Hugging Face (third-party platform), not Meta. While deepfake abuse is documented, attributing this as a Meta-specific regulatory/moderation risk is unsupported by the source material.",
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 326.55999755859375,
+          "MSFT": 389.1000061035156,
+          "META": 593.8699951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "bearish",
+        "reliability": "unknown"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "New HIV prevention pill with generic manufacturing agreements in Africa/India expands addressable market and access, driving long-term revenue growth",
+            "key_themes": [
+              "HIV prevention",
+              "global access strategy",
+              "emerging markets",
+              "pipeline expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct mention in articles; sector-wide HIV prevention momentum may present partnership or M&A opportunities but lacks concrete catalysts",
+            "key_themes": [
+              "HIV market dynamics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges no direct mention in articles. While sector momentum exists (articles 3-4), no concrete Pfizer catalysts, partnerships, or M&A opportunities are mentioned. Signal is speculative without source grounding.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Geriatric ED units reduce hospitalizations and healthcare costs, aligning with UNH's cost-containment strategy and care model optimization",
+            "key_themes": [
+              "geriatric care",
+              "cost reduction",
+              "hospital avoidance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 130.75999450683594,
+          "PFE": 24.670000076293945,
+          "UNH": 417.6400146484375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Crypto enforcement scrutiny (Binance case) may increase compliance costs; offset by AI volatility creating trading opportunities.",
+            "key_themes": [
+              "cryptocurrency regulation",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tech sector AI sell-off creates short-term M&A and advisory opportunities; longer-term impact depends on market stabilization.",
+            "key_themes": [
+              "market volatility",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 43,
+            "rationale": "AI-driven market volatility presents trading and wealth management opportunities for institutional clients.",
+            "key_themes": [
+              "market volatility",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 52,
+            "rationale": "Broad market decline and crypto regulation could reduce transaction volumes in near term, though long-term fundamentals remain solid.",
+            "key_themes": [
+              "market downturn",
+              "crypto regulation"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims crypto regulation will reduce transaction volumes, but source only states Binance makes crime-fighting harder\u2014no connection to Visa transaction volumes. Broad market decline is mentioned (Article 4) but crypto regulation's impact on payment processors is not discussed in sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 50,
+            "rationale": "Market downturn and crypto enforcement may depress transaction activity; payment processor exposed to broader equity rout.",
+            "key_themes": [
+              "market downturn",
+              "transaction volume pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims crypto enforcement may depress transaction activity for payment processors, but sources do not establish this causal link. Article 2 discusses Binance and crime-fighting; Article 4 discusses AI stock selloff\u2014neither connects crypto regulation to Mastercard transaction volumes.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 356.20001220703125,
+          "GS": 1048.22998046875,
+          "MS": 214.55999755859375,
+          "V": 362.5299987792969,
+          "MA": 551.7100219726562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
