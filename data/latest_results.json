@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-07-28",
-  "run_time": "2026-07-28T09:35:19.828113Z",
+  "run_date": "2026-07-30",
+  "run_time": "2026-07-30T09:29:48.917323Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,102 +29,37 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Hugging Face is being used to easily undress women and children",
-          "summary": "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+          "title": "Microsoft confirms Copilot \u2018super app\u2019 coming this year",
+          "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, [&#8230;]",
+          "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
           "source": "Theverge",
-          "published": "28 Jul 2026",
+          "published": "29 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "X Money is launching in the US starting today",
-          "summary": "X Money, a core part of Elon Musk's mission to turn X into an \"everything app,\" is rolling out starting today, 9to5Mac reports. The payment platform offers a digital wallet and peer-to-peer payments similar to Venmo, along with a metal Visa card users can emblazon with their X username. Other perks include Apple Wallet support [&#8230;]",
-          "url": "https://www.theverge.com/tech/971649/x-money-launch-elon-musk",
+          "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+          "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do [&#8230;]",
+          "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
           "source": "Theverge",
-          "published": "27 Jul 2026",
-          "sentiment_hint": "bearish"
+          "published": "29 Jul 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Razer\u2019s analog Huntsman V3 Pro is over 20 percent off",
-          "summary": "Gaming keyboards have evolved over the years to add RGB LEDs, extra knobs, and buttons with screens, but one feature has remained fairly consistent: the mechanical switch. That\u2019s slowly changing, with brands introducing adjustable optical switches that are more customizable and have a faster response time. Razer\u2019s Huntsman V3 Pro TKL is a compact, wired [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale",
+          "title": "Qualcomm is raising phone chip prices starting September 1st",
+          "summary": "RAMageddon won't be the only reason your next phone costs more - Qualcomm is about to raise prices on all its processors, as well. Qualcomm CEO Cristiano Amon said on Wednesday that \"prices are going to go up\" on the company's products starting on September 1st, CNBC reports. The price hikes were rumored last week [&#8230;]",
+          "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
           "source": "Theverge",
-          "published": "27 Jul 2026",
+          "published": "29 Jul 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT displacing traditional SEO creates urgency for Google to monetize AI search and defend search advertising revenue.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "monetization pressure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT integration demonstrates OpenAI partnership value in capturing AI-driven content discovery and search traffic monetization.",
-            "key_themes": [
-              "ChatGPT dominance",
-              "AI search integration",
-              "organic traffic capture"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "AI-generated content and deepfake abuse (Article 4) signal regulatory risk and platform safety challenges requiring costly moderation investments.",
-            "key_themes": [
-              "AI abuse",
-              "regulatory risk",
-              "content moderation costs"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article 4 discusses Hugging Face (third-party platform), not Meta. While deepfake abuse is documented, attributing this as a Meta-specific regulatory/moderation risk is unsupported by the source material.",
-            "supporting_article": 4
-          }
-        ],
-        "summary": "The articles reveal a pivotal shift in digital discovery: AI tools like ChatGPT are displacing traditional SEO and organic search, creating significant competitive pressure on Google's core search business while benefiting Microsoft's OpenAI partnership. However, emerging concerns around AI-generated deepfakes and non-consensual content present regulatory and reputational risks for platforms hosting generative AI models, particularly Meta and open-source repositories. The broader AI infrastructure market remains constructive, but the battle for AI-driven search monetization and platform governance will define tech valuations in 2025-2026.",
-        "risks": [
-          "Regulatory crackdown on generative AI misuse and deepfake creation could increase compliance costs across sector",
-          "Accelerating shift from search advertising to AI-driven discovery threatens Google's primary revenue model",
-          "Deepfake and non-consensual content liability exposure may force platforms to restrict model access or implement costly safeguards"
-        ],
-        "sector_sentiment": "neutral",
-        "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "META rationale incorrectly conflates Hugging Face abuse with Meta platform challenges\u2014no source article links deepfake/abuse issues to Meta specifically",
-            "Article 4 criticizes Hugging Face's moderation practices, not Meta's, making the bearish Meta conviction appear to be based on a misattribution"
-          ],
-          "ungrounded_count": 1
-        }
+        "signals": [],
+        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"MSFT\",\n      \"company\": \"Microsoft Corporation\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 82,\n      \"rationale\": \"Copilot super app launching this year spanning consumer and commercial; evolution from chat to agentic capabilities\",\n      \"key_themes\": [\"AI agents\", \"Copilot expansion\", \"consumer and enterprise\"],\n      \"time_horizon\": \"short-term\"\n    },\n    {\n      \"ticker\": \"META\",\n      \"company\": \"Meta Platforms Inc.\",\n      \"sentiment\": \"bull",
+        "risks": [],
+        "sector_sentiment": "neutral"
       },
-      "prices_snapshot": {
-        "GOOGL": 326.55999755859375,
-        "MSFT": 389.1000061035156,
-        "META": 593.8699951171875
-      },
+      "prices_snapshot": {},
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
         "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
@@ -132,29 +67,10 @@
         "source": "Feedburner",
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
-        "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "ChatGPT displacing traditional SEO creates urgency for Google to monetize AI search and defend search advertising revenue.",
-          "key_themes": [
-            "AI search competition",
-            "organic traffic disruption",
-            "monetization pressure"
-          ],
-          "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 1
-        },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT displacing traditional SEO creates urgency for Google to monetize AI search and defend search advertising revenue.",
-        "haiku_themes": [
-          "AI search competition",
-          "organic traffic disruption",
-          "monetization pressure"
-        ]
+        "related_signal": null,
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "",
+        "haiku_themes": []
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -173,53 +89,153 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Meridian Energy gets green light for New Zealand\u2019s 110MW Morrinsville Solar Farm",
-          "summary": "Meridian Energy has received consent to construct the 110MW Morrinsville Solar Farm in the Waikato region of New Zealand\u2019s North Island.",
-          "url": "https://www.energymonitor.ai/news/meridian-green-light-morrinsville-farm/",
-          "source": "Energymonitor",
-          "published": "27 Jul 2026",
+          "title": "Shell Reports $9.8 Billion in Adjusted Earnings as Energy Prices Surge",
+          "summary": "Shell (SHEL:NYSE) more than doubled its second-quarter earnings from a year earlier, as higher oil and gas prices, record refinery utilization, and strong trading boosted profits to above analyst expectations. Shell on Thursday reported adjusted earnings of $9.84 billion for the second quarter, more than double the $4.26 billion for the same period last year, and smashing analyst estimates of $8.8-$8.9 billion. The higher adjusted earnings reflected a jump in realized oil and gas prices, higher ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Reports-98-Billion-in-Adjusted-Earnings-as-Energy-Prices-Surge.html",
+          "source": "Oilprice",
+          "published": "30 Jul 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Qatar Sends First LNG Cargo Through Hormuz Since Tanker Attack",
+          "summary": "QatarEnergy has successfully sent an LNG cargo via the Strait of Hormuz, three weeks after one of its LNG carriers was struck in the waterway, Bloomberg has reported, noting that the vessel had idled in the strait since early July but crossed it with its geolocation devices turned on. According to ship-tracking data cited by Bloomberg, the tanker is bound for Pakistan. The South Asian nation is a major buyer of Qatari liquefied gas, but the war between the United States, Israel, and Iran has squ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Sends-First-LNG-Cargo-Through-Hormuz-Since-Tanker-Attack.html",
+          "source": "Oilprice",
+          "published": "30 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "CS PowerTech opens first phase of solar cell facility in Indiana, US",
-          "summary": "CS PowerTech has opened the first phase of its PV cell manufacturing plant at the River Ridge Commerce Center in Jeffersonville, Indiana.",
-          "url": "https://www.energymonitor.ai/news/cs-powertech-opens-solar-facility/",
-          "source": "Energymonitor",
-          "published": "27 Jul 2026",
+          "title": "Japan Buys Rare Canadian Oil Cargo",
+          "summary": "Japan\u2019s biggest refiner, Eneos, has bought a rare cargo of Canadian crude as the country seeks to diversify away from Middle Eastern crude. This is the first Canadian oil shipment bought by a Japanese company since 2025, Reuters noted in a report, citing ship-tracking data from Kpler and LSEG. According to that data, the cargo was loaded on an Aframax tanker, which has a capacity of 750,000 barrels. The seller is Exxon. \u201cJapan's renewed purchases of TMX crude highlight Canada's growing role in A",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Buys-Rare-Canadian-Oil-Cargo.html",
+          "source": "Oilprice",
+          "published": "30 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Adapting European energy grids for air conditioning expansion",
-          "summary": "As heatwaves become more frequent and severe in Europe, demand for air conditioning in the region is accelerating.",
-          "url": "https://www.energymonitor.ai/analyst-comment/european-energy-grids-air-conditioning-expansion/",
+          "title": "Biopower\u2019s next decade hinges on what it displaces, not what it builds",
+          "summary": "Global biopower capacity is still rising, but new construction is slowing and capital is becoming more selective.",
+          "url": "https://www.energymonitor.ai/analysis/biopower-market-displace-fuel/",
           "source": "Energymonitor",
-          "published": "24 Jul 2026",
+          "published": "30 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Uniper chooses SLB Capturi for UK gas power project",
+          "summary": "Uniper appointed SLB Capturi as the preferred technology licensor for carbon capture at its proposed Connah\u2019s Quay Low Carbon Power project.",
+          "url": "https://www.energymonitor.ai/news/uniper-chooses-slb-capturi/",
+          "source": "Energymonitor",
+          "published": "29 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Hitachi Energy, L&T secure new grid deals with TenneT",
+          "summary": "Hitachi Energy and L&amp;T have been awarded contracts by TenneT to deliver two new HVDC grid connections, Nederwiek3 and LanWin5.",
+          "url": "https://www.energymonitor.ai/news/hitachi-energy-lt-secure-grid-deals/",
+          "source": "Energymonitor",
+          "published": "29 Jul 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "The three articles focus on renewable energy expansion (solar farms and manufacturing) and grid adaptation for cooling demand in Europe, representing secular shifts toward clean energy and electrification. These developments are structurally negative for traditional oil and gas majors, as they accelerate energy transition away from fossil fuels. No traditional petroleum companies are meaningfully mentioned or positively impacted by these news items.",
-        "risks": [
-          "Oil majors' energy transition strategies may be underestimated by markets",
-          "Renewable cost curves continue to improve, accelerating displacement of hydrocarbons",
-          "Geopolitical events could temporarily support fossil fuel demand and valuations",
-          "Grid infrastructure investment may face financing constraints in some regions"
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 85,
+            "rationale": "Q2 adjusted earnings of $9.84B doubled YoY, significantly exceeding analyst expectations driven by higher oil/gas prices and record refinery utilization.",
+            "key_themes": [
+              "strong earnings beat",
+              "price tailwinds",
+              "refinery strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Successfully selling Canadian crude to Japan signals strong market demand and diversification opportunities for its Canadian operations.",
+            "key_themes": [
+              "demand strength",
+              "geographic diversification",
+              "trading activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Selected by Uniper for carbon capture technology at UK gas power project, demonstrating growing demand for energy transition solutions.",
+            "key_themes": [
+              "energy transition",
+              "carbon capture",
+              "technology deployment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
         ],
-        "sector_sentiment": "bearish"
+        "summary": "The petroleum & energy sector shows broad bullish momentum driven by sustained high commodity prices (Shell's record earnings) and geopolitical supply diversification (Japan seeking non-Middle Eastern crude). Energy transition themes are emerging with carbon capture technology deployment gaining traction. However, regional tensions and supply chain vulnerabilities remain evident from LNG corridor disruptions.",
+        "risks": [
+          "Geopolitical escalation in Middle East threatening energy supply corridors",
+          "Commodity price volatility reversals",
+          "Energy transition pace uncertainty affecting traditional oil/gas demand"
+        ],
+        "sector_sentiment": "bullish",
+        "verification": {
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "SHEL": 88.33999633789062,
+        "XOM": 156.75,
+        "SLB": 48.959999084472656
+      },
       "spot_check": {
-        "title": "Meridian Energy gets green light for New Zealand\u2019s 110MW Morrinsville Solar Farm",
-        "summary": "Meridian Energy has received consent to construct the 110MW Morrinsville Solar Farm in the Waikato region of New Zealand\u2019s North Island.",
-        "url": "https://www.energymonitor.ai/news/meridian-green-light-morrinsville-farm/",
-        "source": "Energymonitor",
-        "published": "27 Jul 2026",
-        "sentiment_hint": "neutral",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "title": "Shell Reports $9.8 Billion in Adjusted Earnings as Energy Prices Surge",
+        "summary": "Shell (SHEL:NYSE) more than doubled its second-quarter earnings from a year earlier, as higher oil and gas prices, record refinery utilization, and strong trading boosted profits to above analyst expectations. Shell on Thursday reported adjusted earnings of $9.84 billion for the second quarter, more than double the $4.26 billion for the same period last year, and smashing analyst estimates of $8.8-$8.9 billion. The higher adjusted earnings reflected a jump in realized oil and gas prices, higher ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Reports-98-Billion-in-Adjusted-Earnings-as-Energy-Prices-Surge.html",
+        "source": "Oilprice",
+        "published": "30 Jul 2026",
+        "sentiment_hint": "bullish",
+        "related_signal": {
+          "ticker": "SHEL",
+          "company": "Shell",
+          "sentiment": "bullish",
+          "conviction": 85,
+          "rationale": "Q2 adjusted earnings of $9.84B doubled YoY, significantly exceeding analyst expectations driven by higher oil/gas prices and record refinery utilization.",
+          "key_themes": [
+            "strong earnings beat",
+            "price tailwinds",
+            "refinery strength"
+          ],
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Q2 adjusted earnings of $9.84B doubled YoY, significantly exceeding analyst expectations driven by higher oil/gas prices and record refinery utilization.",
+        "haiku_themes": [
+          "strong earnings beat",
+          "price tailwinds",
+          "refinery strength"
+        ]
       },
       "config": {
         "icon": "\u26fd",
@@ -238,6 +254,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Fauci Pleads the Fifth, Refusing to Answer Questions on Covid Origins at Senate Hearing",
+          "summary": "Senator Rand Paul said the committee he leads would vote next week on whether to hold Dr. Fauci in contempt of Congress.",
+          "url": "https://www.nytimes.com/2026/07/29/us/politics/fauci-testifies-rand-paul.html",
+          "source": "Rss",
+          "published": "30 Jul 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "There\u2019s a Way to Prevent Ovarian Cancer. Few Know About It.",
           "summary": "The vast majority of cases begin in the fallopian tubes \u2014 and removing them can reduce the risk by nearly 80 percent.",
           "url": "https://www.nytimes.com/2026/07/28/health/ovarian-cancer-fallopian-tubes.html",
@@ -246,41 +270,33 @@
           "sentiment_hint": "bearish"
         },
         {
-          "title": "What Geriatric Emergency Departments Do Differently",
-          "summary": "These specialized units can help keep older patients out of the hospital, lower their health care costs and more.",
-          "url": "https://www.nytimes.com/2026/07/25/well/geriatric-emergency-departments.html",
+          "title": "Trump Will End Subsidies for Medicare Drug Premiums",
+          "summary": "Millions of older Americans could pay more for their prescription drug coverage next year.",
+          "url": "https://www.nytimes.com/2026/07/28/business/medicare-drug-subsidies-part-d.html",
           "source": "Rss",
-          "published": "25 Jul 2026",
+          "published": "29 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "With Hopes High for New H.I.V. Prevention Pill, Merck Takes Steps to Ensure Access",
-          "summary": "Companies in Africa and India will make generic versions of the pill that could cost as little as $5 per person per year. But access to the drug and other new products in much of Latin America remains uncertain.",
-          "url": "https://www.nytimes.com/2026/07/24/us/politics/merck-hiv-pill.html",
-          "source": "Rss",
-          "published": "24 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/gilead-brings-late-night-convos-destigmatization-speed-date-hiv-prevention-campaign\" hreflang=\"en\">Gilead uses humor, relatability in \u2018Up to Date\u2019 HIV prevention push</a>",
-          "summary": "Gilead's \"Up to Date\" campaign features comedians Nicole Byer and Devon Walker and looks to destigmatize HIV conversations in the Black community, which has historically been dispropriationally impacted by HIV.",
-          "url": "https://www.fiercepharma.com/marketing/gilead-brings-late-night-convos-destigmatization-speed-date-hiv-prevention-campaign",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: AbbVie scores 1st Rinvoq alopecia nod in EU</a>",
+          "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
+          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fda-approves-otsuka-adhd-drug-simtriyo-teeing-its-next-major-cns-launch\" hreflang=\"en\">FDA approves Otsuka\u2019s ADHD drug Simtriyo, teeing up its \u2018next major CNS launch\u2019</a>",
-          "summary": "Approval of the first-in-class norepinephrine, dopamine, serotonin reuptake inhibitor (NDSRI) gives the Japanese drugmaker its \u201cnext major CNS launch\u201d and positions the therapy to become a potential blockbuster in a large, under-penetrated market, Jefferies analysts said.",
-          "url": "https://www.fiercepharma.com/pharma/fda-approves-otsuka-adhd-drug-simtriyo-teeing-its-next-major-cns-launch",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/biogen-flips-its-26-guidance-expected-decline-increase\" hreflang=\"en\">Biogen flips '26 guidance from expected decline to sales increase</a>",
+          "summary": "With increased sales of its newer drugs compensating for declining revenues from its multiple sclerosis portfolio, Biogen finally is positioned once again for a \u201cgrowth story,\u201d CEO Chris Viehbacher said Wednesday during the company\u2019s second quarter earnings call. The company has flipped its 2026 revenue guidance from an expected mid-single digit decline in 2026 to a mid-single digit increase.",
+          "url": "https://www.fiercepharma.com/pharma/biogen-flips-its-26-guidance-expected-decline-increase",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/4th-try-outlook-scores-fda-nod-reformulated-version-roches-avastin-amd\" hreflang=\"en\"> On 4th try, Outlook scores FDA nod for reformulated version of Roche's Avastin for AMD</a>",
-          "summary": "Roche\u2019s cancer treatment Avastin has long been employed as an off-label option for wet age-related macular degeneration patients. Now the FDA has endorsed a new formulation of the VEGF inhibitor for regulated use in the U.S. Bringing it to the market is Outlook Therapeutics, which labored through three FDA rejections to finally secure a nod. It will be known commercially as Lytenava.",
-          "url": "https://www.fiercepharma.com/pharma/4th-try-outlook-scores-fda-nod-reformulated-version-roches-avastin-amd",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/boosted-cms-settlement-incyte-expects-opzelura-cross-1b-2026\" hreflang=\"en\">Boosted by CMS settlement, Incyte expects Opzelura to cross $1B in 2026</a>",
+          "summary": "A favorable regulatory resolution with federal health authorities is clearing the way for Incyte\u2019s Opzelura cream to reach blockbuster land ahead of schedule.",
+          "url": "https://www.fiercepharma.com/pharma/boosted-cms-settlement-incyte-expects-opzelura-cross-1b-2026",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -289,18 +305,33 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
             "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "New HIV prevention pill with generic manufacturing agreements in Africa/India expands addressable market and access, driving long-term revenue growth",
+            "conviction": 72,
+            "rationale": "EU approval of Rinvoq for alopecia expands addressable market and revenue potential for key immunology asset.",
             "key_themes": [
-              "HIV prevention",
-              "global access strategy",
-              "emerging markets",
-              "pipeline expansion"
+              "regulatory approval",
+              "geographic expansion",
+              "new indication"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Removal of Medicare drug premium subsidies pressures insurer margins and increases member cost-sharing burden.",
+            "key_themes": [
+              "policy headwind",
+              "margin pressure",
+              "Medicare exposure"
+            ],
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 3
@@ -308,86 +339,135 @@
           {
             "ticker": "PFE",
             "company": "Pfizer Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct mention in articles; sector-wide HIV prevention momentum may present partnership or M&A opportunities but lacks concrete catalysts",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Elimination of Medicare premium subsidies reduces drug affordability and demand, pressuring pharmaceutical pricing power.",
             "key_themes": [
-              "HIV market dynamics"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale acknowledges no direct mention in articles. While sector momentum exists (articles 3-4), no concrete Pfizer catalysts, partnerships, or M&A opportunities are mentioned. Signal is speculative without source grounding.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Geriatric ED units reduce hospitalizations and healthcare costs, aligning with UNH's cost-containment strategy and care model optimization",
-            "key_themes": [
-              "geriatric care",
-              "cost reduction",
-              "hospital avoidance"
+              "policy headwind",
+              "pricing pressure",
+              "demand risk"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
+            "sentiment": "bearish",
+            "conviction": 64,
+            "rationale": "Loss of Medicare subsidies creates affordability barriers for prescription medications, affecting demand trajectory.",
+            "key_themes": [
+              "policy headwind",
+              "access constraints",
+              "demand headwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 63,
+            "rationale": "Reduced Medicare drug premium subsidies may dampen demand for prescription drugs across therapeutic areas.",
+            "key_themes": [
+              "policy headwind",
+              "market access",
+              "pricing pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diversified pharma/medical device company with less direct exposure to Medicare drug subsidy changes than pure-play pharma.",
+            "key_themes": [
+              "policy headwind",
+              "diversified exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Life sciences tools/services company not directly impacted by pharmaceutical pricing or Medicare subsidy policy changes.",
+            "key_themes": [
+              "policy neutral"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No source article discusses Thermo Fisher Scientific or life sciences tools/services companies in relation to Medicare subsidy policy",
+            "supporting_article": null
           }
         ],
-        "summary": "Healthcare sector shows targeted bullish signals driven by HIV prevention innovation (Merck's generic access strategy) and aged-care efficiency improvements benefiting payers like UnitedHealth. Pipeline approvals in specialized areas (ADHD, AMD) indicate continued therapeutic innovation, though broader competitive dynamics remain in play. Access equity and emerging market opportunities represent key growth vectors for established players.",
+        "summary": "Healthcare sector faces mixed signals: AbbVie gains from regulatory expansion in immunology, but broader pharma and insurer exposure to Medicare policy headwinds dominates outlook. Elimination of drug premium subsidies creates significant near-term pricing and demand pressures across the sector, with insurers particularly vulnerable to margin compression.",
         "risks": [
-          "Generic drug pricing pressure in emerging markets may compress margins for HIV prevention franchise",
-          "Geriatric care model adoption faces reimbursement and regulatory hurdles",
-          "Competition from Gilead and other HIV prevention platforms could fragment market share",
-          "Pricing accessibility challenges in Latin America may limit Merck's geographic expansion"
+          "Political reversal or legal challenge to subsidy elimination policy",
+          "Ovarian cancer prevention uptake could drive unexpected demand shifts",
+          "Regulatory setbacks in other drug approvals could offset ABBV gains",
+          "Reimbursement pressure could accelerate if CMS tightens payment rates"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "PFE signal lacks concrete article support - rationale itself admits 'no direct mention' and relies on speculative sector dynamics rather than company-specific catalysts"
+            "TMO signal lacks source support - analyst made comparative claim about life sciences tools company exposure that is not grounded in provided articles"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "MRK": 130.75999450683594,
-        "PFE": 24.670000076293945,
-        "UNH": 417.6400146484375
+        "ABBV": 263.29998779296875,
+        "UNH": 420.57000732421875,
+        "PFE": 25.149999618530273,
+        "LLY": 1210.02001953125,
+        "MRK": 130.36000061035156,
+        "JNJ": 265.5299987792969,
+        "TMO": 576.4600219726562
       },
       "spot_check": {
-        "title": "There\u2019s a Way to Prevent Ovarian Cancer. Few Know About It.",
-        "summary": "The vast majority of cases begin in the fallopian tubes \u2014 and removing them can reduce the risk by nearly 80 percent.",
-        "url": "https://www.nytimes.com/2026/07/28/health/ovarian-cancer-fallopian-tubes.html",
-        "source": "Rss",
-        "published": "28 Jul 2026",
-        "sentiment_hint": "bearish",
+        "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: AbbVie scores 1st Rinvoq alopecia nod in EU</a>",
+        "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
+        "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
+        "source": "Fiercepharma",
+        "published": "",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "MRK",
-          "company": "Merck & Co.",
+          "ticker": "ABBV",
+          "company": "AbbVie Inc.",
           "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "New HIV prevention pill with generic manufacturing agreements in Africa/India expands addressable market and access, driving long-term revenue growth",
+          "conviction": 72,
+          "rationale": "EU approval of Rinvoq for alopecia expands addressable market and revenue potential for key immunology asset.",
           "key_themes": [
-            "HIV prevention",
-            "global access strategy",
-            "emerging markets",
-            "pipeline expansion"
+            "regulatory approval",
+            "geographic expansion",
+            "new indication"
           ],
-          "time_horizon": "long-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "New HIV prevention pill with generic manufacturing agreements in Africa/India expands addressable market and access, driving long-term revenue growth",
+        "haiku_rationale": "EU approval of Rinvoq for alopecia expands addressable market and revenue potential for key immunology asset.",
         "haiku_themes": [
-          "HIV prevention",
-          "global access strategy",
-          "emerging markets",
-          "pipeline expansion"
+          "regulatory approval",
+          "geographic expansion",
+          "new indication"
         ]
       },
       "config": {
@@ -407,28 +487,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Public Control or \u201820th-Century Socialism\u2019? U.K. Debates a Different Way.",
-          "summary": "The new prime minister, Andy Burnham, faulted Margaret Thatcher\u2019s privatization in the 1980s. He wants an alternative economic model, especially to run utilities.",
-          "url": "https://www.nytimes.com/2026/07/28/business/andy-burnham-uk.html",
+          "title": "Warsh\u2019s Performance Falls Flat With Markets as Fed Holds Rates Steady",
+          "summary": "Kevin M. Warsh has made taming inflation the top priority of his tenure as Federal Reserve chairman. But his hesitancy to embrace the possibility of higher borrowing costs has sparked a backlash.",
+          "url": "https://www.nytimes.com/2026/07/30/business/warshs-performance-falls-flat-with-markets-as-fed-holds-rates-steady.html",
           "source": "Rss",
-          "published": "28 Jul 2026",
+          "published": "30 Jul 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Apple\u2019s Siri Got an A.I. Brain Transplant. Try These 5 Prompts to Get Acclimated.",
+          "summary": "An upgrade transformed the beleaguered virtual assistant into a modern chatbot. It\u2019s imperfect but worth trying.",
+          "url": "https://www.nytimes.com/2026/07/30/technology/personaltech/apple-siri-ai-prompts.html",
+          "source": "Rss",
+          "published": "30 Jul 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Police Say Binance Is Making It Harder to Fight Crime",
-          "summary": "Investigators in Europe said that the cryptocurrency giant Binance had made it more difficult to track down scammers and solve other crimes.",
-          "url": "https://www.nytimes.com/2026/07/28/us/binance-crypto-crime.html",
+          "title": "After Obamacare Cuts, Hospitals Are Treating More Uninsured Patients",
+          "summary": "More people who lost coverage after congressional Republicans ended enhanced federal subsidies are now seeking care in emergency rooms and unable to pay bills.",
+          "url": "https://www.nytimes.com/2026/07/30/business/aca-obamacare-health-insurance.html",
           "source": "Rss",
-          "published": "28 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Faith and Kenny Lattimore Chose a Rare Move: Fighting Defamation on YouTube",
-          "summary": "Faith Jenkins Lattimore and Kenny Lattimore took the rare step of battling defamation on YouTube. Even with money and legal experience, they struggled to make progress.",
-          "url": "https://www.nytimes.com/2026/07/28/business/media/faith-jenkins-kenny-lattimore-youtube.html",
-          "source": "Rss",
-          "published": "28 Jul 2026",
-          "sentiment_hint": "neutral"
+          "published": "30 Jul 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -462,28 +542,46 @@
             "company": "JPMorgan Chase",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Crypto enforcement scrutiny (Binance case) may increase compliance costs; offset by AI volatility creating trading opportunities.",
+            "rationale": "Fed holding rates steady limits near-term NII expansion; inflation focus creates uncertainty for rate trajectory.",
             "key_themes": [
-              "cryptocurrency regulation",
-              "market volatility"
+              "monetary policy",
+              "interest rate outlook",
+              "inflation management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Fed's hesitancy on rate increases pressures net interest margins; hospital payment defaults may increase credit stress.",
+            "key_themes": [
+              "NII pressure",
+              "credit risk",
+              "healthcare sector exposure"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              2,
-              4
+              1,
+              3
             ]
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
             "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Tech sector AI sell-off creates short-term M&A and advisory opportunities; longer-term impact depends on market stabilization.",
+            "conviction": 48,
+            "rationale": "Broad market volatility from AI sector rout creates trading opportunities but increases market uncertainty.",
             "key_themes": [
               "market volatility",
-              "advisory fees"
+              "trading activity",
+              "tech sector exposure"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -494,11 +592,12 @@
             "ticker": "MS",
             "company": "Morgan Stanley",
             "sentiment": "neutral",
-            "conviction": 43,
-            "rationale": "AI-driven market volatility presents trading and wealth management opportunities for institutional clients.",
+            "conviction": 47,
+            "rationale": "AI sell-off and wealth management client asset volatility create headwinds; Fed stance limits rate-driven revenue.",
             "key_themes": [
               "market volatility",
-              "trading revenue"
+              "wealth management",
+              "tech exposure"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -509,83 +608,89 @@
             "ticker": "V",
             "company": "Visa",
             "sentiment": "bearish",
-            "conviction": 52,
-            "rationale": "Broad market decline and crypto regulation could reduce transaction volumes in near term, though long-term fundamentals remain solid.",
+            "conviction": 62,
+            "rationale": "Rising uninsured patient population and healthcare payment defaults reduce consumer spending and transaction volume.",
             "key_themes": [
-              "market downturn",
-              "crypto regulation"
+              "consumer spending",
+              "healthcare coverage loss",
+              "payment volume risk"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale claims crypto regulation will reduce transaction volumes, but source only states Binance makes crime-fighting harder\u2014no connection to Visa transaction volumes. Broad market decline is mentioned (Article 4) but crypto regulation's impact on payment processors is not discussed in sources.",
+            "verification_issue": "Article 3 mentions uninsured patients and payment defaults in healthcare, but does not establish a causal link between this trend and reduced consumer spending or Visa transaction volume. The leap from hospital payment defaults to consumer payment card usage is not supported by the source material.",
             "supporting_article": null
           },
           {
             "ticker": "MA",
             "company": "Mastercard",
             "sentiment": "bearish",
-            "conviction": 50,
-            "rationale": "Market downturn and crypto enforcement may depress transaction activity; payment processor exposed to broader equity rout.",
+            "conviction": 60,
+            "rationale": "Uninsured population growth and emergency room payment defaults threaten transaction growth and consumer purchasing power.",
             "key_themes": [
-              "market downturn",
-              "transaction volume pressure"
+              "consumer spending weakness",
+              "healthcare coverage loss",
+              "transaction volume"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale claims crypto enforcement may depress transaction activity for payment processors, but sources do not establish this causal link. Article 2 discusses Binance and crime-fighting; Article 4 discusses AI stock selloff\u2014neither connects crypto regulation to Mastercard transaction volumes.",
+            "verification_issue": "Article 3 mentions uninsured patients and payment defaults in healthcare, but does not establish a causal link between this trend and reduced consumer spending or Mastercard transaction volume. The leap from hospital payment defaults to consumer payment card usage is not supported by the source material.",
             "supporting_article": null
           }
         ],
-        "summary": "Financial stocks show mixed signals amid AI-sector volatility and increased crypto regulation. Payment processors (V, MA) face near-term headwinds from market weakness and crypto enforcement scrutiny, while investment banks (JPM, GS, MS) may benefit from advisory and trading opportunities, though overall market uncertainty creates neutral positioning across the sector.",
+        "summary": "Financial services face headwinds from Fed rate-hold policy limiting NII expansion and broad market volatility from the AI sector correction. Payment processors face emerging consumer weakness from healthcare coverage losses, while banks navigate credit stress from uninsured populations. The sector shows near-term caution with medium-term structural concerns about consumer spending capacity.",
         "risks": [
-          "AI sell-off contagion spreading beyond tech",
-          "crypto regulation escalation reducing transaction volumes",
-          "market volatility persisting longer than expected"
+          "Fed rate trajectory uncertainty",
+          "AI sector contagion to broader markets",
+          "consumer credit deterioration from healthcare coverage loss",
+          "geopolitical tech competition (DeepSeek)"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Visa and Mastercard signals make unsupported inferences about how crypto regulation impacts payment processor transaction volumes",
-            "No source article discusses the relationship between Binance enforcement actions and payment card transaction activity"
+            "V and MA bearish signals assume healthcare payment defaults directly reduce payment card transaction volume, but this causal mechanism is not established in the source articles.",
+            "The rationale for V and MA conflates healthcare payment defaults (inability to pay hospital bills) with general consumer spending weakness, which is not supported by the source material."
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 356.20001220703125,
-        "GS": 1048.22998046875,
-        "MS": 214.55999755859375,
-        "V": 362.5299987792969,
-        "MA": 551.7100219726562
+        "JPM": 344.7099914550781,
+        "BAC": 61.06999969482422,
+        "GS": 980.75,
+        "MS": 203.1300048828125,
+        "V": 368.7300109863281,
+        "MA": 563.3200073242188
       },
       "spot_check": {
-        "title": "Public Control or \u201820th-Century Socialism\u2019? U.K. Debates a Different Way.",
-        "summary": "The new prime minister, Andy Burnham, faulted Margaret Thatcher\u2019s privatization in the 1980s. He wants an alternative economic model, especially to run utilities.",
-        "url": "https://www.nytimes.com/2026/07/28/business/andy-burnham-uk.html",
+        "title": "Warsh\u2019s Performance Falls Flat With Markets as Fed Holds Rates Steady",
+        "summary": "Kevin M. Warsh has made taming inflation the top priority of his tenure as Federal Reserve chairman. But his hesitancy to embrace the possibility of higher borrowing costs has sparked a backlash.",
+        "url": "https://www.nytimes.com/2026/07/30/business/warshs-performance-falls-flat-with-markets-as-fed-holds-rates-steady.html",
         "source": "Rss",
-        "published": "28 Jul 2026",
-        "sentiment_hint": "neutral",
+        "published": "30 Jul 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
           "ticker": "V",
           "company": "Visa",
           "sentiment": "bearish",
-          "conviction": 52,
-          "rationale": "Broad market decline and crypto regulation could reduce transaction volumes in near term, though long-term fundamentals remain solid.",
+          "conviction": 62,
+          "rationale": "Rising uninsured patient population and healthcare payment defaults reduce consumer spending and transaction volume.",
           "key_themes": [
-            "market downturn",
-            "crypto regulation"
+            "consumer spending",
+            "healthcare coverage loss",
+            "payment volume risk"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": false,
-          "verification_issue": "Rationale claims crypto regulation will reduce transaction volumes, but source only states Binance makes crime-fighting harder\u2014no connection to Visa transaction volumes. Broad market decline is mentioned (Article 4) but crypto regulation's impact on payment processors is not discussed in sources.",
+          "verification_issue": "Article 3 mentions uninsured patients and payment defaults in healthcare, but does not establish a causal link between this trend and reduced consumer spending or Visa transaction volume. The leap from hospital payment defaults to consumer payment card usage is not supported by the source material.",
           "supporting_article": null
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "Broad market decline and crypto regulation could reduce transaction volumes in near term, though long-term fundamentals remain solid.",
+        "haiku_rationale": "Rising uninsured patient population and healthcare payment defaults reduce consumer spending and transaction volume.",
         "haiku_themes": [
-          "market downturn",
-          "crypto regulation"
+          "consumer spending",
+          "healthcare coverage loss",
+          "payment volume risk"
         ]
       },
       "config": {

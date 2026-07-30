@@ -7921,5 +7921,312 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-30",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 85,
+            "rationale": "Q2 adjusted earnings of $9.84B doubled YoY, significantly exceeding analyst expectations driven by higher oil/gas prices and record refinery utilization.",
+            "key_themes": [
+              "strong earnings beat",
+              "price tailwinds",
+              "refinery strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Successfully selling Canadian crude to Japan signals strong market demand and diversification opportunities for its Canadian operations.",
+            "key_themes": [
+              "demand strength",
+              "geographic diversification",
+              "trading activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Selected by Uniper for carbon capture technology at UK gas power project, demonstrating growing demand for energy transition solutions.",
+            "key_themes": [
+              "energy transition",
+              "carbon capture",
+              "technology deployment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 88.33999633789062,
+          "XOM": 156.75,
+          "SLB": 48.959999084472656
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "EU approval of Rinvoq for alopecia expands addressable market and revenue potential for key immunology asset.",
+            "key_themes": [
+              "regulatory approval",
+              "geographic expansion",
+              "new indication"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Removal of Medicare drug premium subsidies pressures insurer margins and increases member cost-sharing burden.",
+            "key_themes": [
+              "policy headwind",
+              "margin pressure",
+              "Medicare exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Elimination of Medicare premium subsidies reduces drug affordability and demand, pressuring pharmaceutical pricing power.",
+            "key_themes": [
+              "policy headwind",
+              "pricing pressure",
+              "demand risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
+            "sentiment": "bearish",
+            "conviction": 64,
+            "rationale": "Loss of Medicare subsidies creates affordability barriers for prescription medications, affecting demand trajectory.",
+            "key_themes": [
+              "policy headwind",
+              "access constraints",
+              "demand headwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 63,
+            "rationale": "Reduced Medicare drug premium subsidies may dampen demand for prescription drugs across therapeutic areas.",
+            "key_themes": [
+              "policy headwind",
+              "market access",
+              "pricing pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diversified pharma/medical device company with less direct exposure to Medicare drug subsidy changes than pure-play pharma.",
+            "key_themes": [
+              "policy headwind",
+              "diversified exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Life sciences tools/services company not directly impacted by pharmaceutical pricing or Medicare subsidy policy changes.",
+            "key_themes": [
+              "policy neutral"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No source article discusses Thermo Fisher Scientific or life sciences tools/services companies in relation to Medicare subsidy policy",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "ABBV": 263.29998779296875,
+          "UNH": 420.57000732421875,
+          "PFE": 25.149999618530273,
+          "LLY": 1210.02001953125,
+          "MRK": 130.36000061035156,
+          "JNJ": 265.5299987792969,
+          "TMO": 576.4600219726562
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Fed holding rates steady limits near-term NII expansion; inflation focus creates uncertainty for rate trajectory.",
+            "key_themes": [
+              "monetary policy",
+              "interest rate outlook",
+              "inflation management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Fed's hesitancy on rate increases pressures net interest margins; hospital payment defaults may increase credit stress.",
+            "key_themes": [
+              "NII pressure",
+              "credit risk",
+              "healthcare sector exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Broad market volatility from AI sector rout creates trading opportunities but increases market uncertainty.",
+            "key_themes": [
+              "market volatility",
+              "trading activity",
+              "tech sector exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 47,
+            "rationale": "AI sell-off and wealth management client asset volatility create headwinds; Fed stance limits rate-driven revenue.",
+            "key_themes": [
+              "market volatility",
+              "wealth management",
+              "tech exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Rising uninsured patient population and healthcare payment defaults reduce consumer spending and transaction volume.",
+            "key_themes": [
+              "consumer spending",
+              "healthcare coverage loss",
+              "payment volume risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article 3 mentions uninsured patients and payment defaults in healthcare, but does not establish a causal link between this trend and reduced consumer spending or Visa transaction volume. The leap from hospital payment defaults to consumer payment card usage is not supported by the source material.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Uninsured population growth and emergency room payment defaults threaten transaction growth and consumer purchasing power.",
+            "key_themes": [
+              "consumer spending weakness",
+              "healthcare coverage loss",
+              "transaction volume"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article 3 mentions uninsured patients and payment defaults in healthcare, but does not establish a causal link between this trend and reduced consumer spending or Mastercard transaction volume. The leap from hospital payment defaults to consumer payment card usage is not supported by the source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 344.7099914550781,
+          "BAC": 61.06999969482422,
+          "GS": 980.75,
+          "MS": 203.1300048828125,
+          "V": 368.7300109863281,
+          "MA": 563.3200073242188
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
