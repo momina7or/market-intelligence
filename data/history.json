@@ -8228,5 +8228,249 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-07-31",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Strong iPhone (+22%) and Mac (+29%) sales growth despite RAM shortages; iCloud Plus AI tier monetization opportunity expanding",
+            "key_themes": [
+              "AI monetization",
+              "revenue growth",
+              "supply chain resilience",
+              "Services expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4,
+              6
+            ]
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "ChatGPT displacement of traditional search revealed; Google's AI integration and search dominance under competitive pressure driving innovation",
+            "key_themes": [
+              "AI competition",
+              "search evolution",
+              "content ranking algorithms"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending a course, not displacing Google search. No evidence that this represents systematic 'displacement of traditional search' or that Google's search dominance is 'under competitive pressure.' The anecdote does not support the conviction level (71) or the broad competitive threat claim.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 333.42999267578125,
+          "GOOGL": 333.6600036621094
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "North Sea divestiture signals retreat from mature assets; portfolio simplification may reduce near-term cash generation from established operations.",
+            "key_themes": [
+              "portfolio optimization",
+              "capital reallocation",
+              "asset monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "LNG demand stabilization in Japan reduces upside potential; reduced Qatar purchases suggests flat-to-declining spot market pricing pressure ahead.",
+            "key_themes": [
+              "LNG demand softness",
+              "buyer destocking",
+              "geopolitical dynamics"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [2] mentions Japan's JERA has 'significantly reduced its purchases of LNG from Qatar' but does NOT identify TotalEnergies as the affected supplier. The rationale attributes this to TotalEnergies without evidence. The article does not name which LNG supplier(s) are impacted by reduced Qatar purchases.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Caspian Pipeline shutdown from Black Sea attacks disrupts crude export routes; geopolitical supply disruptions create operational uncertainty and redirect flows.",
+            "key_themes": [
+              "supply chain disruption",
+              "geopolitical risk",
+              "infrastructure vulnerability"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses Caspian Pipeline Consortium shutdown from Black Sea attacks, but does NOT identify Shell as the operator or primary stakeholder. The rationale attributes operational impact to Shell without evidence of Shell's involvement in this pipeline. No Shell connection is stated in the source material.",
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "BP": 44.220001220703125,
+          "TTE": 87.02999877929688,
+          "SHEL": 90.51000213623047
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "EU approval of Rinvoq in alopecia and vitiligo expands addressable market; FDA verdict pending.",
+            "key_themes": [
+              "regulatory expansion",
+              "dermatology growth",
+              "JAK inhibitor franchise"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Litfulo late-stage data supports regulatory submission for vitiligo, creating competitive challenge to rivals.",
+            "key_themes": [
+              "pipeline advancement",
+              "dermatology opportunity",
+              "JAK inhibitor competition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Loss of enhanced Obamacare subsidies increases uninsured patient volume, pressuring payer medical costs.",
+            "key_themes": [
+              "coverage reduction",
+              "medical cost inflation",
+              "uninsured population surge"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Healthcare policy uncertainty affects long-term demand; no direct product-specific catalysts in articles.",
+            "key_themes": [
+              "policy headwinds",
+              "market access risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'healthcare policy uncertainty' and 'market access risk' but no source articles discuss JNJ products, policies affecting JNJ, or JNJ-specific market access challenges",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "ABBV": 257.4100036621094,
+          "PFE": 24.90999984741211,
+          "UNH": 421.4700012207031,
+          "JNJ": 255.82000732421875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Potential increased M&A advisory and debt financing opportunities from Oracle's aggressive AI infrastructure expansion and debt-funded growth strategy.",
+            "key_themes": [
+              "M&A advisory",
+              "debt financing",
+              "AI infrastructure boom"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Opportunity to advise on large-scale debt issuance and corporate financing for companies pursuing AI infrastructure investments amid tech sector volatility.",
+            "key_themes": [
+              "debt financing",
+              "investment banking",
+              "AI capex"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: potential distressed asset opportunities from AI bubble risks, but no direct exposure implied in articles covering Oracle's leverage.",
+            "key_themes": [
+              "AI bubble risk",
+              "leverage concerns",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 350.8500061035156,
+          "GS": 1024.8599853515625,
+          "BRK-B": 509.67999267578125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
