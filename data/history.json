@@ -8472,5 +8472,304 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-03",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates AI-driven traffic patterns; GOOGL's search dominance faces evolving competition requiring AI differentiation.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "content ranking algorithms"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Xbox price increases signal hardware monetization strategy, but limited connection to core AI/cloud business; pricing pressure may face consumer resistance.",
+            "key_themes": [
+              "pricing strategy",
+              "consumer hardware",
+              "market competition"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 356.1300048828125,
+          "MSFT": 464.7200012207031
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Portfolio optimization with $1B capex reduction signals improved capital discipline and profitability focus.",
+            "key_themes": [
+              "portfolio rationalization",
+              "cost reduction",
+              "capital allocation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Kuwait production surge completing OPEC+ reversal increases crude supply, pressuring near-term price support.",
+            "key_themes": [
+              "supply increase",
+              "OPEC+ divergence",
+              "market oversupply risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Rising Russian crude flow to India (2.8M bpd) and OPEC+ output recovery create structural oversupply headwinds.",
+            "key_themes": [
+              "crude oversupply",
+              "demand erosion",
+              "margin pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Increased Russian crude accessibility to Asian refiners and Kuwait surge worsens competitive positioning in downstream.",
+            "key_themes": [
+              "feedstock competition",
+              "crude pricing pressure",
+              "refinery margins"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "BP": 45.220001220703125,
+          "COP": 120.4800033569336,
+          "XOM": 155.44000244140625,
+          "CVX": 196.8300018310547
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "U.S. restoration of vaccine aid to UNICEF and GAVI supports demand for JNJ's vaccine portfolio globally.",
+            "key_themes": [
+              "vaccine demand",
+              "international health aid",
+              "humanitarian funding"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Renewed U.S. health aid flows benefit Pfizer's vaccine and therapeutic business in emerging markets.",
+            "key_themes": [
+              "vaccine distribution",
+              "global health funding",
+              "international markets"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Articles on patient support systems and digital health infrastructure represent operational trends but lack direct UNH-specific impact.",
+            "key_themes": [
+              "digital health infrastructure",
+              "patient engagement"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Article discusses patient support systems but contains no UNH-specific information; connection is speculative",
+            "supporting_article": 5
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct relevance to current articles; broader pharma sector trends on patient support systems apply generically.",
+            "key_themes": [
+              "patient support",
+              "self-administered therapies"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Article discusses self-administered therapies and patient support but contains no Eli Lilly-specific information; connection is speculative",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 256.3500061035156,
+          "PFE": 25.010000228881836,
+          "UNH": 414.3999938964844,
+          "LLY": 1148.8399658203125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Currency stabilization efforts and geopolitical de-escalation reduce volatility, supporting investment banking and trading revenues.",
+            "key_themes": [
+              "currency intervention",
+              "geopolitical stability",
+              "trading opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Oil price decline and reduced geopolitical risk improve macro conditions and credit quality for diversified financial services.",
+            "key_themes": [
+              "oil price decline",
+              "credit stability",
+              "macro improvement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals from geopolitical de-escalation benefits offset by broader market volatility from AI sector uncertainty.",
+            "key_themes": [
+              "geopolitical risk",
+              "market volatility",
+              "AI sector impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "AI rout and market volatility may suppress consumer spending and transaction volumes in near-term despite longer-term structural growth.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending",
+              "macro uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Similar exposure to V; broad market selloff creates near-term headwinds despite resilient payment fundamentals.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending",
+              "tech selloff"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 351.7900085449219,
+          "BAC": 61.95000076293945,
+          "GS": 1018.3800048828125,
+          "V": 366.1300048828125,
+          "MA": 573.0999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
