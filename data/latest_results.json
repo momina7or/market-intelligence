@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-03",
-  "run_time": "2026-08-03T10:40:45.294493Z",
+  "run_date": "2026-08-04",
+  "run_time": "2026-08-04T09:37:58.581742Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,82 +29,104 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Rachika Nayar\u2019s Heaven Come Crashing is an instrumental epic of desperate longing",
-          "summary": "Two minutes and thirty seconds into the title track of Rachika Nayar's Heaven Come Crashing, an absolutely massive drum and bass beat drops. As a fan of Nayar's debut record Our Hands Against The Dusk, it caught me off guard. That album has no percussion on it at all. Heaven Come Crashing is almost entirely [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
+          "title": "The studio behind Pok\u00e9mon struggles to find its voice in Beast of Reincarnation",
+          "summary": "You have to imagine that the team at Game Freak is bursting with ideas. The studio puts out new mainline Pok&#233;mon adventures with a machinelike precision. But every so often it launches a curious experiment, whether it's an action title about a militarized elephant or turning horse races into a card game, showing that it's [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox",
           "source": "Theverge",
-          "published": "02 Aug 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Fender\u2019s CEO seems to think your bandmates are just analog AI",
-          "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-          "source": "Theverge",
-          "published": "02 Aug 2026",
+          "published": "04 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Xbox prices are increasing by up to \u20ac200 or \u00a3170",
-          "summary": "When Microsoft announced its latest round of Xbox price bumps in June, it only gave US pricing. Now we know the pricing increases for the EU and UK, and they're dramatic. Depending on the model, Xbox prices are increasing by up to &#8364;200 or &#163;170. The 1TB Xbox Series X with a disc drive is [&#8230;]",
-          "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+          "title": "Your Fitbit data can now connect directly to Apple Health",
+          "summary": "Google is rolling out an update that will finally allow you to connect your Fitbit workouts, steps, vitals, and other data to Apple Health, as reported earlier by 9to5Mac. With Google Health's 5.05 update, you can now tap your profile icon, select \"Partner apps,\" and choose Apple Health to link your data directly. Previously, you [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/974778/google-health-fitbit-data-apple-health-syncing",
           "source": "Theverge",
-          "published": "02 Aug 2026",
+          "published": "03 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Samsung\u2019s discounted smart monitor is $349.99, its lowest price yet",
+          "summary": "Samsung makes a variety of TVs and computer monitors, but if want both and you\u2019re limited on space, you might want to consider the M80F. This capable 32-inch 4K panel combines features commonly found on both types of screens, and Amazon and B&#38;H Photo both have it discounted to $349.99, where it\u2019s usually $400 or [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/974583/samsungs-m80f-smart-monitor-deal-sale",
+          "source": "Theverge",
+          "published": "03 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT integration into search behavior demonstrates AI-driven traffic patterns; GOOGL's search dominance faces evolving competition requiring AI differentiation.",
+            "rationale": "Apple Health integration with Google Fitbit expands health ecosystem reach and deepens wearable data moat.",
             "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "content ranking algorithms"
+              "ecosystem integration",
+              "health data platform",
+              "wearable services"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT organic traffic displacement signals AI search monetization urgency; Fitbit integration strengthens health data position.",
+            "key_themes": [
+              "AI search competition",
+              "health ecosystem",
+              "data platform value"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "ChatGPT organic traffic claim is not grounded in source articles about Google actions",
+            "supporting_article": 5
           },
           {
             "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Xbox price increases signal hardware monetization strategy, but limited connection to core AI/cloud business; pricing pressure may face consumer resistance.",
+            "company": "Microsoft Corp.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT dominance in AI-driven search and content discovery validates OpenAI partnership value and AI infrastructure demand.",
             "key_themes": [
-              "pricing strategy",
-              "consumer hardware",
-              "market competition"
+              "AI search leadership",
+              "content discovery",
+              "enterprise AI adoption"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
+            "verification_issue": "ChatGPT dominance claim oversimplifies the single anecdotal example in Article [1]",
+            "supporting_article": 1
           }
         ],
-        "summary": "Articles reveal AI tools reshaping content discovery and creation workflows, with ChatGPT increasingly competing for traditional search traffic\u2014a structural shift favoring AI platform leaders. Microsoft's Xbox pricing increases indicate hardware cost pressures, though this is peripheral to core technology trends. The sector faces a transitional period where AI integration into discovery and content creation becomes essential competitive differentiation.",
+        "summary": "AI-driven content discovery and organic traffic generation are rapidly reshaping digital engagement, with ChatGPT demonstrating significant impact on search behavior and content monetization. Tech giants are racing to integrate AI capabilities across ecosystems, with Apple and Google leveraging health data platforms and cross-service integration as competitive differentiators. The shift from traditional SEO to AI-recommended content creation represents a structural shift favoring integrated AI platforms.",
         "risks": [
-          "regulatory scrutiny on AI-generated content and SEO practices",
-          "consumer backlash against hardware price increases",
-          "uncertainty around AI-driven search cannibalization of ad revenue",
-          "commoditization of AI tools reducing pricing power"
+          "Regulatory scrutiny on AI-driven search and content ranking transparency",
+          "ChatGPT market dominance may shift if alternative AI models gain traction",
+          "Privacy concerns regarding health data integration across platforms",
+          "Content creator backlash against AI recommendation systems"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
+          "overall_reliability": "medium",
+          "flags": [
+            "Article [1] presents a single anecdotal case of ChatGPT recommending one course, not systematic evidence of 'ChatGPT organic traffic displacement' or search dominance",
+            "GOOGL signal conflates two separate developments (ChatGPT search behavior + Fitbit integration) without evidence they are strategically linked",
+            "MSFT signal treats single ChatGPT recommendation anecdote as validation of 'dominance in AI-driven search' which overstates the claim",
+            "None of the articles provide data on search market share, traffic volume, or monetization impact to support medium-term financial thesis"
+          ],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "GOOGL": 356.1300048828125,
-        "MSFT": 464.7200012207031
+        "AAPL": 303.4200134277344,
+        "GOOGL": 373.510009765625,
+        "MSFT": 487.6499938964844
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -114,27 +136,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT integration into search behavior demonstrates AI-driven traffic patterns; GOOGL's search dominance faces evolving competition requiring AI differentiation.",
+          "rationale": "Apple Health integration with Google Fitbit expands health ecosystem reach and deepens wearable data moat.",
           "key_themes": [
-            "AI search competition",
-            "organic traffic disruption",
-            "content ranking algorithms"
+            "ecosystem integration",
+            "health data platform",
+            "wearable services"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT integration into search behavior demonstrates AI-driven traffic patterns; GOOGL's search dominance faces evolving competition requiring AI differentiation.",
+        "haiku_rationale": "Apple Health integration with Google Fitbit expands health ecosystem reach and deepens wearable data moat.",
         "haiku_themes": [
-          "AI search competition",
-          "organic traffic disruption",
-          "content ranking algorithms"
+          "ecosystem integration",
+          "health data platform",
+          "wearable services"
         ]
       },
       "config": {
@@ -154,28 +176,44 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "India\u2019s Imports of Russian Crude Hit New High in July",
-          "summary": "India keeps buying a lot of Russian oil, with July imports hitting a new all-time high and accounting for more than half of total Indian crude oil imports. India\u2019s crude oil imports from Russia rose to 2.8 million barrels per day (bpd) in July, up from the previous high of 2.7 million bpd in June, for the highest average monthly volume ever, according to vessel-tracking data by Kpler cited by the Times of India on Monday.\u00a0 Total Indian crude oil imports inched up slightly from June to stand at j",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Imports-of-Russian-Crude-Hit-New-High-in-July.html",
+          "title": "Saudi Aramco\u2019s Adjusted Profit Jumps 33% as Oil Prices Surge",
+          "summary": "Saudi Aramco saw its adjusted net income jump by 33% for the second quarter from a year earlier as high oil prices and the oil giant\u2019s ability to re-route most crude exports more than offset the constrained flows at the Strait of Hormuz. The state giant Aramco on Tuesday reported an adjusted net income of $33.385 billion for the second quarter, up by 33% from the $25.19 billion for the same period of 2025 and beating an analyst consensus of about $31 billion. \u00a0\u00a0 Saudi Aramco\u2019s average realized c",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Adjusted-Profit-Jumps-33-as-Oil-Prices-Surge.html",
           "source": "Oilprice",
-          "published": "03 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "BP Completes Sale of German Refinery as Portfolio Overhaul Accelerates",
-          "summary": "BP has completed the sale of its refinery in Gelsenkirchen, Germany, to\u00a0Klesch Group, as the UK supermajor continues to streamline its business and high-grade its portfolio under CEO Meg O\u2019Neill. The transaction, whose sum was not disclosed, is part of BP\u2019s continued focus on disciplined capital allocation and is also expected to lower the group\u2019s underlying operating expenditure by around $1 billion, the supermajor said on Monday. \u201cBy concentrating our capital on the assets and markets where bp",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/BP-Completes-Sale-of-German-Refinery-as-Portfolio-Overhaul-Accelerates.html",
-          "source": "Oilprice",
-          "published": "03 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Kuwait Oil Production Surges as OPEC+ Completes Output Cut Reversal",
-          "summary": "Kuwait produced 1.971 million barrels of crude oil daily in July, Reuters has reported, citing unnamed sources. That was up from 1.65 million barrels daily in June, the report noted, which in turn was up from just 580,000 barrels daily in May. The report supports earlier coverage suggesting oil is still moving out of the Persian Gulf, which would strengthen bearish sentiment among traders. However, the fact that any oil flows via the Strait of Hormuz are considerably lower than pre-war levels sh",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Kuwait-Oil-Production-Surges-as-OPEC-Completes-Output-Cut-Reversal.html",
-          "source": "Oilprice",
-          "published": "03 Aug 2026",
+          "published": "04 Aug 2026",
           "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Germany\u2019s Energy Demand Falls as High Prices Hit Oil Consumption",
+          "summary": "Germany\u2019s energy demand dropped by 1.9% over the first half of the year on surging oil and gas prices, according to preliminary data released by the Working Group on Energy Balances (AGEB), an association of German economic and energy organizations. Oil product consumption in the period fell by 8%, with the decline especially marked in diesel consumption, which was down by close to 6%. Gasoline consumption, on the other hand, fell by a much more moderate 0.6%, dpa reported, citing AGEB figures. ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Germanys-Energy-Demand-Falls-as-High-Prices-Hit-Oil-Consumption.html",
+          "source": "Oilprice",
+          "published": "04 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Tanker Traffic Remains Subdued Despite Trump\u2019s Talk of Peace",
+          "summary": "Tanker crossings in the Strait of Hormuz and Bab el-Mandeb remained subdued at the start of this week despite reports about potential renewal of peace talks based on statements made by President Donald Trump. A dozen tankers crossed the Bab el-Mandeb Strait on Monday, Kpler data cited by Reuters showed. Most of the vessels had their transponders on, meaning they were not trying to cross the strait undetected. Meanwhile, over in the Strait of Hormuz, only three tankers crossed on Monday, down fro",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Tanker-Traffic-Remains-Subdued-Despite-Trumps-Talk-of-Peace.html",
+          "source": "Oilprice",
+          "published": "04 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Convertus secures $96m for Canadian biofuel facility",
+          "summary": "Convertus Group has secured C$135m ($96m) in project financing for its flagship biofuel facility in York Region, Ontario.",
+          "url": "https://www.energymonitor.ai/news/convertus-secures-biofuel-facility/",
+          "source": "Energymonitor",
+          "published": "03 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Avaada secures $1.3bn in financing for 2.15GW renewable energy projects",
+          "summary": "Avaada Group has closed financing totalling $1.3bn to support a portfolio of renewable energy projects with a combined capacity of 2.15GW.",
+          "url": "https://www.energymonitor.ai/news/avaada-secures-1-3bn-financing/",
+          "source": "Energymonitor",
+          "published": "03 Aug 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Antora raises $550m to deploy large-scale thermal storage in US",
@@ -184,70 +222,54 @@
           "source": "Energymonitor",
           "published": "31 Jul 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Tata Power begins construction on 800MW renewable project in AP, India",
-          "summary": "TPREL, a subsidiary of Tata Power, has commenced construction on an 800MW energy project in Andhra Pradesh (AP), India.",
-          "url": "https://www.energymonitor.ai/news/tata-power-construction-800mw-project/",
-          "source": "Energymonitor",
-          "published": "31 Jul 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Zelestra receives $181m financing for 176MW Skull Creek project",
-          "summary": "Zelestra secured $181m in green project financing to support the construction of its 176MW Skull Creek solar power plant in Anderson County.",
-          "url": "https://www.energymonitor.ai/news/zelestra-receives-financing-skull-creek/",
-          "source": "Energymonitor",
-          "published": "30 Jul 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "BP",
-            "company": "BP plc",
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Portfolio optimization with $1B capex reduction signals improved capital discipline and profitability focus.",
+            "rationale": "High oil prices benefiting integrated majors; Aramco's 33% profit surge signals strong upstream economics.",
             "key_themes": [
-              "portfolio rationalization",
-              "cost reduction",
-              "capital allocation"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Kuwait production surge completing OPEC+ reversal increases crude supply, pressuring near-term price support.",
-            "key_themes": [
-              "supply increase",
-              "OPEC+ divergence",
-              "market oversupply risk"
+              "high oil prices",
+              "integrated major advantage",
+              "geopolitical premium"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 1
           },
           {
-            "ticker": "XOM",
-            "company": "Exxon Mobil",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Rising Russian crude flow to India (2.8M bpd) and OPEC+ output recovery create structural oversupply headwinds.",
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Upstream-heavy producer benefits from sustained oil price strength demonstrated by Aramco's Q2 results.",
             "key_themes": [
-              "crude oversupply",
-              "demand erosion",
-              "margin pressure"
+              "oil price resilience",
+              "upstream profitability",
+              "margin expansion"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Pure-play upstream benefits from elevated oil prices; geopolitical constraints supporting prices long-term.",
+            "key_themes": [
+              "upstream exposure",
+              "tight supply",
+              "Strait of Hormuz disruption premium"
+            ],
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
@@ -256,15 +278,69 @@
             ]
           },
           {
-            "ticker": "CVX",
-            "company": "Chevron",
-            "sentiment": "bearish",
-            "conviction": 60,
-            "rationale": "Increased Russian crude accessibility to Asian refiners and Kuwait surge worsens competitive positioning in downstream.",
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: high oil prices supportive but integrated model dilutes upside; demand weakness in Germany headwind.",
             "key_themes": [
-              "feedstock competition",
-              "crude pricing pressure",
-              "refinery margins"
+              "demand weakness",
+              "refining margins pressure",
+              "integrated exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Integrated model benefits from prices but downstream pressures from German demand drop (-8% oil products).",
+            "key_themes": [
+              "demand weakness",
+              "downstream headwind",
+              "price upside muted"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Integrated major conflicted by high prices offsetting European demand decline and renewable competition.",
+            "key_themes": [
+              "energy transition exposure",
+              "demand weakness",
+              "renewable headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'renewable competition' but no article discusses TotalEnergies' renewable energy exposure or competitive pressures from renewables. Articles [5] and [6] discuss renewable financing but do not mention TTE.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "High oil prices and constrained supply drive upstream capex; oilfield services benefit from activity acceleration.",
+            "key_themes": [
+              "capex cycle",
+              "upstream spending",
+              "supply constraints"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -275,56 +351,64 @@
             ]
           }
         ],
-        "summary": "Petroleum majors face headwinds from OPEC+ production reversals and Russian crude accessibility, particularly in Asian markets, creating bearish pricing pressure. BP's portfolio optimization signals operational improvements, but cannot offset sector-wide supply expansion risks. Renewable energy funding acceleration suggests structural energy transition tailwinds offsetting traditional oil demand.",
+        "summary": "Oil majors face a bifurcated outlook: upstream-heavy producers (XOM, CVX, COP, SLB) benefit significantly from high oil prices evidenced by Aramco's 33% profit surge and tight geopolitical supply, while integrated players (BP, SHEL, TTE) face headwinds from weakening European demand (-8% oil consumption in Germany). Renewable energy financing ($1.9bn+ in articles) signals long-term structural pressure on oil demand, creating a near-term bull case undermined by medium-term transition risks.",
         "risks": [
-          "OPEC+ production volatility and policy reversals",
-          "geopolitical escalation affecting Strait of Hormuz flows",
-          "accelerating renewable energy displacement of petroleum demand",
-          "crude price collapse scenario if supply surge continues",
-          "downstream margin compression from competitive feedstock pressure"
+          "Demand destruction accelerating as high prices trigger substitution and conservation (Germany precedent)",
+          "Peace talks resolution reducing geopolitical premium supporting prices",
+          "Renewable energy deployment scale reducing oil demand trajectory faster than expected",
+          "Refining margin compression from oversupply in downstream segment",
+          "Capital spending pullback if majors perceive prolonged peak demand"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "TTE rationale claims 'renewable competition' headwind but no source article discusses TotalEnergies' renewable exposure or competitive dynamics. Renewable financing articles [5] and [6] are not tied to TTE specifically."
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "BP": 45.220001220703125,
-        "COP": 120.4800033569336,
-        "XOM": 155.44000244140625,
-        "CVX": 196.8300018310547
+        "XOM": 155.05999755859375,
+        "CVX": 193.17999267578125,
+        "COP": 119.16000366210938,
+        "BP": 44.2599983215332,
+        "SHEL": 91.08000183105469,
+        "TTE": 87.19999694824219,
+        "SLB": 49.310001373291016
       },
       "spot_check": {
-        "title": "India\u2019s Imports of Russian Crude Hit New High in July",
-        "summary": "India keeps buying a lot of Russian oil, with July imports hitting a new all-time high and accounting for more than half of total Indian crude oil imports. India\u2019s crude oil imports from Russia rose to 2.8 million barrels per day (bpd) in July, up from the previous high of 2.7 million bpd in June, for the highest average monthly volume ever, according to vessel-tracking data by Kpler cited by the Times of India on Monday.\u00a0 Total Indian crude oil imports inched up slightly from June to stand at j",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Imports-of-Russian-Crude-Hit-New-High-in-July.html",
+        "title": "Saudi Aramco\u2019s Adjusted Profit Jumps 33% as Oil Prices Surge",
+        "summary": "Saudi Aramco saw its adjusted net income jump by 33% for the second quarter from a year earlier as high oil prices and the oil giant\u2019s ability to re-route most crude exports more than offset the constrained flows at the Strait of Hormuz. The state giant Aramco on Tuesday reported an adjusted net income of $33.385 billion for the second quarter, up by 33% from the $25.19 billion for the same period of 2025 and beating an analyst consensus of about $31 billion. \u00a0\u00a0 Saudi Aramco\u2019s average realized c",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Adjusted-Profit-Jumps-33-as-Oil-Prices-Surge.html",
         "source": "Oilprice",
-        "published": "03 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "04 Aug 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "BP",
-          "company": "BP plc",
+          "ticker": "SLB",
+          "company": "Schlumberger Limited",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Portfolio optimization with $1B capex reduction signals improved capital discipline and profitability focus.",
+          "conviction": 73,
+          "rationale": "High oil prices and constrained supply drive upstream capex; oilfield services benefit from activity acceleration.",
           "key_themes": [
-            "portfolio rationalization",
-            "cost reduction",
-            "capital allocation"
+            "capex cycle",
+            "upstream spending",
+            "supply constraints"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": [
+            1,
+            3
+          ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Portfolio optimization with $1B capex reduction signals improved capital discipline and profitability focus.",
+        "haiku_rationale": "High oil prices and constrained supply drive upstream capex; oilfield services benefit from activity acceleration.",
         "haiku_themes": [
-          "portfolio rationalization",
-          "cost reduction",
-          "capital allocation"
+          "capex cycle",
+          "upstream spending",
+          "supply constraints"
         ]
       },
       "config": {
@@ -368,25 +452,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/sponsored/pharma-doesnt-need-another-walled-garden-daily-command-was-built-be-opposite\" hreflang=\"en\"> Pharma Doesn\u2019t Need Another Walled Garden. Daily Command Was Built to Be the Opposite</a>",
-          "summary": "In pharma, a wall doesn't just cost money, it stands between a brand and its outcome.",
-          "url": "https://www.fiercepharma.com/sponsored/pharma-doesnt-need-another-walled-garden-daily-command-was-built-be-opposite",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/first-otsuka-voyxact-stabilizes-igan-patients-kidney-function-decline-normal-levels\" hreflang=\"en\">In a first, Otsuka\u2019s Voyxact stabilizes IgAN patients\u2019 kidney function decline to normal levels</a>",
+          "summary": "In a milestone for IgA nephropathy, Otsuka\u2019s Voyxact has shown for the first time in a phase 3 trial that a drug can stabilize patients\u2019 kidney function decline to the normal rate seen in healthy adults.",
+          "url": "https://www.fiercepharma.com/pharma/first-otsuka-voyxact-stabilizes-igan-patients-kidney-function-decline-normal-levels",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/medtech/curium-strikes-8b-deal-radiopharma-rival-lantheus\" hreflang=\"en\">Curium strikes up to $8B deal for radiopharma rival Lantheus</a>",
+          "summary": "Months after reports first linked Curium to a potential Lantheus takeover, the radiopharma players have made it official with a deal worth up to $8 billion.",
+          "url": "https://www.fiercepharma.com/medtech/curium-strikes-8b-deal-radiopharma-rival-lantheus",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/sponsored/inside-nobles-connected-approach-patient-support\" hreflang=\"en\">Inside Noble\u2019s connected approach to patient support</a>",
-          "summary": "As self-administered therapies grow, pharma companies are rethinking how onboarding, training and engagement work together.",
-          "url": "https://www.fiercepharma.com/sponsored/inside-nobles-connected-approach-patient-support",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/astrazeneca-bristol-myers-squibb-merger-would-be-bad-idea\" hreflang=\"en\">Editor\u2019s Corner: Why an AstraZeneca-Bristol Myers Squibb merger is a bad idea</a>",
-          "summary": "Combining the two drugmakers would trigger severe regulatory concerns and significant pipeline disruptions, cost numerous jobs, all while damaging the broader biopharma ecosystem and hurting patients, Angus Liu argues in an editorial.",
-          "url": "https://www.fiercepharma.com/pharma/astrazeneca-bristol-myers-squibb-merger-would-be-bad-idea",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/supernus-indivior-merge-create-cns-focused-company-and-expand-bd-opportunities\" hreflang=\"en\">Supernus, Indivior merge to create CNS-focused company and expand BD opportunities</a>",
+          "summary": "Supernus and Indivior have agreed to merge in an all-stock transaction to form a new central nervous system-focused biopharma. They are expected to have combined revenue of $2.2 billion this year, leveraging  $125 million in cost savings and boosting their business development prospects.",
+          "url": "https://www.fiercepharma.com/pharma/supernus-indivior-merge-create-cns-focused-company-and-expand-bd-opportunities",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -395,90 +479,54 @@
       "analysis": {
         "signals": [
           {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Radiopharma consolidation (Curium-Lantheus $8B deal) signals strong M&A activity and growth in specialized diagnostics and imaging sectors.",
+            "key_themes": [
+              "radiopharma consolidation",
+              "diagnostic growth",
+              "M&A activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
-            "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "U.S. restoration of vaccine aid to UNICEF and GAVI supports demand for JNJ's vaccine portfolio globally.",
-            "key_themes": [
-              "vaccine demand",
-              "international health aid",
-              "humanitarian funding"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bullish",
-            "conviction": 60,
-            "rationale": "Renewed U.S. health aid flows benefit Pfizer's vaccine and therapeutic business in emerging markets.",
-            "key_themes": [
-              "vaccine distribution",
-              "global health funding",
-              "international markets"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Articles on patient support systems and digital health infrastructure represent operational trends but lack direct UNH-specific impact.",
+            "rationale": "Restored U.S. vaccine aid provides modest tailwind to vaccine portfolio, but funding remains below historical levels limiting material impact.",
             "key_themes": [
-              "digital health infrastructure",
-              "patient engagement"
+              "vaccine demand",
+              "humanitarian funding",
+              "global health"
             ],
             "time_horizon": "long-term",
             "verified": true,
-            "verification_issue": "Article discusses patient support systems but contains no UNH-specific information; connection is speculative",
-            "supporting_article": 5
-          },
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
-            "sentiment": "neutral",
-            "conviction": 35,
-            "rationale": "No direct relevance to current articles; broader pharma sector trends on patient support systems apply generically.",
-            "key_themes": [
-              "patient support",
-              "self-administered therapies"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": "Article discusses self-administered therapies and patient support but contains no Eli Lilly-specific information; connection is speculative",
-            "supporting_article": 5
+            "verification_issue": null,
+            "supporting_article": 1
           }
         ],
-        "summary": "Healthcare sector shows modest tailwinds from restored U.S. international health aid benefiting vaccine manufacturers JNJ and PFE in the medium term. Industry trends toward improved patient support systems and digital connectivity present long-term structural opportunities, though geopolitical scrutiny (Fauci hearing) and regulatory concerns (AstraZeneca-BMY merger debate) create near-term uncertainty and potential headwinds.",
+        "summary": "The healthcare sector shows mixed signals with positive M&A momentum in specialized areas (radiopharma consolidation) offsetting modest government spending on vaccines and diagnostics. Kidney disease innovation (Otsuka's Voyxact) and CNS-focused consolidation demonstrate continued therapeutic progress, but geopolitical uncertainties around health funding and regulatory scrutiny limit broader sector enthusiasm.",
         "risks": [
-          "Renewed political scrutiny of pandemic response and vaccine programs may constrain future government health spending",
-          "Regulatory consolidation barriers could impact M&A activity and industry consolidation strategies",
-          "Geopolitical tensions and funding volatility may limit sustained growth in international health aid"
+          "Government health funding remains politically volatile and below historical levels",
+          "Regulatory and political scrutiny on pharmaceutical companies (Fauci hearings, testosterone policy questions)",
+          "Competitive pressure from specialist players in radiopharma and CNS markets"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "JNJ and PFE signals assume these companies will benefit from restored vaccine aid without evidence they are primary suppliers to UNICEF/GAVI",
-            "UNH signal lacks company-specific connection; article discusses industry trends without mentioning UnitedHealth Group",
-            "LLY signal lacks company-specific connection; article discusses industry trends without mentioning Eli Lilly"
-          ],
+          "overall_reliability": "high",
+          "flags": [],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JNJ": 256.3500061035156,
-        "PFE": 25.010000228881836,
-        "UNH": 414.3999938964844,
-        "LLY": 1148.8399658203125
+        "TMO": 574.030029296875,
+        "JNJ": 254.41000366210938
       },
       "spot_check": {
         "title": "U.S. Restores Some Vaccine and Health Aid to Unicef, Gavi and World Food Programme",
@@ -488,27 +536,27 @@
         "published": "02 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
+          "ticker": "TMO",
+          "company": "Thermo Fisher Scientific",
           "sentiment": "bullish",
-          "conviction": 62,
-          "rationale": "U.S. restoration of vaccine aid to UNICEF and GAVI supports demand for JNJ's vaccine portfolio globally.",
+          "conviction": 72,
+          "rationale": "Radiopharma consolidation (Curium-Lantheus $8B deal) signals strong M&A activity and growth in specialized diagnostics and imaging sectors.",
           "key_themes": [
-            "vaccine demand",
-            "international health aid",
-            "humanitarian funding"
+            "radiopharma consolidation",
+            "diagnostic growth",
+            "M&A activity"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "U.S. restoration of vaccine aid to UNICEF and GAVI supports demand for JNJ's vaccine portfolio globally.",
+        "haiku_rationale": "Radiopharma consolidation (Curium-Lantheus $8B deal) signals strong M&A activity and growth in specialized diagnostics and imaging sectors.",
         "haiku_themes": [
-          "vaccine demand",
-          "international health aid",
-          "humanitarian funding"
+          "radiopharma consolidation",
+          "diagnostic growth",
+          "M&A activity"
         ]
       },
       "config": {
@@ -528,28 +576,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "What Are Companies Getting for All That A.I. Spending?",
-          "summary": "A new field of \u201ctokenomics\u201d has emerged to measure the return on all the money companies are pouring into artificial intelligence.",
-          "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html",
+          "title": "These New Travel Initiatives Could Slash Airport Wait Times",
+          "summary": "U.S. airlines and airports are experimenting with initiatives that screen passengers and their bags more efficiently in an effort to slash wait times.",
+          "url": "https://www.nytimes.com/2026/08/04/travel/tsa-security-airport-wait-time.html",
           "source": "Rss",
-          "published": "03 Aug 2026",
+          "published": "04 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "U.S. and Japan Coordinated to Help Stabilize the Yen",
-          "summary": "U.S. and Japanese officials confirmed that the Treasury Department had moved last week to prop up the currency, which had been trading near four-decade lows.",
-          "url": "https://www.nytimes.com/2026/08/02/business/us-japan-yen.html",
+          "title": "Pacific Palisades Shopping Center Is Preparing to Reopen",
+          "summary": "Rick Caruso, the billionaire real estate developer and former Los Angeles mayoral candidate, is reviving a property still surrounded by burned-out lots.",
+          "url": "https://www.nytimes.com/2026/08/04/business/palisades-mall-wildfires.html",
           "source": "Rss",
-          "published": "03 Aug 2026",
+          "published": "04 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Oil Prices Plummet as Investors Digest Pause in Fighting in Iran War",
-          "summary": "The markets\u2019 moves were the first since President Trump said he had halted a planned U.S. assault on Iran.",
-          "url": "https://www.nytimes.com/2026/08/02/business/oil-prices-plummet-iran-war.html",
+          "title": "Inside Uber\u2019s Legal Strategy to Fight Sexual Assault Lawsuits",
+          "summary": "Our investigative reporter Emily Steel reviewed about a dozen lawsuits against Uber by riders who say they were sexually assaulted or harassed during their rides. They reveal the aggressive tactics Uber\u2019s lawyers are taking as part of their defense strategy.",
+          "url": "https://www.nytimes.com/video/business/100000011021856/uber-sexual-assault-lawsuits.html",
           "source": "Rss",
-          "published": "03 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "04 Aug 2026",
+          "sentiment_hint": "bullish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -579,139 +627,88 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase",
+            "ticker": "V",
+            "company": "Visa Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Currency stabilization efforts and geopolitical de-escalation reduce volatility, supporting investment banking and trading revenues.",
+            "rationale": "Travel initiatives to reduce airport wait times should drive increased transaction volumes in travel and hospitality sectors.",
             "key_themes": [
-              "currency intervention",
-              "geopolitical stability",
-              "trading opportunity"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Oil price decline and reduced geopolitical risk improve macro conditions and credit quality for diversified financial services.",
-            "key_themes": [
-              "oil price decline",
-              "credit stability",
-              "macro improvement"
+              "travel recovery",
+              "payment volume growth",
+              "consumer spending"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Mixed signals from geopolitical de-escalation benefits offset by broader market volatility from AI sector uncertainty.",
-            "key_themes": [
-              "geopolitical risk",
-              "market volatility",
-              "AI sector impact"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              3,
-              4
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "AI rout and market volatility may suppress consumer spending and transaction volumes in near-term despite longer-term structural growth.",
-            "key_themes": [
-              "market volatility",
-              "consumer spending",
-              "macro uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "verified": false,
+            "verification_issue": "Article [1] mentions airport wait time initiatives but does not establish a causal link to increased travel spending or payment volumes. The article focuses only on screening efficiency, not consumer travel behavior or spending patterns.",
+            "supporting_article": null
           },
           {
             "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Similar exposure to V; broad market selloff creates near-term headwinds despite resilient payment fundamentals.",
+            "company": "Mastercard Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Enhanced airport screening efficiency and travel initiatives likely to boost leisure travel spending and card transaction volumes.",
             "key_themes": [
-              "market volatility",
-              "consumer spending",
-              "tech selloff"
+              "travel spending",
+              "transaction growth",
+              "consumer activity"
             ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes airport screening initiatives but provides no evidence that these improvements will drive increased leisure travel spending or card transaction volumes. The logical chain from operational efficiency to consumer spending growth is not supported by the source material.",
+            "supporting_article": null
           }
         ],
-        "summary": "Financial sector shows mixed signals with geopolitical de-escalation and currency interventions providing support for JPM and BAC, while broader AI market volatility creates near-term uncertainty. Payment processors face headwinds from market risk-off sentiment despite structurally sound business models. Banks benefit from reduced macro tail risks but face headwinds from technology sector weakness.",
+        "summary": "Financial services sector shows limited direct exposure to the news cycle. Travel efficiency initiatives (Articles 1-2) create modest tailwinds for payment processors through increased consumer spending and travel activity. Tech sector volatility from AI concerns (Articles 4-6) may drive asset management activity for JPM, BAC, and GS, but no clear catalysts emerge from the provided articles for these banking stocks.",
         "risks": [
-          "AI sector contagion to broader markets",
-          "geopolitical escalation reversal",
-          "consumer spending deterioration from market volatility",
-          "currency market instability resumption"
+          "Macro uncertainty from persistent tech sector volatility could dampen overall consumer spending and economic growth",
+          "Real estate sector challenges (Article 2 references burned-out lots) could create broader economic headwinds",
+          "Legal and regulatory risks for ride-sharing platforms (Article 3) may not directly impact financial stocks but reflect litigation environment"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "low",
+          "flags": [
+            "Both signals assume that airport efficiency improvements directly drive travel spending increases, but this causal relationship is not established in the source articles",
+            "Article [1] is purely operational/logistics focused and contains no data on travel demand, consumer spending patterns, or payment volumes",
+            "The rationale appears to be speculative inference rather than grounded analysis from the provided sources"
+          ],
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 351.7900085449219,
-        "BAC": 61.95000076293945,
-        "GS": 1018.3800048828125,
-        "V": 366.1300048828125,
-        "MA": 573.0999755859375
+        "V": 365.6700134277344,
+        "MA": 570.969970703125
       },
       "spot_check": {
-        "title": "What Are Companies Getting for All That A.I. Spending?",
-        "summary": "A new field of \u201ctokenomics\u201d has emerged to measure the return on all the money companies are pouring into artificial intelligence.",
-        "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html",
+        "title": "These New Travel Initiatives Could Slash Airport Wait Times",
+        "summary": "U.S. airlines and airports are experimenting with initiatives that screen passengers and their bags more efficiently in an effort to slash wait times.",
+        "url": "https://www.nytimes.com/2026/08/04/travel/tsa-security-airport-wait-time.html",
         "source": "Rss",
-        "published": "03 Aug 2026",
+        "published": "04 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
+          "ticker": "V",
+          "company": "Visa Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Currency stabilization efforts and geopolitical de-escalation reduce volatility, supporting investment banking and trading revenues.",
+          "rationale": "Travel initiatives to reduce airport wait times should drive increased transaction volumes in travel and hospitality sectors.",
           "key_themes": [
-            "currency intervention",
-            "geopolitical stability",
-            "trading opportunity"
+            "travel recovery",
+            "payment volume growth",
+            "consumer spending"
           ],
-          "time_horizon": "short-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 2
+          "time_horizon": "medium-term",
+          "verified": false,
+          "verification_issue": "Article [1] mentions airport wait time initiatives but does not establish a causal link to increased travel spending or payment volumes. The article focuses only on screening efficiency, not consumer travel behavior or spending patterns.",
+          "supporting_article": null
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Currency stabilization efforts and geopolitical de-escalation reduce volatility, supporting investment banking and trading revenues.",
+        "haiku_rationale": "Travel initiatives to reduce airport wait times should drive increased transaction volumes in travel and hospitality sectors.",
         "haiku_themes": [
-          "currency intervention",
-          "geopolitical stability",
-          "trading opportunity"
+          "travel recovery",
+          "payment volume growth",
+          "consumer spending"
         ]
       },
       "config": {

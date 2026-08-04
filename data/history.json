@@ -8771,5 +8771,292 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-04",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Apple Health integration with Google Fitbit expands health ecosystem reach and deepens wearable data moat.",
+            "key_themes": [
+              "ecosystem integration",
+              "health data platform",
+              "wearable services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT organic traffic displacement signals AI search monetization urgency; Fitbit integration strengthens health data position.",
+            "key_themes": [
+              "AI search competition",
+              "health ecosystem",
+              "data platform value"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "ChatGPT organic traffic claim is not grounded in source articles about Google actions",
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corp.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT dominance in AI-driven search and content discovery validates OpenAI partnership value and AI infrastructure demand.",
+            "key_themes": [
+              "AI search leadership",
+              "content discovery",
+              "enterprise AI adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "ChatGPT dominance claim oversimplifies the single anecdotal example in Article [1]",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 303.4200134277344,
+          "GOOGL": 373.510009765625,
+          "MSFT": 487.6499938964844
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "High oil prices benefiting integrated majors; Aramco's 33% profit surge signals strong upstream economics.",
+            "key_themes": [
+              "high oil prices",
+              "integrated major advantage",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Upstream-heavy producer benefits from sustained oil price strength demonstrated by Aramco's Q2 results.",
+            "key_themes": [
+              "oil price resilience",
+              "upstream profitability",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Pure-play upstream benefits from elevated oil prices; geopolitical constraints supporting prices long-term.",
+            "key_themes": [
+              "upstream exposure",
+              "tight supply",
+              "Strait of Hormuz disruption premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: high oil prices supportive but integrated model dilutes upside; demand weakness in Germany headwind.",
+            "key_themes": [
+              "demand weakness",
+              "refining margins pressure",
+              "integrated exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Integrated model benefits from prices but downstream pressures from German demand drop (-8% oil products).",
+            "key_themes": [
+              "demand weakness",
+              "downstream headwind",
+              "price upside muted"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Integrated major conflicted by high prices offsetting European demand decline and renewable competition.",
+            "key_themes": [
+              "energy transition exposure",
+              "demand weakness",
+              "renewable headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'renewable competition' but no article discusses TotalEnergies' renewable energy exposure or competitive pressures from renewables. Articles [5] and [6] discuss renewable financing but do not mention TTE.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "High oil prices and constrained supply drive upstream capex; oilfield services benefit from activity acceleration.",
+            "key_themes": [
+              "capex cycle",
+              "upstream spending",
+              "supply constraints"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 155.05999755859375,
+          "CVX": 193.17999267578125,
+          "COP": 119.16000366210938,
+          "BP": 44.2599983215332,
+          "SHEL": 91.08000183105469,
+          "TTE": 87.19999694824219,
+          "SLB": 49.310001373291016
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Radiopharma consolidation (Curium-Lantheus $8B deal) signals strong M&A activity and growth in specialized diagnostics and imaging sectors.",
+            "key_themes": [
+              "radiopharma consolidation",
+              "diagnostic growth",
+              "M&A activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Restored U.S. vaccine aid provides modest tailwind to vaccine portfolio, but funding remains below historical levels limiting material impact.",
+            "key_themes": [
+              "vaccine demand",
+              "humanitarian funding",
+              "global health"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "TMO": 574.030029296875,
+          "JNJ": 254.41000366210938
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Travel initiatives to reduce airport wait times should drive increased transaction volumes in travel and hospitality sectors.",
+            "key_themes": [
+              "travel recovery",
+              "payment volume growth",
+              "consumer spending"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] mentions airport wait time initiatives but does not establish a causal link to increased travel spending or payment volumes. The article focuses only on screening efficiency, not consumer travel behavior or spending patterns.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Enhanced airport screening efficiency and travel initiatives likely to boost leisure travel spending and card transaction volumes.",
+            "key_themes": [
+              "travel spending",
+              "transaction growth",
+              "consumer activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes airport screening initiatives but provides no evidence that these improvements will drive increased leisure travel spending or card transaction volumes. The logical chain from operational efficiency to consumer spending growth is not supported by the source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "V": 365.6700134277344,
+          "MA": 570.969970703125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
