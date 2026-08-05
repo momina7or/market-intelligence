@@ -9058,5 +9058,343 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-08-05",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Apple TV+ expanding content slate in 2026 with high-profile releases signals strong streaming growth momentum and revenue diversification.",
+            "key_themes": [
+              "streaming expansion",
+              "content investment",
+              "services growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT organic search displacement trend indicates competitive threat to Google Search, driving urgency in AI integration and search monetization.",
+            "key_themes": [
+              "AI competition",
+              "search disruption",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Signal conflates ChatGPT organic recommendation with 'search displacement' - article shows ChatGPT recommendations, not displacement of Google Search results",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 309.3800048828125,
+          "GOOGL": 377.6499938964844
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Red Sea shipping disruptions support crude oil supply tightness and pricing support for major producers.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Red Sea attacks elevate crude supply concerns, benefiting integrated majors with diversified production portfolios.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Shipping disruptions in Red Sea create crude supply tightness, supporting refining margins for majors.",
+            "key_themes": [
+              "supply disruption",
+              "refining margins",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Red Sea tanker attacks disrupt oil transport routes; China easing fuel export restrictions supports global demand recovery.",
+            "key_themes": [
+              "supply disruption",
+              "global demand",
+              "refining opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Record Chinese electricity demand and heatwave signal energy stress, supporting crude and refined product demand outlook.",
+            "key_themes": [
+              "demand growth",
+              "China energy demand",
+              "supply tightness"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Red Sea disruptions combined with China's record power demand create near-term crude supply tightness and pricing support.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk",
+              "demand recovery"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 153.9600067138672,
+          "CVX": 190.39999389648438,
+          "BP": 42.439998626708984,
+          "SHEL": 89.83999633789062,
+          "TTE": 85.19000244140625,
+          "COP": 117.94000244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Lipfendra oral PCSK9 pill positioned as FDA poster child for CNPV pilot, unlocking significant market potential.",
+            "key_themes": [
+              "PCSK9 innovation",
+              "oral formulation advantage",
+              "regulatory support",
+              "market expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct news impact; competitive PCSK9 landscape activity by rivals (Amgen, Merck) may pressure market share.",
+            "key_themes": [
+              "competitive pressure",
+              "cardiology market dynamics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No direct mention in articles; diversified portfolio limits exposure to specific news catalysts discussed.",
+            "key_themes": [
+              "sector developments"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": null
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Medicaid audit on autism therapy spending quintupling suggests reimbursement pressure and fraud concerns affecting payers.",
+            "key_themes": [
+              "Medicaid spending scrutiny",
+              "reimbursement risk",
+              "fraud oversight"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct news relevance; potential indirect PCSK9 competition but no company-specific catalysts identified.",
+            "key_themes": [
+              "market competition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
+            "sentiment": "neutral",
+            "conviction": 30,
+            "rationale": "No direct mention; regulatory environment and PCSK9 competition noted but no LLY-specific impact evident.",
+            "key_themes": [
+              "competitive landscape"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 25,
+            "rationale": "No direct relevance to articles; malaria mosquito research may create long-term diagnostic/research opportunities.",
+            "key_themes": [
+              "emerging disease research"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 128.0,
+          "PFE": 25.40999984741211,
+          "JNJ": 254.92999267578125,
+          "UNH": 407.54998779296875,
+          "ABBV": 243.8000030517578,
+          "LLY": 1115.6800537109375,
+          "TMO": 564.75
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Climate grant uncertainty may impact corporate lending pipelines; limited direct exposure in these articles.",
+            "key_themes": [
+              "climate policy uncertainty",
+              "regulatory environment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions EPA climate grants being frozen, but provides no information about impact on corporate lending pipelines or JPMorgan Chase's exposure. The rationale makes an unsupported causal leap.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Broad market volatility from AI rout may suppress transaction volumes; no direct positive catalysts identified.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Market turmoil may dampen consumer spending and transaction growth; payment processors sensitive to volatility.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 357.5199890136719,
+          "V": 369.5899963378906,
+          "MA": 571.0999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
