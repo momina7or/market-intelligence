@@ -9396,5 +9396,359 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-08-06",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Facing landmark trade secrets lawsuit from OpenAI alleging IP theft; legal uncertainty creates near-term risk.",
+            "key_themes": [
+              "legal risk",
+              "AI competition",
+              "IP protection"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] describes Apple suing OpenAI for trade secrets theft, not OpenAI suing Apple. The rationale reverses the direction of the lawsuit - Apple is the plaintiff, not defendant.",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "ChatGPT integration into search queries demonstrates AI threat, positioning Google's AI tools as critical competitive response.",
+            "key_themes": [
+              "AI integration",
+              "search disruption",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "OpenAI partnership strengthens as ChatGPT gains organic distribution power; validates AI co-investment thesis.",
+            "key_themes": [
+              "AI adoption",
+              "OpenAI partnership",
+              "content strategy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 311.0,
+          "GOOGL": 362.42999267578125,
+          "MSFT": 487.4599914550781
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Lower crude prices ($79 Brent, $74.79 WTI) reduce upstream profitability despite strong diesel export demand.",
+            "key_themes": [
+              "crude price weakness",
+              "margin compression",
+              "geopolitical de-escalation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Price weakness and potential Strait of Hormuz stabilization reduce geopolitical premium and upstream returns.",
+            "key_themes": [
+              "crude price decline",
+              "supply normalization",
+              "risk premium erosion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Lower crude prices pressure upstream but strong diesel export demand benefits refining segment partially.",
+            "key_themes": [
+              "mixed refining/upstream impact",
+              "crude price weakness",
+              "diesel strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 58,
+            "rationale": "Refining strength from record US diesel exports offset by crude price weakness affecting upstream segment.",
+            "key_themes": [
+              "refining upside",
+              "crude headwind",
+              "energy crisis demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Balanced exposure to crude weakness and refining strength; Russian ESPO pivot reduces European Middle Eastern exposure.",
+            "key_themes": [
+              "balanced segments",
+              "geopolitical shifts",
+              "price weakness"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Upstream-focused producer hurt by crude price decline below $75; limited refining offset from strong diesel demand.",
+            "key_themes": [
+              "upstream pressure",
+              "price weakness",
+              "limited diversification"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Lower crude prices and potential Middle East normalization reduce upstream capex spending and oilfield services demand.",
+            "key_themes": [
+              "capex reduction risk",
+              "geopolitical normalization",
+              "demand uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 151.6300048828125,
+          "CVX": 186.41000366210938,
+          "BP": 41.209999084472656,
+          "SHEL": 87.76000213623047,
+          "TTE": 84.73999786376953,
+          "COP": 115.04000091552734,
+          "SLB": 49.90999984741211
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "CDC director confirmation supports vaccine confidence and public health initiatives benefiting J&J's vaccine portfolio.",
+            "key_themes": [
+              "regulatory support",
+              "vaccine demand",
+              "public health policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "CDC director's vaccine support is positive, but Moderna's mRNA flu approval introduces competitive pressure in vaccine segment.",
+            "key_themes": [
+              "vaccine competition",
+              "regulatory environment",
+              "mRNA innovation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Fraud scheme involving unnecessary expensive wound coverings signals increased healthcare fraud scrutiny affecting payer economics.",
+            "key_themes": [
+              "fraud risk",
+              "cost containment pressure",
+              "regulatory oversight"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 257.5899963378906,
+          "PFE": 25.809999465942383,
+          "UNH": 412.75
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI rout may increase trading volumes; gold weakness limits hedging demand.",
+            "key_themes": [
+              "market volatility",
+              "trading activity",
+              "commodity weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4,
+              5
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Broad market decline pressures banking sector; no direct catalyst in articles supports positioning.",
+            "key_themes": [
+              "market decline",
+              "sector headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "AI rout and market turmoil may create M&A advisory opportunities, but near-term sentiment is negative.",
+            "key_themes": [
+              "market volatility",
+              "potential advisory activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Articles document market volatility and AI rout but contain no information about M&A advisory opportunities or investment banking activity resulting from these events",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "Broad market selloff may pressure consumer spending and transaction volumes in near-term.",
+            "key_themes": [
+              "market decline",
+              "consumer spending risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While broad market selloff is documented, no articles discuss consumer spending impacts or transaction volume effects from this specific event",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "Market turmoil may reduce transaction volumes; no positive catalysts identified in provided articles.",
+            "key_themes": [
+              "market decline",
+              "spending pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While broad market selloff is documented, no articles discuss transaction volume impacts or spending pressure effects from this specific event",
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 359.239990234375,
+          "BAC": 63.25,
+          "GS": 1060.3800048828125,
+          "V": 368.5400085449219,
+          "MA": 570.47998046875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
