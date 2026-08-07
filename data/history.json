@@ -9750,5 +9750,368 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-08-07",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Pixel 11 launch event signals continued hardware innovation and AI integration in consumer devices.",
+            "key_themes": [
+              "AI hardware",
+              "consumer device strategy",
+              "market expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: AirPods Pro discounting suggests demand softness, but Jony Ive's OpenAI partnership indicates future AI hardware opportunities.",
+            "key_themes": [
+              "hardware pricing pressure",
+              "AI partnerships",
+              "innovation pipeline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's dominance in organic AI recommendations validates OpenAI's market position and Microsoft's strategic AI investments.",
+            "key_themes": [
+              "AI market leadership",
+              "content distribution",
+              "OpenAI partnership value"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 357.75,
+          "AAPL": 312.4100036621094,
+          "MSFT": 499.8599853515625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Geopolitical supply disruptions from Houthi attacks and potential Iran sanctions support higher oil prices and upstream margins.",
+            "key_themes": [
+              "Middle East geopolitical risk",
+              "supply constraints",
+              "refinery margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Houthi attacks on Saudi supply and potential Strait of Hormuz disruptions create upside risk to oil prices benefiting majors.",
+            "key_themes": [
+              "geopolitical supply risk",
+              "crude price upside",
+              "energy security"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Offsetting bullish signals from Middle East tensions against bearish signals from renewed U.S.-Iran diplomacy and partial Hormuz corridor agreement.",
+            "key_themes": [
+              "diplomatic resolution risk",
+              "geopolitical volatility",
+              "supply uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Supply-side tightness from Russian refinery attacks and Middle East tensions support refined product and crude prices for integrated majors.",
+            "key_themes": [
+              "refinery constraints",
+              "Middle East tensions",
+              "product margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "European major benefits from Russian refinery disruptions reducing competing supply and elevated geopolitical premium on crude.",
+            "key_themes": [
+              "supply disruption",
+              "refined products scarcity",
+              "energy security premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Houthi attacks threatening Saudi production and potential Strait of Hormuz disruptions support higher realized crude prices for upstream.",
+            "key_themes": [
+              "geopolitical supply risk",
+              "crude upside",
+              "upstream margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 154.83999633789062,
+          "CVX": 189.22999572753906,
+          "BP": 42.22999954223633,
+          "SHEL": 89.5999984741211,
+          "TTE": 86.2699966430664,
+          "COP": 116.76000213623047
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Heart drug failure challenges inflammation-as-disease-cause theory, potentially impacting pipeline assets targeting inflammatory pathways.",
+            "key_themes": [
+              "pipeline risk",
+              "therapeutic hypothesis questioned",
+              "cardiovascular"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Inflammation-targeting drug failure may invalidate similar mechanisms in Merck's cardiovascular and inflammatory disease programs.",
+            "key_themes": [
+              "pipeline risk",
+              "therapeutic hypothesis questioned",
+              "R&D uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diversified portfolio with limited direct exposure to challenged inflammation hypothesis; cardiovascular segment represents smaller portion of revenue.",
+            "key_themes": [
+              "diversification benefit",
+              "limited direct exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes J&J has limited exposure to inflammation-targeting cardiovascular programs, but source article [3] does not identify which companies are affected by the drug failure or specify J&J's pipeline exposure to this therapeutic hypothesis",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1191.93994140625,
+          "MRK": 128.3699951171875,
+          "JNJ": 256.9800109863281
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: China export strength supports global trade volumes, but AI sector volatility increases market uncertainty.",
+            "key_themes": [
+              "trade dynamics",
+              "market volatility",
+              "AI sector disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Broad market decline from AI rout may pressure trading volumes, though financial intermediation demands remain stable.",
+            "key_themes": [
+              "market volatility",
+              "trading activity",
+              "risk sentiment"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Tech-heavy client base facing significant AI infrastructure selloff; M&A advisory activity may decline amid market uncertainty.",
+            "key_themes": [
+              "tech sector weakness",
+              "M&A slowdown",
+              "client portfolio pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Wealth management and tech investment banking exposure vulnerable to broad AI sector rout and equity market volatility.",
+            "key_themes": [
+              "tech sector decline",
+              "wealth management pressure",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "China export strength supports international transaction volumes, but market volatility and consumer caution may dampen near-term payments growth.",
+            "key_themes": [
+              "cross-border trade",
+              "market uncertainty",
+              "consumer spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Similar to Visa: beneficiary of China export activity, but broad market rout and risk-off sentiment may suppress payment volumes short-term.",
+            "key_themes": [
+              "international transactions",
+              "market volatility",
+              "consumer caution"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 356.29998779296875,
+          "BAC": 63.0,
+          "GS": 1032.5799560546875,
+          "MS": 213.75,
+          "V": 370.4700012207031,
+          "MA": 575.9500122070312
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      }
+    }
   }
 ]
