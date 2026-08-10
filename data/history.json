@@ -10113,5 +10113,283 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-10",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's AI-driven search displacement highlights competitive threat; validates urgency of Google's AI integration in search products.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic redistribution",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's demonstrated ability to capture user intent and recommendation traffic validates OpenAI partnership value and AI search monetization.",
+            "key_themes": [
+              "ChatGPT utility",
+              "AI recommendation engine",
+              "content discovery shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Zuckerberg's personal distraction (yacht incident) amid critical AI competition period raises governance concerns; Meta losing focus during critical AI race.",
+            "key_themes": [
+              "leadership focus",
+              "AI competition",
+              "strategic priorities"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [5] describes a yacht rescue incident, not a distraction from AI competition. No evidence the incident affected Zuckerberg's focus on Meta's AI strategy or that it occurred 'amid critical AI competition period' in any meaningful causal sense.",
+            "supporting_article": 5
+          },
+          {
+            "ticker": "TSLA",
+            "company": "Tesla Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Autopilot crash by high-profile user raises safety and liability concerns; undermines trust in autonomous driving capability claims.",
+            "key_themes": [
+              "autonomous driving safety",
+              "liability risk",
+              "brand reputation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 354.29998779296875,
+          "MSFT": 499.989990234375,
+          "META": 592.0999755859375,
+          "TSLA": 328.5799865722656
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Hormuz tensions and Iran's hardened demands support crude prices at $78-84/bbl, benefiting upstream operators",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "elevated oil prices",
+              "Persian Gulf exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Strait of Hormuz tensions and tanker strikes elevate crude prices, supporting downstream and upstream margins",
+            "key_themes": [
+              "geopolitical premium",
+              "oil price support",
+              "energy security concerns"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Middle East supply risks and elevated Brent crude ($84/bbl) benefit integrated oil majors with upstream portfolios",
+            "key_themes": [
+              "geopolitical risk premium",
+              "production value uplift",
+              "crude price recovery"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Hormuz disruption risks and elevated oil prices support integrated major; however, clean energy transition focus may moderate upside",
+            "key_themes": [
+              "supply disruption risk",
+              "oil price support",
+              "transition headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Persian Gulf tanker attacks and Iran tensions drive crude higher, supporting Shell's integrated upstream-downstream operations",
+            "key_themes": [
+              "geopolitical supply risk",
+              "oil price elevation",
+              "LNG exposure benefits"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "COP": 117.61000061035156,
+          "XOM": 153.0399932861328,
+          "CVX": 186.55999755859375,
+          "BP": 41.630001068115234,
+          "SHEL": 88.5
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Zepbound maintains physician preference despite oral GLP-1 competition; injected weight-loss drugs dominate market",
+            "key_themes": [
+              "obesity drug market leadership",
+              "Zepbound physician preference",
+              "GLP-1 competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Inflammation-targeted heart drug failure challenges disease theory foundation affecting cardiology pipeline prospects",
+            "key_themes": [
+              "drug development setback",
+              "inflammation hypothesis challenged",
+              "cardiology R&D risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses a heart drug failure challenging inflammation theory, but does not attribute the drug to Merck. The analyst assumes Merck connection without source support.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1185.7099609375,
+          "MRK": 128.5800018310547
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market decline from AI rout may pressure financial services, but fundamental banking operations remain stable.",
+            "key_themes": [
+              "market volatility",
+              "AI sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Broad market selloff and economic uncertainty from geopolitical tensions (Iran/Hormuz) may reduce transaction volumes.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Similar payment processing headwinds as Visa amid market downturn and potential consumer spending slowdown.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 357.5199890136719,
+          "V": 362.5,
+          "MA": 562.9500122070312
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      }
+    }
   }
 ]
