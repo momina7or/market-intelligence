@@ -10391,5 +10391,385 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-11",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic traffic integration threatens Google's search monopoly, signaling urgent AI monetization need.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic competition",
+              "AI-powered recommendations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes one anecdotal instance of ChatGPT recommending a course, not systematic 'organic traffic integration' or a threat to Google's 'search monopoly'. The claim overgeneralizes a single user experience into a broader competitive threat without evidence of scale or market impact.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT gaining organic traffic traction demonstrates strong OpenAI partnership value and AI platform dominance.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI integration",
+              "content discovery platform"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] only shows ChatGPT recommending content once; this does not constitute evidence of 'gaining organic traffic traction' or demonstrate 'AI platform dominance'. The anecdote is insufficient to support claims about OpenAI partnership value or content discovery platform success.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Articles highlight AI tools proliferation for content creation; Meta's AI tools facing increasing competitive pressure.",
+            "key_themes": [
+              "AI content tools competition",
+              "creator platform disruption",
+              "monetization challenges"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 357.5199890136719,
+          "MSFT": 506.05999755859375,
+          "META": 594.9199829101562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Geopolitical tensions between U.S. and Iran escalating, reducing peace prospects and supporting crude oil prices above $82 WTI.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "crude oil price support",
+              "supply disruption risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Iran-U.S. tensions driving oil prices higher; Libya supply disruptions from drone attacks reducing global crude availability.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "crude price tailwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Libya's Zawiya terminal force majeure declaration removes 120,000 bbl/day from exports; Brent crude at $87.72 supports margins.",
+            "key_themes": [
+              "supply disruption",
+              "Brent price support",
+              "production loss"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Libyan supply disruptions and Iran tensions boost crude prices; company benefits from Brent at $87.72 with improved downstream margins.",
+            "key_themes": [
+              "supply disruption",
+              "crude price support",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Libyan production disruptions and escalating U.S.-Iran tensions support crude prices; company exposed to supply tightness.",
+            "key_themes": [
+              "supply disruption",
+              "crude price tailwinds",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Deteriorating U.S.-Iran relations and Libyan supply losses create oil price support environment; WTI-Brent spread widening.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Higher oil prices may support upstream investment, but news articles lack direct oilfield services demand signals.",
+            "key_themes": [
+              "potential upstream spending",
+              "indirect benefit"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'higher oil prices may support upstream investment' and mentions 'oilfield services demand signals' but no articles discuss oilfield services demand or upstream capital expenditure plans. The oil price articles do not contain information about E&P spending intentions.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 159.7899932861328,
+          "CVX": 194.91000366210938,
+          "BP": 42.880001068115234,
+          "SHEL": 89.94999694824219,
+          "TTE": 87.95999908447266,
+          "COP": 123.02999877929688,
+          "SLB": 53.20000076293945
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Executive order to reduce pediatric vaccine requirements threatens core vaccine portfolio revenue streams.",
+            "key_themes": [
+              "vaccine demand reduction",
+              "regulatory risk",
+              "immunization schedule changes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "Trump's executive order cutting pediatric vaccine mandates directly impacts Pfizer's significant vaccine business.",
+            "key_themes": [
+              "vaccine demand reduction",
+              "policy risk",
+              "revenue headwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: vaccine demand threatened by executive order, but HPV cancer research validation supports long-term oncology pipeline value.",
+            "key_themes": [
+              "vaccine risk offset",
+              "oncology opportunity",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial grounding: HPV cancer research is supported by Article 2 (Maura Gillison's work), but executive order impact on Merck vaccines is supported by Article 4. However, the rationale assumes Merck has significant pediatric vaccine business, which is not explicitly stated in the articles.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Active cancer screening promotion campaign positions Abbott diagnostics favorably for early detection market expansion.",
+            "key_themes": [
+              "cancer screening growth",
+              "marketing expansion",
+              "diagnostic demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Critical error: Abbott (not AbbVie/ABBV) is mentioned in Article 6. Abbott and AbbVie are separate companies. The article discusses Abbott's colon cancer screening campaign, but this does not apply to AbbVie Inc. ticker ABBV. This is a fundamental company misidentification.",
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 261.80999755859375,
+          "PFE": 27.049999237060547,
+          "MRK": 130.9199981689453,
+          "ABBV": 247.97000122070312
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Leading investment bank positioned to advise and finance the $500B AI infrastructure funding wave",
+            "key_themes": [
+              "AI investment boom",
+              "capital markets growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Major investment bank among six firms raising $500B for AI infrastructure, driving advisory and underwriting fees",
+            "key_themes": [
+              "AI investment boom",
+              "capital markets activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Prominent investment bank participating in $500B AI infrastructure capital raise, expanding client monetization opportunities",
+            "key_themes": [
+              "AI investment boom",
+              "capital raising"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Potential beneficiary of AI data center buildout but no direct news exposure; mixed market sentiment on AI valuations",
+            "key_themes": [
+              "AI infrastructure",
+              "market volatility"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "No articles mention Berkshire Hathaway's involvement or positioning in AI data center buildout. Article [3] mentions data center concerns but does not reference BRK-B.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No direct exposure to AI boom articles; broadly exposed to market sentiment shifts but fundamentals unchanged",
+            "key_themes": [
+              "macro volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No direct exposure to AI boom articles; broadly exposed to market sentiment shifts but fundamentals unchanged",
+            "key_themes": [
+              "macro volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 359.7900085449219,
+          "GS": 1034.510009765625,
+          "MS": 215.3300018310547,
+          "BRK-B": 529.4199829101562,
+          "V": 361.32000732421875,
+          "MA": 563.1699829101562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
