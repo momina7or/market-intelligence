@@ -10771,5 +10771,288 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-08-12",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search integration threatens Google's search dominance; validates AI-powered search as market reality.",
+            "key_themes": [
+              "AI search disruption",
+              "competitive threat from OpenAI",
+              "organic traffic displacement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes one anecdotal instance of ChatGPT recommending a course, not systematic organic search integration or market-wide threat to Google's search dominance. The signal mischaracterizes a single user experience as validation of competitive threat.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "OpenAI/ChatGPT driving organic traffic and content discovery; validates AI assistant monetization strategy.",
+            "key_themes": [
+              "AI assistant adoption",
+              "content discovery",
+              "ChatGPT integration value"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] shows ChatGPT directing traffic to content but does not validate 'AI assistant monetization strategy' or establish this as a meaningful revenue model. The article describes organic discovery, not monetization. No evidence of ChatGPT integration value as a business driver.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 343.79998779296875,
+          "MSFT": 503.80999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Alaska LNG FID advancement with Trump administration backing creates major LNG export opportunity for U.S. majors.",
+            "key_themes": [
+              "LNG project development",
+              "geopolitical tailwinds",
+              "capital projects"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Alaska LNG progress and Asian buyer commitment support premium LNG pricing and long-term contract visibility.",
+            "key_themes": [
+              "LNG export growth",
+              "Asian demand",
+              "project financing"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Alaska LNG megaproject advancement directly impacts COP's Alaska operations and monetization strategy for Arctic resources.",
+            "key_themes": [
+              "Alaska assets",
+              "LNG export",
+              "Arctic development"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Iran geopolitical tensions create supply uncertainty but TTE has limited direct exposure vs. majors with larger global footprints.",
+            "key_themes": [
+              "geopolitical risk",
+              "supply security",
+              "energy security"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses Iran's control of maritime straits and geopolitical tensions but does not quantify or assess TotalEnergies' specific exposure relative to other majors. The rationale makes a comparative claim ('limited direct exposure vs. majors with larger global footprints') that is not supported by the source material.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Strait of Hormuz control concerns present tail risk to global oil flows, but no company-specific catalysts in articles.",
+            "key_themes": [
+              "supply chain risk",
+              "geopolitical uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "While article [2] discusses Strait of Hormuz control by Iran, it does not identify BP specifically or mention any company-specific catalysts. The rationale acknowledges lack of company-specific catalysts but still extrapolates geopolitical risk without anchoring to BP's actual exposure described in the sources.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 159.8000030517578,
+          "CVX": 196.66000366210938,
+          "COP": 125.91999816894531,
+          "TTE": 87.94999694824219,
+          "BP": 43.15999984741211
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "ATTR-CM market competition intensifying; Attruby stabilizer-first approach challenges existing treatment paradigms.",
+            "key_themes": [
+              "ATTR-CM market competition",
+              "drug positioning risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] discusses ATTR-CM market competition between Attruby and Alnylam, but does not mention Eli Lilly or LLY involvement in this market. The rationale assumes LLY participation without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Childhood vaccine executive order creates regulatory uncertainty affecting pediatric vaccine portfolio and future revenue streams.",
+            "key_themes": [
+              "vaccine regulatory risk",
+              "policy uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Trump's third executive order on childhood vaccines poses direct threat to Pfizer's pediatric immunization business revenue.",
+            "key_themes": [
+              "vaccine demand risk",
+              "political headwind"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Vaccine portfolio exposure; executive order targeting childhood vaccines creates near-term commercial uncertainty.",
+            "key_themes": [
+              "vaccine market threat",
+              "policy risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1215.02001953125,
+          "JNJ": 259.79998779296875,
+          "PFE": 26.6200008392334,
+          "MRK": 130.4199981689453
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market AI selloff creates short-term volatility; financial services relatively insulated from DeepSeek concerns.",
+            "key_themes": [
+              "market volatility",
+              "AI sector rotation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tech selloff triggers market-wide uncertainty; banking sector defensive positioning remains stable.",
+            "key_themes": [
+              "market volatility",
+              "defensive positioning"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Broad stock market decline from AI panic may reduce consumer spending and payment transaction volumes in near-term.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Sources confirm market AI selloff (article 4) but contain no evidence linking stock declines to reduced consumer spending or payment transaction volumes. The causal link between market volatility and Visa transaction volumes is unsupported speculation.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 56,
+            "rationale": "Market-wide AI selloff creates headwinds for payment processor as consumer activity may contract temporarily.",
+            "key_themes": [
+              "market volatility",
+              "transaction volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Sources confirm market AI selloff (article 4) but contain no evidence that market volatility causes consumer activity contraction or impacts payment processor transaction volumes. The connection is assumed rather than evidenced.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 362.0400085449219,
+          "BAC": 64.0,
+          "V": 362.82000732421875,
+          "MA": 561.4400024414062
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

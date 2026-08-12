@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-11",
-  "run_time": "2026-08-11T08:09:25.585545Z",
+  "run_date": "2026-08-12",
+  "run_time": "2026-08-12T08:15:16.114161Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,28 +29,28 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Mark Zuckerberg doesn\u2019t understand how to live",
-          "summary": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
+          "title": "Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT",
+          "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! [&#8230;]",
+          "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
           "source": "Theverge",
-          "published": "10 Aug 2026",
+          "published": "12 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Anker&#8217;s travel charger works in almost any country and is down to $20",
-          "summary": "If you\u2019ve got international travel coming up, an adapter is essential for keeping your phone, earbuds, power banks, and other gadgets charged. Anker\u2019s Nano Travel Adapter is one of our picks from our guide to the best gadgets for summer travel because it can charge up to five devices at once, yet it\u2019s small enough [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/977626/anker-nano-travel-adapter-summer-travel-tech-deal-sale",
+          "title": "Xbox Elite 3 prototype pad leaks with tiny built-in screen",
+          "summary": "Did a prototype Microsoft gamepad fall off the back of a truck? We can't say, but a Redditor has legit-looking photos of a prototype Xbox controller that's almost certainly the Xbox Elite Series 3. Incredibly, they claim they bought the pad for $200 on OfferUp. In May, a Brazilian regulator's leaked images revealed that Xbox [&#8230;]",
+          "url": "https://www.theverge.com/games/978374/xbox-elite-3-prototype-pad-leaks-with-tiny-built-in-screen",
           "source": "Theverge",
-          "published": "10 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "11 Aug 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Bluesky now lets you hide reposts from that annoying person you follow",
-          "summary": "Bluesky has added a new feature that lets you hide reposts from a specific person in your feeds. The tool might be helpful if you want to stop seeing reposts from that one person who clogs up your feed with reposts of things you don't care about. If you follow me, I may be that [&#8230;]",
-          "url": "https://www.theverge.com/tech/977581/bluesky-hide-reposts-user-post-count-threads",
+          "title": "An FCC filing points to new Sonos headphones coming soon",
+          "summary": "It looks like we'll be getting a successor to the Sonos Ace headphones sometime this fall, which was hinted at by CEO Tom Conrad during a third quarter earnings call. As reported by What Hi-Fi?, an FCC filing by Sonos, Inc reveals details about upcoming wireless headphones with the model number S52A. In addition to [&#8230;]",
+          "url": "https://www.theverge.com/tech/978355/sonos-headphones-fcc-filing",
           "source": "Theverge",
-          "published": "10 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "11 Aug 2026",
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
@@ -60,73 +60,56 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's organic traffic integration threatens Google's search monopoly, signaling urgent AI monetization need.",
+            "rationale": "ChatGPT's organic search integration threatens Google's search dominance; validates AI-powered search as market reality.",
             "key_themes": [
               "AI search disruption",
-              "organic traffic competition",
-              "AI-powered recommendations"
+              "competitive threat from OpenAI",
+              "organic traffic displacement"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [1] describes one anecdotal instance of ChatGPT recommending a course, not systematic 'organic traffic integration' or a threat to Google's 'search monopoly'. The claim overgeneralizes a single user experience into a broader competitive threat without evidence of scale or market impact.",
+            "verification_issue": "Article [1] describes one anecdotal instance of ChatGPT recommending a course, not systematic organic search integration or market-wide threat to Google's search dominance. The signal mischaracterizes a single user experience as validation of competitive threat.",
             "supporting_article": 1
           },
           {
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "ChatGPT gaining organic traffic traction demonstrates strong OpenAI partnership value and AI platform dominance.",
+            "conviction": 68,
+            "rationale": "OpenAI/ChatGPT driving organic traffic and content discovery; validates AI assistant monetization strategy.",
             "key_themes": [
-              "ChatGPT adoption",
-              "AI integration",
-              "content discovery platform"
+              "AI assistant adoption",
+              "content discovery",
+              "ChatGPT integration value"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [1] only shows ChatGPT recommending content once; this does not constitute evidence of 'gaining organic traffic traction' or demonstrate 'AI platform dominance'. The anecdote is insufficient to support claims about OpenAI partnership value or content discovery platform success.",
+            "verification_issue": "Article [1] shows ChatGPT directing traffic to content but does not validate 'AI assistant monetization strategy' or establish this as a meaningful revenue model. The article describes organic discovery, not monetization. No evidence of ChatGPT integration value as a business driver.",
             "supporting_article": 1
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Articles highlight AI tools proliferation for content creation; Meta's AI tools facing increasing competitive pressure.",
-            "key_themes": [
-              "AI content tools competition",
-              "creator platform disruption",
-              "monetization challenges"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
           }
         ],
-        "summary": "The articles reveal a significant shift in AI-driven content discovery, with ChatGPT demonstrating organic traffic generation capabilities that directly challenge traditional search and social platforms. While Microsoft benefits from OpenAI's rising relevance, Google faces structural threats to its search dominance, and Meta confronts intensifying competition in AI content tools. The broader theme indicates AI is reshaping digital traffic flows away from traditional intermediaries.",
+        "summary": "Articles reveal significant AI adoption trends favoring conversational AI platforms (ChatGPT) over traditional search, with clear implications for search ecosystem leaders. Microsoft's OpenAI partnership positioning appears strengthened by demonstrated user behavior shift toward AI-powered content discovery. Limited direct hardware/manufacturing insights provided; most articles focus on AI tooling and content creation rather than semiconductor or infrastructure demand.",
         "risks": [
-          "Regulatory scrutiny on AI content recommendation systems",
-          "Uncertainty around ChatGPT's long-term monetization sustainability",
-          "Rapid AI tool commoditization reducing competitive differentiation",
-          "User backlash against AI-generated content quality concerns"
+          "Regulatory scrutiny on AI-generated content and copyright implications",
+          "Uncertainty around monetization models for AI-driven organic discovery",
+          "Limited concrete financial impact data; sentiment based on anecdotal user behavior rather than market metrics"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "GOOGL rationale claims ChatGPT creates a 'search monopoly threat' based on a single anecdotal recommendation in Article [1]",
-            "MSFT rationale claims 'gaining organic traffic traction' without quantitative evidence or data on adoption scale",
-            "Both GOOGL and MSFT signals extrapolate heavily from Article [1], which is a personal blog post about one user experience, not market-level analysis",
-            "No articles discuss Google's competitive response, market share impact, or actual threat to Google's business model"
+            "Signal overgeneralizes from single anecdotal example in Article [1] to broad market threat claims",
+            "No source material discusses Google's search market dominance being threatened by ChatGPT",
+            "No source material validates ChatGPT or OpenAI as monetization strategy for Microsoft",
+            "Articles [2-6] are unrelated to the signals and do not support ChatGPT competitive analysis",
+            "Conviction levels (72, 68) appear unsupported by the thin evidence in source material"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "GOOGL": 357.5199890136719,
-        "MSFT": 506.05999755859375,
-        "META": 594.9199829101562
+        "GOOGL": 343.79998779296875,
+        "MSFT": 503.80999755859375
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -136,27 +119,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "ChatGPT gaining organic traffic traction demonstrates strong OpenAI partnership value and AI platform dominance.",
+          "conviction": 72,
+          "rationale": "ChatGPT's organic search integration threatens Google's search dominance; validates AI-powered search as market reality.",
           "key_themes": [
-            "ChatGPT adoption",
-            "AI integration",
-            "content discovery platform"
+            "AI search disruption",
+            "competitive threat from OpenAI",
+            "organic traffic displacement"
           ],
           "time_horizon": "medium-term",
           "verified": false,
-          "verification_issue": "Article [1] only shows ChatGPT recommending content once; this does not constitute evidence of 'gaining organic traffic traction' or demonstrate 'AI platform dominance'. The anecdote is insufficient to support claims about OpenAI partnership value or content discovery platform success.",
+          "verification_issue": "Article [1] describes one anecdotal instance of ChatGPT recommending a course, not systematic organic search integration or market-wide threat to Google's search dominance. The signal mischaracterizes a single user experience as validation of competitive threat.",
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT gaining organic traffic traction demonstrates strong OpenAI partnership value and AI platform dominance.",
+        "haiku_rationale": "ChatGPT's organic search integration threatens Google's search dominance; validates AI-powered search as market reality.",
         "haiku_themes": [
-          "ChatGPT adoption",
-          "AI integration",
-          "content discovery platform"
+          "AI search disruption",
+          "competitive threat from OpenAI",
+          "organic traffic displacement"
         ]
       },
       "config": {
@@ -176,26 +159,42 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Global Gas Turbine Orders Hit Record High as Power Demand Surges",
-          "summary": "Global orders for gas turbines have hit a record high as demand for power generation surges, according to JP Morgan. New gas turbine orders in the second quarter stood at 38 GW, which was 29% higher than orders in the first quarter of the year, the bank said, as quoted by Bloomberg. The increase in second-quarter orders was much higher on an annual basis, too, at 71%, JP Morgan also reported. Of the three big gas turbine makers, Siemens Energy saw the most new orders in the second quarter, at a ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Gas-Turbine-Orders-Hit-Record-High-as-Power-Demand-Surges.html",
+          "title": "Russia Imports Indian Fuel as Refinery Crisis Deepens",
+          "summary": "Russia has started importing fuels from India, Bloomberg reported today, citing Kpler data that shows one cargo of 42,000 tons of gasoline from Nayara Energy\u2019s Vadinar refinery arriving in Russia earlier this month. The Vadinar refinery is partly owned by Rosneft, which supplies the crude oil that is processed at the facility. Those shipments were disrupted last November, after the United States sanctioned Russia\u2019s largest oil exporter. The Vadinar cargo was loaded in mid-June, the report said, ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Imports-Indian-Fuel-as-Refinery-Crisis-Deepens.html",
+          "source": "Oilprice",
+          "published": "12 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Inside the U.S.\u2013Israel\u2013Saudi Plan to Cut Iran Out of Global Oil",
+          "summary": "Whatever officially occurs next in the on-again/off-again negotiations towards a peace deal between the U.S. and Iran, unofficially Tehran knows that it has established de facto control over both the world\u2019s two key maritime energy transit routes -- the Strait of Hormuz and the Bab el-Mandeb Strait -- for at least as long as the Islamic regime remains in place in Iran. Washington, London, Brussels, Beijing, and Moscow know it too. The Strait of Hormuz remains effectively controlled by vast Irani",
+          "url": "https://oilprice.com/Energy/Energy-General/Inside-the-Secret-USIsraelSaudi-Plan-to-Cut-Iran-Out-of-the-Global-Oil-Suppl.html",
+          "source": "Oilprice",
+          "published": "12 Aug 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Alaska\u2019s $55B LNG Mega-Project In Talks With More Buyers Ahead Of FID",
+          "summary": "Two years ago, Alaska LNG was struggling to secure the private financing needed to move forward, with high Arctic construction costs, logistical complexities and massive upfront property tax burdens making lenders and potential Asian buyers hesitant to commit. But since then, the outlook for the $55-billion megaproject has improved considerably. The proposed 800-mile pipeline and LNG export project has gained strong backing from the Trump administration, with President Trump pushing Japan and So",
+          "url": "https://oilprice.com/Energy/Natural-Gas/Alaskas-55B-LNG-Mega-Project-In-Talks-With-More-Buyers-Ahead-Of-FID.html",
           "source": "Oilprice",
           "published": "11 Aug 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Libya Weighs Force Majeure After Drone Attacks on Zawiya Oil Hub",
-          "summary": "Libya\u2019s National Oil Corporation may declare force majeure on exports from the Zawya oil terminal as a result of drone attacks on the facility. The Zawya terminal has a daily capacity of 120,000 barrels, sourced from the country\u2019s largest oil field, Sharara, which can produce up to 300,000 barrels daily, Reuters noted in a report on the possibility of a force majeure declaration. According to reports, a drone strike had destroyed a storage tank and another drone had targeted an oil blending faci",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Weighs-Force-Majeure-After-Drone-Attacks-on-Zawiya-Oil-Hub.html",
-          "source": "Oilprice",
+          "title": "Anesco secures NIC backing to expand utility-scale solar and storage",
+          "summary": "Anesco has announced a strategic investment from NIC to support the expansion of its utility-scale solar and BESS projects.",
+          "url": "https://www.energymonitor.ai/news/anesco-secures-nic-backing/",
+          "source": "Energymonitor",
           "published": "11 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Oil Prices Climb as U.S.-Iran Peace Hopes Fade",
-          "summary": "Crude oil prices moved higher today as the chances of a lasting peace between the United States and Iran shriveled following Iran\u2019s release of six conditions earlier this week and President Trump\u2019s unsurprising reaction to them. At the time of writing, Brent crude traded at $87.72 per barrel, and West Texas Intermediate was trading at $82.13 per barrel, after President Trump demanded that Iran pay reparations to the U.S. for war-related damages. \u201cWe're going to ask for money for the damage they'",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-US-Iran-Peace-Hopes-Fade.html",
-          "source": "Oilprice",
+          "title": "Cadeler signs $929m contract for T-class wind installation vessels",
+          "summary": "Cadeler has entered into firm contracts worth approximately $929m with COSCO Shipping Offshore shipyard in Qidong, China.",
+          "url": "https://www.energymonitor.ai/news/cadeler-contract-t-class-vessels/",
+          "source": "Energymonitor",
           "published": "11 Aug 2026",
           "sentiment_hint": "neutral"
         },
@@ -206,22 +205,6 @@
           "source": "Energymonitor",
           "published": "10 Aug 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Sembcorp gets conditional nod for 300MW power import project",
-          "summary": "Sembcorp has secured conditional approval from Singapore\u2019s EMA to proceed with a 300MW renewable power import project.",
-          "url": "https://www.energymonitor.ai/news/sembcorp-conditional-nod-power-project/",
-          "source": "Energymonitor",
-          "published": "10 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "ABB invests in LevelTen Energy to support clean energy procurement",
-          "summary": "ABB has made a minority investment in LevelTen Energy, in addition to entering into a strategic partnership with the US-based company.",
-          "url": "https://www.energymonitor.ai/news/abb-invests-in-levelten-energy/",
-          "source": "Energymonitor",
-          "published": "07 Aug 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
@@ -231,13 +214,13 @@
             "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Geopolitical tensions between U.S. and Iran escalating, reducing peace prospects and supporting crude oil prices above $82 WTI.",
+            "rationale": "Alaska LNG FID advancement with Trump administration backing creates major LNG export opportunity for U.S. majors.",
             "key_themes": [
-              "geopolitical risk premium",
-              "crude oil price support",
-              "supply disruption risk"
+              "LNG project development",
+              "geopolitical tailwinds",
+              "capital projects"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 3
@@ -247,163 +230,118 @@
             "company": "Chevron Corporation",
             "sentiment": "bullish",
             "conviction": 70,
-            "rationale": "Iran-U.S. tensions driving oil prices higher; Libya supply disruptions from drone attacks reducing global crude availability.",
+            "rationale": "Alaska LNG progress and Asian buyer commitment support premium LNG pricing and long-term contract visibility.",
             "key_themes": [
-              "geopolitical risk premium",
-              "supply disruption",
-              "crude price tailwinds"
+              "LNG export growth",
+              "Asian demand",
+              "project financing"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Libya's Zawiya terminal force majeure declaration removes 120,000 bbl/day from exports; Brent crude at $87.72 supports margins.",
-            "key_themes": [
-              "supply disruption",
-              "Brent price support",
-              "production loss"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 69,
-            "rationale": "Libyan supply disruptions and Iran tensions boost crude prices; company benefits from Brent at $87.72 with improved downstream margins.",
-            "key_themes": [
-              "supply disruption",
-              "crude price support",
-              "geopolitical risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 71,
-            "rationale": "Libyan production disruptions and escalating U.S.-Iran tensions support crude prices; company exposed to supply tightness.",
-            "key_themes": [
-              "supply disruption",
-              "crude price tailwinds",
-              "geopolitical risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Deteriorating U.S.-Iran relations and Libyan supply losses create oil price support environment; WTI-Brent spread widening.",
+            "conviction": 75,
+            "rationale": "Alaska LNG megaproject advancement directly impacts COP's Alaska operations and monetization strategy for Arctic resources.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk",
-              "crude price support"
+              "Alaska assets",
+              "LNG export",
+              "Arctic development"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
+            "supporting_article": 3
           },
           {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Higher oil prices may support upstream investment, but news articles lack direct oilfield services demand signals.",
+            "rationale": "Iran geopolitical tensions create supply uncertainty but TTE has limited direct exposure vs. majors with larger global footprints.",
             "key_themes": [
-              "potential upstream spending",
-              "indirect benefit"
+              "geopolitical risk",
+              "supply security",
+              "energy security"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale claims 'higher oil prices may support upstream investment' and mentions 'oilfield services demand signals' but no articles discuss oilfield services demand or upstream capital expenditure plans. The oil price articles do not contain information about E&P spending intentions.",
-            "supporting_article": null
+            "verification_issue": "Article [2] discusses Iran's control of maritime straits and geopolitical tensions but does not quantify or assess TotalEnergies' specific exposure relative to other majors. The rationale makes a comparative claim ('limited direct exposure vs. majors with larger global footprints') that is not supported by the source material.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Strait of Hormuz control concerns present tail risk to global oil flows, but no company-specific catalysts in articles.",
+            "key_themes": [
+              "supply chain risk",
+              "geopolitical uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "While article [2] discusses Strait of Hormuz control by Iran, it does not identify BP specifically or mention any company-specific catalysts. The rationale acknowledges lack of company-specific catalysts but still extrapolates geopolitical risk without anchoring to BP's actual exposure described in the sources.",
+            "supporting_article": 2
           }
         ],
-        "summary": "Integrated and independent oil majors face a bullish near-term environment driven by escalating U.S.-Iran geopolitical tensions reducing peace prospects, combined with supply disruptions from Libya's Zawiya terminal force majeure declaration. Crude prices (Brent $87.72, WTI $82.13) are benefiting from both geopolitical risk premium and reduced export capacity, supporting upstream cash generation and downstream margins. However, risks include potential military escalation or sudden diplomatic breakthroughs that could reverse these tailwinds.",
+        "summary": "The petroleum sector shows bullish momentum driven by Alaska LNG megaproject advancement toward FID with strong Trump administration and Asian buyer backing, benefiting U.S. majors with Arctic exposure. Geopolitical tensions around Iran's control of critical maritime chokepoints create medium-term supply uncertainty and elevated risk premiums, though this represents a structural headwind rather than near-term opportunity. Energy transition articles highlight sector-wide competitive pressures from renewables infrastructure investment.",
         "risks": [
-          "Unexpected U.S.-Iran diplomatic breakthrough reversing risk premium",
-          "Libyan supply restoration faster than expected",
-          "Global recession reducing energy demand",
-          "Accelerating clean energy transition reducing long-term oil demand"
+          "Iran escalation could disrupt Hormuz transit and spike oil prices unsustainably, triggering demand destruction",
+          "Alaska LNG project delays or cost overruns could undermine financing and delay monetization beyond 2030",
+          "Renewable energy expansion and storage solutions reducing long-term oil/LNG demand growth assumptions",
+          "Chinese geopolitical leverage over shipyard construction timelines for energy infrastructure projects"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "SLB signal lacks grounding: while oil prices are discussed in articles, there is no evidence of upstream investment or oilfield services demand signals in the source material"
+            "TTE signal makes unsupported comparative claim about exposure relative to other majors without source basis",
+            "BP signal acknowledges lack of company-specific information but uses that as rationale anyway, creating circular logic"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "XOM": 159.7899932861328,
-        "CVX": 194.91000366210938,
-        "BP": 42.880001068115234,
-        "SHEL": 89.94999694824219,
-        "TTE": 87.95999908447266,
-        "COP": 123.02999877929688,
-        "SLB": 53.20000076293945
+        "XOM": 159.8000030517578,
+        "CVX": 196.66000366210938,
+        "COP": 125.91999816894531,
+        "TTE": 87.94999694824219,
+        "BP": 43.15999984741211
       },
       "spot_check": {
-        "title": "Global Gas Turbine Orders Hit Record High as Power Demand Surges",
-        "summary": "Global orders for gas turbines have hit a record high as demand for power generation surges, according to JP Morgan. New gas turbine orders in the second quarter stood at 38 GW, which was 29% higher than orders in the first quarter of the year, the bank said, as quoted by Bloomberg. The increase in second-quarter orders was much higher on an annual basis, too, at 71%, JP Morgan also reported. Of the three big gas turbine makers, Siemens Energy saw the most new orders in the second quarter, at a ",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Gas-Turbine-Orders-Hit-Record-High-as-Power-Demand-Surges.html",
+        "title": "Russia Imports Indian Fuel as Refinery Crisis Deepens",
+        "summary": "Russia has started importing fuels from India, Bloomberg reported today, citing Kpler data that shows one cargo of 42,000 tons of gasoline from Nayara Energy\u2019s Vadinar refinery arriving in Russia earlier this month. The Vadinar refinery is partly owned by Rosneft, which supplies the crude oil that is processed at the facility. Those shipments were disrupted last November, after the United States sanctioned Russia\u2019s largest oil exporter. The Vadinar cargo was loaded in mid-June, the report said, ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Imports-Indian-Fuel-as-Refinery-Crisis-Deepens.html",
         "source": "Oilprice",
-        "published": "11 Aug 2026",
-        "sentiment_hint": "bullish",
+        "published": "12 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "ExxonMobil Corporation",
+          "ticker": "COP",
+          "company": "ConocoPhillips",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Geopolitical tensions between U.S. and Iran escalating, reducing peace prospects and supporting crude oil prices above $82 WTI.",
+          "conviction": 75,
+          "rationale": "Alaska LNG megaproject advancement directly impacts COP's Alaska operations and monetization strategy for Arctic resources.",
           "key_themes": [
-            "geopolitical risk premium",
-            "crude oil price support",
-            "supply disruption risk"
+            "Alaska assets",
+            "LNG export",
+            "Arctic development"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Geopolitical tensions between U.S. and Iran escalating, reducing peace prospects and supporting crude oil prices above $82 WTI.",
+        "haiku_rationale": "Alaska LNG megaproject advancement directly impacts COP's Alaska operations and monetization strategy for Arctic resources.",
         "haiku_themes": [
-          "geopolitical risk premium",
-          "crude oil price support",
-          "supply disruption risk"
+          "Alaska assets",
+          "LNG export",
+          "Arctic development"
         ]
       },
       "config": {
@@ -423,6 +361,22 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "A.I. Offers Hope for Men With Infertility, Spotting \u2018Hidden\u2019 Sperm",
+          "summary": "New technology may make it easier for men with extremely low sperm counts to have biological children.",
+          "url": "https://www.nytimes.com/2026/08/11/science/ai-infertile-men-sperm.html",
+          "source": "Rss",
+          "published": "11 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Trump Signs Executive Order Calling for Fewer Childhood Vaccines",
+          "summary": "It is not clear whether the order, the president\u2019s third to address the topic in less than a year, has any legal power.",
+          "url": "https://www.nytimes.com/2026/08/10/well/trump-vaccines-executive-order.html",
+          "source": "Rss",
+          "published": "11 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
           "title": "Taylor Farms Voluntarily Recalls Fresh Jalape\u00f1os Over Salmonella Concerns",
           "summary": "The company said it was unaware of any reported illnesses linked to its products containing jalape\u00f1os, which were distributed to major retailers across 26 states.",
           "url": "https://www.nytimes.com/2026/08/09/business/taylor-farms-jalapenos-salmonella.html",
@@ -431,165 +385,142 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Maura L. Gillison, Who Linked Throat Cancers to HPV, Dies at 61",
-          "summary": "She challenged the conventional view that most head and neck cancers resulted from cigarette smoking and excessive alcohol consumption.",
-          "url": "https://www.nytimes.com/2026/08/09/science/maura-l-gillison-dead.html",
-          "source": "Rss",
-          "published": "10 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "What Is Fauci Being Accused of and Why Is He Being Held in Contempt?",
-          "summary": "The case is unique, legal scholars say, because of the tension between the Fifth Amendment and the reach of a presidential pardon. The potential consequences could be grave.",
-          "url": "https://www.nytimes.com/2026/08/05/us/politics/fauci-contempt-vote-congress.html",
-          "source": "Rss",
-          "published": "06 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/providers/trump-signs-executive-order-overhaul-pediatric-vaccine-recommendations\" hreflang=\"en\">Trump signs executive order to overhaul pediatric vaccine recommendations</a>",
-          "summary": "President Donald Trump signed an executive order Monday that calls for reducing the number of required vaccinations for children in a move that backs a revised immunization schedule pushed by the Department of Health and Human Services.",
-          "url": "https://www.fiercepharma.com/providers/trump-signs-executive-order-overhaul-pediatric-vaccine-recommendations",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/unapproved-us-decades-levosimendan-stumbles-phase-3-tenax-eyes-narrow-fda-path\" hreflang=\"en\">Unapproved in US for decades, levosimendan stumbles in phase 3 as Tenax eyes narrow FDA path</a>",
-          "summary": "Nearly three decades after its failed bid for FDA approval, the cardiovascular drug levosimendan is still struggling to secure a decisive clinical win to enter the U.S. market.",
-          "url": "https://www.fiercepharma.com/pharma/unapproved-us-decades-levosimendan-stumbles-phase-3-tenax-eyes-narrow-fda-path",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/snapchat-creates-ad-format-support-pharma-disclosure-needs\" hreflang=\"en\">Snapchat creates ad format to support pharma disclosure needs</a>",
+          "summary": "Snapchat is courting pharma marketers with a new ad format designed to support the disclosure needs of branded prescription drug campaigns.",
+          "url": "https://www.fiercepharma.com/marketing/snapchat-creates-ad-format-support-pharma-disclosure-needs",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/abbott-casts-telenovela-star-gabriela-spanic-take-drama-out-colon-cancer-screening\" hreflang=\"en\">Abbott casts telenovela star Gabriela Spanic to take the drama out of colon cancer screening</a>",
-          "summary": "Abbott has enlisted telenovela star Gabriela Spanic to push the message that getting screened for colon cancer doesn\u2019t have to be dramatic.",
-          "url": "https://www.fiercepharma.com/marketing/abbott-casts-telenovela-star-gabriela-spanic-take-drama-out-colon-cancer-screening",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/wuxi-apptec-scores-temporary-win-amid-fight-over-dods-chinese-military-company-brand\" hreflang=\"en\">WuXi AppTec scores temporary win amid fight over DOD's Chinese military company brand</a>",
+          "summary": "Arguing that the Defense Department might have misread the evidence and inflicted harm on the company, a federal judge has thrown WuXi AppTec a lifeline as the research and manufacturing services juggernaut fights its recent classification by the U.S. government as a Chinese military company.",
+          "url": "https://www.fiercepharma.com/pharma/wuxi-apptec-scores-temporary-win-amid-fight-over-dods-chinese-military-company-brand",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/attruby-cruises-toward-blockbuster-land-bridgebio-ceo-spots-stabilizer-first-attr-market\" hreflang=\"en\">Attruby cruises toward blockbuster land as BridgeBio CEO spots \u2018stabilizer-first\u2019 ATTR market</a>",
+          "summary": "Despite their divergent second-quarter performance against consensus estimates, BridgeBio and Alnylam are now targeting the same population\u2014first-line ATTR-CM patients\u2014as the silencer-vs-stabilizer debate drags on.",
+          "url": "https://www.fiercepharma.com/pharma/attruby-cruises-toward-blockbuster-land-bridgebio-ceo-spots-stabilizer-first-attr-market",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
         "signals": [
           {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "ATTR-CM market competition intensifying; Attruby stabilizer-first approach challenges existing treatment paradigms.",
+            "key_themes": [
+              "ATTR-CM market competition",
+              "drug positioning risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] discusses ATTR-CM market competition between Attruby and Alnylam, but does not mention Eli Lilly or LLY involvement in this market. The rationale assumes LLY participation without source support.",
+            "supporting_article": null
+          },
+          {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
             "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Executive order to reduce pediatric vaccine requirements threatens core vaccine portfolio revenue streams.",
+            "conviction": 62,
+            "rationale": "Childhood vaccine executive order creates regulatory uncertainty affecting pediatric vaccine portfolio and future revenue streams.",
             "key_themes": [
-              "vaccine demand reduction",
-              "regulatory risk",
-              "immunization schedule changes"
+              "vaccine regulatory risk",
+              "policy uncertainty"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 2
           },
           {
             "ticker": "PFE",
             "company": "Pfizer Inc.",
             "sentiment": "bearish",
-            "conviction": 75,
-            "rationale": "Trump's executive order cutting pediatric vaccine mandates directly impacts Pfizer's significant vaccine business.",
+            "conviction": 65,
+            "rationale": "Trump's third executive order on childhood vaccines poses direct threat to Pfizer's pediatric immunization business revenue.",
             "key_themes": [
-              "vaccine demand reduction",
-              "policy risk",
-              "revenue headwind"
+              "vaccine demand risk",
+              "political headwind"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 2
           },
           {
             "ticker": "MRK",
             "company": "Merck & Co.",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Mixed signals: vaccine demand threatened by executive order, but HPV cancer research validation supports long-term oncology pipeline value.",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Vaccine portfolio exposure; executive order targeting childhood vaccines creates near-term commercial uncertainty.",
             "key_themes": [
-              "vaccine risk offset",
-              "oncology opportunity",
-              "regulatory uncertainty"
+              "vaccine market threat",
+              "policy risk"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
-            "verification_issue": "Partial grounding: HPV cancer research is supported by Article 2 (Maura Gillison's work), but executive order impact on Merck vaccines is supported by Article 4. However, the rationale assumes Merck has significant pediatric vaccine business, which is not explicitly stated in the articles.",
+            "verification_issue": null,
             "supporting_article": 2
-          },
-          {
-            "ticker": "ABBV",
-            "company": "AbbVie Inc.",
-            "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "Active cancer screening promotion campaign positions Abbott diagnostics favorably for early detection market expansion.",
-            "key_themes": [
-              "cancer screening growth",
-              "marketing expansion",
-              "diagnostic demand"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Critical error: Abbott (not AbbVie/ABBV) is mentioned in Article 6. Abbott and AbbVie are separate companies. The article discusses Abbott's colon cancer screening campaign, but this does not apply to AbbVie Inc. ticker ABBV. This is a fundamental company misidentification.",
-            "supporting_article": 6
           }
         ],
-        "summary": "Healthcare sector faces regulatory headwind from Trump's pediatric vaccine reduction executive order, creating significant near-term pressure on vaccine manufacturers JNJ and PFE. Conversely, cancer-related innovations (HPV research validation, screening initiatives) present longer-term growth opportunities for oncology-focused and diagnostic companies, partially offsetting vaccine-related concerns.",
+        "summary": "Healthcare sector faces significant near-term headwinds from vaccine regulatory uncertainty following Trump's third executive order on childhood immunizations, pressuring JNJ, PFE, and MRK. Medium-term competitive dynamics in ATTR-CM treatment create complexity for specialty pharma. Broader sector sentiment tilts negative due to policy risk, partially offset by ongoing innovation in diagnostics and specialized markets.",
         "risks": [
-          "Pediatric vaccine mandate reduction could persist longer than expected, compounding revenue losses",
-          "Political regulatory uncertainty may extend to other pharmaceutical segments beyond vaccines",
-          "Cancer screening adoption rates may not materialize as rapidly as marketing campaigns suggest"
+          "Vaccine executive order enforcement and legal challenges",
+          "Intensifying ATTR-CM market competition",
+          "Political policy uncertainty affecting biopharmaceutical revenue"
         ],
         "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "ABBV signal contains a major error: Article 6 references Abbott (diagnostics/screening company), not AbbVie (ABBV), which is a separate pharmaceutical/healthcare company. The analyst incorrectly attributed Abbott's cancer screening campaign to AbbVie.",
-            "MRK signal makes an unstated assumption that Merck has a significant pediatric vaccine portfolio at risk from the executive order, which is not confirmed in the source articles.",
-            "The analyst correctly identified the Trump executive order (Article 4) as relevant to vaccine manufacturers, properly supporting JNJ and PFE bearish signals."
+            "LLY signal assumes Eli Lilly competes in ATTR-CM market without evidence; article [6] only mentions BridgeBio, Alnylam, and Attruby",
+            "Vaccine-related signals for JNJ, PFE, and MRK are grounded in article [2], but the article states 'it is not clear whether the order has any legal power,' which contradicts the confident bearish conviction levels (60-65)"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "JNJ": 261.80999755859375,
-        "PFE": 27.049999237060547,
-        "MRK": 130.9199981689453,
-        "ABBV": 247.97000122070312
+        "LLY": 1215.02001953125,
+        "JNJ": 259.79998779296875,
+        "PFE": 26.6200008392334,
+        "MRK": 130.4199981689453
       },
       "spot_check": {
-        "title": "Taylor Farms Voluntarily Recalls Fresh Jalape\u00f1os Over Salmonella Concerns",
-        "summary": "The company said it was unaware of any reported illnesses linked to its products containing jalape\u00f1os, which were distributed to major retailers across 26 states.",
-        "url": "https://www.nytimes.com/2026/08/09/business/taylor-farms-jalapenos-salmonella.html",
+        "title": "A.I. Offers Hope for Men With Infertility, Spotting \u2018Hidden\u2019 Sperm",
+        "summary": "New technology may make it easier for men with extremely low sperm counts to have biological children.",
+        "url": "https://www.nytimes.com/2026/08/11/science/ai-infertile-men-sperm.html",
         "source": "Rss",
-        "published": "10 Aug 2026",
+        "published": "11 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "PFE",
           "company": "Pfizer Inc.",
           "sentiment": "bearish",
-          "conviction": 75,
-          "rationale": "Trump's executive order cutting pediatric vaccine mandates directly impacts Pfizer's significant vaccine business.",
+          "conviction": 65,
+          "rationale": "Trump's third executive order on childhood vaccines poses direct threat to Pfizer's pediatric immunization business revenue.",
           "key_themes": [
-            "vaccine demand reduction",
-            "policy risk",
-            "revenue headwind"
+            "vaccine demand risk",
+            "political headwind"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 2
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "Trump's executive order cutting pediatric vaccine mandates directly impacts Pfizer's significant vaccine business.",
+        "haiku_rationale": "Trump's third executive order on childhood vaccines poses direct threat to Pfizer's pediatric immunization business revenue.",
         "haiku_themes": [
-          "vaccine demand reduction",
-          "policy risk",
-          "revenue headwind"
+          "vaccine demand risk",
+          "political headwind"
         ]
       },
       "config": {
@@ -609,27 +540,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom",
-          "summary": "Six giant investment firms announced a $500 billion effort to raise money for customers of Nvidia to pay for computing power.",
-          "url": "https://www.nytimes.com/2026/08/10/business/ai-nvidia-lenders-500-billion.html",
+          "title": "David Ellison Floats Hollywood Exit as States Threaten His Warner Bros. Deal",
+          "summary": "Mr. Ellison told Paramount executives that he was considering pulling the company out of California amid a lawsuit brought by state attorneys general.",
+          "url": "https://www.nytimes.com/2026/08/11/business/media/david-ellison-hollywood-paramount-warner-bros.html",
           "source": "Rss",
-          "published": "10 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Traffic to Trump\u2019s Truth Social Falls Sharply This Summer",
-          "summary": "President Trump\u2019s social media platform has had double-digit declines in visitors in June and July, according to estimates from a widely cited online tracking firm.",
-          "url": "https://www.nytimes.com/2026/08/10/business/trump-truth-social-traffic-declines.html",
-          "source": "Rss",
-          "published": "10 Aug 2026",
+          "published": "12 Aug 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Trump Shrugs Off A.I. and Data Center Concerns as Voters Grow Anxious",
-          "summary": "The president and his top aides have been especially bullish about data centers, despite national blowback against the facilities.",
-          "url": "https://www.nytimes.com/2026/08/10/business/trump-artificial-intelligence-data-centers-ai.html",
+          "title": "Judge Awards $250,000 to Musician Who Fled Trump-Led Kennedy Center Gig",
+          "summary": "The center had sued Chuck Redd when he canceled a free concert last year, citing the addition of the Trump name to the venue. But a judge dismissed the case.",
+          "url": "https://www.nytimes.com/2026/08/11/arts/music/chuck-redd-kennedy-center.html",
           "source": "Rss",
-          "published": "10 Aug 2026",
+          "published": "11 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Frenzy for Solar Eclipse Glasses Takes Over London",
+          "summary": "Ahead of Wednesday\u2019s rare cosmic event, thousands of people in London are searching for protective eyewear, as prices surge and stocks sell out.",
+          "url": "https://www.nytimes.com/2026/08/11/world/europe/solar-eclipse-glasses-uk.html",
+          "source": "Rss",
+          "published": "11 Aug 2026",
           "sentiment_hint": "bullish"
         },
         {
@@ -662,143 +593,114 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Leading investment bank positioned to advise and finance the $500B AI infrastructure funding wave",
-            "key_themes": [
-              "AI investment boom",
-              "capital markets growth"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Major investment bank among six firms raising $500B for AI infrastructure, driving advisory and underwriting fees",
-            "key_themes": [
-              "AI investment boom",
-              "capital markets activity"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Prominent investment bank participating in $500B AI infrastructure capital raise, expanding client monetization opportunities",
-            "key_themes": [
-              "AI investment boom",
-              "capital raising"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "BRK-B",
-            "company": "Berkshire Hathaway",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Potential beneficiary of AI data center buildout but no direct news exposure; mixed market sentiment on AI valuations",
+            "rationale": "Broad market AI selloff creates short-term volatility; financial services relatively insulated from DeepSeek concerns.",
             "key_themes": [
-              "AI infrastructure",
-              "market volatility"
+              "market volatility",
+              "AI sector rotation"
             ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "No articles mention Berkshire Hathaway's involvement or positioning in AI data center buildout. Article [3] mentions data center concerns but does not reference BRK-B.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tech selloff triggers market-wide uncertainty; banking sector defensive positioning remains stable.",
+            "key_themes": [
+              "market volatility",
+              "defensive positioning"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "V",
             "company": "Visa",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "No direct exposure to AI boom articles; broadly exposed to market sentiment shifts but fundamentals unchanged",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Broad stock market decline from AI panic may reduce consumer spending and payment transaction volumes in near-term.",
             "key_themes": [
-              "macro volatility"
+              "market volatility",
+              "consumer spending risk"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "verified": false,
+            "verification_issue": "Sources confirm market AI selloff (article 4) but contain no evidence linking stock declines to reduced consumer spending or payment transaction volumes. The causal link between market volatility and Visa transaction volumes is unsupported speculation.",
+            "supporting_article": null
           },
           {
             "ticker": "MA",
             "company": "Mastercard",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "No direct exposure to AI boom articles; broadly exposed to market sentiment shifts but fundamentals unchanged",
+            "sentiment": "bearish",
+            "conviction": 56,
+            "rationale": "Market-wide AI selloff creates headwinds for payment processor as consumer activity may contract temporarily.",
             "key_themes": [
-              "macro volatility"
+              "market volatility",
+              "transaction volume risk"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "verified": false,
+            "verification_issue": "Sources confirm market AI selloff (article 4) but contain no evidence that market volatility causes consumer activity contraction or impacts payment processor transaction volumes. The connection is assumed rather than evidenced.",
+            "supporting_article": null
           }
         ],
-        "summary": "Investment banks JPM, GS, and MS should benefit substantially from the announced $500B AI infrastructure financing initiative, driving near-term advisory and underwriting revenues. However, recent AI sector volatility (Nvidia down 16%, gold declining) suggests near-term market headwinds and valuation concerns despite positive long-term AI infrastructure tailwinds. Payment processors V and MA lack direct exposure to these developments and remain neutral.",
+        "summary": "Articles reveal a market dominated by AI sector panic stemming from China's DeepSeek announcement, causing broad equity declines and commodity weakness. Financial services stocks face near-term headwinds from overall market volatility, while payment processors face additional pressure from potential consumer spending contraction. Tech infrastructure concerns are creating rotation opportunities, but fundamentals suggest the sector selloff is overblown.",
         "risks": [
-          "AI valuation bubble concerns evidenced by recent selloffs",
-          "DeepSeek competition reducing infrastructure demand expectations",
-          "Macro uncertainty and sector rotation away from AI stocks",
-          "Political uncertainty around data center expansion"
+          "Continued AI-driven market volatility could deepen equity declines",
+          "Prolonged consumer hesitation could impact payment volumes more severely",
+          "Geopolitical tech competition escalation affecting sector confidence",
+          "Regulatory uncertainty regarding state-level corporate policies affecting business operations"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "BRK-B rationale references 'potential beneficiary of AI data center buildout' but no source article establishes this connection or mentions Berkshire Hathaway"
+            "Analyst assumes direct causal link between stock market AI selloff and consumer spending/payment volumes without supporting evidence in source material",
+            "JPM and BAC rationales are grounded in article 4, but V and MA rationales extrapolate beyond what sources establish"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 359.7900085449219,
-        "GS": 1034.510009765625,
-        "MS": 215.3300018310547,
-        "BRK-B": 529.4199829101562,
-        "V": 361.32000732421875,
-        "MA": 563.1699829101562
+        "JPM": 362.0400085449219,
+        "BAC": 64.0,
+        "V": 362.82000732421875,
+        "MA": 561.4400024414062
       },
       "spot_check": {
-        "title": "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom",
-        "summary": "Six giant investment firms announced a $500 billion effort to raise money for customers of Nvidia to pay for computing power.",
-        "url": "https://www.nytimes.com/2026/08/10/business/ai-nvidia-lenders-500-billion.html",
+        "title": "David Ellison Floats Hollywood Exit as States Threaten His Warner Bros. Deal",
+        "summary": "Mr. Ellison told Paramount executives that he was considering pulling the company out of California amid a lawsuit brought by state attorneys general.",
+        "url": "https://www.nytimes.com/2026/08/11/business/media/david-ellison-hollywood-paramount-warner-bros.html",
         "source": "Rss",
-        "published": "10 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "12 Aug 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Leading investment bank positioned to advise and finance the $500B AI infrastructure funding wave",
+          "ticker": "V",
+          "company": "Visa",
+          "sentiment": "bearish",
+          "conviction": 58,
+          "rationale": "Broad stock market decline from AI panic may reduce consumer spending and payment transaction volumes in near-term.",
           "key_themes": [
-            "AI investment boom",
-            "capital markets growth"
+            "market volatility",
+            "consumer spending risk"
           ],
-          "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 1
+          "time_horizon": "short-term",
+          "verified": false,
+          "verification_issue": "Sources confirm market AI selloff (article 4) but contain no evidence linking stock declines to reduced consumer spending or payment transaction volumes. The causal link between market volatility and Visa transaction volumes is unsupported speculation.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Leading investment bank positioned to advise and finance the $500B AI infrastructure funding wave",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Broad stock market decline from AI panic may reduce consumer spending and payment transaction volumes in near-term.",
         "haiku_themes": [
-          "AI investment boom",
-          "capital markets growth"
+          "market volatility",
+          "consumer spending risk"
         ]
       },
       "config": {
