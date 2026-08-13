@@ -11054,5 +11054,295 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-08-13",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Pixel 11 hardware launch demonstrates continued innovation in AI-integrated devices and competitive smartphone positioning.",
+            "key_themes": [
+              "AI hardware integration",
+              "device ecosystem expansion",
+              "consumer AI adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's role as a discovery mechanism for content signals strong enterprise AI monetization and integration opportunities.",
+            "key_themes": [
+              "AI-driven search disruption",
+              "enterprise AI adoption",
+              "content discovery innovation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 343.5400085449219,
+          "MSFT": 492.42999267578125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "OPEC/IEA demand forecast cuts for 2026 directly pressure integrated oil & gas majors' revenue outlooks",
+            "key_themes": [
+              "demand headwinds",
+              "price pressure",
+              "2026 guidance risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Dual demand cuts from OPEC and IEA weigh on crude pricing and upstream cash flow expectations",
+            "key_themes": [
+              "demand cuts",
+              "price decline",
+              "cash flow pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Brent crude below $89/bbl amid reduced 2026 demand forecasts pressures integrated major profitability",
+            "key_themes": [
+              "crude weakness",
+              "demand revision",
+              "earnings headwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 66,
+            "rationale": "Weak oil demand outlook and price erosion threaten upstream production economics and shareholder returns",
+            "key_themes": [
+              "demand outlook",
+              "price risk",
+              "return compression"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Reduced oil demand forecasts and lower crude prices compress margins for integrated energy majors",
+            "key_themes": [
+              "demand headwinds",
+              "commodity exposure",
+              "margin pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 64,
+            "rationale": "OPEC and IEA cuts to 2026 demand reduce near-term price support for integrated oil producers",
+            "key_themes": [
+              "demand forecast cut",
+              "price risk",
+              "near-term outlook"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 87.69999694824219,
+          "COP": 127.30000305175781,
+          "XOM": 159.75,
+          "CVX": 196.60000610351562,
+          "BP": 42.93000030517578,
+          "SHEL": 90.06999969482422
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 85,
+            "rationale": "Leading Q2 sales boom with 48% revenue growth and double-digit sequential gains outpacing pharma peers.",
+            "key_themes": [
+              "strong revenue growth",
+              "market leadership",
+              "biopharma momentum"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "MMR vaccine split proposal could fragment vaccine portfolio and increase operational complexity; regulatory headwind risk.",
+            "key_themes": [
+              "vaccine policy risk",
+              "immunization portfolio disruption",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Medicaid funding bar on transgender transition treatment narrows covered services and reduces potential patient populations.",
+            "key_themes": [
+              "Medicaid reimbursement reduction",
+              "coverage restrictions",
+              "regulatory headwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Fertility treatment awareness may indirectly boost demand for reproductive health diagnostics and services; minimal direct impact.",
+            "key_themes": [
+              "reproductive health",
+              "diagnostic potential",
+              "indirect exposure"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article 3 discusses egg freezing awareness but contains no information about diagnostic demand, reproductive health diagnostics, or services. The connection to Thermo Fisher's business is speculative and not supported by source material.",
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1220.280029296875,
+          "JNJ": 260.8599853515625,
+          "UNH": 405.5899963378906,
+          "TMO": 603.010009765625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Treasury scaling back shell company scrutiny reduces AML compliance demand and regulatory scrutiny benefits.",
+            "key_themes": [
+              "regulatory rollback",
+              "compliance headwinds",
+              "financial crime prevention"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] states Treasury will NOT enforce the Corporate Transparency Act. The rationale incorrectly frames this as 'reduces AML compliance demand' when in fact reduced enforcement would typically reduce compliance work/revenue. The logic is inverted - weaker enforcement should benefit banks seeking to avoid compliance costs, not harm them. The rationale appears to confuse the direction of the impact.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Weakened Corporate Transparency Act enforcement diminishes compliance-related advisory and regulatory services revenue.",
+            "key_themes": [
+              "regulatory rollback",
+              "advisory revenue pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Same logical inversion as JPM. Article [2] confirms reduced enforcement of shell company reporting rules. The rationale claims this 'diminishes compliance-related advisory...revenue,' but reduced regulatory enforcement would typically decrease demand for compliance advisory services, not increase it. The bearish thesis contradicts the actual market impact of regulatory rollbacks on compliance advisory demand.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Reduced enforcement of money laundering rules may lower institutional compliance advisory work and related fee income.",
+            "key_themes": [
+              "regulatory headwinds",
+              "compliance services decline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Same fundamental flaw. The rationale predicts 'Reduced enforcement...may lower...compliance advisory work,' treating regulatory rollback as negative for compliance service providers. However, weaker AML enforcement would reduce compliance burdens and compliance-related advisory demand, which could be seen as positive for banks (lower compliance costs) rather than negative. The bearish positioning is logically inconsistent with the stated rationale.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 365.17999267578125,
+          "GS": 1037.2099609375,
+          "MS": 217.63999938964844
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      }
+    }
   }
 ]
