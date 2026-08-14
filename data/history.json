@@ -11344,5 +11344,321 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-08-14",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "U.S.-Iran tensions sustain elevated crude prices ($87 Brent); restricted Strait of Hormuz flow supports margins.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "price support",
+              "naval blockade"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Geopolitical tensions and reduced Hormuz tanker traffic elevate crude valuations benefiting integrated majors.",
+            "key_themes": [
+              "supply constraint",
+              "price resilience",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Iran-U.S. deadlock and Hormuz disruption support crude prices; Russian market share shift aids non-sanctioned producers.",
+            "key_themes": [
+              "supply disruption",
+              "crude price support",
+              "market dynamics"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'Russian market share shift aids non-sanctioned producers' but source articles do not connect Russia's increased India market share to benefits for BP or other Western majors. Article [1] only reports Russia's record share in India; no analysis provided on how this benefits non-sanctioned producers.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Elevated crude prices from geopolitical tensions and constrained flows benefit major oil producer cash flows.",
+            "key_themes": [
+              "price environment",
+              "supply tightness",
+              "refining margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Benefits from elevated crude prices but exposed to European energy transition policy headwinds long-term.",
+            "key_themes": [
+              "price cyclicality",
+              "energy transition uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": null,
+            "verification_issue": "Bullish rationale regarding crude prices is supported by Article [2], but the 'energy transition policy headwinds' claim lacks source support. Articles [3], [5], and [6] discuss energy transition but do not specifically address TotalEnergies or European policy headwinds affecting it.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Geopolitical supply disruption and 4% weekly crude gains support upstream production economics and valuations.",
+            "key_themes": [
+              "supply disruption",
+              "crude price strength",
+              "production value"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Elevated crude prices incentivize upstream capex and drilling activity recovery benefiting oilfield services demand.",
+            "key_themes": [
+              "capex cycle",
+              "drilling activity",
+              "service demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes elevated crude prices lead to upstream capex recovery and drilling activity, but source articles do not establish this causal link. Article [2] only reports current price levels and geopolitical factors; no discussion of capex cycles or drilling activity incentives.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 158.61000061035156,
+          "CVX": 197.6999969482422,
+          "BP": 42.83000183105469,
+          "SHEL": 89.1387939453125,
+          "TTE": 87.05000305175781,
+          "COP": 124.5199966430664,
+          "SLB": 52.060001373291016
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Trump's MMR vaccine split proposal threatens combination shot market share and could reduce vaccination rates overall.",
+            "key_themes": [
+              "vaccine policy risk",
+              "regulatory uncertainty",
+              "immunization headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Trump's MMR vaccine split proposal directly impacts Merck's combination vaccine portfolio and vaccination compliance rates.",
+            "key_themes": [
+              "vaccine policy risk",
+              "regulatory uncertainty",
+              "market disruption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Article defending COVID vaccine safety supports confidence in vaccine products, but limited direct operational impact on core pipeline.",
+            "key_themes": [
+              "vaccine credibility",
+              "public health messaging"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "GLP-1 obesity market expansion with growing patient preference for drug options supports continued Mounjaro/Zepbound demand growth.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "patient optionality",
+              "competitive differentiation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 262.0799865722656,
+          "MRK": 135.5500030517578,
+          "PFE": 26.799999237060547,
+          "LLY": 1209.0
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market AI selloff may reduce investment banking activity, but financial sector resilience supports stable outlook.",
+            "key_themes": [
+              "market volatility",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes AI selloff reduces investment banking activity, but source articles do not discuss impact on M&A pipelines or investment banking revenues for financial institutions",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "AI rout creates near-term headwinds for trading revenue, but no direct exposure impact evident in articles.",
+            "key_themes": [
+              "market volatility",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates about trading revenue headwinds from AI rout, but source articles provide no data on financial sector trading impact or revenue effects",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tech sector selloff may pressure advisory and M&A pipelines, but financial strength remains intact.",
+            "key_themes": [
+              "market volatility",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims tech sector selloff pressures advisory and M&A pipelines, but source articles contain no information about effects on Goldman Sachs or investment banking activity",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 43,
+            "rationale": "Broad market weakness creates near-term trading pressures, but diversified revenue streams provide support.",
+            "key_themes": [
+              "market volatility",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates about trading pressures from broad market weakness, but source articles do not discuss impact on Morgan Stanley or financial sector trading revenues",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Market volatility may temporarily reduce transaction volumes, but payment networks remain structurally resilient.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes market volatility reduces transaction volumes, but source articles do not establish this causal link or provide any data on consumer spending or payment volume impacts",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Broad market selloff creates near-term headwinds for transaction growth, but long-term fundamentals unchanged.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes market selloff creates transaction growth headwinds, but source articles do not discuss Mastercard, payment volumes, or consumer spending effects",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 363.1099853515625,
+          "BAC": 64.08999633789062,
+          "GS": 1042.6300048828125,
+          "MS": 218.3800048828125,
+          "V": 365.45001220703125,
+          "MA": 567.0399780273438
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
