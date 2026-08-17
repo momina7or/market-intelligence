@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-14",
-  "run_time": "2026-08-14T08:13:22.414932Z",
+  "run_date": "2026-08-17",
+  "run_time": "2026-08-17T07:51:08.152486Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,37 +29,83 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-          "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, [&#8230;]",
-          "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+          "title": "I\u2019m hooked on Peak Design\u2019s new City bags",
+          "summary": "It's just a hook, sewn into a bag, but I really, really like it. Peak Design is so proud of its clever integration that the San Francisco-based maker of camera gear gave it a name: BagLev, for its ability to keep its new City Line of bags levitated above the dirty ground. How many of [&#8230;]",
+          "url": "https://www.theverge.com/tech/980137/peak-design-city-line-review",
           "source": "Theverge",
-          "published": "14 Aug 2026",
+          "published": "17 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
-          "summary": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purchase system. Epic has already responded, saying that Apple's request is \"far outside of the bounds\" of the [&#8230;]",
-          "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+          "title": "OpenAI reportedly disbanded its preparedness team",
+          "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
           "source": "Theverge",
-          "published": "13 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "16 Aug 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "\u2018That is not acceptable\u2019: Judge orders Google to make rival app store installs easier",
-          "summary": "One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just ordered Google to make it easier to install rival app stores on Android. It's been nearly three years since a jury unanimously decided [&#8230;]",
-          "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+          "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+          "summary": "\"Breakups are\u2026 tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle's subject matter is usually personal, [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
           "source": "Theverge",
-          "published": "13 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "16 Aug 2026",
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"AAPL\",\n      \"company\": \"Apple Inc.\",\n      \"sentiment\": \"bearish\",\n      \"conviction\": 72,\n      \"rationale\": \"Regulatory pressure on App Store fees and forced external payment linking reduces revenue capture from digital purchases.\",\n      \"key_themes\": [\"regulatory headwinds\", \"App Store monetization pressure\", \"legal/compliance costs\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"GOOGL\",\n      \"company\": Alphabet Inc.\",\n      \"sen",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure; Google's AI search capabilities increasingly critical.",
+            "key_themes": [
+              "AI-powered search",
+              "organic traffic disruption",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's growing role in content discovery and decision-making validates OpenAI partnership and AI platform investments.",
+            "key_themes": [
+              "AI monetization",
+              "content creation tools",
+              "enterprise AI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "summary": "AI tools are fundamentally reshaping content discovery and creation workflows, with ChatGPT demonstrating tangible impact on organic traffic patterns and creator behavior. However, limited substantive technical or financial data in these articles restricts conviction levels. OpenAI's dissolution of its preparedness team raises governance concerns that could indirectly impact enterprise AI adoption by major tech players.",
+        "risks": [
+          "Articles lack concrete financial metrics or earnings impact data",
+          "OpenAI safety team disbandment may create regulatory/reputational headwinds for dependent platforms",
+          "AI tool proliferation commoditizes content creation, reducing defensibility of any single platform",
+          "Search behavior shift from ChatGPT integration could accelerate if adoption rate increases"
+        ],
+        "sector_sentiment": "neutral",
+        "verification": {
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "GOOGL": 345.8999938964844,
+        "MSFT": 495.3999938964844
+      },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
         "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
@@ -67,10 +113,29 @@
         "source": "Feedburner",
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "related_signal": {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure; Google's AI search capabilities increasingly critical.",
+          "key_themes": [
+            "AI-powered search",
+            "organic traffic disruption",
+            "competitive positioning"
+          ],
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure; Google's AI search capabilities increasingly critical.",
+        "haiku_themes": [
+          "AI-powered search",
+          "organic traffic disruption",
+          "competitive positioning"
+        ]
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -89,224 +154,206 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Russia Captures Record Share of India\u2019s Oil Market",
-          "summary": "Crude oil imports from Russia accounted for over 50% of India\u2019s total import volumes last month. This was the highest share of Russian oil in India\u2019s import mix, Reuters noted in a report that cited unnamed trade sources. Russia exported crude at a rate of some 2.47 million barrels daily to India last month, which was a 62.4% surge from a year ago and represented a 50.83% share of total oil imports into the world\u2019s third-largest oil buyer. However, July volumes were a decline on June\u2019s average, ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Captures-Record-Share-of-Indias-Oil-Market.html",
+          "title": "Indian Oil Giant Secures U.S. License to Return to Venezuela",
+          "summary": "India\u2019s Oil and Natural Gas Corporation has secured a license from the U.S. Office of Foreign Assets Control to return to Venezuela, Indian media have reported. India\u2019s largest oil and gas company has a 40% stake in the San Cristobal oil project and an 11% stake in the Carabobo project but was forced to curb activity significantly amid a barrage of U.S. sanctions on the South American country. ONGC\u2019s return to Venezuela could open up access to over $500 million in outstanding dividends from its ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Oil-Giant-Secures-US-License-to-Return-to-Venezuela.html",
           "source": "Oilprice",
-          "published": "14 Aug 2026",
-          "sentiment_hint": "bullish"
+          "published": "17 Aug 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Oil Prices Head for 4% Weekly Gain as U.S.-Iran Deadlock Drags On",
-          "summary": "Crude oil prices were on course to add 4% this week, as the United States and Iran indicated they are no closer to a peace deal than they were at the start of the war. At the time of writing, Brent crude was trading at $87.12 per barrel, and West Texas Intermediate was trading at $81.36 per barrel. The rise of both benchmarks was driven by low tanker traffic through the Strait of Hormuz, which remains at a fraction of pre-war levels, and the United States' threat\u00a0to keep its naval blockade of Ir",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-4-Weekly-Gain-as-US-Iran-Deadlock-Drags-On.html",
+          "title": "India Lets Delayed Renewable Projects Pay to Keep Grid Access",
+          "summary": "India\u2019s authorities have given solar developers missing their deadlines the option to pay to keep their grid connectivity instead of losing it, Reuters has reported, citing the country\u2019s Central Electricity Regulatory Commission. With grid connectivity a limited resource, space should not be kept unused, the regulator said. According to the regulator, if a solar or wind developer misses its own project deadline, they can remain on the list for a grid connection, but they would have to pay the eq",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Lets-Delayed-Renewable-Projects-Pay-to-Keep-Grid-Access.html",
           "source": "Oilprice",
-          "published": "14 Aug 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Trump Is Spending Billions On The Minerals That Power EVs",
-          "summary": "For years, U.S. President Donald Trump has openly displayed his disdain for the clean energy and electric vehicle sectors. In the early days of his second term, Trump stalled funding for EV charging infrastructure while pushing fossil fuels. In July 2025, the GOP-sponsored One Big Beautiful Bill Act (OBBBA) rolled back EV incentives from the Inflation Reduction Act, terminating the $7,500 new and $4,000 used EV tax credits in September 2025, and cutting back infrastructure and manufacturing subs",
-          "url": "https://oilprice.com/Energy/Energy-General/Trump-Is-Spending-Billions-On-The-Minerals-That-Power-EVs.html",
-          "source": "Oilprice",
-          "published": "14 Aug 2026",
+          "published": "17 Aug 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Hillcore to build 2.6GW power complex at Fermi Matador site in US",
-          "summary": "Fermi has signed a framework agreement with Hillcore for an approximately 2.6GW power complex at its Project Matador campus.",
-          "url": "https://www.energymonitor.ai/news/hillcore-to-build-2-6gw-power/",
+          "title": "Hormuz Tanker Traffic Slows to a Trickle",
+          "summary": "Tanker traffic via the Strait of Hormuz slowed further over the weekend, maintaining upward pressure on oil prices. At the time of writing, Brent crude was trading at $88.62 per barrel, with West Texas Intermediate at $82.18 per barrel. Earlier in the session, Brent crude broke above $89 per barrel before falling back. Only five commodity vessels passed the Strait of Hormuz on Saturday, and none were scheduled to transit the waterway on Sunday, data from Kpler cited by Reuters showed. The data, ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slows-to-a-Trickle.html",
+          "source": "Oilprice",
+          "published": "17 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Noon Energy and Sabanci Renewables plan 1GW ultra-LDES project",
+          "summary": "Noon Energy and Sabanci Renewables have agreed to jointly develop up to 1GW of ultra-long duration energy storage (ultra-LDES) projects.",
+          "url": "https://www.energymonitor.ai/news/noon-sabanci-ultra-ldes-project/",
           "source": "Energymonitor",
-          "published": "13 Aug 2026",
+          "published": "14 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Germany\u2019s renewables boom is making grid access the scarce asset",
-          "summary": "The investment case is concerned not with the amount of power generated but with whether that power can get to the market at useful times.",
-          "url": "https://www.energymonitor.ai/analysis/germany-renewable-grid-access/",
+          "title": "Edify achieves financial close for Ganymirra and Majors Creek projects",
+          "summary": "Edify Energy has achieved financial close on the Ganymirra and Majors Creek solar and battery hybrid projects, located in North Queensland.",
+          "url": "https://www.energymonitor.ai/news/edify-financial-close-ganymirra-majors-creek/",
           "source": "Energymonitor",
-          "published": "13 Aug 2026",
+          "published": "14 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Elemental Nuclear, Sandia Labs to partner on sCO\u2082 Brayton cycle project",
-          "summary": "Elemental Nuclear has announced a strategic partnership project with Sandia Labs to develop sCO\u2082\u2013based Brayton Cycle Generator systems.",
-          "url": "https://www.energymonitor.ai/news/elemental-nuclear-sandia-labs-partner/",
+          "title": "Form Energy raises $750m to expand iron-air battery production",
+          "summary": "Form Energy, a US-based company focused on energy storage systems, has raised $750m in a Series G financing round led by T. Rowe Price.",
+          "url": "https://www.energymonitor.ai/news/form-energy-iron-air-battery-production/",
           "source": "Energymonitor",
-          "published": "12 Aug 2026",
+          "published": "13 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "U.S.-Iran tensions sustain elevated crude prices ($87 Brent); restricted Strait of Hormuz flow supports margins.",
-            "key_themes": [
-              "geopolitical supply disruption",
-              "price support",
-              "naval blockade"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
             "ticker": "CVX",
             "company": "Chevron Corporation",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Geopolitical tensions and reduced Hormuz tanker traffic elevate crude valuations benefiting integrated majors.",
+            "conviction": 72,
+            "rationale": "Hormuz strait disruption maintaining oil price pressure above $82 WTI supports upstream cash generation and margins.",
             "key_themes": [
-              "supply constraint",
-              "price resilience",
-              "geopolitical risk premium"
+              "geopolitical supply disruption",
+              "crude price support",
+              "upstream economics"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz tanker traffic slowdown sustains elevated Brent crude above $88, benefiting integrated oil majors' refining and upstream.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "crude price support",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "BP",
             "company": "BP plc",
             "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "Iran-U.S. deadlock and Hormuz disruption support crude prices; Russian market share shift aids non-sanctioned producers.",
+            "rationale": "Hormuz transit constraints elevate crude prices, supporting BP's upstream production and integrated refining operations.",
             "key_themes": [
-              "supply disruption",
+              "geopolitical supply disruption",
               "crude price support",
-              "market dynamics"
+              "integrated operations"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale mentions 'Russian market share shift aids non-sanctioned producers' but source articles do not connect Russia's increased India market share to benefits for BP or other Western majors. Article [1] only reports Russia's record share in India; no analysis provided on how this benefits non-sanctioned producers.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "SHEL",
             "company": "Shell plc",
             "sentiment": "bullish",
             "conviction": 69,
-            "rationale": "Elevated crude prices from geopolitical tensions and constrained flows benefit major oil producer cash flows.",
+            "rationale": "Hormuz tanker slowdown maintains crude price elevation, supporting Shell's upstream and trading divisions' profitability.",
             "key_themes": [
-              "price environment",
-              "supply tightness",
-              "refining margins"
+              "geopolitical supply disruption",
+              "crude price support",
+              "integrated operations"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
           },
           {
             "ticker": "TTE",
             "company": "TotalEnergies SE",
             "sentiment": "neutral",
             "conviction": 55,
-            "rationale": "Benefits from elevated crude prices but exposed to European energy transition policy headwinds long-term.",
+            "rationale": "While benefiting from elevated crude prices via Hormuz disruption, no direct exposure mentioned; renewable investments remain strategic offset.",
             "key_themes": [
-              "price cyclicality",
-              "energy transition uncertainty"
+              "geopolitical supply support",
+              "energy transition pivot"
             ],
-            "time_horizon": "medium-term",
-            "verified": null,
-            "verification_issue": "Bullish rationale regarding crude prices is supported by Article [2], but the 'energy transition policy headwinds' claim lacks source support. Articles [3], [5], and [6] discuss energy transition but do not specifically address TotalEnergies or European policy headwinds affecting it.",
-            "supporting_article": 2
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Rationale claims 'renewable investments remain strategic offset' but no TotalEnergies renewable projects are mentioned in source articles",
+            "supporting_article": 3
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "bullish",
             "conviction": 71,
-            "rationale": "Geopolitical supply disruption and 4% weekly crude gains support upstream production economics and valuations.",
+            "rationale": "Hormuz supply constraints maintain oil price floor above $82 WTI, directly supporting upstream-focused producer cash flows.",
             "key_themes": [
-              "supply disruption",
-              "crude price strength",
-              "production value"
+              "geopolitical supply disruption",
+              "crude price support",
+              "upstream production"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "bullish",
-            "conviction": 66,
-            "rationale": "Elevated crude prices incentivize upstream capex and drilling activity recovery benefiting oilfield services demand.",
-            "key_themes": [
-              "capex cycle",
-              "drilling activity",
-              "service demand"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes elevated crude prices lead to upstream capex recovery and drilling activity, but source articles do not establish this causal link. Article [2] only reports current price levels and geopolitical factors; no discussion of capex cycles or drilling activity incentives.",
-            "supporting_article": null
+            "supporting_article": 3
           }
         ],
-        "summary": "Geopolitical tensions between the U.S. and Iran, coupled with reduced Hormuz tanker traffic and a naval blockade, are driving a 4% weekly rally in crude prices ($87 Brent) that benefits integrated and independent oil majors. However, Trump administration policies rolling back EV incentives and shifting focus to fossil fuels create medium-term tailwinds for petroleum demand, though renewable energy expansion in Germany signals competing long-term energy dynamics.",
+        "summary": "Oil majors face a bullish near-term backdrop driven by Hormuz strait tanker traffic disruptions sustaining Brent above $88/bbl and WTI above $82/bbl, benefiting all integrated and upstream-focused producers. However, the sector faces medium-to-long term headwinds from accelerating renewable energy adoption (solar projects, battery storage, ultra-LDES) and policy shifts (India's renewable grid access), signaling structural energy transition pressure. Geopolitical supply support masks fundamental demand challenges as clean energy solutions scale rapidly.",
         "risks": [
-          "U.S.-Iran peace deal breakthrough could rapidly deflate crude premium",
-          "Recession or demand destruction could offset geopolitical supply support",
-          "Long-term energy transition and reduced EV incentives create structural uncertainty",
-          "Russian oil market shift to India may disrupt traditional trading flows"
+          "Hormuz disruption resolution could rapidly deflate crude prices",
+          "Accelerating renewable deployment and battery storage economics eroding fossil fuel demand",
+          "India's renewable energy policy signaling faster energy transition in key demand center",
+          "Oil demand recession if macroeconomic conditions deteriorate"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "BP signal contains unsupported claim that Russian market share shift aids non-sanctioned producers\u2014no causal mechanism provided in sources",
-            "TTE signal introduces 'European energy transition policy headwinds' without source grounding",
-            "SLB signal extrapolates from price environment to capex/drilling activity without explicit support from articles"
+            "TTE rationale references renewable investment strategy offset not supported by any source article about TotalEnergies specifically",
+            "All six oil majors' bullish signals rely on the same single article (Hormuz tanker traffic) - no diversified source support across different news developments"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "XOM": 158.61000061035156,
-        "CVX": 197.6999969482422,
-        "BP": 42.83000183105469,
-        "SHEL": 89.1387939453125,
-        "TTE": 87.05000305175781,
-        "COP": 124.5199966430664,
-        "SLB": 52.060001373291016
+        "CVX": 200.0,
+        "XOM": 160.10000610351562,
+        "BP": 42.529998779296875,
+        "SHEL": 90.47000122070312,
+        "TTE": 88.33000183105469,
+        "COP": 126.77999877929688
       },
       "spot_check": {
-        "title": "Russia Captures Record Share of India\u2019s Oil Market",
-        "summary": "Crude oil imports from Russia accounted for over 50% of India\u2019s total import volumes last month. This was the highest share of Russian oil in India\u2019s import mix, Reuters noted in a report that cited unnamed trade sources. Russia exported crude at a rate of some 2.47 million barrels daily to India last month, which was a 62.4% surge from a year ago and represented a 50.83% share of total oil imports into the world\u2019s third-largest oil buyer. However, July volumes were a decline on June\u2019s average, ",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Captures-Record-Share-of-Indias-Oil-Market.html",
+        "title": "Indian Oil Giant Secures U.S. License to Return to Venezuela",
+        "summary": "India\u2019s Oil and Natural Gas Corporation has secured a license from the U.S. Office of Foreign Assets Control to return to Venezuela, Indian media have reported. India\u2019s largest oil and gas company has a 40% stake in the San Cristobal oil project and an 11% stake in the Carabobo project but was forced to curb activity significantly amid a barrage of U.S. sanctions on the South American country. ONGC\u2019s return to Venezuela could open up access to over $500 million in outstanding dividends from its ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Oil-Giant-Secures-US-License-to-Return-to-Venezuela.html",
         "source": "Oilprice",
-        "published": "14 Aug 2026",
-        "sentiment_hint": "bullish",
+        "published": "17 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
+          "ticker": "CVX",
+          "company": "Chevron Corporation",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "U.S.-Iran tensions sustain elevated crude prices ($87 Brent); restricted Strait of Hormuz flow supports margins.",
+          "rationale": "Hormuz strait disruption maintaining oil price pressure above $82 WTI supports upstream cash generation and margins.",
           "key_themes": [
             "geopolitical supply disruption",
-            "price support",
-            "naval blockade"
+            "crude price support",
+            "upstream economics"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "U.S.-Iran tensions sustain elevated crude prices ($87 Brent); restricted Strait of Hormuz flow supports margins.",
+        "haiku_rationale": "Hormuz strait disruption maintaining oil price pressure above $82 WTI supports upstream cash generation and margins.",
         "haiku_themes": [
           "geopolitical supply disruption",
-          "price support",
-          "naval blockade"
+          "crude price support",
+          "upstream economics"
         ]
       },
       "config": {
@@ -326,168 +373,154 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "A City Mobilizes Against a Stubborn Health Threat: Mosquitoes",
-          "summary": "The city of Bel\u00e9m in northern Brazil was overwhelmed by an outbreak of dengue two years ago. An all-out municipal effort has reduced cases and may offer lessons to American cities.",
-          "url": "https://www.nytimes.com/2026/08/13/health/mosquitoes-brazil-health-threat.html",
+          "title": "Outrage at UnitedHealth and Other Insurers Persists After Brian Thompson Killing",
+          "summary": "Higher premiums and rising medical bills have intensified Americans\u2019 dissatisfaction with their medical coverage.",
+          "url": "https://www.nytimes.com/2026/08/14/business/unitedhealthcare-killing-luigi-mangione-affordability.html",
+          "source": "Rss",
+          "published": "14 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "This Pesticide May Be Too Dangerous to Use. Farmers Say They Need It.",
+          "summary": "California announced that it\u2019s phasing out paraquat, a pesticide widely used in the United States that is linked to Parkinson\u2019s disease.",
+          "url": "https://www.nytimes.com/2026/08/13/science/paraquat-pesticide-parkinsons-california.html",
           "source": "Rss",
           "published": "13 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Covid Vaccine and Pregnancy: What to Know Now",
+          "summary": "Prominent Republicans and others have claimed this week that the shots aren\u2019t safe for pregnant women, but years of data show otherwise.",
+          "url": "https://www.nytimes.com/2026/08/13/well/covid-vaccine-pregnancy-miscarriage-fauci.html",
+          "source": "Rss",
+          "published": "14 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/sponsored/beyond-agency-how-ai-creativity-and-commercialization-are-converging-new-growth-model\" hreflang=\"en\">Beyond an Agency: How AI, Creativity and Commercialization Are Converging Into a New Growth Model</a>",
+          "summary": "EVERSANA INTOUCH\u2019s CEO explains why the convergence of AI, creativity and commercialization is becoming the industry's next competitive advantage, transforming outputs into measurable outcomes.",
+          "url": "https://www.fiercepharma.com/sponsored/beyond-agency-how-ai-creativity-and-commercialization-are-converging-new-growth-model",
+          "source": "Fiercepharma",
+          "published": "",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Covid Vaccines Are Not Linked to Miscarriage. Here\u2019s How We Know.",
-          "summary": "Prominent Republicans and others have falsely claimed this week that the shots are linked, despite years of data showing they are safe.",
-          "url": "https://www.nytimes.com/2026/08/13/well/covid-vaccine-pregnancy-miscarriage-fauci.html",
-          "source": "Rss",
-          "published": "13 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Trump Wants the M.M.R. Vaccine Split Into Three Separate Shots. Doctors Say It\u2019s a Bad Idea.",
-          "summary": "President Trump is calling for immunizations for measles, mumps and rubella to be given in individual jabs in three different appointments instead of the standard combination shot.",
-          "url": "https://www.nytimes.com/2026/08/12/health/mmr-vaccine-combination-separate.html",
-          "source": "Rss",
-          "published": "12 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/its-crunch-time-karyopharm-it-faces-potential-default-next-month\" hreflang=\"en\">It's crunch time for Karyopharm as company faces potential default next month </a>",
-          "summary": "With its reserves depleted, a debt payment due in four weeks and its cash runway stretching only into next month, the question for Karyopharm Therapeutics is what\u2019s next and how soon can it happen? The company sustained a $67 million loss in the second quarter, which is greater than its current cash reserves.",
-          "url": "https://www.fiercepharma.com/pharma/its-crunch-time-karyopharm-it-faces-potential-default-next-month",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/its-bms-vs-celgene-investors-again-after-us-appeals-court-ruling\" hreflang=\"en\">It's BMS vs. Celgene investors once more after US appeals court revives lawsuit</a>",
+          "summary": "A U.S. appeals court has revived a lawsuit filed by Celgene shareholders that accuses Bristol Myers Squibb of slow-playing the approval of blood cancer drug Breyanzi to avoid paying out a more than $6 billion contingent value right.",
+          "url": "https://www.fiercepharma.com/pharma/its-bms-vs-celgene-investors-again-after-us-appeals-court-ruling",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/azs-baxfendy-not-worth-its-price-tag-icer-says\" hreflang=\"en\">AZ's blood pressure newcomer Baxfendy fails to meet cost-effectiveness bar, ICER says</a>",
-          "summary": "AstraZeneca\u2019s newly approved blood pressure drug Baxfendy does not clear the bar for effectiveness relative to its price, according to U.S. drug price watchdog ICER.",
-          "url": "https://www.fiercepharma.com/pharma/azs-baxfendy-not-worth-its-price-tag-icer-says",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/tavneos-pivotal-trial-flagged-serious-breaches-protocol-eu-regulators-dissect-market\" hreflang=\"en\">Tavneos trial flagged for 'serious breaches' of protocol as EU regulators dissect market withdrawal decision</a>",
+          "summary": "With the European Union formally reversing its marketing authorization for the rare-disease med Tavneos last week, regulators in the bloc are laying out their concerns about the data backing the complement inhibitor in greater detail.",
+          "url": "https://www.fiercepharma.com/pharma/tavneos-pivotal-trial-flagged-serious-breaches-protocol-eu-regulators-dissect-market",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/obesity-not-zero-sum-game-patients-crave-optionality-novo-ceo-says-reuters\" hreflang=\"en\">Obesity not a 'zero-sum game' as patients crave optionality, Novo CEO says: Reuters</a>",
-          "summary": "As the massive market for GLP-1 weight-loss drugs continues to come into its own, patients are just now discovering their preferences, and the appetite for differentiation will likely increase as more drugs are approved in the indication, Novo Nordisk's CEO told Reuters.",
-          "url": "https://www.fiercepharma.com/pharma/obesity-not-zero-sum-game-patients-crave-optionality-novo-ceo-says-reuters",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
             "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Trump's MMR vaccine split proposal threatens combination shot market share and could reduce vaccination rates overall.",
+            "rationale": "Persistent public outrage over premiums and medical bills intensifies regulatory/reputational risks and potential policy headwinds.",
             "key_themes": [
-              "vaccine policy risk",
-              "regulatory uncertainty",
-              "immunization headwinds"
+              "regulatory risk",
+              "reputational damage",
+              "premium pressure"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "bearish",
-            "conviction": 70,
-            "rationale": "Trump's MMR vaccine split proposal directly impacts Merck's combination vaccine portfolio and vaccination compliance rates.",
-            "key_themes": [
-              "vaccine policy risk",
-              "regulatory uncertainty",
-              "market disruption"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 1
           },
           {
             "ticker": "PFE",
             "company": "Pfizer Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Article defending COVID vaccine safety supports confidence in vaccine products, but limited direct operational impact on core pipeline.",
+            "rationale": "Vaccine misinformation campaign poses communications challenge but existing data supports pregnancy safety; limited direct financial impact evident.",
             "key_themes": [
-              "vaccine credibility",
-              "public health messaging"
+              "misinformation risk",
+              "vaccine safety narrative",
+              "public perception"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
           },
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "GLP-1 obesity market expansion with growing patient preference for drug options supports continued Mounjaro/Zepbound demand growth.",
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Indirect exposure to insurance sector headwinds affecting healthcare demand, but diversified business model limits acute impact from current news.",
             "key_themes": [
-              "GLP-1 market expansion",
-              "patient optionality",
-              "competitive differentiation"
+              "insurance pressure",
+              "sector sentiment"
             ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'insurance sector headwinds affecting healthcare demand' but Article [1] discusses insurer outrage/premium pressures, not insurance sector headwinds affecting healthcare demand broadly. No source directly supports the claim that insurance pressures would reduce healthcare demand affecting JNJ's diversified business.",
+            "supporting_article": null
           }
         ],
-        "summary": "Vaccine policy uncertainty poses near-term headwinds for traditional immunization players JNJ and MRK given Trump's MMR split proposal, while obesity drug markets remain robust with strong patient demand supporting LLY. Pricing pressure on new launches (AZ's Baxfendy ICER rejection) signals continued scrutiny of drug valuations across the sector.",
+        "summary": "Healthcare sector faces mounting regulatory and reputational pressures, with insurance company criticism creating potential demand headwinds for pharmaceutical and medical device sectors. Vaccine safety narratives present communication challenges for immunology-focused players, while AI innovation opportunities offer offsetting growth potential. Broader healthcare cost inflation concerns may pressure valuations across the space.",
         "risks": [
-          "Trump administration vaccine policy changes could reduce vaccination rates and combination shot utilization",
-          "ICER pricing rejections may signal broader reimbursement pressures on specialty pharma launches",
-          "GLP-1 competition intensifying as more agents approved; differentiation may erode pricing power"
+          "regulatory intervention on drug pricing",
+          "vaccine hesitancy campaigns",
+          "insurance sector deterioration reducing healthcare spending",
+          "clinical trial integrity concerns in rare disease space"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "JNJ signal extrapolates beyond source material - Article [1] discusses consumer dissatisfaction with insurers and premiums, but does not establish a causal mechanism by which insurance sector issues would materially impact JNJ's healthcare demand or business model"
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "JNJ": 262.0799865722656,
-        "MRK": 135.5500030517578,
-        "PFE": 26.799999237060547,
-        "LLY": 1209.0
+        "UNH": 401.7300109863281,
+        "PFE": 26.790000915527344,
+        "JNJ": 260.3500061035156
       },
       "spot_check": {
-        "title": "A City Mobilizes Against a Stubborn Health Threat: Mosquitoes",
-        "summary": "The city of Bel\u00e9m in northern Brazil was overwhelmed by an outbreak of dengue two years ago. An all-out municipal effort has reduced cases and may offer lessons to American cities.",
-        "url": "https://www.nytimes.com/2026/08/13/health/mosquitoes-brazil-health-threat.html",
+        "title": "Outrage at UnitedHealth and Other Insurers Persists After Brian Thompson Killing",
+        "summary": "Higher premiums and rising medical bills have intensified Americans\u2019 dissatisfaction with their medical coverage.",
+        "url": "https://www.nytimes.com/2026/08/14/business/unitedhealthcare-killing-luigi-mangione-affordability.html",
         "source": "Rss",
-        "published": "13 Aug 2026",
-        "sentiment_hint": "bullish",
+        "published": "14 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
+          "ticker": "UNH",
+          "company": "UnitedHealth Group",
           "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Trump's MMR vaccine split proposal threatens combination shot market share and could reduce vaccination rates overall.",
+          "rationale": "Persistent public outrage over premiums and medical bills intensifies regulatory/reputational risks and potential policy headwinds.",
           "key_themes": [
-            "vaccine policy risk",
-            "regulatory uncertainty",
-            "immunization headwinds"
+            "regulatory risk",
+            "reputational damage",
+            "premium pressure"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 1
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "Trump's MMR vaccine split proposal threatens combination shot market share and could reduce vaccination rates overall.",
+        "haiku_rationale": "Persistent public outrage over premiums and medical bills intensifies regulatory/reputational risks and potential policy headwinds.",
         "haiku_themes": [
-          "vaccine policy risk",
-          "regulatory uncertainty",
-          "immunization headwinds"
+          "regulatory risk",
+          "reputational damage",
+          "premium pressure"
         ]
       },
       "config": {
@@ -507,27 +540,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Kalshi Ordered to Cease Most Operations in Washington State",
-          "summary": "In a preliminary injunction, a state judge barred the prediction market from allowing residents to place bets on the bulk of its offerings.",
-          "url": "https://www.nytimes.com/2026/08/13/business/kalshi-washington-state-ruling.html",
+          "title": "As China Hunts for Scientific Talent, the US Makes It Easier",
+          "summary": "Young researchers have long come to the U.S. for academic training, but a combination of Chinese money and U.S. restrictions is shifting the balance.",
+          "url": "https://www.nytimes.com/2026/08/17/business/china-scientific-talent-competition.html",
           "source": "Rss",
-          "published": "14 Aug 2026",
+          "published": "17 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Salvage Company Hoping to Sell Titanic Artifacts Challenges Court\u2019s Role",
-          "summary": "A Virginia federal court has awarded the company the rights to collect, but not sell, items from the shipwreck. But the company says its earliest retrievals are governed by a French court.",
-          "url": "https://www.nytimes.com/2026/08/13/arts/design/salvage-company-hoping-to-sell-titanic-artifacts-challenges-courts-role.html",
+          "title": "How a False Nuclear Claim About Iran Ricocheted From India to Washington",
+          "summary": "A dubious post that spread on X became the basis of false claims that Iran\u2019s leadership had declared it a nuclear power.",
+          "url": "https://www.nytimes.com/2026/08/16/business/iran-nuclear-false-claims.html",
           "source": "Rss",
-          "published": "13 Aug 2026",
+          "published": "16 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Flock Announces Privacy Updates to Its Car-Tracking Cameras",
-          "summary": "Critics say the measures are \u201cpublic relations\u201d and leave room for continued misuse.",
-          "url": "https://www.nytimes.com/2026/08/13/business/flock-cameras-privacy-updates.html",
+          "title": "Should I Publicize a Bad Publicist?",
+          "summary": "Plus: An intern considers whether to give the boss an honest review.",
+          "url": "https://www.nytimes.com/2026/08/16/business/bad-boss-warning.html",
           "source": "Rss",
-          "published": "13 Aug 2026",
+          "published": "16 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -562,14 +595,14 @@
             "company": "JPMorgan Chase",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Broad market AI selloff may reduce investment banking activity, but financial sector resilience supports stable outlook.",
+            "rationale": "Market volatility from AI sector rout may increase trading volumes and advisory opportunities for investment banking.",
             "key_themes": [
               "market volatility",
-              "tech sector weakness"
+              "trading activity"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale assumes AI selloff reduces investment banking activity, but source articles do not discuss impact on M&A pipelines or investment banking revenues for financial institutions",
+            "verification_issue": "Rationale speculates about increased trading volumes and advisory opportunities from AI sector volatility, but source articles do not discuss banking sector impacts or trading volume effects",
             "supporting_article": null
           },
           {
@@ -577,131 +610,97 @@
             "company": "Bank of America",
             "sentiment": "neutral",
             "conviction": 40,
-            "rationale": "AI rout creates near-term headwinds for trading revenue, but no direct exposure impact evident in articles.",
+            "rationale": "Broad market selloff creates potential wealth management headwinds but may drive advisory engagement during uncertainty.",
             "key_themes": [
               "market volatility",
-              "tech sector weakness"
+              "advisory demand"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale speculates about trading revenue headwinds from AI rout, but source articles provide no data on financial sector trading impact or revenue effects",
+            "verification_issue": "Rationale assumes wealth management headwinds and advisory engagement during market selloff, but source articles provide no information about banking sector dynamics or advisory demand",
             "supporting_article": null
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
             "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Tech sector selloff may pressure advisory and M&A pipelines, but financial strength remains intact.",
+            "conviction": 45,
+            "rationale": "Market turmoil from tech selloff may increase M&A advisory and trading opportunities in financial services sector.",
             "key_themes": [
               "market volatility",
-              "tech sector weakness"
+              "trading revenue"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale claims tech sector selloff pressures advisory and M&A pipelines, but source articles contain no information about effects on Goldman Sachs or investment banking activity",
+            "verification_issue": "Rationale speculates about M&A advisory and trading opportunities in financial services, but source articles contain no information about investment banking impacts or M&A activity",
             "supporting_article": null
           },
           {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 43,
-            "rationale": "Broad market weakness creates near-term trading pressures, but diversified revenue streams provide support.",
-            "key_themes": [
-              "market volatility",
-              "tech sector weakness"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale speculates about trading pressures from broad market weakness, but source articles do not discuss impact on Morgan Stanley or financial sector trading revenues",
-            "supporting_article": null
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
             "sentiment": "neutral",
             "conviction": 50,
-            "rationale": "Market volatility may temporarily reduce transaction volumes, but payment networks remain structurally resilient.",
+            "rationale": "Market downturn may create attractive acquisition opportunities; defensive positioning benefits from equity market weakness.",
             "key_themes": [
               "market volatility",
-              "consumer spending"
+              "acquisition opportunities"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes market volatility reduces transaction volumes, but source articles do not establish this causal link or provide any data on consumer spending or payment volume impacts",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Broad market selloff creates near-term headwinds for transaction growth, but long-term fundamentals unchanged.",
-            "key_themes": [
-              "market volatility",
-              "consumer spending"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes market selloff creates transaction growth headwinds, but source articles do not discuss Mastercard, payment volumes, or consumer spending effects",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           }
         ],
-        "summary": "The financial sector faces near-term headwinds from a broad AI-driven market selloff triggered by DeepSeek concerns, though sentiment indicators suggest panic may be overblown. Banks and payment processors show neutral positioning as market volatility creates temporary pressure on trading revenues and transaction volumes, but no fundamental deterioration in sector dynamics. Long-term outlook remains stable absent further macroeconomic deterioration.",
+        "summary": "The AI sector rout triggered by DeepSeek concerns has created broad market volatility affecting financial stocks. Payment processors (V, MA) and core banking operations show no direct exposure to these articles. Financial intermediaries may benefit modestly from increased trading activity and advisory demand during market uncertainty.",
         "risks": [
-          "Sustained tech sector decline reducing M&A and advisory activity",
-          "Payment volume contraction if consumer spending weakens",
-          "Regulatory uncertainty around prediction markets and emerging fintech competitors"
+          "Continued market selloff could impair wealth management revenues and lending quality",
+          "Prolonged tech sector weakness could reduce M&A pipeline and advisory opportunities",
+          "Geopolitical tensions (Iran, China talent flows) create macroeconomic uncertainty"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "All six signals make speculative inferences about downstream financial sector and consumer spending impacts that are not supported by the source articles",
-            "Article [4] discusses AI infrastructure stocks declining (Nvidia down 16%), but does not discuss effects on financial services, investment banking, or payment processing companies",
-            "Article [6] argues panic is overblown, but none of the signals acknowledge this counter-narrative",
-            "No source articles contain information about M&A pipelines, trading revenues, investment banking activity, or payment transaction volumes",
-            "The rationales represent analyst speculation beyond what the source material supports"
+            "Three of four signals (JPM, BAC, GS) make assumptions about banking sector revenue opportunities that are not supported by any source articles",
+            "Source articles focus on tech stock declines and AI sector impacts, not financial services sector dynamics",
+            "Only BRK-B rationale is grounded - the general concept of market downturns creating acquisition opportunities is supported by Article 4's description of broad market weakness"
           ],
-          "ungrounded_count": 6
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JPM": 363.1099853515625,
-        "BAC": 64.08999633789062,
-        "GS": 1042.6300048828125,
-        "MS": 218.3800048828125,
-        "V": 365.45001220703125,
-        "MA": 567.0399780273438
+        "JPM": 362.8399963378906,
+        "BAC": 64.48999786376953,
+        "GS": 1039.4200439453125,
+        "BRK-B": 504.0299987792969
       },
       "spot_check": {
-        "title": "Salvage Company Hoping to Sell Titanic Artifacts Challenges Court\u2019s Role",
-        "summary": "A Virginia federal court has awarded the company the rights to collect, but not sell, items from the shipwreck. But the company says its earliest retrievals are governed by a French court.",
-        "url": "https://www.nytimes.com/2026/08/13/arts/design/salvage-company-hoping-to-sell-titanic-artifacts-challenges-courts-role.html",
+        "title": "As China Hunts for Scientific Talent, the US Makes It Easier",
+        "summary": "Young researchers have long come to the U.S. for academic training, but a combination of Chinese money and U.S. restrictions is shifting the balance.",
+        "url": "https://www.nytimes.com/2026/08/17/business/china-scientific-talent-competition.html",
         "source": "Rss",
-        "published": "13 Aug 2026",
+        "published": "17 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa",
+          "ticker": "BRK-B",
+          "company": "Berkshire Hathaway",
           "sentiment": "neutral",
           "conviction": 50,
-          "rationale": "Market volatility may temporarily reduce transaction volumes, but payment networks remain structurally resilient.",
+          "rationale": "Market downturn may create attractive acquisition opportunities; defensive positioning benefits from equity market weakness.",
           "key_themes": [
             "market volatility",
-            "consumer spending"
+            "acquisition opportunities"
           ],
-          "time_horizon": "short-term",
-          "verified": false,
-          "verification_issue": "Rationale assumes market volatility reduces transaction volumes, but source articles do not establish this causal link or provide any data on consumer spending or payment volume impacts",
-          "supporting_article": null
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 4
         },
         "haiku_sentiment": "neutral",
-        "haiku_rationale": "Market volatility may temporarily reduce transaction volumes, but payment networks remain structurally resilient.",
+        "haiku_rationale": "Market downturn may create attractive acquisition opportunities; defensive positioning benefits from equity market weakness.",
         "haiku_themes": [
           "market volatility",
-          "consumer spending"
+          "acquisition opportunities"
         ]
       },
       "config": {

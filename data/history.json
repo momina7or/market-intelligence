@@ -11660,5 +11660,291 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-08-17",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search behavior demonstrates competitive pressure; Google's AI search capabilities increasingly critical.",
+            "key_themes": [
+              "AI-powered search",
+              "organic traffic disruption",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's growing role in content discovery and decision-making validates OpenAI partnership and AI platform investments.",
+            "key_themes": [
+              "AI monetization",
+              "content creation tools",
+              "enterprise AI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 345.8999938964844,
+          "MSFT": 495.3999938964844
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Hormuz strait disruption maintaining oil price pressure above $82 WTI supports upstream cash generation and margins.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "crude price support",
+              "upstream economics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz tanker traffic slowdown sustains elevated Brent crude above $88, benefiting integrated oil majors' refining and upstream.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "crude price support",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Hormuz transit constraints elevate crude prices, supporting BP's upstream production and integrated refining operations.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "crude price support",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Hormuz tanker slowdown maintains crude price elevation, supporting Shell's upstream and trading divisions' profitability.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "crude price support",
+              "integrated operations"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "While benefiting from elevated crude prices via Hormuz disruption, no direct exposure mentioned; renewable investments remain strategic offset.",
+            "key_themes": [
+              "geopolitical supply support",
+              "energy transition pivot"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Rationale claims 'renewable investments remain strategic offset' but no TotalEnergies renewable projects are mentioned in source articles",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Hormuz supply constraints maintain oil price floor above $82 WTI, directly supporting upstream-focused producer cash flows.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "crude price support",
+              "upstream production"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "CVX": 200.0,
+          "XOM": 160.10000610351562,
+          "BP": 42.529998779296875,
+          "SHEL": 90.47000122070312,
+          "TTE": 88.33000183105469,
+          "COP": 126.77999877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Persistent public outrage over premiums and medical bills intensifies regulatory/reputational risks and potential policy headwinds.",
+            "key_themes": [
+              "regulatory risk",
+              "reputational damage",
+              "premium pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Vaccine misinformation campaign poses communications challenge but existing data supports pregnancy safety; limited direct financial impact evident.",
+            "key_themes": [
+              "misinformation risk",
+              "vaccine safety narrative",
+              "public perception"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Indirect exposure to insurance sector headwinds affecting healthcare demand, but diversified business model limits acute impact from current news.",
+            "key_themes": [
+              "insurance pressure",
+              "sector sentiment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'insurance sector headwinds affecting healthcare demand' but Article [1] discusses insurer outrage/premium pressures, not insurance sector headwinds affecting healthcare demand broadly. No source directly supports the claim that insurance pressures would reduce healthcare demand affecting JNJ's diversified business.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "UNH": 401.7300109863281,
+          "PFE": 26.790000915527344,
+          "JNJ": 260.3500061035156
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI sector rout may increase trading volumes and advisory opportunities for investment banking.",
+            "key_themes": [
+              "market volatility",
+              "trading activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates about increased trading volumes and advisory opportunities from AI sector volatility, but source articles do not discuss banking sector impacts or trading volume effects",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Broad market selloff creates potential wealth management headwinds but may drive advisory engagement during uncertainty.",
+            "key_themes": [
+              "market volatility",
+              "advisory demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes wealth management headwinds and advisory engagement during market selloff, but source articles provide no information about banking sector dynamics or advisory demand",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market turmoil from tech selloff may increase M&A advisory and trading opportunities in financial services sector.",
+            "key_themes": [
+              "market volatility",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates about M&A advisory and trading opportunities in financial services, but source articles contain no information about investment banking impacts or M&A activity",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Market downturn may create attractive acquisition opportunities; defensive positioning benefits from equity market weakness.",
+            "key_themes": [
+              "market volatility",
+              "acquisition opportunities"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 362.8399963378906,
+          "BAC": 64.48999786376953,
+          "GS": 1039.4200439453125,
+          "BRK-B": 504.0299987792969
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
