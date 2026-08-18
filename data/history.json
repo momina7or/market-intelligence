@@ -11946,5 +11946,355 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-08-18",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search workflows demonstrates AI-driven discovery is reshaping organic traffic, directly threatening Google's traditional search dominance and forcing innovation acceleration.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic redistribution",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to surface content and drive traffic validates OpenAI/Microsoft's AI strategy and content discovery platform potential for enterprise adoption.",
+            "key_themes": [
+              "AI monetization",
+              "content discovery",
+              "search alternatives"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "AI-powered content generation and transformation tools (Reddit/ABC examples) indicate growing adoption of generative AI for content creation, benefiting platforms investing in AI infrastructure.",
+            "key_themes": [
+              "generative AI adoption",
+              "content transformation",
+              "creator tools"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 344.0,
+          "MSFT": 480.3500061035156,
+          "META": 568.969970703125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "U.S.-Iran tensions driving Brent crude to $91.33/bbl with record diesel margins of $100/bbl supports upstream economics.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "refining margin expansion",
+              "crude price strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated oil prices ($91+ Brent) and record diesel spreads improve downstream profitability and upstream project returns.",
+            "key_themes": [
+              "crude price rally",
+              "refining margins",
+              "geopolitical tensions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Strong refining environment with diesel cracks at record highs and elevated Brent pricing support near-term earnings.",
+            "key_themes": [
+              "refining margin expansion",
+              "crude strength",
+              "Middle East uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Record diesel margins and $91+ Brent crude support both upstream production and downstream refining operations.",
+            "key_themes": [
+              "refining margins",
+              "crude price strength",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Higher crude prices ($91 Brent, $85 WTI) driven by U.S.-Iran tensions improve upstream cash flow and project NPVs.",
+            "key_themes": [
+              "crude price rally",
+              "geopolitical risk",
+              "upstream economics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Elevated crude and diesel prices, plus potential Libya growth opportunities, support both upstream and refining segments.",
+            "key_themes": [
+              "crude price strength",
+              "refining margins",
+              "growth optionality"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Higher oil prices may incentivize future E&P spending, but Libya's $40B need suggests long-term capex rather than immediate SLB benefit.",
+            "key_themes": [
+              "future E&P spending",
+              "oilfield services demand",
+              "long-term visibility"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 161.4600067138672,
+          "CVX": 202.6999969482422,
+          "BP": 42.849998474121094,
+          "SHEL": 91.62000274658203,
+          "COP": 127.55999755859375,
+          "TTE": 88.62999725341797,
+          "SLB": 53.86000061035156
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Vaccine safety questioning by new Louisiana Surgeon General aligned with MAHA movement threatens vaccine confidence and demand.",
+            "key_themes": [
+              "vaccine hesitancy",
+              "regulatory headwinds",
+              "public health politics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Food safety system erosion and delayed FDA rules increase liability risks; vaccine division also exposed to growing safety skepticism.",
+            "key_themes": [
+              "regulatory weakness",
+              "vaccine hesitancy",
+              "food safety oversight"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale connects food safety to vaccine division, but Article [3] only addresses food safety/Cyclospora. Article [2] mentions vaccine safety questioning but does not link JNJ specifically. The vaccine hesitancy component is supported but the connection to JNJ's vaccine division and food safety liability is an inference not explicitly stated in sources.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Eroded food safety oversight and delayed contamination detection rule implementation reduce demand for diagnostic and testing services.",
+            "key_themes": [
+              "regulatory erosion",
+              "food safety testing",
+              "oversight weakness"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses eroded food safety oversight and delayed contamination detection rules, but does not mention Thermo Fisher Scientific or diagnostic/testing services. The rationale assumes TMO provides food safety testing services without evidence in the source articles.",
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 26.8700008392334,
+          "JNJ": 262.3699951171875,
+          "TMO": 585.510009765625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Trade uncertainty from U.S.-Canada tariff negotiations creates volatility for financial services sector",
+            "key_themes": [
+              "trade policy uncertainty",
+              "macroeconomic volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tariff negotiations and tech sector weakness create mixed signals for banking sector earnings outlook",
+            "key_themes": [
+              "trade uncertainty",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "M&A deal uncertainty (Paramount-Warner Bros delay) and tariff tensions may pressure investment banking revenues",
+            "key_themes": [
+              "M&A uncertainty",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and tech rout may reduce consumer spending and transaction volumes near-term",
+            "key_themes": [
+              "market selloff",
+              "consumer spending concerns"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 56,
+            "rationale": "AI sector panic and equity market decline may dampen consumer activity and payment volume growth",
+            "key_themes": [
+              "market volatility",
+              "consumer discretionary weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 360.9599914550781,
+          "BAC": 63.88999938964844,
+          "GS": 1051.31005859375,
+          "V": 358.8399963378906,
+          "MA": 562.260009765625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      }
+    }
   }
 ]
