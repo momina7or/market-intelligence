@@ -12296,5 +12296,304 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-19",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic recommendation capability demonstrates competitive AI search threat, validating urgency of Google's AI integration strategy.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "OpenAI's security vulnerabilities and sandwich environment breaches create near-term risk but reinforce demand for enterprise AI safety solutions.",
+            "key_themes": [
+              "AI security concerns",
+              "OpenAI partnership implications",
+              "enterprise demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Robin Williams AI likeness abuse highlights IP/content moderation challenges affecting all platform AI content strategies and regulatory scrutiny.",
+            "key_themes": [
+              "AI ethics",
+              "content moderation",
+              "regulatory risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 344.20001220703125,
+          "MSFT": 481.6300048828125,
+          "META": 543.6699829101562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Secured major integrated reservoir services framework deal with Venezuela, diversifying oilfield services revenue streams.",
+            "key_themes": [
+              "Venezuela operations expansion",
+              "integrated services contracts"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Geopolitical tensions at Strait of Hormuz supporting crude prices at $91.53/bbl, benefiting integrated oil majors' upstream margins.",
+            "key_themes": [
+              "crude price support",
+              "supply disruption premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Geopolitical tensions at Strait of Hormuz supporting crude prices at $91.53/bbl, benefiting integrated oil majors' upstream margins.",
+            "key_themes": [
+              "crude price support",
+              "supply disruption premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Sustained refining margins driven by global refinery undersupply (5M bpd below year-earlier levels) amid Middle East constraints.",
+            "key_themes": [
+              "refining margin expansion",
+              "supply shortage"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Sustained refining margins driven by global refinery undersupply (5M bpd below year-earlier levels) amid Middle East constraints.",
+            "key_themes": [
+              "refining margin expansion",
+              "supply shortage"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "SLB": 53.209999084472656,
+          "XOM": 165.55999755859375,
+          "CVX": 205.74000549316406,
+          "BP": 43.40999984741211,
+          "SHEL": 92.01000213623047
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rare disease clinical trial success demonstrates pipeline strength in underserved patient populations with high unmet needs.",
+            "key_themes": [
+              "rare disease innovation",
+              "clinical trial success",
+              "patient outcomes"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes a rare disease clinical trial but does not identify Johnson & Johnson as the company involved. The article does not mention JNJ at all.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Vaccine safety questioning by influential public health officials undermines confidence in immunization portfolio and government relationships.",
+            "key_themes": [
+              "vaccine hesitancy",
+              "public health headwinds",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Food safety system failures and government oversight erosion create reputational and regulatory risks for vaccine and public health divisions.",
+            "key_themes": [
+              "regulatory erosion",
+              "public health concerns",
+              "food safety failures"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses food safety system failures related to Cyclospora contamination, not vaccine divisions. Merck is not mentioned in the article. The rationale incorrectly connects food safety failures to vaccine/public health divisions.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Food safety contamination incident may increase demand for diagnostic and testing services, but regulatory environment remains uncertain.",
+            "key_themes": [
+              "diagnostic opportunity",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While article [3] covers food safety contamination, Thermo Fisher Scientific is not mentioned. The rationale speculates about diagnostic opportunity but this is not substantiated by the source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 271.1099853515625,
+          "PFE": 27.25,
+          "MRK": 135.1699981689453,
+          "TMO": 589.0399780273438
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tariff uncertainty and trade negotiation volatility create mixed near-term outlook for banking sector",
+            "key_themes": [
+              "trade policy",
+              "economic uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tariff negotiations with Canada on hold; financial sector faces macro headwinds from trade tensions",
+            "key_themes": [
+              "trade policy",
+              "macro volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Tech sector volatility from AI concerns may reduce M&A and capital markets activity near-term",
+            "key_themes": [
+              "tech volatility",
+              "capital markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "AI sector rout creates uncertainty for wealth management and capital markets fee generation",
+            "key_themes": [
+              "tech volatility",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 363.25,
+          "BAC": 64.2300033569336,
+          "GS": 1040.469970703125,
+          "MS": 217.5500030517578
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
