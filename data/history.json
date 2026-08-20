@@ -12595,5 +12595,384 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-20",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Gemini student hub expansion demonstrates AI monetization in education; AI search integration driving organic traffic displacement.",
+            "key_themes": [
+              "AI product expansion",
+              "education sector penetration",
+              "search dominance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's organic search integration and content recommendation capabilities signal strong AI assistant adoption and platform stickiness.",
+            "key_themes": [
+              "AI adoption",
+              "content discovery",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Growing AI tools ecosystem (content creation, educational applications) drives demand for underlying GPU compute infrastructure.",
+            "key_themes": [
+              "AI infrastructure",
+              "data center demand",
+              "ecosystem growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 344.7200012207031,
+          "MSFT": 484.30999755859375,
+          "NVDA": 217.55999755859375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Elevated global oil prices and increased US crude shipments to Japan support upstream cash flows and pricing power.",
+            "key_themes": [
+              "elevated oil prices",
+              "US crude exports",
+              "strong demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Rising oil prices and sustained global crude demand, including from Asia-Pacific refiners, benefit exploration and production margins.",
+            "key_themes": [
+              "oil price strength",
+              "Asian demand recovery",
+              "upstream profitability"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Strong crude oil pricing environment and increased Asian refinery demand support upstream production economics.",
+            "key_themes": [
+              "crude price rally",
+              "geopolitical supply constraints",
+              "demand resilience"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Elevated oil prices and Chinese refiner activity purchasing Iraqi crude benefit integrated oil majors with downstream and upstream exposure.",
+            "key_themes": [
+              "oil price elevation",
+              "downstream margins",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "While benefiting from elevated oil prices, BP's energy transition focus may be constrained by coal's continued dominance in global power generation.",
+            "key_themes": [
+              "oil price benefit",
+              "energy transition headwinds",
+              "coal persistence"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Mixed signals: elevated crude prices support oil business, but articles highlight renewables gaining share and coal remaining dominant, complicating energy transition narrative.",
+            "key_themes": [
+              "oil price strength",
+              "transition timing uncertainty",
+              "market shifts"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "SLumberger",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Elevated oil prices and geopolitical supply constraints (Iranian blockade) likely drive upstream capex and oilfield services demand.",
+            "key_themes": [
+              "oil service activity",
+              "capex cycle support",
+              "supply constraints"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 164.77000427246094,
+          "CVX": 205.75999450683594,
+          "COP": 130.5800018310547,
+          "TTE": 90.06999969482422,
+          "BP": 43.72999954223633,
+          "SHEL": 92.7699966430664,
+          "SLB": 53.54999923706055
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Moderna-Merck mRNA melanoma vaccine showed efficacy in preventing cancer recurrence, validating oncology pipeline expansion.",
+            "key_themes": [
+              "mRNA oncology",
+              "melanoma prevention",
+              "vaccine platform validation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "FDA commissioner nomination of Kennedy ally creates regulatory uncertainty for pharma; impact on Pfizer's pipeline unclear.",
+            "key_themes": [
+              "regulatory headwind",
+              "FDA policy shift",
+              "political risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses FDA commissioner nomination of Heidi Overton (a Kennedy ally) but does not mention Pfizer specifically or provide evidence of direct regulatory impact on Pfizer's pipeline. The rationale extrapolates broader pharma impact without source support.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "FDA commissioner change may affect approval timelines; no direct product impact visible from current articles.",
+            "key_themes": [
+              "regulatory uncertainty",
+              "FDA policy shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses FDA commissioner nomination but does not mention Johnson & Johnson or provide any evidence of impact on J&J's approval timelines. The rationale is speculative without direct source support.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 152.1999969482422,
+          "PFE": 28.239999771118164,
+          "JNJ": 273.4100036621094
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising Treasury yields benefit net interest margins; crypto regulatory clarity supports investment banking fees",
+            "key_themes": [
+              "rising rates",
+              "cryptocurrency regulation",
+              "investment banking"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              2
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated Treasury yields expand net interest margins; improved lending environment supports profitability",
+            "key_themes": [
+              "rising rates",
+              "interest margin expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Cryptocurrency bill passage would unlock investment banking opportunities; rising rates support advisory revenues",
+            "key_themes": [
+              "cryptocurrency regulation",
+              "rising rates",
+              "investment banking"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Crypto industry maturation and regulatory clarity expand wealth management and advisory opportunities",
+            "key_themes": [
+              "cryptocurrency regulation",
+              "wealth management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Crypto bill passage could expand digital payment opportunities, but broader economic uncertainty from China's property crisis",
+            "key_themes": [
+              "cryptocurrency payments",
+              "economic uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'China's property crisis' impacting Visa, but source article [1] focuses on Evergrande founder's sentencing with no discussion of broader economic impact on payment processors or digital payments",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Potential upside from cryptocurrency payment integration offset by economic headwinds from China's Evergrande collapse",
+            "key_themes": [
+              "cryptocurrency payments",
+              "economic uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes Evergrande collapse creates 'economic headwinds' for Mastercard, but source article [1] provides no detail on macroeconomic consequences or impact on payment networks",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 357.260009765625,
+          "BAC": 63.16999816894531,
+          "GS": 1021.6500244140625,
+          "MS": 214.22999572753906,
+          "V": 365.5400085449219,
+          "MA": 573.719970703125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-19",
-  "run_time": "2026-08-19T07:35:45.665331Z",
+  "run_date": "2026-08-20",
+  "run_time": "2026-08-20T07:39:29.910187Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "SteelSeries\u2019 comfy wireless gaming headset is nearly half off",
-          "summary": "While many gaming headsets come with extra features, the tradeoff is that they\u2019re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The SteelSeries Arctis Nova 3P in cyan is on sale for $59.99, a 45 percent discount from their usual $109.99 price. This [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale",
+          "title": "Does giving a camera wings dodge the FCC\u2019s drone ban?",
+          "summary": "HoverAir drones always have intriguing gimmicks. This one folds flat to fit in your pocket. This one can land on water. Another can charge inside its carrying case. But the brand's latest trick might be its riskiest: it's attempting to sneak a drone past the FCC. In December 2025, the US government banned future foreign [&#8230;]",
+          "url": "https://www.theverge.com/tech/981834/hoverair-versa-drone-camera-fcc-loophole-indiegogo",
           "source": "Theverge",
-          "published": "18 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "19 Aug 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Robin Williams\u2019 Instagram account brought back to fight \u2018AI abuse\u2019",
-          "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+          "title": "Nielsen is leaning more on wearables to hear what people are watching",
+          "summary": "In order to beef up its ability to accurately measure viewership data in the streaming era, Nielsen is moving forward with a plan to use more information gathered from its partners' wearable devices. Today, Nielsen announced \"a number of key enhancements\" that are being added to its data capturing process ahead of the upcoming fall [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/982358/nielsen-ratings-ppm-smart-watch-cowatching-big-data",
           "source": "Theverge",
-          "published": "18 Aug 2026",
-          "sentiment_hint": "bullish"
+          "published": "19 Aug 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-          "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+          "title": "Google Gemini is getting a dedicated student hub",
+          "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
           "source": "Theverge",
-          "published": "18 Aug 2026",
+          "published": "19 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -59,12 +59,28 @@
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT's organic recommendation capability demonstrates competitive AI search threat, validating urgency of Google's AI integration strategy.",
+            "conviction": 82,
+            "rationale": "Gemini student hub expansion demonstrates AI monetization in education; AI search integration driving organic traffic displacement.",
             "key_themes": [
-              "AI search disruption",
-              "organic traffic monetization",
-              "competitive pressure"
+              "AI product expansion",
+              "education sector penetration",
+              "search dominance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's organic search integration and content recommendation capabilities signal strong AI assistant adoption and platform stickiness.",
+            "key_themes": [
+              "AI adoption",
+              "content discovery",
+              "competitive positioning"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -72,86 +88,73 @@
             "supporting_article": 1
           },
           {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "OpenAI's security vulnerabilities and sandwich environment breaches create near-term risk but reinforce demand for enterprise AI safety solutions.",
+            "conviction": 70,
+            "rationale": "Growing AI tools ecosystem (content creation, educational applications) drives demand for underlying GPU compute infrastructure.",
             "key_themes": [
-              "AI security concerns",
-              "OpenAI partnership implications",
-              "enterprise demand"
+              "AI infrastructure",
+              "data center demand",
+              "ecosystem growth"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Robin Williams AI likeness abuse highlights IP/content moderation challenges affecting all platform AI content strategies and regulatory scrutiny.",
-            "key_themes": [
-              "AI ethics",
-              "content moderation",
-              "regulatory risk"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
+            "supporting_article": 2
           }
         ],
-        "summary": "The articles reveal an AI sector bifurcation: growing mainstream adoption of generative AI tools for content creation and search integration, but emerging security and ethical concerns. OpenAI's sandbox vulnerabilities and AI likeness abuse issues signal accelerating regulatory scrutiny, while ChatGPT's organic search prominence validates the competitive threat landscape. These dynamics favor established players with robust security infrastructure and ethical guardrails.",
+        "summary": "The articles reveal accelerating AI adoption across content creation, search, and education sectors, with Gemini and ChatGPT driving organic integration into user workflows. AI-powered tools are becoming essential infrastructure for creators and students, signaling sustained demand for underlying AI platforms and compute resources. Regulatory headwinds (FCC drone restrictions) present minor risks but don't materially impact core tech AI narratives.",
         "risks": [
-          "Regulatory backlash on AI-generated content and deepfakes",
-          "OpenAI security vulnerabilities expanding to dependent platforms",
-          "Search engine monetization disruption from AI recommendations",
-          "Content creator backlash against unauthorized AI training"
+          "regulatory scrutiny on AI applications",
+          "competition intensifying in generative AI space",
+          "user privacy concerns with wearable data collection"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
+          "overall_reliability": "medium",
+          "flags": [
+            "MSFT rationale attributes ChatGPT organic search integration to Microsoft/ChatGPT, but source article [1] does not clarify ownership or explicitly state this is a Microsoft/OpenAI product feature - attribution is ambiguous",
+            "GOOGL rationale claims 'AI search integration driving organic traffic displacement' but source article [6] only describes student hub features (flashcards, notebooks, quizzes) without discussing search integration or traffic displacement mechanics",
+            "NVDA rationale infers GPU demand from AI tools ecosystem growth, but sources [2] and [6] describe AI tool features without mentioning compute infrastructure, data centers, or GPU requirements - this is an inferential claim not directly supported by sources"
+          ],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "GOOGL": 344.20001220703125,
-        "MSFT": 481.6300048828125,
-        "META": 543.6699829101562
+        "GOOGL": 344.7200012207031,
+        "MSFT": 484.30999755859375,
+        "NVDA": 217.55999755859375
       },
       "spot_check": {
-        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
-        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
-        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
-        "source": "Feedburner",
-        "published": "04 Dec 2025",
+        "title": "Google Gemini is getting a dedicated student hub",
+        "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates [&#8230;]",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+        "source": "Theverge",
+        "published": "19 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "GOOGL",
           "company": "Alphabet Inc.",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "ChatGPT's organic recommendation capability demonstrates competitive AI search threat, validating urgency of Google's AI integration strategy.",
+          "conviction": 82,
+          "rationale": "Gemini student hub expansion demonstrates AI monetization in education; AI search integration driving organic traffic displacement.",
           "key_themes": [
-            "AI search disruption",
-            "organic traffic monetization",
-            "competitive pressure"
+            "AI product expansion",
+            "education sector penetration",
+            "search dominance"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 6
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's organic recommendation capability demonstrates competitive AI search threat, validating urgency of Google's AI integration strategy.",
+        "haiku_rationale": "Gemini student hub expansion demonstrates AI monetization in education; AI search integration driving organic traffic displacement.",
         "haiku_themes": [
-          "AI search disruption",
-          "organic traffic monetization",
-          "competitive pressure"
+          "AI product expansion",
+          "education sector penetration",
+          "search dominance"
         ]
       },
       "config": {
@@ -171,138 +174,194 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Venezuela Signs Oil Deals With SLB and Hunt to Boost Production",
-          "summary": "Venezuela has signed deals with oilfield service major SLB and Hunt Oil Co. as part of efforts to boost investment in its key energy industry, Bloomberg reported, citing a TV statement made by the South American country\u2019s oil minister, Paula Henao. One of the deals involves development of two fields and the other is a framework deal with SLB for \u201cservices related to integrated reservoir studies throughout the country,\u201d according to the statement. The deal with SLB follows earlier reports about t",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Signs-Oil-Deals-With-SLB-and-Hunt-to-Boost-Production.html",
+          "title": "Elevated Oil Prices Push Japan\u2019s Imports to an All-Time High",
+          "summary": "Japan\u2019s import bill reached an all-time high in July, driven by higher oil prices, to a total of $76.39 billion. This was up by 27.8% from July 2025, Reuters reported, citing import and export data. In volume terms, Japan\u2019s crude oil imports ticked up by 5.5% from a year earlier, but in price terms, the oil bill surged by 87.8%, breaking the previous record, set in June. \u201cThe recovery in crude volumes, combined with persistently high oil prices and larger shipments of pricier US\u00a0crude, has been ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Elevated-Oil-Prices-Push-Japans-Imports-to-an-All-Time-High.html",
           "source": "Oilprice",
-          "published": "19 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Oil Prices Rise for Fourth Day as Hormuz Traffic Slows",
-          "summary": "Crude oil prices extended their gains for the fourth day today as fresh tanker-tracking data suggests traffic via the Strait of Hormuz has slowed further amid harder rhetoric from both Iran and the United States, with both sides demonstrating an unwillingness to return to the negotiating table. At the time of writing, Brent crude was trading at $91.53 per barrel, and West Texas Intermediate was changing hands for $85.47 per barrel, two days after the expiration of the June ceasefire deal the U.S",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-for-Fourth-Day-as-Hormuz-Traffic-Slows.html",
-          "source": "Oilprice",
-          "published": "19 Aug 2026",
+          "published": "20 Aug 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "5 Energy Stocks Cashing In On The New Energy Crunch",
-          "summary": "The Iran war has created an extraordinary earnings season for U.S. refiners. Brent crude has fallen to around $90 per barrel from a wartime peak of $126, but the shortage of refined fuels has only deepened. According to Reuters, Global refinery throughput in July was nearly 5 million barrels per day below year-earlier levels as Middle Eastern refineries remained constrained and Ukrainian attacks pushed Russian processing close to a 20-year low. U.S. refiners have stepped into the gap, running at",
-          "url": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-Cashing-In-On-The-New-Energy-Crunch.html",
+          "title": "Chinese Refiners Snap Up Iraqi Oil as Gulf Supply Routes Fracture",
+          "summary": "Chinese refiners are buying Iraqi crude, with recent purchases of 8 million barrels of Basrah Heavy and Basrah Medium for prompt delivery, Bloomberg has reported, citing unnamed traders. Oil has continued flowing via the Strait of Hormuz\u2014Iraq\u2019s main export channel\u2014despite the Iranian blockade, but the blockade has reduced these flows to a fraction of what they once were. For the week to August 17, Marine Traffic reported a total of 95 vessel crossings, down from 118 the previous week. Some tanke",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Refiners-Snap-Up-Iraqi-Oil-as-Gulf-Supply-Routes-Fracture.html",
           "source": "Oilprice",
+          "published": "20 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Coal Remains The Undisputed King Of Global Power",
+          "summary": "The world is installing wind turbines and solar panels faster than ever, but coal still generates more electricity than any other source, and by a huge margin. The International Energy Agency (IEA) expects coal-fired power plants to generate 10,974 terawatt-hours (TWh) in 2026, nearly one-third of the 33,313 TWh of electricity produced worldwide. Natural gas is a distant second at 6,976 TWh, followed by hydropower at 4,536 TWh, solar at 3,289 TWh, wind at 2,898 TWh and nuclear at 2,871 TWh. In o",
+          "url": "https://oilprice.com/Energy/Coal/Coal-Remains-The-Undisputed-King-Of-Global-Power.html",
+          "source": "Oilprice",
+          "published": "20 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Expert insights: Mining more with less",
+          "summary": "Discover practical mining decarbonisation strategies to cut Scope 1 and 2 emissions while maintaining productivity, reliability, and safety performance.",
+          "url": "https://www.energymonitor.ai/sponsored/expert-insights-mining-more-with-less/",
+          "source": "Energymonitor",
           "published": "19 Aug 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "South Korea signs MoU for 320MW green hydrogen complex",
-          "summary": "Plans for a large-scale green hydrogen complex at Saemangeum in SK have been announced following a memorandum of understanding (MoU).",
-          "url": "https://www.energymonitor.ai/news/south-korea-mou-green-hydrogen/",
+          "title": "EDP Renewables and RCEA complete 368MWh Sandrini BESS project",
+          "summary": "EDP Renewables NA along with RCEA has announced the completion of the Sandrini Energy Storage project in Kern County, California, US.",
+          "url": "https://www.energymonitor.ai/news/edpr-rcea-complete-sandrini-bess/",
           "source": "Energymonitor",
-          "published": "17 Aug 2026",
+          "published": "19 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Quinbrook, CATL advance Supernode BESS with $333m stage 3 financing",
-          "summary": "Quinbrook, CATL advanced the development of the Supernode BESS project in Australia, achieving financial close on $333m for Stage 3 funding.",
-          "url": "https://www.energymonitor.ai/news/supernode-bess-stage-3-financing/",
+          "title": "Inox Clean Energy acquires Vena Energy India for $627m",
+          "summary": "Inox Clean Energy, a company within the INOXGFL Group, has acquired Vena Energy India in a transaction valued at around Rs60bn ($626.7m).",
+          "url": "https://www.energymonitor.ai/news/inox-clean-acquires-vena-energy-india-627m/",
           "source": "Energymonitor",
-          "published": "17 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Noon Energy and Sabanci Renewables plan 1GW ultra-LDES project",
-          "summary": "Noon Energy and Sabanci Renewables have agreed to jointly develop up to 1GW of ultra-long duration energy storage (ultra-LDES) projects.",
-          "url": "https://www.energymonitor.ai/news/noon-sabanci-ultra-ldes-project/",
-          "source": "Energymonitor",
-          "published": "14 Aug 2026",
+          "published": "19 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
+            "ticker": "XOM",
+            "company": "ExxonMobil",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Secured major integrated reservoir services framework deal with Venezuela, diversifying oilfield services revenue streams.",
+            "rationale": "Elevated global oil prices and increased US crude shipments to Japan support upstream cash flows and pricing power.",
             "key_themes": [
-              "Venezuela operations expansion",
-              "integrated services contracts"
+              "elevated oil prices",
+              "US crude exports",
+              "strong demand"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
           },
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
+            "ticker": "CVX",
+            "company": "Chevron",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Geopolitical tensions at Strait of Hormuz supporting crude prices at $91.53/bbl, benefiting integrated oil majors' upstream margins.",
+            "conviction": 70,
+            "rationale": "Rising oil prices and sustained global crude demand, including from Asia-Pacific refiners, benefit exploration and production margins.",
             "key_themes": [
-              "crude price support",
-              "supply disruption premium"
+              "oil price strength",
+              "Asian demand recovery",
+              "upstream profitability"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
+            "ticker": "COP",
+            "company": "ConocoPhillips",
             "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "Geopolitical tensions at Strait of Hormuz supporting crude prices at $91.53/bbl, benefiting integrated oil majors' upstream margins.",
+            "rationale": "Strong crude oil pricing environment and increased Asian refinery demand support upstream production economics.",
             "key_themes": [
-              "crude price support",
-              "supply disruption premium"
+              "crude price rally",
+              "geopolitical supply constraints",
+              "demand resilience"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Elevated oil prices and Chinese refiner activity purchasing Iraqi crude benefit integrated oil majors with downstream and upstream exposure.",
+            "key_themes": [
+              "oil price elevation",
+              "downstream margins",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
             "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Sustained refining margins driven by global refinery undersupply (5M bpd below year-earlier levels) amid Middle East constraints.",
+            "company": "BP",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "While benefiting from elevated oil prices, BP's energy transition focus may be constrained by coal's continued dominance in global power generation.",
             "key_themes": [
-              "refining margin expansion",
-              "supply shortage"
+              "oil price benefit",
+              "energy transition headwinds",
+              "coal persistence"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": [
+              1,
+              3
+            ]
           },
           {
             "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Sustained refining margins driven by global refinery undersupply (5M bpd below year-earlier levels) amid Middle East constraints.",
+            "company": "Shell",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Mixed signals: elevated crude prices support oil business, but articles highlight renewables gaining share and coal remaining dominant, complicating energy transition narrative.",
             "key_themes": [
-              "refining margin expansion",
-              "supply shortage"
+              "oil price strength",
+              "transition timing uncertainty",
+              "market shifts"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "SLumberger",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Elevated oil prices and geopolitical supply constraints (Iranian blockade) likely drive upstream capex and oilfield services demand.",
+            "key_themes": [
+              "oil service activity",
+              "capex cycle support",
+              "supply constraints"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
           }
         ],
-        "summary": "The petroleum sector is experiencing a bullish confluence of supply-side pressures: geopolitical tensions at the Strait of Hormuz are sustaining crude prices above $85-91/bbl, while global refinery undersupply (down 5M bpd year-over-year) is driving exceptional refining margins for integrated majors and oilfield service providers. SLB gains direct exposure to Venezuela's production recovery efforts. However, this upside is transitory and dependent on geopolitical escalation and refining bottlenecks persisting.",
+        "summary": "Oil majors face a bullish near-term environment driven by elevated crude prices (up 87.8% year-over-year in Japan), sustained Asian demand, and geopolitical supply constraints in the Strait of Hormuz. However, the sector faces medium-to-long-term headwinds as coal continues to dominate global power generation (one-third of electricity) and renewables investments accelerate, creating strategic divergence between integrated players focused on energy transition versus pure-play upstream beneficiaries.",
         "risks": [
-          "Geopolitical de-escalation or renewed negotiations could rapidly normalize oil prices and refining margins",
-          "US refinery capacity additions and Middle Eastern facility recovery would erode current margin advantages",
-          "Venezuela political instability could jeopardize SLB's contract execution and service revenues",
-          "Energy transition momentum (articles 4-6 highlight green hydrogen and LDES projects) creates long-term structural headwinds for traditional oil majors"
+          "Oil price mean reversion from current elevated levels could compress margins rapidly",
+          "Geopolitical escalation in the Strait of Hormuz could disrupt supply and create demand destruction",
+          "Accelerating renewable energy deployment and energy transition narratives may constrain capital allocation to fossil fuels",
+          "Iranian blockade resolution or OPEC production decisions could increase supply and pressure prices",
+          "Transition-exposed companies (BP, SHEL) face valuation pressure despite short-term commodity tailwinds"
         ],
         "sector_sentiment": "bullish",
         "verification": {
@@ -312,39 +371,43 @@
         }
       },
       "prices_snapshot": {
-        "SLB": 53.209999084472656,
-        "XOM": 165.55999755859375,
-        "CVX": 205.74000549316406,
-        "BP": 43.40999984741211,
-        "SHEL": 92.01000213623047
+        "XOM": 164.77000427246094,
+        "CVX": 205.75999450683594,
+        "COP": 130.5800018310547,
+        "TTE": 90.06999969482422,
+        "BP": 43.72999954223633,
+        "SHEL": 92.7699966430664,
+        "SLB": 53.54999923706055
       },
       "spot_check": {
-        "title": "Venezuela Signs Oil Deals With SLB and Hunt to Boost Production",
-        "summary": "Venezuela has signed deals with oilfield service major SLB and Hunt Oil Co. as part of efforts to boost investment in its key energy industry, Bloomberg reported, citing a TV statement made by the South American country\u2019s oil minister, Paula Henao. One of the deals involves development of two fields and the other is a framework deal with SLB for \u201cservices related to integrated reservoir studies throughout the country,\u201d according to the statement. The deal with SLB follows earlier reports about t",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Signs-Oil-Deals-With-SLB-and-Hunt-to-Boost-Production.html",
+        "title": "Elevated Oil Prices Push Japan\u2019s Imports to an All-Time High",
+        "summary": "Japan\u2019s import bill reached an all-time high in July, driven by higher oil prices, to a total of $76.39 billion. This was up by 27.8% from July 2025, Reuters reported, citing import and export data. In volume terms, Japan\u2019s crude oil imports ticked up by 5.5% from a year earlier, but in price terms, the oil bill surged by 87.8%, breaking the previous record, set in June. \u201cThe recovery in crude volumes, combined with persistently high oil prices and larger shipments of pricier US\u00a0crude, has been ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Elevated-Oil-Prices-Push-Japans-Imports-to-an-All-Time-High.html",
         "source": "Oilprice",
-        "published": "19 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "20 Aug 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "SLB",
-          "company": "Schlumberger Limited",
+          "ticker": "XOM",
+          "company": "ExxonMobil",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Secured major integrated reservoir services framework deal with Venezuela, diversifying oilfield services revenue streams.",
+          "rationale": "Elevated global oil prices and increased US crude shipments to Japan support upstream cash flows and pricing power.",
           "key_themes": [
-            "Venezuela operations expansion",
-            "integrated services contracts"
+            "elevated oil prices",
+            "US crude exports",
+            "strong demand"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Secured major integrated reservoir services framework deal with Venezuela, diversifying oilfield services revenue streams.",
+        "haiku_rationale": "Elevated global oil prices and increased US crude shipments to Japan support upstream cash flows and pricing power.",
         "haiku_themes": [
-          "Venezuela operations expansion",
-          "integrated services contracts"
+          "elevated oil prices",
+          "US crude exports",
+          "strong demand"
         ]
       },
       "config": {
@@ -364,6 +427,22 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Moderna, Merck Say mRNA Vaccine Prevents Melanoma From Returning",
+          "summary": "Moderna and Merck say the experimental vaccine prevented the return and spread of the cancer in high-risk melanoma patients.",
+          "url": "https://www.nytimes.com/2026/08/19/science/moderna-merck-mrna-vaccine-melanoma.html",
+          "source": "Rss",
+          "published": "19 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Trump Nominates Heidi Overton, a Top Domestic Policy Aide, for F.D.A. Commissioner",
+          "summary": "Dr. Overton is a fierce opponent of abortion rights and a supporter of Health Secretary Robert F. Kennedy Jr.\u2019s Make America Healthy Again agenda.",
+          "url": "https://www.nytimes.com/2026/08/18/health/heidi-overton-fda.html",
+          "source": "Rss",
+          "published": "19 Aug 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
           "title": "How One Woman With a Very Rare Disease Secured a Clinical Trial",
           "summary": "Through sheer determination, Neena Nizar has become the first patient in a clinical trial testing a treatment for her disease \u2014 one so rare it affects just 30 people worldwide.",
           "url": "https://www.nytimes.com/2026/08/17/science/clinical-trial-jansens-disease-nizar-nih.html",
@@ -372,41 +451,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "How Louisiana\u2019s New Surgeon General Wants to Transform Public Health",
-          "summary": "Dr. Evelyn Griffin is pushing for more emphasis on wellness and prevention. She has also aligned with the MAHA movement in fighting government mandates and questioning the safety of some vaccines.",
-          "url": "https://www.nytimes.com/2026/08/17/us/evelyn-griffin-surgeon-general.html",
-          "source": "Rss",
-          "published": "18 Aug 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "How Cyclospora Evaded the U.S. Food Safety System to Sicken Thousands",
-          "summary": "The Trump administration delayed a rule last year that could have sped up the effort to pinpoint the source of the contamination. Critics charge that food safety oversight has eroded overall.",
-          "url": "https://www.nytimes.com/2026/08/15/health/cyclospora-invesigation-fda.html",
-          "source": "Rss",
-          "published": "15 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/revance-hires-janelle-wichmann-chief-marketing-officer-its-skincare-unit\" hreflang=\"en\">Revance hires Janelle Wichmann as chief marketing officer of skincare unit</a>",
-          "summary": "Revance has appointed Ulta Beauty and Procter &amp; Gamble alum Janelle Wichmann as its new chief marketing officer for skincare as it looks to boost commercial penetration of its Botox rival, Daxxify.",
-          "url": "https://www.fiercepharma.com/marketing/revance-hires-janelle-wichmann-chief-marketing-officer-its-skincare-unit",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/csl-shares-15-it-points-signs-recovery\" hreflang=\"en\">CSL shares up 17% as immunoglobulin boost points to signs of recovery</a>",
-          "summary": "After a year of impairments, revenue downgrades and the ousting of its chief executive officer, Australian plasma and vaccine specialist CSL has flashed signs of recovery, projecting mid-single-digit growth in fiscal year 2027 for its largest sector, CSL Behring.",
-          "url": "https://www.fiercepharma.com/pharma/csl-shares-15-it-points-signs-recovery",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/ultragenyx-after-fda-speed-bump-lands-1st-gene-therapy-nod-green-light-glycogen-storage\" hreflang=\"en\">Ultragenyx, after FDA speed bump, lands 1st gene therapy nod with green light in glycogen storage disease</a>",
+          "summary": "If at first you don\u2019t succeed in gene therapy, then try, try again, is the lesson Ultragenyx likely took home this week, pocketing its first FDA nod in the class a little over a year after a separate program stalled on manufacturing grounds.",
+          "url": "https://www.fiercepharma.com/pharma/ultragenyx-after-fda-speed-bump-lands-1st-gene-therapy-nod-green-light-glycogen-storage",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/biokin-bispecific-adc-iza-bren-hits-goal-lung-cancer-trial-boosting-case-bms-global-test\" hreflang=\"en\">Biokin bispecific ADC iza-bren hits goal in lung cancer trial, boosting case for BMS\u2019 global test</a>",
-          "summary": "Biokin Pharma\u2019s iza-bren, a first-in-class antibody-drug conjugate partnered with Bristol Myers Squibb, has posted another positive phase 3 readout.",
-          "url": "https://www.fiercepharma.com/pharma/biokin-bispecific-adc-iza-bren-hits-goal-lung-cancer-trial-boosting-case-bms-global-test",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/regeneron-approval-fop\" hreflang=\"en\">Regeneron's Pasatru scores FDA approval in ultra-rare bone lesions disorder</a>",
+          "summary": "Regeneron's Pasatru has crossed the finish line with FDA approval after more than ten years of development. The drug is only the second approved treatment for FOP, an ultra-rare genetic condition that causes patients' soft tissues to turn to bone.",
+          "url": "https://www.fiercepharma.com/pharma/regeneron-approval-fop",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/sk-strikes-patent-infringement-settlement-msn-over-future-blockbuster-xcopri\" hreflang=\"en\">SK strikes settlement with MSN over future Xcopri generic: reports</a>",
+          "summary": "For the first time, SK Biopharmaceuticals has reached a settlement with a generics manufacturer that has applied for FDA approval of a copycat version of its epilepsy treatment Xcopri, local news outlets report. SK\u2019s deal with India\u2019s MSN Laboratories will allow the Korean company to extend its market exclusivity beyond October 2032, when the protection for its composition-of-matter patent is set to expire.",
+          "url": "https://www.fiercepharma.com/pharma/sk-strikes-patent-infringement-settlement-msn-over-future-blockbuster-xcopri",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -415,122 +478,103 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "MRK",
+            "company": "Merck & Co.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Rare disease clinical trial success demonstrates pipeline strength in underserved patient populations with high unmet needs.",
+            "rationale": "Moderna-Merck mRNA melanoma vaccine showed efficacy in preventing cancer recurrence, validating oncology pipeline expansion.",
             "key_themes": [
-              "rare disease innovation",
-              "clinical trial success",
-              "patient outcomes"
+              "mRNA oncology",
+              "melanoma prevention",
+              "vaccine platform validation"
             ],
             "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes a rare disease clinical trial but does not identify Johnson & Johnson as the company involved. The article does not mention JNJ at all.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
           },
           {
             "ticker": "PFE",
-            "company": "Pfizer",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Vaccine safety questioning by influential public health officials undermines confidence in immunization portfolio and government relationships.",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "FDA commissioner nomination of Kennedy ally creates regulatory uncertainty for pharma; impact on Pfizer's pipeline unclear.",
             "key_themes": [
-              "vaccine hesitancy",
-              "public health headwinds",
-              "regulatory uncertainty"
+              "regulatory headwind",
+              "FDA policy shift",
+              "political risk"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
+            "verified": false,
+            "verification_issue": "Article [2] discusses FDA commissioner nomination of Heidi Overton (a Kennedy ally) but does not mention Pfizer specifically or provide evidence of direct regulatory impact on Pfizer's pipeline. The rationale extrapolates broader pharma impact without source support.",
             "supporting_article": 2
           },
           {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Food safety system failures and government oversight erosion create reputational and regulatory risks for vaccine and public health divisions.",
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "FDA commissioner change may affect approval timelines; no direct product impact visible from current articles.",
             "key_themes": [
-              "regulatory erosion",
-              "public health concerns",
-              "food safety failures"
+              "regulatory uncertainty",
+              "FDA policy shift"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [3] discusses food safety system failures related to Cyclospora contamination, not vaccine divisions. Merck is not mentioned in the article. The rationale incorrectly connects food safety failures to vaccine/public health divisions.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Food safety contamination incident may increase demand for diagnostic and testing services, but regulatory environment remains uncertain.",
-            "key_themes": [
-              "diagnostic opportunity",
-              "regulatory uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "While article [3] covers food safety contamination, Thermo Fisher Scientific is not mentioned. The rationale speculates about diagnostic opportunity but this is not substantiated by the source material.",
-            "supporting_article": null
+            "verification_issue": "Article [2] discusses FDA commissioner nomination but does not mention Johnson & Johnson or provide any evidence of impact on J&J's approval timelines. The rationale is speculative without direct source support.",
+            "supporting_article": 2
           }
         ],
-        "summary": "The healthcare sector faces mixed signals with innovations in rare disease treatments offsetting significant headwinds from vaccine hesitancy and eroding food/regulatory safety oversight. Political and public health shifts are creating uncertainty for immunization-focused companies while creating opportunities for diagnostic and specialized treatment providers. Regulatory erosion and anti-mandate sentiment present medium-term risks to large pharma portfolios.",
+        "summary": "The healthcare sector shows mixed signals with one clear positive catalyst: Merck's mRNA melanoma vaccine success validates next-generation oncology platforms. However, the FDA commissioner nomination of a Kennedy ally introduces regulatory uncertainty that could impact pharma approvals and pricing policies, creating headwinds for traditional players. Rare disease approvals (Ultragenyx, Regeneron) demonstrate continued innovation momentum in niche segments.",
         "risks": [
-          "Vaccine hesitancy driven by anti-mandate rhetoric undermines immunization revenue streams",
-          "Deteriorating regulatory oversight and government food safety systems create liability and reputational risks",
-          "Political alignment against public health mandates threatens vaccine adoption and government contracts",
-          "Increased litigation risk from food safety failures and safety questioning"
+          "Kennedy-aligned FDA commissioner may implement stricter approval standards or pricing restrictions",
+          "Regulatory uncertainty could delay pipelines for major pharma companies",
+          "mRNA oncology market remains early-stage with unproven commercial scalability"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "JNJ signal attributes rare disease clinical trial to Johnson & Johnson without source support",
-            "MRK signal conflates food safety system failures with vaccine portfolio risks; no connection to Merck established",
-            "TMO signal speculates about diagnostic service opportunities without source material mentioning the company or such opportunities"
+            "PFE signal assumes negative regulatory impact from FDA commissioner change without explicit evidence in sources",
+            "JNJ signal applies general FDA uncertainty claim without company-specific or product-specific evidence from articles"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JNJ": 271.1099853515625,
-        "PFE": 27.25,
-        "MRK": 135.1699981689453,
-        "TMO": 589.0399780273438
+        "MRK": 152.1999969482422,
+        "PFE": 28.239999771118164,
+        "JNJ": 273.4100036621094
       },
       "spot_check": {
-        "title": "How One Woman With a Very Rare Disease Secured a Clinical Trial",
-        "summary": "Through sheer determination, Neena Nizar has become the first patient in a clinical trial testing a treatment for her disease \u2014 one so rare it affects just 30 people worldwide.",
-        "url": "https://www.nytimes.com/2026/08/17/science/clinical-trial-jansens-disease-nizar-nih.html",
+        "title": "Moderna, Merck Say mRNA Vaccine Prevents Melanoma From Returning",
+        "summary": "Moderna and Merck say the experimental vaccine prevented the return and spread of the cancer in high-risk melanoma patients.",
+        "url": "https://www.nytimes.com/2026/08/19/science/moderna-merck-mrna-vaccine-melanoma.html",
         "source": "Rss",
-        "published": "18 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "19 Aug 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
+          "ticker": "MRK",
+          "company": "Merck & Co.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Rare disease clinical trial success demonstrates pipeline strength in underserved patient populations with high unmet needs.",
+          "rationale": "Moderna-Merck mRNA melanoma vaccine showed efficacy in preventing cancer recurrence, validating oncology pipeline expansion.",
           "key_themes": [
-            "rare disease innovation",
-            "clinical trial success",
-            "patient outcomes"
+            "mRNA oncology",
+            "melanoma prevention",
+            "vaccine platform validation"
           ],
           "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [1] describes a rare disease clinical trial but does not identify Johnson & Johnson as the company involved. The article does not mention JNJ at all.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Rare disease clinical trial success demonstrates pipeline strength in underserved patient populations with high unmet needs.",
+        "haiku_rationale": "Moderna-Merck mRNA melanoma vaccine showed efficacy in preventing cancer recurrence, validating oncology pipeline expansion.",
         "haiku_themes": [
-          "rare disease innovation",
-          "clinical trial success",
-          "patient outcomes"
+          "mRNA oncology",
+          "melanoma prevention",
+          "vaccine platform validation"
         ]
       },
       "config": {
@@ -550,25 +594,25 @@
     "Finance": {
       "articles": [
         {
-          "title": "Trump to Nominate Heidi Overton, a Top Domestic Policy Aide, for F.D.A. Commissioner",
-          "summary": "Dr. Overton is a fierce opponent of abortion rights and a supporter of Health Secretary Robert F. Kennedy Jr.\u2019s Make America Healthy Again agenda.",
-          "url": "https://www.nytimes.com/2026/08/18/health/heidi-overton-fda.html",
+          "title": "China Sentences Evergrande Founder to Life in Prison",
+          "summary": "Hui Ka Yan\u2019s punishment caps the downfall of a property empire whose collapse set off a prolonged crisis in the Chinese economy.",
+          "url": "https://www.nytimes.com/2026/08/20/business/evergrande-founder-life-prison.html",
           "source": "Rss",
-          "published": "19 Aug 2026",
-          "sentiment_hint": "bullish"
+          "published": "20 Aug 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Chinese Robot Maker Unitree Soars 500 Percent in Trading Debut",
-          "summary": "Unitree is the second major Chinese technology company linked to the country\u2019s artificial intelligence boom to surge following its initial public offering in the past month.",
-          "url": "https://www.nytimes.com/2026/08/18/business/unitree-ipo-trading.html",
+          "title": "Trump, Who Has Amassed Enormous Wealth in Crypto, Hosts Industry Leaders",
+          "summary": "President Trump called on Congress to pass a major cryptocurrency bill that would tilt regulation in the industry\u2019s favor.",
+          "url": "https://www.nytimes.com/2026/08/19/us/politics/trump-crypto-executives.html",
           "source": "Rss",
           "published": "19 Aug 2026",
-          "sentiment_hint": "bullish"
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Trump\u2019s Tariffs on Hold as President Claims Deal With Canada Is Near",
-          "summary": "Prime Minister Mark Carney of Canada was less definitive about what the intense talks produced, saying \u2018important work\u2019 remained.",
-          "url": "https://www.nytimes.com/2026/08/18/world/canada/tariffs-trade-trump-carney.html",
+          "title": "Why Treasury Yields Are Rising, and What That Means for the Economy",
+          "summary": "Interest rates on U.S. government bonds can affect everything from auto and student loans to mortgages.",
+          "url": "https://www.nytimes.com/2026/08/19/business/treasury-bonds-yields-economy.html",
           "source": "Rss",
           "published": "19 Aug 2026",
           "sentiment_hint": "neutral"
@@ -603,29 +647,33 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Tariff uncertainty and trade negotiation volatility create mixed near-term outlook for banking sector",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising Treasury yields benefit net interest margins; crypto regulatory clarity supports investment banking fees",
             "key_themes": [
-              "trade policy",
-              "economic uncertainty"
+              "rising rates",
+              "cryptocurrency regulation",
+              "investment banking"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": [
+              3,
+              2
+            ]
           },
           {
             "ticker": "BAC",
             "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Tariff negotiations with Canada on hold; financial sector faces macro headwinds from trade tensions",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated Treasury yields expand net interest margins; improved lending environment supports profitability",
             "key_themes": [
-              "trade policy",
-              "macro volatility"
+              "rising rates",
+              "interest margin expansion"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 3
@@ -633,80 +681,126 @@
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Tech sector volatility from AI concerns may reduce M&A and capital markets activity near-term",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Cryptocurrency bill passage would unlock investment banking opportunities; rising rates support advisory revenues",
             "key_themes": [
-              "tech volatility",
-              "capital markets"
+              "cryptocurrency regulation",
+              "rising rates",
+              "investment banking"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": [
+              2,
+              3
+            ]
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "AI sector rout creates uncertainty for wealth management and capital markets fee generation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Crypto industry maturation and regulatory clarity expand wealth management and advisory opportunities",
             "key_themes": [
-              "tech volatility",
-              "market uncertainty"
+              "cryptocurrency regulation",
+              "wealth management"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Crypto bill passage could expand digital payment opportunities, but broader economic uncertainty from China's property crisis",
+            "key_themes": [
+              "cryptocurrency payments",
+              "economic uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'China's property crisis' impacting Visa, but source article [1] focuses on Evergrande founder's sentencing with no discussion of broader economic impact on payment processors or digital payments",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Potential upside from cryptocurrency payment integration offset by economic headwinds from China's Evergrande collapse",
+            "key_themes": [
+              "cryptocurrency payments",
+              "economic uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes Evergrande collapse creates 'economic headwinds' for Mastercard, but source article [1] provides no detail on macroeconomic consequences or impact on payment networks",
+            "supporting_article": null
           }
         ],
-        "summary": "Finance sector faces near-term headwinds from trade policy uncertainty and tech sector volatility stemming from China's DeepSeek AI competition. No direct positive catalysts for traditional financial services firms emerge from the articles, while tariff negotiations remain unresolved.",
+        "summary": "Rising U.S. Treasury yields create a favorable environment for traditional financial institutions, benefiting net interest margins and investment banking revenues at major banks. Cryptocurrency regulatory clarity under Trump administration presents new business opportunities, particularly for investment banks with crypto capabilities. However, China's economic crisis from Evergrande's collapse and broader market volatility create medium-term headwinds for payment processors exposed to international growth.",
         "risks": [
-          "escalating trade war disrupts economic growth",
-          "persistent tech sector volatility dampens capital markets activity",
-          "AI disruption threatens banking technology investments"
+          "Chinese economic slowdown from property sector collapse could reduce international financial activity and payment volumes",
+          "Market volatility from AI sector selloff may suppress investment banking activity and trading revenues",
+          "Cryptocurrency regulation could be delayed or less favorable than currently priced in by markets",
+          "Further Treasury yield volatility could create margin pressure if rates fall sharply"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "V and MA signals infer broad economic consequences from Evergrande sentencing without supporting evidence in articles",
+            "Articles [1] and [4] describe negative developments (China crisis, AI selloff) but neither article [1] explicitly connects Evergrande to payment processor headwinds",
+            "Analyst extrapolates 'economic uncertainty from China's property crisis' beyond what the source articles establish"
+          ],
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 363.25,
-        "BAC": 64.2300033569336,
-        "GS": 1040.469970703125,
-        "MS": 217.5500030517578
+        "JPM": 357.260009765625,
+        "BAC": 63.16999816894531,
+        "GS": 1021.6500244140625,
+        "MS": 214.22999572753906,
+        "V": 365.5400085449219,
+        "MA": 573.719970703125
       },
       "spot_check": {
-        "title": "Trump to Nominate Heidi Overton, a Top Domestic Policy Aide, for F.D.A. Commissioner",
-        "summary": "Dr. Overton is a fierce opponent of abortion rights and a supporter of Health Secretary Robert F. Kennedy Jr.\u2019s Make America Healthy Again agenda.",
-        "url": "https://www.nytimes.com/2026/08/18/health/heidi-overton-fda.html",
+        "title": "China Sentences Evergrande Founder to Life in Prison",
+        "summary": "Hui Ka Yan\u2019s punishment caps the downfall of a property empire whose collapse set off a prolonged crisis in the Chinese economy.",
+        "url": "https://www.nytimes.com/2026/08/20/business/evergrande-founder-life-prison.html",
         "source": "Rss",
-        "published": "19 Aug 2026",
-        "sentiment_hint": "bullish",
+        "published": "20 Aug 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
           "ticker": "JPM",
           "company": "JPMorgan Chase",
-          "sentiment": "neutral",
-          "conviction": 45,
-          "rationale": "Tariff uncertainty and trade negotiation volatility create mixed near-term outlook for banking sector",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "Rising Treasury yields benefit net interest margins; crypto regulatory clarity supports investment banking fees",
           "key_themes": [
-            "trade policy",
-            "economic uncertainty"
+            "rising rates",
+            "cryptocurrency regulation",
+            "investment banking"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": [
+            3,
+            2
+          ]
         },
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "Tariff uncertainty and trade negotiation volatility create mixed near-term outlook for banking sector",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Rising Treasury yields benefit net interest margins; crypto regulatory clarity supports investment banking fees",
         "haiku_themes": [
-          "trade policy",
-          "economic uncertainty"
+          "rising rates",
+          "cryptocurrency regulation",
+          "investment banking"
         ]
       },
       "config": {
