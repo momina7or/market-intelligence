@@ -12974,5 +12974,295 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-08-21",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Google Discover AI customization feature demonstrates expanded AI integration across core search/discovery products, enhancing user engagement.",
+            "key_themes": [
+              "AI-powered personalization",
+              "search product enhancement",
+              "user retention"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's organic traffic generation and integration into search behaviors validates strong enterprise/consumer AI adoption momentum.",
+            "key_themes": [
+              "AI monetization",
+              "search disruption",
+              "ChatGPT adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 340.6700134277344,
+          "MSFT": 481.1499938964844
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Beetaloo shale basin first gas production imminent; 500 TCF resource could drive LNG export growth for Australian operations.",
+            "key_themes": [
+              "shale gas production",
+              "LNG exports",
+              "resource monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] confirms Beetaloo first gas imminent and 500 TCF resource, but does not mention ConocoPhillips specifically or its involvement in the project. The article discusses the basin opportunity generically without naming operators.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rising crude prices ($93.50 Brent) from Middle East tensions and Russian refinery disruptions support upstream margins and cash generation.",
+            "key_themes": [
+              "crude price strength",
+              "geopolitical supply risks",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Oil price rally from Iran sanctions threat and supply disruptions benefits integrated E&P portfolio and downstream refining operations.",
+            "key_themes": [
+              "crude price rally",
+              "supply constraints",
+              "integrated earnings"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Brent crude strength above $93/bbl supports Shell's upstream profitability; geopolitical risks extend price support near-term.",
+            "key_themes": [
+              "Brent price support",
+              "upstream cash flow",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 67,
+            "rationale": "Brazil's Amazon offshore oil discovery validates TTE's pre-salt exploration strategy; new frontier supports long-term production growth.",
+            "key_themes": [
+              "pre-salt exploration",
+              "production growth",
+              "Brazil exposure"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] describes Brazil's Morpho-1 offshore oil discovery near Amazon but does not mention TotalEnergies specifically or confirm TTE's involvement in this discovery or pre-salt exploration strategy.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Oil price strength and geopolitical supply risks benefit BP's upstream cash generation amid portfolio optimization efforts.",
+            "key_themes": [
+              "upstream profitability",
+              "supply disruptions",
+              "cash returns"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "COP": 134.88999938964844,
+          "XOM": 166.14999389648438,
+          "CVX": 205.77000427246094,
+          "SHEL": 93.6500015258789,
+          "TTE": 90.9000015258789,
+          "BP": 45.13999938964844
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Merck's mRNA melanoma vaccine partnership with Moderna shows promising efficacy data, expanding oncology pipeline beyond traditional competencies.",
+            "key_themes": [
+              "oncology expansion",
+              "mRNA technology partnership",
+              "high-risk melanoma indication"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 148.99000549316406
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising Treasury yields from AI-driven growth expectations support investment banking and trading revenues",
+            "key_themes": [
+              "rising bond yields",
+              "AI investment cycle",
+              "investment banking opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated Treasury yields and increased capital markets activity benefit trading and advisory divisions",
+            "key_themes": [
+              "rising bond yields",
+              "capital markets activity",
+              "advisory services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Higher bond yields strengthen fixed income and equity capital markets revenues across divisions",
+            "key_themes": [
+              "rising bond yields",
+              "trading revenue",
+              "capital markets strength"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Elevated yield environment improves net interest margins and investment banking fee generation",
+            "key_themes": [
+              "rising yields",
+              "NIM expansion",
+              "investment banking fees"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct connection to analyzed news; macro uncertainty from AI volatility creates headwinds",
+            "key_themes": [
+              "macro uncertainty",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct connection to analyzed news; macro uncertainty from AI volatility creates headwinds",
+            "key_themes": [
+              "macro uncertainty",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 351.54998779296875,
+          "GS": 1001.9500122070312,
+          "MS": 207.4499969482422,
+          "BAC": 61.86000061035156,
+          "V": 365.7300109863281,
+          "MA": 573.8499755859375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
