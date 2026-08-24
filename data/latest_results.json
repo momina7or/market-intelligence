@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-21",
-  "run_time": "2026-08-21T07:40:24.109147Z",
+  "run_date": "2026-08-24",
+  "run_time": "2026-08-24T07:55:59.059117Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Genki\u2019s new customizable controller has a big screen and adjustable buttons",
-          "summary": "After collaborating with 8BitDo on a gamepad two years ago, Genki launched the first controller the company designed from the ground up today. With an unorthodox design that positions its thumbsticks and buttons above a large 2.9-inch LCD screen, the Manta looks a lot chunkier than competing controllers. But what really sets it apart is [&#8230;]",
-          "url": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen",
+          "title": "GTA VI: all the news on Rockstar\u2019s next entry in the Grand Theft Auto series",
+          "summary": "It\u2019s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]",
+          "url": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
           "source": "Theverge",
-          "published": "21 Aug 2026",
+          "published": "23 Aug 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "We\u2019re All Going to the World\u2019s Fair is an intimate coming-of-age horror film",
+          "summary": "Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in theaters right now. So it seems like the perfect time to revisit their first film, We're All Going to the World's Fair. I fell in love with this film when I first saw it at Sundance in 2021. We [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
+          "source": "Theverge",
+          "published": "23 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Google Discover is getting an AI chatbot-tuned feed",
-          "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [&#8230;]",
-          "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+          "title": "Grand Theft Auto VI exists in its own universe",
+          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on GTA VI and the state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Four years ago, fans [&#8230;]",
+          "url": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
           "source": "Theverge",
-          "published": "20 Aug 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Riot is ending development on its League of Legends fighting game",
-          "summary": "Riot Games is already winding down work on 2XKO, the free-to-play League of Legends fighting game, less than a year after its initial launch. Riot says \"active development\" will conclude at the end of 2026 because the company hasn't \"seen enough players stick with the game to get to a path toward sustainability.\" Servers will [&#8230;]",
-          "url": "https://www.theverge.com/games/982986/riot-games-league-of-legends-fighting-game-2xko-end-development",
-          "source": "Theverge",
-          "published": "20 Aug 2026",
+          "published": "23 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -60,27 +60,27 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Google Discover AI customization feature demonstrates expanded AI integration across core search/discovery products, enhancing user engagement.",
+            "rationale": "ChatGPT's organic search recommendations threaten traditional SEO, positioning Google's AI search integration as critical competitive differentiator.",
             "key_themes": [
-              "AI-powered personalization",
-              "search product enhancement",
-              "user retention"
+              "AI search disruption",
+              "organic traffic monetization",
+              "AI-driven content discovery"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
+            "verified": false,
+            "verification_issue": "Article [1] demonstrates ChatGPT recommending content, but does not establish this as a 'threat' to Google or validate Google's AI search integration as a 'competitive differentiator.' The article only shows ChatGPT's capability, not competitive positioning or Google's response. The rationale makes logical inferences not supported by the source material.",
+            "supporting_article": 1
           },
           {
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "ChatGPT's organic traffic generation and integration into search behaviors validates strong enterprise/consumer AI adoption momentum.",
+            "rationale": "ChatGPT's demonstrated ability to recommend content and drive organic traffic validates OpenAI partnership value and enterprise AI adoption momentum.",
             "key_themes": [
-              "AI monetization",
-              "search disruption",
-              "ChatGPT adoption"
+              "ChatGPT usage expansion",
+              "AI content curation",
+              "enterprise AI integration"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -88,52 +88,56 @@
             "supporting_article": 1
           }
         ],
-        "summary": "Articles highlight accelerating AI integration into core digital products (Google Discover customization, ChatGPT search influence), validating the enterprise AI investment thesis. The technology sector shows strong momentum in AI-driven personalization and content generation, though limited hardware/gaming news suggests uneven sector momentum across segments.",
+        "summary": "Articles reveal significant AI disruption in content discovery and organic search, with ChatGPT demonstrating real-world impact on traffic patterns and creator monetization. This validates AI integration strategies at major tech firms but poses challenges to traditional search models. Gaming content (GTA VI delays) and film coverage are peripheral to core tech thesis.",
         "risks": [
-          "AI chatbot integration may cannibalize traditional search ad revenue models",
-          "Gaming portfolio challenges (Riot's 2XKO shutdown) signal content/entertainment headwinds despite AI investment",
-          "Competitive AI feature parity could compress margins across platform companies"
+          "ChatGPT search recommendations may cannibalize advertiser ROI if not properly monetized",
+          "Regulatory scrutiny on AI-driven content ranking and fair compensation for creators",
+          "Uncertainty around which AI platforms will dominate content discovery landscape long-term"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "GOOGL signal assumes competitive threat dynamics not discussed in sources",
+            "GOOGL signal references 'Google's AI search integration' without evidence from articles that Google has positioned this as a differentiator",
+            "Both signals make forward-looking claims about 'medium-term' business impact that cannot be verified from technology news articles describing features/usage"
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "GOOGL": 340.6700134277344,
-        "MSFT": 481.1499938964844
+        "GOOGL": 344.82000732421875,
+        "MSFT": 483.239990234375
       },
       "spot_check": {
-        "title": "Google Discover is getting an AI chatbot-tuned feed",
-        "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [&#8230;]",
-        "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
-        "source": "Theverge",
-        "published": "20 Aug 2026",
-        "sentiment_hint": "bearish",
+        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
+        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
+        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
+        "source": "Feedburner",
+        "published": "04 Dec 2025",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "GOOGL",
           "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Google Discover AI customization feature demonstrates expanded AI integration across core search/discovery products, enhancing user engagement.",
+          "rationale": "ChatGPT's organic search recommendations threaten traditional SEO, positioning Google's AI search integration as critical competitive differentiator.",
           "key_themes": [
-            "AI-powered personalization",
-            "search product enhancement",
-            "user retention"
+            "AI search disruption",
+            "organic traffic monetization",
+            "AI-driven content discovery"
           ],
           "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 5
+          "verified": false,
+          "verification_issue": "Article [1] demonstrates ChatGPT recommending content, but does not establish this as a 'threat' to Google or validate Google's AI search integration as a 'competitive differentiator.' The article only shows ChatGPT's capability, not competitive positioning or Google's response. The rationale makes logical inferences not supported by the source material.",
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Google Discover AI customization feature demonstrates expanded AI integration across core search/discovery products, enhancing user engagement.",
+        "haiku_rationale": "ChatGPT's organic search recommendations threaten traditional SEO, positioning Google's AI search integration as critical competitive differentiator.",
         "haiku_themes": [
-          "AI-powered personalization",
-          "search product enhancement",
-          "user retention"
+          "AI search disruption",
+          "organic traffic monetization",
+          "AI-driven content discovery"
         ]
       },
       "config": {
@@ -153,206 +157,204 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Australia\u2019s Beetaloo Shale Basin Is About to Start Pumping Gas",
-          "summary": "First gas from Australia\u2019s Beetaloo shale basin is scheduled to start flowing next month, with initial production of 37 million cu m, Reuters has reported, noting hopes that the country could replicate the U.S. shale gas success story. The Beetaloo basin is located in the Northern Territory and is estimated to hold some 500 trillion cu ft of gas. It has been compared to the giant Marcellus shale play in the United States. The government of the Northern Territory is hoping that Beetaloo will turn",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Australias-Beetaloo-Shale-Basin-Is-About-to-Start-Pumping-Gas.html",
+          "title": "Exxon Eyes Shell\u2019s $8 Billion U.S. Chemicals Business",
+          "summary": "Exxon is in the running for Shell\u2019s U.S. chemicals business that could fetch $8 billion, the Financial Times reported today, citing unnamed sources familiar with developments. The U.S. supermajor is competing with LyondellBasell, Apollo Global Management, and the Kuwait Petroleum Corporation, the unnamed sources also told the publication. The potential buyers have submitted non-binding offers to Shell, with these ranging from offers to buy parts of the business to offers for the whole division. ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Exxon-Eyes-Shells-8-Billion-US-Chemicals-Business.html",
           "source": "Oilprice",
-          "published": "21 Aug 2026",
+          "published": "24 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Oil Prices Head for Second Straight Weekly Gain as Iran Risks Mount",
-          "summary": "Crude oil prices were on course to book a second consecutive weekly gain as the prospects of peace in the Middle East dimmed further amid U.S. threats of the \u201ctoughest sanctions in history\u201d against Iran and continued Ukrainian drone attacks on Russian refineries. At the time of writing, Brent crude was trading at $93.50 per barrel, and West Texas Intermediate was trading at $86.43 per barrel. The price climb followed a Wednesday social media statement by President Trump that the U.S. is preparin",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Straight-Weekly-Gain-as-Iran-Risks-Mount.html",
+          "title": "Hormuz Tanker Traffic Slumps as U.S. and Iran Trade Threats",
+          "summary": "Tanker traffic via the Strait of Hormuz remained weak over the weekend, with fewer than 20 vessels traversing the chokepoint as Iran and the United States traded threats again. Some 13 tankers passed through the strait on Saturday, with only four making the journey on Sunday, Kpler data cited by Reuters showed. That compares to 16 passing through the strait on Friday and one very large crude carrier exiting Hormuz on Thursday, the data also showed. Over the week to August 21, a total of 103 vess",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slumps-as-US-and-Iran-Trade-Threats.html",
           "source": "Oilprice",
-          "published": "21 Aug 2026",
+          "published": "24 Aug 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Brazil\u2019s New Oil Frontier Could Keep Its Boom Alive For Decades",
-          "summary": "Brazilian President Luiz In\u00e1cio Lula da Silva has hailed a new offshore oil discovery by Petrobras (NYSE: PBR) near the mouth of the Amazon River as a \"passport to the country's future\", continuing his support for controversial oil and gas drilling in Amazon's ecologically sensitive regions. Last week, the state-run Oil & Gas giant announced it has found oil at the Morpho-1 well (Block FZA-M-59) in the mouth of the Amazon roughly 180 kilometres (112 miles) off the coast of Amapa state, \u201cAll of o",
-          "url": "https://oilprice.com/Energy/Energy-General/Brazils-New-Oil-Frontier-Could-Keep-Its-Boom-Alive-For-Decades.html",
+          "title": "Oil Prices Slide 2% as Markets Brace for Bessent\u2019s \u2018Economic D-Day\u2019",
+          "summary": "Oil prices fell by more than 2% in early Asian trade on Monday as traders took profits and markets awaited details of a new U.S. sanctions package against Iran. At the time of writing, WTI futures were trading at $85.18 per barrel, down 2.16%, while Brent futures were trading at $92.32 per barrel, down 2.19%. Both benchmarks gained more than 5% last week as the U.S. and Iran continued to trade threats, Iranian crude exports dropped, and tanker traffic through the Strait of Hormuz slowed to a tri",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-2-as-Markets-Brace-for-Bessents-Economic-D-Day.html",
           "source": "Oilprice",
+          "published": "24 Aug 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Mitsubishi Electric to buy US-based PCI Energy Solutions for $1.4bn",
+          "summary": "Mitsubishi Electric has signed an agreement to acquire PCI Energy Solutions, a US-based company, in a transaction valued at $1.4bn.",
+          "url": "https://www.energymonitor.ai/news/mitsubishi-electric-to-buy-pci/",
+          "source": "Energymonitor",
           "published": "21 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Expert insights: Mining more with less",
-          "summary": "Discover practical mining decarbonisation strategies to cut Scope 1 and 2 emissions while maintaining productivity, reliability, and safety performance.",
-          "url": "https://www.energymonitor.ai/sponsored/expert-insights-mining-more-with-less/",
+          "title": "Final caisson installed at 3.5GW Princess Elisabeth Energy Island project",
+          "summary": "The installation of all 23 caissons for the Princess Elisabeth Energy Island has been completed 45km off the Belgian coast in the North Sea.",
+          "url": "https://www.energymonitor.ai/news/final-caisson-princess-elisabeth-energy/",
           "source": "Energymonitor",
-          "published": "19 Aug 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "EDP Renewables and RCEA complete 368MWh Sandrini BESS project",
-          "summary": "EDP Renewables NA along with RCEA has announced the completion of the Sandrini Energy Storage project in Kern County, California, US.",
-          "url": "https://www.energymonitor.ai/news/edpr-rcea-complete-sandrini-bess/",
-          "source": "Energymonitor",
-          "published": "19 Aug 2026",
+          "published": "21 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Inox Clean Energy acquires Vena Energy India for $627m",
-          "summary": "Inox Clean Energy, a company within the INOXGFL Group, has acquired Vena Energy India in a transaction valued at around Rs60bn ($626.7m).",
-          "url": "https://www.energymonitor.ai/news/inox-clean-acquires-vena-energy-india-627m/",
+          "title": "Sage Geosystems places SMECI geothermal facility in service",
+          "summary": "Sage Geosystems has brought its SMECI facility in South Texas into service following an extended period of operation.",
+          "url": "https://www.energymonitor.ai/news/sage-geosystems-smeci-facility-service/",
           "source": "Energymonitor",
-          "published": "19 Aug 2026",
+          "published": "20 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Beetaloo shale basin first gas production imminent; 500 TCF resource could drive LNG export growth for Australian operations.",
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 62,
+            "rationale": "Divesting $8B U.S. chemicals business supports portfolio optimization but reduces downstream diversification earnings.",
             "key_themes": [
-              "shale gas production",
-              "LNG exports",
-              "resource monetization"
+              "portfolio restructuring",
+              "capital reallocation",
+              "downstream divestment"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] confirms Beetaloo first gas imminent and 500 TCF resource, but does not mention ConocoPhillips specifically or its involvement in the project. The article discusses the basin opportunity generically without naming operators.",
+            "verified": true,
+            "verification_issue": null,
             "supporting_article": 1
           },
           {
             "ticker": "XOM",
-            "company": "ExxonMobil",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Rising crude prices ($93.50 Brent) from Middle East tensions and Russian refinery disruptions support upstream margins and cash generation.",
-            "key_themes": [
-              "crude price strength",
-              "geopolitical supply risks",
-              "margin expansion"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Oil price rally from Iran sanctions threat and supply disruptions benefits integrated E&P portfolio and downstream refining operations.",
-            "key_themes": [
-              "crude price rally",
-              "supply constraints",
-              "integrated earnings"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell",
+            "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
             "conviction": 65,
-            "rationale": "Brent crude strength above $93/bbl supports Shell's upstream profitability; geopolitical risks extend price support near-term.",
+            "rationale": "Acquisition of Shell's chemicals business would enhance downstream exposure and cost synergies if deal closes.",
             "key_themes": [
-              "Brent price support",
-              "upstream cash flow",
-              "market volatility"
+              "M&A opportunity",
+              "downstream expansion",
+              "cost synergies"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "U.S.-Iran tensions and slumping Hormuz tanker traffic threaten crude export volumes and geopolitical risk premium collapse.",
+            "key_themes": [
+              "geopolitical risk",
+              "supply disruption concerns",
+              "sanctions impact"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 2
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies",
-            "sentiment": "bullish",
-            "conviction": 67,
-            "rationale": "Brazil's Amazon offshore oil discovery validates TTE's pre-salt exploration strategy; new frontier supports long-term production growth.",
-            "key_themes": [
-              "pre-salt exploration",
-              "production growth",
-              "Brazil exposure"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [3] describes Brazil's Morpho-1 offshore oil discovery near Amazon but does not mention TotalEnergies specifically or confirm TTE's involvement in this discovery or pre-salt exploration strategy.",
-            "supporting_article": 3
           },
           {
             "ticker": "BP",
-            "company": "BP",
-            "sentiment": "bullish",
-            "conviction": 66,
-            "rationale": "Oil price strength and geopolitical supply risks benefit BP's upstream cash generation amid portfolio optimization efforts.",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Oil price weakness (-2% on profit-taking) and declining Hormuz traffic amid Iran-U.S. threats pressure upstream margins.",
             "key_themes": [
-              "upstream profitability",
-              "supply disruptions",
-              "cash returns"
+              "oil price weakness",
+              "geopolitical uncertainty",
+              "reduced export optionality"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Declining tanker traffic and profit-taking in oil markets create near-term headwinds for crude realizations and volumes.",
+            "key_themes": [
+              "oil demand softness",
+              "tanker utilization decline",
+              "sanctions uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: Iran tensions support oil prices but slumping Hormuz traffic and profit-taking create near-term volatility.",
+            "key_themes": [
+              "geopolitical hedging",
+              "price volatility",
+              "trading noise"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           }
         ],
-        "summary": "The petroleum sector shows bullish near-term momentum driven by rising crude prices ($86-93/bbl range) from Middle East tensions, Iran sanctions threats, and Russian refinery disruptions offsetting demand concerns. Medium to long-term growth catalysts include Beetaloo shale basin first production and Brazil's Amazon offshore discoveries, supporting LNG and pre-salt production expansion. However, geopolitical volatility and energy transition pressures create structural headwinds.",
+        "summary": "Integrated oil majors face near-term headwinds from oil price weakness and declining Strait of Hormuz tanker traffic despite U.S.-Iran tensions, suggesting markets are pricing in economic concerns over supply disruption. XOM's potential Shell chemicals acquisition presents a medium-term strategic opportunity for downstream diversification. Articles 4-6 on renewable energy M&A and geothermal deployment signal structural energy transition pressure, though not directly impacting these legacy hydrocarbon-focused majors in the immediate term.",
         "risks": [
-          "Iran tensions could rapidly escalate or de-escalate, creating crude price volatility and earnings unpredictability",
-          "Renewable energy transition and ESG pressures limiting long-term demand growth and capital allocation",
-          "Global recession concerns could dampen oil demand despite supply constraints"
+          "Escalating U.S.-Iran military conflict could suddenly spike oil prices and reverse current bearish momentum",
+          "Shell deal could face antitrust or regulatory scrutiny, delaying XOM transaction completion",
+          "Economic recession fears driving oil selloff could deepen if macro data deteriorates further",
+          "Energy transition acceleration and renewable portfolio growth (Articles 4-6) threaten long-term hydrocarbon demand"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "COP signal lacks evidence of ConocoPhillips' specific involvement in Beetaloo basin operations",
-            "TTE signal lacks evidence of TotalEnergies' involvement in the Brazil Morpho-1 discovery"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "COP": 134.88999938964844,
-        "XOM": 166.14999389648438,
-        "CVX": 205.77000427246094,
-        "SHEL": 93.6500015258789,
-        "TTE": 90.9000015258789,
-        "BP": 45.13999938964844
+        "SHEL": 93.33000183105469,
+        "XOM": 165.11000061035156,
+        "COP": 134.8699951171875,
+        "BP": 44.7599983215332,
+        "CVX": 205.27000427246094,
+        "TTE": 89.88999938964844
       },
       "spot_check": {
-        "title": "Expert insights: Mining more with less",
-        "summary": "Discover practical mining decarbonisation strategies to cut Scope 1 and 2 emissions while maintaining productivity, reliability, and safety performance.",
-        "url": "https://www.energymonitor.ai/sponsored/expert-insights-mining-more-with-less/",
-        "source": "Energymonitor",
-        "published": "19 Aug 2026",
-        "sentiment_hint": "bearish",
+        "title": "Exxon Eyes Shell\u2019s $8 Billion U.S. Chemicals Business",
+        "summary": "Exxon is in the running for Shell\u2019s U.S. chemicals business that could fetch $8 billion, the Financial Times reported today, citing unnamed sources familiar with developments. The U.S. supermajor is competing with LyondellBasell, Apollo Global Management, and the Kuwait Petroleum Corporation, the unnamed sources also told the publication. The potential buyers have submitted non-binding offers to Shell, with these ranging from offers to buy parts of the business to offers for the whole division. ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Exxon-Eyes-Shells-8-Billion-US-Chemicals-Business.html",
+        "source": "Oilprice",
+        "published": "24 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "COP",
           "company": "ConocoPhillips",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Beetaloo shale basin first gas production imminent; 500 TCF resource could drive LNG export growth for Australian operations.",
+          "sentiment": "bearish",
+          "conviction": 71,
+          "rationale": "U.S.-Iran tensions and slumping Hormuz tanker traffic threaten crude export volumes and geopolitical risk premium collapse.",
           "key_themes": [
-            "shale gas production",
-            "LNG exports",
-            "resource monetization"
+            "geopolitical risk",
+            "supply disruption concerns",
+            "sanctions impact"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] confirms Beetaloo first gas imminent and 500 TCF resource, but does not mention ConocoPhillips specifically or its involvement in the project. The article discusses the basin opportunity generically without naming operators.",
-          "supporting_article": 1
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Beetaloo shale basin first gas production imminent; 500 TCF resource could drive LNG export growth for Australian operations.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "U.S.-Iran tensions and slumping Hormuz tanker traffic threaten crude export volumes and geopolitical risk premium collapse.",
         "haiku_themes": [
-          "shale gas production",
-          "LNG exports",
-          "resource monetization"
+          "geopolitical risk",
+          "supply disruption concerns",
+          "sanctions impact"
         ]
       },
       "config": {
@@ -372,12 +374,12 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Moderna, Merck Say mRNA Vaccine Prevents Melanoma From Returning",
-          "summary": "Moderna and Merck say the experimental vaccine prevented the return and spread of the cancer in high-risk melanoma patients.",
-          "url": "https://www.nytimes.com/2026/08/19/science/moderna-merck-mrna-vaccine-melanoma.html",
+          "title": "Alfalfa Sprouts Linked to Illnesses in 15 States, F.D.A. Says",
+          "summary": "Officials are investigating after multiple strains of E. coli and a type of salmonella sickened dozens of people across the United States. Two people were infected with both salmonella and E. coli.",
+          "url": "https://www.nytimes.com/2026/08/21/us/alfalfa-sprouts-recall-salmonella-ecoli.html",
           "source": "Rss",
-          "published": "19 Aug 2026",
-          "sentiment_hint": "bearish"
+          "published": "22 Aug 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Moderna\u2019s Shift to Cancer Company Lifts Stock Up 177%",
@@ -388,36 +390,36 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "What Is Treatment-Resistant Depression?",
-          "summary": "If multiple antidepressants haven\u2019t helped, there are other avenues to explore.",
-          "url": "https://www.nytimes.com/2026/08/20/well/mind/treatment-resistant-depression.html",
+          "title": "Moderna, Merck Say mRNA Vaccine Prevents Melanoma From Returning",
+          "summary": "Moderna and Merck say the experimental vaccine prevented the return and spread of the cancer in high-risk melanoma patients.",
+          "url": "https://www.nytimes.com/2026/08/19/science/moderna-merck-mrna-vaccine-melanoma.html",
           "source": "Rss",
-          "published": "20 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "19 Aug 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/regeneron-breathes-out-calming-visual-tour-its-science-new-podcast-series\" hreflang=\"en\">Regeneron podcast turns science learnings into immersive experience</a>",
-          "summary": "Regeneron's \"Science Illuminated\" podcast series transforms scientific topics into a calming, meditative-style video and audio experience.",
-          "url": "https://www.fiercepharma.com/marketing/regeneron-breathes-out-calming-visual-tour-its-science-new-podcast-series",
+          "title": "<a href=\"https://www.fiercepharma.com/sponsored/when-new-who-importance-timing-hcp-marketing\" hreflang=\"en\">When is the new who: The importance of timing in HCP marketing </a>",
+          "summary": "HCP marketers have spent years perfecting whom to reach. The harder question, and the one that decides whether a message lands, is when.",
+          "url": "https://www.fiercepharma.com/sponsored/when-new-who-importance-timing-hcp-marketing",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/manufacturing/roche-earmarks-750m-double-size-its-manufacturing-facility-oregon\" hreflang=\"en\">Roche earmarks $750M to double the size of its Oregon manufacturing facility</a>",
-          "summary": "Roche will invest $750 million to double the size of its Genentech unit's manufacturing facility in Hillsboro, Oregon. The new outlay will support the construction of a fill-finish plant that will produce drug-delivery devices, such as prefilled syringes and auto-injectors. The funding will also bring 250 new, high-wage jobs online, Roche said.",
-          "url": "https://www.fiercepharma.com/manufacturing/roche-earmarks-750m-double-size-its-manufacturing-facility-oregon",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/community-health-media-drives-credible-medical-expertise-through-physician-led-content\" hreflang=\"en\">Community Health Media drives 'credible medical expertise' through physician-led content </a>",
+          "summary": "Education and insight company Community Health Media curates its content library by centering physicians as \"the talent\" and centering its content creation on insightful physician-led conversations.",
+          "url": "https://www.fiercepharma.com/marketing/community-health-media-drives-credible-medical-expertise-through-physician-led-content",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/xsprays-dasynoc-approval-bid-foiled-again-fdas-contract-manufacturer-concerns\" hreflang=\"en\">Xspray's Dasynoc approval bid foiled again by FDA's manufacturer concerns</a>",
-          "summary": "Less than a year after the FDA turned down the resubmitted application for the company\u2019s leukemia prospect Dasynoc, Xspray Pharma has again hit a wall at the U.S. regulator.",
-          "url": "https://www.fiercepharma.com/pharma/xsprays-dasynoc-approval-bid-foiled-again-fdas-contract-manufacturer-concerns",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/lundbeck-continues-neuroscience-evolution-ceo-aims-keep-company-punching-above-its-weight\" hreflang=\"en\">Lundbeck continues neuroscience evolution as CEO keeps company \u2018punching above its weight\u2019</a>",
+          "summary": "Almost three years into his tenure as Lundbeck\u2019s CEO, Charl van Zyl is confident the company can prove its mettle as a \u201cneuroscience challenger\u201d capable of \u201cpunching above its weight.\u201d",
+          "url": "https://www.fiercepharma.com/pharma/lundbeck-continues-neuroscience-evolution-ceo-aims-keep-company-punching-above-its-weight",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bullish"
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
@@ -426,27 +428,27 @@
             "ticker": "MRK",
             "company": "Merck & Co.",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Merck's mRNA melanoma vaccine partnership with Moderna shows promising efficacy data, expanding oncology pipeline beyond traditional competencies.",
+            "conviction": 82,
+            "rationale": "mRNA melanoma vaccine partnership with Moderna shows promising efficacy, opening new oncology revenue stream beyond traditional offerings.",
             "key_themes": [
-              "oncology expansion",
-              "mRNA technology partnership",
-              "high-risk melanoma indication"
+              "cancer immunotherapy",
+              "mRNA platform validation",
+              "partnership upside"
             ],
             "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 3
           }
         ],
-        "summary": "The healthcare sector shows selective bullish signals driven by oncology innovation, particularly Merck's mRNA melanoma vaccine progress indicating successful pivot toward combination therapies and precision medicine. Manufacturing capacity expansions (Roche) suggest confidence in sustainable demand for injectable therapeutics, though the sector faces ongoing competitive pressures and regulatory hurdles in specialty pharma segments.",
+        "summary": "The healthcare sector shows selective bullish signals driven by innovation in oncology, particularly Merck's promising mRNA melanoma vaccine collaboration with Moderna. This represents a structural shift toward personalized cancer therapies and validates mRNA technology beyond infectious disease. Food safety incidents and marketing strategy articles lack direct stock impact for the analyzed universe.",
         "risks": [
-          "Regulatory approval uncertainty for pipeline candidates remains high",
-          "mRNA vaccine market competition intensifying with multiple players entering oncology space",
-          "Manufacturing expansion capex may pressure near-term margins",
-          "Treatment-resistant indications require longer development timelines and higher R&D spend"
+          "Clinical trial setbacks or regulatory hurdles for mRNA cancer vaccines",
+          "Competitive pressure from other oncology immunotherapy approaches",
+          "Execution risk on partnership commercialization timelines",
+          "Patent and IP disputes in crowded mRNA space"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -454,37 +456,37 @@
         }
       },
       "prices_snapshot": {
-        "MRK": 148.99000549316406
+        "MRK": 152.5500030517578
       },
       "spot_check": {
-        "title": "Moderna, Merck Say mRNA Vaccine Prevents Melanoma From Returning",
-        "summary": "Moderna and Merck say the experimental vaccine prevented the return and spread of the cancer in high-risk melanoma patients.",
-        "url": "https://www.nytimes.com/2026/08/19/science/moderna-merck-mrna-vaccine-melanoma.html",
+        "title": "Alfalfa Sprouts Linked to Illnesses in 15 States, F.D.A. Says",
+        "summary": "Officials are investigating after multiple strains of E. coli and a type of salmonella sickened dozens of people across the United States. Two people were infected with both salmonella and E. coli.",
+        "url": "https://www.nytimes.com/2026/08/21/us/alfalfa-sprouts-recall-salmonella-ecoli.html",
         "source": "Rss",
-        "published": "19 Aug 2026",
-        "sentiment_hint": "bearish",
+        "published": "22 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "MRK",
           "company": "Merck & Co.",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Merck's mRNA melanoma vaccine partnership with Moderna shows promising efficacy data, expanding oncology pipeline beyond traditional competencies.",
+          "conviction": 82,
+          "rationale": "mRNA melanoma vaccine partnership with Moderna shows promising efficacy, opening new oncology revenue stream beyond traditional offerings.",
           "key_themes": [
-            "oncology expansion",
-            "mRNA technology partnership",
-            "high-risk melanoma indication"
+            "cancer immunotherapy",
+            "mRNA platform validation",
+            "partnership upside"
           ],
           "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Merck's mRNA melanoma vaccine partnership with Moderna shows promising efficacy data, expanding oncology pipeline beyond traditional competencies.",
+        "haiku_rationale": "mRNA melanoma vaccine partnership with Moderna shows promising efficacy, opening new oncology revenue stream beyond traditional offerings.",
         "haiku_themes": [
-          "oncology expansion",
-          "mRNA technology partnership",
-          "high-risk melanoma indication"
+          "cancer immunotherapy",
+          "mRNA platform validation",
+          "partnership upside"
         ]
       },
       "config": {
@@ -504,28 +506,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Seattle Times Columnist Resigns After Paper Scrapped Trans Sports Column",
-          "summary": "Matt Calkins, a longtime sports columnist, said editors had refused to publish a column about transgender athletes in women\u2019s competitions.",
-          "url": "https://www.nytimes.com/2026/08/20/business/media/seattle-times-matt-calkins-resigns.html",
+          "title": "Maker of Clear Eyes Recalls Nearly 40,000 Bottles Over Contamination Risk",
+          "summary": "Federal safety regulators said the maker of Clear Eyes Maximum Itchy Eye Relief voluntarily recalled the drops because of a \u201clack of assurance of sterility.\u201d",
+          "url": "https://www.nytimes.com/2026/08/23/health/clear-eyes-eye-drops-fda-recall.html",
           "source": "Rss",
-          "published": "21 Aug 2026",
+          "published": "23 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Dr. Dre and Jimmy Iovine Think A.I. Is Good for Music",
+          "summary": "The hit-making duo turned tech moguls also have thoughts about why corporate America isn\u2019t collaborative enough.",
+          "url": "https://www.nytimes.com/2026/08/23/business/jimmy-iovine-dr-dre-beats-usc.html",
+          "source": "Rss",
+          "published": "23 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The New York Times Loses Defamation Lawsuit in Alabama",
-          "summary": "A 2023 article incorrectly reported that a University of Alabama basketball player was at the scene of a deadly shooting. A jury awarded $9.25 million in damages.",
-          "url": "https://www.nytimes.com/2026/08/20/business/media/new-york-times-defamation-lawsuit-alabama.html",
+          "title": "How Big Tech Captured American Schools",
+          "summary": "Companies like Google and Microsoft have used their money, their might and their massive reach to influence nearly every step of the education supply chain.",
+          "url": "https://www.nytimes.com/2026/08/23/business/schools-big-tech-google-microsoft.html",
           "source": "Rss",
-          "published": "21 Aug 2026",
+          "published": "23 Aug 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "How Big Tech\u2019s A.I. Borrowing Binge Is Driving Up Bond Yields",
-          "summary": "Analysts said the recent rise in Treasury yields partly reflected investor expectations that A.I.-driven growth could keep interest rates elevated.",
-          "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
-          "source": "Rss",
-          "published": "20 Aug 2026",
-          "sentiment_hint": "bullish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -556,76 +558,75 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
+            "company": "JPMorgan Chase",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Rising Treasury yields from AI-driven growth expectations support investment banking and trading revenues",
+            "conviction": 62,
+            "rationale": "Market volatility from AI sector selloff creates trading opportunities and increased banking advisory demand.",
             "key_themes": [
-              "rising bond yields",
-              "AI investment cycle",
-              "investment banking opportunity"
+              "market volatility",
+              "M&A advisory",
+              "trading revenue"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and tech sector panic increase demand for financial advisory and wealth management services.",
+            "key_themes": [
+              "market volatility",
+              "advisory services",
+              "client engagement"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs Group Inc.",
+            "company": "Goldman Sachs",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Elevated Treasury yields and increased capital markets activity benefit trading and advisory divisions",
+            "conviction": 65,
+            "rationale": "Significant market disruption from DeepSeek selloff generates heightened M&A and restructuring advisory opportunities.",
             "key_themes": [
-              "rising bond yields",
-              "capital markets activity",
-              "advisory services"
+              "M&A activity",
+              "market disruption",
+              "advisory fees"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 4
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Higher bond yields strengthen fixed income and equity capital markets revenues across divisions",
+            "conviction": 60,
+            "rationale": "AI sector volatility and market uncertainty drive increased trading volumes and institutional client advisory needs.",
             "key_themes": [
-              "rising bond yields",
               "trading revenue",
-              "capital markets strength"
+              "volatility",
+              "client advisory"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America Corp.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Elevated yield environment improves net interest margins and investment banking fee generation",
-            "key_themes": [
-              "rising yields",
-              "NIM expansion",
-              "investment banking fees"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 4
           },
           {
             "ticker": "V",
-            "company": "Visa Inc.",
+            "company": "Visa",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "No direct connection to analyzed news; macro uncertainty from AI volatility creates headwinds",
+            "rationale": "No direct exposure to articles; market volatility may slightly reduce transaction volumes but impact is minimal.",
             "key_themes": [
-              "macro uncertainty",
               "market volatility"
             ],
             "time_horizon": "short-term",
@@ -635,12 +636,11 @@
           },
           {
             "ticker": "MA",
-            "company": "Mastercard Inc.",
+            "company": "Mastercard",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "No direct connection to analyzed news; macro uncertainty from AI volatility creates headwinds",
+            "rationale": "No direct exposure to articles; market volatility may slightly reduce transaction volumes but impact is minimal.",
             "key_themes": [
-              "macro uncertainty",
               "market volatility"
             ],
             "time_horizon": "short-term",
@@ -649,11 +649,11 @@
             "supporting_article": 4
           }
         ],
-        "summary": "Financial sector benefits from elevated Treasury yields driven by AI-related growth expectations, supporting investment banking and trading revenues. However, broader market volatility from DeepSeek-triggered AI rout creates near-term macro uncertainty affecting payment processors and smaller financials.",
+        "summary": "Financial services firms are positioned to benefit from heightened market volatility triggered by the DeepSeek AI panic, which is driving increased M&A advisory, trading, and wealth management activity. Payment processors face minimal near-term impact from broader tech sector turmoil. The sector benefits from chaos and uncertainty that typically elevates advisory and trading revenues for investment banks.",
         "risks": [
-          "AI hype cycle reversal could deflate yield expectations",
-          "sustained market volatility may depress capital markets activity",
-          "geopolitical tech competition pressures"
+          "Volatility may be short-lived if markets stabilize quickly",
+          "Extended market weakness could reduce overall deal flow and client engagement",
+          "Regulatory scrutiny on financial sector remains ongoing"
         ],
         "sector_sentiment": "bullish",
         "verification": {
@@ -663,42 +663,42 @@
         }
       },
       "prices_snapshot": {
-        "JPM": 351.54998779296875,
-        "GS": 1001.9500122070312,
-        "MS": 207.4499969482422,
-        "BAC": 61.86000061035156,
-        "V": 365.7300109863281,
-        "MA": 573.8499755859375
+        "JPM": 351.5799865722656,
+        "BAC": 61.689998626708984,
+        "GS": 1039.280029296875,
+        "MS": 214.1999969482422,
+        "V": 371.0400085449219,
+        "MA": 580.6300048828125
       },
       "spot_check": {
-        "title": "Seattle Times Columnist Resigns After Paper Scrapped Trans Sports Column",
-        "summary": "Matt Calkins, a longtime sports columnist, said editors had refused to publish a column about transgender athletes in women\u2019s competitions.",
-        "url": "https://www.nytimes.com/2026/08/20/business/media/seattle-times-matt-calkins-resigns.html",
+        "title": "Maker of Clear Eyes Recalls Nearly 40,000 Bottles Over Contamination Risk",
+        "summary": "Federal safety regulators said the maker of Clear Eyes Maximum Itchy Eye Relief voluntarily recalled the drops because of a \u201clack of assurance of sterility.\u201d",
+        "url": "https://www.nytimes.com/2026/08/23/health/clear-eyes-eye-drops-fda-recall.html",
         "source": "Rss",
-        "published": "21 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "23 Aug 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
+          "ticker": "GS",
+          "company": "Goldman Sachs",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Rising Treasury yields from AI-driven growth expectations support investment banking and trading revenues",
+          "conviction": 65,
+          "rationale": "Significant market disruption from DeepSeek selloff generates heightened M&A and restructuring advisory opportunities.",
           "key_themes": [
-            "rising bond yields",
-            "AI investment cycle",
-            "investment banking opportunity"
+            "M&A activity",
+            "market disruption",
+            "advisory fees"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Rising Treasury yields from AI-driven growth expectations support investment banking and trading revenues",
+        "haiku_rationale": "Significant market disruption from DeepSeek selloff generates heightened M&A and restructuring advisory opportunities.",
         "haiku_themes": [
-          "rising bond yields",
-          "AI investment cycle",
-          "investment banking opportunity"
+          "M&A activity",
+          "market disruption",
+          "advisory fees"
         ]
       },
       "config": {

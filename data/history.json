@@ -13264,5 +13264,293 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-24",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search recommendations threaten traditional SEO, positioning Google's AI search integration as critical competitive differentiator.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "AI-driven content discovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] demonstrates ChatGPT recommending content, but does not establish this as a 'threat' to Google or validate Google's AI search integration as a 'competitive differentiator.' The article only shows ChatGPT's capability, not competitive positioning or Google's response. The rationale makes logical inferences not supported by the source material.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to recommend content and drive organic traffic validates OpenAI partnership value and enterprise AI adoption momentum.",
+            "key_themes": [
+              "ChatGPT usage expansion",
+              "AI content curation",
+              "enterprise AI integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 344.82000732421875,
+          "MSFT": 483.239990234375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 62,
+            "rationale": "Divesting $8B U.S. chemicals business supports portfolio optimization but reduces downstream diversification earnings.",
+            "key_themes": [
+              "portfolio restructuring",
+              "capital reallocation",
+              "downstream divestment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Acquisition of Shell's chemicals business would enhance downstream exposure and cost synergies if deal closes.",
+            "key_themes": [
+              "M&A opportunity",
+              "downstream expansion",
+              "cost synergies"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "U.S.-Iran tensions and slumping Hormuz tanker traffic threaten crude export volumes and geopolitical risk premium collapse.",
+            "key_themes": [
+              "geopolitical risk",
+              "supply disruption concerns",
+              "sanctions impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Oil price weakness (-2% on profit-taking) and declining Hormuz traffic amid Iran-U.S. threats pressure upstream margins.",
+            "key_themes": [
+              "oil price weakness",
+              "geopolitical uncertainty",
+              "reduced export optionality"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Declining tanker traffic and profit-taking in oil markets create near-term headwinds for crude realizations and volumes.",
+            "key_themes": [
+              "oil demand softness",
+              "tanker utilization decline",
+              "sanctions uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: Iran tensions support oil prices but slumping Hormuz traffic and profit-taking create near-term volatility.",
+            "key_themes": [
+              "geopolitical hedging",
+              "price volatility",
+              "trading noise"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 93.33000183105469,
+          "XOM": 165.11000061035156,
+          "COP": 134.8699951171875,
+          "BP": 44.7599983215332,
+          "CVX": 205.27000427246094,
+          "TTE": 89.88999938964844
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "mRNA melanoma vaccine partnership with Moderna shows promising efficacy, opening new oncology revenue stream beyond traditional offerings.",
+            "key_themes": [
+              "cancer immunotherapy",
+              "mRNA platform validation",
+              "partnership upside"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 152.5500030517578
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Market volatility from AI sector selloff creates trading opportunities and increased banking advisory demand.",
+            "key_themes": [
+              "market volatility",
+              "M&A advisory",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and tech sector panic increase demand for financial advisory and wealth management services.",
+            "key_themes": [
+              "market volatility",
+              "advisory services",
+              "client engagement"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Significant market disruption from DeepSeek selloff generates heightened M&A and restructuring advisory opportunities.",
+            "key_themes": [
+              "M&A activity",
+              "market disruption",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "AI sector volatility and market uncertainty drive increased trading volumes and institutional client advisory needs.",
+            "key_themes": [
+              "trading revenue",
+              "volatility",
+              "client advisory"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; market volatility may slightly reduce transaction volumes but impact is minimal.",
+            "key_themes": [
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; market volatility may slightly reduce transaction volumes but impact is minimal.",
+            "key_themes": [
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 351.5799865722656,
+          "BAC": 61.689998626708984,
+          "GS": 1039.280029296875,
+          "MS": 214.1999969482422,
+          "V": 371.0400085449219,
+          "MA": 580.6300048828125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
