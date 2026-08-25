@@ -13552,5 +13552,280 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-08-25",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's dominance in AI-driven search and content discovery threatens Google's traditional SEO model and search monetization.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic shift",
+              "monetization risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT integration across Microsoft products driving AI adoption and content creation tools becoming essential for enterprise workflows.",
+            "key_themes": [
+              "AI tool adoption",
+              "content creation platform",
+              "enterprise AI integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 348.05999755859375,
+          "MSFT": 487.30999755859375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "TTE partnership in Argentina LNG project positions it for $15B financing and final investment decision by November 2026.",
+            "key_themes": [
+              "Argentina LNG expansion",
+              "major project financing",
+              "production capacity growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes Argentina LNG as partnership between Eni, YPF, and XRG. TotalEnergies (TTE) is not mentioned as a partner in the project. The rationale claims TTE has a partnership position, but this cannot be verified from source materials.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Middle East gas processing capacity additions through 2030 will drive demand for oilfield services and technology infrastructure.",
+            "key_themes": [
+              "Middle East gas infrastructure",
+              "processing capacity growth",
+              "services demand"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "U.S. Iran sanctions intensification threatens oil supply dynamics but benefits from potential crude price support; mixed impact.",
+            "key_themes": [
+              "Iran sanctions escalation",
+              "crude supply constraints",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 89.3499984741211,
+          "SLB": 54.0,
+          "COP": 133.35000610351562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Expanding GLP-1 obesity drug access through Medicaid campaign signals confidence in market penetration and long-term revenue growth.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "Medicaid access",
+              "obesity treatment commercialization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Court rejection of Medicare price negotiation lawsuit removes legal uncertainty but confirms pricing pressure from government regulations.",
+            "key_themes": [
+              "Medicare price negotiations",
+              "regulatory risk mitigation",
+              "pricing pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Clear Eyes contamination recall indicates quality control issues and potential brand reputation damage in OTC consumer health segment.",
+            "key_themes": [
+              "product recall",
+              "quality control failure",
+              "consumer health risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [2] states Clear Eyes is made by an unnamed manufacturer, not Johnson & Johnson. The recall is real but the company attribution is incorrect.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1246.9300537109375,
+          "MRK": 150.66000366210938,
+          "JNJ": 273.0400085449219
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "SEC investigation into AI hedge fund trading requires major bank scrutiny and potential compliance costs.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "hedge fund risk exposure",
+              "trading compliance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Subpoenaed in SEC investigation of AI hedge fund near-collapse; regulatory and reputational risks emerge.",
+            "key_themes": [
+              "regulatory investigation",
+              "counterparty risk",
+              "compliance burden"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Major Wall Street bank implicated in AI hedge fund investigation with potential regulatory and financial exposure.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "hedge fund connections",
+              "trading risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Subpoenaed in SEC hedge fund probe; regulatory burden and reputational damage pose near-term headwinds.",
+            "key_themes": [
+              "regulatory investigation",
+              "trading scrutiny",
+              "compliance costs"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Broad market rout from AI concerns and tariff uncertainty reduces discretionary spending and transaction volumes.",
+            "key_themes": [
+              "market volatility",
+              "economic uncertainty",
+              "spending headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale links AI concerns (Article 4) to discretionary spending impact on Visa, but no article establishes causal mechanism between stock market selloff and reduced payment transaction volumes. Article 4 discusses AI stock declines but not consumer spending effects. Tariff article (1) addresses Canadian firms, not U.S. consumer discretionary spending broadly.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Stock market selloff and tariff-induced economic uncertainty threaten payment volumes and consumer activity.",
+            "key_themes": [
+              "market weakness",
+              "tariff impact",
+              "transaction decline"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims tariff-induced economic uncertainty threatens payment volumes, but tariff article (1) focuses on Canadian export competitiveness, not U.S. domestic consumer transaction decline. AI selloff (Article 4) not connected to payment activity in sources.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 356.3900146484375,
+          "BAC": 62.33000183105469,
+          "GS": 1036.280029296875,
+          "MS": 214.0800018310547,
+          "V": 382.4100036621094,
+          "MA": 599.8599853515625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
