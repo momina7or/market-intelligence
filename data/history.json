@@ -13827,5 +13827,428 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-08-26",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT competition driving AI search relevance; organic traffic patterns shifting toward AI-powered discovery mechanisms.",
+            "key_themes": [
+              "AI search disruption",
+              "content discovery evolution",
+              "organic traffic monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated value in content recommendations validates AI assistant monetization; enterprise AI adoption accelerating.",
+            "key_themes": [
+              "AI assistant adoption",
+              "content creation tools",
+              "enterprise AI integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "H-1B visa fee increase ($103K+) significantly raises tech talent acquisition costs; disproportionately impacts high-hiring tech companies.",
+            "key_themes": [
+              "labor cost inflation",
+              "immigration policy headwind",
+              "talent acquisition challenge"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "H-1B visa cost explosion directly impacts engineering workforce expansion; substantial operational expense increase for major visa users.",
+            "key_themes": [
+              "labor cost inflation",
+              "hiring constraints",
+              "talent acquisition cost"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Heavy reliance on H-1B visa program for engineering talent; visa fee hike creates margin pressure and hiring constraints.",
+            "key_themes": [
+              "labor cost inflation",
+              "talent sourcing challenge",
+              "operational expense"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Significant H-1B visa dependency; $103K+ fee increase materially impacts engineering recruitment and AI talent acquisition strategy.",
+            "key_themes": [
+              "labor cost inflation",
+              "engineering recruitment challenge",
+              "AI talent costs"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 346.9599914550781,
+          "MSFT": 491.7099914550781,
+          "AAPL": 309.8999938964844,
+          "META": 570.0499877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Strait of Hormuz reopening talks reduce supply disruption premium and crude prices; fusion investment diverts capex from traditional oil.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "energy transition competition",
+              "crude price pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Iran-Oman Strait negotiations and potential reopening reduce supply constraints; lower oil price environment pressures margins.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "crude price headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: Strait reopening pressures crude prices, but BP's diversified energy portfolio and CCUS focus provide strategic positioning.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "energy transition strategy",
+              "CCUS opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              5
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 54,
+            "rationale": "Balanced exposure: Crude price pressure offset by strong renewable energy investments and CCUS leadership in hard-to-abate decarbonization.",
+            "key_themes": [
+              "crude price pressure",
+              "renewable energy growth",
+              "CCUS leadership"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'CCUS leadership' but source articles provide no evidence of Shell's CCUS leadership position relative to peers",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 56,
+            "rationale": "Iran-Oman talks pressure crude prices, but TotalEnergies' aggressive renewable and fusion investments position it for energy transition.",
+            "key_themes": [
+              "crude price pressure",
+              "fusion investment",
+              "renewable diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Strait reopening reduces supply disruption premium significantly; exposed to lower crude prices with limited renewable energy hedge.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "crude price pressure",
+              "limited energy transition exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Strait normalization and lower crude prices reduce exploration-production spending; Africa refinery growth partially offsetting this headwind.",
+            "key_themes": [
+              "upstream capex reduction",
+              "Africa refinery opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 160.63999938964844,
+          "CVX": 199.88999938964844,
+          "BP": 42.86000061035156,
+          "SHEL": 92.22000122070312,
+          "TTE": 88.80000305175781,
+          "COP": 131.83999633789062,
+          "SLB": 53.290000915527344
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "CTE prevalence study creates long-term demand for neurodegenerative disease treatments and diagnostics.",
+            "key_themes": [
+              "neurodegenerative diseases",
+              "diagnostic expansion",
+              "chronic disease treatment"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Substance abuse crisis and rising opioid potency drive demand for addiction treatment and psychiatric medications.",
+            "key_themes": [
+              "addiction treatment",
+              "substance abuse market",
+              "pharmaceutical demand"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Oncology consolidation trend (McKesson-PMG deal) highlights robust cancer drug market growth opportunities.",
+            "key_themes": [
+              "oncology market expansion",
+              "cancer drug demand",
+              "M&A activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Precision medicine acquisition signals strong growth in diagnostic and biopharma infrastructure market segments.",
+            "key_themes": [
+              "precision medicine",
+              "diagnostics growth",
+              "oncology infrastructure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 273.1400146484375,
+          "LLY": 1233.6600341796875,
+          "MRK": 156.4499969482422,
+          "TMO": 628.1500244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "U.S. sanctions on Iran create compliance and advisory opportunities; tech volatility drives M&A advisory demand.",
+            "key_themes": [
+              "geopolitical sanctions",
+              "M&A advisory",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Iran sanctions expansion generates geopolitical advisory and structuring opportunities for investment banking.",
+            "key_themes": [
+              "sanctions compliance",
+              "investment banking",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Tech sector volatility from AI rout increases M&A and restructuring advisory demand; sanctions create new opportunities.",
+            "key_themes": [
+              "M&A advisory",
+              "tech volatility",
+              "geopolitical advisory"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Iran sanctions may marginally reduce payment volumes in restricted regions, but impact negligible given non-U.S. exposure.",
+            "key_themes": [
+              "sanctions impact",
+              "emerging markets exposure"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article 2 mentions Iran sanctions but does not specify impact on payment volumes or regional exposure details for Visa",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; Iran sanctions create minimal direct revenue impact given modest exposure to sanctioned jurisdictions.",
+            "key_themes": [
+              "sanctions impact",
+              "emerging markets exposure"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article 2 mentions Iran sanctions but does not specify impact on payment volumes or regional exposure details for Mastercard",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 356.69000244140625,
+          "GS": 1058.8800048828125,
+          "MS": 216.77000427246094,
+          "V": 384.1400146484375,
+          "MA": 599.3699951171875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

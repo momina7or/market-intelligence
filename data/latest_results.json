@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-25",
-  "run_time": "2026-08-25T07:41:23.962640Z",
+  "run_date": "2026-08-26",
+  "run_time": "2026-08-26T07:43:41.200424Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Lenovo confirms Legion Go issues after gamers report bricked devices",
-          "summary": "When a company's software update turns your computer into a useless brick, should fixes be free? Framework, the modular computer startup, apparently thinks so. But it's not clear that computing giant Lenovo will go that far. Three weeks after a Redditor presented a nearly $300 repair bill for their handheld gaming PC - among other [&#8230;]",
-          "url": "https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked",
+          "title": "Garmin\u2019s new Fenix 9 adds brighter screens and smoother map panning",
+          "summary": "Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED display with a brightness of up to 3,000 nits, making it twice as bright as its predecessor. Starting at $999.99 for the 43mm case option, the Fenix 9 has 50 percent more RAM and [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch",
           "source": "Theverge",
-          "published": "24 Aug 2026",
+          "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The cat-and-mouse game over 3D-printed guns has begun",
-          "summary": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle between regulators trying to stem the tide of ghost guns and individuals trying to create workarounds. Cody [&#8230;]",
-          "url": "https://www.theverge.com/tech/983244/3d-printed-guns-hashes-hochul",
+          "title": "Trump is upping the price of Big Tech\u2019s favorite visa",
+          "summary": "In the span of a few hours on Monday, the Department of Homeland Security announced that it would be implementing a fee of over $103,000 on H-1B visas, and news broke that the State Department plans on revoking the visas of up to 200,000 asylum seekers - which, according to The Associated Press, would be [&#8230;]",
+          "url": "https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration",
           "source": "Theverge",
-          "published": "24 Aug 2026",
+          "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Zillow and Redfin settle FTC antitrust case over their rental listings partnership",
-          "summary": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin would end its own advertising contracts and promise not to compete with Zillow for multifamily listings. [&#8230;]",
-          "url": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
+          "title": "At just $8, you owe it to yourself to grab Inscryption",
+          "summary": "If you watched the Gamescom 2026 announcements, you might have caught a trailer for the bizarre, frenetic Pony Island 2: Panda Circus, a game from Daniel Mullins. In case you haven\u2019t heard of him, get a crash course with a fantastic discount on Inscryption. Humble is currently selling Steam versions of the secret-packed deckbuilder for [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/984677/inscryption-humble-daniel-mullins-pony-island-deal-sale",
           "source": "Theverge",
-          "published": "24 Aug 2026",
+          "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -60,40 +60,103 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's dominance in AI-driven search and content discovery threatens Google's traditional SEO model and search monetization.",
+            "rationale": "ChatGPT competition driving AI search relevance; organic traffic patterns shifting toward AI-powered discovery mechanisms.",
             "key_themes": [
               "AI search disruption",
-              "organic traffic shift",
-              "monetization risk"
+              "content discovery evolution",
+              "organic traffic monetization"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 5
           },
           {
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "ChatGPT integration across Microsoft products driving AI adoption and content creation tools becoming essential for enterprise workflows.",
+            "rationale": "ChatGPT's demonstrated value in content recommendations validates AI assistant monetization; enterprise AI adoption accelerating.",
             "key_themes": [
-              "AI tool adoption",
-              "content creation platform",
+              "AI assistant adoption",
+              "content creation tools",
               "enterprise AI integration"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 5
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "H-1B visa fee increase ($103K+) significantly raises tech talent acquisition costs; disproportionately impacts high-hiring tech companies.",
+            "key_themes": [
+              "labor cost inflation",
+              "immigration policy headwind",
+              "talent acquisition challenge"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "H-1B visa cost explosion directly impacts engineering workforce expansion; substantial operational expense increase for major visa users.",
+            "key_themes": [
+              "labor cost inflation",
+              "hiring constraints",
+              "talent acquisition cost"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Heavy reliance on H-1B visa program for engineering talent; visa fee hike creates margin pressure and hiring constraints.",
+            "key_themes": [
+              "labor cost inflation",
+              "talent sourcing challenge",
+              "operational expense"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Significant H-1B visa dependency; $103K+ fee increase materially impacts engineering recruitment and AI talent acquisition strategy.",
+            "key_themes": [
+              "labor cost inflation",
+              "engineering recruitment challenge",
+              "AI talent costs"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
           }
         ],
-        "summary": "Articles highlight AI tools fundamentally reshaping content discovery and creation workflows in 2025, with ChatGPT demonstrating capability to influence organic traffic patterns independent of traditional SEO. While this validates enterprise AI investment thesis, it poses structural risk to search-dependent business models. Limited direct relevance to semiconductor or hardware manufacturers beyond general AI infrastructure demand.",
+        "summary": "Technology sector faces mixed signals: AI adoption momentum (ChatGPT integration, content creation tools) supports long-term growth for MSFT and GOOGL, while short-term headwinds from H-1B visa price increases create immediate talent acquisition cost pressures across major tech employers. Policy risk from immigration restrictions presents a near-term earnings headwind, particularly for companies with high engineering workforce needs.",
         "risks": [
-          "Google's search monetization model disruption from AI-driven recommendations",
-          "Regulatory scrutiny on AI monopolies (FTC antitrust patterns evident in articles)",
-          "Uncertain ROI measurement for AI content tools adoption",
-          "Quality control issues with AI-generated content at scale"
+          "H-1B visa fees may escalate further; broader immigration restrictions could compound labor shortage",
+          "ChatGPT organic traffic impact uncertain; monetization models for AI discovery still unproven",
+          "Visa policy could prompt offshoring or acquisition consolidation, reducing near-term hiring flexibility"
         ],
         "sector_sentiment": "neutral",
         "verification": {
@@ -103,8 +166,10 @@
         }
       },
       "prices_snapshot": {
-        "GOOGL": 348.05999755859375,
-        "MSFT": 487.30999755859375
+        "GOOGL": 346.9599914550781,
+        "MSFT": 491.7099914550781,
+        "AAPL": 309.8999938964844,
+        "META": 570.0499877929688
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -118,23 +183,23 @@
           "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT's dominance in AI-driven search and content discovery threatens Google's traditional SEO model and search monetization.",
+          "rationale": "ChatGPT competition driving AI search relevance; organic traffic patterns shifting toward AI-powered discovery mechanisms.",
           "key_themes": [
             "AI search disruption",
-            "organic traffic shift",
-            "monetization risk"
+            "content discovery evolution",
+            "organic traffic monetization"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's dominance in AI-driven search and content discovery threatens Google's traditional SEO model and search monetization.",
+        "haiku_rationale": "ChatGPT competition driving AI search relevance; organic traffic patterns shifting toward AI-powered discovery mechanisms.",
         "haiku_themes": [
           "AI search disruption",
-          "organic traffic shift",
-          "monetization risk"
+          "content discovery evolution",
+          "organic traffic monetization"
         ]
       },
       "config": {
@@ -154,156 +219,236 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "JPMorgan and Santander Lead $15 Billion Financing Push for Argentina LNG",
-          "summary": "JP Morgan and Santander will lead a fundraising operation for Argentina LNG, Bloomberg has reported, citing unnamed sources who said the total could reach $15 billion. One of these told the publication the companies involved in the project aimed to make a final investment decision by November. The Argentina LNG project is a partnership between Italy\u2019s Eni, Argentinian state energy major YPF, and Emirati XRG. The facility is to be built on Argentina\u2019s Atlantic coast and have an annual production ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/JPMorgan-and-Santander-Lead-15-Billion-Financing-Push-for-Argentina-LNG.html",
+          "title": "Iran\u2019s Tanker Blacklist Raises New Risks for Gulf Oil",
+          "summary": "Three Indian refining companies and \u201ca global energy major\u201d will stop using tankers included in a black list that Iran issued earlier on Sunday in response to U.S. sanctions, Reuters has reported, citing unnamed sources. The list includes 45 vessels that, according to Tehran, had violated its rules for traversing the Strait of Hormuz. The statement also warned Iran would take action against any of these vessels if they are used to carry cargo via the waterway. According to Reuters, the clampdown",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Tanker-Blacklist-Raises-New-Risks-for-Gulf-Oil.html",
           "source": "Oilprice",
+          "published": "26 Aug 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Oil Prices Fall as Iran-Oman Talks Fuel Hopes of Strait Reopening",
+          "summary": "Crude oil prices dipped earlier today following news reports about Iran and Oman renewing their talks about joint management of the Strait of Hormuz, as those reports were taken to mean the waterway could soon reopen for normal traffic. Reuters reported that the two were discussing \u201ca joint temporary navigational corridor\u201d and clearing the strait of mines. As a result, Brent crude was trading at $86.69 per barrel at the time of writing, with West Texas Intermediate at $80.61 per barrel at the ti",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Iran-Oman-Talks-Fuel-Hopes-of-Strait-Reopening.html",
+          "source": "Oilprice",
+          "published": "26 Aug 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Big Oil Is Betting Billions On Nuclear Fusion",
+          "summary": "After decades confined largely to laboratories, nuclear fusion is beginning to attract the kind of money and industrial planning normally reserved for technologies expected to make it onto the grid. Global private investment in fusion hit a record $4.48 billion in 2025, up 69% from a year earlier, while some of the world\u2019s largest energy companies are moving beyond simply backing fusion startups. Italian energy giant Eni S.p.A. (NYSE:E) now plans to deploy a commercial fusion power plant in Euro",
+          "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Big-Oil-Is-Betting-Billions-On-Nuclear-Fusion.html",
+          "source": "Oilprice",
+          "published": "26 Aug 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Africa to drive global upcoming conventional refineries capacity additions by 2030",
+          "summary": "Africa is expected to remain a major contributor to global conventional refinery capacity additions during 2026 to 2030.",
+          "url": "https://www.energymonitor.ai/analyst-comment/africa-global-upcoming-conventional-refineries-capacity-2030/",
+          "source": "Energymonitor",
           "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Iran Threatens Retaliation as U.S. Widens Sanctions",
-          "summary": "Iran threatened an aggressive response to the latest U.S. sanctions announced on Monday by Treasury Secretary Scott Bessent, with a top government official noting Tehran was \u201cfully prepared for the U.S. sanctions.\u201d \u201cNaturally, the enemies intend to launch an economic terrorist attack on us, but we also have our own tools and know how to play the game,\u201d Iran\u2019s economy minister Ali Madanizadeh said, as quoted by Reuters earlier today. \u201cOur defense is no longer so defensive; the enemies should wait",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Threatens-Retaliation-as-US-Widens-Sanctions.html",
-          "source": "Oilprice",
+          "title": "Industry-wide CCUS growth hinges on policy support and awareness",
+          "summary": "Carbon capture, utilisation and storage (CCUS) has become a key decarbonisation pathway for oil and gas and other hard-to-abate industries.",
+          "url": "https://www.energymonitor.ai/analyst-comment/industry-wide-ccus-growth/",
+          "source": "Energymonitor",
           "published": "25 Aug 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "The Biggest Victims Of Trump\u2019s Economic D-Day On Iran",
-          "summary": "Trump\u2019s \u201ceconomic D-Day\u201d against Iran is built around one of Washington\u2019s most powerful weapons: access to the U.S. financial system. The problem is that the deeper Washington pushes into Iran\u2019s remaining trade, the bigger the targets become. China buys more than 80% of Iran\u2019s seaborne crude. Iraq relies on Iranian gas for as much as 40% of its electricity generation. Turkey imported 4.5 bcm of Iranian gas in the first half of this year, while India still maintains a heavily one-sided trade rela",
-          "url": "https://oilprice.com/Energy/Energy-General/The-Biggest-Victims-Of-Trumps-Economic-D-Day-On-Iran.html",
-          "source": "Oilprice",
+          "title": "Avantus secures $300m in tax equity for Aratina 2 solar storage project",
+          "summary": "Avantus obtained a $300m tax equity commitment from Truist Bank to support the development of the Aratina 2 solar and storage project.",
+          "url": "https://www.energymonitor.ai/news/avantus-secures-tax-equity-aratina-2/",
+          "source": "Energymonitor",
           "published": "25 Aug 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Middle East to dominate global gas processing capacity additions by 2030",
-          "summary": "The Middle East is expected to remain a key centre for global gas processing capacity additions through 2030.",
-          "url": "https://www.energymonitor.ai/analyst-comment/middle-east-global-gas-processing-capacity-additions-2030/",
-          "source": "Energymonitor",
-          "published": "24 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Van Oord installs all 111 monopiles for Baltica 2 wind farm",
-          "summary": "Marine contracting company Van Oord has completed the installation of all 111 monopiles for the 1.5GW Baltica 2 offshore wind farm in Poland.",
-          "url": "https://www.energymonitor.ai/news/van-oord-111-monopiles-baltica-2/",
-          "source": "Energymonitor",
-          "published": "24 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Aditya Birla Renewables secures $1.6bn MUFG loan for Sprng Energy deal",
-          "summary": "Aditya Birla Renewables (ABRen) has secured a $1.6bn term loan facility from MUFG for the proposed acquisition of Solenergi Power Private.",
-          "url": "https://www.energymonitor.ai/news/aditya-birla-renewables-secures-mufg-loan/",
-          "source": "Energymonitor",
-          "published": "24 Aug 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "TTE partnership in Argentina LNG project positions it for $15B financing and final investment decision by November 2026.",
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Strait of Hormuz reopening talks reduce supply disruption premium and crude prices; fusion investment diverts capex from traditional oil.",
             "key_themes": [
-              "Argentina LNG expansion",
-              "major project financing",
-              "production capacity growth"
+              "geopolitical risk reduction",
+              "energy transition competition",
+              "crude price pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Iran-Oman Strait negotiations and potential reopening reduce supply constraints; lower oil price environment pressures margins.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "crude price headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: Strait reopening pressures crude prices, but BP's diversified energy portfolio and CCUS focus provide strategic positioning.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "energy transition strategy",
+              "CCUS opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              5
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 54,
+            "rationale": "Balanced exposure: Crude price pressure offset by strong renewable energy investments and CCUS leadership in hard-to-abate decarbonization.",
+            "key_themes": [
+              "crude price pressure",
+              "renewable energy growth",
+              "CCUS leadership"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [1] describes Argentina LNG as partnership between Eni, YPF, and XRG. TotalEnergies (TTE) is not mentioned as a partner in the project. The rationale claims TTE has a partnership position, but this cannot be verified from source materials.",
+            "verification_issue": "Rationale claims 'CCUS leadership' but source articles provide no evidence of Shell's CCUS leadership position relative to peers",
             "supporting_article": null
           },
           {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Middle East gas processing capacity additions through 2030 will drive demand for oilfield services and technology infrastructure.",
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 56,
+            "rationale": "Iran-Oman talks pressure crude prices, but TotalEnergies' aggressive renewable and fusion investments position it for energy transition.",
             "key_themes": [
-              "Middle East gas infrastructure",
-              "processing capacity growth",
-              "services demand"
+              "crude price pressure",
+              "fusion investment",
+              "renewable diversification"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": [
+              2,
+              3
+            ]
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "U.S. Iran sanctions intensification threatens oil supply dynamics but benefits from potential crude price support; mixed impact.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Strait reopening reduces supply disruption premium significantly; exposed to lower crude prices with limited renewable energy hedge.",
             "key_themes": [
-              "Iran sanctions escalation",
-              "crude supply constraints",
-              "geopolitical risk"
+              "geopolitical risk reduction",
+              "crude price pressure",
+              "limited energy transition exposure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Strait normalization and lower crude prices reduce exploration-production spending; Africa refinery growth partially offsetting this headwind.",
+            "key_themes": [
+              "upstream capex reduction",
+              "Africa refinery opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
           }
         ],
-        "summary": "The petroleum sector faces mixed signals from geopolitical tensions and infrastructure expansion. U.S.-Iran sanctions escalation creates crude supply uncertainty benefiting some producers, while the Argentina LNG project and Middle East gas capacity additions through 2030 present long-term growth opportunities for integrated energy majors and oilfield services providers.",
+        "summary": "Potential Strait of Hormuz reopening via Iran-Oman negotiations is pressuring crude prices and reducing supply-risk premiums, creating headwinds for traditional oil majors. Big Oil's pivot toward nuclear fusion and renewable energy represents a strategic shift, though CCUS growth offers near-term opportunities. Africa's refinery capacity expansion provides a modest counterbalance but is insufficient to offset crude price weakness and geopolitical risk reduction.",
         "risks": [
-          "Iran retaliation could disrupt Middle East oil/gas flows and destabilize regional markets",
-          "Renewable energy expansion (Baltica 2 wind, solar deals) accelerates energy transition headwinds",
-          "China's dominant position in Iran crude purchases limits Western company exposure to sanctions benefits",
-          "Financing constraints or project delays could impact Argentina LNG final investment decision timeline"
+          "Strait reopening could accelerate faster than priced, causing sharper crude selloff",
+          "Fusion timelines may accelerate, accelerating capital reallocation away from hydrocarbons",
+          "CCUS policy support remains uncertain and could derail decarbonization strategy effectiveness",
+          "Iranian tanker blacklist could create renewed supply disruption if escalation occurs",
+          "Global refinery utilization rates may not support Africa's new capacity additions"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "TTE signal contains hallucinated partnership claim - TotalEnergies is not identified as a partner in the Argentina LNG project described in Article [1]",
-            "TTE conviction level (72) appears too high given the lack of direct company involvement in the stated rationale"
+            "Shell's rationale references 'CCUS leadership' without supporting evidence from articles - Article [5] discusses CCUS as a general industry pathway but does not establish Shell as a leader",
+            "All analysts assume Strait reopening will materially lower crude prices based on Article [2], but article only reports that prices 'dipped' on news of talks - actual impact magnitude is unclear",
+            "Analyst signals attribute fusion investment diversion to specific companies (TTE, XOM) but Article [3] only mentions Eni S.p.A. by name; no evidence provided that XOM or TTE are major fusion investors"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "TTE": 89.3499984741211,
-        "SLB": 54.0,
-        "COP": 133.35000610351562
+        "XOM": 160.63999938964844,
+        "CVX": 199.88999938964844,
+        "BP": 42.86000061035156,
+        "SHEL": 92.22000122070312,
+        "TTE": 88.80000305175781,
+        "COP": 131.83999633789062,
+        "SLB": 53.290000915527344
       },
       "spot_check": {
-        "title": "JPMorgan and Santander Lead $15 Billion Financing Push for Argentina LNG",
-        "summary": "JP Morgan and Santander will lead a fundraising operation for Argentina LNG, Bloomberg has reported, citing unnamed sources who said the total could reach $15 billion. One of these told the publication the companies involved in the project aimed to make a final investment decision by November. The Argentina LNG project is a partnership between Italy\u2019s Eni, Argentinian state energy major YPF, and Emirati XRG. The facility is to be built on Argentina\u2019s Atlantic coast and have an annual production ",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/JPMorgan-and-Santander-Lead-15-Billion-Financing-Push-for-Argentina-LNG.html",
+        "title": "Iran\u2019s Tanker Blacklist Raises New Risks for Gulf Oil",
+        "summary": "Three Indian refining companies and \u201ca global energy major\u201d will stop using tankers included in a black list that Iran issued earlier on Sunday in response to U.S. sanctions, Reuters has reported, citing unnamed sources. The list includes 45 vessels that, according to Tehran, had violated its rules for traversing the Strait of Hormuz. The statement also warned Iran would take action against any of these vessels if they are used to carry cargo via the waterway. According to Reuters, the clampdown",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Tanker-Blacklist-Raises-New-Risks-for-Gulf-Oil.html",
         "source": "Oilprice",
-        "published": "25 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "26 Aug 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "TTE",
-          "company": "TotalEnergies SE",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "TTE partnership in Argentina LNG project positions it for $15B financing and final investment decision by November 2026.",
+          "ticker": "COP",
+          "company": "ConocoPhillips",
+          "sentiment": "bearish",
+          "conviction": 65,
+          "rationale": "Strait reopening reduces supply disruption premium significantly; exposed to lower crude prices with limited renewable energy hedge.",
           "key_themes": [
-            "Argentina LNG expansion",
-            "major project financing",
-            "production capacity growth"
+            "geopolitical risk reduction",
+            "crude price pressure",
+            "limited energy transition exposure"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] describes Argentina LNG as partnership between Eni, YPF, and XRG. TotalEnergies (TTE) is not mentioned as a partner in the project. The rationale claims TTE has a partnership position, but this cannot be verified from source materials.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "TTE partnership in Argentina LNG project positions it for $15B financing and final investment decision by November 2026.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Strait reopening reduces supply disruption premium significantly; exposed to lower crude prices with limited renewable energy hedge.",
         "haiku_themes": [
-          "Argentina LNG expansion",
-          "major project financing",
-          "production capacity growth"
+          "geopolitical risk reduction",
+          "crude price pressure",
+          "limited energy transition exposure"
         ]
       },
       "config": {
@@ -323,66 +468,98 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Major Study Finds at Least 1 in 4 NFL Players Gets CTE",
+          "summary": "The actual prevalence, researchers said, may be much higher.",
+          "url": "https://www.nytimes.com/2026/08/25/us/nfl-cte-brain-disease.html",
+          "source": "Rss",
+          "published": "25 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "The Ruthless Efficiency of Ultrapotent Street Drugs",
           "summary": "Five decades after the \u201cwar on drugs\u201d sought to make substance abuse unaffordable, illicit drugs are cheaper and more powerful than ever. A visit to Baltimore shows why.",
           "url": "https://www.nytimes.com/2026/08/24/science/drugs-opioids-fentanyl-baltimore.html",
           "source": "Rss",
-          "published": "24 Aug 2026",
+          "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Maker of Clear Eyes Recalls Nearly 40,000 Bottles Over Contamination Risk",
-          "summary": "Federal safety regulators said the maker of Clear Eyes Maximum Itchy Eye Relief voluntarily recalled the drops because of a \u201clack of assurance of sterility.\u201d",
-          "url": "https://www.nytimes.com/2026/08/23/health/clear-eyes-eye-drops-fda-recall.html",
+          "title": "Some States Banned the Use of Food Stamps to Buy Soda. Did It Work?",
+          "summary": "A study shows a modest decline in soda purchases, but it\u2019s not clear that the results will hold up in the long run.",
+          "url": "https://www.nytimes.com/2026/08/22/upshot/snap-restrictions-soda-sugary-drinks.html",
           "source": "Rss",
-          "published": "24 Aug 2026",
+          "published": "22 Aug 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Moderna\u2019s Shift to Cancer Company Lifts Stock Up 177%",
-          "summary": "The company\u2019s fortunes cratered as demand for Covid-19 vaccines plummeted. But it was busy working on something else.",
-          "url": "https://www.nytimes.com/2026/08/20/business/moderna-cancer-melanoma.html",
-          "source": "Rss",
-          "published": "20 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/lilly-covers-lifelong-obesity-journey-new-glp-1-medicaid-access-campaign\" hreflang=\"en\">Lilly covers lifelong obesity journey in new GLP-1 Medicaid access campaign </a>",
-          "summary": "The campaign adds older adults to the obesity conversation and is anchored by Lilly's \"A Life Covered\" short film, which highlights a woman's decades-long weight loss journey.",
-          "url": "https://www.fiercepharma.com/pharma/lilly-covers-lifelong-obesity-journey-new-glp-1-medicaid-access-campaign",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/mckesson-strikes-225-billion-deal-precision-medicine-group\" hreflang=\"en\">McKesson strikes $2.25B deal to snap up Precision Medicine Group</a>",
+          "summary": "The healthcare conglomerate, which ranks eighth on the Fortune 500 list, is set to envelop privately held Precision Medicine Group into its oncology branch as part of an ongoing effort to grow its high-margin cancer and biopharma businesses.",
+          "url": "https://www.fiercepharma.com/pharma/mckesson-strikes-225-billion-deal-precision-medicine-group",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/merck-az-lawsuits-against-medicare-price-negotiations-are-swatted-away\" hreflang=\"en\">Merck, AZ lawsuits against Medicare price negotiations swatted down</a>",
-          "summary": "Courts in Maryland and Washington, D.C., have rejected separate lawsuits by Merck and AstraZeneca against the Centers for Medicare &amp; Medicaid Services' drug price negotiation program.",
-          "url": "https://www.fiercepharma.com/pharma/merck-az-lawsuits-against-medicare-price-negotiations-are-swatted-away",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/jazz-her2-bispecific-ziihera-gains-fda-approval-change-practice-stomach-cancer\" hreflang=\"en\">Jazz's HER2 bispecific Ziihera gains FDA approval to change practice in stomach cancer</a>",
+          "summary": "Jazz\u2019s bispecific antibody Ziihera has gained FDA approval for first-line HER2-positive stomach cancer, unlocking another market as the company builds toward a $2 billion-plus peak sales target.",
+          "url": "https://www.fiercepharma.com/pharma/jazz-her2-bispecific-ziihera-gains-fda-approval-change-practice-stomach-cancer",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/hansa-lays-groundwork-nasdaq-debut-ahead-us-kidney-transplant-drug-verdict\" hreflang=\"en\">Hansa lays groundwork for Nasdaq debut ahead of US kidney transplant drug verdict</a>",
-          "summary": "With the FDA expected to weigh in on its kidney transplant drug, imlifidase, shortly before year-end, Hansa Biopharma is mulling over its stock listing options in the U.S.",
-          "url": "https://www.fiercepharma.com/pharma/hansa-lays-groundwork-nasdaq-debut-ahead-us-kidney-transplant-drug-verdict",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/bausch-lomb-flops-ph-2-xiidra-miebo-combo-advances-it-ph-3\" hreflang=\"en\">Bausch + Lomb flops in ph. 2 with Xiidra and Miebo but advances combo to ph. 3</a>",
+          "summary": "Bausch + Lomb has come up short in a phase 2 trial, testing its combination of dry-eye disease drugs Xiidra and Miebo. While the study missed its primary endpoint, the Ontario eye care specialist has seen enough promise in the combo to advance it to phase 3 development, it said on Tuesday.",
+          "url": "https://www.fiercepharma.com/pharma/bausch-lomb-flops-ph-2-xiidra-miebo-combo-advances-it-ph-3",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "CTE prevalence study creates long-term demand for neurodegenerative disease treatments and diagnostics.",
+            "key_themes": [
+              "neurodegenerative diseases",
+              "diagnostic expansion",
+              "chronic disease treatment"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
             "ticker": "LLY",
             "company": "Eli Lilly",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Expanding GLP-1 obesity drug access through Medicaid campaign signals confidence in market penetration and long-term revenue growth.",
+            "conviction": 68,
+            "rationale": "Substance abuse crisis and rising opioid potency drive demand for addiction treatment and psychiatric medications.",
             "key_themes": [
-              "GLP-1 market expansion",
-              "Medicaid access",
-              "obesity treatment commercialization"
+              "addiction treatment",
+              "substance abuse market",
+              "pharmaceutical demand"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Oncology consolidation trend (McKesson-PMG deal) highlights robust cancer drug market growth opportunities.",
+            "key_themes": [
+              "oncology market expansion",
+              "cancer drug demand",
+              "M&A activity"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -390,88 +567,70 @@
             "supporting_article": 4
           },
           {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Court rejection of Medicare price negotiation lawsuit removes legal uncertainty but confirms pricing pressure from government regulations.",
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Precision medicine acquisition signals strong growth in diagnostic and biopharma infrastructure market segments.",
             "key_themes": [
-              "Medicare price negotiations",
-              "regulatory risk mitigation",
-              "pricing pressure"
+              "precision medicine",
+              "diagnostics growth",
+              "oncology infrastructure"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 5
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Clear Eyes contamination recall indicates quality control issues and potential brand reputation damage in OTC consumer health segment.",
-            "key_themes": [
-              "product recall",
-              "quality control failure",
-              "consumer health risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article [2] states Clear Eyes is made by an unnamed manufacturer, not Johnson & Johnson. The recall is real but the company attribution is incorrect.",
-            "supporting_article": 2
+            "supporting_article": 4
           }
         ],
-        "summary": "The healthcare sector shows mixed signals with GLP-1 obesity treatment expansion driving positive momentum for LLY, while regulatory headwinds from Medicare price negotiations normalize for MRK. JNJ faces near-term operational and reputational concerns from a product contamination recall. Overall, innovation-driven growth opportunities in metabolic disease treatment are offset by increased government pricing constraints.",
+        "summary": "Healthcare sector shows bullish signals driven by emerging disease prevalence (CTE, substance abuse), robust oncology market consolidation, and precision medicine expansion. Key tailwinds include chronic disease treatment demand and biopharma infrastructure investment. Regulatory approvals (Jazz's Ziihera) demonstrate continued innovation pipeline strength.",
         "risks": [
-          "Regulatory pricing pressure from Medicare drug negotiation program affecting all major pharma",
-          "Product quality and recall risks impacting consumer trust and OTC revenue streams",
-          "GLP-1 market saturation and competitive pricing erosion as multiple players enter obesity treatment space"
+          "clinical trial failures may dampen growth expectations",
+          "regulatory uncertainty around drug pricing and reimbursement",
+          "competition in oncology and psychiatric drug markets intensifying"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "Clear Eyes manufacturer not identified as J&J in source article - analyst made unsupported company attribution",
-            "Analyst applied bearish sentiment to wrong ticker based on incorrect company assignment"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "LLY": 1246.9300537109375,
-        "MRK": 150.66000366210938,
-        "JNJ": 273.0400085449219
+        "JNJ": 273.1400146484375,
+        "LLY": 1233.6600341796875,
+        "MRK": 156.4499969482422,
+        "TMO": 628.1500244140625
       },
       "spot_check": {
-        "title": "<a href=\"https://www.fiercepharma.com/pharma/lilly-covers-lifelong-obesity-journey-new-glp-1-medicaid-access-campaign\" hreflang=\"en\">Lilly covers lifelong obesity journey in new GLP-1 Medicaid access campaign </a>",
-        "summary": "The campaign adds older adults to the obesity conversation and is anchored by Lilly's \"A Life Covered\" short film, which highlights a woman's decades-long weight loss journey.",
-        "url": "https://www.fiercepharma.com/pharma/lilly-covers-lifelong-obesity-journey-new-glp-1-medicaid-access-campaign",
-        "source": "Fiercepharma",
-        "published": "",
-        "sentiment_hint": "bearish",
+        "title": "Major Study Finds at Least 1 in 4 NFL Players Gets CTE",
+        "summary": "The actual prevalence, researchers said, may be much higher.",
+        "url": "https://www.nytimes.com/2026/08/25/us/nfl-cte-brain-disease.html",
+        "source": "Rss",
+        "published": "25 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly",
+          "ticker": "JNJ",
+          "company": "Johnson & Johnson",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Expanding GLP-1 obesity drug access through Medicaid campaign signals confidence in market penetration and long-term revenue growth.",
+          "rationale": "CTE prevalence study creates long-term demand for neurodegenerative disease treatments and diagnostics.",
           "key_themes": [
-            "GLP-1 market expansion",
-            "Medicaid access",
-            "obesity treatment commercialization"
+            "neurodegenerative diseases",
+            "diagnostic expansion",
+            "chronic disease treatment"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Expanding GLP-1 obesity drug access through Medicaid campaign signals confidence in market penetration and long-term revenue growth.",
+        "haiku_rationale": "CTE prevalence study creates long-term demand for neurodegenerative disease treatments and diagnostics.",
         "haiku_themes": [
-          "GLP-1 market expansion",
-          "Medicaid access",
-          "obesity treatment commercialization"
+          "neurodegenerative diseases",
+          "diagnostic expansion",
+          "chronic disease treatment"
         ]
       },
       "config": {
@@ -491,27 +650,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "U.S. Tariffs Could Price Canadian Firms Out of U.S. and Threaten Thousands of Jobs",
-          "summary": "The 50 percent tariffs President Trump imposed on Canadian exports to the United States will make it impossible for many Canadian companies to continue to sell to the U.S. market, economists say.",
-          "url": "https://www.nytimes.com/2026/08/24/world/canada/us-tariffs-trade-economy.html",
+          "title": "Worker Dies After Accident With Plane at Montreal Airport",
+          "summary": "The Transportation Safety Board of Canada said the episode involved an Airbus A350 operated by French Bee, a French low-cost airline.",
+          "url": "https://www.nytimes.com/2026/08/25/world/canada/montreal-airport-accident-worker-dead.html",
           "source": "Rss",
           "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "S.E.C. Investigating Near-Implosion of A.I. Hedge Fund",
-          "summary": "Regulators sent subpoenas to major Wall Street banks seeking information about the trading of Situational Awareness, three people briefed on the outreach said.",
-          "url": "https://www.nytimes.com/2026/08/24/business/sec-situational-awareness-investigation.html",
+          "title": "U.S. \u2018Economic D-Day\u2019 Targets More Than Just Iranian Oil",
+          "summary": "The United States threatened sanctions for any country or entity that engages with Iran\u2019s gold, digital assets, aviation, shipping and tech industries. Here\u2019s why that matters.",
+          "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
           "source": "Rss",
-          "published": "24 Aug 2026",
+          "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "What\u2019s Behind the U.S. Treasury\u2019s Latest Attempt to Lower Interest Rates",
-          "summary": "The Treasury Department said it could begin to buy back more of its debt, and bond market investors are assessing the potential effects on borrowing costs.",
-          "url": "https://www.nytimes.com/2026/08/24/business/treasury-bond-buybacks-impact.html",
+          "title": "Forbes and Shook Research Suspend Rankings Amid Investigation of $6 Million Payment",
+          "summary": "The magazine, which is reviewing a payment from the founder of Shook Research to its former top editor, also canceled a summit in Las Vegas scheduled for October.",
+          "url": "https://www.nytimes.com/2026/08/25/business/media/forbes-shook-research-payment.html",
           "source": "Rss",
-          "published": "24 Aug 2026",
+          "published": "25 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -544,45 +703,32 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "bearish",
+            "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "SEC investigation into AI hedge fund trading requires major bank scrutiny and potential compliance costs.",
+            "rationale": "U.S. sanctions on Iran create compliance and advisory opportunities; tech volatility drives M&A advisory demand.",
             "key_themes": [
-              "regulatory scrutiny",
-              "hedge fund risk exposure",
-              "trading compliance"
+              "geopolitical sanctions",
+              "M&A advisory",
+              "market volatility"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "bearish",
-            "conviction": 70,
-            "rationale": "Subpoenaed in SEC investigation of AI hedge fund near-collapse; regulatory and reputational risks emerge.",
-            "key_themes": [
-              "regulatory investigation",
-              "counterparty risk",
-              "compliance burden"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              2,
+              4
+            ]
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "bearish",
+            "sentiment": "bullish",
             "conviction": 68,
-            "rationale": "Major Wall Street bank implicated in AI hedge fund investigation with potential regulatory and financial exposure.",
+            "rationale": "Iran sanctions expansion generates geopolitical advisory and structuring opportunities for investment banking.",
             "key_themes": [
-              "regulatory scrutiny",
-              "hedge fund connections",
-              "trading risk"
+              "sanctions compliance",
+              "investment banking",
+              "geopolitical risk"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -592,107 +738,108 @@
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Subpoenaed in SEC hedge fund probe; regulatory burden and reputational damage pose near-term headwinds.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Tech sector volatility from AI rout increases M&A and restructuring advisory demand; sanctions create new opportunities.",
             "key_themes": [
-              "regulatory investigation",
-              "trading scrutiny",
-              "compliance costs"
+              "M&A advisory",
+              "tech volatility",
+              "geopolitical advisory"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              2,
+              4
+            ]
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Broad market rout from AI concerns and tariff uncertainty reduces discretionary spending and transaction volumes.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Iran sanctions may marginally reduce payment volumes in restricted regions, but impact negligible given non-U.S. exposure.",
             "key_themes": [
-              "market volatility",
-              "economic uncertainty",
-              "spending headwinds"
+              "sanctions impact",
+              "emerging markets exposure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": false,
-            "verification_issue": "Rationale links AI concerns (Article 4) to discretionary spending impact on Visa, but no article establishes causal mechanism between stock market selloff and reduced payment transaction volumes. Article 4 discusses AI stock declines but not consumer spending effects. Tariff article (1) addresses Canadian firms, not U.S. consumer discretionary spending broadly.",
+            "verification_issue": "Article 2 mentions Iran sanctions but does not specify impact on payment volumes or regional exposure details for Visa",
             "supporting_article": null
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Stock market selloff and tariff-induced economic uncertainty threaten payment volumes and consumer activity.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; Iran sanctions create minimal direct revenue impact given modest exposure to sanctioned jurisdictions.",
             "key_themes": [
-              "market weakness",
-              "tariff impact",
-              "transaction decline"
+              "sanctions impact",
+              "emerging markets exposure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": false,
-            "verification_issue": "Rationale claims tariff-induced economic uncertainty threatens payment volumes, but tariff article (1) focuses on Canadian export competitiveness, not U.S. domestic consumer transaction decline. AI selloff (Article 4) not connected to payment activity in sources.",
+            "verification_issue": "Article 2 mentions Iran sanctions but does not specify impact on payment volumes or regional exposure details for Mastercard",
             "supporting_article": null
           }
         ],
-        "summary": "The financial sector faces near-term headwinds from regulatory scrutiny targeting major Wall Street banks in an AI hedge fund investigation, alongside broader market volatility triggered by AI concerns and tariff escalation. Payment processors face reduced transaction volume pressure, while banks navigate compliance costs and potential reputational damage. Treasury debt buyback efforts may provide some rate support, but overall sector sentiment reflects elevated uncertainty.",
+        "summary": "The financial sector benefits from geopolitical tensions as U.S. Iran sanctions expansion drives advisory and M&A activity for major banks. Tech volatility from China's DeepSeek concerns creates restructuring opportunities. Payment processors face minimal direct impact from sanctions given limited exposure to restricted regions.",
         "risks": [
-          "SEC investigation expansion to additional institutions",
-          "tariff escalation impacting economic growth and credit quality",
-          "AI market correction deepening market volatility",
-          "potential hedge fund contagion affecting bank counterparty exposure"
+          "Escalation of U.S.-China tensions could destabilize markets further",
+          "Iran sanctions could be reversed by policy changes",
+          "AI rout could deepen and reduce overall M&A activity"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Bank signals (JPM, BAC, GS, MS) are well-grounded in Article 2's SEC investigation details",
-            "Payment processor signals (V, MA) overreach by inferring consumer spending impacts without direct source support",
-            "No source article explicitly links market volatility or tariffs to reduced payment transaction volumes"
+            "Visa and Mastercard rationales make specific claims about 'negligible' impact and 'modest exposure to sanctioned jurisdictions' that are not substantiated in the source articles",
+            "The source article on Iran sanctions (Article 2) does not provide sufficient detail about payment processor exposure or revenue impact to support the neutral stance with stated conviction levels"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 356.3900146484375,
-        "BAC": 62.33000183105469,
-        "GS": 1036.280029296875,
-        "MS": 214.0800018310547,
-        "V": 382.4100036621094,
-        "MA": 599.8599853515625
+        "JPM": 356.69000244140625,
+        "GS": 1058.8800048828125,
+        "MS": 216.77000427246094,
+        "V": 384.1400146484375,
+        "MA": 599.3699951171875
       },
       "spot_check": {
-        "title": "U.S. Tariffs Could Price Canadian Firms Out of U.S. and Threaten Thousands of Jobs",
-        "summary": "The 50 percent tariffs President Trump imposed on Canadian exports to the United States will make it impossible for many Canadian companies to continue to sell to the U.S. market, economists say.",
-        "url": "https://www.nytimes.com/2026/08/24/world/canada/us-tariffs-trade-economy.html",
+        "title": "Worker Dies After Accident With Plane at Montreal Airport",
+        "summary": "The Transportation Safety Board of Canada said the episode involved an Airbus A350 operated by French Bee, a French low-cost airline.",
+        "url": "https://www.nytimes.com/2026/08/25/world/canada/montreal-airport-accident-worker-dead.html",
         "source": "Rss",
         "published": "25 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "JPM",
           "company": "JPMorgan Chase",
-          "sentiment": "bearish",
+          "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "SEC investigation into AI hedge fund trading requires major bank scrutiny and potential compliance costs.",
+          "rationale": "U.S. sanctions on Iran create compliance and advisory opportunities; tech volatility drives M&A advisory demand.",
           "key_themes": [
-            "regulatory scrutiny",
-            "hedge fund risk exposure",
-            "trading compliance"
+            "geopolitical sanctions",
+            "M&A advisory",
+            "market volatility"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": [
+            2,
+            4
+          ]
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "SEC investigation into AI hedge fund trading requires major bank scrutiny and potential compliance costs.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "U.S. sanctions on Iran create compliance and advisory opportunities; tech volatility drives M&A advisory demand.",
         "haiku_themes": [
-          "regulatory scrutiny",
-          "hedge fund risk exposure",
-          "trading compliance"
+          "geopolitical sanctions",
+          "M&A advisory",
+          "market volatility"
         ]
       },
       "config": {
