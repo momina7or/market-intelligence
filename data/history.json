@@ -14250,5 +14250,319 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-08-27",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "CEO claims AGI achievement but dismisses it as 'senseless,' signaling inflated claims lack substance.",
+            "key_themes": [
+              "AGI claims",
+              "earnings guidance",
+              "AI hype cycle"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT organic recommendation demonstrates AI search integration threatening traditional SEO, creating opportunities for Google's AI search evolution.",
+            "key_themes": [
+              "AI search disruption",
+              "content discovery",
+              "AI integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content, not Google. The rationale incorrectly attributes ChatGPT's behavior to Google and mischaracterizes the threat. ChatGPT recommendations actually bypass traditional search, potentially threatening Google's position rather than creating opportunities for Google's AI search evolution.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Articles highlight growing AI tool adoption for content creation, benefiting Microsoft's OpenAI partnership and enterprise AI solutions.",
+            "key_themes": [
+              "AI tool proliferation",
+              "content creation AI",
+              "enterprise adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "NVDA": 227.86500549316406,
+          "GOOGL": 341.1000061035156,
+          "MSFT": 503.06500244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Divesting non-core Egyptian assets to Energean for ~$1B strengthens balance sheet and focuses portfolio.",
+            "key_themes": [
+              "asset monetization",
+              "portfolio optimization",
+              "capital allocation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Securing deal with PDVSA positions SLB to capture significant revenue from Venezuela's oil sector revival.",
+            "key_themes": [
+              "Venezuela opportunity",
+              "oilfield services demand",
+              "market expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "BP": 42.564998626708984,
+          "SLB": 55.61000061035156
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Pancreatic cancer drug approval validates pipeline; LLY testing similar oncology candidates across multiple cancer types.",
+            "key_themes": [
+              "oncology expansion",
+              "pipeline validation",
+              "large market opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Articles mention a pancreatic cancer drug approval and that 'companies are testing dozens of similar drugs' but do not identify Eli Lilly as the approving company or as testing these drugs. No evidence Lilly is involved in the daraxonrasib approval or pipeline mentioned.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Daraxonrasib approval demonstrates transformative pancreatic cancer treatment; JNJ positioned in competitive oncology space.",
+            "key_themes": [
+              "oncology advancement",
+              "therapeutic innovation",
+              "competitive dynamics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale attributes daraxonrasib approval to JNJ, but articles do not specify the manufacturer. Article [4] mentions 'Revolution Medicines' received standing ovation for pancreatic cancer data. No evidence JNJ developed or approved daraxonrasib.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Medicare price negotiation setback affects entire pharma sector; MRK's oncology pipeline benefits from cancer approvals but faces pricing pressures.",
+            "key_themes": [
+              "regulatory headwinds",
+              "pricing pressure",
+              "oncology competition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Medicare price negotiation ruling creates industry-wide headwind; limited direct exposure to pancreatic cancer news.",
+            "key_themes": [
+              "pricing pressure",
+              "regulatory risk",
+              "portfolio diversification"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Faces same Medicare price negotiation pressures as peers; no specific positive catalysts in articles reviewed.",
+            "key_themes": [
+              "pricing pressure",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Pancreatic cancer approval inflection creates increased demand for diagnostic and research tools across oncology programs.",
+            "key_themes": [
+              "oncology tools demand",
+              "market expansion",
+              "supportive ecosystem"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates that pancreatic cancer approval will increase demand for diagnostic and research tools from Thermo Fisher, but no article discusses this connection or mentions Thermo Fisher. This is an inference not grounded in source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1187.3575439453125,
+          "JNJ": 266.8900146484375,
+          "MRK": 151.2238006591797,
+          "PFE": 28.100000381469727,
+          "ABBV": 258.2799987792969,
+          "TMO": 632.6799926757812
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI rout may increase advisory fees, but tariff uncertainty creates mixed economic outlook.",
+            "key_themes": [
+              "market volatility",
+              "tariff impact",
+              "investment banking"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims market volatility from AI rout may increase advisory fees, but sources only document the AI rout and tariff concerns without connecting these to JPMorgan Chase's specific business impacts or fee dynamics.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Broad market selloff pressures trading revenue; tariff-driven uncertainty may dampen loan growth near-term.",
+            "key_themes": [
+              "market volatility",
+              "economic uncertainty",
+              "trading conditions"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale references trading revenue pressure and loan growth dampening, but sources provide no evidence connecting the AI selloff or tariff uncertainty to Bank of America's trading conditions or lending environment.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "AI infrastructure rout may reduce M&A and equity capital markets activity; tariff concerns add headwinds.",
+            "key_themes": [
+              "capital markets slowdown",
+              "tech sector weakness",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims AI rout reduces M&A and capital markets activity, but sources document the selloff without establishing causation to Goldman Sachs' advisory fees or deal flow.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Tariff-driven consumer spending uncertainty and broad market selloff reduce transaction volumes and sentiment.",
+            "key_themes": [
+              "consumer spending",
+              "tariff impact",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Tariffs threaten consumer discretionary spending; retail sector stress from Trump tariff policies impacts transaction growth.",
+            "key_themes": [
+              "consumer spending",
+              "tariff headwinds",
+              "retail weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 354.94000244140625,
+          "BAC": 61.60499954223633,
+          "GS": 1039.4000244140625,
+          "V": 381.2149963378906,
+          "MA": 592.3350219726562
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      }
+    }
   }
 ]
