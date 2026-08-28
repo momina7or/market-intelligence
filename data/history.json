@@ -14564,5 +14564,246 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-08-28",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Apple TV+ price hikes to $14.99/month (4th increase in 4 years) demonstrate pricing power and growing services revenue diversification.",
+            "key_themes": [
+              "services monetization",
+              "subscription pricing power",
+              "hardware innovation (foldable iPhone)"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's dominance in AI-driven organic search recommendations threatens Google's traditional search monetization model and ad revenue.",
+            "key_themes": [
+              "AI search disruption",
+              "competitive pressure from OpenAI",
+              "organic traffic shifts"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Rationale mischaracterizes the threat: Article [1] shows ChatGPT recommending content, not replacing Google search. This is complementary traffic generation, not necessarily a threat to Google's search monetization model. The analyst's interpretation of competitive threat is inferential rather than directly supported by evidence of actual search disruption.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 319.54998779296875,
+          "GOOGL": 347.5299987792969
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Geothermal energy partnership signals diversification opportunity, but minimal direct impact on core oil services.",
+            "key_themes": [
+              "energy transition",
+              "geothermal development"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions 'Sage and Chiyoda' partnering on geothermal surface facilities, not Schlumberger Limited (SLB). The analyst incorrectly attributes this geothermal partnership to SLB when the source article does not mention SLB at all.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "SLB": 57.209999084472656
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "FDA approval of Mounjaro for heart attack/stroke risk reduction expands addressable market and competitive positioning versus Novo Nordisk.",
+            "key_themes": [
+              "label expansion",
+              "cardiovascular indication",
+              "diabetes market share",
+              "competitive differentiation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Gene-editing cholesterol treatment advancement signals strong pipeline potential in metabolic disease, area where Pfizer has significant exposure.",
+            "key_themes": [
+              "gene therapy innovation",
+              "cholesterol management",
+              "pipeline momentum",
+              "unmet medical need"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes gene-editing cholesterol treatment but does not identify the developer or confirm Pfizer involvement. The rationale attributes this pipeline advancement to Pfizer without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co., Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "FDA approval of pancreatic cancer drug with multiple similar agents in development across oncology portfolio supports growth in high-value cancer segment.",
+            "key_themes": [
+              "oncology pipeline",
+              "rare disease pricing",
+              "competitive advantage",
+              "clinical validation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses FDA approval of a pancreatic cancer drug and mentions dozens of similar drugs in development, but does not identify the drug developer or confirm Merck involvement. The rationale attributes this approval and pipeline to Merck without source support.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1163.530029296875,
+          "PFE": 27.864999771118164,
+          "MRK": 148.0749969482422
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Higher rate expectations from Fed's inflation commitment support net interest margin expansion for banks.",
+            "key_themes": [
+              "higher rates",
+              "NIM expansion",
+              "monetary policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Fed's commitment to combat inflation signals rising rate environment favorable for bank profitability.",
+            "key_themes": [
+              "higher rates",
+              "NIM expansion",
+              "monetary policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Higher rate trajectory from Fed inflation pledge improves investment banking and trading revenue environment.",
+            "key_themes": [
+              "higher rates",
+              "capital markets activity",
+              "monetary policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Fed's inflation commitment supports higher rates, benefiting wealth management and trading operations.",
+            "key_themes": [
+              "higher rates",
+              "capital markets",
+              "monetary policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from articles; broader market volatility from AI rout may create transient headwinds.",
+            "key_themes": [
+              "market volatility",
+              "payments volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from articles; broader market volatility from AI rout may create transient headwinds.",
+            "key_themes": [
+              "market volatility",
+              "payments volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 357.2699890136719,
+          "BAC": 62.439998626708984,
+          "GS": 1034.5799560546875,
+          "MS": 214.6999969482422,
+          "V": 382.30499267578125,
+          "MA": 595.7150268554688
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]

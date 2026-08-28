@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-08-27",
-  "run_time": "2026-08-27T18:05:08.745814Z",
+  "run_date": "2026-08-28",
+  "run_time": "2026-08-28T19:14:42.793532Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,44 +29,44 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Speedo\u2019s new smart goggles module can track all four swim strokes",
-          "summary": "Speedo is launching a removable smart module for its Vanquisher goggles that can analyze a swimmer's performance across all four swim strokes: freestyle, backstroke, breaststroke, and butterfly. The new Speedo iQ system uses swim-specific sensors to analyze head movement in the water, time breaths, and track distance per stroke. Unlike other smart goggles, such as [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/985650/speedo-iq-vanquisher-goggles-module",
+          "title": "The iPhone Fold could make concerts even worse",
+          "summary": "You know the person blocking your view of the concert because their phone is swaying in the air, recording the entire thing? Get ready for the unfolded version of it. This week on The Vergecast, we dive right into the big week of Apple news. First, it's the refreshed Mac Mini and Mac Studio, as [&#8230;]",
+          "url": "https://www.theverge.com/podcast/986145/m6-mac-mini-meta-settlement-gta-6-vergecast",
           "source": "Theverge",
-          "published": "27 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Jensen Huang says Nvidia achieved AGI, again \u2014 not that it matters",
-          "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-          "source": "Theverge",
-          "published": "27 Aug 2026",
+          "published": "28 Aug 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Sony finally has a cheaper OLED to compete with midrange Samsung and LG TVs",
-          "summary": "After unexpectedly showing up on a wall-mounting compatibility chart on Sony's site back in June, the company has announced the Sony Bravia 6 OLED TV. The TV sits below its other OLED TVs - the Bravia 8 and Bravia 8 II - as well as its Bravia 9 II and Bravia 7 II RGB LED [&#8230;]",
-          "url": "https://www.theverge.com/tech/985363/sony-releases-cheaper-bravia-6-oled-tv",
+          "title": "Apple TV now costs $14.99 a month after its fourth price hike in four years",
+          "summary": "Apple raised the price of its streaming service for new and current subscribers on Friday, bumping it up from $12.99 per month to $14.99, Deadline and Variety are reporting. An annual subscription now costs $119, up from $99. Apple also increased the cost of its individual Apple One subscription, which includes Apple TV and Apple's [&#8230;]",
+          "url": "https://www.theverge.com/tech/986130/apple-tv-plus-price-hike",
           "source": "Theverge",
-          "published": "27 Aug 2026",
+          "published": "28 Aug 2026",
           "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Apple TV\u2019s sci-fi thriller Dark Matter gets even trippier in season 2",
+          "summary": "Confusion is a generally accepted side effect of mystery box shows. They slather on secrets with the promise of a satisfying payoff in the end, and sometimes the cast and crew even have a hard time following what's going on. But even by the standards of the genre, Dark Matter is extreme. Its multiversal premise, [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv",
+          "source": "Theverge",
+          "published": "28 Aug 2026",
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "NVDA",
-            "company": "NVIDIA Corporation",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "CEO claims AGI achievement but dismisses it as 'senseless,' signaling inflated claims lack substance.",
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Apple TV+ price hikes to $14.99/month (4th increase in 4 years) demonstrate pricing power and growing services revenue diversification.",
             "key_themes": [
-              "AGI claims",
-              "earnings guidance",
-              "AI hype cycle"
+              "services monetization",
+              "subscription pricing power",
+              "hardware innovation (foldable iPhone)"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 5
@@ -75,56 +75,40 @@
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT organic recommendation demonstrates AI search integration threatening traditional SEO, creating opportunities for Google's AI search evolution.",
+            "conviction": 68,
+            "rationale": "ChatGPT's dominance in AI-driven organic search recommendations threatens Google's traditional search monetization model and ad revenue.",
             "key_themes": [
               "AI search disruption",
-              "content discovery",
-              "AI integration"
+              "competitive pressure from OpenAI",
+              "organic traffic shifts"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes ChatGPT recommending content, not Google. The rationale incorrectly attributes ChatGPT's behavior to Google and mischaracterizes the threat. ChatGPT recommendations actually bypass traditional search, potentially threatening Google's position rather than creating opportunities for Google's AI search evolution.",
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Articles highlight growing AI tool adoption for content creation, benefiting Microsoft's OpenAI partnership and enterprise AI solutions.",
-            "key_themes": [
-              "AI tool proliferation",
-              "content creation AI",
-              "enterprise adoption"
-            ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
+            "verification_issue": "Rationale mischaracterizes the threat: Article [1] shows ChatGPT recommending content, not replacing Google search. This is complementary traffic generation, not necessarily a threat to Google's search monetization model. The analyst's interpretation of competitive threat is inferential rather than directly supported by evidence of actual search disruption.",
+            "supporting_article": 1
           }
         ],
-        "summary": "The technology sector shows mixed signals with AI enthusiasm tempered by inflated claims. ChatGPT's organic search integration and expanding AI content tools (Articles 1-2) drive demand for AI infrastructure and cloud services, benefiting GOOGL and MSFT. However, NVDA's AGI claims ring hollow (Article 5), suggesting the AI hype cycle may be overextending. Hardware and consumer tech absent from news flow.",
+        "summary": "The technology sector shows mixed signals with Apple demonstrating strong services monetization capabilities through subscription price increases, while Google faces emerging competitive threats from AI-powered search alternatives like ChatGPT that could disrupt traditional search-based advertising models. Content creation and AI tools are rapidly evolving, with major implications for how users discover and consume information.",
         "risks": [
-          "AI hype cycle deflation\u2014exaggerated AGI claims may trigger sector sentiment reversal",
-          "Search disruption uncertainty\u2014ChatGPT organic integration trajectory could disrupt traditional search monetization",
-          "Valuation compression\u2014high AI-sector multiples vulnerable to narrative disappointment"
+          "AI-driven search disruption could significantly reduce traditional search engine ad revenue",
+          "Subscriber backlash to repeated streaming price increases may impact retention rates",
+          "Regulatory scrutiny on AI content recommendations and fair ranking practices",
+          "Foldable device adoption uncertainty and manufacturing complexity"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "GOOGL signal confuses ChatGPT (OpenAI/Microsoft product) with Google search",
-            "GOOGL rationale misinterprets threat direction - AI recommendations from ChatGPT threaten Google's search dominance rather than create opportunities for Google",
-            "GOOGL conviction level (72) appears unwarranted given the flawed logic in the rationale"
+            "GOOGL signal overstates threat level: Article [1] describes ChatGPT as a source of organic traffic for creators, not evidence that it is disrupting Google's core search business or threatening ad revenue",
+            "AAPL signal includes 'hardware innovation (foldable iPhone)' as key theme, but article [4] is only speculative about iPhone Fold and does not confirm it as an announced product or innovation",
+            "AAPL conviction (72) appears reasonable given concrete pricing data, but GOOGL conviction (68) is high given the inferential nature of the competitive threat claim"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "NVDA": 227.86500549316406,
-        "GOOGL": 341.1000061035156,
-        "MSFT": 503.06500244140625
+        "AAPL": 319.54998779296875,
+        "GOOGL": 347.5299987792969
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -134,27 +118,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT organic recommendation demonstrates AI search integration threatening traditional SEO, creating opportunities for Google's AI search evolution.",
+          "rationale": "Apple TV+ price hikes to $14.99/month (4th increase in 4 years) demonstrate pricing power and growing services revenue diversification.",
           "key_themes": [
-            "AI search disruption",
-            "content discovery",
-            "AI integration"
+            "services monetization",
+            "subscription pricing power",
+            "hardware innovation (foldable iPhone)"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] describes ChatGPT recommending content, not Google. The rationale incorrectly attributes ChatGPT's behavior to Google and mischaracterizes the threat. ChatGPT recommendations actually bypass traditional search, potentially threatening Google's position rather than creating opportunities for Google's AI search evolution.",
-          "supporting_article": 1
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT organic recommendation demonstrates AI search integration threatening traditional SEO, creating opportunities for Google's AI search evolution.",
+        "haiku_rationale": "Apple TV+ price hikes to $14.99/month (4th increase in 4 years) demonstrate pricing power and growing services revenue diversification.",
         "haiku_themes": [
-          "AI search disruption",
-          "content discovery",
-          "AI integration"
+          "services monetization",
+          "subscription pricing power",
+          "hardware innovation (foldable iPhone)"
         ]
       },
       "config": {
@@ -174,28 +158,28 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Central Asia Resists US Pressure to Choose Sides in AI Race",
-          "summary": "Kazakhstan and Uzbekistan are tossing figurative darts at a US trial balloon connected to the intensifying race between the United States and China for leadership in AI development.\u00a0 Reuters reported on August 14 that the US State Department had\u00a0drafted\u00a0a\u00a0note\u00a0stating that any nation interested in widening access to advanced American know-how and technology in the AI sector under a program known as\u00a0Pax\u00a0Silica\u00a0must refrain from participating in a rival Chinese initiative known as the\u00a0World\u00a0Artifi",
-          "url": "https://oilprice.com/Energy/Energy-General/Central-Asia-Resists-US-Pressure-to-Choose-Sides-in-AI-Race.html",
+          "title": "The AI Boom Could Triple Data Center Water Use by 2030",
+          "summary": "The massive data center capacity scale-up underway has focused attention on the scale of water required for these facilities to operate. Rystad Energy estimates that without water-saving measures in place, global water consumption by data centers could rise to 644 billion liters per year by 2030. However, active mitigation could reduce demand to 388 billion liters, representing worst- and best-case scenarios as data center capacity ramps up, driven largely by the growing adoption of artificial i",
+          "url": "https://oilprice.com/Energy/Energy-General/The-AI-Boom-Could-Triple-Data-Center-Water-Use-by-2030.html",
           "source": "Oilprice",
-          "published": "27 Aug 2026",
+          "published": "28 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Energean in Exclusive Talks for $1 Billion BP Egypt Gas Deal",
-          "summary": "Energean is in exclusive talks to buy a package of BP\u2019s Egyptian oil and gas assets in a deal that could raise about $1 billion for the British energy major, Reuters reported Thursday exclusively, citing two people involved in the negotiations. The proposed deal includes BP\u2019s interests in the producing West Nile Delta gas assets, which it owns with Harbour Energy, as well as its 50% contractor working interest in the Temsah concession in the eastern Mediterranean. BP and Energean declined to com",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Energean-in-Exclusive-Talks-for-1-Billion-BP-Egypt-Gas-Deal.html",
+          "title": "Venezuela Helped Build OPEC. Now It May Help Break It Apart",
+          "summary": "Venezuela helped create OPEC. More than six decades later, it is considering walking away, and Washington appears perfectly happy to hold open the door. Caracas is weighing whether to leave the Organization of the Petroleum Exporting Countries, Bloomberg reported Friday, citing people familiar with discussions that have included U.S. officials. No final decision has been made. Venezuela produced about 1.117 million barrels per day (bpd) in July according to OPEC\u2019s secondary sources, and is curre",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Helped-Build-OPEC-Now-It-May-Help-Break-It-Apart.html",
           "source": "Oilprice",
-          "published": "27 Aug 2026",
-          "sentiment_hint": "bearish"
+          "published": "28 Aug 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Venezuela\u2019s Oil Revival Gains Momentum",
-          "summary": "The United States\u2019 plans to revitalize Venezuela\u2019s oil sector are moving at a snail\u2019s pace. But it seems that plans are finally falling into place, with two different U.S. companies \u2013 SLB and Hunt Oil \u2013 announcing deals with the Venezuelan state oil company PDVSA last week. Reports indicate that deal announcements will continue to accelerate in the coming weeks as international oil companies eagerly seek to get a piece of the planet\u2019s largest proven oil reserves.\u00a0 \u201cOilfield service provider SLB ",
-          "url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Gains-Momentum.html",
+          "title": "Russia\u2019s Energy Crisis Puts Kazakhstan in a Tough Spot",
+          "summary": "Kazakhstan is trying to keep the Kremlin at arm\u2019s length amid Russian efforts to lean on Central Asian states for help in bolstering Moscow\u2019s staggering war economy. Ukraine\u2019s ongoing drone campaign has inflicted severe damage on Russia\u2019s energy infrastructure and its military-industrial complex, prompting Russian officials to seek\u00a0emergency\u00a0energy\u00a0supplies\u00a0and\u00a0refining\u00a0arrangements\u00a0from Central Asian states, while\u00a0exploring\u00a0offshoring\u00a0options\u00a0for arms production.\u00a0\u2026",
+          "url": "https://oilprice.com/Energy/Energy-General/Russias-Energy-Crisis-Puts-Kazakhstan-in-a-Tough-Spot.html",
           "source": "Oilprice",
-          "published": "27 Aug 2026",
-          "sentiment_hint": "bullish"
+          "published": "28 Aug 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Sage, Chiyoda partner to study geothermal surface facilities",
@@ -225,84 +209,68 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Divesting non-core Egyptian assets to Energean for ~$1B strengthens balance sheet and focuses portfolio.",
-            "key_themes": [
-              "asset monetization",
-              "portfolio optimization",
-              "capital allocation"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
             "ticker": "SLB",
             "company": "Schlumberger Limited",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Securing deal with PDVSA positions SLB to capture significant revenue from Venezuela's oil sector revival.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Geothermal energy partnership signals diversification opportunity, but minimal direct impact on core oil services.",
             "key_themes": [
-              "Venezuela opportunity",
-              "oilfield services demand",
-              "market expansion"
+              "energy transition",
+              "geothermal development"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions 'Sage and Chiyoda' partnering on geothermal surface facilities, not Schlumberger Limited (SLB). The analyst incorrectly attributes this geothermal partnership to SLB when the source article does not mention SLB at all.",
+            "supporting_article": null
           }
         ],
-        "summary": "The petroleum sector shows mixed but constructive signals. BP's asset divestiture in Egypt demonstrates prudent capital management, while SLB's Venezuela deal signals early monetization of geopolitical shifts enabling oil sector revival. However, most majors (XOM, CVX, SHEL, TTE, COP) lack direct exposure to these specific opportunities, limiting broad sector-wide catalysts.",
+        "summary": "The articles reveal structural headwinds for traditional oil majors amid geopolitical disruption and energy transition momentum. Venezuela's potential OPEC exit and Russia's energy crisis create supply volatility, while renewable energy development (geothermal, wind) and peaking power acquisition underscore the sector's ongoing shift away from legacy fossil fuels. Data center water demand presents neither immediate tailwind for oil majors nor clear alternative energy opportunity.",
         "risks": [
-          "Venezuela geopolitical risk and sanctions uncertainty could derail SLB execution",
-          "Global energy transition pressure continues to weigh on traditional oil & gas valuations",
-          "Asset sale proceeds may mask underlying reserve replacement challenges at BP"
+          "OPEC fragmentation reducing production coordination and potentially destabilizing crude markets",
+          "Accelerated energy transition reducing long-term demand for traditional fossil fuel infrastructure",
+          "Geopolitical instability (Russia-Ukraine) creating unpredictable supply shocks and policy interventions",
+          "Limited visibility on Venezuela OPEC exit timing and magnitude of production impacts"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "low",
+          "flags": [
+            "Hallucinated connection: Analyst claims SLB has a geothermal partnership, but source article [4] credits Sage and Chiyoda, not Schlumberger",
+            "Unsupported ticker assignment: No evidence in source materials that SLB is involved in the geothermal project discussed"
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "BP": 42.564998626708984,
-        "SLB": 55.61000061035156
+        "SLB": 57.209999084472656
       },
       "spot_check": {
-        "title": "Venezuela\u2019s Oil Revival Gains Momentum",
-        "summary": "The United States\u2019 plans to revitalize Venezuela\u2019s oil sector are moving at a snail\u2019s pace. But it seems that plans are finally falling into place, with two different U.S. companies \u2013 SLB and Hunt Oil \u2013 announcing deals with the Venezuelan state oil company PDVSA last week. Reports indicate that deal announcements will continue to accelerate in the coming weeks as international oil companies eagerly seek to get a piece of the planet\u2019s largest proven oil reserves.\u00a0 \u201cOilfield service provider SLB ",
-        "url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Gains-Momentum.html",
+        "title": "The AI Boom Could Triple Data Center Water Use by 2030",
+        "summary": "The massive data center capacity scale-up underway has focused attention on the scale of water required for these facilities to operate. Rystad Energy estimates that without water-saving measures in place, global water consumption by data centers could rise to 644 billion liters per year by 2030. However, active mitigation could reduce demand to 388 billion liters, representing worst- and best-case scenarios as data center capacity ramps up, driven largely by the growing adoption of artificial i",
+        "url": "https://oilprice.com/Energy/Energy-General/The-AI-Boom-Could-Triple-Data-Center-Water-Use-by-2030.html",
         "source": "Oilprice",
-        "published": "27 Aug 2026",
-        "sentiment_hint": "bullish",
+        "published": "28 Aug 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "SLB",
           "company": "Schlumberger Limited",
-          "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "Securing deal with PDVSA positions SLB to capture significant revenue from Venezuela's oil sector revival.",
+          "sentiment": "neutral",
+          "conviction": 45,
+          "rationale": "Geothermal energy partnership signals diversification opportunity, but minimal direct impact on core oil services.",
           "key_themes": [
-            "Venezuela opportunity",
-            "oilfield services demand",
-            "market expansion"
+            "energy transition",
+            "geothermal development"
           ],
-          "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 3
+          "time_horizon": "long-term",
+          "verified": false,
+          "verification_issue": "Article [4] mentions 'Sage and Chiyoda' partnering on geothermal surface facilities, not Schlumberger Limited (SLB). The analyst incorrectly attributes this geothermal partnership to SLB when the source article does not mention SLB at all.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Securing deal with PDVSA positions SLB to capture significant revenue from Venezuela's oil sector revival.",
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "Geothermal energy partnership signals diversification opportunity, but minimal direct impact on core oil services.",
         "haiku_themes": [
-          "Venezuela opportunity",
-          "oilfield services demand",
-          "market expansion"
+          "energy transition",
+          "geothermal development"
         ]
       },
       "config": {
@@ -322,6 +290,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "An Experimental Single-Time Treatment Slashed Cholesterol for a Year",
+          "summary": "A small gene-editing study significantly reduced LDL cholesterol levels, and the results have stuck a year later.",
+          "url": "https://www.nytimes.com/2026/08/28/science/an-experimental-single-time-treatment-slashed-cholesterol-for-a-year.html",
+          "source": "Rss",
+          "published": "28 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "New Drug Approved by F.D.A. for Pancreatic Cancer Could Be First of Many",
           "summary": "Companies are testing dozens of similar drugs in cancers of the pancreas, lung, colon and more.",
           "url": "https://www.nytimes.com/2026/08/27/science/pancreatic-cancer-drug-fda-testing.html",
@@ -330,44 +306,36 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Americans Encounter Risks at Psychedelic Clinics Abroad",
-          "summary": "Participants, often in vulnerable states, have little recourse if mistreated or injured.",
-          "url": "https://www.nytimes.com/2026/08/26/health/psychedelic-treaments-ibogaine-mexico.html",
-          "source": "Rss",
-          "published": "26 Aug 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "F.D.A. Approves the Drug Daraxonrasib That\u2019s Poised to Transform Pancreatic Cancer",
-          "summary": "In a key clinical trial, patients who got the pill, daraxonrasib, lived twice as long as those who got chemotherapy.",
-          "url": "https://www.nytimes.com/2026/08/26/science/pancreatic-cancer-daraxonrasib-approval.html",
+          "title": "Malaria, Likely Spread by Mosquito on Plane, Kills 2 Airport Workers in Germany",
+          "summary": "Six employees at Frankfurt Airport were infected this summer, according to German health officials and the airport\u2019s operator. Four recovered.",
+          "url": "https://www.nytimes.com/2026/08/27/world/europe/malaria-deaths-frankfurt-airport.html",
           "source": "Rss",
           "published": "27 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/revmed-preps-historic-pancreatic-cancer-launch-questions-linger-ground\" hreflang=\"en\">As RevMed preps for \u2018historic\u2019 pancreatic cancer launch, questions linger on the ground</a>",
-          "summary": "Ajaz Khan, M.D., a medical oncologist at City of Hope Chicago, was in the packed audience at this summer\u2019s American Society of Clinical Oncology meeting when Revolution Medicines received a standing ovation for its groundbreaking pancreatic cancer data.",
-          "url": "https://www.fiercepharma.com/pharma/revmed-preps-historic-pancreatic-cancer-launch-questions-linger-ground",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/lilly-scores-fda-expansion-mounjaro-reduce-risk-heart-attack-stroke\" hreflang=\"en\">Lilly scores Novo-pressuring Mounjaro expansion to curb heart risks in diabetes patients</a>",
+          "summary": "In their high-profile competition in the diabetes and obesity markets, Eli Lilly has proven adept at playing catch-up with Novo Nordisk. On Friday, Lilly checked another item off that list as it secured FDA approval for Mounjaro to reduce the risk of heart attack or stroke in at-risk adults with type 2 diabetes.",
+          "url": "https://www.fiercepharma.com/pharma/lilly-scores-fda-expansion-mounjaro-reduce-risk-heart-attack-stroke",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/mrbeast-snapchat-ai-and-more-pharma-marketings-pulse-check\" hreflang=\"en\">MrBeast, Snapchat, AI and more: Pharma marketing\u2019s pulse check</a>",
+          "summary": "In this week\u2019s episode of \u201cThe Top Line,\u201d Fierce\u2019s Ben Adams and Zoey Becker discuss how pharma marketing is evolving across social media, creative work and agency strategy.",
+          "url": "https://www.fiercepharma.com/marketing/mrbeast-snapchat-ai-and-more-pharma-marketings-pulse-check",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/phrmas-medicare-price-negotiation-suit-rebuffed-latest-blow-industry-ira-challenge\" hreflang=\"en\">PhRMA's Medicare price negotiation suit rebuffed in latest blow to industry IRA challenge</a>",
-          "summary": "In the latest in a string of setbacks in biopharma\u2019s efforts to fight Medicare drug price negotiations, a lawsuit from the industry\u2019s top lobbying group has been rejected at the appeals level.",
-          "url": "https://www.fiercepharma.com/pharma/phrmas-medicare-price-negotiation-suit-rebuffed-latest-blow-industry-ira-challenge",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/biogen-enlists-lupus-patient-advocate-share-social-media-story-resilience\" hreflang=\"en\">Biogen enlists lupus patient advocate to share social media story of resilience </a>",
+          "summary": "Biogen highlighted patient advocate and content creator Naomi Rose\u2019s story living with cutaneous lupus erythematosus (CLE) on its social media platforms.",
+          "url": "https://www.fiercepharma.com/marketing/biogen-enlists-lupus-patient-advocate-share-social-media-story-resilience",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/amgen-az-tezspire-phase-3-eosinophilic-esophagitis-turning-heat-dupixent\" hreflang=\"en\">Amgen, AZ\u2019s Tezspire lands phase 3 eosinophilic esophagitis win, turning up heat on Dupixent</a>",
-          "summary": "Amgen and AstraZeneca\u2019s inflammatory disease drug Tezspire has clinched a phase 3 win in eosinophilic esophagitis as the partners eye another challenge to Sanofi and Regeneron\u2019s incumbent Dupixent.",
-          "url": "https://www.fiercepharma.com/pharma/amgen-az-tezspire-phase-3-eosinophilic-esophagitis-turning-heat-dupixent",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
@@ -376,152 +344,108 @@
             "ticker": "LLY",
             "company": "Eli Lilly and Company",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Pancreatic cancer drug approval validates pipeline; LLY testing similar oncology candidates across multiple cancer types.",
+            "conviction": 82,
+            "rationale": "FDA approval of Mounjaro for heart attack/stroke risk reduction expands addressable market and competitive positioning versus Novo Nordisk.",
             "key_themes": [
-              "oncology expansion",
-              "pipeline validation",
-              "large market opportunity"
+              "label expansion",
+              "cardiovascular indication",
+              "diabetes market share",
+              "competitive differentiation"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Articles mention a pancreatic cancer drug approval and that 'companies are testing dozens of similar drugs' but do not identify Eli Lilly as the approving company or as testing these drugs. No evidence Lilly is involved in the daraxonrasib approval or pipeline mentioned.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Daraxonrasib approval demonstrates transformative pancreatic cancer treatment; JNJ positioned in competitive oncology space.",
-            "key_themes": [
-              "oncology advancement",
-              "therapeutic innovation",
-              "competitive dynamics"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale attributes daraxonrasib approval to JNJ, but articles do not specify the manufacturer. Article [4] mentions 'Revolution Medicines' received standing ovation for pancreatic cancer data. No evidence JNJ developed or approved daraxonrasib.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Medicare price negotiation setback affects entire pharma sector; MRK's oncology pipeline benefits from cancer approvals but faces pricing pressures.",
-            "key_themes": [
-              "regulatory headwinds",
-              "pricing pressure",
-              "oncology competition"
-            ],
-            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 5
+            "supporting_article": 4
           },
           {
             "ticker": "PFE",
             "company": "Pfizer Inc.",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Medicare price negotiation ruling creates industry-wide headwind; limited direct exposure to pancreatic cancer news.",
-            "key_themes": [
-              "pricing pressure",
-              "regulatory risk",
-              "portfolio diversification"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
-          },
-          {
-            "ticker": "ABBV",
-            "company": "AbbVie Inc.",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Faces same Medicare price negotiation pressures as peers; no specific positive catalysts in articles reviewed.",
-            "key_themes": [
-              "pricing pressure",
-              "regulatory uncertainty"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
             "sentiment": "bullish",
             "conviction": 65,
-            "rationale": "Pancreatic cancer approval inflection creates increased demand for diagnostic and research tools across oncology programs.",
+            "rationale": "Gene-editing cholesterol treatment advancement signals strong pipeline potential in metabolic disease, area where Pfizer has significant exposure.",
             "key_themes": [
-              "oncology tools demand",
-              "market expansion",
-              "supportive ecosystem"
+              "gene therapy innovation",
+              "cholesterol management",
+              "pipeline momentum",
+              "unmet medical need"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes gene-editing cholesterol treatment but does not identify the developer or confirm Pfizer involvement. The rationale attributes this pipeline advancement to Pfizer without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co., Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "FDA approval of pancreatic cancer drug with multiple similar agents in development across oncology portfolio supports growth in high-value cancer segment.",
+            "key_themes": [
+              "oncology pipeline",
+              "rare disease pricing",
+              "competitive advantage",
+              "clinical validation"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale speculates that pancreatic cancer approval will increase demand for diagnostic and research tools from Thermo Fisher, but no article discusses this connection or mentions Thermo Fisher. This is an inference not grounded in source material.",
+            "verification_issue": "Article [2] discusses FDA approval of a pancreatic cancer drug and mentions dozens of similar drugs in development, but does not identify the drug developer or confirm Merck involvement. The rationale attributes this approval and pipeline to Merck without source support.",
             "supporting_article": null
           }
         ],
-        "summary": "Healthcare sector shows mixed signals with significant oncology tailwinds offsetting regulatory headwinds. FDA-approved pancreatic cancer breakthroughs (daraxonrasib, multiple pipeline candidates) create positive momentum for large pharma and biotech players, particularly those with robust oncology portfolios. However, Medicare price negotiation legal setbacks represent a structural challenge for the entire pharmaceutical industry going forward.",
+        "summary": "Healthcare sector showing strong innovation momentum with notable label expansions and pipeline advances. Eli Lilly's Mounjaro cardiovascular approval strengthens its diabetes/obesity franchise against Novo Nordisk, while emerging gene-editing and pancreatic cancer therapies signal broad-based R&D productivity. Infectious disease risks remain peripheral but warrant monitoring.",
         "risks": [
-          "Medicare price negotiation ruling may accelerate drug pricing pressure across industry",
-          "Pancreatic cancer market may fragment with multiple competing therapies, limiting peak sales",
-          "Regulatory/reimbursement challenges for breakthrough therapies not fully reflected in early approvals"
+          "regulatory approval delays for pipeline candidates",
+          "pricing pressure from competitive dynamics in diabetes/obesity markets",
+          "gene therapy manufacturing and scalability challenges",
+          "emerging infectious disease outbreaks creating demand volatility"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "LLY signal appears to hallucinate Eli Lilly's involvement in pancreatic cancer drug approval/testing without source support",
-            "JNJ signal misattributes daraxonrasib to Johnson & Johnson; Revolution Medicines is identified as the actual company in article [4]",
-            "TMO signal makes unsupported inference about diagnostic tool demand without any source material connecting Thermo Fisher to the oncology expansion"
+            "Analyst attributed gene-editing cholesterol treatment (Article 1) to Pfizer without confirmation of developer identity in sources",
+            "Analyst attributed pancreatic cancer drug approval (Article 2) to Merck without confirmation of developer identity in sources",
+            "Two of three signals contain unsupported company-specific claims despite relevant clinical news being present in source material"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "LLY": 1187.3575439453125,
-        "JNJ": 266.8900146484375,
-        "MRK": 151.2238006591797,
-        "PFE": 28.100000381469727,
-        "ABBV": 258.2799987792969,
-        "TMO": 632.6799926757812
+        "LLY": 1163.530029296875,
+        "PFE": 27.864999771118164,
+        "MRK": 148.0749969482422
       },
       "spot_check": {
-        "title": "New Drug Approved by F.D.A. for Pancreatic Cancer Could Be First of Many",
-        "summary": "Companies are testing dozens of similar drugs in cancers of the pancreas, lung, colon and more.",
-        "url": "https://www.nytimes.com/2026/08/27/science/pancreatic-cancer-drug-fda-testing.html",
-        "source": "Rss",
-        "published": "27 Aug 2026",
-        "sentiment_hint": "neutral",
+        "title": "<a href=\"https://www.fiercepharma.com/pharma/lilly-scores-fda-expansion-mounjaro-reduce-risk-heart-attack-stroke\" hreflang=\"en\">Lilly scores Novo-pressuring Mounjaro expansion to curb heart risks in diabetes patients</a>",
+        "summary": "In their high-profile competition in the diabetes and obesity markets, Eli Lilly has proven adept at playing catch-up with Novo Nordisk. On Friday, Lilly checked another item off that list as it secured FDA approval for Mounjaro to reduce the risk of heart attack or stroke in at-risk adults with type 2 diabetes.",
+        "url": "https://www.fiercepharma.com/pharma/lilly-scores-fda-expansion-mounjaro-reduce-risk-heart-attack-stroke",
+        "source": "Fiercepharma",
+        "published": "",
+        "sentiment_hint": "bearish",
         "related_signal": {
           "ticker": "LLY",
           "company": "Eli Lilly and Company",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Pancreatic cancer drug approval validates pipeline; LLY testing similar oncology candidates across multiple cancer types.",
+          "conviction": 82,
+          "rationale": "FDA approval of Mounjaro for heart attack/stroke risk reduction expands addressable market and competitive positioning versus Novo Nordisk.",
           "key_themes": [
-            "oncology expansion",
-            "pipeline validation",
-            "large market opportunity"
+            "label expansion",
+            "cardiovascular indication",
+            "diabetes market share",
+            "competitive differentiation"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Articles mention a pancreatic cancer drug approval and that 'companies are testing dozens of similar drugs' but do not identify Eli Lilly as the approving company or as testing these drugs. No evidence Lilly is involved in the daraxonrasib approval or pipeline mentioned.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Pancreatic cancer drug approval validates pipeline; LLY testing similar oncology candidates across multiple cancer types.",
+        "haiku_rationale": "FDA approval of Mounjaro for heart attack/stroke risk reduction expands addressable market and competitive positioning versus Novo Nordisk.",
         "haiku_themes": [
-          "oncology expansion",
-          "pipeline validation",
-          "large market opportunity"
+          "label expansion",
+          "cardiovascular indication",
+          "diabetes market share",
+          "competitive differentiation"
         ]
       },
       "config": {
@@ -541,27 +465,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "How SSENSE, a Canadian Retailer, Is Grappling With Trump\u2019s Tariffs",
-          "summary": "Ssense\u2019s comeback efforts include moving a core part of its business to the United States so American customers can avoid hefty tariffs.",
-          "url": "https://www.nytimes.com/2026/08/27/business/ssense-canada-tariffs-trump.html",
+          "title": "Oil Giant Chevron Is Said to Be in Talks to Expand in Venezuela",
+          "summary": "Chevron, the second largest U.S. oil company, is building on its wager to remain in Venezuela, where it already accounts for about a quarter of the country\u2019s oil production.",
+          "url": "https://www.nytimes.com/2026/08/28/business/energy-environment/chevron-venezuela-oil-deal.html",
           "source": "Rss",
-          "published": "27 Aug 2026",
+          "published": "28 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "\u201cAnxious Generation\u201d Author Jonathan Haidt on the Meta Settlement",
-          "summary": "In \u201cThe Anxious Generation,\u201d he laid out the evils of social media for kids. The landmark Meta settlement seems to agree.",
-          "url": "https://www.nytimes.com/2026/08/27/style/meta-jonathan-haidt-anxious-generation.html",
+          "title": "Trump Updates $15 Billion Libel Lawsuit Against The New York Times",
+          "summary": "The president has argued that the news organization sought to undermine his 2024 presidential campaign by disparaging his reputation as a businessman. The Times has moved to dismiss the lawsuit.",
+          "url": "https://www.nytimes.com/2026/08/28/business/media/trump-new-york-times-lawsuit.html",
           "source": "Rss",
-          "published": "27 Aug 2026",
-          "sentiment_hint": "neutral"
+          "published": "28 Aug 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "California Lawmakers Pass Plug-In Solar Bill",
-          "summary": "Legislatures in nearly a dozen states have voted to legalize use of the technology, which can help homeowners reduce their rising electricity costs.",
-          "url": "https://www.nytimes.com/2026/08/27/business/energy-environment/california-legislature-plugin-solar.html",
+          "title": "Investors Expect Higher Rates After Fed Chairman\u2019s Inflation Pledge",
+          "summary": "Kevin Warsh reiterated the Federal Reserve\u2019s commitment to tackle rising prices, nudging up investor expectations of a rate increase.",
+          "url": "https://www.nytimes.com/2026/08/28/business/markets-stocks-bonds-warsh-jackson-hole.html",
           "source": "Rss",
-          "published": "27 Aug 2026",
+          "published": "28 Aug 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -594,148 +518,148 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Market volatility from AI rout may increase advisory fees, but tariff uncertainty creates mixed economic outlook.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Higher rate expectations from Fed's inflation commitment support net interest margin expansion for banks.",
             "key_themes": [
-              "market volatility",
-              "tariff impact",
-              "investment banking"
+              "higher rates",
+              "NIM expansion",
+              "monetary policy"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims market volatility from AI rout may increase advisory fees, but sources only document the AI rout and tariff concerns without connecting these to JPMorgan Chase's specific business impacts or fee dynamics.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "BAC",
             "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Broad market selloff pressures trading revenue; tariff-driven uncertainty may dampen loan growth near-term.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Fed's commitment to combat inflation signals rising rate environment favorable for bank profitability.",
             "key_themes": [
-              "market volatility",
-              "economic uncertainty",
-              "trading conditions"
+              "higher rates",
+              "NIM expansion",
+              "monetary policy"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale references trading revenue pressure and loan growth dampening, but sources provide no evidence connecting the AI selloff or tariff uncertainty to Bank of America's trading conditions or lending environment.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "AI infrastructure rout may reduce M&A and equity capital markets activity; tariff concerns add headwinds.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Higher rate trajectory from Fed inflation pledge improves investment banking and trading revenue environment.",
             "key_themes": [
-              "capital markets slowdown",
-              "tech sector weakness",
-              "advisory fees"
+              "higher rates",
+              "capital markets activity",
+              "monetary policy"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims AI rout reduces M&A and capital markets activity, but sources document the selloff without establishing causation to Goldman Sachs' advisory fees or deal flow.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Fed's inflation commitment supports higher rates, benefiting wealth management and trading operations.",
+            "key_themes": [
+              "higher rates",
+              "capital markets",
+              "monetary policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Tariff-driven consumer spending uncertainty and broad market selloff reduce transaction volumes and sentiment.",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from articles; broader market volatility from AI rout may create transient headwinds.",
             "key_themes": [
-              "consumer spending",
-              "tariff impact",
-              "market volatility"
+              "market volatility",
+              "payments volume risk"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              4
-            ]
+            "supporting_article": 4
           },
           {
             "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 60,
-            "rationale": "Tariffs threaten consumer discretionary spending; retail sector stress from Trump tariff policies impacts transaction growth.",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from articles; broader market volatility from AI rout may create transient headwinds.",
             "key_themes": [
-              "consumer spending",
-              "tariff headwinds",
-              "retail weakness"
+              "market volatility",
+              "payments volume risk"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              4
-            ]
+            "supporting_article": 4
           }
         ],
-        "summary": "Financial stocks face mixed pressures from concurrent AI market rout and tariff uncertainty weighing on economic outlook. Payment processors show more acute downside risk given direct exposure to consumer spending erosion from tariff-driven inflation. Banks remain defensively positioned but face near-term volatility from tech sector weakness and reduced capital markets activity.",
+        "summary": "Financial sector shows bullish signals driven by Fed Chair Warsh's inflation commitment raising expectations for higher rates, which expands net interest margins and improves investment banking conditions for major banks. Payment processors face near-term headwinds from broader AI-driven market volatility, though fundamentals remain intact. BRK-B omitted due to lack of direct relevance to these articles.",
         "risks": [
-          "tariff escalation deepens consumer spending contraction",
-          "AI sector repricing continues driving broader equities selloff",
-          "credit quality deterioration if tariffs trigger recession",
-          "payment volume declines exceed expectations"
+          "Rate hike cycle could be paused if economic data weakens or recession concerns emerge",
+          "Litigation uncertainty (Trump lawsuit) could create political/regulatory risks for financial institutions",
+          "Persistent market volatility and risk-off sentiment could pressure trading revenues and capital markets activity"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "JPM rationale makes speculative connections between AI volatility and advisory fees without source support",
-            "BAC rationale assumes trading revenue pressure and loan growth impacts without documented evidence from sources",
-            "GS rationale extrapolates from AI sector weakness to M&A activity reduction without causal evidence in sources",
-            "Visa and Mastercard signals are grounded in tariff concerns (Article 1) and market volatility (Article 4), but JPM, BAC, GS signals lack specific support"
-          ],
-          "ungrounded_count": 3
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JPM": 354.94000244140625,
-        "BAC": 61.60499954223633,
-        "GS": 1039.4000244140625,
-        "V": 381.2149963378906,
-        "MA": 592.3350219726562
+        "JPM": 357.2699890136719,
+        "BAC": 62.439998626708984,
+        "GS": 1034.5799560546875,
+        "MS": 214.6999969482422,
+        "V": 382.30499267578125,
+        "MA": 595.7150268554688
       },
       "spot_check": {
-        "title": "How SSENSE, a Canadian Retailer, Is Grappling With Trump\u2019s Tariffs",
-        "summary": "Ssense\u2019s comeback efforts include moving a core part of its business to the United States so American customers can avoid hefty tariffs.",
-        "url": "https://www.nytimes.com/2026/08/27/business/ssense-canada-tariffs-trump.html",
+        "title": "Oil Giant Chevron Is Said to Be in Talks to Expand in Venezuela",
+        "summary": "Chevron, the second largest U.S. oil company, is building on its wager to remain in Venezuela, where it already accounts for about a quarter of the country\u2019s oil production.",
+        "url": "https://www.nytimes.com/2026/08/28/business/energy-environment/chevron-venezuela-oil-deal.html",
         "source": "Rss",
-        "published": "27 Aug 2026",
+        "published": "28 Aug 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa",
-          "sentiment": "bearish",
-          "conviction": 62,
-          "rationale": "Tariff-driven consumer spending uncertainty and broad market selloff reduce transaction volumes and sentiment.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "Higher rate expectations from Fed's inflation commitment support net interest margin expansion for banks.",
           "key_themes": [
-            "consumer spending",
-            "tariff impact",
-            "market volatility"
+            "higher rates",
+            "NIM expansion",
+            "monetary policy"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            1,
-            4
-          ]
+          "supporting_article": 3
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Tariff-driven consumer spending uncertainty and broad market selloff reduce transaction volumes and sentiment.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Higher rate expectations from Fed's inflation commitment support net interest margin expansion for banks.",
         "haiku_themes": [
-          "consumer spending",
-          "tariff impact",
-          "market volatility"
+          "higher rates",
+          "NIM expansion",
+          "monetary policy"
         ]
       },
       "config": {
