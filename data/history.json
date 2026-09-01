@@ -15228,5 +15228,351 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-01",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search integration demonstrates AI-driven content discovery replacing traditional SEO, threatening Google's search monopoly but validating AI monetization.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic shifts",
+              "content discovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending a course to a user, but does not establish this as a systematic threat to Google's search monopoly or demonstrate 'organic search integration' replacing traditional SEO. The single anecdote does not support the conviction level of 72 or the claim about Google's search dominance being threatened.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 339.3500061035156
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strait of Hormuz disruption and Russian supply constraints support crude prices and upstream margins.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Middle East tensions and Russian export terminal damage reduce global supply, supporting crude prices.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Supply disruptions in Hormuz Strait and Russia support oil prices and upstream production economics.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Geopolitical supply disruptions and Russian port damage support Brent crude and upstream cash generation.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Middle East and Russia supply concerns support crude prices and downstream refining margins recovery.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 67,
+            "rationale": "Supply disruptions in key export regions support crude prices and integrated energy company margins.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "crude price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 160.9499969482422,
+          "CVX": 206.13999938964844,
+          "COP": 132.49000549316406,
+          "BP": 42.869998931884766,
+          "SHEL": 91.44999694824219,
+          "TTE": 88.30999755859375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Subject to MFN pricing pressure from White House round 2 drug pricing deals with midsized drugmakers.",
+            "key_themes": [
+              "regulatory pricing pressure",
+              "MFN pricing deals",
+              "margin compression risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [5] mentions MFN pricing deals with 9 midsized drugmakers, but does not specify that Eli Lilly is subject to these new round 2 negotiations. Eli Lilly was likely part of round 1 with the 17 top players, not round 2 with midsized companies.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Exposed to escalating drug pricing scrutiny; new $480K cancer drug precedent highlights regulatory and political backlash risks.",
+            "key_themes": [
+              "pricing regulation",
+              "cancer drug inflation",
+              "political scrutiny"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Large pharma likely subject to additional MFN pricing negotiations; weaker flu season outlook reduces seasonal revenue potential.",
+            "key_themes": [
+              "MFN pricing exposure",
+              "lower flu demand",
+              "revenue headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              5
+            ]
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diversified healthcare conglomerate with consumer health exposure; cyclospora outbreak could boost GI treatment demand but impact minimal.",
+            "key_themes": [
+              "diversified portfolio",
+              "indirect demand uplift"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1156.72998046875,
+          "MRK": 147.75999450683594,
+          "PFE": 28.459999084472656,
+          "JNJ": 265.8500061035156
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising bond yields and government borrowing costs expand net interest margins for large banks.",
+            "key_themes": [
+              "rising rates",
+              "NIM expansion",
+              "debt market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Multi-decade high government borrowing costs benefit net interest income and lending spreads.",
+            "key_themes": [
+              "rising rates",
+              "NIM expansion",
+              "credit environment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Global bond sell-off and elevated volatility increase trading and advisory opportunities for investment banks.",
+            "key_themes": [
+              "market volatility",
+              "trading revenues",
+              "geopolitical tensions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley Inc.",
+            "sentiment": "bullish",
+            "conviction": 67,
+            "rationale": "Bond market volatility and rising yields drive investment banking activity and trading revenue expansion.",
+            "key_themes": [
+              "market volatility",
+              "trading revenues",
+              "capital markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech sector weakness from AI concerns may pressure payment volumes; broader economic uncertainty limits near-term clarity.",
+            "key_themes": [
+              "tech sector volatility",
+              "macro uncertainty",
+              "trade tensions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech sector weakness from AI concerns may pressure payment volumes; broader economic uncertainty limits near-term clarity.",
+            "key_themes": [
+              "tech sector volatility",
+              "macro uncertainty",
+              "trade tensions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 356.0199890136719,
+          "BAC": 61.939998626708984,
+          "GS": 1025.9000244140625,
+          "MS": 213.32000732421875,
+          "V": 379.3699951171875,
+          "MA": 589.3099975585938
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
