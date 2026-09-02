@@ -15574,5 +15574,332 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-09-02",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT traffic displacement article signals AI search competition intensifying; Google must innovate search monetization.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI integration urgency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI monetization",
+              "content discovery shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 335.0199890136719,
+          "MSFT": 501.0199890136719
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Record diesel cracks and LNG pricing power from Middle East supply disruptions benefit downstream and trading operations.",
+            "key_themes": [
+              "diesel crack spreads",
+              "LNG premium pricing",
+              "refining margins",
+              "geopolitical supply constraints"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Elevated diesel cracks and crude pricing from Hormuz disruptions support integrated upstream-downstream cash generation.",
+            "key_themes": [
+              "diesel cracks at record highs",
+              "geopolitical supply tightness",
+              "refining margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Middle East supply crisis driving record diesel cracks and LNG premiums benefit integrated energy major's downstream and liquids segments.",
+            "key_themes": [
+              "diesel cracks",
+              "LNG supply constraints",
+              "refining margins",
+              "Hormuz disruptions"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
+            "key_themes": [
+              "LNG logistical disruption premium",
+              "diesel cracks",
+              "trading upside",
+              "supply squeeze"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Exposed to elevated LNG and diesel pricing but limited direct Middle East operations reduce concentrated impact versus peers.",
+            "key_themes": [
+              "LNG global pricing",
+              "diesel cracks",
+              "geographic diversification"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "BP": 44.470001220703125,
+          "CVX": 211.0500030517578,
+          "XOM": 164.5500030517578,
+          "SHEL": 93.51000213623047,
+          "TTE": 90.3499984741211
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
+            "key_themes": [
+              "oncology pricing",
+              "cancer drug market expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rabies exposure incident may drive diagnostic testing demand but impact is limited and temporary.",
+            "key_themes": [
+              "diagnostic testing demand",
+              "public health response"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Measles-related public health tensions could affect vaccine portfolio but regulatory clarity remains uncertain.",
+            "key_themes": [
+              "vaccine market",
+              "regulatory environment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1160.0,
+          "TMO": 600.5,
+          "MRK": 149.86000061035156
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Geopolitical tensions and inflation concerns create mixed headwinds; rising healthcare costs may pressure corporate clients.",
+            "key_themes": [
+              "geopolitical risk",
+              "inflation pressure",
+              "healthcare cost spikes"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Market volatility and risk-off sentiment pressure valuations; elevated healthcare costs increase operational expense pressure.",
+            "key_themes": [
+              "market volatility",
+              "risk-off sentiment",
+              "cost inflation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
+            "key_themes": [
+              "equity market weakness",
+              "geopolitical risk",
+              "dealmaking pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "M&A activity reduction implied but not explicitly stated in articles",
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Tech sector rout and market risk-off reduce wealth management and trading revenues; equities declining sharply.",
+            "key_themes": [
+              "tech sector decline",
+              "market volatility",
+              "risk appetite reduction"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Tech sector rout is clear, but connection to wealth management/trading revenue impact not explicitly supported",
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Market-wide sell-off and geopolitical tensions reduce consumer spending and payment transaction volumes near-term.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending pressure",
+              "risk-off sentiment"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "No source article discusses consumer spending or payment transaction volume impacts; market decline alone does not directly support payment processor weakness",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 57,
+            "rationale": "Broad equity decline and elevated uncertainty dampen consumer activity; healthcare cost spikes may reduce discretionary spending.",
+            "key_themes": [
+              "market weakness",
+              "consumer headwinds",
+              "healthcare cost pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "No source article discusses consumer spending or payment transaction volume impacts; healthcare cost spike connection to discretionary spending is speculative",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 354.95001220703125,
+          "BAC": 61.9900016784668,
+          "GS": 1002.5599975585938,
+          "MS": 211.0399932861328,
+          "V": 372.6700134277344,
+          "MA": 581.0999755859375
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

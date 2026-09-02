@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-01",
-  "run_time": "2026-09-01T12:20:48.760331Z",
+  "run_date": "2026-09-02",
+  "run_time": "2026-09-02T11:57:21.560919Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,28 +29,28 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "JBL takes on Sonos with new multi-room Cove speakers",
-          "summary": "JBL is well known for its portable bluetooth and party speakers, but now it's also stepping into the world of connected whole-home audio. The JBL Cove series of speakers introduced today can work independently, as a stereo pair, or linked together to form a multi-room sound system, placing the range in competition with Sonos and [&#8230;]",
-          "url": "https://www.theverge.com/tech/987322/jbl-cove-multi-room-speaker-series-price-availability",
+          "title": "The amazing USB-C gadgets that play old Nintendo cartridges",
+          "summary": "Last week, I powered on a 26-year-old copy of Pok&#233;mon Pinball, one of the best Game Boy games ever made. My save file was no more. The Charmander I'd caught for my daughter, the high scores we'd set together\u2026 gone. Before flash memory, Nintendo cartridges used tiny watch batteries to save their games, and those [&#8230;]",
+          "url": "https://www.theverge.com/games/987972/epilogue-gb-sn-operator-review-nintendo-game-boy-snes",
           "source": "Theverge",
-          "published": "01 Sep 2026",
+          "published": "02 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "IFA 2026: the biggest tech and gadget announcements",
-          "summary": "Every year over 200,000 people descend on Berlin for IFA, the largest tech trade show in Europe. Some of the world&#8217;s biggest manufacturers turn up to demo everything from appliances to smartphones to smart home gadgets, and this year should be no different. IFA itself runs from September 4th to 8th, but most of the [&#8230;]",
-          "url": "https://www.theverge.com/tech/986178/ifa-2026-the-biggest-tech-and-gadget-announcements",
+          "title": "The robot butler dream doesn\u2019t have legs",
+          "summary": "The idea of humanoid robots running our homes has been the stuff of science fiction for years. But unlike hoverboards and self-tying sneakers, a robot housekeeper has never felt close to rolling into our homes. Until now. This has been the year of the humanoid robot. At CES, there were dozens of human-shaped bots on [&#8230;]",
+          "url": "https://www.theverge.com/tech/987756/humanoid-robot-butlers-lg-cloid-smart-home-ifa",
           "source": "Theverge",
-          "published": "01 Sep 2026",
+          "published": "02 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Tim Cook\u2019s Apple: his 10 biggest wins and misses",
-          "summary": "Expectations for Tim Cook were almost impossibly high when he stepped in to replace Apple's visionary cofounder in 2011. He inherited a company on a blockbuster run, after Steve Jobs returned and revitalized the Mac, launched the iPod, and oversaw the launch of the iPhone. Now, after 15 years in the CEO role, Tim Cook [&#8230;]",
-          "url": "https://www.theverge.com/tech/987043/tim-cook-biggest-wins-misses",
+          "title": "Is this the future of America?",
+          "summary": "In 2007, the US was on the cusp of an economic recession, and Buddy Rizer was tasked with finding Loudoun County, Virginia, a new way to make money. Rizer\u2019s earlier career as a radio DJ didn\u2019t exactly make him an obvious candidate to find a solution, but he was looking for what he called a [&#8230;]",
+          "url": "https://www.theverge.com/cs/features/975597/loudoun-county-virginia-data-center-backlash",
           "source": "Theverge",
-          "published": "01 Sep 2026",
-          "sentiment_hint": "bearish"
+          "published": "02 Sep 2026",
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
@@ -60,38 +60,50 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's organic search integration demonstrates AI-driven content discovery replacing traditional SEO, threatening Google's search monopoly but validating AI monetization.",
+            "rationale": "ChatGPT traffic displacement article signals AI search competition intensifying; Google must innovate search monetization.",
             "key_themes": [
-              "AI search disruption",
-              "organic traffic shifts",
-              "content discovery"
+              "AI search competition",
+              "organic traffic disruption",
+              "AI integration urgency"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes ChatGPT recommending a course to a user, but does not establish this as a systematic threat to Google's search monopoly or demonstrate 'organic search integration' replacing traditional SEO. The single anecdote does not support the conviction level of 72 or the claim about Google's search dominance being threatened.",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI monetization",
+              "content discovery shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
             "supporting_article": 1
           }
         ],
-        "summary": "The articles reveal significant AI-driven disruption in content discovery and creation workflows. ChatGPT's integration as a search/recommendation layer poses medium-term competitive pressure on traditional search, while widespread adoption of AI content tools signals sustained demand for AI infrastructure. However, the limited direct mentions of major tech stocks and focus on tertiary applications constrain conviction levels.",
+        "summary": "The articles reveal a critical shift in how users discover content through AI systems like ChatGPT rather than traditional search, creating both opportunity and disruption. Microsoft's ChatGPT integration gains validation through organic user behavior changes, while Google faces pressure to defend search monetization. Limited direct hardware or chip-specific catalysts evident in provided articles.",
         "risks": [
-          "Regulatory scrutiny on AI content monetization and copyright issues",
-          "Unclear monetization paths for AI-generated content platforms affecting long-term valuations",
-          "Market saturation in AI content creation tools reducing differentiation"
+          "Articles lack quantitative data on actual traffic displacement scale or market impact",
+          "Content creation AI tools remain highly commoditized with low switching costs",
+          "Unclear regulatory environment for AI-driven content recommendation could impact monetization models"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "Analyst extrapolates a single ChatGPT recommendation anecdote into a systemic 'search disruption' narrative without evidence",
-            "No source article discusses AI-driven content discovery replacing SEO at scale",
-            "The bullish case for GOOGL based on this rationale conflates a minor user experience observation with fundamental business threat",
-            "Conviction level of 72 is not proportionate to the limited evidence in source material"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "GOOGL": 339.3500061035156
+        "GOOGL": 335.0199890136719,
+        "MSFT": 501.0199890136719
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -101,27 +113,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "ChatGPT's organic search integration demonstrates AI-driven content discovery replacing traditional SEO, threatening Google's search monopoly but validating AI monetization.",
+          "conviction": 75,
+          "rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
           "key_themes": [
-            "AI search disruption",
-            "organic traffic shifts",
-            "content discovery"
+            "ChatGPT adoption",
+            "AI monetization",
+            "content discovery shift"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] describes ChatGPT recommending a course to a user, but does not establish this as a systematic threat to Google's search monopoly or demonstrate 'organic search integration' replacing traditional SEO. The single anecdote does not support the conviction level of 72 or the claim about Google's search dominance being threatened.",
+          "verified": true,
+          "verification_issue": null,
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's organic search integration demonstrates AI-driven content discovery replacing traditional SEO, threatening Google's search monopoly but validating AI monetization.",
+        "haiku_rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
         "haiku_themes": [
-          "AI search disruption",
-          "organic traffic shifts",
-          "content discovery"
+          "ChatGPT adoption",
+          "AI monetization",
+          "content discovery shift"
         ]
       },
       "config": {
@@ -141,27 +153,27 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Two Supertankers Hit by Unknown Projectiles in Strait of Hormuz",
-          "summary": "Two oil supertankers have been hit by unknown projectiles while transiting the Strait of Hormuz outbound from the Persian Gulf, maritime risk management firm Marisks said on Tuesday, as tensions in the Middle East flared up again this week and put the tentative oil flow recovery at risk. The Sidr very large crude carrier (VLCC), operated by Saudi Arabia\u2019s state shipping giant Bahri, was hit by unknown projectiles northeast of Khasab, Oman, Marisks said, as carried by Bloomberg. The other superta",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Two-Supertankers-Hit-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+          "title": "Qatar and UAE Turn to Rare LNG Ship Transfers as Hormuz Crisis Drags On",
+          "summary": "Three LNG carriers loaded from Qatar and the United Arab Emirates in the Persian Gulf have transferred their cargoes onto other vessels outside the Strait of Hormuz in the past month, a move that\u2019s highly unusual for LNG cargoes but one that could raise the crippled LNG shipments from the region. LNG traffic at the Strait of Hormuz nevertheless remains at a standstill, even though oil flows are\u00a0estimated to have rebounded in recent weeks. However, unlike crude oil, it\u2019s much more difficult to sh",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-and-UAE-Turn-to-Rare-LNG-Ship-Transfers-as-Hormuz-Crisis-Drags-On.html",
           "source": "Oilprice",
-          "published": "01 Sep 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Ukrainian Drone Barrage Sets Key Russian Oil Port Ablaze",
-          "summary": "A massive Ukrainian drone attack at Russia\u2019s Ust-Luga oil export terminal in the Baltic Sea has sparked a fire at the site as Ukraine continues to target Russian refineries and energy export infrastructure. Following a drone attack overnight, the Ust-Luga port sustained damage, and a fire broke out, Alexander Drozdenko, governor of the Leningrad region where the port is located, said on his Telegram channel on Tuesday. Later, he added that the fire had been extinguished and that there were no ca",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Barrage-Sets-Key-Russian-Oil-Port-Ablaze.html",
-          "source": "Oilprice",
-          "published": "01 Sep 2026",
+          "published": "02 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Price, Not Politics, Is Driving Most of India\u2019s Oil Buying",
-          "summary": "India\u2019s imports of spot crude cargoes from producers such as the United States and Venezuela are being driven by the prevailing cargo and oil prices, the top executive of India\u2019s state-owned Oil and Natural Gas Corporation (ONGC) has said. \u00a0 \u201cImports are decided by the price, except for term crudes. Now term crudes are gradually going down. Spot crudes are mostly decided cargo-to-cargo based on price,\u201d ONGC chairman and CEO, Arun Kumar Singh, told Indian media after the company\u2019s annual general ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Price-Not-Politics-Is-Driving-Most-of-Indias-Oil-Buying.html",
+          "title": "Diesel Cracks Hit Record Highs as Global Fuel Squeeze Deepens",
+          "summary": "The re-escalation in the Middle East and the Russian ban on diesel exports amid incessant Ukrainian drone attacks on refineries have pushed middle distillate cracks to record highs this week. The renewed exchange of strikes in and around the Strait of Hormuz has erased hopes of a swift recovery of oil product flows from the Middle East, leaving the diesel markets tight, ING\u2019s commodities strategists Warren Patterson and Ewa Manthey wrote in a note early on Wednesday. The market tightness is most",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Cracks-Hit-Record-Highs-as-Global-Fuel-Squeeze-Deepens.html",
           "source": "Oilprice",
-          "published": "01 Sep 2026",
+          "published": "02 Sep 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Pakistan Rejects Costly LNG Cargo as Blackout Risk Deepens",
+          "summary": "Pakistan may have to extend rolling blackouts after it refused to pay three times the pre-war price for an LNG cargo, which was the only offer its latest emergency tender drew. The single cargo, offered by BP, was priced at $27 per million British thermal units, Bloomberg reported, citing unnamed trading sources. \u201cThe international LNG price is around $23.18 per MMBtu, whereas the bid received was $26.969 per MMBtu. The price was considered too high, so a fresh tender has been issued,\u201d a senior ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Rejects-Costly-LNG-Cargo-as-Blackout-Risk-Deepens.html",
+          "source": "Oilprice",
+          "published": "02 Sep 2026",
           "sentiment_hint": "bearish"
         },
         {
@@ -192,72 +204,49 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
+            "ticker": "BP",
+            "company": "BP plc",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Strait of Hormuz disruption and Russian supply constraints support crude prices and upstream margins.",
+            "rationale": "Record diesel cracks and LNG pricing power from Middle East supply disruptions benefit downstream and trading operations.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "crude price support"
+              "diesel crack spreads",
+              "LNG premium pricing",
+              "refining margins",
+              "geopolitical supply constraints"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 2
           },
           {
             "ticker": "CVX",
             "company": "Chevron Corporation",
             "sentiment": "bullish",
-            "conviction": 71,
-            "rationale": "Middle East tensions and Russian export terminal damage reduce global supply, supporting crude prices.",
+            "conviction": 68,
+            "rationale": "Elevated diesel cracks and crude pricing from Hormuz disruptions support integrated upstream-downstream cash generation.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "crude price support"
+              "diesel cracks at record highs",
+              "geopolitical supply tightness",
+              "refining margins"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 2
           },
           {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
             "conviction": 70,
-            "rationale": "Supply disruptions in Hormuz Strait and Russia support oil prices and upstream production economics.",
+            "rationale": "Middle East supply crisis driving record diesel cracks and LNG premiums benefit integrated energy major's downstream and liquids segments.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "crude price support"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Geopolitical supply disruptions and Russian port damage support Brent crude and upstream cash generation.",
-            "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "crude price support"
+              "diesel cracks",
+              "LNG supply constraints",
+              "refining margins",
+              "Hormuz disruptions"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -271,12 +260,13 @@
             "ticker": "SHEL",
             "company": "Shell plc",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Middle East and Russia supply concerns support crude prices and downstream refining margins recovery.",
+            "conviction": 75,
+            "rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "crude price support"
+              "LNG logistical disruption premium",
+              "diesel cracks",
+              "trading upside",
+              "supply squeeze"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -289,28 +279,26 @@
           {
             "ticker": "TTE",
             "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 67,
-            "rationale": "Supply disruptions in key export regions support crude prices and integrated energy company margins.",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Exposed to elevated LNG and diesel pricing but limited direct Middle East operations reduce concentrated impact versus peers.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "crude price support"
+              "LNG global pricing",
+              "diesel cracks",
+              "geographic diversification"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 2
           }
         ],
-        "summary": "Geopolitical supply disruptions in the Strait of Hormuz and Russian export infrastructure create near-term crude price support benefiting all major integrated and upstream oil companies. India's price-driven crude procurement patterns suggest demand flexibility but support spot market tightness. Nuclear and renewable energy announcements signal long-term energy transition, but immediate near-term commodity dynamics favor traditional energy.",
+        "summary": "Escalating Middle East supply disruptions at Hormuz and Russian refinery attacks are driving record diesel cracks and unprecedented LNG cargo transfer logistics, creating near-term margin expansion opportunities for integrated energy majors and refiners. Downstream and trading operations are primary beneficiaries, though geopolitical risks remain elevated. Nuclear and renewable energy projects highlight ongoing sector energy transition pressures.",
         "risks": [
-          "supply disruptions could escalate to wider conflict",
-          "crude price volatility may reverse quickly if tensions ease",
-          "long-term energy transition pressures threaten demand outlook"
+          "Hormuz crisis resolution reducing supply premium",
+          "escalation of regional conflict expanding supply disruptions",
+          "demand destruction from high energy prices",
+          "LNG cargo rerouting sustainability uncertain"
         ],
         "sector_sentiment": "bullish",
         "verification": {
@@ -320,30 +308,30 @@
         }
       },
       "prices_snapshot": {
-        "XOM": 160.9499969482422,
-        "CVX": 206.13999938964844,
-        "COP": 132.49000549316406,
-        "BP": 42.869998931884766,
-        "SHEL": 91.44999694824219,
-        "TTE": 88.30999755859375
+        "BP": 44.470001220703125,
+        "CVX": 211.0500030517578,
+        "XOM": 164.5500030517578,
+        "SHEL": 93.51000213623047,
+        "TTE": 90.3499984741211
       },
       "spot_check": {
-        "title": "Two Supertankers Hit by Unknown Projectiles in Strait of Hormuz",
-        "summary": "Two oil supertankers have been hit by unknown projectiles while transiting the Strait of Hormuz outbound from the Persian Gulf, maritime risk management firm Marisks said on Tuesday, as tensions in the Middle East flared up again this week and put the tentative oil flow recovery at risk. The Sidr very large crude carrier (VLCC), operated by Saudi Arabia\u2019s state shipping giant Bahri, was hit by unknown projectiles northeast of Khasab, Oman, Marisks said, as carried by Bloomberg. The other superta",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Two-Supertankers-Hit-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+        "title": "Qatar and UAE Turn to Rare LNG Ship Transfers as Hormuz Crisis Drags On",
+        "summary": "Three LNG carriers loaded from Qatar and the United Arab Emirates in the Persian Gulf have transferred their cargoes onto other vessels outside the Strait of Hormuz in the past month, a move that\u2019s highly unusual for LNG cargoes but one that could raise the crippled LNG shipments from the region. LNG traffic at the Strait of Hormuz nevertheless remains at a standstill, even though oil flows are\u00a0estimated to have rebounded in recent weeks. However, unlike crude oil, it\u2019s much more difficult to sh",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-and-UAE-Turn-to-Rare-LNG-Ship-Transfers-as-Hormuz-Crisis-Drags-On.html",
         "source": "Oilprice",
-        "published": "01 Sep 2026",
-        "sentiment_hint": "bullish",
+        "published": "02 Sep 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
+          "ticker": "SHEL",
+          "company": "Shell plc",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Strait of Hormuz disruption and Russian supply constraints support crude prices and upstream margins.",
+          "conviction": 75,
+          "rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
           "key_themes": [
-            "supply disruption",
-            "geopolitical risk premium",
-            "crude price support"
+            "LNG logistical disruption premium",
+            "diesel cracks",
+            "trading upside",
+            "supply squeeze"
           ],
           "time_horizon": "short-term",
           "verified": true,
@@ -354,11 +342,12 @@
           ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Strait of Hormuz disruption and Russian supply constraints support crude prices and upstream margins.",
+        "haiku_rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
         "haiku_themes": [
-          "supply disruption",
-          "geopolitical risk premium",
-          "crude price support"
+          "LNG logistical disruption premium",
+          "diesel cracks",
+          "trading upside",
+          "supply squeeze"
         ]
       },
       "config": {
@@ -378,20 +367,12 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Foodborne Illnesses Can Lead to Long-Term Gut Issues",
-          "summary": "The cyclospora outbreak may result in a surge in cases of post-infection irritable bowel syndrome.",
-          "url": "https://www.nytimes.com/2026/08/31/well/eat/cyclospora-ibs-food-poisoning.html",
+          "title": "C.D.C. Director Challenges Pennsylvania\u2019s Report of Two Measles Deaths",
+          "summary": "Questioning a state\u2019s investigation is highly unusual for the public health agency, but reflects tensions between the Trump administration and many states over health issues.",
+          "url": "https://www.nytimes.com/2026/08/31/health/measles-deaths-pennsylvania-schwartz-kennedy-shapiro.html",
           "source": "Rss",
           "published": "31 Aug 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "How Bad Will This Year\u2019s Flu Season Be?",
-          "summary": "Doctors are hopeful for a quieter fall and winter than in 2025.",
-          "url": "https://www.nytimes.com/2026/08/31/well/flu-vaccine-test-treatment.html",
-          "source": "Rss",
-          "published": "31 Aug 2026",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         },
         {
           "title": "A $480,000-a-Year Pill Reflects a New Normal for Cancer Drugs",
@@ -402,28 +383,36 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/emergent-rolls-out-expanded-narcan-education-push-across-us-canada-international-overdose\" hreflang=\"en\">Emergent re-ups Narcan education push across US, Canada on overdose awareness day</a>",
-          "summary": "Emergent BioSolutions looks to expand awareness and education of its Narcan opioid overdose reversal spray with an expanded campaign that kicked off on International Overdose Awareness Day.",
-          "url": "https://www.fiercepharma.com/marketing/emergent-rolls-out-expanded-narcan-education-push-across-us-canada-international-overdose",
+          "title": "Baby Goats From a Traveling Petting Zoo Test Positive for Rabies",
+          "summary": "Farm Adventures of Harmony, N.C., owned the goats, state health officials said. It was unclear how many people might have been exposed to them since late July.",
+          "url": "https://www.nytimes.com/2026/08/29/us/rabies-goats-petting-zoo-north-carolina.html",
+          "source": "Rss",
+          "published": "30 Aug 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/rising-stars-gaming-pharma-genentechs-tiffany-william-brings-fail-fast-learn-fast\" hreflang=\"en\">Rising Stars: Genentech\u2019s Tiffany William brings a 'fail fast, learn fast' marketing mentality</a>",
+          "summary": "After pivoting from mobile gaming marketing to pharma, Genentech performance marketing engagement lead Tiffany William is making performance marketing \"less daunting\" and \"more fun\" and approachable.",
+          "url": "https://www.fiercepharma.com/marketing/rising-stars-gaming-pharma-genentechs-tiffany-william-brings-fail-fast-learn-fast",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/white-house-unveils-next-round-mfn-pricing-deals-9-midsized-drugmakers\" hreflang=\"en\">White House unveils next round of MFN pricing deals with 9 midsized drugmakers</a>",
-          "summary": "Some four months after the White House inked the last of its expected drug pricing deals with 17 of the industry\u2019s top players, the U.S. government is back for round 2, this time lining up agreements with a host of medium-sized biopharmas under President Trump\u2019s \u2018most favored nation\u2019 agenda.",
-          "url": "https://www.fiercepharma.com/pharma/white-house-unveils-next-round-mfn-pricing-deals-9-midsized-drugmakers",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: Another Tavneos domino falls as UK rescinds authorization</a>",
+          "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
+          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/fda-dings-alar-over-extremely-concerning-ketamine-claims\" hreflang=\"en\">FDA dings Alar over \u2018extremely concerning\u2019 ketamine claims</a>",
-          "summary": "The FDA sent Alar Pharmaceuticals an untitled letter after finding fault with the company\u2019s exhibit booth display and brochure at a recent conference.",
-          "url": "https://www.fiercepharma.com/marketing/fda-dings-alar-over-extremely-concerning-ketamine-claims",
+          "title": "<a href=\"https://www.fiercepharma.com/biotech/esc-alnylams-next-gen-silencer-sees-silver-linings-after-fallout-az-ionis-trial-flop-attr\" hreflang=\"en\">ESC: Alnylam's next-gen silencer sees silver linings after fallout of AZ, Ionis trial in ATTR-CM</a>",
+          "summary": "As AstraZeneca appears to close the book on a combo approach following the phase 3 failure of its Ionis-partnered Wainua, several analysts contend it\u2019s too early to count out Alnylam\u2019s silencing drugs in ATTR-CM patients also taking standard-of-care stabilizers.",
+          "url": "https://www.fiercepharma.com/biotech/esc-alnylams-next-gen-silencer-sees-silver-linings-after-fallout-az-ionis-trial-flop-attr",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
@@ -431,121 +420,95 @@
           {
             "ticker": "LLY",
             "company": "Eli Lilly and Company",
-            "sentiment": "bearish",
+            "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Subject to MFN pricing pressure from White House round 2 drug pricing deals with midsized drugmakers.",
+            "rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
             "key_themes": [
-              "regulatory pricing pressure",
-              "MFN pricing deals",
-              "margin compression risk"
+              "oncology pricing",
+              "cancer drug market expansion"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [5] mentions MFN pricing deals with 9 midsized drugmakers, but does not specify that Eli Lilly is subject to these new round 2 negotiations. Eli Lilly was likely part of round 1 with the 17 top players, not round 2 with midsized companies.",
-            "supporting_article": null
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           },
           {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Exposed to escalating drug pricing scrutiny; new $480K cancer drug precedent highlights regulatory and political backlash risks.",
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rabies exposure incident may drive diagnostic testing demand but impact is limited and temporary.",
             "key_themes": [
-              "pricing regulation",
-              "cancer drug inflation",
-              "political scrutiny"
+              "diagnostic testing demand",
+              "public health response"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 3
           },
           {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bearish",
-            "conviction": 70,
-            "rationale": "Large pharma likely subject to additional MFN pricing negotiations; weaker flu season outlook reduces seasonal revenue potential.",
-            "key_themes": [
-              "MFN pricing exposure",
-              "lower flu demand",
-              "revenue headwinds"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              5
-            ]
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "MRK",
+            "company": "Merck & Co.",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Diversified healthcare conglomerate with consumer health exposure; cyclospora outbreak could boost GI treatment demand but impact minimal.",
+            "conviction": 48,
+            "rationale": "Measles-related public health tensions could affect vaccine portfolio but regulatory clarity remains uncertain.",
             "key_themes": [
-              "diversified portfolio",
-              "indirect demand uplift"
+              "vaccine market",
+              "regulatory environment"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
           }
         ],
-        "summary": "Healthcare sector faces significant regulatory headwinds with the White House pursuing aggressive MFN drug pricing deals in round 2, particularly targeting mid-to-large cap pharma. Pricing pressure intensifies as the $480K cancer drug exemplifies escalating political and public scrutiny over drug costs. Large-cap pharma stocks face margin compression risks, while a milder flu season outlook further pressures seasonal pharmaceutical revenue.",
+        "summary": "Healthcare sector faces mixed signals with elevated oncology drug pricing supporting premium valuations for cancer-focused companies, particularly LLY. However, regulatory tensions between federal and state health authorities and recent clinical trial setbacks in specialty therapeutics (ATTR-CM) create near-term headwinds. Diagnostic and vaccine-related opportunities exist but appear limited in scope.",
         "risks": [
-          "Regulatory/political drug pricing intervention accelerating faster than markets anticipated",
-          "Revenue impact from weaker-than-expected seasonal demand (flu)",
-          "Litigation and reputational damage from pricing controversies",
-          "Potential for broader healthcare sector valuation compression if pricing pressure extends to biologics and specialty drugs"
+          "escalating federal-state regulatory conflict affecting market access",
+          "clinical trial failures in high-value indications",
+          "pricing pressure from healthcare reform initiatives",
+          "public health crises creating liability exposure"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "LLY signal assumes Eli Lilly is subject to 'round 2' MFN pricing deals with midsized drugmakers, but the company is likely a 'top player' in round 1, not a midsized drugmaker in round 2. This mischaracterizes the regulatory exposure."
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "LLY": 1156.72998046875,
-        "MRK": 147.75999450683594,
-        "PFE": 28.459999084472656,
-        "JNJ": 265.8500061035156
+        "LLY": 1160.0,
+        "TMO": 600.5,
+        "MRK": 149.86000061035156
       },
       "spot_check": {
-        "title": "Foodborne Illnesses Can Lead to Long-Term Gut Issues",
-        "summary": "The cyclospora outbreak may result in a surge in cases of post-infection irritable bowel syndrome.",
-        "url": "https://www.nytimes.com/2026/08/31/well/eat/cyclospora-ibs-food-poisoning.html",
+        "title": "C.D.C. Director Challenges Pennsylvania\u2019s Report of Two Measles Deaths",
+        "summary": "Questioning a state\u2019s investigation is highly unusual for the public health agency, but reflects tensions between the Trump administration and many states over health issues.",
+        "url": "https://www.nytimes.com/2026/08/31/health/measles-deaths-pennsylvania-schwartz-kennedy-shapiro.html",
         "source": "Rss",
         "published": "31 Aug 2026",
-        "sentiment_hint": "bullish",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "LLY",
           "company": "Eli Lilly and Company",
-          "sentiment": "bearish",
+          "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Subject to MFN pricing pressure from White House round 2 drug pricing deals with midsized drugmakers.",
+          "rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
           "key_themes": [
-            "regulatory pricing pressure",
-            "MFN pricing deals",
-            "margin compression risk"
+            "oncology pricing",
+            "cancer drug market expansion"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [5] mentions MFN pricing deals with 9 midsized drugmakers, but does not specify that Eli Lilly is subject to these new round 2 negotiations. Eli Lilly was likely part of round 1 with the 17 top players, not round 2 with midsized companies.",
-          "supporting_article": null
+          "time_horizon": "long-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Subject to MFN pricing pressure from White House round 2 drug pricing deals with midsized drugmakers.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
         "haiku_themes": [
-          "regulatory pricing pressure",
-          "MFN pricing deals",
-          "margin compression risk"
+          "oncology pricing",
+          "cancer drug market expansion"
         ]
       },
       "config": {
@@ -565,27 +528,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Global Bond Sell-Off Puts Investors on Edge",
-          "summary": "Government borrowing costs are hitting multi-decade highs around the world, reflecting anxiety about debt levels, deficits and inflation.",
-          "url": "https://www.nytimes.com/2026/09/01/business/bond-yields-debt.html",
+          "title": "Chevron Expansion in Venezuela Extends U.S. Influence Over Oil Riches",
+          "summary": "The U.S. energy giant, which stayed in the country after other Western companies left, will invest $7 billion in the country to more than double its production there.",
+          "url": "https://www.nytimes.com/2026/09/02/business/energy-environment/chevron-venezuela-oil-trump.html",
           "source": "Rss",
-          "published": "01 Sep 2026",
+          "published": "02 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "How the Pentagon Is Getting Into the Venezuelan Oil Business Under Trump",
-          "summary": "The Defense Department\u2019s Office of Strategic Capital, founded by the Biden administration to give loans to bolster the U.S. defense industry, is helping lead President Trump\u2019s oil deal.",
-          "url": "https://www.nytimes.com/2026/08/31/us/politics/pentagon-venezuela-oil.html",
+          "title": "Investors Still on Edge Over War, Debt and Inflation",
+          "summary": "U.S. and Iranian forces traded attacks again, pushing oil prices higher, stocks lower and making bond investors nervous.",
+          "url": "https://www.nytimes.com/2026/09/02/business/oil-bond-yields-iran.html",
           "source": "Rss",
-          "published": "01 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "02 Sep 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "Shein\u2019s Lackluster Debut Shows a Fast-Fashion Model Left Behind",
-          "summary": "Squeezed by new trade rules, shrinking market share and labor concerns, Shein\u2019s share decline in Hong Kong on Tuesday is a sign investors have moved on.",
-          "url": "https://www.nytimes.com/2026/08/31/business/shein-ipo-china.html",
+          "title": "Employer Health Costs Are Expected to Spike in 2027",
+          "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
+          "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
           "source": "Rss",
-          "published": "01 Sep 2026",
+          "published": "02 Sep 2026",
           "sentiment_hint": "bearish"
         },
         {
@@ -617,152 +580,171 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Rising bond yields and government borrowing costs expand net interest margins for large banks.",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Geopolitical tensions and inflation concerns create mixed headwinds; rising healthcare costs may pressure corporate clients.",
             "key_themes": [
-              "rising rates",
-              "NIM expansion",
-              "debt market volatility"
+              "geopolitical risk",
+              "inflation pressure",
+              "healthcare cost spikes"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              2,
+              3
+            ]
           },
           {
             "ticker": "BAC",
-            "company": "Bank of America Corp.",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Multi-decade high government borrowing costs benefit net interest income and lending spreads.",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Market volatility and risk-off sentiment pressure valuations; elevated healthcare costs increase operational expense pressure.",
             "key_themes": [
-              "rising rates",
-              "NIM expansion",
-              "credit environment"
+              "market volatility",
+              "risk-off sentiment",
+              "cost inflation"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              2,
+              3,
+              4
+            ]
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs Group Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Global bond sell-off and elevated volatility increase trading and advisory opportunities for investment banks.",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
             "key_themes": [
-              "market volatility",
-              "trading revenues",
-              "geopolitical tensions"
+              "equity market weakness",
+              "geopolitical risk",
+              "dealmaking pressure"
             ],
             "time_horizon": "short-term",
             "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
+            "verification_issue": "M&A activity reduction implied but not explicitly stated in articles",
+            "supporting_article": [
+              2,
+              4
+            ]
           },
           {
             "ticker": "MS",
-            "company": "Morgan Stanley Inc.",
-            "sentiment": "bullish",
-            "conviction": 67,
-            "rationale": "Bond market volatility and rising yields drive investment banking activity and trading revenue expansion.",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Tech sector rout and market risk-off reduce wealth management and trading revenues; equities declining sharply.",
             "key_themes": [
+              "tech sector decline",
               "market volatility",
-              "trading revenues",
-              "capital markets"
+              "risk appetite reduction"
             ],
             "time_horizon": "short-term",
             "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
+            "verification_issue": "Tech sector rout is clear, but connection to wealth management/trading revenue impact not explicitly supported",
+            "supporting_article": [
+              4
+            ]
           },
           {
             "ticker": "V",
-            "company": "Visa Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Tech sector weakness from AI concerns may pressure payment volumes; broader economic uncertainty limits near-term clarity.",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Market-wide sell-off and geopolitical tensions reduce consumer spending and payment transaction volumes near-term.",
             "key_themes": [
-              "tech sector volatility",
-              "macro uncertainty",
-              "trade tensions"
+              "market volatility",
+              "consumer spending pressure",
+              "risk-off sentiment"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "verified": false,
+            "verification_issue": "No source article discusses consumer spending or payment transaction volume impacts; market decline alone does not directly support payment processor weakness",
+            "supporting_article": null
           },
           {
             "ticker": "MA",
-            "company": "Mastercard Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Tech sector weakness from AI concerns may pressure payment volumes; broader economic uncertainty limits near-term clarity.",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 57,
+            "rationale": "Broad equity decline and elevated uncertainty dampen consumer activity; healthcare cost spikes may reduce discretionary spending.",
             "key_themes": [
-              "tech sector volatility",
-              "macro uncertainty",
-              "trade tensions"
+              "market weakness",
+              "consumer headwinds",
+              "healthcare cost pressure"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "verified": false,
+            "verification_issue": "No source article discusses consumer spending or payment transaction volume impacts; healthcare cost spike connection to discretionary spending is speculative",
+            "supporting_article": null
           }
         ],
-        "summary": "Financial sector benefits from multi-decade high bond yields and elevated market volatility, which expand net interest margins for commercial banks and trading revenues for investment banks. However, payment processors face headwinds from tech sector weakness and AI-driven selloffs that may dampen consumer spending and transaction volumes. Geopolitical risks and trade policy uncertainty create near-term volatility but support higher interest rate environment favoring traditional banking models.",
+        "summary": "Financial services and payment processors face near-term headwinds from broad market volatility sparked by geopolitical tensions, AI sector concerns, and anticipated healthcare cost inflation. Banks face pressure from reduced M&A and trading activity, while payment networks suffer from consumer spending uncertainty. The risk-off sentiment and market selloff create challenging near-term conditions for the sector.",
         "risks": [
-          "Debt sustainability concerns could trigger credit market disruption and recession fears",
-          "Tech sector contagion from AI competition may accelerate and impact broader economic growth",
-          "Trade policy escalation and geopolitical tensions could destabilize financial markets",
-          "Rapid interest rate normalization could invert yield curve and pressure lending profitability"
+          "Escalating U.S.-Iran military conflict driving further risk-off",
+          "Healthcare cost spike reducing consumer discretionary spending and bank lending demand",
+          "Continued tech sector weakness impacting financial markets liquidity",
+          "Sustained equity market volatility eroding wealth management revenues"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "Payment processor signals (V, MA) lack direct grounding in source articles regarding consumer spending impacts",
+            "Goldman Sachs M&A weakness rationale is inferred rather than directly supported",
+            "Morgan Stanley wealth management/trading revenue impact is implied but not explicitly stated in sources"
+          ],
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 356.0199890136719,
-        "BAC": 61.939998626708984,
-        "GS": 1025.9000244140625,
-        "MS": 213.32000732421875,
-        "V": 379.3699951171875,
-        "MA": 589.3099975585938
+        "JPM": 354.95001220703125,
+        "BAC": 61.9900016784668,
+        "GS": 1002.5599975585938,
+        "MS": 211.0399932861328,
+        "V": 372.6700134277344,
+        "MA": 581.0999755859375
       },
       "spot_check": {
-        "title": "Global Bond Sell-Off Puts Investors on Edge",
-        "summary": "Government borrowing costs are hitting multi-decade highs around the world, reflecting anxiety about debt levels, deficits and inflation.",
-        "url": "https://www.nytimes.com/2026/09/01/business/bond-yields-debt.html",
+        "title": "Employer Health Costs Are Expected to Spike in 2027",
+        "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
+        "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
         "source": "Rss",
-        "published": "01 Sep 2026",
-        "sentiment_hint": "neutral",
+        "published": "02 Sep 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Rising bond yields and government borrowing costs expand net interest margins for large banks.",
+          "ticker": "GS",
+          "company": "Goldman Sachs",
+          "sentiment": "bearish",
+          "conviction": 62,
+          "rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
           "key_themes": [
-            "rising rates",
-            "NIM expansion",
-            "debt market volatility"
+            "equity market weakness",
+            "geopolitical risk",
+            "dealmaking pressure"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
-          "verification_issue": null,
-          "supporting_article": 1
+          "verification_issue": "M&A activity reduction implied but not explicitly stated in articles",
+          "supporting_article": [
+            2,
+            4
+          ]
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Rising bond yields and government borrowing costs expand net interest margins for large banks.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
         "haiku_themes": [
-          "rising rates",
-          "NIM expansion",
-          "debt market volatility"
+          "equity market weakness",
+          "geopolitical risk",
+          "dealmaking pressure"
         ]
       },
       "config": {
