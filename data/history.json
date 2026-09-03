@@ -15901,5 +15901,324 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-03",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Refining capacity crunch and elevated fuel prices through 2027 support downstream margins and profitability.",
+            "key_themes": [
+              "refining disruption",
+              "fuel price elevation",
+              "margin expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Global refining shortage and geopolitical supply disruptions create sustained high fuel prices benefiting refiner portfolios.",
+            "key_themes": [
+              "refining margin opportunity",
+              "supply constraints",
+              "price elevation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 79,
+            "rationale": "Middle East refinery damage and Russian export bans intensify global fuel scarcity, supporting downstream operations and margins.",
+            "key_themes": [
+              "refining disruption",
+              "geopolitical supply shock",
+              "margin strength"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 81,
+            "rationale": "LNG supply competition and low European storage create premium pricing environment for LNG assets; strong winter demand outlook.",
+            "key_themes": [
+              "LNG premium pricing",
+              "storage shortage",
+              "winter demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 76,
+            "rationale": "European energy crisis with depleted gas stocks and LNG competition support higher prices for integrated oil and gas operations.",
+            "key_themes": [
+              "LNG demand surge",
+              "energy crisis",
+              "pricing power"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Global refining constraints and Russian crude premium premiums support upstream and midstream value creation.",
+            "key_themes": [
+              "refining disruption",
+              "crude premium",
+              "supply scarcity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 164.14999389648438,
+          "CVX": 211.77999877929688,
+          "BP": 43.93000030517578,
+          "SHEL": 92.80000305175781,
+          "TTE": 90.22000122070312,
+          "COP": 137.1999969482422
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "11% employer health cost spike in 2027 pressures insurers' medical loss ratios and margin compression",
+            "key_themes": [
+              "rising healthcare costs",
+              "employer benefit pressure",
+              "margin headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "High cancer drug pricing trends ($480K/year) support premium pharmaceutical pricing power and revenue growth",
+            "key_themes": [
+              "cancer drug pricing inflation",
+              "oncology premium pricing",
+              "revenue expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Strong oncology portfolio positioned to capture rising cancer drug pricing trends and ARPA-H RNA drug development momentum",
+            "key_themes": [
+              "oncology pricing power",
+              "RNA therapeutics",
+              "biotech innovation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ARPA-H RNA investment supportive long-term, but exposure unclear; CDC measles tensions create regulatory uncertainty",
+            "key_themes": [
+              "RNA therapeutics potential",
+              "regulatory uncertainty",
+              "vaccine concerns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Oncology benefits from pricing trends but diversified portfolio limits direct exposure to single trend",
+            "key_themes": [
+              "oncology pricing",
+              "portfolio diversity",
+              "macro headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Biologics rethink at Novartis signals industry restructuring; ABBV's cell therapy exposure limited",
+            "key_themes": [
+              "biologics consolidation",
+              "cell therapy headwinds",
+              "cost efficiency"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Cell therapy client losses and biologics restructuring create near-term headwinds for CDMO services",
+            "key_themes": [
+              "CDMO softness",
+              "cell therapy slowdown",
+              "biopharma consolidation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "UNH": 399.6600036621094,
+          "JNJ": 275.2099914550781,
+          "LLY": 1160.0799560546875,
+          "PFE": 29.020000457763672,
+          "MRK": 151.63999938964844,
+          "ABBV": 261.7200012207031,
+          "TMO": 608.5399780273438
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Investment banking revenues may benefit from Anthropic IPO activity, but AI sector volatility creates uncertainty for trading desks.",
+            "key_themes": [
+              "IPO pipeline",
+              "market volatility",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale references Anthropic IPO benefits and AI sector volatility. Article [1] mentions Anthropic IPO but provides no detail on investment banking revenues or underwriting activity. Article [4] confirms AI sector volatility (Nasdaq down, Nvidia -16%) but does not connect this to JPMorgan Chase trading desk impacts. No article discusses JPM's specific exposure or role.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Potential advisory fees from Anthropic IPO offset by AI sector selloff impacting investment banking pipeline and market sentiment.",
+            "key_themes": [
+              "IPO advisory",
+              "tech sector weakness",
+              "capital markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'advisory fees from Anthropic IPO' but Article [1] only mentions that Anthropic will have an IPO without identifying Goldman Sachs as an advisor or discussing advisory fees. Article [4] confirms AI sector selloff impacting infrastructure makers, but no article connects this to Goldman Sachs' investment banking pipeline or advisory business specifically.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "IPO underwriting opportunities from Anthropic limited by broader AI sector rout reducing deal momentum and valuations.",
+            "key_themes": [
+              "IPO underwriting",
+              "AI correction",
+              "equity markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'IPO underwriting opportunities from Anthropic' but Article [1] does not identify Morgan Stanley as an underwriter or discuss underwriting arrangements. Article [4] confirms the AI sector rout and broad market weakness, but does not specifically address Morgan Stanley's underwriting pipeline or deal momentum for this firm.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 356.2200012207031,
+          "GS": 1004.4199829101562,
+          "MS": 211.82000732421875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-02",
-  "run_time": "2026-09-02T11:57:21.560919Z",
+  "run_date": "2026-09-03",
+  "run_time": "2026-09-03T11:55:50.839187Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,82 +29,37 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The amazing USB-C gadgets that play old Nintendo cartridges",
-          "summary": "Last week, I powered on a 26-year-old copy of Pok&#233;mon Pinball, one of the best Game Boy games ever made. My save file was no more. The Charmander I'd caught for my daughter, the high scores we'd set together\u2026 gone. Before flash memory, Nintendo cartridges used tiny watch batteries to save their games, and those [&#8230;]",
-          "url": "https://www.theverge.com/games/987972/epilogue-gb-sn-operator-review-nintendo-game-boy-snes",
+          "title": "Microsoft discloses Azure revenue as part of major financial reporting changes",
+          "summary": "Microsoft is changing how it reports its finances to investors by splitting its businesses into two segments and disclosing quarterly revenue for its Azure cloud business for the first time. The changes are meant to reflect the ongoing impact of AI on Microsoft and how the company now operates. The software giant has previously reported [&#8230;]",
+          "url": "https://www.theverge.com/news/989102/microsoft-earnings-changes-azure-revenue",
           "source": "Theverge",
-          "published": "02 Sep 2026",
+          "published": "03 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The robot butler dream doesn\u2019t have legs",
-          "summary": "The idea of humanoid robots running our homes has been the stuff of science fiction for years. But unlike hoverboards and self-tying sneakers, a robot housekeeper has never felt close to rolling into our homes. Until now. This has been the year of the humanoid robot. At CES, there were dozens of human-shaped bots on [&#8230;]",
-          "url": "https://www.theverge.com/tech/987756/humanoid-robot-butlers-lg-cloid-smart-home-ifa",
+          "title": "Here\u2019s the first 4K 120Hz UST projector with optical lens shift",
+          "summary": "Detail-preserving optical lens shift is not something you expect to find on an ultra-short throw projector running Google TV, but that's exactly what you'll find inside of Awol Vision's new LuxVision. It also promises to produce an incredibly bright (6000 ISO Lumens) 4K 120Hz image measuring 120 inches when placed just 7.5 inches from the [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/986005/awol-visions-4k-120hz-ust-projector-is-first-with-optical-lens-shift",
           "source": "Theverge",
-          "published": "02 Sep 2026",
+          "published": "03 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Is this the future of America?",
-          "summary": "In 2007, the US was on the cusp of an economic recession, and Buddy Rizer was tasked with finding Loudoun County, Virginia, a new way to make money. Rizer\u2019s earlier career as a radio DJ didn\u2019t exactly make him an obvious candidate to find a solution, but he was looking for what he called a [&#8230;]",
-          "url": "https://www.theverge.com/cs/features/975597/loudoun-county-virginia-data-center-backlash",
+          "title": "Belkin\u2019s first trackers come ready to attach to your gear.",
+          "summary": "After selling accessories for attaching Apple's AirTags to everything from keys to backpacks, Belkin is introducing its own trackers that work with either Apple's Find My or Google's Find Hub tracking networks. In addition to compatibility with Android and iOS, what differentiates these trackers from AirTags and Google's recently announced Pixel Tag is that you [&#8230;]",
+          "url": "https://www.theverge.com/tech/987565/belkin-tracker-apple-find-my-google-find-hub-surefind-wallet-card-spot-tag",
           "source": "Theverge",
-          "published": "02 Sep 2026",
+          "published": "03 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT traffic displacement article signals AI search competition intensifying; Google must innovate search monetization.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "AI integration urgency"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
-            "key_themes": [
-              "ChatGPT adoption",
-              "AI monetization",
-              "content discovery shift"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          }
-        ],
-        "summary": "The articles reveal a critical shift in how users discover content through AI systems like ChatGPT rather than traditional search, creating both opportunity and disruption. Microsoft's ChatGPT integration gains validation through organic user behavior changes, while Google faces pressure to defend search monetization. Limited direct hardware or chip-specific catalysts evident in provided articles.",
-        "risks": [
-          "Articles lack quantitative data on actual traffic displacement scale or market impact",
-          "Content creation AI tools remain highly commoditized with low switching costs",
-          "Unclear regulatory environment for AI-driven content recommendation could impact monetization models"
-        ],
-        "sector_sentiment": "neutral",
-        "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
-        }
+        "signals": [],
+        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"MSFT\",\n      \"company\": \"Microsoft Corporation\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 82,\n      \"rationale\": \"Azure cloud business revenue disclosure signals investor confidence in AI-driven cloud growth and operational transparency.\",\n      \"key_themes\": [\"Azure cloud expansion\", \"AI monetization\", \"financial transparency\"],\n      \"time_horizon\": \"long-term\"\n    },\n    {\n      \"ticker\": \"GOOGL\",\n      \"company\": Alphabet Inc.\",\n      \"sentime",
+        "risks": [],
+        "sector_sentiment": "neutral"
       },
-      "prices_snapshot": {
-        "GOOGL": 335.0199890136719,
-        "MSFT": 501.0199890136719
-      },
+      "prices_snapshot": {},
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
         "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
@@ -112,29 +67,10 @@
         "source": "Feedburner",
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
-        "related_signal": {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
-          "key_themes": [
-            "ChatGPT adoption",
-            "AI monetization",
-            "content discovery shift"
-          ],
-          "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 1
-        },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Article demonstrates ChatGPT's growing influence on content discovery and user behavior, validating Microsoft's AI platform investment thesis.",
-        "haiku_themes": [
-          "ChatGPT adoption",
-          "AI monetization",
-          "content discovery shift"
-        ]
+        "related_signal": null,
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "",
+        "haiku_themes": []
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -153,152 +89,161 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Qatar and UAE Turn to Rare LNG Ship Transfers as Hormuz Crisis Drags On",
-          "summary": "Three LNG carriers loaded from Qatar and the United Arab Emirates in the Persian Gulf have transferred their cargoes onto other vessels outside the Strait of Hormuz in the past month, a move that\u2019s highly unusual for LNG cargoes but one that could raise the crippled LNG shipments from the region. LNG traffic at the Strait of Hormuz nevertheless remains at a standstill, even though oil flows are\u00a0estimated to have rebounded in recent weeks. However, unlike crude oil, it\u2019s much more difficult to sh",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-and-UAE-Turn-to-Rare-LNG-Ship-Transfers-as-Hormuz-Crisis-Drags-On.html",
+          "title": "Global Refining Crunch Could Keep Fuel Prices High Into 2027",
+          "summary": "Damaged refineries in the Middle East and Russia and insufficient capacity elsewhere to offset the supply disruptions will likely keep global fuel prices elevated into the next year, analysts say. The Middle East conflict and the Iranian and Houthi strikes on Persian Gulf facilities have slashed supply and deliveries from the region, while intensified Ukrainian strikes on Russian refineries have prompted a ban on diesel exports out of Russia. As a result, the global fuel markets are tightening, ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Refining-Crunch-Could-Keep-Fuel-Prices-High-Into-2027.html",
           "source": "Oilprice",
-          "published": "02 Sep 2026",
+          "published": "03 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Diesel Cracks Hit Record Highs as Global Fuel Squeeze Deepens",
-          "summary": "The re-escalation in the Middle East and the Russian ban on diesel exports amid incessant Ukrainian drone attacks on refineries have pushed middle distillate cracks to record highs this week. The renewed exchange of strikes in and around the Strait of Hormuz has erased hopes of a swift recovery of oil product flows from the Middle East, leaving the diesel markets tight, ING\u2019s commodities strategists Warren Patterson and Ewa Manthey wrote in a note early on Wednesday. The market tightness is most",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Cracks-Hit-Record-Highs-as-Global-Fuel-Squeeze-Deepens.html",
+          "title": "Europe\u2019s Low Gas Stocks Set Stage for Winter LNG Battle",
+          "summary": "Europe\u2019s lowest levels of natural gas in storage in nearly two decades risk intensifying the race for LNG supply in the coming months as both Europe and Asia are competing for a shrinking pool of supply, with the Middle East\u2019s LNG still blocked at the Strait of Hormuz. \u00a0 \u201cThe potential for a global \u2018fight for fuel\u2019 is there, particularly in a colder winter,\u201d Go Katayama, principal insight analyst for LNG at intelligence firm Kpler, told Bloomberg. Europe is heading into the winter with one of th",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Low-Gas-Stocks-Set-Stage-for-Winter-LNG-Battle.html",
           "source": "Oilprice",
-          "published": "02 Sep 2026",
+          "published": "03 Sep 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Chinese Refiners Pay Record Premiums for Russian ESPO Crude",
+          "summary": "Chinese refiners are paying a hefty premium for Russia\u2019s ESPO crude to replace Iranian crude that independent refiners were importing before the U.S. installed its naval blockade on the country. East Siberia-Pacific Ocean crude, or ESPO, for delivery in November is trading at a premium of over $7 per barrel, with offers reaching as high as $10 per barrel over Brent crude, Bloomberg reported today, citing traders. The blend is loaded from Russia\u2019s Far East coast and can reach the buyers in China ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Refiners-Pay-Record-Premiums-for-Russian-ESPO-Crude.html",
+          "source": "Oilprice",
+          "published": "03 Sep 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Pakistan Rejects Costly LNG Cargo as Blackout Risk Deepens",
-          "summary": "Pakistan may have to extend rolling blackouts after it refused to pay three times the pre-war price for an LNG cargo, which was the only offer its latest emergency tender drew. The single cargo, offered by BP, was priced at $27 per million British thermal units, Bloomberg reported, citing unnamed trading sources. \u201cThe international LNG price is around $23.18 per MMBtu, whereas the bid received was $26.969 per MMBtu. The price was considered too high, so a fresh tender has been issued,\u201d a senior ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Rejects-Costly-LNG-Cargo-as-Blackout-Risk-Deepens.html",
-          "source": "Oilprice",
-          "published": "02 Sep 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "ONE Nuclear secures Louisiana site for 2.88GW Project Cayman in US",
-          "summary": "ONE Nuclear has entered into a binding LOI with a group of Louisiana landowners to secure site control for the development of Project Cayman.",
-          "url": "https://www.energymonitor.ai/news/one-nuclear-secures-site-project-cayman/",
+          "title": "MN8, Google and Eos launch clean energy project in West Virginia",
+          "summary": "MN8, Eos and Google have announced a joint project in West Virginia, US, that aims to deliver new clean energy resources to the PJM grid.",
+          "url": "https://www.energymonitor.ai/news/mn8-google-eos-clean-energy/",
           "source": "Energymonitor",
-          "published": "01 Sep 2026",
+          "published": "03 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Genus to start construction on $537m TasNetworks\u2019 transmission project",
-          "summary": "Genus has obtained formal approval to begin construction on the North West Transmission Developments (NWTD) Stage 1 project.",
-          "url": "https://www.energymonitor.ai/news/genus-start-construction-tasnetworks-transmission-2/",
+          "title": "Heerema finalises offshore foundation work at Ba\u0142tyk 2 and 3 projects",
+          "summary": "Heerema has finished installing 100 wind turbine foundations and two substation jackets for the Ba\u0142tyk 2 and 3 offshore wind farms in Poland.",
+          "url": "https://www.energymonitor.ai/news/heerema-foundation-work-baltyk-2-3/",
           "source": "Energymonitor",
-          "published": "01 Sep 2026",
-          "sentiment_hint": "bearish"
+          "published": "03 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "CIP buys Gawara Baya wind and BESS project in Australia",
-          "summary": "CIP, acting for its flagship fund Copenhagen Infrastructure V, has purchased the Gawara Baya hybrid onshore wind and BESS project.",
-          "url": "https://www.energymonitor.ai/news/cip-buys-gawara-baya/",
+          "title": "Europe\u2019s renewables expansion is shifting value towards flexibility",
+          "summary": "Europe is set for another decade of fast renewable growth, but generation capacity is no longer the best way to spot commercial opportunities.",
+          "url": "https://www.energymonitor.ai/analysis/europes-renewables-expansion-is-shifting-value-towards-flexibility/",
           "source": "Energymonitor",
-          "published": "01 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "03 Sep 2026",
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "BP",
-            "company": "BP plc",
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Record diesel cracks and LNG pricing power from Middle East supply disruptions benefit downstream and trading operations.",
+            "conviction": 82,
+            "rationale": "Refining capacity crunch and elevated fuel prices through 2027 support downstream margins and profitability.",
             "key_themes": [
-              "diesel crack spreads",
-              "LNG premium pricing",
-              "refining margins",
-              "geopolitical supply constraints"
+              "refining disruption",
+              "fuel price elevation",
+              "margin expansion"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
             "ticker": "CVX",
             "company": "Chevron Corporation",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Elevated diesel cracks and crude pricing from Hormuz disruptions support integrated upstream-downstream cash generation.",
+            "conviction": 80,
+            "rationale": "Global refining shortage and geopolitical supply disruptions create sustained high fuel prices benefiting refiner portfolios.",
             "key_themes": [
-              "diesel cracks at record highs",
-              "geopolitical supply tightness",
-              "refining margins"
+              "refining margin opportunity",
+              "supply constraints",
+              "price elevation"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
+            "ticker": "BP",
+            "company": "BP plc",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Middle East supply crisis driving record diesel cracks and LNG premiums benefit integrated energy major's downstream and liquids segments.",
+            "conviction": 79,
+            "rationale": "Middle East refinery damage and Russian export bans intensify global fuel scarcity, supporting downstream operations and margins.",
             "key_themes": [
-              "diesel cracks",
-              "LNG supply constraints",
-              "refining margins",
-              "Hormuz disruptions"
+              "refining disruption",
+              "geopolitical supply shock",
+              "margin strength"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 1
           },
           {
             "ticker": "SHEL",
             "company": "Shell plc",
             "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
+            "conviction": 81,
+            "rationale": "LNG supply competition and low European storage create premium pricing environment for LNG assets; strong winter demand outlook.",
             "key_themes": [
-              "LNG logistical disruption premium",
-              "diesel cracks",
-              "trading upside",
-              "supply squeeze"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "Exposed to elevated LNG and diesel pricing but limited direct Middle East operations reduce concentrated impact versus peers.",
-            "key_themes": [
-              "LNG global pricing",
-              "diesel cracks",
-              "geographic diversification"
+              "LNG premium pricing",
+              "storage shortage",
+              "winter demand"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 76,
+            "rationale": "European energy crisis with depleted gas stocks and LNG competition support higher prices for integrated oil and gas operations.",
+            "key_themes": [
+              "LNG demand surge",
+              "energy crisis",
+              "pricing power"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Global refining constraints and Russian crude premium premiums support upstream and midstream value creation.",
+            "key_themes": [
+              "refining disruption",
+              "crude premium",
+              "supply scarcity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
           }
         ],
-        "summary": "Escalating Middle East supply disruptions at Hormuz and Russian refinery attacks are driving record diesel cracks and unprecedented LNG cargo transfer logistics, creating near-term margin expansion opportunities for integrated energy majors and refiners. Downstream and trading operations are primary beneficiaries, though geopolitical risks remain elevated. Nuclear and renewable energy projects highlight ongoing sector energy transition pressures.",
+        "summary": "The petroleum and energy sector faces a structurally bullish environment driven by cascading supply disruptions: Middle East refinery damage, Russian export bans, Iranian blockades, and depleted European gas storage collectively create multi-year fuel and LNG price elevation. Integrated majors with refining and LNG exposure (SHEL, BP, XOM, CVX, TTE, COP) are positioned to benefit from margin expansion and premium pricing through 2027, though geopolitical and potential demand destruction risks persist.",
         "risks": [
-          "Hormuz crisis resolution reducing supply premium",
-          "escalation of regional conflict expanding supply disruptions",
-          "demand destruction from high energy prices",
-          "LNG cargo rerouting sustainability uncertain"
+          "Geopolitical escalation could disrupt additional supply or demand destruction could offset price support",
+          "Renewable energy expansion (noted in articles 4-6) represents long-term structural headwind to fossil fuel demand",
+          "Economic recession could severely dampen fuel and energy demand, undermining price assumptions"
         ],
         "sector_sentiment": "bullish",
         "verification": {
@@ -308,46 +253,42 @@
         }
       },
       "prices_snapshot": {
-        "BP": 44.470001220703125,
-        "CVX": 211.0500030517578,
-        "XOM": 164.5500030517578,
-        "SHEL": 93.51000213623047,
-        "TTE": 90.3499984741211
+        "XOM": 164.14999389648438,
+        "CVX": 211.77999877929688,
+        "BP": 43.93000030517578,
+        "SHEL": 92.80000305175781,
+        "TTE": 90.22000122070312,
+        "COP": 137.1999969482422
       },
       "spot_check": {
-        "title": "Qatar and UAE Turn to Rare LNG Ship Transfers as Hormuz Crisis Drags On",
-        "summary": "Three LNG carriers loaded from Qatar and the United Arab Emirates in the Persian Gulf have transferred their cargoes onto other vessels outside the Strait of Hormuz in the past month, a move that\u2019s highly unusual for LNG cargoes but one that could raise the crippled LNG shipments from the region. LNG traffic at the Strait of Hormuz nevertheless remains at a standstill, even though oil flows are\u00a0estimated to have rebounded in recent weeks. However, unlike crude oil, it\u2019s much more difficult to sh",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-and-UAE-Turn-to-Rare-LNG-Ship-Transfers-as-Hormuz-Crisis-Drags-On.html",
+        "title": "Global Refining Crunch Could Keep Fuel Prices High Into 2027",
+        "summary": "Damaged refineries in the Middle East and Russia and insufficient capacity elsewhere to offset the supply disruptions will likely keep global fuel prices elevated into the next year, analysts say. The Middle East conflict and the Iranian and Houthi strikes on Persian Gulf facilities have slashed supply and deliveries from the region, while intensified Ukrainian strikes on Russian refineries have prompted a ban on diesel exports out of Russia. As a result, the global fuel markets are tightening, ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Refining-Crunch-Could-Keep-Fuel-Prices-High-Into-2027.html",
         "source": "Oilprice",
-        "published": "02 Sep 2026",
+        "published": "03 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "SHEL",
-          "company": "Shell plc",
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
+          "conviction": 82,
+          "rationale": "Refining capacity crunch and elevated fuel prices through 2027 support downstream margins and profitability.",
           "key_themes": [
-            "LNG logistical disruption premium",
-            "diesel cracks",
-            "trading upside",
-            "supply squeeze"
+            "refining disruption",
+            "fuel price elevation",
+            "margin expansion"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            1,
-            2
-          ]
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Rare LNG ship transfers and record diesel cracks from Middle East crisis create significant trading and refining margin opportunities.",
+        "haiku_rationale": "Refining capacity crunch and elevated fuel prices through 2027 support downstream margins and profitability.",
         "haiku_themes": [
-          "LNG logistical disruption premium",
-          "diesel cracks",
-          "trading upside",
-          "supply squeeze"
+          "refining disruption",
+          "fuel price elevation",
+          "margin expansion"
         ]
       },
       "config": {
@@ -367,6 +308,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Employer Health Costs Are Expected to Spike in 2027",
+          "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
+          "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
+          "source": "Rss",
+          "published": "02 Sep 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
           "title": "C.D.C. Director Challenges Pennsylvania\u2019s Report of Two Measles Deaths",
           "summary": "Questioning a state\u2019s investigation is highly unusual for the public health agency, but reflects tensions between the Trump administration and many states over health issues.",
           "url": "https://www.nytimes.com/2026/08/31/health/measles-deaths-pennsylvania-schwartz-kennedy-shapiro.html",
@@ -383,33 +332,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Baby Goats From a Traveling Petting Zoo Test Positive for Rabies",
-          "summary": "Farm Adventures of Harmony, N.C., owned the goats, state health officials said. It was unclear how many people might have been exposed to them since late July.",
-          "url": "https://www.nytimes.com/2026/08/29/us/rabies-goats-petting-zoo-north-carolina.html",
-          "source": "Rss",
-          "published": "30 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/rising-stars-gaming-pharma-genentechs-tiffany-william-brings-fail-fast-learn-fast\" hreflang=\"en\">Rising Stars: Genentech\u2019s Tiffany William brings a 'fail fast, learn fast' marketing mentality</a>",
-          "summary": "After pivoting from mobile gaming marketing to pharma, Genentech performance marketing engagement lead Tiffany William is making performance marketing \"less daunting\" and \"more fun\" and approachable.",
-          "url": "https://www.fiercepharma.com/marketing/rising-stars-gaming-pharma-genentechs-tiffany-william-brings-fail-fast-learn-fast",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/arpa-h-puts-125m-bankroll-personalized-rna-based-drug-production\" hreflang=\"en\">ARPA-H puts up $125M to bankroll personalized RNA-based drug production</a>",
+          "summary": "RNA-based vaccines and therapeutics may have faced a bumpy road in the U.S. recently, but a major new federal investment proves the government is still betting big on its future.",
+          "url": "https://www.fiercepharma.com/pharma/arpa-h-puts-125m-bankroll-personalized-rna-based-drug-production",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: Another Tavneos domino falls as UK rescinds authorization</a>",
-          "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
-          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/novartis-telegraphs-130-job-cuts-amid-biologics-rethink-switzerland\" hreflang=\"en\">Novartis telegraphs 130 job cuts amid biologics rethink in Switzerland</a>",
+          "summary": "Novartis could cut about 130 jobs in Switzerland as it rethinks its biologics technical development and production footprint in Basel.",
+          "url": "https://www.fiercepharma.com/pharma/novartis-telegraphs-130-job-cuts-amid-biologics-rethink-switzerland",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bullish"
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/biotech/esc-alnylams-next-gen-silencer-sees-silver-linings-after-fallout-az-ionis-trial-flop-attr\" hreflang=\"en\">ESC: Alnylam's next-gen silencer sees silver linings after fallout of AZ, Ionis trial in ATTR-CM</a>",
-          "summary": "As AstraZeneca appears to close the book on a combo approach following the phase 3 failure of its Ionis-partnered Wainua, several analysts contend it\u2019s too early to count out Alnylam\u2019s silencing drugs in ATTR-CM patients also taking standard-of-care stabilizers.",
-          "url": "https://www.fiercepharma.com/biotech/esc-alnylams-next-gen-silencer-sees-silver-linings-after-fallout-az-ionis-trial-flop-attr",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/cellares-restructuring-rolls-new-jersey-amid-cell-therapy-client-loss\" hreflang=\"en\">Cellares downsizes New Jersey operations after losing BMS cell therapy contract</a>",
+          "summary": "After losing Bristol Myers Squibb as a client, Cellares continues to move forward with the right-sizing its CEO unveiled late last month.",
+          "url": "https://www.fiercepharma.com/pharma/cellares-restructuring-rolls-new-jersey-amid-cell-therapy-client-loss",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bearish"
@@ -418,57 +359,133 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
+            "rationale": "11% employer health cost spike in 2027 pressures insurers' medical loss ratios and margin compression",
             "key_themes": [
-              "oncology pricing",
-              "cancer drug market expansion"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Rabies exposure incident may drive diagnostic testing demand but impact is limited and temporary.",
-            "key_themes": [
-              "diagnostic testing demand",
-              "public health response"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Measles-related public health tensions could affect vaccine portfolio but regulatory clarity remains uncertain.",
-            "key_themes": [
-              "vaccine market",
-              "regulatory environment"
+              "rising healthcare costs",
+              "employer benefit pressure",
+              "margin headwinds"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "High cancer drug pricing trends ($480K/year) support premium pharmaceutical pricing power and revenue growth",
+            "key_themes": [
+              "cancer drug pricing inflation",
+              "oncology premium pricing",
+              "revenue expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Strong oncology portfolio positioned to capture rising cancer drug pricing trends and ARPA-H RNA drug development momentum",
+            "key_themes": [
+              "oncology pricing power",
+              "RNA therapeutics",
+              "biotech innovation"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ARPA-H RNA investment supportive long-term, but exposure unclear; CDC measles tensions create regulatory uncertainty",
+            "key_themes": [
+              "RNA therapeutics potential",
+              "regulatory uncertainty",
+              "vaccine concerns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Oncology benefits from pricing trends but diversified portfolio limits direct exposure to single trend",
+            "key_themes": [
+              "oncology pricing",
+              "portfolio diversity",
+              "macro headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Biologics rethink at Novartis signals industry restructuring; ABBV's cell therapy exposure limited",
+            "key_themes": [
+              "biologics consolidation",
+              "cell therapy headwinds",
+              "cost efficiency"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Cell therapy client losses and biologics restructuring create near-term headwinds for CDMO services",
+            "key_themes": [
+              "CDMO softness",
+              "cell therapy slowdown",
+              "biopharma consolidation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
           }
         ],
-        "summary": "Healthcare sector faces mixed signals with elevated oncology drug pricing supporting premium valuations for cancer-focused companies, particularly LLY. However, regulatory tensions between federal and state health authorities and recent clinical trial setbacks in specialty therapeutics (ATTR-CM) create near-term headwinds. Diagnostic and vaccine-related opportunities exist but appear limited in scope.",
+        "summary": "The healthcare sector faces a bifurcated outlook: while premium pharmaceutical pricing (especially oncology) benefits large-cap drugmakers like JNJ and LLY, payers face significant cost pressures with employer health benefits spiking 11% by 2027, pressuring UNH margins. Broader industry restructuring in biologics and cell therapy (Novartis, Cellares) signals consolidation headwinds, though ARPA-H's $125M RNA investment provides long-term tailwinds for innovation-focused pharma.",
         "risks": [
-          "escalating federal-state regulatory conflict affecting market access",
-          "clinical trial failures in high-value indications",
-          "pricing pressure from healthcare reform initiatives",
-          "public health crises creating liability exposure"
+          "Regulatory backlash on drug pricing could reverse premium pricing power",
+          "Economic slowdown reducing employer healthcare spending and offsetting cost inflation",
+          "Cell therapy disappointments could undermine RNA/biotech investment thesis",
+          "CDC/state tensions suggest potential healthcare policy disruption under Trump administration"
         ],
         "sector_sentiment": "neutral",
         "verification": {
@@ -478,37 +495,43 @@
         }
       },
       "prices_snapshot": {
-        "LLY": 1160.0,
-        "TMO": 600.5,
-        "MRK": 149.86000061035156
+        "UNH": 399.6600036621094,
+        "JNJ": 275.2099914550781,
+        "LLY": 1160.0799560546875,
+        "PFE": 29.020000457763672,
+        "MRK": 151.63999938964844,
+        "ABBV": 261.7200012207031,
+        "TMO": 608.5399780273438
       },
       "spot_check": {
-        "title": "C.D.C. Director Challenges Pennsylvania\u2019s Report of Two Measles Deaths",
-        "summary": "Questioning a state\u2019s investigation is highly unusual for the public health agency, but reflects tensions between the Trump administration and many states over health issues.",
-        "url": "https://www.nytimes.com/2026/08/31/health/measles-deaths-pennsylvania-schwartz-kennedy-shapiro.html",
+        "title": "Employer Health Costs Are Expected to Spike in 2027",
+        "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
+        "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
         "source": "Rss",
-        "published": "31 Aug 2026",
-        "sentiment_hint": "neutral",
+        "published": "02 Sep 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "bullish",
+          "ticker": "UNH",
+          "company": "UnitedHealth Group",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
+          "rationale": "11% employer health cost spike in 2027 pressures insurers' medical loss ratios and margin compression",
           "key_themes": [
-            "oncology pricing",
-            "cancer drug market expansion"
+            "rising healthcare costs",
+            "employer benefit pressure",
+            "margin headwinds"
           ],
-          "time_horizon": "long-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Cancer drug pricing inflation trend supports premium pricing power for oncology portfolio.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "11% employer health cost spike in 2027 pressures insurers' medical loss ratios and margin compression",
         "haiku_themes": [
-          "oncology pricing",
-          "cancer drug market expansion"
+          "rising healthcare costs",
+          "employer benefit pressure",
+          "margin headwinds"
         ]
       },
       "config": {
@@ -528,28 +551,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Chevron Expansion in Venezuela Extends U.S. Influence Over Oil Riches",
-          "summary": "The U.S. energy giant, which stayed in the country after other Western companies left, will invest $7 billion in the country to more than double its production there.",
-          "url": "https://www.nytimes.com/2026/09/02/business/energy-environment/chevron-venezuela-oil-trump.html",
+          "title": "Which Investors Will Get Rich From Anthropic\u2019s IPO?",
+          "summary": "When Anthropic goes public in a blockbuster offering, which investors will profit? The answer says a lot about how much start-up investing has changed over the years.",
+          "url": "https://www.nytimes.com/2026/09/03/technology/anthropic-ipo-investors-winners.html",
           "source": "Rss",
-          "published": "02 Sep 2026",
+          "published": "03 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Investors Still on Edge Over War, Debt and Inflation",
-          "summary": "U.S. and Iranian forces traded attacks again, pushing oil prices higher, stocks lower and making bond investors nervous.",
-          "url": "https://www.nytimes.com/2026/09/02/business/oil-bond-yields-iran.html",
+          "title": "Why the Courts Struggle to Tame Big Tech",
+          "summary": "After finding antitrust violations, federal courts have been reluctant to impose harsh sanctions. They fear meddling in markets where technology is racing ahead.",
+          "url": "https://www.nytimes.com/2026/09/03/business/google-antitrust-ad-tech-remedies-analysis.html",
           "source": "Rss",
-          "published": "02 Sep 2026",
-          "sentiment_hint": "bullish"
+          "published": "03 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Employer Health Costs Are Expected to Spike in 2027",
-          "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
-          "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
+          "title": "Trump Puts Tariffs of Up to 100% on Foreign-Made Drones",
+          "summary": "In addition, the F.C.C. is weighing stiff restrictions on common drone technology such as thermal imaging and aerosol spraying.",
+          "url": "https://www.nytimes.com/2026/09/03/business/trump-drone-tariffs.html",
           "source": "Rss",
-          "published": "02 Sep 2026",
-          "sentiment_hint": "bearish"
+          "published": "03 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -582,169 +605,102 @@
             "ticker": "JPM",
             "company": "JPMorgan Chase",
             "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Geopolitical tensions and inflation concerns create mixed headwinds; rising healthcare costs may pressure corporate clients.",
+            "conviction": 45,
+            "rationale": "Investment banking revenues may benefit from Anthropic IPO activity, but AI sector volatility creates uncertainty for trading desks.",
             "key_themes": [
-              "geopolitical risk",
-              "inflation pressure",
-              "healthcare cost spikes"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "Market volatility and risk-off sentiment pressure valuations; elevated healthcare costs increase operational expense pressure.",
-            "key_themes": [
+              "IPO pipeline",
               "market volatility",
-              "risk-off sentiment",
-              "cost inflation"
+              "trading revenue"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3,
-              4
-            ]
+            "verified": false,
+            "verification_issue": "Rationale references Anthropic IPO benefits and AI sector volatility. Article [1] mentions Anthropic IPO but provides no detail on investment banking revenues or underwriting activity. Article [4] confirms AI sector volatility (Nasdaq down, Nvidia -16%) but does not connect this to JPMorgan Chase trading desk impacts. No article discusses JPM's specific exposure or role.",
+            "supporting_article": null
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Potential advisory fees from Anthropic IPO offset by AI sector selloff impacting investment banking pipeline and market sentiment.",
             "key_themes": [
-              "equity market weakness",
-              "geopolitical risk",
-              "dealmaking pressure"
+              "IPO advisory",
+              "tech sector weakness",
+              "capital markets"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": "M&A activity reduction implied but not explicitly stated in articles",
-            "supporting_article": [
-              2,
-              4
-            ]
+            "verified": false,
+            "verification_issue": "Rationale claims 'advisory fees from Anthropic IPO' but Article [1] only mentions that Anthropic will have an IPO without identifying Goldman Sachs as an advisor or discussing advisory fees. Article [4] confirms AI sector selloff impacting infrastructure makers, but no article connects this to Goldman Sachs' investment banking pipeline or advisory business specifically.",
+            "supporting_article": null
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
-            "sentiment": "bearish",
-            "conviction": 60,
-            "rationale": "Tech sector rout and market risk-off reduce wealth management and trading revenues; equities declining sharply.",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "IPO underwriting opportunities from Anthropic limited by broader AI sector rout reducing deal momentum and valuations.",
             "key_themes": [
-              "tech sector decline",
-              "market volatility",
-              "risk appetite reduction"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": "Tech sector rout is clear, but connection to wealth management/trading revenue impact not explicitly supported",
-            "supporting_article": [
-              4
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 58,
-            "rationale": "Market-wide sell-off and geopolitical tensions reduce consumer spending and payment transaction volumes near-term.",
-            "key_themes": [
-              "market volatility",
-              "consumer spending pressure",
-              "risk-off sentiment"
+              "IPO underwriting",
+              "AI correction",
+              "equity markets"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "No source article discusses consumer spending or payment transaction volume impacts; market decline alone does not directly support payment processor weakness",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 57,
-            "rationale": "Broad equity decline and elevated uncertainty dampen consumer activity; healthcare cost spikes may reduce discretionary spending.",
-            "key_themes": [
-              "market weakness",
-              "consumer headwinds",
-              "healthcare cost pressure"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "No source article discusses consumer spending or payment transaction volume impacts; healthcare cost spike connection to discretionary spending is speculative",
+            "verification_issue": "Rationale claims 'IPO underwriting opportunities from Anthropic' but Article [1] does not identify Morgan Stanley as an underwriter or discuss underwriting arrangements. Article [4] confirms the AI sector rout and broad market weakness, but does not specifically address Morgan Stanley's underwriting pipeline or deal momentum for this firm.",
             "supporting_article": null
           }
         ],
-        "summary": "Financial services and payment processors face near-term headwinds from broad market volatility sparked by geopolitical tensions, AI sector concerns, and anticipated healthcare cost inflation. Banks face pressure from reduced M&A and trading activity, while payment networks suffer from consumer spending uncertainty. The risk-off sentiment and market selloff create challenging near-term conditions for the sector.",
+        "summary": "Finance sector faces mixed signals as Anthropic's blockbuster IPO (article 1) could generate investment banking fees, but is overshadowed by a broad AI sector selloff triggered by DeepSeek (article 4). Banks' trading and advisory revenues face near-term pressure from market volatility, though the IPO pipeline provides some offsetting opportunity. Regulatory headwinds in tech (articles 2-3) add uncertainty to the financial system's exposure to mega-cap technology clients.",
         "risks": [
-          "Escalating U.S.-Iran military conflict driving further risk-off",
-          "Healthcare cost spike reducing consumer discretionary spending and bank lending demand",
-          "Continued tech sector weakness impacting financial markets liquidity",
-          "Sustained equity market volatility eroding wealth management revenues"
+          "Continued AI sector selloff reducing IPO appetite and valuations",
+          "Tech regulatory escalation impacting client profitability and M&A activity",
+          "Market volatility and credit stress from concentrated tech exposure"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "Payment processor signals (V, MA) lack direct grounding in source articles regarding consumer spending impacts",
-            "Goldman Sachs M&A weakness rationale is inferred rather than directly supported",
-            "Morgan Stanley wealth management/trading revenue impact is implied but not explicitly stated in sources"
+            "All three signals make assumptions about specific investment banking roles (advisory, underwriting) for JPM, GS, and MS that are not substantiated in source articles",
+            "Signals conflate general market conditions (AI sector selloff from DeepSeek) with firm-specific revenue impacts without supporting evidence",
+            "Anthropic IPO mentioned in Article [1] but no details provided on which banks are involved or timeline, making banker-specific signals speculative"
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JPM": 354.95001220703125,
-        "BAC": 61.9900016784668,
-        "GS": 1002.5599975585938,
-        "MS": 211.0399932861328,
-        "V": 372.6700134277344,
-        "MA": 581.0999755859375
+        "JPM": 356.2200012207031,
+        "GS": 1004.4199829101562,
+        "MS": 211.82000732421875
       },
       "spot_check": {
-        "title": "Employer Health Costs Are Expected to Spike in 2027",
-        "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
-        "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
+        "title": "Which Investors Will Get Rich From Anthropic\u2019s IPO?",
+        "summary": "When Anthropic goes public in a blockbuster offering, which investors will profit? The answer says a lot about how much start-up investing has changed over the years.",
+        "url": "https://www.nytimes.com/2026/09/03/technology/anthropic-ipo-investors-winners.html",
         "source": "Rss",
-        "published": "02 Sep 2026",
-        "sentiment_hint": "bearish",
+        "published": "03 Sep 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "GS",
           "company": "Goldman Sachs",
-          "sentiment": "bearish",
-          "conviction": 62,
-          "rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
+          "sentiment": "neutral",
+          "conviction": 48,
+          "rationale": "Potential advisory fees from Anthropic IPO offset by AI sector selloff impacting investment banking pipeline and market sentiment.",
           "key_themes": [
-            "equity market weakness",
-            "geopolitical risk",
-            "dealmaking pressure"
+            "IPO advisory",
+            "tech sector weakness",
+            "capital markets"
           ],
           "time_horizon": "short-term",
-          "verified": true,
-          "verification_issue": "M&A activity reduction implied but not explicitly stated in articles",
-          "supporting_article": [
-            2,
-            4
-          ]
+          "verified": false,
+          "verification_issue": "Rationale claims 'advisory fees from Anthropic IPO' but Article [1] only mentions that Anthropic will have an IPO without identifying Goldman Sachs as an advisor or discussing advisory fees. Article [4] confirms AI sector selloff impacting infrastructure makers, but no article connects this to Goldman Sachs' investment banking pipeline or advisory business specifically.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Broad equity market decline and geopolitical tensions reduce M&A and trading activity prospects in near term.",
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "Potential advisory fees from Anthropic IPO offset by AI sector selloff impacting investment banking pipeline and market sentiment.",
         "haiku_themes": [
-          "equity market weakness",
-          "geopolitical risk",
-          "dealmaking pressure"
+          "IPO advisory",
+          "tech sector weakness",
+          "capital markets"
         ]
       },
       "config": {
