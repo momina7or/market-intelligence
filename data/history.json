@@ -16220,5 +16220,291 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-09-04",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Jackdaw North Sea gas field approval imminent; strong tailwind from elevated energy prices and UK supply constraints.",
+            "key_themes": [
+              "North Sea gas development",
+              "high energy prices",
+              "regulatory approval"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses Jackdaw approval but does NOT name Shell as the operator. The article is incomplete (summary cuts off mid-sentence) and provides no information about which company operates Jackdaw. Rationale assumes Shell involvement without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Potential Falklands oil drilling sanctions on competitors; strong diesel price environment supports upstream economics.",
+            "key_themes": [
+              "high fuel prices",
+              "geopolitical advantage",
+              "upstream profitability"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses Argentina's threats to sanction Falklands oil drillers but does NOT identify BP as a driller or suggest BP has competitive advantage. Rationale claims 'geopolitical advantage' against competitors but no article establishes BP's specific position in Falklands drilling.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Record U.S. diesel prices at $5.82/gallon create exceptional refining margins and upstream cash generation opportunity.",
+            "key_themes": [
+              "record fuel prices",
+              "refining strength",
+              "cash flow generation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "All-time high diesel prices drive strong refining and upstream margins; global fuel squeeze supports pricing power.",
+            "key_themes": [
+              "record fuel prices",
+              "global supply tightness",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Benefits from high oil/gas prices but no direct exposure to Jackdaw or Falklands developments mentioned in articles.",
+            "key_themes": [
+              "elevated commodity prices"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 92.33000183105469,
+          "BP": 43.58000183105469,
+          "XOM": 162.2100067138672,
+          "CVX": 211.32000732421875,
+          "COP": 135.72000122070312
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Psilocybin research advancing to clinical trials presents new therapeutic development opportunity in neuroprotection.",
+            "key_themes": [
+              "oncology innovation",
+              "neuroprotection",
+              "clinical trial pipeline"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses psilocybin research but does not mention Eli Lilly as the conducting organization or beneficiary. No connection established between the psilocybin study and LLY.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "11% employer health cost spike in 2027 pressures insurers' medical loss ratios and margin expansion prospects.",
+            "key_themes": [
+              "rising healthcare costs",
+              "margin compression",
+              "employer benefits"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Fresenius manufacturing issues signal broader quality control challenges; TMO benefits if market consolidates around reliable providers.",
+            "key_themes": [
+              "manufacturing quality",
+              "competitive positioning",
+              "regulatory compliance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [4] discusses Fresenius manufacturing issues, not Thermo Fisher Scientific. While the rationale speculates TMO could benefit from market consolidation, this is inferential rather than grounded in the source material, which contains no mention of TMO or competitive positioning dynamics.",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 38,
+            "rationale": "Articles lack direct relevance; diversified healthcare conglomerate insulated from specific therapeutic or cost trends discussed.",
+            "key_themes": [
+              "sector exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1159.5999755859375,
+          "UNH": 400.94000244140625,
+          "TMO": 618.4299926757812,
+          "JNJ": 278.42999267578125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Jobs report volatility may influence bond markets and trading volumes, creating mixed near-term dynamics for investment banking.",
+            "key_themes": [
+              "jobs report",
+              "bond market volatility",
+              "trading activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Economic data sensitivity through jobs report could impact lending spreads and capital markets activity unpredictably.",
+            "key_themes": [
+              "jobs report",
+              "economic data",
+              "capital markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Market volatility from tech selloff may increase trading activity but broader economic uncertainty limits upside visibility.",
+            "key_themes": [
+              "market volatility",
+              "trading opportunity",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 47,
+            "rationale": "Current market turbulence creates near-term trading opportunities but broader macro uncertainty tempers conviction.",
+            "key_themes": [
+              "market volatility",
+              "trading activity",
+              "macro uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Broad market decline may pressure consumer spending and payment volumes near-term despite long-term secular tailwinds.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending pressure",
+              "payment volumes"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims market decline will pressure consumer spending and payment volumes, but source articles do not establish this causal link or discuss payment processor impacts from the tech selloff",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Market rout and economic uncertainty could dampen transaction volumes and consumer activity in near-term.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending",
+              "transaction volumes"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims market rout will dampen transaction volumes and consumer activity, but source articles do not establish this connection or discuss payment processor impacts",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 362.05999755859375,
+          "BAC": 63.040000915527344,
+          "GS": 1037.9300537109375,
+          "MS": 217.14999389648438,
+          "V": 378.75,
+          "MA": 585.7100219726562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
