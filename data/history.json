@@ -16506,5 +16506,399 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-07",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+            "key_themes": [
+              "supply chain pressure",
+              "memory cost inflation",
+              "pricing power limits"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT integration into search patterns demonstrates AI-driven content discovery creating organic traffic value for Google properties.",
+            "key_themes": [
+              "AI integration",
+              "search relevance",
+              "organic traffic monetization"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content, not Google/Alphabet properties. The rationale claims this demonstrates value for 'Google properties' but the source shows ChatGPT (OpenAI competitor) as the discovery mechanism. No evidence that this benefits Alphabet or Google search.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TSM",
+            "company": "Taiwan Semiconductor Manufacturing Company",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Memory cost inflation and supply chain pressures signal potential margin compression for semiconductor manufacturers in near-term.",
+            "key_themes": [
+              "commodity pricing pressure",
+              "supply chain stress",
+              "margin headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 319.9700012207031,
+          "GOOGL": 338.4599914550781,
+          "TSM": 428.9100036621094
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk premium",
+              "refining margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Escalating Middle East tensions and Strait of Hormuz shipping risks elevate crude valuations, supporting upstream cash flows for major producers.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical premium",
+              "upstream economics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Red Sea refinery attacks and Iranian corridor control disputes tighten global oil supply, benefiting integrated majors with diversified production.",
+            "key_themes": [
+              "supply tightness",
+              "refining upside",
+              "geopolitical volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 78,
+            "rationale": "Crude prices surging past $100/bbl amid Middle East instability directly supports Shell's integrated upstream and downstream operations.",
+            "key_themes": [
+              "price strength",
+              "refining margin uplift",
+              "supply disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 76,
+            "rationale": "Houthi refinery attacks and Iran shipping corridor restrictions create sustained crude supply concerns supporting $100+ pricing benefiting producers.",
+            "key_themes": [
+              "supply constraints",
+              "price support",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 79,
+            "rationale": "Escalating Middle East geopolitical tensions and refining disruptions push crude above $100/bbl, strengthening cash generation for independent upstream producer.",
+            "key_themes": [
+              "crude pricing strength",
+              "geopolitical premium",
+              "upstream upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 159.47000122070312,
+          "CVX": 208.60000610351562,
+          "BP": 43.810001373291016,
+          "SHEL": 92.94999694824219,
+          "TTE": 88.58999633789062,
+          "COP": 134.25999450683594
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
+            "key_themes": [
+              "regulatory risk",
+              "vaccine scrutiny",
+              "political pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "COVID vaccine program faces similar political and regulatory challenges from RFK Jr. administration's investigation into immunization safety claims.",
+            "key_themes": [
+              "vaccine risk",
+              "regulatory pressure",
+              "political headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale assumes JNJ has COVID vaccine program; articles mention investigation but don't specifically name JNJ as a COVID vaccine manufacturer under scrutiny",
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Indirect exposure to vaccine scrutiny, but pipeline focus on oncology and infectious disease provides diversification from COVID-related risks.",
+            "key_themes": [
+              "vaccine concerns",
+              "diversified portfolio"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No source articles mention Merck's vaccine programs or oncology/infectious disease pipeline focus. Rationale assumes facts not present in sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Limited direct exposure to vaccine program; primarily impacted by broader pharma sector sentiment but protected by metabolic disease and oncology focus.",
+            "key_themes": [
+              "sector headwinds",
+              "portfolio diversification"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "No source articles mention Eli Lilly's vaccine exposure, metabolic disease focus, or oncology pipeline. Rationale is based on external knowledge not grounded in provided sources.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 28.450000762939453,
+          "JNJ": 275.2300109863281,
+          "MRK": 150.3300018310547,
+          "LLY": 1149.3599853515625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
+            "key_themes": [
+              "market volatility",
+              "trading activity",
+              "investment banking"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Broad market selloff and heightened uncertainty drive wealth management advisory demand and volatility-driven trading spreads for large banks.",
+            "key_themes": [
+              "market volatility",
+              "advisory services",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "AI sector turmoil creates significant M&A and restructuring advisory opportunities for investment banks during market dislocations.",
+            "key_themes": [
+              "M&A activity",
+              "advisory fees",
+              "market dislocation"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims AI sector turmoil creates M&A and restructuring opportunities, but source articles do not discuss M&A activity or advisory opportunities resulting from the DeepSeek-driven selloff. Article [6] argues panic is overblown but doesn't mention M&A activity.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley Inc.",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Market selloff and geopolitical tensions drive institutional client trading activity and wealth management fee generation for diversified banks.",
+            "key_themes": [
+              "trading volumes",
+              "institutional demand",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; broader market decline may temporarily pressure payment volumes, but long-term secular trends remain intact.",
+            "key_themes": [
+              "market weakness",
+              "volume uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' which is accurate, but the claim that 'broader market decline may temporarily pressure payment volumes' lacks evidentiary support in sources. The sources show market declines but provide no data on payment volumes or consumer spending impact.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; payment processor exposed to near-term volume volatility from market selloff but fundamentals unchanged.",
+            "key_themes": [
+              "market weakness",
+              "volume uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' which is accurate, but the claim that payment processor is 'exposed to near-term volume volatility from market selloff' lacks evidentiary support in sources. No article discusses impact on payment volumes or consumer transaction activity.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 358.6400146484375,
+          "BAC": 62.68000030517578,
+          "GS": 1038.6099853515625,
+          "MS": 217.72000122070312,
+          "V": 375.07000732421875,
+          "MA": 579.2100219726562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      }
+    }
   }
 ]

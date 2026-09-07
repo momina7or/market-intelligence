@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-04",
-  "run_time": "2026-09-04T11:58:29.696339Z",
+  "run_date": "2026-09-07",
+  "run_time": "2026-09-07T13:16:38.358780Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,37 +29,103 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Why AI food looks like that",
-          "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. There's also construction material masquerading as ice cream, ice cream masquerading [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+          "title": "Why the iPhone is about to get more expensive",
+          "summary": "When Apple debuts the next generation of iPhones this week, they're likely to come with an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the clearest sign yet that soaring memory costs have become unavoidable - with no end to the memory crunch in sight. Call it \"chipflation\" [&#8230;]",
+          "url": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone",
           "source": "Theverge",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Microsoft\u2019s Project Zenith is a \u2018distraction-free Windows experience\u2019 for developers",
-          "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memory. \"Project Zenith devices come with a preconfigured Windows setup for development and a [&#8230;]",
-          "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+          "title": "Bentley\u2019s Torcal EV tries to balance authenticity with fake V8 sounds",
+          "summary": "Thanks to their ability to provide a smooth ride and quiet powertrain with ease, electric vehicles are a true shoo-in for the high-end luxury automotive segment. Rolls-Royce has the Spectre, Cadillac's Celestiq is taking bespoke to a whole new level, and Mercedes has given the EQS the full Maybach treatment. From Volkswagen Auto Group, Bentley [&#8230;]",
+          "url": "https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8",
           "source": "Theverge",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that\u2019s locked out paying users",
-          "summary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "title": "Huawei copies Samsung\u2019s privacy display in its latest trifold",
+          "summary": "Huawei has released its third trifold phone in China, and the company has clearly had half an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form factor used on Samsung's Galaxy Z TriFold, it's also the first foldable to include a privacy-enhancing display, much like the one Samsung [&#8230;]",
+          "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display",
           "source": "Theverge",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"MSFT\",\n      \"company\": \"Microsoft Corporation\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 72,\n      \"rationale\": \"Project Zenith demonstrates continued developer-focused innovation and platform differentiation in AI-era computing.\",\n      \"key_themes\": [\"developer tools\", \"AI infrastructure\", \"Windows optimization\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"GOOGL\",\n      \"company\": Alphabet Inc.\",\n      \"sentiment\": \"bulli",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+            "key_themes": [
+              "supply chain pressure",
+              "memory cost inflation",
+              "pricing power limits"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT integration into search patterns demonstrates AI-driven content discovery creating organic traffic value for Google properties.",
+            "key_themes": [
+              "AI integration",
+              "search relevance",
+              "organic traffic monetization"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content, not Google/Alphabet properties. The rationale claims this demonstrates value for 'Google properties' but the source shows ChatGPT (OpenAI competitor) as the discovery mechanism. No evidence that this benefits Alphabet or Google search.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TSM",
+            "company": "Taiwan Semiconductor Manufacturing Company",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Memory cost inflation and supply chain pressures signal potential margin compression for semiconductor manufacturers in near-term.",
+            "key_themes": [
+              "commodity pricing pressure",
+              "supply chain stress",
+              "margin headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "summary": "The technology sector faces near-term headwinds from rising memory costs and supply chain inflation, evidenced by Apple's pending iPhone price increases and semiconductor cost pressures. However, AI integration into mainstream applications (ChatGPT search influence, content creation tools) presents medium to long-term growth opportunities for platforms controlling AI distribution and search relevance.",
+        "risks": [
+          "sustained memory price inflation reducing device profitability",
+          "consumer demand elasticity to price increases",
+          "competitive AI fragmentation limiting platform consolidation",
+          "geopolitical semiconductor supply constraints"
+        ],
+        "sector_sentiment": "neutral",
+        "verification": {
+          "overall_reliability": "medium",
+          "flags": [
+            "GOOGL signal misattributes ChatGPT traffic benefits to Google/Alphabet rather than OpenAI",
+            "GOOGL rationale claims 'Google properties' benefit but source article discusses ChatGPT as the AI discovery tool, which is a competitor to Google's search"
+          ],
+          "ungrounded_count": 1
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "AAPL": 319.9700012207031,
+        "GOOGL": 338.4599914550781,
+        "TSM": 428.9100036621094
+      },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
         "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
@@ -67,10 +133,29 @@
         "source": "Feedburner",
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "related_signal": {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "sentiment": "bearish",
+          "conviction": 72,
+          "rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+          "key_themes": [
+            "supply chain pressure",
+            "memory cost inflation",
+            "pricing power limits"
+          ],
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 4
+        },
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+        "haiku_themes": [
+          "supply chain pressure",
+          "memory cost inflation",
+          "pricing power limits"
+        ]
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -89,189 +174,232 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "U.S. Diesel Prices Hit All-Time High as Global Fuel Squeeze Deepens",
-          "summary": "The average U.S. diesel price hit a record high late on Thursday, exceeding the previous record from 2022, as the Middle East crisis tightened global fuel markets and sent prices soaring this summer. As of Thursday afternoon, the live U.S. national average price of diesel set a new record at $5.820 per gallon, according to GasBuddy data. \u00a0 This average price has now surpassed the previous daily $5.819 per gallon all-time high that occurred June 17, 2022, Patrick De Haan, head of petroleum analys",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Hit-All-Time-High-as-Global-Fuel-Squeeze-Deepens.html",
+          "title": "Saudi Aramco's Jizan Refinery Hit Again as Houthi Attacks Escalate",
+          "summary": "Saudi Aramco's 400,000-barrel-per-day Jizan refinery was hit in a new attack Monday, threatening a major Red Sea refining hub while Saudi Arabia is moving more oil west to avoid the Strait of Hormuz. The Financial Times reported that the facilities in southwestern Saudi Arabia were hit Monday, citing two people with knowledge of the incident. One described the strike as similar in scale to an attack last month that temporarily disrupted operations. Aramco has not yet commented on the latest dama",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Jizan-Refinery-Hit-Again-as-Houthi-Attacks-Escalate.html",
           "source": "Oilprice",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Argentina Targets Falklands Oil Drillers With Tougher Sanctions",
-          "summary": "Argentina\u2019s President Javier Milei threatened to impose sanctions on oil companies drilling near the Falkland Islands, after reiterating his claim that the territory under British control is Argentine. The Falklands are \u201chistorically and legally\u201d Argentine, Milei said in a televised address, apparently emboldened by the recent hints from U.S. President Donald Trump that the U.S. could review its neutrality on the issue and may not back the UK in the Falklands dispute because of the lack of UK su",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Targets-Falklands-Oil-Drillers-With-Tougher-Sanctions.html",
+          "title": "Iran Says It Will Control New Hormuz Shipping Corridor",
+          "summary": "Iran said Monday that it is preparing to sign an agreement with Oman establishing a new shipping corridor through the Strait of Hormuz under Iranian control, with vessels required to coordinate with Tehran to enter a new restricted maritime zone around the critical oil chokepoint. Mohsen Rezaei, secretary of Iran\u2019s Supreme National Security Council, said the restricted zone would extend from the U.S. naval blockade line through Hormuz and into the Persian Gulf. Ships entering the zone to transit",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-It-Will-Control-New-Hormuz-Shipping-Corridor.html",
           "source": "Oilprice",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "UK Poised to Approve Jackdaw Gas Field as Energy Costs Soar",
-          "summary": "Prime Minister Andy Burnham is expected to approve the development of the Jackdaw natural gas field in the North Sea before the end of the month, the BBC reported, citing unnamed sources. The Jackdaw project, along with Rosebank, was initially approved for development several years ago, but environmentalists sued and overturned the approval on the grounds that the effects of that development on the climate were not considered. However, now that oil and gas prices are soaring and the UK\u2019s depende",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Poised-to-Approve-Jackdaw-Gas-Field-as-Energy-Costs-Soar.html",
+          "title": "India\u2019s Crude Oil Benchmark Tops $100 as Middle East War Escalates",
+          "summary": "India\u2019s average crude import price soared to above $100 per barrel at the end of last week and is set to further rise this week as international crude prices rallied amid intensified hostilities in the Middle East. The so-called Crude Oil FOB Price, or the Indian Basket of average sweet and sour grades, surged to $101.07 per barrel on Friday, topping the $ 100-a-barrel threshold for the first time since May, data by the Indian Oil Ministry\u2019s Petroleum Planning and Analysis Cell (PPAC) showed. Th",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Benchmark-Tops-100-as-Middle-East-War-Escalates.html",
           "source": "Oilprice",
-          "published": "04 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "07 Sep 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "Work begins on $1bn Southwest Intertie Project-North in US",
-          "summary": "Great Basin Transmission has started construction on the Southwest Intertie Project-North (SWIP-North), a 285-mile, 500kV transmission line.",
-          "url": "https://www.energymonitor.ai/news/work-starts-swip-north/",
+          "title": "Enersense to manage O&M services for 101MW Eurajoki Solar Park",
+          "summary": "Enersense has agreed to provide operations and maintenance (O&amp;M) services for Alight\u2019s 101MW Eurajoki Solar Park in Luvia, Finland.",
+          "url": "https://www.energymonitor.ai/news/enersense-om-eurajoki-solar-park/",
           "source": "Energymonitor",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "India\u2019s TNPGCL commissions unit one of Udangudi thermal plant",
+          "summary": "Tamil Nadu Power Generation Corporation Limited (TNPGCL) has brought Unit 1 of the Udangudi Supercritical Thermal Power Plant in Thoothukudi, Tamil Nadu, into commercial operation, following a successful mandatory 72-hour full-load trial run.",
+          "url": "https://www.energymonitor.ai/news/tnpgcl-commissions-unit-1-udangudi-thermal-plant/",
+          "source": "Energymonitor",
+          "published": "07 Sep 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "MN8, Google and Eos launch clean energy project in West Virginia",
-          "summary": "MN8, Eos and Google have announced a joint project in West Virginia, US, that aims to deliver new clean energy resources to the PJM grid.",
-          "url": "https://www.energymonitor.ai/news/mn8-google-eos-clean-energy/",
+          "title": "Europe\u2019s electrification target needs 50GW of new nuclear capacity",
+          "summary": "Europe will need roughly 60 new large-reactor or SMR projects to enter planning and development over the next four years.",
+          "url": "https://www.energymonitor.ai/comment/europe-nuclear-capacity/",
           "source": "Energymonitor",
-          "published": "03 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Heerema finalises offshore foundation work at Ba\u0142tyk 2 and 3 projects",
-          "summary": "Heerema has finished installing 100 wind turbine foundations and two substation jackets for the Ba\u0142tyk 2 and 3 offshore wind farms in Poland.",
-          "url": "https://www.energymonitor.ai/news/heerema-foundation-work-baltyk-2-3/",
-          "source": "Energymonitor",
-          "published": "03 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "SHEL",
-            "company": "Shell plc",
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
             "conviction": 82,
-            "rationale": "Jackdaw North Sea gas field approval imminent; strong tailwind from elevated energy prices and UK supply constraints.",
+            "rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
             "key_themes": [
-              "North Sea gas development",
-              "high energy prices",
-              "regulatory approval"
+              "supply disruption",
+              "geopolitical risk premium",
+              "refining margins"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] discusses Jackdaw approval but does NOT name Shell as the operator. The article is incomplete (summary cuts off mid-sentence) and provides no information about which company operates Jackdaw. Rationale assumes Shell involvement without source support.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Escalating Middle East tensions and Strait of Hormuz shipping risks elevate crude valuations, supporting upstream cash flows for major producers.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical premium",
+              "upstream economics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
           },
           {
             "ticker": "BP",
             "company": "BP plc",
             "sentiment": "bullish",
             "conviction": 75,
-            "rationale": "Potential Falklands oil drilling sanctions on competitors; strong diesel price environment supports upstream economics.",
+            "rationale": "Red Sea refinery attacks and Iranian corridor control disputes tighten global oil supply, benefiting integrated majors with diversified production.",
             "key_themes": [
-              "high fuel prices",
-              "geopolitical advantage",
-              "upstream profitability"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article [2] discusses Argentina's threats to sanction Falklands oil drillers but does NOT identify BP as a driller or suggest BP has competitive advantage. Rationale claims 'geopolitical advantage' against competitors but no article establishes BP's specific position in Falklands drilling.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "XOM",
-            "company": "ExxonMobil",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Record U.S. diesel prices at $5.82/gallon create exceptional refining margins and upstream cash generation opportunity.",
-            "key_themes": [
-              "record fuel prices",
-              "refining strength",
-              "cash flow generation"
+              "supply tightness",
+              "refining upside",
+              "geopolitical volatility"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
           },
           {
-            "ticker": "CVX",
-            "company": "Chevron",
+            "ticker": "SHEL",
+            "company": "Shell plc",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "All-time high diesel prices drive strong refining and upstream margins; global fuel squeeze supports pricing power.",
+            "conviction": 78,
+            "rationale": "Crude prices surging past $100/bbl amid Middle East instability directly supports Shell's integrated upstream and downstream operations.",
             "key_themes": [
-              "record fuel prices",
-              "global supply tightness",
-              "margin expansion"
+              "price strength",
+              "refining margin uplift",
+              "supply disruption"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 76,
+            "rationale": "Houthi refinery attacks and Iran shipping corridor restrictions create sustained crude supply concerns supporting $100+ pricing benefiting producers.",
+            "key_themes": [
+              "supply constraints",
+              "price support",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Benefits from high oil/gas prices but no direct exposure to Jackdaw or Falklands developments mentioned in articles.",
+            "sentiment": "bullish",
+            "conviction": 79,
+            "rationale": "Escalating Middle East geopolitical tensions and refining disruptions push crude above $100/bbl, strengthening cash generation for independent upstream producer.",
             "key_themes": [
-              "elevated commodity prices"
+              "crude pricing strength",
+              "geopolitical premium",
+              "upstream upside"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
           }
         ],
-        "summary": "The petroleum sector faces a bullish short-term backdrop driven by record U.S. diesel prices ($5.82/gallon, all-time high) and Middle East geopolitical tensions tightening global fuel markets. UK regulatory approval of the Jackdaw North Sea gas field and potential Falklands geopolitical shifts create upside for integrated majors with North Sea and exploration exposure. However, the sector faces long-term headwinds from accelerating clean energy transition (SWIP transmission, offshore wind projects), which will gradually pressure demand and valuations.",
+        "summary": "Middle East geopolitical escalation\u2014including Houthi attacks on Saudi refining capacity and Iran's control of new Hormuz shipping corridors\u2014is driving crude prices above $100/bbl for the first time in months. Major integrated and independent oil producers benefit significantly from tighter supply, elevated risk premiums, and strengthening refining margins in this environment. However, sustained supply disruptions and potential shipping corridor restrictions pose operational and logistical risks to global energy markets.",
         "risks": [
-          "Demand destruction if elevated fuel prices persist, triggering economic slowdown or fuel switching",
-          "Accelerating energy transition and clean energy competition eroding long-term hydrocarbon demand",
-          "Geopolitical escalation in Middle East or Falklands could destabilize markets or trigger supply disruptions",
-          "Regulatory and ESG pressures potentially delaying or cancelling offshore development projects"
+          "Military escalation or ceasefire could rapidly reverse geopolitical risk premium and crude valuations",
+          "Actual supply disruptions beyond Jizan refinery could trigger demand destruction offsetting price gains",
+          "Iran corridor restrictions may face international opposition, limiting practical enforcement and price impact longevity",
+          "Shipping insurance costs and rerouting add margin pressure despite higher nominal crude prices"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "SHEL rationale assumes Shell operates Jackdaw without article confirmation of operator identity",
-            "BP rationale claims 'geopolitical advantage' from Falklands sanctions without establishing BP's actual involvement or competitive positioning",
-            "Two of five signals (40%) contain unsupported company-specific claims beyond what articles establish"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "SHEL": 92.33000183105469,
-        "BP": 43.58000183105469,
-        "XOM": 162.2100067138672,
-        "CVX": 211.32000732421875,
-        "COP": 135.72000122070312
+        "XOM": 159.47000122070312,
+        "CVX": 208.60000610351562,
+        "BP": 43.810001373291016,
+        "SHEL": 92.94999694824219,
+        "TTE": 88.58999633789062,
+        "COP": 134.25999450683594
       },
       "spot_check": {
-        "title": "U.S. Diesel Prices Hit All-Time High as Global Fuel Squeeze Deepens",
-        "summary": "The average U.S. diesel price hit a record high late on Thursday, exceeding the previous record from 2022, as the Middle East crisis tightened global fuel markets and sent prices soaring this summer. As of Thursday afternoon, the live U.S. national average price of diesel set a new record at $5.820 per gallon, according to GasBuddy data. \u00a0 This average price has now surpassed the previous daily $5.819 per gallon all-time high that occurred June 17, 2022, Patrick De Haan, head of petroleum analys",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Hit-All-Time-High-as-Global-Fuel-Squeeze-Deepens.html",
+        "title": "Saudi Aramco's Jizan Refinery Hit Again as Houthi Attacks Escalate",
+        "summary": "Saudi Aramco's 400,000-barrel-per-day Jizan refinery was hit in a new attack Monday, threatening a major Red Sea refining hub while Saudi Arabia is moving more oil west to avoid the Strait of Hormuz. The Financial Times reported that the facilities in southwestern Saudi Arabia were hit Monday, citing two people with knowledge of the incident. One described the strike as similar in scale to an attack last month that temporarily disrupted operations. Aramco has not yet commented on the latest dama",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Jizan-Refinery-Hit-Again-as-Houthi-Attacks-Escalate.html",
         "source": "Oilprice",
-        "published": "04 Sep 2026",
+        "published": "07 Sep 2026",
         "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "SHEL",
-          "company": "Shell plc",
+          "ticker": "XOM",
+          "company": "ExxonMobil Corporation",
           "sentiment": "bullish",
           "conviction": 82,
-          "rationale": "Jackdaw North Sea gas field approval imminent; strong tailwind from elevated energy prices and UK supply constraints.",
+          "rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
           "key_themes": [
-            "North Sea gas development",
-            "high energy prices",
-            "regulatory approval"
+            "supply disruption",
+            "geopolitical risk premium",
+            "refining margins"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [3] discusses Jackdaw approval but does NOT name Shell as the operator. The article is incomplete (summary cuts off mid-sentence) and provides no information about which company operates Jackdaw. Rationale assumes Shell involvement without source support.",
-          "supporting_article": null
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": [
+            1,
+            2,
+            3
+          ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Jackdaw North Sea gas field approval imminent; strong tailwind from elevated energy prices and UK supply constraints.",
+        "haiku_rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
         "haiku_themes": [
-          "North Sea gas development",
-          "high energy prices",
-          "regulatory approval"
+          "supply disruption",
+          "geopolitical risk premium",
+          "refining margins"
         ]
       },
       "config": {
@@ -291,49 +419,49 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Psilocybin May Prevent Nerve Damage Caused by Chemotherapy, Study Finds",
-          "summary": "The preliminary research was conducted in mice, but scientists were optimistic the results would apply to humans. Clinical trials begin this month.",
-          "url": "https://www.nytimes.com/2026/09/03/health/psilocybin-cancer-nerve-damage.html",
+          "title": "RFK Jr. Hires Army Doctor Who Opposed Covid Shots to Investigate if They Killed 2,500 Troops",
+          "summary": "In a legal deposition, the doctor, Theresa Long, compared immunizing service members against Covid to Nazi doctors experimenting on concentration camp prisoners.",
+          "url": "https://www.nytimes.com/2026/09/04/us/politics/military-covid-vaccine-deaths.html",
           "source": "Rss",
-          "published": "03 Sep 2026",
+          "published": "04 Sep 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Inside the D.O.J.\u2019s Investigation of Fauci and Other Virus Scientists",
+          "summary": "As Dr. Anthony Fauci has faced public scrutiny from congressional Republicans, the D.O.J. has pursued a quieter and more expansive effort against a wider circle of researchers.",
+          "url": "https://www.nytimes.com/2026/09/05/health/fauci-morens-covid-prosecutions.html",
+          "source": "Rss",
+          "published": "05 Sep 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "The Heart Drug Pelacarsen Fails, Shocking Novartis and Cardiologists",
+          "summary": "Doctors were hopeful the drug, which was being tested in a large clinical trial by Novartis, was going to be a powerful new tool to fight heart disease.",
+          "url": "https://www.nytimes.com/2026/09/04/science/heart-drug-fails-novartis-pelacarsen.html",
+          "source": "Rss",
+          "published": "05 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Employer Health Costs Are Expected to Spike in 2027",
-          "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
-          "url": "https://www.nytimes.com/2026/09/02/business/health-insurance-increases.html",
-          "source": "Rss",
-          "published": "02 Sep 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "C.D.C. Director Challenges Pennsylvania\u2019s Report of Two Measles Deaths",
-          "summary": "Questioning a state\u2019s investigation is highly unusual for the public health agency, but reflects tensions between the Trump administration and many states over health issues.",
-          "url": "https://www.nytimes.com/2026/08/31/health/measles-deaths-pennsylvania-schwartz-kennedy-shapiro.html",
-          "source": "Rss",
-          "published": "31 Aug 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fresenius-unit-dinged-fda-warning-letter-flagging-complaint-trend-customers\" hreflang=\"en\">Fresenius unit dinged in FDA warning letter flagging 'complaint trend' from customers</a>",
-          "summary": "Following a string of customer complaints, a Form 483 and a recall this past spring, a Fresenius manufacturing unit in Utah is contending with a warning letter from the FDA.",
-          "url": "https://www.fiercepharma.com/pharma/fresenius-unit-dinged-fda-warning-letter-flagging-complaint-trend-customers",
+          "title": "<a href=\"https://www.fiercepharma.com/sponsored/question-action-rethinking-pharma-engagement-ai-era\" hreflang=\"en\">From Question to Action: Rethinking Pharma Engagement in the AI Era</a>",
+          "summary": "As AI reshapes health discovery, GoodRx is helping pharma turn consumer and HCP questions into action.",
+          "url": "https://www.fiercepharma.com/sponsored/question-action-rethinking-pharma-engagement-ai-era",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/novartis-puts-ms-advocacy-podium-through-social-media-partnership-british-olympian\" hreflang=\"en\">Novartis puts MS advocacy on the podium through social media partnership with British Olympian </a>",
-          "summary": "The social media collaboration ties into Novartis' \"you know your MS best\" messaging, which encourages patients to keep track of changes in their disease.",
-          "url": "https://www.fiercepharma.com/marketing/novartis-puts-ms-advocacy-podium-through-social-media-partnership-british-olympian",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/az-leans-ai-generated-llama-promote-lama-combo-inhaler-breztri-new-campaign\" hreflang=\"en\">AZ leans on AI-generated llama to promote LAMA combo inhaler Breztri in new campaign </a>",
+          "summary": "The Breztri ad prompts viewers to \"put a LAMA to work\" by depicting an AI-generated llama and his barnyard colleagues working a late night in the office.",
+          "url": "https://www.fiercepharma.com/marketing/az-leans-ai-generated-llama-promote-lama-combo-inhaler-breztri-new-campaign",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fda-docs-reveal-lingering-concerns-intervention-behind-replimunes-long-sought-melanoma-nod\" hreflang=\"en\">FDA files reveal lingering concerns, contrasting views behind Replimune melanoma nod</a>",
-          "summary": "Two votes of confidence from leaders at the FDA\u2019s Office of Clinical Evaluation and the Oncology Center of Excellence sealed Replimune\u2019s fate, overruling review staffers\u2019 concerns and paving the way for last month\u2019s accelerated nod for Tudriqev.",
-          "url": "https://www.fiercepharma.com/pharma/fda-docs-reveal-lingering-concerns-intervention-behind-replimunes-long-sought-melanoma-nod",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/ionis-breakthrough-alexander-disease-approval-establishes-pillar-rare-disease-pipeline\" hreflang=\"en\">Ionis\u2019 \u2018breakthrough\u2019 Alexander disease approval establishes pillar of rare disease pipeline</a>",
+          "summary": "After Jenny Pearson\u2019s daughter Elise first had a seizure at 16 months old, an MRI came back clean\u2014her brain \u201clooked beautiful,\u201d Pearson recalled to Fierce. But a follow-up scan a year later, just days before Thanksgiving, showed her frontal lobe was now awash in white splotches. A genetic test the week before Christmas gave a troubling diagnosis: Alexander disease.",
+          "url": "https://www.fiercepharma.com/pharma/ionis-breakthrough-alexander-disease-approval-establishes-pillar-rare-disease-pipeline",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -342,120 +470,132 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Psilocybin research advancing to clinical trials presents new therapeutic development opportunity in neuroprotection.",
-            "key_themes": [
-              "oncology innovation",
-              "neuroprotection",
-              "clinical trial pipeline"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [1] discusses psilocybin research but does not mention Eli Lilly as the conducting organization or beneficiary. No connection established between the psilocybin study and LLY.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
             "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "11% employer health cost spike in 2027 pressures insurers' medical loss ratios and margin expansion prospects.",
+            "conviction": 72,
+            "rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
             "key_themes": [
-              "rising healthcare costs",
-              "margin compression",
-              "employer benefits"
+              "regulatory risk",
+              "vaccine scrutiny",
+              "political pressure"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Fresenius manufacturing issues signal broader quality control challenges; TMO benefits if market consolidates around reliable providers.",
-            "key_themes": [
-              "manufacturing quality",
-              "competitive positioning",
-              "regulatory compliance"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [4] discusses Fresenius manufacturing issues, not Thermo Fisher Scientific. While the rationale speculates TMO could benefit from market consolidation, this is inferential rather than grounded in the source material, which contains no mention of TMO or competitive positioning dynamics.",
-            "supporting_article": 4
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 38,
-            "rationale": "Articles lack direct relevance; diversified healthcare conglomerate insulated from specific therapeutic or cost trends discussed.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "COVID vaccine program faces similar political and regulatory challenges from RFK Jr. administration's investigation into immunization safety claims.",
             "key_themes": [
-              "sector exposure"
+              "vaccine risk",
+              "regulatory pressure",
+              "political headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale assumes JNJ has COVID vaccine program; articles mention investigation but don't specifically name JNJ as a COVID vaccine manufacturer under scrutiny",
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Indirect exposure to vaccine scrutiny, but pipeline focus on oncology and infectious disease provides diversification from COVID-related risks.",
+            "key_themes": [
+              "vaccine concerns",
+              "diversified portfolio"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No source articles mention Merck's vaccine programs or oncology/infectious disease pipeline focus. Rationale assumes facts not present in sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Limited direct exposure to vaccine program; primarily impacted by broader pharma sector sentiment but protected by metabolic disease and oncology focus.",
+            "key_themes": [
+              "sector headwinds",
+              "portfolio diversification"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
+            "verified": false,
+            "verification_issue": "No source articles mention Eli Lilly's vaccine exposure, metabolic disease focus, or oncology pipeline. Rationale is based on external knowledge not grounded in provided sources.",
             "supporting_article": null
           }
         ],
-        "summary": "The healthcare sector faces mixed dynamics: emerging psilocybin research opens long-term innovation opportunities for large pharma, but near-term cost pressures intensify with 11% employer health cost increases anticipated in 2027, pressuring payers and insurers. Regulatory scrutiny on manufacturing quality remains a persistent operational risk across the sector.",
+        "summary": "The healthcare sector faces significant near-term headwinds from RFK Jr.'s administration launching investigations into COVID vaccines and virus scientists, directly threatening vaccine-dependent companies like PFE and JNJ. While article 3's Novartis drug failure highlights broader clinical trial risks, articles 4-6 suggest industry is adapting through AI innovation and rare disease expansion, providing some offset. Political uncertainty and regulatory scrutiny will likely pressure valuations across traditional pharma over the medium term.",
         "risks": [
-          "Psilocybin clinical trials may fail to translate mouse results to humans, delaying monetization",
-          "Employer cost spikes could trigger benefit cuts, reducing demand for premium therapies",
-          "Political/regulatory tensions (CDC-state disputes) create uncertainty in vaccine and immunization markets",
-          "Manufacturing quality issues could trigger broader FDA enforcement actions across sector"
+          "RFK Jr. administration's anti-vaccine agenda could trigger broader vaccine skepticism and regulatory restrictions",
+          "DOJ investigation expansion may create prolonged legal and compliance uncertainties affecting multiple pharma executives and scientists",
+          "Negative clinical trial data (Pelacarsen failure) signals pipeline execution risks across the sector",
+          "Political polarization around vaccine safety could impact confidence in entire immunology franchise"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "LLY signal assumes Eli Lilly involvement in psilocybin research without source support",
-            "TMO signal references Fresenius issues but makes unsupported inference about TMO competitive benefits"
+            "PFE rationale is grounded in articles 1 and 2, which establish RFK Jr. investigations and DOJ scrutiny of virus scientists",
+            "JNJ rationale partially grounded but makes unsupported assumption that JNJ is a COVID vaccine manufacturer under investigation - articles don't explicitly name JNJ",
+            "MRK rationale entirely unsupported - no source material discusses Merck's vaccine programs, oncology pipeline, or infectious disease diversification",
+            "LLY rationale entirely unsupported - no source material discusses Eli Lilly's metabolic disease focus, oncology focus, or vaccine exposure",
+            "Analyst appears to be applying external pharmaceutical company knowledge not contained in the source articles, violating fact-checking constraints"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "LLY": 1159.5999755859375,
-        "UNH": 400.94000244140625,
-        "TMO": 618.4299926757812,
-        "JNJ": 278.42999267578125
+        "PFE": 28.450000762939453,
+        "JNJ": 275.2300109863281,
+        "MRK": 150.3300018310547,
+        "LLY": 1149.3599853515625
       },
       "spot_check": {
-        "title": "Psilocybin May Prevent Nerve Damage Caused by Chemotherapy, Study Finds",
-        "summary": "The preliminary research was conducted in mice, but scientists were optimistic the results would apply to humans. Clinical trials begin this month.",
-        "url": "https://www.nytimes.com/2026/09/03/health/psilocybin-cancer-nerve-damage.html",
+        "title": "RFK Jr. Hires Army Doctor Who Opposed Covid Shots to Investigate if They Killed 2,500 Troops",
+        "summary": "In a legal deposition, the doctor, Theresa Long, compared immunizing service members against Covid to Nazi doctors experimenting on concentration camp prisoners.",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/military-covid-vaccine-deaths.html",
         "source": "Rss",
-        "published": "03 Sep 2026",
-        "sentiment_hint": "neutral",
+        "published": "04 Sep 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "bullish",
+          "ticker": "PFE",
+          "company": "Pfizer Inc.",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Psilocybin research advancing to clinical trials presents new therapeutic development opportunity in neuroprotection.",
+          "rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
           "key_themes": [
-            "oncology innovation",
-            "neuroprotection",
-            "clinical trial pipeline"
+            "regulatory risk",
+            "vaccine scrutiny",
+            "political pressure"
           ],
-          "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [1] discusses psilocybin research but does not mention Eli Lilly as the conducting organization or beneficiary. No connection established between the psilocybin study and LLY.",
-          "supporting_article": null
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": [
+            1,
+            2
+          ]
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Psilocybin research advancing to clinical trials presents new therapeutic development opportunity in neuroprotection.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
         "haiku_themes": [
-          "oncology innovation",
-          "neuroprotection",
-          "clinical trial pipeline"
+          "regulatory risk",
+          "vaccine scrutiny",
+          "political pressure"
         ]
       },
       "config": {
@@ -475,27 +615,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "What to watch in the report.",
-          "summary": "",
-          "url": "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/jobs-unemployment",
+          "title": "Social Media in China Is Getting Really Dark",
+          "summary": "The Chinese Communist Party has spent years trying to make \u201cpositive energy\u201d the dominant mood of the country\u2019s internet. It\u2019s no longer working.",
+          "url": "https://www.nytimes.com/2026/09/07/business/china-social-media-pessimism.html",
           "source": "Rss",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The job market in 2035: More nurses, fewer secretaries.",
-          "summary": "",
-          "url": "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/the-job-market-in-2035-more-nurses-fewer-secretaries",
+          "title": "Rivian R2 Review: A Tidier (in Size and Price) SUV Is Ready for the Suburbs",
+          "summary": "The electric automaker\u2019s new R2 takes what works from its bigger, costlier brother and adds a host of features with the mass market in mind.",
+          "url": "https://www.nytimes.com/2026/09/07/business/rivian-r2-review.html",
           "source": "Rss",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The jobs report could influence a shaky bond market.",
-          "summary": "",
-          "url": "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/the-jobs-report-could-influence-a-shaky-bond-market",
+          "title": "Oil Prices Churn After U.S. and Iran Trade Strikes",
+          "summary": "Brent crude, the global benchmark for oil, rose on Monday, while the national average price of gas was $4.15 a gallon.",
+          "url": "https://www.nytimes.com/2026/09/06/business/oil-gas-prices-iran-war.html",
           "source": "Rss",
-          "published": "04 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -527,155 +667,165 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Jobs report volatility may influence bond markets and trading volumes, creating mixed near-term dynamics for investment banking.",
-            "key_themes": [
-              "jobs report",
-              "bond market volatility",
-              "trading activity"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Economic data sensitivity through jobs report could impact lending spreads and capital markets activity unpredictably.",
-            "key_themes": [
-              "jobs report",
-              "economic data",
-              "capital markets"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Market volatility from tech selloff may increase trading activity but broader economic uncertainty limits upside visibility.",
-            "key_themes": [
-              "market volatility",
-              "trading opportunity",
-              "tech sector weakness"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 47,
-            "rationale": "Current market turbulence creates near-term trading opportunities but broader macro uncertainty tempers conviction.",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
             "key_themes": [
               "market volatility",
               "trading activity",
-              "macro uncertainty"
+              "investment banking"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": [
+              3,
+              4
+            ]
           },
           {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Broad market decline may pressure consumer spending and payment volumes near-term despite long-term secular tailwinds.",
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Broad market selloff and heightened uncertainty drive wealth management advisory demand and volatility-driven trading spreads for large banks.",
             "key_themes": [
               "market volatility",
-              "consumer spending pressure",
-              "payment volumes"
+              "advisory services",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "AI sector turmoil creates significant M&A and restructuring advisory opportunities for investment banks during market dislocations.",
+            "key_themes": [
+              "M&A activity",
+              "advisory fees",
+              "market dislocation"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale claims market decline will pressure consumer spending and payment volumes, but source articles do not establish this causal link or discuss payment processor impacts from the tech selloff",
+            "verification_issue": "Rationale claims AI sector turmoil creates M&A and restructuring opportunities, but source articles do not discuss M&A activity or advisory opportunities resulting from the DeepSeek-driven selloff. Article [6] argues panic is overblown but doesn't mention M&A activity.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley Inc.",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Market selloff and geopolitical tensions drive institutional client trading activity and wealth management fee generation for diversified banks.",
+            "key_themes": [
+              "trading volumes",
+              "institutional demand",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; broader market decline may temporarily pressure payment volumes, but long-term secular trends remain intact.",
+            "key_themes": [
+              "market weakness",
+              "volume uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' which is accurate, but the claim that 'broader market decline may temporarily pressure payment volumes' lacks evidentiary support in sources. The sources show market declines but provide no data on payment volumes or consumer spending impact.",
             "supporting_article": null
           },
           {
             "ticker": "MA",
-            "company": "Mastercard",
+            "company": "Mastercard Inc.",
             "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Market rout and economic uncertainty could dampen transaction volumes and consumer activity in near-term.",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; payment processor exposed to near-term volume volatility from market selloff but fundamentals unchanged.",
             "key_themes": [
-              "market volatility",
-              "consumer spending",
-              "transaction volumes"
+              "market weakness",
+              "volume uncertainty"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale claims market rout will dampen transaction volumes and consumer activity, but source articles do not establish this connection or discuss payment processor impacts",
+            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' which is accurate, but the claim that payment processor is 'exposed to near-term volume volatility from market selloff' lacks evidentiary support in sources. No article discusses impact on payment volumes or consumer transaction activity.",
             "supporting_article": null
           }
         ],
-        "summary": "Financial services and payments sectors face near-term headwinds from broad market volatility triggered by AI sector weakness and China's DeepSeek, compounded by jobs report uncertainty affecting bond markets. While the DeepSeek panic may be overblown long-term, immediate macro uncertainty and potential consumer spending pullback create cautious near-term positioning. Banks may benefit from increased trading activity but face offsetting pressures from widening credit spreads and economic slowdown risks.",
+        "summary": "Financial stocks show bullish signals amid market volatility triggered by the AI sector rout and geopolitical tensions (U.S.-Iran). Investment banks JPM, BAC, GS, and MS stand to benefit from increased trading activity, advisory fees, and M&A opportunities during market dislocations. Payment processors V and MA remain neutral as they lack direct exposure to the current themes but face near-term headwinds from broader selloff impacts.",
         "risks": [
-          "jobs report data acceleration/deceleration triggering bond volatility",
-          "sustained tech sector decline impacting consumer confidence and spending",
-          "credit spread widening from flight-to-safety flows",
-          "recession concerns limiting M&A and capital markets activity"
+          "Sustained market selloff could reduce investment banking deal flow and advisory revenue",
+          "Escalation of U.S.-Iran tensions may create broader economic uncertainty and reduce client risk appetite",
+          "AI sector recovery could rapidly reverse current market volatility, reducing fee-generating opportunities for banks",
+          "Recession fears from geopolitical events could depress payment volumes and transaction activity"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "V and MA signals make causal claims about consumer spending/transaction volume impacts from tech selloff that are not supported by source material",
-            "Sources confirm tech selloff (Article 4) and bond market sensitivity to jobs reports (Article 3), but do not explicitly link tech sector weakness to consumer payment behavior"
+            "GS rationale speculates about M&A advisory opportunities without source support. Article [4] and [6] discuss AI stock selloff but do not reference M&A activity or advisory opportunities.",
+            "V and MA signals lack grounding despite analyst acknowledging 'no direct exposure.' Analyst extrapolates from market selloff to payment volume impact without source evidence of consumer spending or transaction effects.",
+            "All five bank signals (JPM, BAC, GS, MS) assume market volatility automatically translates to revenue benefits, but no sources quantify or confirm this relationship during this specific market event."
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JPM": 362.05999755859375,
-        "BAC": 63.040000915527344,
-        "GS": 1037.9300537109375,
-        "MS": 217.14999389648438,
-        "V": 378.75,
-        "MA": 585.7100219726562
+        "JPM": 358.6400146484375,
+        "BAC": 62.68000030517578,
+        "GS": 1038.6099853515625,
+        "MS": 217.72000122070312,
+        "V": 375.07000732421875,
+        "MA": 579.2100219726562
       },
       "spot_check": {
-        "title": "What to watch in the report.",
-        "summary": "",
-        "url": "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/jobs-unemployment",
+        "title": "Social Media in China Is Getting Really Dark",
+        "summary": "The Chinese Communist Party has spent years trying to make \u201cpositive energy\u201d the dominant mood of the country\u2019s internet. It\u2019s no longer working.",
+        "url": "https://www.nytimes.com/2026/09/07/business/china-social-media-pessimism.html",
         "source": "Rss",
-        "published": "04 Sep 2026",
+        "published": "07 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GS",
-          "company": "Goldman Sachs",
-          "sentiment": "neutral",
-          "conviction": 48,
-          "rationale": "Market volatility from tech selloff may increase trading activity but broader economic uncertainty limits upside visibility.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
           "key_themes": [
             "market volatility",
-            "trading opportunity",
-            "tech sector weakness"
+            "trading activity",
+            "investment banking"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": [
+            3,
+            4
+          ]
         },
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "Market volatility from tech selloff may increase trading activity but broader economic uncertainty limits upside visibility.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
         "haiku_themes": [
           "market volatility",
-          "trading opportunity",
-          "tech sector weakness"
+          "trading activity",
+          "investment banking"
         ]
       },
       "config": {
