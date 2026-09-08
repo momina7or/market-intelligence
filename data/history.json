@@ -16900,5 +16900,429 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-09-08",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's dominance in AI-driven search and content discovery threatens Google's traditional SEO model; urgent need to compete.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure from OpenAI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT integration expanding use cases; demonstrated value in organic discovery and content creation workflows.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI content tools",
+              "enterprise AI applications"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Expected foldable phone launch competes directly with Xiaomi/Samsung; maintains premium hardware positioning in evolving mobile segment.",
+            "key_themes": [
+              "foldable phone competition",
+              "hardware innovation",
+              "premium market share"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "AMD",
+            "company": "Advanced Micro Devices",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Indirect benefit from ARM's Mali GPU advancement in mobile gaming; limited direct exposure to these specific product launches.",
+            "key_themes": [
+              "GPU competition",
+              "mobile processors",
+              "ARM ecosystem"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TSM",
+            "company": "Taiwan Semiconductor Manufacturing Company",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Xiaomi's custom Xring O3 chip and foldable momentum increases foundry demand; benefits from competitive mobile processor development.",
+            "key_themes": [
+              "foundry demand",
+              "custom chip manufacturing",
+              "foldable phone supply"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": null,
+          "MSFT": null,
+          "AAPL": null,
+          "AMD": null,
+          "TSM": null
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Tight global fuel markets and Saudi supply disruptions support upstream and downstream margins.",
+            "key_themes": [
+              "supply constraints",
+              "geopolitical risk premium",
+              "refining margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Global inventory draws and market inflexibility create favorable pricing environment for integrated producers.",
+            "key_themes": [
+              "tight markets",
+              "inventory draws",
+              "upstream leverage"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Saudi production disruptions and tight refined product markets benefit integrated majors with global refining assets.",
+            "key_themes": [
+              "supply disruption",
+              "refining spreads",
+              "Middle East exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 74,
+            "rationale": "Tight fuel markets, inventory draws, and Saudi supply constraints favor Shell's integrated refining and trading operations.",
+            "key_themes": [
+              "inventory draws",
+              "supply tightness",
+              "trading upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "China's crude import rebound and global market tightness support upstream production value and pricing power.",
+            "key_themes": [
+              "Chinese demand recovery",
+              "market tightness",
+              "production value"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Supply disruptions in Saudi Arabia and tight global markets benefit integrated major with diversified geographic exposure.",
+            "key_themes": [
+              "geopolitical risk",
+              "tight markets",
+              "supply premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": null,
+          "CVX": null,
+          "BP": null,
+          "SHEL": null,
+          "COP": null,
+          "TTE": null
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Vaccine safety investigations and DOJ scrutiny of virus scientists pose regulatory and reputational risks to vaccine portfolio.",
+            "key_themes": [
+              "vaccine litigation risk",
+              "regulatory scrutiny",
+              "government investigation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims vaccine safety investigations and DOJ scrutiny pose risks to Pfizer's vaccine portfolio. Articles [1] and [2] discuss investigations and DOJ actions, but neither mentions Pfizer specifically or their vaccine programs. Article [1] involves RFK Jr. and a doctor hired to investigate troop deaths; article [2] discusses DOJ investigation of Fauci and virus scientists\u2014neither directly implicates Pfizer or its vaccines.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Vaccine safety investigations and DOJ actions against virus scientists increase litigation and regulatory risk for vaccine business.",
+            "key_themes": [
+              "vaccine litigation risk",
+              "regulatory scrutiny",
+              "reputational damage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims vaccine safety investigations and DOJ actions increase litigation and regulatory risk for J&J's vaccine business. Like PFE, articles [1] and [2] do not specifically mention Johnson & Johnson or their vaccine programs. The articles discuss general vaccine investigations but provide no evidence connecting these to J&J directly.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct exposure to articles; clinical trial failures in rival compounds (Novartis) present indirect competitive dynamics.",
+            "key_themes": [
+              "competitive landscape",
+              "clinical development"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "AI adoption in pharma engagement and drug discovery may create tailwinds for research services and diagnostics platforms.",
+            "key_themes": [
+              "AI adoption",
+              "research services demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": null,
+          "JNJ": null,
+          "MRK": null,
+          "TMO": null
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rising interest rates pose headwinds to equities, but elevated oil prices may support trading revenues.",
+            "key_themes": [
+              "interest rate risk",
+              "commodity volatility",
+              "trading opportunities"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Mixed signals from elevated rates supporting NII but offset by potential equity market weakness.",
+            "key_themes": [
+              "net interest income",
+              "market volatility",
+              "equity headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 54,
+            "rationale": "Investment banking and trading may benefit from market volatility and elevated oil prices.",
+            "key_themes": [
+              "trading volatility",
+              "geopolitical risk",
+              "capital markets activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 53,
+            "rationale": "Wealth management exposed to equity selloff risk, partially offset by trading revenue opportunities.",
+            "key_themes": [
+              "equity market weakness",
+              "trading revenues",
+              "wealth management risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad AI-driven stock selloff and rising rates create headwinds for consumer discretionary spending.",
+            "key_themes": [
+              "equity market selloff",
+              "consumer spending risk",
+              "rate sensitivity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims rising rates create headwinds for consumer discretionary spending, but source articles do not establish a causal link between rising rates and consumer spending weakness. Article [3] mentions rising rates as equity risk, and article [4] discusses AI selloff, but neither connects these to consumer discretionary spending or Visa specifically.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 61,
+            "rationale": "Tech-led market rout and rising rates pressuring consumer transaction volumes and valuations.",
+            "key_themes": [
+              "tech selloff contagion",
+              "consumer weakness",
+              "multiple compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims tech selloff contagion pressures consumer transaction volumes, but articles do not support this causal chain. Article [4] documents the AI/tech selloff, but does not establish that this translates to reduced consumer transaction volumes for payment processors.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": null,
+          "BAC": null,
+          "GS": null,
+          "MS": null,
+          "V": null,
+          "MA": null
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]

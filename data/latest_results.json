@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-07",
-  "run_time": "2026-09-07T13:16:38.358780Z",
+  "run_date": "2026-09-08",
+  "run_time": "2026-09-08T11:58:54.534460Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,102 +29,134 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Why the iPhone is about to get more expensive",
-          "summary": "When Apple debuts the next generation of iPhones this week, they're likely to come with an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the clearest sign yet that soaring memory costs have become unavoidable - with no end to the memory crunch in sight. Call it \"chipflation\" [&#8230;]",
-          "url": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone",
+          "title": "LG TVs caught spying even when offline or on standby",
+          "summary": "LG smart TVs are almost constantly logging and uploading data about owners and their homes, even when offline or on standby mode, according to a new report from YouTube channel Gamers Nexus. The company's TV sets scan Wi-Fi networks for nearby devices, record audio logs through their microphones, and use audio and video sampling to [&#8230;]",
+          "url": "https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus",
           "source": "Theverge",
-          "published": "07 Sep 2026",
+          "published": "08 Sep 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Xiaomi\u2019s wide foldable promises more power than Samsung\u2019s",
+          "summary": "Xiaomi is the latest manufacturer to release a short, wide foldable phone, in the week Apple is expected to do the same. I got to try the 18 Fold behind closed doors at IFA last week, and while it looks and feels similar enough to Samsung's Galaxy Z Fold 8, superior specs make it feel [&#8230;]",
+          "url": "https://www.theverge.com/tech/991008/xiaomi-18-fold-hands-on-impressions-specs-wide",
+          "source": "Theverge",
+          "published": "08 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Bentley\u2019s Torcal EV tries to balance authenticity with fake V8 sounds",
-          "summary": "Thanks to their ability to provide a smooth ride and quiet powertrain with ease, electric vehicles are a true shoo-in for the high-end luxury automotive segment. Rolls-Royce has the Spectre, Cadillac's Celestiq is taking bespoke to a whole new level, and Mercedes has given the EQS the full Maybach treatment. From Volkswagen Auto Group, Bentley [&#8230;]",
-          "url": "https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8",
+          "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+          "summary": "China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What's so special about that? After five years of development, Arm now has [&#8230;]",
+          "url": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3",
           "source": "Theverge",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Huawei copies Samsung\u2019s privacy display in its latest trifold",
-          "summary": "Huawei has released its third trifold phone in China, and the company has clearly had half an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form factor used on Samsung's Galaxy Z TriFold, it's also the first foldable to include a privacy-enhancing display, much like the one Samsung [&#8230;]",
-          "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display",
-          "source": "Theverge",
-          "published": "07 Sep 2026",
+          "published": "08 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
-            "sentiment": "bearish",
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+            "rationale": "ChatGPT's dominance in AI-driven search and content discovery threatens Google's traditional SEO model; urgent need to compete.",
             "key_themes": [
-              "supply chain pressure",
-              "memory cost inflation",
-              "pricing power limits"
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure from OpenAI"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 1
           },
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
             "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "ChatGPT integration into search patterns demonstrates AI-driven content discovery creating organic traffic value for Google properties.",
+            "conviction": 75,
+            "rationale": "ChatGPT integration expanding use cases; demonstrated value in organic discovery and content creation workflows.",
             "key_themes": [
-              "AI integration",
-              "search relevance",
-              "organic traffic monetization"
+              "ChatGPT adoption",
+              "AI content tools",
+              "enterprise AI applications"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Expected foldable phone launch competes directly with Xiaomi/Samsung; maintains premium hardware positioning in evolving mobile segment.",
+            "key_themes": [
+              "foldable phone competition",
+              "hardware innovation",
+              "premium market share"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "AMD",
+            "company": "Advanced Micro Devices",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Indirect benefit from ARM's Mali GPU advancement in mobile gaming; limited direct exposure to these specific product launches.",
+            "key_themes": [
+              "GPU competition",
+              "mobile processors",
+              "ARM ecosystem"
             ],
             "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes ChatGPT recommending content, not Google/Alphabet properties. The rationale claims this demonstrates value for 'Google properties' but the source shows ChatGPT (OpenAI competitor) as the discovery mechanism. No evidence that this benefits Alphabet or Google search.",
-            "supporting_article": 1
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
           },
           {
             "ticker": "TSM",
             "company": "Taiwan Semiconductor Manufacturing Company",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Memory cost inflation and supply chain pressures signal potential margin compression for semiconductor manufacturers in near-term.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Xiaomi's custom Xring O3 chip and foldable momentum increases foundry demand; benefits from competitive mobile processor development.",
             "key_themes": [
-              "commodity pricing pressure",
-              "supply chain stress",
-              "margin headwinds"
+              "foundry demand",
+              "custom chip manufacturing",
+              "foldable phone supply"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 6
           }
         ],
-        "summary": "The technology sector faces near-term headwinds from rising memory costs and supply chain inflation, evidenced by Apple's pending iPhone price increases and semiconductor cost pressures. However, AI integration into mainstream applications (ChatGPT search influence, content creation tools) presents medium to long-term growth opportunities for platforms controlling AI distribution and search relevance.",
+        "summary": "The tech sector shows mixed signals with significant AI disruption reshaping search/discovery (bullish for MSFT/ChatGPT ecosystem, pressure on GOOGL's traditional search), while competing foldable phone launches (AAPL vs. Xiaomi/Samsung) drive semiconductor and foundry demand (TSM). Privacy concerns around smart home data collection (LG incident) highlight emerging regulatory risks across consumer electronics.",
         "risks": [
-          "sustained memory price inflation reducing device profitability",
-          "consumer demand elasticity to price increases",
-          "competitive AI fragmentation limiting platform consolidation",
-          "geopolitical semiconductor supply constraints"
+          "AI-driven search cannibalization of traditional ad-based search revenue models",
+          "Regulatory scrutiny on data privacy and collection practices in smart devices",
+          "Intensifying foldable phone competition may compress margins across OEMs",
+          "ARM's advancement in mobile graphics could shift competitive dynamics in semiconductor design",
+          "Geopolitical tensions affecting Chinese tech exports and supply chain dependencies"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "GOOGL signal misattributes ChatGPT traffic benefits to Google/Alphabet rather than OpenAI",
-            "GOOGL rationale claims 'Google properties' benefit but source article discusses ChatGPT as the AI discovery tool, which is a competitor to Google's search"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "AAPL": 319.9700012207031,
-        "GOOGL": 338.4599914550781,
-        "TSM": 428.9100036621094
+        "GOOGL": null,
+        "MSFT": null,
+        "AAPL": null,
+        "AMD": null,
+        "TSM": null
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -134,27 +166,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "sentiment": "bearish",
-          "conviction": 72,
-          "rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "sentiment": "bullish",
+          "conviction": 75,
+          "rationale": "ChatGPT integration expanding use cases; demonstrated value in organic discovery and content creation workflows.",
           "key_themes": [
-            "supply chain pressure",
-            "memory cost inflation",
-            "pricing power limits"
+            "ChatGPT adoption",
+            "AI content tools",
+            "enterprise AI applications"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Rising memory costs driving iPhone price increases, reducing competitiveness and potentially constraining demand.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "ChatGPT integration expanding use cases; demonstrated value in organic discovery and content creation workflows.",
         "haiku_themes": [
-          "supply chain pressure",
-          "memory cost inflation",
-          "pricing power limits"
+          "ChatGPT adoption",
+          "AI content tools",
+          "enterprise AI applications"
         ]
       },
       "config": {
@@ -174,49 +206,49 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Saudi Aramco's Jizan Refinery Hit Again as Houthi Attacks Escalate",
-          "summary": "Saudi Aramco's 400,000-barrel-per-day Jizan refinery was hit in a new attack Monday, threatening a major Red Sea refining hub while Saudi Arabia is moving more oil west to avoid the Strait of Hormuz. The Financial Times reported that the facilities in southwestern Saudi Arabia were hit Monday, citing two people with knowledge of the incident. One described the strike as similar in scale to an attack last month that temporarily disrupted operations. Aramco has not yet commented on the latest dama",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Jizan-Refinery-Hit-Again-as-Houthi-Attacks-Escalate.html",
+          "title": "Vitol CEO: Global Fuel Markets Are \"Tight and Inflexible\"",
+          "summary": "Global fuel markets are very tight and inflexible, despite the higher flows out of the Persian Gulf in recent weeks, Russell Hardy, chief executive of the world's biggest independent oil trader, Vitol Group, said on Tuesday. \"It's pretty, pretty tight and inflexible out there as far as the market is concerned,\" Hardy told the Asia Pacific Petroleum Conference by S&amp;P Global Energy in Singapore today, referring to the fuel market. Globally, refined product inventories are \"still drawing,\" Hard",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Vitol-CEO-Global-Fuel-Markets-Are-Pretty-Tight-and-Inflexible.html",
           "source": "Oilprice",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "bullish"
+          "published": "08 Sep 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Iran Says It Will Control New Hormuz Shipping Corridor",
-          "summary": "Iran said Monday that it is preparing to sign an agreement with Oman establishing a new shipping corridor through the Strait of Hormuz under Iranian control, with vessels required to coordinate with Tehran to enter a new restricted maritime zone around the critical oil chokepoint. Mohsen Rezaei, secretary of Iran\u2019s Supreme National Security Council, said the restricted zone would extend from the U.S. naval blockade line through Hormuz and into the Persian Gulf. Ships entering the zone to transit",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-It-Will-Control-New-Hormuz-Shipping-Corridor.html",
+          "title": "China\u2019s Crude Buying Rebounds as Fuel Exports Jump 29%",
+          "summary": "China\u2019s crude oil imports rose for the second consecutive month in August as refiners turned to additional non-Middle Eastern supply and boosted overseas fuel shipments amid eased export restrictions. \u00a0 China imported 37.93 million tons, or 8.93 million barrels per day (bpd) of crude oil in August, up by 6.2% compared to July, and further recovering from the decade-low seen in June, official Chinese customs data showed on Tuesday. The August import level was still 23.4% lower compared to the sam",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Crude-Buying-Rebounds-as-Fuel-Exports-Jump-29.html",
           "source": "Oilprice",
-          "published": "07 Sep 2026",
+          "published": "08 Sep 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Oil Prices Near $100 After Fresh Attacks on Saudi Energy Sites",
+          "summary": "Saudi Arabia has temporarily halted some operations at energy facilities in its southern region bordering Yemen, following attacks on energy sites on Tuesday morning local time, the official Saudi Press Agency reported. \u201cSeveral energy sector facilities and installations in the southern region of the Kingdom were targeted this morning,\u201d the agency said, quoting an official source at the Ministry of Energy.\u00a0 The attacks caused fires at several locations, leading to a temporary halt in some operat",
+          "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Near-100-After-Fresh-Attacks-on-Saudi-Energy-Sites.html",
+          "source": "Oilprice",
+          "published": "08 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "India\u2019s Crude Oil Benchmark Tops $100 as Middle East War Escalates",
-          "summary": "India\u2019s average crude import price soared to above $100 per barrel at the end of last week and is set to further rise this week as international crude prices rallied amid intensified hostilities in the Middle East. The so-called Crude Oil FOB Price, or the Indian Basket of average sweet and sour grades, surged to $101.07 per barrel on Friday, topping the $ 100-a-barrel threshold for the first time since May, data by the Indian Oil Ministry\u2019s Petroleum Planning and Analysis Cell (PPAC) showed. Th",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Benchmark-Tops-100-as-Middle-East-War-Escalates.html",
-          "source": "Oilprice",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "bullish"
+          "title": "Suzlon secures 200MW wind turbine order from Ayana in India",
+          "summary": "Indian renewable energy company Suzlon Group has obtained a 200MW wind energy contract in India from Ayana Renewable Power.",
+          "url": "https://www.energymonitor.ai/news/suzlon-secures-turbine-order-ayana/",
+          "source": "Energymonitor",
+          "published": "08 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Elia to develop Princess Elisabeth Energy project with $1.1bn EIB financing",
+          "summary": "Elia Transmission Belgium has obtained a \u20ac1bn green credit facility from the EIB for the 3.5GW Princess Elisabeth Energy Island project.",
+          "url": "https://www.energymonitor.ai/news/princess-elisabeth-energy-eib-financing/",
+          "source": "Energymonitor",
+          "published": "08 Sep 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Enersense to manage O&M services for 101MW Eurajoki Solar Park",
           "summary": "Enersense has agreed to provide operations and maintenance (O&amp;M) services for Alight\u2019s 101MW Eurajoki Solar Park in Luvia, Finland.",
           "url": "https://www.energymonitor.ai/news/enersense-om-eurajoki-solar-park/",
-          "source": "Energymonitor",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "India\u2019s TNPGCL commissions unit one of Udangudi thermal plant",
-          "summary": "Tamil Nadu Power Generation Corporation Limited (TNPGCL) has brought Unit 1 of the Udangudi Supercritical Thermal Power Plant in Thoothukudi, Tamil Nadu, into commercial operation, following a successful mandatory 72-hour full-load trial run.",
-          "url": "https://www.energymonitor.ai/news/tnpgcl-commissions-unit-1-udangudi-thermal-plant/",
-          "source": "Energymonitor",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Europe\u2019s electrification target needs 50GW of new nuclear capacity",
-          "summary": "Europe will need roughly 60 new large-reactor or SMR projects to enter planning and development over the next four years.",
-          "url": "https://www.energymonitor.ai/comment/europe-nuclear-capacity/",
           "source": "Energymonitor",
           "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
@@ -228,10 +260,10 @@
             "ticker": "XOM",
             "company": "ExxonMobil Corporation",
             "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
+            "conviction": 75,
+            "rationale": "Tight global fuel markets and Saudi supply disruptions support upstream and downstream margins.",
             "key_themes": [
-              "supply disruption",
+              "supply constraints",
               "geopolitical risk premium",
               "refining margins"
             ],
@@ -240,7 +272,6 @@
             "verification_issue": null,
             "supporting_article": [
               1,
-              2,
               3
             ]
           },
@@ -248,19 +279,18 @@
             "ticker": "CVX",
             "company": "Chevron Corporation",
             "sentiment": "bullish",
-            "conviction": 80,
-            "rationale": "Escalating Middle East tensions and Strait of Hormuz shipping risks elevate crude valuations, supporting upstream cash flows for major producers.",
+            "conviction": 73,
+            "rationale": "Global inventory draws and market inflexibility create favorable pricing environment for integrated producers.",
             "key_themes": [
-              "supply disruption",
-              "geopolitical premium",
-              "upstream economics"
+              "tight markets",
+              "inventory draws",
+              "upstream leverage"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               1,
-              2,
               3
             ]
           },
@@ -268,19 +298,18 @@
             "ticker": "BP",
             "company": "BP plc",
             "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Red Sea refinery attacks and Iranian corridor control disputes tighten global oil supply, benefiting integrated majors with diversified production.",
+            "conviction": 72,
+            "rationale": "Saudi production disruptions and tight refined product markets benefit integrated majors with global refining assets.",
             "key_themes": [
-              "supply tightness",
-              "refining upside",
-              "geopolitical volatility"
+              "supply disruption",
+              "refining spreads",
+              "Middle East exposure"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               1,
-              2,
               3
             ]
           },
@@ -288,39 +317,18 @@
             "ticker": "SHEL",
             "company": "Shell plc",
             "sentiment": "bullish",
-            "conviction": 78,
-            "rationale": "Crude prices surging past $100/bbl amid Middle East instability directly supports Shell's integrated upstream and downstream operations.",
+            "conviction": 74,
+            "rationale": "Tight fuel markets, inventory draws, and Saudi supply constraints favor Shell's integrated refining and trading operations.",
             "key_themes": [
-              "price strength",
-              "refining margin uplift",
-              "supply disruption"
+              "inventory draws",
+              "supply tightness",
+              "trading upside"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               1,
-              2,
-              3
-            ]
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 76,
-            "rationale": "Houthi refinery attacks and Iran shipping corridor restrictions create sustained crude supply concerns supporting $100+ pricing benefiting producers.",
-            "key_themes": [
-              "supply constraints",
-              "price support",
-              "geopolitical risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
               3
             ]
           },
@@ -328,29 +336,47 @@
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "bullish",
-            "conviction": 79,
-            "rationale": "Escalating Middle East geopolitical tensions and refining disruptions push crude above $100/bbl, strengthening cash generation for independent upstream producer.",
+            "conviction": 71,
+            "rationale": "China's crude import rebound and global market tightness support upstream production value and pricing power.",
             "key_themes": [
-              "crude pricing strength",
-              "geopolitical premium",
-              "upstream upside"
+              "Chinese demand recovery",
+              "market tightness",
+              "production value"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               1,
-              2,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Supply disruptions in Saudi Arabia and tight global markets benefit integrated major with diversified geographic exposure.",
+            "key_themes": [
+              "geopolitical risk",
+              "tight markets",
+              "supply premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
               3
             ]
           }
         ],
-        "summary": "Middle East geopolitical escalation\u2014including Houthi attacks on Saudi refining capacity and Iran's control of new Hormuz shipping corridors\u2014is driving crude prices above $100/bbl for the first time in months. Major integrated and independent oil producers benefit significantly from tighter supply, elevated risk premiums, and strengthening refining margins in this environment. However, sustained supply disruptions and potential shipping corridor restrictions pose operational and logistical risks to global energy markets.",
+        "summary": "Oil markets face near-term bullish pressures from multiple sources: Saudi production disruptions, persistently tight and inflexible global fuel markets with declining inventories, and renewed Chinese crude demand recovery. These factors create a favorable pricing environment for integrated majors and upstream producers in the near-term, though geopolitical risks remain elevated. The concurrent investment in renewables (articles 4-6) signals long-term energy transition pressures but poses no immediate headwinds to oil majors.",
         "risks": [
-          "Military escalation or ceasefire could rapidly reverse geopolitical risk premium and crude valuations",
-          "Actual supply disruptions beyond Jizan refinery could trigger demand destruction offsetting price gains",
-          "Iran corridor restrictions may face international opposition, limiting practical enforcement and price impact longevity",
-          "Shipping insurance costs and rerouting add margin pressure despite higher nominal crude prices"
+          "Escalation of regional conflicts in Middle East could disrupt Saudi production further or trigger demand destruction",
+          "Chinese crude import recovery may prove temporary if economic growth stalls",
+          "Rapid inventory builds or demand destruction could reverse tight market dynamics",
+          "Long-term energy transition accelerating renewable deployment could compress future oil demand"
         ],
         "sector_sentiment": "bullish",
         "verification": {
@@ -360,28 +386,28 @@
         }
       },
       "prices_snapshot": {
-        "XOM": 159.47000122070312,
-        "CVX": 208.60000610351562,
-        "BP": 43.810001373291016,
-        "SHEL": 92.94999694824219,
-        "TTE": 88.58999633789062,
-        "COP": 134.25999450683594
+        "XOM": null,
+        "CVX": null,
+        "BP": null,
+        "SHEL": null,
+        "COP": null,
+        "TTE": null
       },
       "spot_check": {
-        "title": "Saudi Aramco's Jizan Refinery Hit Again as Houthi Attacks Escalate",
-        "summary": "Saudi Aramco's 400,000-barrel-per-day Jizan refinery was hit in a new attack Monday, threatening a major Red Sea refining hub while Saudi Arabia is moving more oil west to avoid the Strait of Hormuz. The Financial Times reported that the facilities in southwestern Saudi Arabia were hit Monday, citing two people with knowledge of the incident. One described the strike as similar in scale to an attack last month that temporarily disrupted operations. Aramco has not yet commented on the latest dama",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Jizan-Refinery-Hit-Again-as-Houthi-Attacks-Escalate.html",
+        "title": "Vitol CEO: Global Fuel Markets Are \"Tight and Inflexible\"",
+        "summary": "Global fuel markets are very tight and inflexible, despite the higher flows out of the Persian Gulf in recent weeks, Russell Hardy, chief executive of the world's biggest independent oil trader, Vitol Group, said on Tuesday. \"It's pretty, pretty tight and inflexible out there as far as the market is concerned,\" Hardy told the Asia Pacific Petroleum Conference by S&amp;P Global Energy in Singapore today, referring to the fuel market. Globally, refined product inventories are \"still drawing,\" Hard",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Vitol-CEO-Global-Fuel-Markets-Are-Pretty-Tight-and-Inflexible.html",
         "source": "Oilprice",
-        "published": "07 Sep 2026",
-        "sentiment_hint": "bullish",
+        "published": "08 Sep 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
           "ticker": "XOM",
           "company": "ExxonMobil Corporation",
           "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
+          "conviction": 75,
+          "rationale": "Tight global fuel markets and Saudi supply disruptions support upstream and downstream margins.",
           "key_themes": [
-            "supply disruption",
+            "supply constraints",
             "geopolitical risk premium",
             "refining margins"
           ],
@@ -390,14 +416,13 @@
           "verification_issue": null,
           "supporting_article": [
             1,
-            2,
             3
           ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Middle East supply disruptions from Houthi attacks and Iran corridor restrictions support crude prices above $100/bbl, benefiting integrated producers.",
+        "haiku_rationale": "Tight global fuel markets and Saudi supply disruptions support upstream and downstream margins.",
         "haiku_themes": [
-          "supply disruption",
+          "supply constraints",
           "geopolitical risk premium",
           "refining margins"
         ]
@@ -439,8 +464,16 @@
           "summary": "Doctors were hopeful the drug, which was being tested in a large clinical trial by Novartis, was going to be a powerful new tool to fight heart disease.",
           "url": "https://www.nytimes.com/2026/09/04/science/heart-drug-fails-novartis-pelacarsen.html",
           "source": "Rss",
-          "published": "05 Sep 2026",
+          "published": "07 Sep 2026",
           "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/roche-sweeps-neurology-corporate-reputation-rankings-once-again\" hreflang=\"en\">Roche sweeps neurology corporate reputation rankings once again</a>",
+          "summary": "Roche has retained its status as the neurology drugmaker that patient groups hold in the highest esteem, once again completing a clean sweep of PatientView\u2019s corporate reputation rankings.",
+          "url": "https://www.fiercepharma.com/marketing/roche-sweeps-neurology-corporate-reputation-rankings-once-again",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bullish"
         },
         {
           "title": "<a href=\"https://www.fiercepharma.com/sponsored/question-action-rethinking-pharma-engagement-ai-era\" hreflang=\"en\">From Question to Action: Rethinking Pharma Engagement in the AI Era</a>",
@@ -457,14 +490,6 @@
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/ionis-breakthrough-alexander-disease-approval-establishes-pillar-rare-disease-pipeline\" hreflang=\"en\">Ionis\u2019 \u2018breakthrough\u2019 Alexander disease approval establishes pillar of rare disease pipeline</a>",
-          "summary": "After Jenny Pearson\u2019s daughter Elise first had a seizure at 16 months old, an MRI came back clean\u2014her brain \u201clooked beautiful,\u201d Pearson recalled to Fierce. But a follow-up scan a year later, just days before Thanksgiving, showed her frontal lobe was now awash in white splotches. A genetic test the week before Christmas gave a troubling diagnosis: Alexander disease.",
-          "url": "https://www.fiercepharma.com/pharma/ionis-breakthrough-alexander-disease-approval-establishes-pillar-rare-disease-pipeline",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
@@ -474,95 +499,91 @@
             "company": "Pfizer Inc.",
             "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
+            "rationale": "Vaccine safety investigations and DOJ scrutiny of virus scientists pose regulatory and reputational risks to vaccine portfolio.",
             "key_themes": [
-              "regulatory risk",
-              "vaccine scrutiny",
-              "political pressure"
+              "vaccine litigation risk",
+              "regulatory scrutiny",
+              "government investigation"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "verified": false,
+            "verification_issue": "Rationale claims vaccine safety investigations and DOJ scrutiny pose risks to Pfizer's vaccine portfolio. Articles [1] and [2] discuss investigations and DOJ actions, but neither mentions Pfizer specifically or their vaccine programs. Article [1] involves RFK Jr. and a doctor hired to investigate troop deaths; article [2] discusses DOJ investigation of Fauci and virus scientists\u2014neither directly implicates Pfizer or its vaccines.",
+            "supporting_article": null
           },
           {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
             "sentiment": "bearish",
             "conviction": 68,
-            "rationale": "COVID vaccine program faces similar political and regulatory challenges from RFK Jr. administration's investigation into immunization safety claims.",
+            "rationale": "Vaccine safety investigations and DOJ actions against virus scientists increase litigation and regulatory risk for vaccine business.",
             "key_themes": [
-              "vaccine risk",
-              "regulatory pressure",
-              "political headwinds"
+              "vaccine litigation risk",
+              "regulatory scrutiny",
+              "reputational damage"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Rationale assumes JNJ has COVID vaccine program; articles mention investigation but don't specifically name JNJ as a COVID vaccine manufacturer under scrutiny",
-            "supporting_article": [
-              1,
-              2
-            ]
+            "verified": false,
+            "verification_issue": "Rationale claims vaccine safety investigations and DOJ actions increase litigation and regulatory risk for J&J's vaccine business. Like PFE, articles [1] and [2] do not specifically mention Johnson & Johnson or their vaccine programs. The articles discuss general vaccine investigations but provide no evidence connecting these to J&J directly.",
+            "supporting_article": null
           },
           {
             "ticker": "MRK",
             "company": "Merck & Co.",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Indirect exposure to vaccine scrutiny, but pipeline focus on oncology and infectious disease provides diversification from COVID-related risks.",
+            "conviction": 35,
+            "rationale": "No direct exposure to articles; clinical trial failures in rival compounds (Novartis) present indirect competitive dynamics.",
             "key_themes": [
-              "vaccine concerns",
-              "diversified portfolio"
+              "competitive landscape",
+              "clinical development"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "No source articles mention Merck's vaccine programs or oncology/infectious disease pipeline focus. Rationale assumes facts not present in sources.",
-            "supporting_article": null
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
             "sentiment": "neutral",
             "conviction": 40,
-            "rationale": "Limited direct exposure to vaccine program; primarily impacted by broader pharma sector sentiment but protected by metabolic disease and oncology focus.",
+            "rationale": "AI adoption in pharma engagement and drug discovery may create tailwinds for research services and diagnostics platforms.",
             "key_themes": [
-              "sector headwinds",
-              "portfolio diversification"
+              "AI adoption",
+              "research services demand"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "No source articles mention Eli Lilly's vaccine exposure, metabolic disease focus, or oncology pipeline. Rationale is based on external knowledge not grounded in provided sources.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
           }
         ],
-        "summary": "The healthcare sector faces significant near-term headwinds from RFK Jr.'s administration launching investigations into COVID vaccines and virus scientists, directly threatening vaccine-dependent companies like PFE and JNJ. While article 3's Novartis drug failure highlights broader clinical trial risks, articles 4-6 suggest industry is adapting through AI innovation and rare disease expansion, providing some offset. Political uncertainty and regulatory scrutiny will likely pressure valuations across traditional pharma over the medium term.",
+        "summary": "The healthcare sector faces significant headwinds from intensifying government investigations into vaccine safety and virus research, creating material litigation and reputational risks for vaccine manufacturers. Conversely, AI adoption in drug discovery and patient engagement is beginning to reshape pharma operations, though clinical trial failures (Novartis Pelacarsen) underscore the unpredictability of R&D pipelines.",
         "risks": [
-          "RFK Jr. administration's anti-vaccine agenda could trigger broader vaccine skepticism and regulatory restrictions",
-          "DOJ investigation expansion may create prolonged legal and compliance uncertainties affecting multiple pharma executives and scientists",
-          "Negative clinical trial data (Pelacarsen failure) signals pipeline execution risks across the sector",
-          "Political polarization around vaccine safety could impact confidence in entire immunology franchise"
+          "vaccine litigation escalation",
+          "DOJ investigation expansion",
+          "clinical trial failures",
+          "regulatory uncertainty on prior pandemic response",
+          "political polarization around public health"
         ],
         "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "PFE rationale is grounded in articles 1 and 2, which establish RFK Jr. investigations and DOJ scrutiny of virus scientists",
-            "JNJ rationale partially grounded but makes unsupported assumption that JNJ is a COVID vaccine manufacturer under investigation - articles don't explicitly name JNJ",
-            "MRK rationale entirely unsupported - no source material discusses Merck's vaccine programs, oncology pipeline, or infectious disease diversification",
-            "LLY rationale entirely unsupported - no source material discusses Eli Lilly's metabolic disease focus, oncology focus, or vaccine exposure",
-            "Analyst appears to be applying external pharmaceutical company knowledge not contained in the source articles, violating fact-checking constraints"
+            "PFE signal makes unsubstantiated connection between generic vaccine investigations and Pfizer-specific regulatory/litigation risk without source evidence",
+            "JNJ signal makes unsubstantiated connection between generic vaccine investigations and J&J-specific regulatory/litigation risk without source evidence",
+            "Articles [1] and [2] do not mention Pfizer or J&J by name, making the bearish vaccine portfolio thesis speculative rather than grounded in provided sources"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "PFE": 28.450000762939453,
-        "JNJ": 275.2300109863281,
-        "MRK": 150.3300018310547,
-        "LLY": 1149.3599853515625
+        "PFE": null,
+        "JNJ": null,
+        "MRK": null,
+        "TMO": null
       },
       "spot_check": {
         "title": "RFK Jr. Hires Army Doctor Who Opposed Covid Shots to Investigate if They Killed 2,500 Troops",
@@ -576,26 +597,23 @@
           "company": "Pfizer Inc.",
           "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
+          "rationale": "Vaccine safety investigations and DOJ scrutiny of virus scientists pose regulatory and reputational risks to vaccine portfolio.",
           "key_themes": [
-            "regulatory risk",
-            "vaccine scrutiny",
-            "political pressure"
+            "vaccine litigation risk",
+            "regulatory scrutiny",
+            "government investigation"
           ],
           "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": [
-            1,
-            2
-          ]
+          "verified": false,
+          "verification_issue": "Rationale claims vaccine safety investigations and DOJ scrutiny pose risks to Pfizer's vaccine portfolio. Articles [1] and [2] discuss investigations and DOJ actions, but neither mentions Pfizer specifically or their vaccine programs. Article [1] involves RFK Jr. and a doctor hired to investigate troop deaths; article [2] discusses DOJ investigation of Fauci and virus scientists\u2014neither directly implicates Pfizer or its vaccines.",
+          "supporting_article": null
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "RFK Jr.'s investigation into COVID vaccine deaths and DOJ scrutiny of virus scientists creates regulatory and reputational headwinds for vaccine portfolio.",
+        "haiku_rationale": "Vaccine safety investigations and DOJ scrutiny of virus scientists pose regulatory and reputational risks to vaccine portfolio.",
         "haiku_themes": [
-          "regulatory risk",
-          "vaccine scrutiny",
-          "political pressure"
+          "vaccine litigation risk",
+          "regulatory scrutiny",
+          "government investigation"
         ]
       },
       "config": {
@@ -615,28 +633,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Social Media in China Is Getting Really Dark",
-          "summary": "The Chinese Communist Party has spent years trying to make \u201cpositive energy\u201d the dominant mood of the country\u2019s internet. It\u2019s no longer working.",
-          "url": "https://www.nytimes.com/2026/09/07/business/china-social-media-pessimism.html",
+          "title": "Oil Climbs Toward $100 a Barrel Following Houthi Attacks",
+          "summary": "Analysts said they expected the price of Brent crude, the international benchmark, to remain elevated for the rest of the year.",
+          "url": "https://www.nytimes.com/2026/09/08/business/oil-prices-iran-war.html",
           "source": "Rss",
-          "published": "07 Sep 2026",
+          "published": "08 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Rivian R2 Review: A Tidier (in Size and Price) SUV Is Ready for the Suburbs",
-          "summary": "The electric automaker\u2019s new R2 takes what works from its bigger, costlier brother and adds a host of features with the mass market in mind.",
-          "url": "https://www.nytimes.com/2026/09/07/business/rivian-r2-review.html",
+          "title": "No Luxury Spared: New High-End Cruise Ships Set Sail",
+          "summary": "The latest batch of yacht-like vessels sailing in Europe, the Caribbean and beyond offer personalized experiences, great food and spacious suites.",
+          "url": "https://www.nytimes.com/2026/09/08/travel/new-luxury-cruise-ships.html",
           "source": "Rss",
-          "published": "07 Sep 2026",
+          "published": "08 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Oil Prices Churn After U.S. and Iran Trade Strikes",
-          "summary": "Brent crude, the global benchmark for oil, rose on Monday, while the national average price of gas was $4.15 a gallon.",
-          "url": "https://www.nytimes.com/2026/09/06/business/oil-gas-prices-iran-war.html",
+          "title": "Why Stocks Are Defying Gravity and What Could Bring Them Down",
+          "summary": "Investors are focused on strong corporate earnings and A.I., while looking past the war in Iran. But rising interest rates are an increasing risk to the rally.",
+          "url": "https://www.nytimes.com/2026/09/08/business/stock-market-interest-rates.html",
           "source": "Rss",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "08 Sep 2026",
+          "sentiment_hint": "bullish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -667,165 +685,166 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rising interest rates pose headwinds to equities, but elevated oil prices may support trading revenues.",
             "key_themes": [
+              "interest rate risk",
+              "commodity volatility",
+              "trading opportunities"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Mixed signals from elevated rates supporting NII but offset by potential equity market weakness.",
+            "key_themes": [
+              "net interest income",
               "market volatility",
-              "trading activity",
-              "investment banking"
+              "equity headwinds"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
               3,
-              4
-            ]
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America Corp.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Broad market selloff and heightened uncertainty drive wealth management advisory demand and volatility-driven trading spreads for large banks.",
-            "key_themes": [
-              "market volatility",
-              "advisory services",
-              "trading revenue"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
               4
             ]
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs Group Inc.",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "AI sector turmoil creates significant M&A and restructuring advisory opportunities for investment banks during market dislocations.",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 54,
+            "rationale": "Investment banking and trading may benefit from market volatility and elevated oil prices.",
             "key_themes": [
-              "M&A activity",
-              "advisory fees",
-              "market dislocation"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims AI sector turmoil creates M&A and restructuring opportunities, but source articles do not discuss M&A activity or advisory opportunities resulting from the DeepSeek-driven selloff. Article [6] argues panic is overblown but doesn't mention M&A activity.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley Inc.",
-            "sentiment": "bullish",
-            "conviction": 69,
-            "rationale": "Market selloff and geopolitical tensions drive institutional client trading activity and wealth management fee generation for diversified banks.",
-            "key_themes": [
-              "trading volumes",
-              "institutional demand",
-              "market volatility"
+              "trading volatility",
+              "geopolitical risk",
+              "capital markets activity"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              3,
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 53,
+            "rationale": "Wealth management exposed to equity selloff risk, partially offset by trading revenue opportunities.",
+            "key_themes": [
+              "equity market weakness",
+              "trading revenues",
+              "wealth management risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
               4
             ]
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct exposure to articles; broader market decline may temporarily pressure payment volumes, but long-term secular trends remain intact.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad AI-driven stock selloff and rising rates create headwinds for consumer discretionary spending.",
             "key_themes": [
-              "market weakness",
-              "volume uncertainty"
+              "equity market selloff",
+              "consumer spending risk",
+              "rate sensitivity"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' which is accurate, but the claim that 'broader market decline may temporarily pressure payment volumes' lacks evidentiary support in sources. The sources show market declines but provide no data on payment volumes or consumer spending impact.",
+            "verification_issue": "Rationale claims rising rates create headwinds for consumer discretionary spending, but source articles do not establish a causal link between rising rates and consumer spending weakness. Article [3] mentions rising rates as equity risk, and article [4] discusses AI selloff, but neither connects these to consumer discretionary spending or Visa specifically.",
             "supporting_article": null
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct exposure to articles; payment processor exposed to near-term volume volatility from market selloff but fundamentals unchanged.",
+            "sentiment": "bearish",
+            "conviction": 61,
+            "rationale": "Tech-led market rout and rising rates pressuring consumer transaction volumes and valuations.",
             "key_themes": [
-              "market weakness",
-              "volume uncertainty"
+              "tech selloff contagion",
+              "consumer weakness",
+              "multiple compression"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' which is accurate, but the claim that payment processor is 'exposed to near-term volume volatility from market selloff' lacks evidentiary support in sources. No article discusses impact on payment volumes or consumer transaction activity.",
+            "verification_issue": "Rationale claims tech selloff contagion pressures consumer transaction volumes, but articles do not support this causal chain. Article [4] documents the AI/tech selloff, but does not establish that this translates to reduced consumer transaction volumes for payment processors.",
             "supporting_article": null
           }
         ],
-        "summary": "Financial stocks show bullish signals amid market volatility triggered by the AI sector rout and geopolitical tensions (U.S.-Iran). Investment banks JPM, BAC, GS, and MS stand to benefit from increased trading activity, advisory fees, and M&A opportunities during market dislocations. Payment processors V and MA remain neutral as they lack direct exposure to the current themes but face near-term headwinds from broader selloff impacts.",
+        "summary": "Financial stocks face conflicting pressures: rising interest rates and geopolitical tensions (elevated oil) provide some support for trading and NII, but the broad AI-driven equity selloff and rising rate headwinds create significant near-term headwinds. Payment processors V and MA are most vulnerable to consumer spending weakness and equity market deterioration, while banks show mixed signals dependent on trading opportunity capture.",
         "risks": [
-          "Sustained market selloff could reduce investment banking deal flow and advisory revenue",
-          "Escalation of U.S.-Iran tensions may create broader economic uncertainty and reduce client risk appetite",
-          "AI sector recovery could rapidly reverse current market volatility, reducing fee-generating opportunities for banks",
-          "Recession fears from geopolitical events could depress payment volumes and transaction activity"
+          "Escalation of Iran conflict impacting oil/rates",
+          "Continued AI sector selloff spreading to financials",
+          "Consumer spending deterioration from higher rates",
+          "Equity market correction acceleration"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "GS rationale speculates about M&A advisory opportunities without source support. Article [4] and [6] discuss AI stock selloff but do not reference M&A activity or advisory opportunities.",
-            "V and MA signals lack grounding despite analyst acknowledging 'no direct exposure.' Analyst extrapolates from market selloff to payment volume impact without source evidence of consumer spending or transaction effects.",
-            "All five bank signals (JPM, BAC, GS, MS) assume market volatility automatically translates to revenue benefits, but no sources quantify or confirm this relationship during this specific market event."
+            "V and MA bearish signals lack sufficient evidentiary support for consumer spending weakness causation",
+            "Articles do not contain direct analysis of how equity market volatility from tech selloff affects payment processor transaction volumes"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 358.6400146484375,
-        "BAC": 62.68000030517578,
-        "GS": 1038.6099853515625,
-        "MS": 217.72000122070312,
-        "V": 375.07000732421875,
-        "MA": 579.2100219726562
+        "JPM": null,
+        "BAC": null,
+        "GS": null,
+        "MS": null,
+        "V": null,
+        "MA": null
       },
       "spot_check": {
-        "title": "Social Media in China Is Getting Really Dark",
-        "summary": "The Chinese Communist Party has spent years trying to make \u201cpositive energy\u201d the dominant mood of the country\u2019s internet. It\u2019s no longer working.",
-        "url": "https://www.nytimes.com/2026/09/07/business/china-social-media-pessimism.html",
+        "title": "Oil Climbs Toward $100 a Barrel Following Houthi Attacks",
+        "summary": "Analysts said they expected the price of Brent crude, the international benchmark, to remain elevated for the rest of the year.",
+        "url": "https://www.nytimes.com/2026/09/08/business/oil-prices-iran-war.html",
         "source": "Rss",
-        "published": "07 Sep 2026",
+        "published": "08 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
+          "ticker": "V",
+          "company": "Visa Inc.",
+          "sentiment": "bearish",
+          "conviction": 62,
+          "rationale": "Broad AI-driven stock selloff and rising rates create headwinds for consumer discretionary spending.",
           "key_themes": [
-            "market volatility",
-            "trading activity",
-            "investment banking"
+            "equity market selloff",
+            "consumer spending risk",
+            "rate sensitivity"
           ],
           "time_horizon": "short-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": [
-            3,
-            4
-          ]
+          "verified": false,
+          "verification_issue": "Rationale claims rising rates create headwinds for consumer discretionary spending, but source articles do not establish a causal link between rising rates and consumer spending weakness. Article [3] mentions rising rates as equity risk, and article [4] discusses AI selloff, but neither connects these to consumer discretionary spending or Visa specifically.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Market volatility from AI rout and geopolitical tensions (U.S.-Iran) typically increase investment banking and trading revenues for large banks.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Broad AI-driven stock selloff and rising rates create headwinds for consumer discretionary spending.",
         "haiku_themes": [
-          "market volatility",
-          "trading activity",
-          "investment banking"
+          "equity market selloff",
+          "consumer spending risk",
+          "rate sensitivity"
         ]
       },
       "config": {
