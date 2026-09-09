@@ -17324,5 +17324,363 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-09",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "iPhone Duo foldable launch at $2,000 entry point signals premium product diversification and new revenue stream",
+            "key_themes": [
+              "new product category",
+              "premium pricing",
+              "hardware innovation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT organic search redirection threat offset by Google's dominant AI positioning in content recommendations",
+            "key_themes": [
+              "AI search integration",
+              "content discovery",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content to users, not a threat to Google's search dominance. No evidence provided that this redirects search traffic or that Google has dominant AI positioning in content recommendations relative to this threat.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT integration with content creation workflow demonstrates strong OpenAI partnership monetization potential",
+            "key_themes": [
+              "AI content tools",
+              "ChatGPT integration",
+              "creator economy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 316.2200012207031,
+          "GOOGL": 338.3599853515625,
+          "MSFT": 493.95001220703125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Refining capacity shortage and tight diesel markets support elevated margins for major refiners.",
+            "key_themes": [
+              "refining margins",
+              "diesel supply crunch",
+              "inflation pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 74,
+            "rationale": "Global diesel crunch and India's 105-108% refinery utilization sustain strong downstream profit environment.",
+            "key_themes": [
+              "refining capacity shortage",
+              "diesel demand surge",
+              "downstream margins"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Diesel supply deficit and high fuel prices benefit refining operations; European jet fuel profits strengthen near-term cash flows.",
+            "key_themes": [
+              "refining margins",
+              "jet fuel demand",
+              "fuel price inflation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              5
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Tight global diesel market and high utilization rates in refineries support strong refining margins and profitability.",
+            "key_themes": [
+              "diesel shortage",
+              "refining capacity stress",
+              "fuel price premiums"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Benefits from refining margin expansion offset by European energy transition pressure and renewable investment drag.",
+            "key_themes": [
+              "refining upside",
+              "clean energy transition",
+              "conflicting headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              5
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Iraq quota push poses OPEC supply risk; offset by potential refining margin support from diesel tightness.",
+            "key_themes": [
+              "OPEC quota uncertainty",
+              "supply risk",
+              "refining support"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 160.66000366210938,
+          "CVX": 209.8000030517578,
+          "BP": 44.880001068115234,
+          "SHEL": 95.31999969482422,
+          "TTE": 90.0999984741211,
+          "COP": 135.0399932861328
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "AI-generated drug candidate (rentosertib) showing anti-aging potential expands pipeline beyond diabetes into longevity market.",
+            "key_themes": [
+              "AI drug discovery",
+              "anti-aging therapeutics",
+              "rare disease expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Biosimilar threat intensifies as Sandoz commits to 100 biosimilars by 2040, pressuring branded immunology drug margins.",
+            "key_themes": [
+              "biosimilar competition",
+              "patent cliff exposure",
+              "margin compression"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Global drug pricing policy shifts create commercialization headwinds; diversified portfolio offers some offset but innovation spending pressured.",
+            "key_themes": [
+              "pricing pressure",
+              "policy uncertainty",
+              "market access challenges"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Facing similar drug pricing 'earthquake' with lower R&D productivity than peers; biosimilar competition threatens franchise sustainability.",
+            "key_themes": [
+              "pricing regulation",
+              "patent expiration risk",
+              "biosimilar erosion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'lower R&D productivity than peers' but source articles do not compare Pfizer's R&D productivity to competitors. Article [4] discusses general pricing policy shifts affecting the industry, not Pfizer-specific R&D metrics.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Strong oncology pipeline provides buffer against pricing pressure, but global regulatory headwinds and biosimilar competition remain structural concerns.",
+            "key_themes": [
+              "oncology strength",
+              "pricing headwinds",
+              "competitive dynamics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Epigenome editing and AI-drug discovery trends drive demand for enabling tools, reagents, and contract research capabilities.",
+            "key_themes": [
+              "emerging biotech tools",
+              "AI drug development support",
+              "platform expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Drug pricing policy shifts favor payers through increased negotiation leverage; patient-centric development trends support value-based care expansion.",
+            "key_themes": [
+              "pricing leverage",
+              "payer power",
+              "value-based care"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1123.9100341796875,
+          "ABBV": 248.77999877929688,
+          "JNJ": 269.1199951171875,
+          "PFE": 27.790000915527344,
+          "MRK": 148.4600067138672,
+          "TMO": 603.02001953125,
+          "UNH": 400.8399963378906
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI market volatility may increase M&A advisory activity, but broader tech selloff creates uncertainty for banking revenues.",
+            "key_themes": [
+              "AI market volatility",
+              "M&A opportunities",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates about M&A advisory activity and banking revenue impacts from AI volatility, but source articles [4] and [6] only discuss stock market declines and AI infrastructure selloffs. No analysis of JPMorgan Chase or investment banking implications is present in sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Nuclear energy expansion in California aligns with BRK's utility investments and clean energy transition strategy.",
+            "key_themes": [
+              "nuclear energy",
+              "clean energy",
+              "utility growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 353.510009765625,
+          "BRK-B": 505.8299865722656
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
