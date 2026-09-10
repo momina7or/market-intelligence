@@ -17682,5 +17682,314 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-10",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "iPhone 18 Pro's advanced variable aperture camera technology demonstrates continued hardware innovation leadership.",
+            "key_themes": [
+              "product innovation",
+              "camera technology",
+              "premium positioning"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 315.3399963378906
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Middle East supply disruptions and record tanker rates support crude prices; positioned for near-term margin expansion.",
+            "key_themes": [
+              "supply shock",
+              "shipping premiums",
+              "energy security"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Middle East crisis drives oil supply concerns and elevated tanker costs, benefiting integrated upstream producers.",
+            "key_themes": [
+              "supply disruption",
+              "elevated crude prices",
+              "logistics premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Shipping route inefficiencies and supply disruptions support crude valuations; benefits from energy security focus.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply shock",
+              "tanker rates"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Middle East supply risks and rerouting logistics create margin opportunities; well-positioned with diversified operations.",
+            "key_themes": [
+              "supply disruption",
+              "shipping volatility",
+              "energy security"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Supply shock and elevated tanker rates support crude prices; also investing in clean hydrogen ($130B+ sector tailwind).",
+            "key_themes": [
+              "supply disruption",
+              "energy transition",
+              "hydrogen growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Middle East supply constraints and record shipping costs create favorable crude pricing environment for producers.",
+            "key_themes": [
+              "supply shock",
+              "tanker premium",
+              "geopolitical tension"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "CCS hub construction activity supports oilfield services, but limited direct exposure to geopolitical supply dynamics.",
+            "key_themes": [
+              "energy transition",
+              "CCS infrastructure",
+              "oilfield services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 164.22999572753906,
+          "CVX": 213.80999755859375,
+          "BP": 45.68000030517578,
+          "SHEL": 95.5999984741211,
+          "TTE": 91.63999938964844,
+          "COP": 136.52999877929688,
+          "SLB": 57.04999923706055
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "AI-generated drug candidate (rentosertib) shows anti-aging properties, positioning LLY at forefront of longevity therapeutics",
+            "key_themes": [
+              "AI drug development",
+              "aging treatment",
+              "rare disease expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses rentosertib but does not identify the drug maker or attribute it to Eli Lilly. The rationale assumes LLY involvement without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Continued significant workforce reductions (54 jobs in New Jersey) signal ongoing margin pressure and potential pipeline challenges",
+            "key_themes": [
+              "cost-cutting",
+              "restructuring",
+              "operational headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Early cancer detection market expanding with Caris Detect promotion; TMO positioned to benefit from diagnostic innovation and commercialization",
+            "key_themes": [
+              "diagnostic innovation",
+              "early detection",
+              "cancer screening market"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [5] mentions Caris Detect promotion but Thermo Fisher Scientific (TMO) is not mentioned. Caris is a separate company. TMO has no connection to the Caris marketing campaign described.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1124.2099609375,
+          "MRK": 147.52999877929688,
+          "TMO": 605.6900024414062
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Potential $1T+ fiscal stimulus from Trump policies could drive bond market volatility and increase investment banking advisory revenues.",
+            "key_themes": [
+              "fiscal stimulus",
+              "bond market volatility",
+              "M&A activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Large-scale fiscal policy implementation typically benefits investment banking through increased M&A and capital markets activity.",
+            "key_themes": [
+              "fiscal stimulus",
+              "investment banking",
+              "capital markets"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Significant fiscal spending and market volatility from Trump policy proposals create favorable conditions for wealth and investment management.",
+            "key_themes": [
+              "fiscal policy",
+              "market volatility",
+              "advisory services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Indirect benefit from fiscal stimulus and volatility, but less dependent on investment banking than pure-play peers.",
+            "key_themes": [
+              "fiscal stimulus",
+              "market uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 354.7099914550781,
+          "GS": 1028.780029296875,
+          "MS": 215.35000610351562,
+          "BAC": 62.66999816894531
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
