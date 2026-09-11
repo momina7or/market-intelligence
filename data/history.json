@@ -17991,5 +17991,374 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-09-11",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "New folding iPhone innovation demonstrates continued R&D leadership despite competitive design convergence in hardware market.",
+            "key_themes": [
+              "product innovation",
+              "supply chain competition",
+              "hardware differentiation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Slack's new AI-powered Slackforce Surfaces feature leverages enterprise AI adoption; strong enterprise workflow automation growth vector.",
+            "key_themes": [
+              "enterprise AI",
+              "workflow automation",
+              "LLM integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's emerging role in search/content discovery and Google Drive integration in AI tools threatens search but drives enterprise API adoption.",
+            "key_themes": [
+              "AI-driven search disruption",
+              "enterprise integration",
+              "competitive pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article [1] discusses ChatGPT's role in content discovery but does not mention Google Drive integration or enterprise API adoption implications",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 326.57000732421875,
+          "MSFT": 492.44000244140625,
+          "GOOGL": 332.6000061035156
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "China's 70% EV target by 2030 and sustained 7.2M bpd imports signal weakening long-term oil demand trajectory.",
+            "key_themes": [
+              "demand destruction",
+              "EV transition",
+              "structural headwind"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "China's aggressive EV adoption (70% by 2030) creates persistent long-term demand headwind for integrated oil majors.",
+            "key_themes": [
+              "demand destruction",
+              "EV transition",
+              "long-term exposure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Hormuz transit disruptions support near-term pricing but offset by structural demand risks from China's EV targets.",
+            "key_themes": [
+              "supply disruption",
+              "demand headwinds",
+              "mixed signals"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Geopolitical supply risk from Hormuz supports prices short-term, but China EV shift undermines long-term demand outlook.",
+            "key_themes": [
+              "supply disruption",
+              "demand destruction",
+              "mixed drivers"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "China's 70% EV target by 2030 directly threatens transport fuel demand; CCS investments provide partial diversification offset.",
+            "key_themes": [
+              "demand destruction",
+              "energy transition",
+              "strategic pivot"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              5
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "Structural oil demand decline from China's aggressive EV transition (54% to 70% by 2030) pressures long-term valuations.",
+            "key_themes": [
+              "demand destruction",
+              "EV adoption",
+              "structural headwind"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Oil services face headwinds from EV transition demand destruction, partially offset by CCS infrastructure buildout opportunities.",
+            "key_themes": [
+              "demand destruction",
+              "energy transition",
+              "mixed catalysts"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              5
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 165.22999572753906,
+          "CVX": 212.75999450683594,
+          "BP": 46.08000183105469,
+          "SHEL": 95.95999908447266,
+          "TTE": 91.2300033569336,
+          "COP": 137.0399932861328,
+          "SLB": 56.0099983215332
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Phase 3 win for Qulipta in menstrual migraine expands addressable market and revenue growth trajectory for key franchise.",
+            "key_themes": [
+              "pipeline expansion",
+              "label expansion",
+              "migraine market opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Projected $20B annual healthcare cost increase from data center pollution by 2028 will pressurize medical cost ratios and margins.",
+            "key_themes": [
+              "cost inflation",
+              "environmental healthcare impact",
+              "margin pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale applies broad healthcare cost inflation claim to UnitedHealth specifically, but article discusses pollution costs generically without naming specific insurers as affected parties",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Trump's Obamacare rebates signal policy uncertainty but diversified portfolio and medical devices segment provide partial insulation.",
+            "key_themes": [
+              "policy uncertainty",
+              "ACA dynamics",
+              "payer pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Trump Obamacare rebates are mentioned in source, but rationale speculates about JNJ's exposure without clear connection\u2014J&J is not a health insurer/payer like UnitedHealth, so ACA policy impacts are indirect and tenuous",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "ABBV": 255.0,
+          "UNH": 388.2799987792969,
+          "JNJ": 266.3500061035156
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Bond market volatility and rising Treasury yields create mixed trading opportunities and margin pressures.",
+            "key_themes": [
+              "bond market volatility",
+              "treasury market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Bond rout and CPI uncertainty create headwinds; potential NIM expansion offset by market instability.",
+            "key_themes": [
+              "bond market stress",
+              "inflation data dependency"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Bond market turmoil and reduced capital markets activity threaten investment banking and trading revenues.",
+            "key_themes": [
+              "bond market rout",
+              "capital markets disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Deepening bond market rout pressures wealth management and capital markets divisions amid market instability.",
+            "key_themes": [
+              "bond market deterioration",
+              "trading volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad stock market weakness from AI selloff may pressure payment volumes; defensive characteristics provide some support.",
+            "key_themes": [
+              "market risk-off",
+              "payment volume uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech-led selloff creates near-term headwinds for payment processors; long-term fundamentals remain intact.",
+            "key_themes": [
+              "equity market selloff",
+              "tech sector pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 353.55999755859375,
+          "BAC": 62.560001373291016,
+          "GS": 1019.77001953125,
+          "MS": 212.66000366210938,
+          "V": 367.2099914550781,
+          "MA": 565.3699951171875
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      }
+    }
   }
 ]

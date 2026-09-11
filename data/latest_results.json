@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-10",
-  "run_time": "2026-09-10T12:03:06.900352Z",
+  "run_date": "2026-09-11",
+  "run_time": "2026-09-11T12:01:52.618159Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,28 +29,28 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Mathematicians want proof OpenAI didn\u2019t use their work",
-          "summary": "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI giant of unethical and \"dishonest\" behavior and a lack of transparency about the origins [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+          "title": "Apple addresses iPhone Duo copycats",
+          "summary": "Apple was far from the first company to announce a passport-shaped folding phone this year, but that doesn't mean it wasn't copied. As my colleague Dom Preston already explained, it's almost impossible to keep product development secret when Apple and its competitors all share the same global suppliers. Apple's new CEO John Ternus and head [&#8230;]",
+          "url": "https://www.theverge.com/tech/993795/apple-addresses-iphone-duo-copycats",
+          "source": "Theverge",
+          "published": "11 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Slack can now vibe-code interactive charts and reports inside chats",
+          "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to [&#8230;]",
+          "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
           "source": "Theverge",
           "published": "10 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The variable aperture isn\u2019t the cool part of the iPhone 18 Pro\u2019s camera",
-          "summary": "Apple always makes a big show of the latest cameras in its phones, and the major talking point of the iPhone 18 Pro is about the new variable aperture. Both the iPhone 18 Pro and Pro Max have an adjustable mechanical iris in their main camera modules to let more or less light into the [&#8230;]",
-          "url": "https://www.theverge.com/tech/993155/variable-aperture-iphone-18-pro-photography",
+          "title": "Schools are catching on to Big Tech\u2019s playbook",
+          "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on [&#8230;]",
+          "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
           "source": "Theverge",
           "published": "10 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "The Trump phone just got a $250 price hike",
-          "summary": "Bad news if you didn't lock in a Trump phone at launch: It now costs $749, a $250 increase on its price at launch. The T1 Phone itself hasn't changed. Trump Mobile didn't announce the price increase, instead quietly changing its website overnight. This wasn't a total surprise though, especially given the phone ships with [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/993242/trump-phone-t1-price-hike",
-          "source": "Theverge",
-          "published": "10 Sep 2026",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
@@ -60,33 +60,70 @@
             "company": "Apple Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "iPhone 18 Pro's advanced variable aperture camera technology demonstrates continued hardware innovation leadership.",
+            "rationale": "New folding iPhone innovation demonstrates continued R&D leadership despite competitive design convergence in hardware market.",
             "key_themes": [
               "product innovation",
-              "camera technology",
-              "premium positioning"
+              "supply chain competition",
+              "hardware differentiation"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Slack's new AI-powered Slackforce Surfaces feature leverages enterprise AI adoption; strong enterprise workflow automation growth vector.",
+            "key_themes": [
+              "enterprise AI",
+              "workflow automation",
+              "LLM integration"
+            ],
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's emerging role in search/content discovery and Google Drive integration in AI tools threatens search but drives enterprise API adoption.",
+            "key_themes": [
+              "AI-driven search disruption",
+              "enterprise integration",
+              "competitive pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article [1] discusses ChatGPT's role in content discovery but does not mention Google Drive integration or enterprise API adoption implications",
+            "supporting_article": 1
           }
         ],
-        "summary": "The articles reveal limited direct impact on major tech stocks. AAPL shows modest strength from iPhone 18 Pro camera innovation. Meanwhile, OpenAI faces legal scrutiny over data usage practices, which could indirectly pressure AI-focused companies facing similar transparency concerns. Overall sector sentiment remains cautiously neutral pending clarity on AI training data ethics.",
+        "summary": "The Technology sector shows bullish signals centered on enterprise AI adoption and workflow automation, particularly within productivity platforms. Articles highlight AI tools becoming embedded in content creation, search discovery, and workplace collaboration, driving value to cloud infrastructure and LLM providers. Educational institution adoption suggests long-term secular growth in AI skills and enterprise deployments.",
         "risks": [
-          "OpenAI legal challenges may create regulatory headwinds for all AI developers including MSFT-backed entities",
-          "Articles lack substantive financial data; sentiment based on limited hardware/product updates rather than earnings fundamentals",
-          "AI tool commoditization could pressure margins for companies monetizing generative AI platforms"
+          "Rapid commoditization of AI features across competing platforms reducing differentiation",
+          "Regulatory scrutiny on AI training data use and educational institution partnerships intensifying",
+          "Supply chain vulnerability exposure as Apple and competitors rely on shared global suppliers for innovation"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
+          "overall_reliability": "medium",
+          "flags": [
+            "GOOGL signal conflates ChatGPT competitive threat with Google Drive integration - Article [5] mentions Google Drive integration with Slack/Slackbot, not ChatGPT or Google products",
+            "GOOGL signal claims 'enterprise API adoption' as a growth driver for Google but source material does not support this as a benefit to Alphabet"
+          ],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "AAPL": 315.3399963378906
+        "AAPL": 326.57000732421875,
+        "MSFT": 492.44000244140625,
+        "GOOGL": 332.6000061035156
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -96,27 +133,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "iPhone 18 Pro's advanced variable aperture camera technology demonstrates continued hardware innovation leadership.",
+          "conviction": 75,
+          "rationale": "Slack's new AI-powered Slackforce Surfaces feature leverages enterprise AI adoption; strong enterprise workflow automation growth vector.",
           "key_themes": [
-            "product innovation",
-            "camera technology",
-            "premium positioning"
+            "enterprise AI",
+            "workflow automation",
+            "LLM integration"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "iPhone 18 Pro's advanced variable aperture camera technology demonstrates continued hardware innovation leadership.",
+        "haiku_rationale": "Slack's new AI-powered Slackforce Surfaces feature leverages enterprise AI adoption; strong enterprise workflow automation growth vector.",
         "haiku_themes": [
-          "product innovation",
-          "camera technology",
-          "premium positioning"
+          "enterprise AI",
+          "workflow automation",
+          "LLM integration"
         ]
       },
       "config": {
@@ -136,26 +173,34 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Clean Hydrogen Investment Tops $130 Billion",
-          "summary": "The oil and gas supply shock amid the Middle East conflict has accelerated cumulative global investments in clean hydrogen to above $130 billion across more than 570 projects, as energy security has become a key driver of uptake alongside industrial growth and decarbonization targets, the Hydrogen Council said in a new report on Thursday. Total committed investment has topped $130 billion for 6.9 million tons per annum (mtpa) of capacity, the industry-led association said in its Global Hydrogen ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Clean-Hydrogen-Investment-Tops-130-Billion.html",
+          "title": "China's Crude Imports Set to Hold at 7.2 Million Bpd in September",
+          "summary": "China is on track to import roughly the same volumes of crude oil in September as it did in August, extending the trend of recovering shipments just as crude oil prices soared to above $100 per barrel again. Kpler\u2019s preliminary vessel-tracking data puts Chinese crude imports at about 7.2 million barrels per day (bpd) for September, about the same as in August, Nikkei Asia reports. The September-arriving crude cargoes were bought at prices well below $100 per barrel, but the gradual recovery of C",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Crude-Imports-Set-to-Hold-at-72-Million-Bpd-in-September.html",
           "source": "Oilprice",
-          "published": "10 Sep 2026",
+          "published": "11 Sep 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Oil Tanker Rates Hit Record Highs as Middle East Shipping Risks Soar",
-          "summary": "Oil tanker rates have jumped to record highs as escalating risks to shipping in and out of the Middle East are prompting traders and tanker operators to undertake inefficient and more expensive trade routes. While the crude oil supply is actually there, shipping it through the Strait of Hormuz remains a very risky endeavor, especially in light of the escalating U.S.-Iran tanker war in the Persian Gulf and the Gulf of Oman, while Saudi Arabia has started to move crude cargoes out of the region th",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tanker-Rates-Hit-Record-Highs-as-Middle-East-Shipping-Risks-Soar.html",
+          "title": "Hormuz Shipping Traffic Plunges as Middle East War Escalates",
+          "summary": "Ship traffic through the Strait of Hormuz slumped to single digits on Thursday, down from a 10-day average of 15 vessels that transited the chokepoint in both directions, Reuters reports, citing preliminary vessel-tracking data by Kpler as of early Friday. Only seven vessels, two outbound and five inbound, transited the Strait of Hormuz over the past 24 hours, per the data, which tracks only ships with positioning systems switched on. Dark transits are believed to be much higher as vessel operat",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Plunges-as-Middle-East-War-Escalates.html",
           "source": "Oilprice",
-          "published": "10 Sep 2026",
-          "sentiment_hint": "bullish"
+          "published": "11 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "India Calls for Bigger Biofuel Push as Oil Prices Soar",
-          "summary": "India needs to expand biofuel production and consumption to boost its energy security as crude oil prices soar amid the Middle East crisis, according to Tarun Kapoor, an adviser in India\u2019s Prime Minister\u2019s Office. \u201cThe future of biofuels is about maximizing value from every available resource,\u201d Kapoor said at the India Sugar and Bio-Energy Conference. \u201cFrom ethanol and compressed biogas to new applications in transport, industry and energy, we must expand the market and fully utilize the capacit",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Calls-for-Bigger-Biofuel-Push-as-Oil-Prices-Soar.html",
+          "title": "China\u2019s 70% EV Target Deals Another Blow to Oil Demand",
+          "summary": "China aims to have electric and hybrid vehicles account for as much as 70% of all passenger car sales by 2030, in a massive transport shift set to further dent oil demand for road fuels. As of the end of last year, the share of the so-called new energy vehicles was 54% of all passenger vehicle sales. In the new five-year plan for the automotive industry compiled by nearly a dozen Chinese government agencies, China also targets to have 40% of new commercial vehicle sales be electric by 2030. The ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-70-EV-Target-Deals-Another-Blow-to-Oil-Demand.html",
           "source": "Oilprice",
+          "published": "11 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Island Green Power receives consent for 500MW Aberdeenshire storage project",
+          "summary": "Island Green Power has received consent from Scottish Ministers to develop a 500MW BESS near New Deer in Aberdeenshire, UK.",
+          "url": "https://www.energymonitor.ai/news/island-green-power-consent-aberdeenshire-project/",
+          "source": "Energymonitor",
           "published": "10 Sep 2026",
           "sentiment_hint": "neutral"
         },
@@ -174,157 +219,143 @@
           "source": "Energymonitor",
           "published": "09 Sep 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "FTC Solar begins tracker shipments for 330MW Fraser Coast project",
-          "summary": "FTC Solar has started shipments of its solar tracker systems for the Fraser Coast project, a large-scale renewable energy initiative.",
-          "url": "https://www.energymonitor.ai/news/ftc-tracker-shipments-fraser-coast/",
-          "source": "Energymonitor",
-          "published": "09 Sep 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
             "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "bullish",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Middle East supply disruptions and record tanker rates support crude prices; positioned for near-term margin expansion.",
+            "rationale": "China's 70% EV target by 2030 and sustained 7.2M bpd imports signal weakening long-term oil demand trajectory.",
             "key_themes": [
-              "supply shock",
-              "shipping premiums",
-              "energy security"
+              "demand destruction",
+              "EV transition",
+              "structural headwind"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "CVX",
             "company": "Chevron Corporation",
-            "sentiment": "bullish",
+            "sentiment": "bearish",
             "conviction": 70,
-            "rationale": "Middle East crisis drives oil supply concerns and elevated tanker costs, benefiting integrated upstream producers.",
+            "rationale": "China's aggressive EV adoption (70% by 2030) creates persistent long-term demand headwind for integrated oil majors.",
             "key_themes": [
-              "supply disruption",
-              "elevated crude prices",
-              "logistics premium"
+              "demand destruction",
+              "EV transition",
+              "long-term exposure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "BP",
             "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Shipping route inefficiencies and supply disruptions support crude valuations; benefits from energy security focus.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Hormuz transit disruptions support near-term pricing but offset by structural demand risks from China's EV targets.",
             "key_themes": [
-              "geopolitical risk premium",
-              "supply shock",
-              "tanker rates"
+              "supply disruption",
+              "demand headwinds",
+              "mixed signals"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              1,
-              2
+              2,
+              3
             ]
           },
           {
             "ticker": "SHEL",
             "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 71,
-            "rationale": "Middle East supply risks and rerouting logistics create margin opportunities; well-positioned with diversified operations.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Geopolitical supply risk from Hormuz supports prices short-term, but China EV shift undermines long-term demand outlook.",
             "key_themes": [
               "supply disruption",
-              "shipping volatility",
-              "energy security"
+              "demand destruction",
+              "mixed drivers"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              1,
-              2
+              2,
+              3
             ]
           },
           {
             "ticker": "TTE",
             "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Supply shock and elevated tanker rates support crude prices; also investing in clean hydrogen ($130B+ sector tailwind).",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "China's 70% EV target by 2030 directly threatens transport fuel demand; CCS investments provide partial diversification offset.",
             "key_themes": [
-              "supply disruption",
+              "demand destruction",
               "energy transition",
-              "hydrogen growth"
+              "strategic pivot"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              1,
-              2
+              3,
+              5
             ]
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 69,
-            "rationale": "Middle East supply constraints and record shipping costs create favorable crude pricing environment for producers.",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "Structural oil demand decline from China's aggressive EV transition (54% to 70% by 2030) pressures long-term valuations.",
             "key_themes": [
-              "supply shock",
-              "tanker premium",
-              "geopolitical tension"
+              "demand destruction",
+              "EV adoption",
+              "structural headwind"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "SLB",
             "company": "Schlumberger Limited",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "CCS hub construction activity supports oilfield services, but limited direct exposure to geopolitical supply dynamics.",
+            "conviction": 50,
+            "rationale": "Oil services face headwinds from EV transition demand destruction, partially offset by CCS infrastructure buildout opportunities.",
             "key_themes": [
+              "demand destruction",
               "energy transition",
-              "CCS infrastructure",
-              "oilfield services"
+              "mixed catalysts"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": [
+              3,
+              5
+            ]
           }
         ],
-        "summary": "Escalating Middle East geopolitical tensions and shipping route disruptions are creating a near-term bullish catalyst for integrated and upstream oil majors through elevated crude prices and tanker rate premiums. Simultaneously, the $130B+ clean hydrogen investment trend signals longer-term energy transition opportunities for diversified energy players. However, this reflects a complex risk environment where short-term commodity upside conflicts with accelerating energy security pressure toward alternative fuels.",
+        "summary": "The petroleum sector faces significant structural headwinds from China's aggressive EV transition targets (70% by 2030), which will persistently erode oil demand for transport fuels despite near-term price support from Hormuz geopolitical disruptions. While Middle East tensions provide tactical upside, the long-term demand trajectory remains under pressure, creating a bearish bias for integrated oil majors. Energy transition investments in CCS and renewables offer partial diversification, but cannot offset the scale of anticipated demand destruction.",
         "risks": [
-          "Geopolitical escalation could trigger demand destruction or recession, offsetting supply-driven price gains",
-          "Rapid transition to renewables and hydrogen reduces long-term hydrocarbon demand and stranded asset risk",
-          "Conflict resolution or alternative shipping routes could normalize tanker rates and margin compression",
-          "Regulatory pressure on fossil fuels may accelerate in response to energy crisis uncertainty"
+          "Hormuz supply disruptions could intensify, providing stronger-than-expected price support and delaying demand destruction impacts",
+          "China's EV adoption may decelerate due to economic slowdown or policy reversal, preserving oil demand longer than projected",
+          "Geopolitical escalation beyond Hormuz could create supply shocks offsetting demand-side headwinds",
+          "Oil majors' energy transition investments may prove insufficient or capital-intensive, pressuring cash flows and returns"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -332,46 +363,43 @@
         }
       },
       "prices_snapshot": {
-        "XOM": 164.22999572753906,
-        "CVX": 213.80999755859375,
-        "BP": 45.68000030517578,
-        "SHEL": 95.5999984741211,
-        "TTE": 91.63999938964844,
-        "COP": 136.52999877929688,
-        "SLB": 57.04999923706055
+        "XOM": 165.22999572753906,
+        "CVX": 212.75999450683594,
+        "BP": 46.08000183105469,
+        "SHEL": 95.95999908447266,
+        "TTE": 91.2300033569336,
+        "COP": 137.0399932861328,
+        "SLB": 56.0099983215332
       },
       "spot_check": {
-        "title": "Clean Hydrogen Investment Tops $130 Billion",
-        "summary": "The oil and gas supply shock amid the Middle East conflict has accelerated cumulative global investments in clean hydrogen to above $130 billion across more than 570 projects, as energy security has become a key driver of uptake alongside industrial growth and decarbonization targets, the Hydrogen Council said in a new report on Thursday. Total committed investment has topped $130 billion for 6.9 million tons per annum (mtpa) of capacity, the industry-led association said in its Global Hydrogen ",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Clean-Hydrogen-Investment-Tops-130-Billion.html",
+        "title": "China's Crude Imports Set to Hold at 7.2 Million Bpd in September",
+        "summary": "China is on track to import roughly the same volumes of crude oil in September as it did in August, extending the trend of recovering shipments just as crude oil prices soared to above $100 per barrel again. Kpler\u2019s preliminary vessel-tracking data puts Chinese crude imports at about 7.2 million barrels per day (bpd) for September, about the same as in August, Nikkei Asia reports. The September-arriving crude cargoes were bought at prices well below $100 per barrel, but the gradual recovery of C",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Crude-Imports-Set-to-Hold-at-72-Million-Bpd-in-September.html",
         "source": "Oilprice",
-        "published": "10 Sep 2026",
+        "published": "11 Sep 2026",
         "sentiment_hint": "bullish",
         "related_signal": {
           "ticker": "XOM",
-          "company": "ExxonMobil Corporation",
-          "sentiment": "bullish",
+          "company": "Exxon Mobil Corporation",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Middle East supply disruptions and record tanker rates support crude prices; positioned for near-term margin expansion.",
+          "rationale": "China's 70% EV target by 2030 and sustained 7.2M bpd imports signal weakening long-term oil demand trajectory.",
           "key_themes": [
-            "supply shock",
-            "shipping premiums",
-            "energy security"
+            "demand destruction",
+            "EV transition",
+            "structural headwind"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            1,
-            2
-          ]
+          "supporting_article": 3
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Middle East supply disruptions and record tanker rates support crude prices; positioned for near-term margin expansion.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "China's 70% EV target by 2030 and sustained 7.2M bpd imports signal weakening long-term oil demand trajectory.",
         "haiku_themes": [
-          "supply shock",
-          "shipping premiums",
-          "energy security"
+          "demand destruction",
+          "EV transition",
+          "structural headwind"
         ]
       },
       "config": {
@@ -391,6 +419,22 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Trump Announces $500 Rebates for Some Obamacare Customers,Weeks Before the Election",
+          "summary": "The White House plans to send the money to people in 30 states who have higher incomes and are insured under the Affordable Care Act.",
+          "url": "https://www.nytimes.com/2026/09/10/business/trump-obamacare-rebates.html",
+          "source": "Rss",
+          "published": "10 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "A.I. Data Center Pollution Poses Health Threat, Former E.P.A. Officials Warn",
+          "summary": "Air pollution from gas-fired power plants to run data centers is expected to add at least $20 billion in annual health care costs by 2028, the group warns.",
+          "url": "https://www.nytimes.com/2026/09/10/climate/ai-data-centers-air-pollution-health.html",
+          "source": "Rss",
+          "published": "10 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "Roger Marshall Sued 700 Patients for Debts; 81 Were Arrested. Now He\u2019s a Senator.",
           "summary": "Patients sued by Senator Roger Marshall of Kansas were routinely charged 18 percent interest, The Times found. Some had bank accounts garnished.",
           "url": "https://www.nytimes.com/2026/09/08/us/politics/roger-marshall-obgyn-doctor-debts.html",
@@ -399,74 +443,42 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A Newer Kind of Gene Editing Promises to Edit \u2018Nurture\u2019 Over \u2018Nature\u2019",
-          "summary": "Traditional gene editing rewrites DNA. But a new approach, called epigenome editing, aims to treat the molecular scars we collect throughout our lives.",
-          "url": "https://www.nytimes.com/2026/09/08/science/epigenetic-editing.html",
-          "source": "Rss",
-          "published": "08 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging",
-          "summary": "Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition. Its maker says the drug also seems to reduce the biological hallmarks of age.",
-          "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html",
-          "source": "Rss",
-          "published": "07 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fda-bumps-bayers-hyrnuo-first-line-treatment-her2-mutated-lung-cancer\" hreflang=\"en\">FDA clears Bayer\u2019s Hyrnuo in first-line lung cancer, amping up Hernexeos rivalry</a>",
-          "summary": "Bayer has won first-line approval for its tyrosine kinase inhibitor, Hyrnuo, in patients with HER2-mutant non-small cell lung cancer. The green light comes around half a year after a similar nod for rival TKI med Hernexeos from Boehringer Ingelheim.",
-          "url": "https://www.fiercepharma.com/pharma/fda-bumps-bayers-hyrnuo-first-line-treatment-her2-mutated-lung-cancer",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/first-interview-fda-oncology-chief-angelo-de-claro-vows-continue-innovation-behind-oce\" hreflang=\"en\">In first interview as FDA oncology chief, Angelo de Claro vows to \u2018continue the innovation\u2019 behind OCE legacy</a>",
+          "summary": "In his first interview after taking the reins of the FDA\u2019s Oncology Center of Excellence, Angelo de Claro, M.D., is outlining a regulatory agenda that prioritizes organizational strength and continued regulatory modernization.",
+          "url": "https://www.fiercepharma.com/pharma/first-interview-fda-oncology-chief-angelo-de-claro-vows-continue-innovation-behind-oce",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/actor-kevin-costner-does-math-caris-detect-early-cancer-detection-push\" hreflang=\"en\">Actor Kevin Costner does the math in Caris Detect early cancer detection push </a>",
-          "summary": "The 60-second ad sees \"Yellowstone\" actor Kevin Costner doing the math on the benefits of early cancer detection with Caris' Caris Detect blood test.",
-          "url": "https://www.fiercepharma.com/marketing/actor-kevin-costner-does-math-caris-detect-early-cancer-detection-push",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/lonza-bets-complex-therapies-new-us-facility-corden-scales-injectable-capacity-500-million\" hreflang=\"en\">Swiss CDMOs making moves: Lonza bets on new US facility, CordenPharma scales injectables with \u20ac80M</a>",
+          "summary": "Lonza's plans for a new spray-drying facility in Bend, Oregon, affirm the company's commitment both to high-margin medicines and the U.S. At the same time, fellow Swiss CDMO CordenPharma is also making expansion moves, albeit closer to home.",
+          "url": "https://www.fiercepharma.com/pharma/lonza-bets-complex-therapies-new-us-facility-corden-scales-injectable-capacity-500-million",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/merck-cuts-another-54-new-jersey-meet-2027-cost-cutting-deadline\" hreflang=\"en\">Merck trims another 54 jobs in New Jersey amid multiyear cost-cutting initiative</a>",
-          "summary": "Merck continues sweeping staff reductions, laying off 54 at its Rahway headquarters. The staff changes are set to take effect in December and January.",
-          "url": "https://www.fiercepharma.com/pharma/merck-cuts-another-54-new-jersey-meet-2027-cost-cutting-deadline",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/abbvie-lines-qulipta-expansion-phase-3-win-untapped-menstrual-migraine-indication\" hreflang=\"en\">AbbVie lines up Qulipta expansion with phase 3 win in untapped menstrual migraine indication</a>",
+          "summary": "With positive phase 3 results in hand, AbbVie is one step closer to expanding the reach of its key migraine preventative Qulipta, also known as atogepant.",
+          "url": "https://www.fiercepharma.com/pharma/abbvie-lines-qulipta-expansion-phase-3-win-untapped-menstrual-migraine-indication",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "AI-generated drug candidate (rentosertib) shows anti-aging properties, positioning LLY at forefront of longevity therapeutics",
+            "rationale": "Phase 3 win for Qulipta in menstrual migraine expands addressable market and revenue growth trajectory for key franchise.",
             "key_themes": [
-              "AI drug development",
-              "aging treatment",
-              "rare disease expansion"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [3] discusses rentosertib but does not identify the drug maker or attribute it to Eli Lilly. The rationale assumes LLY involvement without source support.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Continued significant workforce reductions (54 jobs in New Jersey) signal ongoing margin pressure and potential pipeline challenges",
-            "key_themes": [
-              "cost-cutting",
-              "restructuring",
-              "operational headwinds"
+              "pipeline expansion",
+              "label expansion",
+              "migraine market opportunity"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -474,73 +486,88 @@
             "supporting_article": 6
           },
           {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Early cancer detection market expanding with Caris Detect promotion; TMO positioned to benefit from diagnostic innovation and commercialization",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Projected $20B annual healthcare cost increase from data center pollution by 2028 will pressurize medical cost ratios and margins.",
             "key_themes": [
-              "diagnostic innovation",
-              "early detection",
-              "cancer screening market"
+              "cost inflation",
+              "environmental healthcare impact",
+              "margin pressure"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [5] mentions Caris Detect promotion but Thermo Fisher Scientific (TMO) is not mentioned. Caris is a separate company. TMO has no connection to the Caris marketing campaign described.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": "Rationale applies broad healthcare cost inflation claim to UnitedHealth specifically, but article discusses pollution costs generically without naming specific insurers as affected parties",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Trump's Obamacare rebates signal policy uncertainty but diversified portfolio and medical devices segment provide partial insulation.",
+            "key_themes": [
+              "policy uncertainty",
+              "ACA dynamics",
+              "payer pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Trump Obamacare rebates are mentioned in source, but rationale speculates about JNJ's exposure without clear connection\u2014J&J is not a health insurer/payer like UnitedHealth, so ACA policy impacts are indirect and tenuous",
+            "supporting_article": 1
           }
         ],
-        "summary": "Healthcare sector shows bifurcated dynamics: biotechnology innovation accelerating with AI-driven drug discovery and epigenome editing advances, creating long-term growth catalysts. Conversely, traditional pharma faces margin compression evidenced by Merck's restructuring. Diagnostic and detection technologies represent emerging high-growth opportunity within oncology.",
+        "summary": "Healthcare sector faces mixed signals: AbbVie benefits from Qulipta pipeline expansion into menstrual migraine, offsetting broader headwinds. However, UnitedHealth and payers face structural cost pressures from data center pollution-driven healthcare expenses, while policy uncertainty around ACA subsidies creates near-term volatility. Regulatory modernization at FDA oncology unit supports innovation for large-cap pharma long-term.",
         "risks": [
-          "Regulatory approval uncertainty for novel AI-generated therapeutics",
-          "Broader pharma cost-cutting may indicate sector-wide margin pressure",
-          "Competition intensifying in oncology treatment space (Hyrnuo vs. Hernexeos)",
-          "Epigenome editing clinical efficacy still unproven"
+          "Political uncertainty around healthcare policy and ACA subsidies affecting payer economics",
+          "Structural cost inflation from environmental health impacts could squeeze margins across sector",
+          "Data center and AI-related environmental costs may drive regulatory intervention in healthcare pricing"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "LLY signal: Rentosertib's manufacturer is not identified in source article; assumption of Eli Lilly ownership is unsupported",
-            "TMO signal: Caris Detect is promoted by Caris (a distinct company), not Thermo Fisher Scientific; no TMO involvement stated in article [5]"
+            "UNH signal: Article discusses healthcare cost increases from data center pollution but does not specifically identify health insurers as the impacted entities or pressured parties",
+            "JNJ signal: While Trump Obamacare rebates are real, applying this policy uncertainty to JNJ (a diversified pharma/medical device company, not a payer) is a speculative leap not grounded in the source material"
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "LLY": 1124.2099609375,
-        "MRK": 147.52999877929688,
-        "TMO": 605.6900024414062
+        "ABBV": 255.0,
+        "UNH": 388.2799987792969,
+        "JNJ": 266.3500061035156
       },
       "spot_check": {
-        "title": "Roger Marshall Sued 700 Patients for Debts; 81 Were Arrested. Now He\u2019s a Senator.",
-        "summary": "Patients sued by Senator Roger Marshall of Kansas were routinely charged 18 percent interest, The Times found. Some had bank accounts garnished.",
-        "url": "https://www.nytimes.com/2026/09/08/us/politics/roger-marshall-obgyn-doctor-debts.html",
-        "source": "Rss",
-        "published": "09 Sep 2026",
+        "title": "<a href=\"https://www.fiercepharma.com/pharma/abbvie-lines-qulipta-expansion-phase-3-win-untapped-menstrual-migraine-indication\" hreflang=\"en\">AbbVie lines up Qulipta expansion with phase 3 win in untapped menstrual migraine indication</a>",
+        "summary": "With positive phase 3 results in hand, AbbVie is one step closer to expanding the reach of its key migraine preventative Qulipta, also known as atogepant.",
+        "url": "https://www.fiercepharma.com/pharma/abbvie-lines-qulipta-expansion-phase-3-win-untapped-menstrual-migraine-indication",
+        "source": "Fiercepharma",
+        "published": "",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
+          "ticker": "ABBV",
+          "company": "AbbVie Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "AI-generated drug candidate (rentosertib) shows anti-aging properties, positioning LLY at forefront of longevity therapeutics",
+          "rationale": "Phase 3 win for Qulipta in menstrual migraine expands addressable market and revenue growth trajectory for key franchise.",
           "key_themes": [
-            "AI drug development",
-            "aging treatment",
-            "rare disease expansion"
+            "pipeline expansion",
+            "label expansion",
+            "migraine market opportunity"
           ],
-          "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [3] discusses rentosertib but does not identify the drug maker or attribute it to Eli Lilly. The rationale assumes LLY involvement without source support.",
-          "supporting_article": null
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 6
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "AI-generated drug candidate (rentosertib) shows anti-aging properties, positioning LLY at forefront of longevity therapeutics",
+        "haiku_rationale": "Phase 3 win for Qulipta in menstrual migraine expands addressable market and revenue growth trajectory for key franchise.",
         "haiku_themes": [
-          "AI drug development",
-          "aging treatment",
-          "rare disease expansion"
+          "pipeline expansion",
+          "label expansion",
+          "migraine market opportunity"
         ]
       },
       "config": {
@@ -560,27 +587,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "A $5,000 \u2018Trump Dividend\u2019? The Bond Market May Like a Word.",
-          "summary": "President Trump\u2019s latest political gambit could cost more than $1 trillion, and further roil a volatile bond market.",
-          "url": "https://www.nytimes.com/2026/09/10/business/dealbook/trump-dividend-bond-market.html",
+          "title": "Bessent Takes on the Bond Vigilantes",
+          "summary": "As a rout in the bond market deepens, the pressure grows on Treasury Secretary Scott Bessent to restore calm.",
+          "url": "https://www.nytimes.com/2026/09/11/business/dealbook/bessent-bond-vigilantes.html",
           "source": "Rss",
-          "published": "10 Sep 2026",
+          "published": "11 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Why November Is Becoming the Best Time for Off-Season Travel",
-          "summary": "The increasing popularity of September and October travel has changed the traditional shoulder season, leaving sporadic midweek troughs and a few weeks in November.",
-          "url": "https://www.nytimes.com/2026/09/10/travel/november-off-season-travel-deals.html",
+          "title": "Here\u2019s what to know about the report.",
+          "summary": "The Consumer Price Index report for August is playing an outsize role in the Federal Reserve\u2019s policy decision next week.",
+          "url": "https://www.nytimes.com/live/2026/09/11/business/inflation-cpi-report/inflation-cpi-august",
           "source": "Rss",
-          "published": "10 Sep 2026",
+          "published": "11 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Voters Are Asking A.I. About Elections. The Answers Can Vary by User.",
-          "summary": "Artificial intelligence is quickly becoming a go-to stop for voters looking for information about political races. Researchers are studying the effects.",
-          "url": "https://www.nytimes.com/2026/09/10/business/media/ai-chatbots-election-misinformation.html",
+          "title": "How to Make Sense of Mayhem in the Bond Market",
+          "summary": "The stock market is easy to talk about. But bonds are a different story. Our columnist has some pointers to help make you a bond maven.",
+          "url": "https://www.nytimes.com/2026/09/11/business/bond-market-interest-rates.html",
           "source": "Rss",
-          "published": "10 Sep 2026",
+          "published": "11 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -613,47 +640,14 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Potential $1T+ fiscal stimulus from Trump policies could drive bond market volatility and increase investment banking advisory revenues.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Bond market volatility and rising Treasury yields create mixed trading opportunities and margin pressures.",
             "key_themes": [
-              "fiscal stimulus",
               "bond market volatility",
-              "M&A activity"
+              "treasury market uncertainty"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Large-scale fiscal policy implementation typically benefits investment banking through increased M&A and capital markets activity.",
-            "key_themes": [
-              "fiscal stimulus",
-              "investment banking",
-              "capital markets"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Significant fiscal spending and market volatility from Trump policy proposals create favorable conditions for wealth and investment management.",
-            "key_themes": [
-              "fiscal policy",
-              "market volatility",
-              "advisory services"
-            ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
@@ -662,26 +656,89 @@
             "ticker": "BAC",
             "company": "Bank of America",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Indirect benefit from fiscal stimulus and volatility, but less dependent on investment banking than pure-play peers.",
+            "conviction": 52,
+            "rationale": "Bond rout and CPI uncertainty create headwinds; potential NIM expansion offset by market instability.",
             "key_themes": [
-              "fiscal stimulus",
-              "market uncertainty"
+              "bond market stress",
+              "inflation data dependency"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Bond market turmoil and reduced capital markets activity threaten investment banking and trading revenues.",
+            "key_themes": [
+              "bond market rout",
+              "capital markets disruption"
+            ],
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Deepening bond market rout pressures wealth management and capital markets divisions amid market instability.",
+            "key_themes": [
+              "bond market deterioration",
+              "trading volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad stock market weakness from AI selloff may pressure payment volumes; defensive characteristics provide some support.",
+            "key_themes": [
+              "market risk-off",
+              "payment volume uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech-led selloff creates near-term headwinds for payment processors; long-term fundamentals remain intact.",
+            "key_themes": [
+              "equity market selloff",
+              "tech sector pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           }
         ],
-        "summary": "Financial sector shows selective bullish signals driven by anticipated $1T+ Trump fiscal stimulus expected to increase bond market volatility and M&A activity. Investment banks (JPM, GS, MS) are best positioned to benefit from advisory and capital markets expansion. AI sector weakness and commodity price declines create cross-market uncertainty that could impact broader financial conditions.",
+        "summary": "The financial sector faces near-term headwinds from an intensifying bond market rout, rising Treasury yields, and broad equity market weakness triggered by AI sector concerns. Investment banks, particularly Goldman Sachs and Morgan Stanley, face direct pressure from capital markets disruption, while traditional banks face mixed signals from potential NIM expansion offset by market volatility. Payment processors show resilience but face cyclical pressure from market weakness.",
         "risks": [
-          "Bond market disruption reducing credit demand",
-          "Market volatility reducing client risk appetite",
-          "Recession concerns despite fiscal stimulus",
-          "Regulatory uncertainty around large fiscal programs"
+          "Bond market volatility could accelerate if Treasury Secretary Bessent fails to restore confidence",
+          "CPI data next week may further destabilize markets and impact Fed policy expectations",
+          "Continued AI sector selloff could trigger broader financial market contagion",
+          "Rising real yields may pressure equity valuations and trading volumes"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -689,40 +746,40 @@
         }
       },
       "prices_snapshot": {
-        "JPM": 354.7099914550781,
-        "GS": 1028.780029296875,
-        "MS": 215.35000610351562,
-        "BAC": 62.66999816894531
+        "JPM": 353.55999755859375,
+        "BAC": 62.560001373291016,
+        "GS": 1019.77001953125,
+        "MS": 212.66000366210938,
+        "V": 367.2099914550781,
+        "MA": 565.3699951171875
       },
       "spot_check": {
-        "title": "A $5,000 \u2018Trump Dividend\u2019? The Bond Market May Like a Word.",
-        "summary": "President Trump\u2019s latest political gambit could cost more than $1 trillion, and further roil a volatile bond market.",
-        "url": "https://www.nytimes.com/2026/09/10/business/dealbook/trump-dividend-bond-market.html",
+        "title": "Bessent Takes on the Bond Vigilantes",
+        "summary": "As a rout in the bond market deepens, the pressure grows on Treasury Secretary Scott Bessent to restore calm.",
+        "url": "https://www.nytimes.com/2026/09/11/business/dealbook/bessent-bond-vigilantes.html",
         "source": "Rss",
-        "published": "10 Sep 2026",
+        "published": "11 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Potential $1T+ fiscal stimulus from Trump policies could drive bond market volatility and increase investment banking advisory revenues.",
+          "ticker": "MS",
+          "company": "Morgan Stanley",
+          "sentiment": "bearish",
+          "conviction": 60,
+          "rationale": "Deepening bond market rout pressures wealth management and capital markets divisions amid market instability.",
           "key_themes": [
-            "fiscal stimulus",
-            "bond market volatility",
-            "M&A activity"
+            "bond market deterioration",
+            "trading volatility"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 1
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Potential $1T+ fiscal stimulus from Trump policies could drive bond market volatility and increase investment banking advisory revenues.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Deepening bond market rout pressures wealth management and capital markets divisions amid market instability.",
         "haiku_themes": [
-          "fiscal stimulus",
-          "bond market volatility",
-          "M&A activity"
+          "bond market deterioration",
+          "trading volatility"
         ]
       },
       "config": {
