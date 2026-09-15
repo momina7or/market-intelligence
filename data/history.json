@@ -18360,5 +18360,312 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-09-15",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search workflows demonstrates AI assistants capturing organic search traffic, pressuring Google's core search monetization model and justifying accelerated AI investments.",
+            "key_themes": [
+              "AI-powered search disruption",
+              "organic traffic shifting to AI assistants",
+              "competitive pressure on search dominance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Emergency Windows 11 patch reveals quality control challenges in large-scale updates, offsetting positive AI/enterprise narrative with operational execution risks.",
+            "key_themes": [
+              "software quality management",
+              "enterprise reliability concerns",
+              "patch management complexity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "CarPlay adoption in GM vehicles demonstrates Apple's ecosystem integration strength, but article focus is marginal; insufficient signal for directional conviction.",
+            "key_themes": [
+              "CarPlay ecosystem expansion",
+              "automotive integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 349.3900146484375,
+          "MSFT": 505.4100036621094,
+          "AAPL": 333.0799865722656
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "UK tax regime shift from 2027 could deliver \u00a314.9bn in additional revenues, benefiting major UK offshore operators like BP.",
+            "key_themes": [
+              "UK fiscal policy",
+              "offshore tax incentives",
+              "revenue upside"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "UK Oil and Gas Revenue Levy change planned for 2027 advantageous for Shell's substantial North Sea production portfolio.",
+            "key_themes": [
+              "UK tax reform",
+              "offshore operations",
+              "fiscal relief"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Guyana and Suriname upstream investment expansion by Pertamina signals sustained oilfield services demand in high-growth region.",
+            "key_themes": [
+              "Guyana growth",
+              "upstream services",
+              "emerging markets"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale claims 'sustained oilfield services demand' but article only mentions Pertamina's exploratory discussions and investment considerations. No explicit demand signal for oilfield services companies is stated.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "BP": 45.93000030517578,
+          "SHEL": 96.44999694824219,
+          "SLB": 53.31999969482422
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Psychedelic medicine FDA approval pathway creates new therapeutic market; LLY positioned for novel drug development",
+            "key_themes": [
+              "psychedelic therapeutics",
+              "FDA approval expansion",
+              "mental health treatment"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [5] discusses FDA hearing on psychedelic medicine access and safety, but does not mention Eli Lilly or indicate the company is positioned for psychedelic drug development. No evidence LLY has a psychedelic pipeline.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "AI integration in medical care and diagnostics aligns with J&J's healthcare infrastructure and pharma innovation pipeline",
+            "key_themes": [
+              "AI in healthcare",
+              "medical technology",
+              "digital health"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "AI tools and advanced diagnostics for medical applications; disease surveillance needs (Legionella outbreak) boost diagnostic demand",
+            "key_themes": [
+              "AI diagnostics",
+              "disease surveillance",
+              "infectious disease testing"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions Legionella outbreak at Yankee Stadium but does not discuss diagnostic testing demand or Thermo Fisher. The outbreak is a localized public health incident with no connection to TMO's diagnostic capabilities mentioned in the articles.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Psychedelic and menopause-related research opportunities emerging, but no direct pipeline implications evident from articles",
+            "key_themes": [
+              "therapeutic area expansion",
+              "women's health"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Articles [2] and [5] discuss menopause and psychedelic research respectively, but neither article mentions Merck or indicates the company has pipeline implications in these areas. The rationale speculates about opportunities without source support.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1138.280029296875,
+          "JNJ": 266.32000732421875,
+          "TMO": 613.6199951171875,
+          "MRK": 144.85000610351562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising 10-year Treasury yields near 20-year highs expand net interest margins for large banks.",
+            "key_themes": [
+              "higher interest rates",
+              "NIM expansion",
+              "bond market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated borrowing rates and yield curve steepness benefit net interest income for major lenders.",
+            "key_themes": [
+              "higher interest rates",
+              "NIM expansion",
+              "lending margins"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rising Treasury yields improve profitability for investment banking and trading divisions.",
+            "key_themes": [
+              "higher interest rates",
+              "fixed income trading",
+              "advisory fees"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Elevated interest rate environment strengthens wealth management and institutional securities revenues.",
+            "key_themes": [
+              "higher interest rates",
+              "asset management fees",
+              "trading volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from Treasury yields or AI concerns; payment processor resilience during market volatility uncertain.",
+            "key_themes": [
+              "market volatility",
+              "transaction volumes",
+              "economic sensitivity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'AI concerns' but Visa has no direct connection to AI sector discussed in articles. Treasury yields are mentioned in Article 2, but the neutral sentiment on Visa specifically is not supported by any article.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; payment volumes dependent on broader economic activity amid rate volatility.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending",
+              "economic sensitivity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'rate volatility' which appears in Article 2, but the connection between Treasury yields and payment processor volumes is not established in source material. The neutral stance lacks specific supporting evidence.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 350.1300048828125,
+          "BAC": 59.470001220703125,
+          "GS": 988.4500122070312,
+          "MS": 206.5800018310547,
+          "V": 375.2799987792969,
+          "MA": 574.4199829101562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
