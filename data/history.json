@@ -18667,5 +18667,242 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-16",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
+            "key_themes": [
+              "product innovation",
+              "hardware differentiation",
+              "market leadership"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "CEO Satya Nadella advocating for AI regulation signals confidence in Microsoft's competitive AI moat and governance positioning.",
+            "key_themes": [
+              "AI leadership",
+              "regulatory positioning",
+              "competitive advantage"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "DeepMind cofounder Hassabis supporting AI regulation suggests confidence in Google's advanced AI capabilities and market position.",
+            "key_themes": [
+              "AI regulation",
+              "technical leadership",
+              "market dominance"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 331.3399963378906,
+          "MSFT": 497.1199951171875,
+          "GOOGL": 344.9800109863281
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
+            "key_themes": [
+              "carbon capture expansion",
+              "regulatory progress",
+              "energy transition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Saudi pipeline shutdown increases spot crude demand from Asian refiners, supporting pricing and export flexibility.",
+            "key_themes": [
+              "crude demand spike",
+              "geopolitical risk premium",
+              "Asian refinery demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims Saudi pipeline shutdown benefits ConocoPhillips, but source articles [2] and [3] show Saudi Arabia and Asian refiners (especially Chinese) are the primary beneficiaries of spot crude sales. No mention of ConocoPhillips or how this event specifically supports COP's pricing/exports.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Japanese LNG buyer diversifying markets and selling excess supply presents mixed opportunities for suppliers.",
+            "key_themes": [
+              "LNG market diversification",
+              "demand uncertainty",
+              "oversupply risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 169.32000732421875,
+          "COP": 141.22000122070312,
+          "TTE": 93.12000274658203
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
+            "key_themes": [
+              "bond market volatility",
+              "treasury uncertainty",
+              "investment banking"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rising inflation concerns and bond market stress benefit from increased client advisory fees and trading revenues",
+            "key_themes": [
+              "inflation hedging",
+              "bond volatility",
+              "capital markets activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Treasury volatility and Fed uncertainty drive increased M&A advisory and capital markets activity for investment bank",
+            "key_themes": [
+              "M&A activity",
+              "bond market uncertainty",
+              "advisory fees"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Macro uncertainty from inflation/deficit concerns elevates trading desk revenues and wealth management activity",
+            "key_themes": [
+              "macro volatility",
+              "trading revenues",
+              "wealth management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct mention; macro uncertainty and potential economic slowdown from inflation concerns create mixed near-term outlook",
+            "key_themes": [
+              "macro uncertainty",
+              "consumer spending risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale references inflation/deficit concerns from Article [1], but the logical connection between bond market volatility and Visa payment volumes is speculative and not substantiated by any source article",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct mention; inflation/deficit concerns may impact consumer spending patterns and payment volumes near-term",
+            "key_themes": [
+              "macro uncertainty",
+              "consumer spending risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale references inflation/deficit concerns from Article [1], but the logical connection between bond market volatility and Mastercard payment volumes is speculative and not substantiated by any source article",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 352.489990234375,
+          "BAC": 59.52000045776367,
+          "GS": 976.6699829101562,
+          "MS": 206.27999877929688,
+          "V": 375.6199951171875,
+          "MA": 573.27001953125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

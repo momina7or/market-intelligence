@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-15",
-  "run_time": "2026-09-15T12:27:25.735774Z",
+  "run_date": "2026-09-16",
+  "run_time": "2026-09-16T12:24:52.808742Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,87 +29,88 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "GM updates its trucks\u2019 native software to coexist with CarPlay",
-          "summary": "General Motors is polishing up the software experience in its bestselling trucks in an effort to reduce the amount of dangerous tapping and swiping that's required to access the most-used controls. It's also giving Apple CarPlay and Android Auto spiffy new picture-in-picture displays - which is notable given GM's previously stated hostility to phone mirroring [&#8230;]",
-          "url": "https://www.theverge.com/transportation/994875/gm-chevy-gmc-truck-software-ui-carplay-android-auto",
+          "title": "A brief history of AI executives calling for regulation",
+          "summary": "Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, and X [&#8230;]",
+          "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
           "source": "Theverge",
-          "published": "15 Sep 2026",
+          "published": "16 Sep 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Nintendo opens up Fire Emblem with the gigantic Fortune\u2019s Weave",
+          "summary": "Nintendo has gotten quite good at making open-ended games. The Legend of Zelda: Breath of the Wild upended the idea of what a Zelda game could be by giving the player free rein to tackle any part of the map, a philosophy iterated upon with Tears of the Kingdom. On the Switch 2 this idea [&#8230;]",
+          "url": "https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review",
+          "source": "Theverge",
+          "published": "16 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Microsoft issues emergency Windows 11 update to fix its record-breaking patch",
-          "summary": "Microsoft has started rolling out an emergency out-of-band update to fix problems with its record-breaking September patch Tuesday update. The software giant patched nearly 1,000 flaws in its biggest update ever this month, but it also introduced some bugs that have affected businesses, developers, and gamers. The September patch Tuesday affected folder shares on Hyper-V-based [&#8230;]",
-          "url": "https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues",
+          "title": "The iPhone 18 Pro\u2019s big camera update is all about the small gains",
+          "summary": "Last week, Apple announced an iPhone unlike any it has made in the past. An iPhone that has seemingly already led several other phone manufacturers to pursue entirely different designs for their flagship products. A remarkably distinct device with the kind of \"I can't believe they did that\" software touches that Apple sometimes pulls off [&#8230;]",
+          "url": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
           "source": "Theverge",
-          "published": "15 Sep 2026",
+          "published": "16 Sep 2026",
           "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Volvo\u2019s plug-in hybrid XC60 and XC90 can really go the distance",
-          "summary": "Most plug-in hybrid electric vehicles (PHEV) today get an average of around 30-50 miles of battery-only range: decent, but not mind-blowing. With hybrid sales dominating the market today, Volvo is out to prove that its PHEVs can push the limits of what's possible. Today, the Swedish automaker revealed the updated PHEV versions of its popular [&#8230;]",
-          "url": "https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range",
-          "source": "Theverge",
-          "published": "15 Sep 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's integration into search workflows demonstrates AI assistants capturing organic search traffic, pressuring Google's core search monetization model and justifying accelerated AI investments.",
+            "rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
             "key_themes": [
-              "AI-powered search disruption",
-              "organic traffic shifting to AI assistants",
-              "competitive pressure on search dominance"
+              "product innovation",
+              "hardware differentiation",
+              "market leadership"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 6
           },
           {
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Emergency Windows 11 patch reveals quality control challenges in large-scale updates, offsetting positive AI/enterprise narrative with operational execution risks.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "CEO Satya Nadella advocating for AI regulation signals confidence in Microsoft's competitive AI moat and governance positioning.",
             "key_themes": [
-              "software quality management",
-              "enterprise reliability concerns",
-              "patch management complexity"
+              "AI leadership",
+              "regulatory positioning",
+              "competitive advantage"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 5
+            "supporting_article": 4
           },
           {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "CarPlay adoption in GM vehicles demonstrates Apple's ecosystem integration strength, but article focus is marginal; insufficient signal for directional conviction.",
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "DeepMind cofounder Hassabis supporting AI regulation suggests confidence in Google's advanced AI capabilities and market position.",
             "key_themes": [
-              "CarPlay ecosystem expansion",
-              "automotive integration"
+              "AI regulation",
+              "technical leadership",
+              "market dominance"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 4
           }
         ],
-        "summary": "The articles reveal a critical inflection point: AI assistants like ChatGPT are capturing organic search traffic traditionally dominated by Google, creating structural headwinds for search-based monetization models. Simultaneously, Microsoft faces operational execution challenges with large-scale software updates, tempering enterprise software confidence. The broader theme indicates AI democratization is reshaping tech stack value chains, favoring integrated AI platforms while pressuring legacy search infrastructure.",
+        "summary": "Technology sector shows strong bullish momentum driven by AI adoption trends and hardware innovation. Apple's iPhone 18 Pro camera breakthrough and major AI companies advocating for regulatory frameworks suggest confidence in proprietary capabilities and competitive moats. The convergence of AI tools transforming content creation and device-level innovation indicates sustained sector strength.",
         "risks": [
-          "ChatGPT traffic diversion risk may be overstated; search volume metrics needed for conviction",
-          "Microsoft patch issues could signal deeper software quality degradation affecting enterprise customer confidence",
-          "AI tool commoditization could compress margins for content creation platforms mentioned in articles"
+          "AI regulation could impose compliance costs and slow innovation cycles",
+          "Competitive commoditization of AI tools may compress margins for generative AI providers",
+          "Product cycle dependency for hardware manufacturers creates execution risk"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -117,9 +118,9 @@
         }
       },
       "prices_snapshot": {
-        "GOOGL": 349.3900146484375,
-        "MSFT": 505.4100036621094,
-        "AAPL": 333.0799865722656
+        "AAPL": 331.3399963378906,
+        "MSFT": 497.1199951171875,
+        "GOOGL": 344.9800109863281
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -129,27 +130,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT's integration into search workflows demonstrates AI assistants capturing organic search traffic, pressuring Google's core search monetization model and justifying accelerated AI investments.",
+          "rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
           "key_themes": [
-            "AI-powered search disruption",
-            "organic traffic shifting to AI assistants",
-            "competitive pressure on search dominance"
+            "product innovation",
+            "hardware differentiation",
+            "market leadership"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 6
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's integration into search workflows demonstrates AI assistants capturing organic search traffic, pressuring Google's core search monetization model and justifying accelerated AI investments.",
+        "haiku_rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
         "haiku_themes": [
-          "AI-powered search disruption",
-          "organic traffic shifting to AI assistants",
-          "competitive pressure on search dominance"
+          "product innovation",
+          "hardware differentiation",
+          "market leadership"
         ]
       },
       "config": {
@@ -169,26 +170,42 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Australia's Energy Minister Heads to Saudi Arabia for Pipeline Answers",
-          "summary": "Australian Energy Minister Chris Bowen will travel to Saudi Arabia next week to meet with Saudi Energy Minister, Prince Abdulaziz bin Salman, and get the latest updates on the state of operations and oil supply after the Kingdom shut down the East-West pipeline following drone attacks late last week. Bowen will meet with Prince Abdulaziz bin Salman to \u201cget direct from him the situation\u201d about the pipeline, the Australian minister told ABC News in an interview. \u201cGetting the best information about",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Australias-Energy-Minister-Heads-to-Saudi-Arabia-for-Pipeline-Answers.html",
+          "title": "Japan\u2019s Top LNG Buyer to Sell Excess Gas in Global Markets",
+          "summary": "The biggest Japanese LNG importer and largest power producer, JERA, plans to sell liquefied natural gas in the long term as part of a strategy to tap global LNG markets and sell any excess gas supply if domestic demand is low, a senior executive has said. JERA wants to \u201cidentify additional markets where we can sell,\u201d Irtiza Sayyed, chief executive officer of the newly-created JERA Global Energy Solutions, told Bloomberg in an interview published on Wednesday. Earlier this summer, JERA said it is",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Top-LNG-Buyer-to-Sell-Excess-Gas-in-Global-Markets.html",
           "source": "Oilprice",
-          "published": "15 Sep 2026",
+          "published": "16 Sep 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Saudi Arabia Pivots to Spot Oil Sales After Key Pipeline Goes Offline",
+          "summary": "So far this week, Saudi Arabia has sold as many as 20 million barrels of crude oil in the spot market to be picked up from just outside the Strait of Hormuz, after the Kingdom was forced to shut down the key onshore pipeline that helps it bypass the chokepoint, unnamed traders with knowledge of the matter told Bloomberg on Wednesday. Chinese refiners, including state-held giants and independent refiners, as well as crude processors in other East Asian countries, have been the main buyers of the ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Pivots-to-Spot-Oil-Sales-After-Key-Pipeline-Goes-Offline.html",
+          "source": "Oilprice",
+          "published": "16 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Indonesia Eyes Guyana and Suriname Oil Investments for Energy Security",
-          "summary": "Indonesia\u2019s national energy company Pertamina is considering upstream investments in Guyana and Suriname to diversify Indonesia's oil and gas supply and boost energy security, the Indonesian government has said. \u201cPertamina has already initiated exploratory discussions on cooperation in exploration and investment in the upstream oil and gas sectors of Guyana and Suriname,\u201d Grata Endah Werdaningtyas, Director General for American and European Affairs at Indonesia\u2019s Foreign Ministry, said at a news",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indonesia-Eyes-Guyana-and-Suriname-Oil-Investments-for-Energy-Security.html",
+          "title": "Japanese Refiners Rush for Oman Crude After Saudi Pipeline Shutdown",
+          "summary": "Some refiners in Japan this week rushed to buy Oman\u2019s crude for earlier loadings after Saudi Arabia shut down its key pipeline bypassing the Strait of Hormuz, traders with knowledge of the purchases told Bloomberg on Wednesday. Late last week, Saudi Arabia was forced\u00a0to temporarily shut down\u00a0the East-West oil pipeline following drone attacks launched from the territory of Iraq close to the Iranian border on Thursday. The shutdown of the pipeline is a precautionary measure, after the attacks resu",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Rush-for-Oman-Crude-After-Saudi-Pipeline-Shutdown.html",
           "source": "Oilprice",
-          "published": "15 Sep 2026",
+          "published": "16 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "UK Oil and Gas Group Says Earlier Tax Shift Could Raise \u00a314.9 Billion",
-          "summary": "A new fiscal regime in the UK from 2027 could deliver an additional \u00a314.9 billion, or $20 billion, to Britain\u2019s revenues, the leading offshore industry group said in its annual Economic Report, calling on the Burnham government to bring forward the tax change planned for 2030. Offshore Energies UK (OEUK) wants the Oil and Gas Revenue Levy, a price-triggered mechanism planned to replace the current Energy Profits Levy from 2030, to be introduced from January 2027. The UK tax regime has changed se",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Oil-and-Gas-Group-Says-Earlier-Tax-Shift-Could-Raise-149-Billion.html",
-          "source": "Oilprice",
+          "title": "ExxonMobil secures regulatory approval for Rose CCS project in Texas",
+          "summary": "ExxonMobil has secured regulatory approval to proceed with the Rose CCS project in Texas, US, valued at more than $5bn.",
+          "url": "https://www.energymonitor.ai/news/exxonmobil-regulatory-approval-rose-ccs/",
+          "source": "Energymonitor",
+          "published": "16 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Masdar, Taaleri Energia open 154MW \u010cibuk 2 wind farm in Serbia",
+          "summary": "Masdar and Taaleri Energia have inaugurated the \u010cibuk 2 wind farm with a 154MW capacity in Serbia\u2019s South Banat region.",
+          "url": "https://www.energymonitor.ai/news/masdar-taaleri-energia-open-cibuk-2/",
+          "source": "Energymonitor",
           "published": "15 Sep 2026",
           "sentiment_hint": "neutral"
         },
@@ -199,124 +216,109 @@
           "source": "Energymonitor",
           "published": "15 Sep 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Europe\u2019s policies shape offshore wind as renewable power frontier, says GlobalData",
-          "summary": "A report from GlobalData offers comprehensive information on major policies governing the renewable energy market in Europe.",
-          "url": "https://www.energymonitor.ai/analyst-comment/europe-policies-offshore-wind-as-renewable-power/",
-          "source": "Energymonitor",
-          "published": "11 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "GrafTech and Antora to collaborate on carbon-based thermal batteries",
-          "summary": "GrafTech and Antora announced a collaboration focused on developing and supplying carbon-based materials for the latter\u2019s thermal batteries.",
-          "url": "https://www.energymonitor.ai/news/graftech-antora-collaborate/",
-          "source": "Energymonitor",
-          "published": "11 Sep 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "BP",
-            "company": "BP plc",
+            "ticker": "XOM",
+            "company": "ExxonMobil",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "UK tax regime shift from 2027 could deliver \u00a314.9bn in additional revenues, benefiting major UK offshore operators like BP.",
+            "conviction": 82,
+            "rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
             "key_themes": [
-              "UK fiscal policy",
-              "offshore tax incentives",
-              "revenue upside"
+              "carbon capture expansion",
+              "regulatory progress",
+              "energy transition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Saudi pipeline shutdown increases spot crude demand from Asian refiners, supporting pricing and export flexibility.",
+            "key_themes": [
+              "crude demand spike",
+              "geopolitical risk premium",
+              "Asian refinery demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims Saudi pipeline shutdown benefits ConocoPhillips, but source articles [2] and [3] show Saudi Arabia and Asian refiners (especially Chinese) are the primary beneficiaries of spot crude sales. No mention of ConocoPhillips or how this event specifically supports COP's pricing/exports.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Japanese LNG buyer diversifying markets and selling excess supply presents mixed opportunities for suppliers.",
+            "key_themes": [
+              "LNG market diversification",
+              "demand uncertainty",
+              "oversupply risk"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "UK Oil and Gas Revenue Levy change planned for 2027 advantageous for Shell's substantial North Sea production portfolio.",
-            "key_themes": [
-              "UK tax reform",
-              "offshore operations",
-              "fiscal relief"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Guyana and Suriname upstream investment expansion by Pertamina signals sustained oilfield services demand in high-growth region.",
-            "key_themes": [
-              "Guyana growth",
-              "upstream services",
-              "emerging markets"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Rationale claims 'sustained oilfield services demand' but article only mentions Pertamina's exploratory discussions and investment considerations. No explicit demand signal for oilfield services companies is stated.",
-            "supporting_article": 2
+            "supporting_article": 1
           }
         ],
-        "summary": "Oil majors face mixed signals: UK offshore operators (BP, SHEL) benefit from favorable 2027 tax regime changes supporting North Sea economics, while geopolitical supply disruptions (Saudi pipeline attacks) create near-term volatility. Emerging market growth in Guyana/Suriname supports oilfield services demand, but broader energy transition pressures persist.",
+        "summary": "Geopolitical supply disruptions in the Middle East (Saudi pipeline shutdown) are creating near-term crude pricing support and spot market activity benefiting supermajors, while ExxonMobil's CCS project approval signals regulatory tailwinds for energy transition investments. However, Japan's LNG supply diversification strategy could pressure long-term gas pricing in traditional markets.",
         "risks": [
-          "Geopolitical escalation could further disrupt Middle Eastern oil supply and production",
-          "Energy transition policies threaten long-term demand for fossil fuel infrastructure investment",
-          "UK political changes could reverse fiscal incentives before 2027 implementation"
+          "Saudi pipeline repair timeline uncertain",
+          "broader Middle East escalation could disrupt operations",
+          "transition to renewables reduces long-term fossil fuel demand",
+          "LNG oversupply from new projects globally"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "SLB signal makes an inference about oilfield services demand that is not directly stated in the source article. Article [2] only indicates Pertamina is considering investments; it does not confirm this will translate to near-term services demand for companies like Schlumberger."
+            "COP signal assumes ConocoPhillips benefits from Saudi pipeline disruption without evidence in source material that COP is positioned to capitalize on this event"
           ],
-          "ungrounded_count": 0
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "BP": 45.93000030517578,
-        "SHEL": 96.44999694824219,
-        "SLB": 53.31999969482422
+        "XOM": 169.32000732421875,
+        "COP": 141.22000122070312,
+        "TTE": 93.12000274658203
       },
       "spot_check": {
-        "title": "Australia's Energy Minister Heads to Saudi Arabia for Pipeline Answers",
-        "summary": "Australian Energy Minister Chris Bowen will travel to Saudi Arabia next week to meet with Saudi Energy Minister, Prince Abdulaziz bin Salman, and get the latest updates on the state of operations and oil supply after the Kingdom shut down the East-West pipeline following drone attacks late last week. Bowen will meet with Prince Abdulaziz bin Salman to \u201cget direct from him the situation\u201d about the pipeline, the Australian minister told ABC News in an interview. \u201cGetting the best information about",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Australias-Energy-Minister-Heads-to-Saudi-Arabia-for-Pipeline-Answers.html",
+        "title": "Japan\u2019s Top LNG Buyer to Sell Excess Gas in Global Markets",
+        "summary": "The biggest Japanese LNG importer and largest power producer, JERA, plans to sell liquefied natural gas in the long term as part of a strategy to tap global LNG markets and sell any excess gas supply if domestic demand is low, a senior executive has said. JERA wants to \u201cidentify additional markets where we can sell,\u201d Irtiza Sayyed, chief executive officer of the newly-created JERA Global Energy Solutions, told Bloomberg in an interview published on Wednesday. Earlier this summer, JERA said it is",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Top-LNG-Buyer-to-Sell-Excess-Gas-in-Global-Markets.html",
         "source": "Oilprice",
-        "published": "15 Sep 2026",
-        "sentiment_hint": "neutral",
+        "published": "16 Sep 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "BP",
-          "company": "BP plc",
+          "ticker": "XOM",
+          "company": "ExxonMobil",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "UK tax regime shift from 2027 could deliver \u00a314.9bn in additional revenues, benefiting major UK offshore operators like BP.",
+          "conviction": 82,
+          "rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
           "key_themes": [
-            "UK fiscal policy",
-            "offshore tax incentives",
-            "revenue upside"
+            "carbon capture expansion",
+            "regulatory progress",
+            "energy transition"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 3
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "UK tax regime shift from 2027 could deliver \u00a314.9bn in additional revenues, benefiting major UK offshore operators like BP.",
+        "haiku_rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
         "haiku_themes": [
-          "UK fiscal policy",
-          "offshore tax incentives",
-          "revenue upside"
+          "carbon capture expansion",
+          "regulatory progress",
+          "energy transition"
         ]
       },
       "config": {
@@ -360,119 +362,37 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/deerfield-goes-major-hiring-and-promotion-spree-built-growth-phase\" hreflang=\"en\">Deerfield goes on hiring, promotion spree for \u2018Built for This\u2019 growth phase</a>",
-          "summary": "Healthcare marketing and comms agency, Deerfield Group, is creating a new model for growth while making a series of appointments and promotions to help bolster its plans.",
-          "url": "https://www.fiercepharma.com/marketing/deerfield-goes-major-hiring-and-promotion-spree-built-growth-phase",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/biomarin-cuts-voxzogo-studies-children-noonan-syndrome-amid-growing-competition\" hreflang=\"en\">BioMarin drops Voxzogo development for Noonan syndrome as treatment landscape shifts</a>",
+          "summary": "The rare disease biotech announced that it would discontinue efforts to develop Voxzogo for children with Noonan syndrome, a genetic growth disorder that can affect height, facial features and the heart.",
+          "url": "https://www.fiercepharma.com/pharma/biomarin-cuts-voxzogo-studies-children-noonan-syndrome-amid-growing-competition",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/biotech/cultural-weight-psychedelic-approval-looms-fda-hearing-focuses-access-and-safety\" hreflang=\"en\">As \u2018cultural weight\u2019 of a psychedelic approval looms, FDA hearing focuses on access and safety</a>",
-          "summary": "As the FDA marches toward the likely first approval of a psychedelic medicine, the agency today convened a hearing seeking public input on how these drugs should be used, monitored and continuously studied in the real world.",
-          "url": "https://www.fiercepharma.com/biotech/cultural-weight-psychedelic-approval-looms-fda-hearing-focuses-access-and-safety",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/gsk-novartis-ucb-and-more-snag-wins-2026-fierce-pharma-marketing-awards\" hreflang=\"en\">Standout pharma marketing takes the stage at the 2026 Fierce Pharma Marketing Awards</a>",
+          "summary": "The Fierce Pharma Marketing Awards celebrated winners across 20 different categories, with GSK, Novartis, argenx and more taking home trophies.",
+          "url": "https://www.fiercepharma.com/marketing/gsk-novartis-ucb-and-more-snag-wins-2026-fierce-pharma-marketing-awards",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/ai-and-machine-learning/scholar-rockscores-long-awaited-fda-approval-first-muscle-loss-sma\" hreflang=\"en\">Scholar Rock scores long-awaited FDA approval, the first for muscle loss in SMA</a>",
-          "summary": "The injectable monoclonal antibody is the first to treat muscle atrophy in patients with SMA, according to the FDA.",
-          "url": "https://www.fiercepharma.com/ai-and-machine-learning/scholar-rockscores-long-awaited-fda-approval-first-muscle-loss-sma",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/sanofi-strikes-deal-cheplapharm-divest-20-older-medicines-new-ceos-push-innovation\" hreflang=\"en\">Sanofi strikes Cheplapharm deal to divest 20 older medicines as CEO pushes for innovation</a>",
+          "summary": "In a deal that allows Sanofi to shed assets wrapped up in mature products, German drugmaker Cheplapharm will take over 20 medicines and three manufacturing sites from Sanofi. In exchange, Sanofi is picking up a 26.4% stake in the company.",
+          "url": "https://www.fiercepharma.com/pharma/sanofi-strikes-deal-cheplapharm-divest-20-older-medicines-new-ceos-push-innovation",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Psychedelic medicine FDA approval pathway creates new therapeutic market; LLY positioned for novel drug development",
-            "key_themes": [
-              "psychedelic therapeutics",
-              "FDA approval expansion",
-              "mental health treatment"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [5] discusses FDA hearing on psychedelic medicine access and safety, but does not mention Eli Lilly or indicate the company is positioned for psychedelic drug development. No evidence LLY has a psychedelic pipeline.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "AI integration in medical care and diagnostics aligns with J&J's healthcare infrastructure and pharma innovation pipeline",
-            "key_themes": [
-              "AI in healthcare",
-              "medical technology",
-              "digital health"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "AI tools and advanced diagnostics for medical applications; disease surveillance needs (Legionella outbreak) boost diagnostic demand",
-            "key_themes": [
-              "AI diagnostics",
-              "disease surveillance",
-              "infectious disease testing"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article [3] mentions Legionella outbreak at Yankee Stadium but does not discuss diagnostic testing demand or Thermo Fisher. The outbreak is a localized public health incident with no connection to TMO's diagnostic capabilities mentioned in the articles.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Psychedelic and menopause-related research opportunities emerging, but no direct pipeline implications evident from articles",
-            "key_themes": [
-              "therapeutic area expansion",
-              "women's health"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Articles [2] and [5] discuss menopause and psychedelic research respectively, but neither article mentions Merck or indicates the company has pipeline implications in these areas. The rationale speculates about opportunities without source support.",
-            "supporting_article": null
-          }
-        ],
-        "summary": "Healthcare sector shows bullish momentum driven by AI integration into clinical workflows, FDA openness to novel therapeutic categories (psychedelics), and expanding focus on underserved conditions like menopause. Diagnostic and technology-enabled companies benefit most from these regulatory and innovation trends. However, AI implementation concerns and need for safety monitoring present regulatory execution risks.",
-        "risks": [
-          "AI safety concerns and regulatory scrutiny could delay clinical deployment and limit adoption",
-          "Psychedelic drug approval uncertain timeline and potential for restrictive access/monitoring requirements",
-          "Infectious disease outbreaks (Legionella) could increase healthcare costs and regulatory burden"
-        ],
-        "sector_sentiment": "bullish",
-        "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "LLY signal assumes company involvement in psychedelic development without evidence from sources",
-            "TMO signal misapplies isolated Legionella outbreak as demand driver for diagnostic company without logical connection",
-            "MRK signal speculates about pipeline opportunities in menopause and psychedelics without any company mention in source material"
-          ],
-          "ungrounded_count": 3
-        }
+        "signals": [],
+        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"JNJ\",\n      \"company\": \"Johnson & Johnson\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 72,\n      \"rationale\": \"AI integration into medical care creates opportunities for diagnostic and therapeutic innovation across J&J's healthcare portfolio.\",\n      \"key_themes\": [\"AI in healthcare\", \"digital health expansion\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"UNH\",\n      \"company\": UnitedHealth Group\",\n      \"sentiment\": \"bullish\"",
+        "risks": [],
+        "sector_sentiment": "neutral"
       },
-      "prices_snapshot": {
-        "LLY": 1138.280029296875,
-        "JNJ": 266.32000732421875,
-        "TMO": 613.6199951171875,
-        "MRK": 144.85000610351562
-      },
+      "prices_snapshot": {},
       "spot_check": {
         "title": "Trump Administration Moves to Integrate A.I. Into Medical Care Despite Concerns",
         "summary": "Federal projects are rolling out A.I. agents that offer therapy and prescribe medicine, raising concerns about safety and the influence of venture capital investors.",
@@ -480,29 +400,10 @@
         "source": "Rss",
         "published": "14 Sep 2026",
         "sentiment_hint": "neutral",
-        "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Psychedelic medicine FDA approval pathway creates new therapeutic market; LLY positioned for novel drug development",
-          "key_themes": [
-            "psychedelic therapeutics",
-            "FDA approval expansion",
-            "mental health treatment"
-          ],
-          "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [5] discusses FDA hearing on psychedelic medicine access and safety, but does not mention Eli Lilly or indicate the company is positioned for psychedelic drug development. No evidence LLY has a psychedelic pipeline.",
-          "supporting_article": null
-        },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Psychedelic medicine FDA approval pathway creates new therapeutic market; LLY positioned for novel drug development",
-        "haiku_themes": [
-          "psychedelic therapeutics",
-          "FDA approval expansion",
-          "mental health treatment"
-        ]
+        "related_signal": null,
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "",
+        "haiku_themes": []
       },
       "config": {
         "icon": "\ud83d\udc8a",
@@ -521,27 +422,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "The Unlikely Political Bedfellows on A.I. Regulation",
-          "summary": "David Sacks and Lina Khan? Bernie Sanders and Steve Bannon? The debate on artificial intelligence limits is creating unlikely alliances.",
-          "url": "https://www.nytimes.com/2026/09/15/business/dealbook/ai-regulation-khan-sacks.html",
+          "title": "Bessent and Warsh Take On the Bond Bears",
+          "summary": "The Treasury secretary and the Federal Reserve chairman face similar tests: calming investors\u2019 growing worries about inflation and deficits.",
+          "url": "https://www.nytimes.com/2026/09/16/business/dealbook/bessent-warsh-bond-investors.html",
           "source": "Rss",
-          "published": "15 Sep 2026",
+          "published": "16 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Key U.S. Borrowing Rate Near 20-Year High as Oil Prices Fluctuate",
-          "summary": "The 10-year Treasury yield breached levels last seen in 2007, with intensifying worries about energy-driven inflation contributing to bond investors\u2019 angst.",
-          "url": "https://www.nytimes.com/2026/09/15/business/bond-yields-oil-price-iran.html",
+          "title": "In Silicon Valley, Hardware Is Having a Moment Again",
+          "summary": "As A.I. transforms the technology industry, venture capital is flowing into \u201cdeep tech\u201d start-ups that build robots and semiconductors.",
+          "url": "https://www.nytimes.com/2026/09/16/business/dealbook/in-silicon-valley-hardware-is-having-a-moment-again.html",
           "source": "Rss",
-          "published": "15 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "16 Sep 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "Carney Pitches Canada as a Haven of Investment Stability in a Chaotic World",
-          "summary": "The prime minister brought together about 100 money managers in Toronto to promote Canada as the ideal place for their investments.",
-          "url": "https://www.nytimes.com/2026/09/15/world/canada/carney-pitches-canada-as-a-stable-investment-in-a-chaotic-world.html",
+          "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
+          "summary": "Estimates vary on how long it could take before a crucial pipeline is repaired, but a prolonged shutdown could push oil prices to their highest levels in months.",
+          "url": "https://www.nytimes.com/2026/09/16/business/saudi-pipeline-houthi-attacks.html",
           "source": "Rss",
-          "published": "15 Sep 2026",
+          "published": "16 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -576,79 +477,78 @@
             "company": "JPMorgan Chase",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Rising 10-year Treasury yields near 20-year highs expand net interest margins for large banks.",
+            "rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
             "key_themes": [
-              "higher interest rates",
-              "NIM expansion",
-              "bond market volatility"
+              "bond market volatility",
+              "treasury uncertainty",
+              "investment banking"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
             "ticker": "BAC",
             "company": "Bank of America",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Elevated borrowing rates and yield curve steepness benefit net interest income for major lenders.",
+            "conviction": 68,
+            "rationale": "Rising inflation concerns and bond market stress benefit from increased client advisory fees and trading revenues",
             "key_themes": [
-              "higher interest rates",
-              "NIM expansion",
-              "lending margins"
+              "inflation hedging",
+              "bond volatility",
+              "capital markets activity"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Rising Treasury yields improve profitability for investment banking and trading divisions.",
+            "conviction": 70,
+            "rationale": "Treasury volatility and Fed uncertainty drive increased M&A advisory and capital markets activity for investment bank",
             "key_themes": [
-              "higher interest rates",
-              "fixed income trading",
+              "M&A activity",
+              "bond market uncertainty",
               "advisory fees"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
             "sentiment": "bullish",
-            "conviction": 69,
-            "rationale": "Elevated interest rate environment strengthens wealth management and institutional securities revenues.",
+            "conviction": 68,
+            "rationale": "Macro uncertainty from inflation/deficit concerns elevates trading desk revenues and wealth management activity",
             "key_themes": [
-              "higher interest rates",
-              "asset management fees",
-              "trading volatility"
+              "macro volatility",
+              "trading revenues",
+              "wealth management"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "No direct impact from Treasury yields or AI concerns; payment processor resilience during market volatility uncertain.",
+            "rationale": "No direct mention; macro uncertainty and potential economic slowdown from inflation concerns create mixed near-term outlook",
             "key_themes": [
-              "market volatility",
-              "transaction volumes",
-              "economic sensitivity"
+              "macro uncertainty",
+              "consumer spending risk"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale mentions 'AI concerns' but Visa has no direct connection to AI sector discussed in articles. Treasury yields are mentioned in Article 2, but the neutral sentiment on Visa specifically is not supported by any article.",
+            "verification_issue": "Rationale references inflation/deficit concerns from Article [1], but the logical connection between bond market volatility and Visa payment volumes is speculative and not substantiated by any source article",
             "supporting_article": null
           },
           {
@@ -656,72 +556,70 @@
             "company": "Mastercard Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Similar to Visa; payment volumes dependent on broader economic activity amid rate volatility.",
+            "rationale": "No direct mention; inflation/deficit concerns may impact consumer spending patterns and payment volumes near-term",
             "key_themes": [
-              "market volatility",
-              "consumer spending",
-              "economic sensitivity"
+              "macro uncertainty",
+              "consumer spending risk"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale mentions 'rate volatility' which appears in Article 2, but the connection between Treasury yields and payment processor volumes is not established in source material. The neutral stance lacks specific supporting evidence.",
+            "verification_issue": "Rationale references inflation/deficit concerns from Article [1], but the logical connection between bond market volatility and Mastercard payment volumes is speculative and not substantiated by any source article",
             "supporting_article": null
           }
         ],
-        "summary": "The financial services sector receives a tailwind from 10-year Treasury yields reaching 20-year highs, significantly benefiting net interest margins and trading revenues for major banks. Payment processors face neutral sentiment as they lack direct exposure to rate moves but maintain resilience. Geopolitical and AI-driven market volatility create near-term uncertainty but favor diversified financial intermediaries over tech-dependent firms.",
+        "summary": "Financial sector shows bullish signals as Treasury market volatility from inflation and deficit concerns create substantial trading, advisory, and capital markets opportunities for large banks. Energy sector dynamics from Saudi pipeline disruptions add to macro complexity, while payment processors face neutral outlook amid broader economic uncertainty.",
         "risks": [
-          "Treasury yields may reverse if economic growth slows or Fed cuts rates",
-          "Inflation expectations could shift rapidly, destabilizing bond markets",
-          "Broader market selloff from tech concerns could reduce institutional trading activity",
-          "Recession fears could compress loan demand despite higher rates"
+          "Inflation fears could trigger aggressive Fed rate hikes",
+          "Bond market stress could constrain credit availability",
+          "Economic slowdown could reduce M&A and trading activity"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Visa and Mastercard signals lack clear grounding: while Article 2 discusses Treasury yields, no article specifically addresses how these yields affect payment processor volumes or resilience.",
-            "The analyst's rationale for V and MA neutrality appears speculative rather than derived from the source material provided."
+            "V and MA signals lack direct grounding: while inflation/deficit concerns are mentioned in sources, the analyst makes an inferential leap connecting bond/macro volatility to consumer payment volume impacts without evidentiary support in the articles",
+            "V and MA both labeled 'neutral' with 45 conviction but rationale presents concerns as risk factors rather than balanced thesis"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 350.1300048828125,
-        "BAC": 59.470001220703125,
-        "GS": 988.4500122070312,
-        "MS": 206.5800018310547,
-        "V": 375.2799987792969,
-        "MA": 574.4199829101562
+        "JPM": 352.489990234375,
+        "BAC": 59.52000045776367,
+        "GS": 976.6699829101562,
+        "MS": 206.27999877929688,
+        "V": 375.6199951171875,
+        "MA": 573.27001953125
       },
       "spot_check": {
-        "title": "The Unlikely Political Bedfellows on A.I. Regulation",
-        "summary": "David Sacks and Lina Khan? Bernie Sanders and Steve Bannon? The debate on artificial intelligence limits is creating unlikely alliances.",
-        "url": "https://www.nytimes.com/2026/09/15/business/dealbook/ai-regulation-khan-sacks.html",
+        "title": "Bessent and Warsh Take On the Bond Bears",
+        "summary": "The Treasury secretary and the Federal Reserve chairman face similar tests: calming investors\u2019 growing worries about inflation and deficits.",
+        "url": "https://www.nytimes.com/2026/09/16/business/dealbook/bessent-warsh-bond-investors.html",
         "source": "Rss",
-        "published": "15 Sep 2026",
+        "published": "16 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "JPM",
           "company": "JPMorgan Chase",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Rising 10-year Treasury yields near 20-year highs expand net interest margins for large banks.",
+          "rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
           "key_themes": [
-            "higher interest rates",
-            "NIM expansion",
-            "bond market volatility"
+            "bond market volatility",
+            "treasury uncertainty",
+            "investment banking"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Rising 10-year Treasury yields near 20-year highs expand net interest margins for large banks.",
+        "haiku_rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
         "haiku_themes": [
-          "higher interest rates",
-          "NIM expansion",
-          "bond market volatility"
+          "bond market volatility",
+          "treasury uncertainty",
+          "investment banking"
         ]
       },
       "config": {
