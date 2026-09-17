@@ -18904,5 +18904,379 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-17",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT traffic redirection threat highlights Google's need to evolve search; AI integration in search becoming critical competitive necessity.",
+            "key_themes": [
+              "AI search integration",
+              "organic traffic disruption",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Specs Intelligence competitor launch and Muse AI assistant indicate META's strong positioning in emerging AI assistant market alongside streaming content.",
+            "key_themes": [
+              "AI assistant competition",
+              "digital ecosystem expansion",
+              "content monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial support only - Article 6 mentions Muse as a Meta AI assistant competitor to Specs Intelligence, but no article discusses META's streaming content positioning or content monetization strategy in relation to AI assistants",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ChatGPT's dominance in organic discovery and content recommendations demonstrates OpenAI partnership value, though AI safety concerns emerging.",
+            "key_themes": [
+              "OpenAI partnership strength",
+              "AI safety risks",
+              "content discovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial support only - Article 1 supports ChatGPT dominance in content discovery, and Article 4 mentions AI safety concerns ('unreleased OpenAI model had gone rogue'), but the connection between these two themes and Microsoft's partnership value is inference-based rather than explicitly stated",
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 342.8699951171875,
+          "META": 673.3099975585938,
+          "MSFT": 490.29998779296875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "LNG supply crunch from Middle East disruptions could drive significant price appreciation for Qatar-exposed LNG producers.",
+            "key_themes": [
+              "LNG price upside",
+              "supply disruption",
+              "European gas shortage"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Major LNG producer benefiting from supply crunch; European winter demand and low inventories support elevated pricing.",
+            "key_themes": [
+              "LNG supply crunch",
+              "European demand",
+              "spot market tightness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Canadian upstream exposure benefits from Alberta's new royalty incentives encouraging oil production expansion and Asian export focus.",
+            "key_themes": [
+              "production incentives",
+              "Canadian upstream",
+              "export expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Alberta royalty incentives expected in November should drive upstream capex growth, benefiting oilfield services demand.",
+            "key_themes": [
+              "capex cycle",
+              "upstream expansion",
+              "Canadian drilling"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Broad energy exposure but no specific Canadian or LNG assets mentioned; benefits offset by downstream refining complexity.",
+            "key_themes": [
+              "gasoline margin upside",
+              "diesel tightness",
+              "refining optionality"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Limited direct exposure to highlighted themes; minimal Canadian upstream and no major LNG assets in disrupted regions.",
+            "key_themes": [
+              "energy market volatility",
+              "diversified exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'no major LNG assets in disrupted regions' but no source articles provide information about Chevron's specific asset portfolio or LNG exposure",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 95.69999694824219,
+          "TTE": 90.83999633789062,
+          "COP": 132.5399932861328,
+          "SLB": 52.29999923706055,
+          "XOM": 163.32000732421875,
+          "CVX": 211.5399932861328
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Measles outbreak creates demand for vaccines; JNJ's immunization portfolio positioned to benefit from public health urgency.",
+            "key_themes": [
+              "vaccine demand",
+              "public health crisis",
+              "immunization portfolio"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Measles epidemic drives vaccine procurement; Pfizer's vaccine manufacturing capacity well-positioned for outbreak response.",
+            "key_themes": [
+              "vaccine demand",
+              "public health crisis",
+              "manufacturing capacity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Menopause hearing signals increased federal research funding opportunity; LLY has hormone therapy and women's health assets.",
+            "key_themes": [
+              "menopause treatment",
+              "research funding",
+              "women's health"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI integration in medical care could impact claims processing and care delivery; regulatory uncertainty limits clarity on near-term impact.",
+            "key_themes": [
+              "AI in healthcare",
+              "regulatory risk",
+              "operational efficiency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Measles outbreak drives demand for diagnostic testing and laboratory services; TMO's diagnostics segment benefits from outbreak response.",
+            "key_themes": [
+              "diagnostic demand",
+              "public health crisis",
+              "laboratory services"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 267.2799987792969,
+          "PFE": 27.459999084472656,
+          "LLY": 1137.8199462890625,
+          "UNH": 375.260009765625,
+          "TMO": 648.4299926757812
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Higher interest rates from Fed's unanimous decision support net interest margins for large banks",
+            "key_themes": [
+              "interest rate environment",
+              "lending profitability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Fed rate increases expand NIM; exposure to rising rates benefits traditional banking model",
+            "key_themes": [
+              "interest rate environment",
+              "deposit margins"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rate increases benefit lending but World Bank pivot to private capital may compete with traditional investment banking",
+            "key_themes": [
+              "interest rates",
+              "capital markets competition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Conflicting signals: rates boost NIM but AI sector selloff reduces wealth management and advisory fees",
+            "key_themes": [
+              "interest rates",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "No direct exposure to rate or AI news; broad market volatility poses near-term headwind to payment volumes",
+            "key_themes": [
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "No direct exposure to rate or AI news; broad market volatility poses near-term headwind to payment volumes",
+            "key_themes": [
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 348.9200134277344,
+          "BAC": 57.900001525878906,
+          "GS": 937.97998046875,
+          "MS": 202.4199981689453,
+          "V": 370.92999267578125,
+          "MA": 567.75
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]

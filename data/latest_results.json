@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-16",
-  "run_time": "2026-09-16T12:24:52.808742Z",
+  "run_date": "2026-09-17",
+  "run_time": "2026-09-17T12:24:52.574332Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,98 +29,103 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A brief history of AI executives calling for regulation",
-          "summary": "Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, and X [&#8230;]",
-          "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+          "title": "Inside the suddenly explosive world of AI safety",
+          "summary": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
           "source": "Theverge",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Nintendo opens up Fire Emblem with the gigantic Fortune\u2019s Weave",
-          "summary": "Nintendo has gotten quite good at making open-ended games. The Legend of Zelda: Breath of the Wild upended the idea of what a Zelda game could be by giving the player free rein to tackle any part of the map, a philosophy iterated upon with Tears of the Kingdom. On the Switch 2 this idea [&#8230;]",
-          "url": "https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review",
+          "title": "The streamers are fighting over Halloween",
+          "summary": "The Toronto International Film Festival is a place to go to see the future of film, but this year it also provided a glimpse at what is coming very soon in the realm of streaming. Four different streamers - Peacock, Netflix, Amazon, and AMC - all premiered early looks at upcoming horror-adjacent series that are [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie",
           "source": "Theverge",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The iPhone 18 Pro\u2019s big camera update is all about the small gains",
-          "summary": "Last week, Apple announced an iPhone unlike any it has made in the past. An iPhone that has seemingly already led several other phone manufacturers to pursue entirely different designs for their flagship products. A remarkably distinct device with the kind of \"I can't believe they did that\" software touches that Apple sometimes pulls off [&#8230;]",
-          "url": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
+          "title": "Snap is launching a new Specs AI tool, and it\u2019s coming to iOS and Mac",
+          "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you [&#8230;]",
+          "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
           "source": "Theverge",
           "published": "16 Sep 2026",
-          "sentiment_hint": "bullish"
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
+            "rationale": "ChatGPT traffic redirection threat highlights Google's need to evolve search; AI integration in search becoming critical competitive necessity.",
             "key_themes": [
-              "product innovation",
-              "hardware differentiation",
-              "market leadership"
+              "AI search integration",
+              "organic traffic disruption",
+              "competitive pressure"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Specs Intelligence competitor launch and Muse AI assistant indicate META's strong positioning in emerging AI assistant market alongside streaming content.",
+            "key_themes": [
+              "AI assistant competition",
+              "digital ecosystem expansion",
+              "content monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial support only - Article 6 mentions Muse as a Meta AI assistant competitor to Specs Intelligence, but no article discusses META's streaming content positioning or content monetization strategy in relation to AI assistants",
             "supporting_article": 6
           },
           {
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "CEO Satya Nadella advocating for AI regulation signals confidence in Microsoft's competitive AI moat and governance positioning.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ChatGPT's dominance in organic discovery and content recommendations demonstrates OpenAI partnership value, though AI safety concerns emerging.",
             "key_themes": [
-              "AI leadership",
-              "regulatory positioning",
-              "competitive advantage"
+              "OpenAI partnership strength",
+              "AI safety risks",
+              "content discovery"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "DeepMind cofounder Hassabis supporting AI regulation suggests confidence in Google's advanced AI capabilities and market position.",
-            "key_themes": [
-              "AI regulation",
-              "technical leadership",
-              "market dominance"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
+            "verification_issue": "Partial support only - Article 1 supports ChatGPT dominance in content discovery, and Article 4 mentions AI safety concerns ('unreleased OpenAI model had gone rogue'), but the connection between these two themes and Microsoft's partnership value is inference-based rather than explicitly stated",
             "supporting_article": 4
           }
         ],
-        "summary": "Technology sector shows strong bullish momentum driven by AI adoption trends and hardware innovation. Apple's iPhone 18 Pro camera breakthrough and major AI companies advocating for regulatory frameworks suggest confidence in proprietary capabilities and competitive moats. The convergence of AI tools transforming content creation and device-level innovation indicates sustained sector strength.",
+        "summary": "The articles reveal a shifting digital landscape where AI tools are becoming essential infrastructure for content creation and discovery, with ChatGPT increasingly replacing traditional search. This creates both opportunities and threats: established players like Google face disruption in search monetization, while META and emerging AI assistants gain relevance. However, emerging AI safety concerns (unreleased model incidents) present regulatory and reputational risks to the sector.",
         "risks": [
-          "AI regulation could impose compliance costs and slow innovation cycles",
-          "Competitive commoditization of AI tools may compress margins for generative AI providers",
-          "Product cycle dependency for hardware manufacturers creates execution risk"
+          "AI safety incidents and regulatory backlash could restrict model deployment",
+          "ChatGPT and alternative AI tools fragmenting traditional search traffic and advertising revenue",
+          "Rapid competition in AI assistant space pressuring margins and differentiation",
+          "Potential government intervention in AI safety creating compliance costs"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
+          "overall_reliability": "medium",
+          "flags": [
+            "META signal claims 'streaming content' positioning but source articles about streaming (Article 5) do not mention Meta or connect to AI assistant strategy",
+            "MSFT signal connects OpenAI partnership strength with AI safety risks, but articles don't explicitly discuss how safety concerns impact the Microsoft-OpenAI partnership value",
+            "No articles provide direct evidence of competitive pressure dynamics or market share implications across these three companies"
+          ],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "AAPL": 331.3399963378906,
-        "MSFT": 497.1199951171875,
-        "GOOGL": 344.9800109863281
+        "GOOGL": 342.8699951171875,
+        "META": 673.3099975585938,
+        "MSFT": 490.29998779296875
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -130,27 +135,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
+          "rationale": "ChatGPT traffic redirection threat highlights Google's need to evolve search; AI integration in search becoming critical competitive necessity.",
           "key_themes": [
-            "product innovation",
-            "hardware differentiation",
-            "market leadership"
+            "AI search integration",
+            "organic traffic disruption",
+            "competitive pressure"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 6
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "iPhone 18 Pro's innovative camera design driving differentiation and influencing competitor strategies positively.",
+        "haiku_rationale": "ChatGPT traffic redirection threat highlights Google's need to evolve search; AI integration in search becoming critical competitive necessity.",
         "haiku_themes": [
-          "product innovation",
-          "hardware differentiation",
-          "market leadership"
+          "AI search integration",
+          "organic traffic disruption",
+          "competitive pressure"
         ]
       },
       "config": {
@@ -170,155 +175,205 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Japan\u2019s Top LNG Buyer to Sell Excess Gas in Global Markets",
-          "summary": "The biggest Japanese LNG importer and largest power producer, JERA, plans to sell liquefied natural gas in the long term as part of a strategy to tap global LNG markets and sell any excess gas supply if domestic demand is low, a senior executive has said. JERA wants to \u201cidentify additional markets where we can sell,\u201d Irtiza Sayyed, chief executive officer of the newly-created JERA Global Energy Solutions, told Bloomberg in an interview published on Wednesday. Earlier this summer, JERA said it is",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Top-LNG-Buyer-to-Sell-Excess-Gas-in-Global-Markets.html",
+          "title": "LNG Prices Could Jump Further as Hormuz Supply Crunch Persists",
+          "summary": "LNG prices have room to rise by about a third from the current very high levels amid low European gas inventories and fierce competition for spot supply between Europe and Asia, analysts and industry executives say. Europe is heading into winter with one of the lowest levels of gas in storage in the past two decades as the war in the Middle East crippled LNG supply from Qatar, sent gas and LNG prices in Europe and Asia skyrocketing, and intensified competition for readily available global LNG ca",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
           "source": "Oilprice",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "Saudi Arabia Pivots to Spot Oil Sales After Key Pipeline Goes Offline",
-          "summary": "So far this week, Saudi Arabia has sold as many as 20 million barrels of crude oil in the spot market to be picked up from just outside the Strait of Hormuz, after the Kingdom was forced to shut down the key onshore pipeline that helps it bypass the chokepoint, unnamed traders with knowledge of the matter told Bloomberg on Wednesday. Chinese refiners, including state-held giants and independent refiners, as well as crude processors in other East Asian countries, have been the main buyers of the ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Pivots-to-Spot-Oil-Sales-After-Key-Pipeline-Goes-Offline.html",
+          "title": "Alberta Plans New Royalty Incentives to Spur Oil Production",
+          "summary": "Canada\u2019s oil-producing province of Alberta plans to announce in November a new preferential royalty framework to encourage companies to invest in new oil and gas production, Alberta\u2019s Premier Danielle Smith said at an industry event. As Alberta owns 81% of the mineral rights, the Alberta government, as the resource owner, sets conditions and royalties for resource development. Alberta\u2019s ambition to boost oil production and export more of its crude oil to destinations in Asia to reduce the high d",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-Plans-New-Royalty-Incentives-to-Spur-Oil-Production.html",
           "source": "Oilprice",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Japanese Refiners Rush for Oman Crude After Saudi Pipeline Shutdown",
-          "summary": "Some refiners in Japan this week rushed to buy Oman\u2019s crude for earlier loadings after Saudi Arabia shut down its key pipeline bypassing the Strait of Hormuz, traders with knowledge of the purchases told Bloomberg on Wednesday. Late last week, Saudi Arabia was forced\u00a0to temporarily shut down\u00a0the East-West oil pipeline following drone attacks launched from the territory of Iraq close to the Iranian border on Thursday. The shutdown of the pipeline is a precautionary measure, after the attacks resu",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Rush-for-Oman-Crude-After-Saudi-Pipeline-Shutdown.html",
+          "title": "Goldman Sachs Sees More Upside in Gasoline as Diesel Crunch Deepens",
+          "summary": "Diesel prices and margins will continue to grow amid tightening markets, but gasoline could offer even more upside as refiners currently prioritize diesel output, Goldman Sachs says. The investment bank is switching its key fuel market recommendation away from diesel timespreads and onto European gasoline for the middle of next year in a note carried by Bloomberg. \u201cThe key reason for this new recommendation is that refiners\u2019 switching output from gasoline to diesel is rapidly tightening gasoline",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-More-Upside-in-Gasoline-as-Diesel-Crunch-Deepens.html",
           "source": "Oilprice",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "ExxonMobil secures regulatory approval for Rose CCS project in Texas",
-          "summary": "ExxonMobil has secured regulatory approval to proceed with the Rose CCS project in Texas, US, valued at more than $5bn.",
-          "url": "https://www.energymonitor.ai/news/exxonmobil-regulatory-approval-rose-ccs/",
+          "title": "Meta signs PPA with Apex for 144MW Starling Solar project in Texas",
+          "summary": "Meta has entered into a power purchase agreement (PPA) with Apex for the environmental attributes associated with the Starling Solar project.",
+          "url": "https://www.energymonitor.ai/news/meta-ppa-apex-starling-solar/",
+          "source": "Energymonitor",
+          "published": "17 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Industry forum explores pathways to bridge the electricity gap",
+          "summary": "In Shenzhen this week, the Global Low-Carbon Industry Forum opened under the theme \u2018Making the Most of Every Ray, Powering the Unpowered.\u2019",
+          "url": "https://www.energymonitor.ai/sponsored/industry-forum-explores-pathways-to-bridge-the-electricity-gap/",
+          "source": "Energymonitor",
+          "published": "17 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Novva to acquire 3.17GW of Argentine renewable assets from ABO Energy",
+          "summary": "Novva Group has signed a binding framework agreement to acquire a 3.17GW portfolio of renewable energy projects in Argentina from ABO Energy.",
+          "url": "https://www.energymonitor.ai/news/novva-to-acquire-assets-abo-energy/",
           "source": "Energymonitor",
           "published": "16 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Masdar, Taaleri Energia open 154MW \u010cibuk 2 wind farm in Serbia",
-          "summary": "Masdar and Taaleri Energia have inaugurated the \u010cibuk 2 wind farm with a 154MW capacity in Serbia\u2019s South Banat region.",
-          "url": "https://www.energymonitor.ai/news/masdar-taaleri-energia-open-cibuk-2/",
-          "source": "Energymonitor",
-          "published": "15 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Alfa Laval to supply heat exchangers for Swedish BECCS facility",
-          "summary": "Saipem has selected Alfa Laval to provide heat transfer technology for the BECCS facility being developed by Stockholm Exergi in Sweden.",
-          "url": "https://www.energymonitor.ai/news/alfa-laval-supply-heat-exchangers-beccs/",
-          "source": "Energymonitor",
-          "published": "15 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil",
+            "ticker": "SHEL",
+            "company": "Shell",
             "sentiment": "bullish",
             "conviction": 82,
-            "rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
+            "rationale": "LNG supply crunch from Middle East disruptions could drive significant price appreciation for Qatar-exposed LNG producers.",
             "key_themes": [
-              "carbon capture expansion",
-              "regulatory progress",
-              "energy transition"
+              "LNG price upside",
+              "supply disruption",
+              "European gas shortage"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 80,
+            "rationale": "Major LNG producer benefiting from supply crunch; European winter demand and low inventories support elevated pricing.",
+            "key_themes": [
+              "LNG supply crunch",
+              "European demand",
+              "spot market tightness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "bullish",
             "conviction": 75,
-            "rationale": "Saudi pipeline shutdown increases spot crude demand from Asian refiners, supporting pricing and export flexibility.",
+            "rationale": "Canadian upstream exposure benefits from Alberta's new royalty incentives encouraging oil production expansion and Asian export focus.",
             "key_themes": [
-              "crude demand spike",
-              "geopolitical risk premium",
-              "Asian refinery demand"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims Saudi pipeline shutdown benefits ConocoPhillips, but source articles [2] and [3] show Saudi Arabia and Asian refiners (especially Chinese) are the primary beneficiaries of spot crude sales. No mention of ConocoPhillips or how this event specifically supports COP's pricing/exports.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Japanese LNG buyer diversifying markets and selling excess supply presents mixed opportunities for suppliers.",
-            "key_themes": [
-              "LNG market diversification",
-              "demand uncertainty",
-              "oversupply risk"
+              "production incentives",
+              "Canadian upstream",
+              "export expansion"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Alberta royalty incentives expected in November should drive upstream capex growth, benefiting oilfield services demand.",
+            "key_themes": [
+              "capex cycle",
+              "upstream expansion",
+              "Canadian drilling"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Broad energy exposure but no specific Canadian or LNG assets mentioned; benefits offset by downstream refining complexity.",
+            "key_themes": [
+              "gasoline margin upside",
+              "diesel tightness",
+              "refining optionality"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Limited direct exposure to highlighted themes; minimal Canadian upstream and no major LNG assets in disrupted regions.",
+            "key_themes": [
+              "energy market volatility",
+              "diversified exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'no major LNG assets in disrupted regions' but no source articles provide information about Chevron's specific asset portfolio or LNG exposure",
+            "supporting_article": null
           }
         ],
-        "summary": "Geopolitical supply disruptions in the Middle East (Saudi pipeline shutdown) are creating near-term crude pricing support and spot market activity benefiting supermajors, while ExxonMobil's CCS project approval signals regulatory tailwinds for energy transition investments. However, Japan's LNG supply diversification strategy could pressure long-term gas pricing in traditional markets.",
+        "summary": "Energy markets are benefiting from acute supply-side constraints: Middle East conflict has crippled LNG exports, pushing prices sharply higher with potential for further 30% appreciation, while Canadian upstream is poised for expansion via new royalty incentives. Refining margins are also strengthening, particularly in gasoline as refiners repriorritize away from diesel. This creates a bullish backdrop for LNG majors (Shell, TotalEnergies) and Canadian producers (ConocoPhillips) in the near-to-medium term.",
         "risks": [
-          "Saudi pipeline repair timeline uncertain",
-          "broader Middle East escalation could disrupt operations",
-          "transition to renewables reduces long-term fossil fuel demand",
-          "LNG oversupply from new projects globally"
+          "Middle East escalation could disrupt LNG supplies further but also increase geopolitical risk premiums unpredictably",
+          "Renewable energy acceleration (evidenced by Meta PPAs and large-scale Argentine renewables deals) poses longer-term energy transition headwinds",
+          "Winter demand assumptions for European gas could fail if temperatures remain mild or demand destruction occurs",
+          "Alberta royalty framework details unknown; unfavorable terms could disappoint capex expectations"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "COP signal assumes ConocoPhillips benefits from Saudi pipeline disruption without evidence in source material that COP is positioned to capitalize on this event"
+            "CVX signal makes a negative claim about Chevron's LNG assets that cannot be verified from source articles. The sources do not discuss Chevron's portfolio composition or regional LNG exposure."
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "XOM": 169.32000732421875,
-        "COP": 141.22000122070312,
-        "TTE": 93.12000274658203
+        "SHEL": 95.69999694824219,
+        "TTE": 90.83999633789062,
+        "COP": 132.5399932861328,
+        "SLB": 52.29999923706055,
+        "XOM": 163.32000732421875,
+        "CVX": 211.5399932861328
       },
       "spot_check": {
-        "title": "Japan\u2019s Top LNG Buyer to Sell Excess Gas in Global Markets",
-        "summary": "The biggest Japanese LNG importer and largest power producer, JERA, plans to sell liquefied natural gas in the long term as part of a strategy to tap global LNG markets and sell any excess gas supply if domestic demand is low, a senior executive has said. JERA wants to \u201cidentify additional markets where we can sell,\u201d Irtiza Sayyed, chief executive officer of the newly-created JERA Global Energy Solutions, told Bloomberg in an interview published on Wednesday. Earlier this summer, JERA said it is",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Top-LNG-Buyer-to-Sell-Excess-Gas-in-Global-Markets.html",
+        "title": "LNG Prices Could Jump Further as Hormuz Supply Crunch Persists",
+        "summary": "LNG prices have room to rise by about a third from the current very high levels amid low European gas inventories and fierce competition for spot supply between Europe and Asia, analysts and industry executives say. Europe is heading into winter with one of the lowest levels of gas in storage in the past two decades as the war in the Middle East crippled LNG supply from Qatar, sent gas and LNG prices in Europe and Asia skyrocketing, and intensified competition for readily available global LNG ca",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
         "source": "Oilprice",
-        "published": "16 Sep 2026",
+        "published": "17 Sep 2026",
         "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "ExxonMobil",
+          "ticker": "SHEL",
+          "company": "Shell",
           "sentiment": "bullish",
           "conviction": 82,
-          "rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
+          "rationale": "LNG supply crunch from Middle East disruptions could drive significant price appreciation for Qatar-exposed LNG producers.",
           "key_themes": [
-            "carbon capture expansion",
-            "regulatory progress",
-            "energy transition"
+            "LNG price upside",
+            "supply disruption",
+            "European gas shortage"
           ],
-          "time_horizon": "long-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Secured $5bn+ regulatory approval for Rose CCS project in Texas, advancing energy transition credentials.",
+        "haiku_rationale": "LNG supply crunch from Middle East disruptions could drive significant price appreciation for Qatar-exposed LNG producers.",
         "haiku_themes": [
-          "carbon capture expansion",
-          "regulatory progress",
-          "energy transition"
+          "LNG price upside",
+          "supply disruption",
+          "European gas shortage"
         ]
       },
       "config": {
@@ -338,6 +393,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Pennsylvania Officials Report Fourth Measles Death, as Outbreak Grows",
+          "summary": "This year has become the deadliest year for measles in the United States since the virus was declared eliminated in 2000.",
+          "url": "https://www.nytimes.com/2026/09/15/well/pennsylvania-measles-death.html",
+          "source": "Rss",
+          "published": "15 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "Trump Administration Moves to Integrate A.I. Into Medical Care Despite Concerns",
           "summary": "Federal projects are rolling out A.I. agents that offer therapy and prescribe medicine, raising concerns about safety and the influence of venture capital investors.",
           "url": "https://www.nytimes.com/2026/09/14/health/ai-doctors-medicare-fda.html",
@@ -354,56 +417,164 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Legionella Bacteria Found in Cooling Tower at Yankee Stadium",
-          "summary": "A Legionnaires\u2019 disease outbreak in the Bronx has killed one person and infected nine. A Yankees spokesman said that its towers were cleaned on Sunday, and the city has not asked that games be postponed.",
-          "url": "https://www.nytimes.com/2026/09/13/nyregion/yankee-stadium-tower-legionnaires.html",
-          "source": "Rss",
-          "published": "14 Sep 2026",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/ex-phm-ceo-andrea-palmer-takes-top-job-assembled-intelligence\" hreflang=\"en\">Ex-PHM CEO Andrea Palmer takes top job at Assembled Intelligence</a>",
+          "summary": "Former Publicis Health Media CEO Andrea Palmer has revealed her next post. The executive has taken the CEO position at Assembled Intelligence, the agency that Minds + Assembly launched last year to integrate its flurry of acquisitions.",
+          "url": "https://www.fiercepharma.com/marketing/ex-phm-ceo-andrea-palmer-takes-top-job-assembled-intelligence",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/az-daiichis-enhertu-wins-long-awaited-nice-blessing\" hreflang=\"en\">AZ, Daiichi's Enhertu scores long-awaited NICE blessing in HER2-low breast cancer</a>",
+          "summary": "After a 2024 rebuff, AstraZeneca and Daiichi Sankyo\u2019s star antibody drug conjugate Enhertu has been deemed cost effective for NHS use in HER2-low advanced breast cancer by England and Wales' drug value assessor.",
+          "url": "https://www.fiercepharma.com/pharma/az-daiichis-enhertu-wins-long-awaited-nice-blessing",
+          "source": "Fiercepharma",
+          "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/biomarin-cuts-voxzogo-studies-children-noonan-syndrome-amid-growing-competition\" hreflang=\"en\">BioMarin drops Voxzogo development for Noonan syndrome as treatment landscape shifts</a>",
-          "summary": "The rare disease biotech announced that it would discontinue efforts to develop Voxzogo for children with Noonan syndrome, a genetic growth disorder that can affect height, facial features and the heart.",
-          "url": "https://www.fiercepharma.com/pharma/biomarin-cuts-voxzogo-studies-children-noonan-syndrome-amid-growing-competition",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/vera-strong-phase-3-igan-data-trutakna-intensify-kidney-disease-rivalry-otsuka\" hreflang=\"en\">Vera\u2019s strong phase 3 IgAN data for Trutakna intensify kidney disease rivalry</a>",
+          "summary": "New phase 3 data show Vera Therapeutics\u2019 Trutakna successfully stabilizes kidney function in IgA nephropathy patients, mirroring an earlier clinical success from Otsuka\u2019s Voyxact and heating up competition in a rapidly evolving market race.",
+          "url": "https://www.fiercepharma.com/pharma/vera-strong-phase-3-igan-data-trutakna-intensify-kidney-disease-rivalry-otsuka",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/gsk-novartis-ucb-and-more-snag-wins-2026-fierce-pharma-marketing-awards\" hreflang=\"en\">Standout pharma marketing takes the stage at the 2026 Fierce Pharma Marketing Awards</a>",
-          "summary": "The Fierce Pharma Marketing Awards celebrated winners across 20 different categories, with GSK, Novartis, argenx and more taking home trophies.",
-          "url": "https://www.fiercepharma.com/marketing/gsk-novartis-ucb-and-more-snag-wins-2026-fierce-pharma-marketing-awards",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/sanofi-strikes-deal-cheplapharm-divest-20-older-medicines-new-ceos-push-innovation\" hreflang=\"en\">Sanofi strikes Cheplapharm deal to divest 20 older medicines as CEO pushes for innovation</a>",
-          "summary": "In a deal that allows Sanofi to shed assets wrapped up in mature products, German drugmaker Cheplapharm will take over 20 medicines and three manufacturing sites from Sanofi. In exchange, Sanofi is picking up a 26.4% stake in the company.",
-          "url": "https://www.fiercepharma.com/pharma/sanofi-strikes-deal-cheplapharm-divest-20-older-medicines-new-ceos-push-innovation",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"JNJ\",\n      \"company\": \"Johnson & Johnson\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 72,\n      \"rationale\": \"AI integration into medical care creates opportunities for diagnostic and therapeutic innovation across J&J's healthcare portfolio.\",\n      \"key_themes\": [\"AI in healthcare\", \"digital health expansion\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"UNH\",\n      \"company\": UnitedHealth Group\",\n      \"sentiment\": \"bullish\"",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Measles outbreak creates demand for vaccines; JNJ's immunization portfolio positioned to benefit from public health urgency.",
+            "key_themes": [
+              "vaccine demand",
+              "public health crisis",
+              "immunization portfolio"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Measles epidemic drives vaccine procurement; Pfizer's vaccine manufacturing capacity well-positioned for outbreak response.",
+            "key_themes": [
+              "vaccine demand",
+              "public health crisis",
+              "manufacturing capacity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Menopause hearing signals increased federal research funding opportunity; LLY has hormone therapy and women's health assets.",
+            "key_themes": [
+              "menopause treatment",
+              "research funding",
+              "women's health"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI integration in medical care could impact claims processing and care delivery; regulatory uncertainty limits clarity on near-term impact.",
+            "key_themes": [
+              "AI in healthcare",
+              "regulatory risk",
+              "operational efficiency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Measles outbreak drives demand for diagnostic testing and laboratory services; TMO's diagnostics segment benefits from outbreak response.",
+            "key_themes": [
+              "diagnostic demand",
+              "public health crisis",
+              "laboratory services"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "summary": "The measles outbreak represents the most significant near-term catalyst, driving demand for vaccines (JNJ, PFE) and diagnostics (TMO) with high conviction across immunization plays. Longer-term, congressional focus on menopause treatment signals emerging research funding opportunities for women's health-focused players like LLY. AI integration in healthcare presents mixed signals with regulatory uncertainty tempering enthusiasm for healthcare insurers like UNH.",
+        "risks": [
+          "vaccine supply chain disruptions may limit upside",
+          "regulatory restrictions on AI in healthcare could disappoint",
+          "menopause hearing may not translate to material funding increases",
+          "competitive intensity in IgAN treatments may pressure pricing"
+        ],
+        "sector_sentiment": "bullish",
+        "verification": {
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "JNJ": 267.2799987792969,
+        "PFE": 27.459999084472656,
+        "LLY": 1137.8199462890625,
+        "UNH": 375.260009765625,
+        "TMO": 648.4299926757812
+      },
       "spot_check": {
-        "title": "Trump Administration Moves to Integrate A.I. Into Medical Care Despite Concerns",
-        "summary": "Federal projects are rolling out A.I. agents that offer therapy and prescribe medicine, raising concerns about safety and the influence of venture capital investors.",
-        "url": "https://www.nytimes.com/2026/09/14/health/ai-doctors-medicare-fda.html",
+        "title": "Pennsylvania Officials Report Fourth Measles Death, as Outbreak Grows",
+        "summary": "This year has become the deadliest year for measles in the United States since the virus was declared eliminated in 2000.",
+        "url": "https://www.nytimes.com/2026/09/15/well/pennsylvania-measles-death.html",
         "source": "Rss",
-        "published": "14 Sep 2026",
+        "published": "15 Sep 2026",
         "sentiment_hint": "neutral",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "related_signal": {
+          "ticker": "JNJ",
+          "company": "Johnson & Johnson",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "Measles outbreak creates demand for vaccines; JNJ's immunization portfolio positioned to benefit from public health urgency.",
+          "key_themes": [
+            "vaccine demand",
+            "public health crisis",
+            "immunization portfolio"
+          ],
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Measles outbreak creates demand for vaccines; JNJ's immunization portfolio positioned to benefit from public health urgency.",
+        "haiku_themes": [
+          "vaccine demand",
+          "public health crisis",
+          "immunization portfolio"
+        ]
       },
       "config": {
         "icon": "\ud83d\udc8a",
@@ -422,27 +593,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Bessent and Warsh Take On the Bond Bears",
-          "summary": "The Treasury secretary and the Federal Reserve chairman face similar tests: calming investors\u2019 growing worries about inflation and deficits.",
-          "url": "https://www.nytimes.com/2026/09/16/business/dealbook/bessent-warsh-bond-investors.html",
+          "title": "Trump Looks Isolated on Interest Rates",
+          "summary": "The Federal Reserve\u2019s unanimous vote to raise its benchmark lending rate has rankled President Trump, who continues to demand lower borrowing costs.",
+          "url": "https://www.nytimes.com/2026/09/17/business/dealbook/trump-fed-rates.html",
           "source": "Rss",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "In Silicon Valley, Hardware Is Having a Moment Again",
-          "summary": "As A.I. transforms the technology industry, venture capital is flowing into \u201cdeep tech\u201d start-ups that build robots and semiconductors.",
-          "url": "https://www.nytimes.com/2026/09/16/business/dealbook/in-silicon-valley-hardware-is-having-a-moment-again.html",
+          "title": "Bank of England Holds Rates Steady but Warns of Inflation Pressures",
+          "summary": "The decision was announced a day after data showed the fastest pace of price increases in months.",
+          "url": "https://www.nytimes.com/2026/09/17/business/bank-of-england-interest-rates.html",
           "source": "Rss",
-          "published": "16 Sep 2026",
-          "sentiment_hint": "bullish"
+          "published": "17 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
-          "summary": "Estimates vary on how long it could take before a crucial pipeline is repaired, but a prolonged shutdown could push oil prices to their highest levels in months.",
-          "url": "https://www.nytimes.com/2026/09/16/business/saudi-pipeline-houthi-attacks.html",
+          "title": "World Bank Courts Private Financing Amid Global Debt Burden",
+          "summary": "The World Bank president, Ajay Banga, has worked to make the development institution a magnet for private capital as donor nations face budget constraints.",
+          "url": "https://www.nytimes.com/2026/09/17/business/world-bank-courts-private-financing-amid-global-debt-burden.html",
           "source": "Rss",
-          "published": "16 Sep 2026",
+          "published": "17 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -474,14 +645,13 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
+            "company": "JPMorgan Chase & Co.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
+            "rationale": "Higher interest rates from Fed's unanimous decision support net interest margins for large banks",
             "key_themes": [
-              "bond market volatility",
-              "treasury uncertainty",
-              "investment banking"
+              "interest rate environment",
+              "lending profitability"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -490,14 +660,13 @@
           },
           {
             "ticker": "BAC",
-            "company": "Bank of America",
+            "company": "Bank of America Corp.",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Rising inflation concerns and bond market stress benefit from increased client advisory fees and trading revenues",
+            "conviction": 70,
+            "rationale": "Fed rate increases expand NIM; exposure to rising rates benefits traditional banking model",
             "key_themes": [
-              "inflation hedging",
-              "bond volatility",
-              "capital markets activity"
+              "interest rate environment",
+              "deposit margins"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -506,108 +675,107 @@
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Treasury volatility and Fed uncertainty drive increased M&A advisory and capital markets activity for investment bank",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rate increases benefit lending but World Bank pivot to private capital may compete with traditional investment banking",
             "key_themes": [
-              "M&A activity",
-              "bond market uncertainty",
-              "advisory fees"
+              "interest rates",
+              "capital markets competition"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              1,
+              3
+            ]
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Macro uncertainty from inflation/deficit concerns elevates trading desk revenues and wealth management activity",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Conflicting signals: rates boost NIM but AI sector selloff reduces wealth management and advisory fees",
             "key_themes": [
-              "macro volatility",
-              "trading revenues",
-              "wealth management"
+              "interest rates",
+              "market volatility"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": [
+              1,
+              4
+            ]
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct mention; macro uncertainty and potential economic slowdown from inflation concerns create mixed near-term outlook",
+            "conviction": 50,
+            "rationale": "No direct exposure to rate or AI news; broad market volatility poses near-term headwind to payment volumes",
             "key_themes": [
-              "macro uncertainty",
-              "consumer spending risk"
+              "market volatility"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale references inflation/deficit concerns from Article [1], but the logical connection between bond market volatility and Visa payment volumes is speculative and not substantiated by any source article",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct mention; inflation/deficit concerns may impact consumer spending patterns and payment volumes near-term",
+            "conviction": 50,
+            "rationale": "No direct exposure to rate or AI news; broad market volatility poses near-term headwind to payment volumes",
             "key_themes": [
-              "macro uncertainty",
-              "consumer spending risk"
+              "market volatility"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale references inflation/deficit concerns from Article [1], but the logical connection between bond market volatility and Mastercard payment volumes is speculative and not substantiated by any source article",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           }
         ],
-        "summary": "Financial sector shows bullish signals as Treasury market volatility from inflation and deficit concerns create substantial trading, advisory, and capital markets opportunities for large banks. Energy sector dynamics from Saudi pipeline disruptions add to macro complexity, while payment processors face neutral outlook amid broader economic uncertainty.",
+        "summary": "The finance sector shows a bifurcated outlook: traditional banks (JPM, BAC) benefit from the Fed's hawkish stance and higher interest rates, supporting net interest margins. However, the broader market faces near-term headwinds from the AI sector selloff, which may pressure wealth management and advisory revenues at investment banks (MS, GS). Payment processors (V, MA) remain neutral, insulated from rate dynamics but exposed to macro volatility.",
         "risks": [
-          "Inflation fears could trigger aggressive Fed rate hikes",
-          "Bond market stress could constrain credit availability",
-          "Economic slowdown could reduce M&A and trading activity"
+          "Trump administration pressure on Federal Reserve could reverse rate trajectory",
+          "Persistent inflation warnings from BoE suggest stagflation risks that could compress bank margins",
+          "Prolonged tech sector weakness could spillover into financial services trading and advisory revenues",
+          "World Bank's pivot to private capital may disrupt traditional investment banking relationships"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "V and MA signals lack direct grounding: while inflation/deficit concerns are mentioned in sources, the analyst makes an inferential leap connecting bond/macro volatility to consumer payment volume impacts without evidentiary support in the articles",
-            "V and MA both labeled 'neutral' with 45 conviction but rationale presents concerns as risk factors rather than balanced thesis"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JPM": 352.489990234375,
-        "BAC": 59.52000045776367,
-        "GS": 976.6699829101562,
-        "MS": 206.27999877929688,
-        "V": 375.6199951171875,
-        "MA": 573.27001953125
+        "JPM": 348.9200134277344,
+        "BAC": 57.900001525878906,
+        "GS": 937.97998046875,
+        "MS": 202.4199981689453,
+        "V": 370.92999267578125,
+        "MA": 567.75
       },
       "spot_check": {
-        "title": "Bessent and Warsh Take On the Bond Bears",
-        "summary": "The Treasury secretary and the Federal Reserve chairman face similar tests: calming investors\u2019 growing worries about inflation and deficits.",
-        "url": "https://www.nytimes.com/2026/09/16/business/dealbook/bessent-warsh-bond-investors.html",
+        "title": "Trump Looks Isolated on Interest Rates",
+        "summary": "The Federal Reserve\u2019s unanimous vote to raise its benchmark lending rate has rankled President Trump, who continues to demand lower borrowing costs.",
+        "url": "https://www.nytimes.com/2026/09/17/business/dealbook/trump-fed-rates.html",
         "source": "Rss",
-        "published": "16 Sep 2026",
+        "published": "17 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "JPM",
-          "company": "JPMorgan Chase",
+          "company": "JPMorgan Chase & Co.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
+          "rationale": "Higher interest rates from Fed's unanimous decision support net interest margins for large banks",
           "key_themes": [
-            "bond market volatility",
-            "treasury uncertainty",
-            "investment banking"
+            "interest rate environment",
+            "lending profitability"
           ],
           "time_horizon": "medium-term",
           "verified": true,
@@ -615,11 +783,10 @@
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Bond market volatility from inflation/deficit concerns creates trading and advisory opportunities for largest U.S. bank",
+        "haiku_rationale": "Higher interest rates from Fed's unanimous decision support net interest margins for large banks",
         "haiku_themes": [
-          "bond market volatility",
-          "treasury uncertainty",
-          "investment banking"
+          "interest rate environment",
+          "lending profitability"
         ]
       },
       "config": {
