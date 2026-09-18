@@ -19278,5 +19278,357 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-09-18",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Waymo robotaxi expansion to Singapore in 2028 demonstrates monetization of autonomous driving technology with international scaling potential.",
+            "key_themes": [
+              "autonomous vehicles",
+              "international expansion",
+              "AI commercialization"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "ChatGPT driving organic SEO disruption presents both threat to traditional search advertising and opportunity for AI-first content discovery platforms.",
+            "key_themes": [
+              "AI search disruption",
+              "content discovery",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "AI content creation tools proliferation may impact creator monetization economics; regulatory slowdown in AI development poses near-term headwinds.",
+            "key_themes": [
+              "AI content tools",
+              "regulatory scrutiny",
+              "creator economy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial grounding: AI content tools are mentioned in articles [2,3] but regulatory slowdown claim only supported by article [6] which discusses general AI safety concerns, not specifically targeting META's operations",
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 347.3299865722656,
+          "MSFT": 497.75,
+          "META": 682.3099975585938
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Structural demand headwinds from India's clean energy boom halting coal power growth signals long-term energy transition pressure.",
+            "key_themes": [
+              "energy transition",
+              "demand risk",
+              "clean energy displacement"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Flat coal power in India over 50-year first occurrence indicates accelerating clean energy substitution threatening fossil fuel demand.",
+            "key_themes": [
+              "energy transition",
+              "demand destruction",
+              "renewable competition"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP p.l.c.",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Strait of Hormuz tanker traffic slump and pipeline closures create near-term crude logistics disruption benefiting diversified energy portfolios.",
+            "key_themes": [
+              "supply disruption",
+              "logistics pressure",
+              "geopolitical risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Rationale claims disruption 'benefits diversified energy portfolios' but articles do not substantiate this benefit claim for BP specifically",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Saudi pipeline closure and Hormuz traffic decline create shipping volatility; hydrogen project developments signal energy transition positioning.",
+            "key_themes": [
+              "logistics disruption",
+              "hydrogen transition",
+              "geopolitical volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale cites 'hydrogen project developments' but source articles [4] and [5] mention hydrogen projects generically (EnergyPathways/Hycamite, platinum/PEM) with no connection to Shell. Article [3] covers Hormuz/pipeline disruption but not Shell specifically.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "India's record non-fossil power generation signals accelerating energy transition threatening traditional oil and gas demand growth globally.",
+            "key_themes": [
+              "energy transition",
+              "demand risk",
+              "clean energy acceleration"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 59,
+            "rationale": "India's clean energy boom and flat coal power growth represents structural demand destruction for fossil fuel exporters over multi-year horizon.",
+            "key_themes": [
+              "demand destruction",
+              "energy transition",
+              "structural headwind"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 163.27000427246094,
+          "CVX": 211.57000732421875,
+          "BP": 45.41999816894531,
+          "SHEL": 95.81999969482422,
+          "TTE": 91.58999633789062,
+          "COP": 133.19000244140625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Measles outbreak (deadliest since 2000) and HIV emergency in Fiji create near-term vaccine demand tailwinds for PFE's immunology portfolio.",
+            "key_themes": [
+              "measles outbreak",
+              "vaccine demand",
+              "infectious disease emergency"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Measles resurgence and Fiji HIV epidemic support demand for MRK's vaccine and antiviral franchises; measles outbreak is largest since 2000.",
+            "key_themes": [
+              "measles outbreak",
+              "HIV epidemic",
+              "vaccine opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "FDA approval of first Type 1 diabetes-associated kidney disease drug in 30 years validates diabetes/kidney disease treatment class LLY is investing in.",
+            "key_themes": [
+              "diabetes treatment",
+              "regulatory validation",
+              "chronic disease"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] describes FDA approval for Type 1 diabetes-associated kidney disease drug (Bayer's Kerendia), not an Eli Lilly drug. Rationale incorrectly implies LLY has a direct product catalyst when none is mentioned in sources.",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "AI-driven clinical trial automation inflection point directly benefits TMO's laboratory services and trial management capabilities.",
+            "key_themes": [
+              "AI automation",
+              "clinical trials",
+              "operational efficiency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [4] discusses agentic AI in clinical trial automation generally, but contains no specific mention of Thermo Fisher Scientific or its capabilities. Rationale makes an unsupported company-specific inference.",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Indirect exposure through immunology and vaccine assets, but articles lack direct JNJ-specific catalysts or product mentions.",
+            "key_themes": [
+              "vaccine opportunity",
+              "infectious disease"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Disease outbreaks may modestly increase utilization/costs, but articles focus on pharma/biotech developments without payer-specific implications.",
+            "key_themes": [
+              "healthcare utilization",
+              "disease burden"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 27.639999389648438,
+          "MRK": 147.14999389648438,
+          "LLY": 1152.43994140625,
+          "TMO": 658.3200073242188,
+          "JNJ": 270.2200012207031,
+          "UNH": 375.2099914550781
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Leadership transition with Buffett stepping down as chairman at 96; remains board member, providing continuity but introducing succession uncertainty.",
+            "key_themes": [
+              "leadership transition",
+              "succession planning",
+              "board continuity"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market AI rout and tech selloff may pressure financial sector valuations; minimal direct exposure signals in provided articles.",
+            "key_themes": [
+              "market volatility",
+              "AI sector weakness",
+              "broad market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims broad market AI rout may pressure financial sector, but articles discuss AI/tech sector decline without mentioning financial sector impact. JPMorgan Chase is not mentioned in any source article. The connection between tech selloff and JPM valuations is speculative and unsupported.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Tech sector decline from DeepSeek concerns could impact payment processors; no direct mention suggests limited immediate impact.",
+            "key_themes": [
+              "tech sector pressure",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates that tech sector decline could impact payment processors, but Visa is not mentioned in any source article. No evidence supports that payment processors would be materially affected by AI infrastructure selloff.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "BRK-B": 509.20001220703125,
+          "JPM": 349.30999755859375,
+          "V": 369.92999267578125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
