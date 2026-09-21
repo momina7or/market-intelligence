@@ -19630,5 +19630,283 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-09-21",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Googlebook laptop launch demonstrates hardware-software integration strategy and positions Google to capture laptop market share from competitors.",
+            "key_themes": [
+              "hardware expansion",
+              "ecosystem integration",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Googlebook with Android-PC integration and browser-centric OS poses direct threat to Windows market share in consumer laptop segment.",
+            "key_themes": [
+              "competitive threat",
+              "market share risk",
+              "OS displacement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools mentioned broadly in articles; no specific Meta product impact identified despite potential relevance to creator economy.",
+            "key_themes": [
+              "AI tools ecosystem",
+              "content creation"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Articles mention AI content creation tools broadly but contain no Meta-specific products or services. LimeWire, ChatGPT, and generic 'top 10 AI tools' are discussed, not Meta platforms.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 353.79998779296875,
+          "MSFT": 494.4599914550781,
+          "META": 699.0
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "India's coal demand surge (+4.2%) and critical inventory levels support energy demand tailwinds for integrated energy producers.",
+            "key_themes": [
+              "emerging market energy demand",
+              "coal-to-oil switching potential",
+              "inventory depletion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] confirms India's coal demand surge (+4.2%) and critical inventory levels, but the rationale claims this supports 'integrated energy producers' and mentions 'coal-to-oil switching potential' without evidence. Article [1] discusses coal-fired power plants; there is no mention of coal-to-oil switching or how coal demand tailwinds would benefit oil producers like ConocoPhillips. The connection between coal inventory depletion and oil company performance is not established in the sources.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SLB",
+            "company": "SLB (Schlumberger)",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "EU Arctic drilling moratorium maintained despite Norway advocacy; reduces medium-term exploration and production activity/capex.",
+            "key_themes": [
+              "Arctic exploration freeze",
+              "reduced E&P capex",
+              "regulatory headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "COP": 129.9149932861328,
+          "SLB": 51.290000915527344
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "FDA approval of Inluriyo/Verzenio combo with superior progression-free survival strengthens oncology pipeline",
+            "key_themes": [
+              "oncology expansion",
+              "combination therapy approval",
+              "market share gains"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "RFK Jr.'s vaccine skepticism at White House poses regulatory and demand risks to vaccine franchise",
+            "key_themes": [
+              "vaccine demand risk",
+              "regulatory uncertainty",
+              "political headwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Vaccine skepticism from health secretary threatens immunization programs and vaccine revenue streams",
+            "key_themes": [
+              "vaccine demand risk",
+              "regulatory uncertainty",
+              "public health policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Nursing home bed shortage amid aging population creates capacity constraints and operational pressures",
+            "key_themes": [
+              "long-term care capacity",
+              "demographic headwind",
+              "margin pressure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "AI-driven clinical trial automation accelerates drug development workflows, benefiting trial infrastructure providers",
+            "key_themes": [
+              "AI automation",
+              "clinical trial efficiency",
+              "operational leverage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct article mentions; vaccine skepticism poses indirect regulatory risk but diversified portfolio limits exposure",
+            "key_themes": [
+              "vaccine exposure uncertainty",
+              "portfolio diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct article mentions' and bases bearish case on indirect vaccine skepticism risk, but this is speculative inference rather than grounded analysis",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1154.2349853515625,
+          "PFE": 27.729999542236328,
+          "JNJ": 271.7149963378906,
+          "UNH": 377.2850036621094,
+          "TMO": 653.14501953125,
+          "MRK": 147.56500244140625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "MS NOW faces First Amendment lawsuit over White House access restrictions, creating regulatory and reputational risk.",
+            "key_themes": [
+              "regulatory risk",
+              "political uncertainty",
+              "media litigation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] mentions 'CNN, MS NOW and Politico' suing, but 'MS NOW' appears to be a news program/brand, not Morgan Stanley (ticker: MS). Morgan Stanley is a financial services company with no connection to the White House media access lawsuit described in the articles.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market volatility from AI rout and China trade tensions may create near-term headwinds but banking fundamentals remain stable.",
+            "key_themes": [
+              "market volatility",
+              "trade uncertainty",
+              "AI sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4,
+              1
+            ]
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Diversified holdings provide some insulation from AI rout, though equity portfolio exposure creates near-term drag from tech selloff.",
+            "key_themes": [
+              "tech exposure",
+              "market volatility",
+              "diversification"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "MS": 204.8699951171875,
+          "JPM": 353.31500244140625,
+          "BRK-B": 509.2300109863281
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
