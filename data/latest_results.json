@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-21",
-  "run_time": "2026-09-21T13:36:28.748599Z",
+  "run_date": "2026-09-22",
+  "run_time": "2026-09-22T12:20:48.620666Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "These are the first five Googlebook laptops",
-          "summary": "Google and partners are finally announcing the first laptops under the new Googlebook banner. There are five models from Acer, Asus, Dell, HP, and Lenovo to kick things off. They're available for preorder starting today and arrive in stores on October 4th. Starting prices range from $899 to $1,299, putting the Googlebooks in the same [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
+          "title": "Oppo\u2019s new phone is the first with three 200-megapixel cameras",
+          "summary": "Oppo's new Find X10 Pro Max flagship phone, launched today in China, is the first anywhere to use 200-megapixel sensors on all three of its rear cameras. A 17-stop dynamic range for the main camera, delivered thanks to what Oppo calls \"DeepPix sensor technology,\" suggests megapixel count won't be the only thing this camera has [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/998688/oppo-find-x10-pro-max-200-megapixel-cameras-china",
           "source": "Theverge",
-          "published": "21 Sep 2026",
+          "published": "22 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The long dream of the Googlebook",
-          "summary": "In late 2010, an up-and-coming Google executive named Sundar Pichai took the stage in front of a bunch of reporters and explained that Google had a big new idea about laptops. In the future, he said, the only thing you'd need on your computer was a web browser - that was where all your apps, [&#8230;]",
-          "url": "https://www.theverge.com/tech/997972/googlebook-laptop-chromeos-android-history",
+          "title": "Peloton is back with a \u2018cheaper\u2019 folding treadmill",
+          "summary": "Last year, Peloton did a sweeping refresh of its hardware that added cameras, fans, and AI-powered software called Peloton IQ. This year, it's zeroing in on its treadmill lineup - refreshing its two existing Treads and adding the new, more affordable Tread Flex into the fold. At a New York City launch event, Peloton chief [&#8230;]",
+          "url": "https://www.theverge.com/tech/998272/peloton-tread-flex-fitness-treadmills",
           "source": "Theverge",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "bearish"
+          "published": "22 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "I got to see Google&#8217;s wild ideas about the future of laptops",
-          "summary": "There are a few things about using a Googlebook that immediately feel just right. The hardware is polished (since it's based on current laptops). The OS is familiar (if you've ever used a Chromebook). But most impressive, it integrates your Android phone with your PC so they feel more like one device. It's the culmination [&#8230;]",
-          "url": "https://www.theverge.com/tech/997986/google-googlebooks-android-laptops-dell-hp-lenovo-acer-asus-price-specs",
+          "title": "It\u2019s time for the Mac Neo",
+          "summary": "The Mac Mini is a great little desktop computer, and back when it cost $599, it was easy to recommend to anyone who wanted something speedy, simple, and cheap. The new M6 model is even better, but it starts at $899, and its 12-core CPU and 12-core GPU might actually be overkill for someone who [&#8230;]",
+          "url": "https://www.theverge.com/report/998501/apple-mac-mini-m6-price-mac-neo-concept",
           "source": "Theverge",
-          "published": "21 Sep 2026",
+          "published": "22 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -59,101 +59,80 @@
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "Googlebook laptop launch demonstrates hardware-software integration strategy and positions Google to capture laptop market share from competitors.",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
             "key_themes": [
-              "hardware expansion",
-              "ecosystem integration",
-              "competitive positioning"
+              "AI search competition",
+              "organic traffic disruption",
+              "AI-powered recommendations"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 1
           },
           {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Googlebook with Android-PC integration and browser-centric OS poses direct threat to Windows market share in consumer laptop segment.",
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mac Neo pricing concerns mentioned (M6 at $899 vs prior $599) suggest margin pressure amid competitive hardware market.",
             "key_themes": [
-              "competitive threat",
-              "market share risk",
-              "OS displacement"
+              "hardware pricing",
+              "product positioning"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 6
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "AI content creation tools mentioned broadly in articles; no specific Meta product impact identified despite potential relevance to creator economy.",
-            "key_themes": [
-              "AI tools ecosystem",
-              "content creation"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Articles mention AI content creation tools broadly but contain no Meta-specific products or services. LimeWire, ChatGPT, and generic 'top 10 AI tools' are discussed, not Meta platforms.",
-            "supporting_article": null
           }
         ],
-        "summary": "Articles reveal Google's Googlebook initiative as a significant competitive move in the laptop market, launching across major OEMs with Android-PC integration capabilities. Meanwhile, ChatGPT and generative AI tools are reshaping organic traffic and content creation workflows, indicating broad AI adoption acceleration. This creates both opportunities for AI-native companies and threats to traditional software platforms.",
+        "summary": "Articles reveal significant AI disruption in search and content discovery, with ChatGPT demonstrating ability to capture organic traffic traditionally dominated by Google, creating medium-term headwinds for search monetization. Hardware vendors face competitive pricing pressures. Limited direct relevance to semiconductor, cloud, or social media leaders in current news cycle.",
         "risks": [
-          "Googlebook adoption depends on developer ecosystem maturity and consumer willingness to abandon Windows/macOS",
-          "ChatGPT traffic redirection could cannibalize SEO-based business models and digital marketing budgets",
-          "Regulatory scrutiny on Google's hardware-software bundling in competitive laptop market",
-          "Microsoft's dependence on Windows revenue faces structural threat from browser-centric computing paradigm"
+          "AI search competition intensifying faster than anticipated",
+          "Enterprise AI adoption slower than consensus expectations",
+          "Regulatory scrutiny on AI training data and content attribution"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "META signal assumes relevance to Meta without evidence of Meta product involvement in the source articles",
-            "Analyst overstates conviction (45%) for META despite lack of grounding - even 'neutral' sentiment requires some connection to Meta that is absent"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "GOOGL": 353.79998779296875,
-        "MSFT": 494.4599914550781,
-        "META": 699.0
+        "GOOGL": 354.9700012207031,
+        "AAPL": 338.9800109863281
       },
       "spot_check": {
-        "title": "These are the first five Googlebook laptops",
-        "summary": "Google and partners are finally announcing the first laptops under the new Googlebook banner. There are five models from Acer, Asus, Dell, HP, and Lenovo to kick things off. They're available for preorder starting today and arrive in stores on October 4th. Starting prices range from $899 to $1,299, putting the Googlebooks in the same [&#8230;]",
-        "url": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
-        "source": "Theverge",
-        "published": "21 Sep 2026",
+        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
+        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
+        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
+        "source": "Feedburner",
+        "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "GOOGL",
           "company": "Alphabet Inc.",
           "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "Googlebook laptop launch demonstrates hardware-software integration strategy and positions Google to capture laptop market share from competitors.",
+          "conviction": 72,
+          "rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
           "key_themes": [
-            "hardware expansion",
-            "ecosystem integration",
-            "competitive positioning"
+            "AI search competition",
+            "organic traffic disruption",
+            "AI-powered recommendations"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Googlebook laptop launch demonstrates hardware-software integration strategy and positions Google to capture laptop market share from competitors.",
+        "haiku_rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
         "haiku_themes": [
-          "hardware expansion",
-          "ecosystem integration",
-          "competitive positioning"
+          "AI search competition",
+          "organic traffic disruption",
+          "AI-powered recommendations"
         ]
       },
       "config": {
@@ -173,28 +152,44 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "India's Coal Demand Set to Jump 4.2% as Plant Stocks Hit Critical Lows",
-          "summary": "The share of coal-fired power plants in India running on critically low levels of coal inventory has soared in recent weeks to nearly 40% of all operational coal plants, Reuters reported on Monday, citing government data. As many as 74 coal-fired power plants had fewer than three days\u2019 worth of coal stocks as of this weekend, sharply higher compared to 60 in the previous week, per the data from the Central Electricity Authority cited by Reuters. Despite the low stock levels, India doesn\u2019t face a",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Coal-Demand-Set-to-Jump-42-as-Plant-Stocks-Hit-Critical-Lows.html",
+          "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week",
+          "summary": "Iran has offered to open the Strait of Hormuz within seven days if the United States eases its pressure including taking steps toward ending the U.S. military blockade of Iranian ports and halting military operations in the Strait, a senior Iranian government official told Japan\u2019s news agency Kyodo News on Tuesday. Hopes of a diplomatic breakthrough and Iran\u2019s reported preparedness to reopen the Strait of Hormuz if the U.S. takes steps to ease the pressure sent oil prices tumbling by 3% early on",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
           "source": "Oilprice",
-          "published": "21 Sep 2026",
+          "published": "22 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Trafigura Launches Volare Shipping to Cash In on Record Tanker Rates",
-          "summary": "One of the world\u2019s biggest oil traders, Trafigura, is spinning off its supertanker business in a new company. Trafigura on Monday said it had established a new, dedicated group company, Volare Shipping Ltd, to own, operate, and scale a modern fleet of oil tankers. The fleet will be commercially managed by Trafigura\u2019s global shipping business. Volare Shipping currently operates six very large crude carriers (VLCCs) and has eight newbuild vessels on order, scheduled to be delivered between 2026 an",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Launches-Volare-Shipping-to-Cash-In-on-Record-Tanker-Rates.html",
+          "title": "ING: Supply-Side Risks Stay Elevated Even as Oil Prices Pull Back",
+          "summary": "Despite the recent decline in crude oil prices due to lower-than-feared disruption of Saudi exports, supply-side risks remain elevated, and not only in the Middle East, analysts at ING Bank also said on Tuesday. Oil prices dropped on Friday and Monday, with Brent Crude falling to $100 per barrel from $108 a barrel hit early last week after Saudi Arabia shut down its key pipeline that bypasses the Strait of Hormuz. Higher-than-expected Saudi shipments through Hormuz, however, have eased concerns ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/ING-Supply-Side-Risks-Stay-Elevated-Even-as-Oil-Prices-Pull-Back.html",
           "source": "Oilprice",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "bullish"
+          "published": "22 Sep 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Norway's Arctic Oil Pitch Falls Flat in Brussels",
-          "summary": "The European Commission is expected to keep its current ban on oil and gas drilling in the Arctic despite months-long campaigning from Norway to lift the moratorium, a spokesperson for the EC has told Euronews. The Commission, the European Union\u2019s legislative arm, is expected to announce a revamped Northern Neighbourhood strategy on October 20. But the new strategy is expected to keep the moratorium on drilling in Arctic waters, according to the spokesperson. Norway, not an EU member but a close",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Norways-Arctic-Oil-Pitch-Falls-Flat-in-Brussels.html",
+          "title": "Saudi Oil Lifeline May Reopen as Aramco Eyes Yanbu Restart",
+          "summary": "Saudi Aramco officials have informally told at least three Asian refiners that they would soon be able to pick up crude oil cargoes at the Yanbu port on the Red Sea, anonymous traders with knowledge of the matter told Bloomberg on Tuesday. Saudi Arabia has halted loadings at the Yanbu port, its key export terminal that bypasses the Strait of Hormuz, since the September 10 drone attacks on the East-West onshore oil pipeline that fed crude from the Saudi oilfields to the Yanbu port.\u00a0Saudi Arabia s",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Lifeline-May-Reopen-as-Aramco-Eyes-Yanbu-Restart.html",
           "source": "Oilprice",
+          "published": "22 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "New Era signs 20-year PPA with Vistra for Texas data centre project",
+          "summary": "New Era Energy & Digital through its subsidiary, TCDC PowerCo, has entered into a 20-year PPA with Luminant, an affiliate of Vistra.",
+          "url": "https://www.energymonitor.ai/news/new-era-signs-ppa-vistra/",
+          "source": "Energymonitor",
+          "published": "22 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Asia likely to account for entire global phenol capacity additions by 2030",
+          "summary": "Asia is likely to be the only region globally projected to register phenol capacity additions by 2030, driven by demand for primary downstream derivatives.",
+          "url": "https://www.energymonitor.ai/analyst-comment/asia-global-phenol-capacity-additions-by-2030/",
+          "source": "Energymonitor",
           "published": "21 Sep 2026",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         },
         {
           "title": "OMV to proceed with $688m Austrian hydrogen plant after Masdar exit",
@@ -203,108 +198,177 @@
           "source": "Energymonitor",
           "published": "21 Sep 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "How grid-forming and AI are supporting the next phase of the renewable era",
-          "summary": "New grid-forming technology is keeping power systems stable, even in the most challenging operating environments.",
-          "url": "https://www.energymonitor.ai/sponsored/how-grid-forming-and-ai-are-supporting-the-next-phase-of-the-renewable-era/",
-          "source": "Energymonitor",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Premier Energies opens 7GW solar cell plant in AP, India",
-          "summary": "Premier Energies has commissioned its 7GW N-type TOPCon G12R solar cell manufacturing plant in Andhra Pradesh (AP), India.",
-          "url": "https://www.energymonitor.ai/news/premier-energies-opens-7gw-solar-plant/",
-          "source": "Energymonitor",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "India's coal demand surge (+4.2%) and critical inventory levels support energy demand tailwinds for integrated energy producers.",
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Iran Hormuz reopening threat pressures crude prices, but elevated supply-side risks provide offsetting support.",
             "key_themes": [
-              "emerging market energy demand",
-              "coal-to-oil switching potential",
-              "inventory depletion"
+              "geopolitical risk",
+              "crude pricing volatility",
+              "supply disruption"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] confirms India's coal demand surge (+4.2%) and critical inventory levels, but the rationale claims this supports 'integrated energy producers' and mentions 'coal-to-oil switching potential' without evidence. Article [1] discusses coal-fired power plants; there is no mention of coal-to-oil switching or how coal demand tailwinds would benefit oil producers like ConocoPhillips. The connection between coal inventory depletion and oil company performance is not established in the sources.",
-            "supporting_article": 1
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
-            "ticker": "SLB",
-            "company": "SLB (Schlumberger)",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "EU Arctic drilling moratorium maintained despite Norway advocacy; reduces medium-term exploration and production activity/capex.",
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Mixed signals from Middle East geopolitics; 3% oil price decline offset by persistent supply-side risks.",
             "key_themes": [
-              "Arctic exploration freeze",
-              "reduced E&P capex",
-              "regulatory headwinds"
+              "geopolitical volatility",
+              "supply chain disruption",
+              "pricing pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
+            "key_themes": [
+              "geopolitical de-escalation",
+              "oil price headwinds",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP p.l.c.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Saudi Yanbu port restart signals supply normalization, but Middle East tensions remain volatile for international majors.",
+            "key_themes": [
+              "supply recovery",
+              "geopolitical risk",
+              "pricing volatility"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": [
+              3,
+              1
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell p.l.c.",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Elevated supply-side risks and potential Hormuz reopening create conflicting signals for global energy markets.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Iran diplomatic progress threatens crude price recovery; Asian refiner relief from Saudi Yanbu restart pressures upstream.",
+            "key_themes": [
+              "geopolitical de-escalation",
+              "crude price weakness",
+              "supply normalization"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
           }
         ],
-        "summary": "The petroleum sector faces mixed signals: India's surging coal demand and critically low power plant inventories support near-term hydrocarbon demand resilience and pricing, benefiting integrated producers. However, the EU's reaffirmed Arctic drilling moratorium constrains upstream exploration prospects and capex deployment. Renewable energy expansion (solar plant commissioning) continues to pressure long-term fossil fuel demand outlooks.",
+        "summary": "Oil markets face near-term headwinds from potential Iran-US rapprochement and Hormuz reopening, with crude tumbling 3% despite persistent Middle East supply disruptions. Saudi production recovery via Yanbu port restart signals normalization, providing relief to Asian refiners but pressure on upstream margins. Elevated geopolitical risks remain a wildcard that could quickly reverse current bearish momentum.",
         "risks": [
-          "Accelerating renewable energy deployment reducing fossil fuel demand trajectory",
-          "Tightening regulatory environment in developed markets limiting upstream opportunities",
-          "Energy transition momentum reducing long-term visibility for oil & gas capex cycles"
+          "diplomatic negotiations collapse and geopolitical tensions reignite",
+          "further Strait of Hormuz disruptions from drone attacks",
+          "demand destruction from prolonged oil price weakness",
+          "accelerating energy transition reducing long-term upstream valuations"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "COP rationale contains unsupported inference about 'coal-to-oil switching potential' \u2014 no source material supports this mechanism",
-            "COP rationale lacks logical connection between coal demand/inventory levels and benefits to integrated oil producers; coal and crude oil are distinct markets with different demand drivers"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "COP": 129.9149932861328,
-        "SLB": 51.290000915527344
+        "XOM": 158.3000030517578,
+        "CVX": 203.6699981689453,
+        "COP": 127.52999877929688,
+        "BP": 43.15999984741211,
+        "SHEL": 93.2699966430664,
+        "TTE": 90.05999755859375
       },
       "spot_check": {
-        "title": "India's Coal Demand Set to Jump 4.2% as Plant Stocks Hit Critical Lows",
-        "summary": "The share of coal-fired power plants in India running on critically low levels of coal inventory has soared in recent weeks to nearly 40% of all operational coal plants, Reuters reported on Monday, citing government data. As many as 74 coal-fired power plants had fewer than three days\u2019 worth of coal stocks as of this weekend, sharply higher compared to 60 in the previous week, per the data from the Central Electricity Authority cited by Reuters. Despite the low stock levels, India doesn\u2019t face a",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Coal-Demand-Set-to-Jump-42-as-Plant-Stocks-Hit-Critical-Lows.html",
+        "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week",
+        "summary": "Iran has offered to open the Strait of Hormuz within seven days if the United States eases its pressure including taking steps toward ending the U.S. military blockade of Iranian ports and halting military operations in the Strait, a senior Iranian government official told Japan\u2019s news agency Kyodo News on Tuesday. Hopes of a diplomatic breakthrough and Iran\u2019s reported preparedness to reopen the Strait of Hormuz if the U.S. takes steps to ease the pressure sent oil prices tumbling by 3% early on",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
         "source": "Oilprice",
-        "published": "21 Sep 2026",
+        "published": "22 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "COP",
           "company": "ConocoPhillips",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "India's coal demand surge (+4.2%) and critical inventory levels support energy demand tailwinds for integrated energy producers.",
+          "sentiment": "bearish",
+          "conviction": 62,
+          "rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
           "key_themes": [
-            "emerging market energy demand",
-            "coal-to-oil switching potential",
-            "inventory depletion"
+            "geopolitical de-escalation",
+            "oil price headwinds",
+            "margin compression"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] confirms India's coal demand surge (+4.2%) and critical inventory levels, but the rationale claims this supports 'integrated energy producers' and mentions 'coal-to-oil switching potential' without evidence. Article [1] discusses coal-fired power plants; there is no mention of coal-to-oil switching or how coal demand tailwinds would benefit oil producers like ConocoPhillips. The connection between coal inventory depletion and oil company performance is not established in the sources.",
-          "supporting_article": 1
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": [
+            1
+          ]
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "India's coal demand surge (+4.2%) and critical inventory levels support energy demand tailwinds for integrated energy producers.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
         "haiku_themes": [
-          "emerging market energy demand",
-          "coal-to-oil switching potential",
-          "inventory depletion"
+          "geopolitical de-escalation",
+          "oil price headwinds",
+          "margin compression"
         ]
       },
       "config": {
@@ -336,7 +400,7 @@
           "summary": "As the oldest baby boomers turn 80, researchers worry there won\u2019t be enough room in nursing facilities for a rapidly graying nation.",
           "url": "https://www.nytimes.com/2026/09/19/well/family/nursing-home-beds-baby-boomers.html",
           "source": "Rss",
-          "published": "19 Sep 2026",
+          "published": "21 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -344,186 +408,52 @@
           "summary": "The health secretary spoke at a conference featuring misinformation about vaccines, including a claim that the success of the polio vaccines was a \u201cfraud.\u201d",
           "url": "https://www.nytimes.com/2026/09/17/health/kennedy-vaccines-childrens-health-defense.html",
           "source": "Rss",
-          "published": "18 Sep 2026",
+          "published": "21 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/sponsored/clinical-trials-reach-new-automation-inflection-point\" hreflang=\"en\">Clinical trials reach a new automation inflection point</a>",
-          "summary": "As trial complexity grows, agentic AI is emerging as a new model for connecting workflows and accelerating execution.",
-          "url": "https://www.fiercepharma.com/sponsored/clinical-trials-reach-new-automation-inflection-point",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/eli-lilly-escalates-oral-serd-battle-fda-approval-inluriyo-verzenio-combo\" hreflang=\"en\">Eli Lilly escalates oral SERD battle with FDA approval for Inluriyo, Verzenio combo</a>",
-          "summary": "With longer progression-free survival, Jake Van Naarden, president of Lilly Oncology, told Fierce he expects most patients to choose the combination over oral SERD monotherapy.",
-          "url": "https://www.fiercepharma.com/pharma/eli-lilly-escalates-oral-serd-battle-fda-approval-inluriyo-verzenio-combo",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/trump-calls-some-routine-immunizations-be-split-five-smaller-doses\" hreflang=\"en\">Trump calls for some childhood vaccines be split into smaller doses</a>",
+          "summary": "The president announced plans to split some childhood immunizations in the U.S. into five separate shots, given as \u201c20% doses\u201d every six months. The decision has garnered significant backlash from the medical community.",
+          "url": "https://www.fiercepharma.com/pharma/trump-calls-some-routine-immunizations-be-split-five-smaller-doses",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/europes-chmp-endorses-slew-new-medicines-including-novo-and-az-new-offerings\" hreflang=\"en\">Europe's CHMP endorses slew of new medicines, including new offerings from Novo and AZ</a>",
-          "summary": "The CHMP recommendation for Novo's next gen hemophilia A treatment was one of several noteworthy endorsements made by the EU agency this week.",
-          "url": "https://www.fiercepharma.com/pharma/europes-chmp-endorses-slew-new-medicines-including-novo-and-az-new-offerings",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/jj-firms-caplytas-1st-phase-3-win-bipolar-associated-manic-episodes\" hreflang=\"en\">J&amp;J firms up Caplyta's 1st phase 3 win in bipolar-associated manic episodes</a>",
+          "summary": "As Johnson &amp; Johnson\u2019s $14.6 billion bet on Intra-Cellular Therapies continues to pay off with blockbuster sales of Caplyta, the atypical antipsychotic has passed a phase 3 test that puts it one step closer to a broader psychiatric label.",
+          "url": "https://www.fiercepharma.com/pharma/jj-firms-caplytas-1st-phase-3-win-bipolar-associated-manic-episodes",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/regulatory/cms-unveils-new-model-aims-bring-most-favored-nation-pricing-medicaid\" hreflang=\"en\">All 50 states apply to participate in new Medicaid drug pricing model, White House says</a>",
+          "summary": "The Trump administration is rolling out a new model that aims to bring most-favored nation pricing to the Medicaid space.",
+          "url": "https://www.fiercepharma.com/regulatory/cms-unveils-new-model-aims-bring-most-favored-nation-pricing-medicaid",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "FDA approval of Inluriyo/Verzenio combo with superior progression-free survival strengthens oncology pipeline",
-            "key_themes": [
-              "oncology expansion",
-              "combination therapy approval",
-              "market share gains"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bearish",
-            "conviction": 75,
-            "rationale": "RFK Jr.'s vaccine skepticism at White House poses regulatory and demand risks to vaccine franchise",
-            "key_themes": [
-              "vaccine demand risk",
-              "regulatory uncertainty",
-              "political headwind"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Vaccine skepticism from health secretary threatens immunization programs and vaccine revenue streams",
-            "key_themes": [
-              "vaccine demand risk",
-              "regulatory uncertainty",
-              "public health policy"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bearish",
-            "conviction": 70,
-            "rationale": "Nursing home bed shortage amid aging population creates capacity constraints and operational pressures",
-            "key_themes": [
-              "long-term care capacity",
-              "demographic headwind",
-              "margin pressure"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "AI-driven clinical trial automation accelerates drug development workflows, benefiting trial infrastructure providers",
-            "key_themes": [
-              "AI automation",
-              "clinical trial efficiency",
-              "operational leverage"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "No direct article mentions; vaccine skepticism poses indirect regulatory risk but diversified portfolio limits exposure",
-            "key_themes": [
-              "vaccine exposure uncertainty",
-              "portfolio diversification"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale acknowledges 'no direct article mentions' and bases bearish case on indirect vaccine skepticism risk, but this is speculative inference rather than grounded analysis",
-            "supporting_article": null
-          }
-        ],
-        "summary": "The healthcare sector faces mixed signals driven by political and demographic headwinds offsetting innovation tailwinds. Vaccine developers (PFE, JNJ) face material regulatory and demand risks from White House vaccine skepticism, while LLY benefits from oncology pipeline expansion and TMO gains from AI-driven trial automation. Long-term structural challenges including nursing home capacity shortages and NIH grant review uncertainty create medium to long-term headwinds for the sector.",
-        "risks": [
-          "RFK Jr.-led vaccine skepticism could trigger coordinated public health policy reversals affecting immunization programs",
-          "White House NIH grant review could redirect R&D spending and delay pipeline development across majors",
-          "Long-term care capacity crisis may compress margins for integrated healthcare providers and increase regulatory scrutiny",
-          "AI trial automation may cannibalize contract research organization margins and clinical trial service demand"
-        ],
-        "sector_sentiment": "neutral",
-        "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "MRK signal lacks direct supporting evidence; analyst explicitly notes no article mentions Merck but still assigns 45 conviction based on speculative indirect exposure"
-          ],
-          "ungrounded_count": 1
-        }
+        "signals": [],
+        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"JNJ\",\n      \"company\": \"Johnson & Johnson\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 72,\n      \"rationale\": \"Caplyta phase 3 success expands psychiatric label potential, driving future revenue growth from blockbuster acquisition.\",\n      \"key_themes\": [\"drug pipeline expansion\", \"psychiatric market opportunity\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"PFE\",\n      \"company\": \"Pfizer Inc.\",\n      \"sentiment\": \"bearish\",\n  ",
+        "risks": [],
+        "sector_sentiment": "neutral"
       },
-      "prices_snapshot": {
-        "LLY": 1154.2349853515625,
-        "PFE": 27.729999542236328,
-        "JNJ": 271.7149963378906,
-        "UNH": 377.2850036621094,
-        "TMO": 653.14501953125,
-        "MRK": 147.56500244140625
-      },
+      "prices_snapshot": {},
       "spot_check": {
-        "title": "<a href=\"https://www.fiercepharma.com/pharma/eli-lilly-escalates-oral-serd-battle-fda-approval-inluriyo-verzenio-combo\" hreflang=\"en\">Eli Lilly escalates oral SERD battle with FDA approval for Inluriyo, Verzenio combo</a>",
-        "summary": "With longer progression-free survival, Jake Van Naarden, president of Lilly Oncology, told Fierce he expects most patients to choose the combination over oral SERD monotherapy.",
-        "url": "https://www.fiercepharma.com/pharma/eli-lilly-escalates-oral-serd-battle-fda-approval-inluriyo-verzenio-combo",
-        "source": "Fiercepharma",
-        "published": "",
-        "sentiment_hint": "neutral",
-        "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "FDA approval of Inluriyo/Verzenio combo with superior progression-free survival strengthens oncology pipeline",
-          "key_themes": [
-            "oncology expansion",
-            "combination therapy approval",
-            "market share gains"
-          ],
-          "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 5
-        },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "FDA approval of Inluriyo/Verzenio combo with superior progression-free survival strengthens oncology pipeline",
-        "haiku_themes": [
-          "oncology expansion",
-          "combination therapy approval",
-          "market share gains"
-        ]
+        "title": "White House Moves to Take Control of N.I.H. Grants",
+        "summary": "Federal officials are drafting an executive order that would place grants under review by an outside panel, the latest effort to redirect billions of dollars in research spending.",
+        "url": "https://www.nytimes.com/2026/09/20/science/nih-omb-grants-bhattacharya-vought.html",
+        "source": "Rss",
+        "published": "21 Sep 2026",
+        "sentiment_hint": "bearish",
+        "related_signal": null,
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "",
+        "haiku_themes": []
       },
       "config": {
         "icon": "\ud83d\udc8a",
@@ -542,28 +472,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Bessent and China Hail Progress on A.I. Talks. Now Comes the Hard Part.",
-          "summary": "Artificial intelligence and more are expected to be big issues at this week\u2019s summit between President Trump and Xi Jinping, China\u2019s top leader.",
-          "url": "https://www.nytimes.com/2026/09/21/business/dealbook/bessent-china-ai-talks.html",
+          "title": "What\u2019s Next for Paramount",
+          "summary": "Hollywood watchers believe the studio prevailed over states seeking to block its deal for Warner Bros. Discovery. It\u2019s now free to reshape the media industry.",
+          "url": "https://www.nytimes.com/2026/09/22/business/dealbook/paramount-warner-deal-settlement.html",
           "source": "Rss",
-          "published": "21 Sep 2026",
+          "published": "22 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "CNN, MS NOW and Politico to Sue Trump Administration Over White House Access",
-          "summary": "In a joint statement, CNN, MS NOW and Politico argued that President Trump\u2019s decision to bar them from the White House grounds violates their First Amendment rights.",
-          "url": "https://www.nytimes.com/2026/09/21/business/media/trump-white-house-ban-lawsuit-cnn-politico-msnow.html",
+          "title": "Global Oil Price Drops Below $100 a Barrel",
+          "summary": "Investors anticipated that a damaged Saudi Arabian pipeline may be close to reopening, allowing more oil from the region to reach world markets.",
+          "url": "https://www.nytimes.com/2026/09/22/business/saudi-oil-pipeline-hormuz.html",
           "source": "Rss",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "22 Sep 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "White House Removes CNN From TV Pool Duties",
-          "summary": "The move was an escalation of President Trump\u2019s clashes with the news media and left uncertain which network would cover his visit to New York to address the United Nations General Assembly.",
-          "url": "https://www.nytimes.com/2026/09/21/business/media/cnn-trump-press-pool-ban.html",
+          "title": "The \u2018Kid\u2019 Takes Over: David Ellison Becomes a Hollywood Colossus",
+          "summary": "With Paramount and Warner Bros. under his control, Mr. Ellison will be \u201cthe Hollywood equivalent of Superman, Caesar and Midas combined.\u201d But challenges remain.",
+          "url": "https://www.nytimes.com/2026/09/22/business/media/david-ellison-hollywood-mega-mogul.html",
           "source": "Rss",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "neutral"
+          "published": "22 Sep 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -593,110 +523,122 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "MS NOW faces First Amendment lawsuit over White House access restrictions, creating regulatory and reputational risk.",
-            "key_themes": [
-              "regulatory risk",
-              "political uncertainty",
-              "media litigation"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [2] mentions 'CNN, MS NOW and Politico' suing, but 'MS NOW' appears to be a news program/brand, not Morgan Stanley (ticker: MS). Morgan Stanley is a financial services company with no connection to the White House media access lawsuit described in the articles.",
-            "supporting_article": null
-          },
-          {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Broad market volatility from AI rout and China trade tensions may create near-term headwinds but banking fundamentals remain stable.",
+            "rationale": "Media M&A activity (Paramount-Warner Bros) may drive advisory fees, but broader AI sector volatility creates uncertainty.",
             "key_themes": [
-              "market volatility",
-              "trade uncertainty",
-              "AI sector weakness"
+              "M&A advisory opportunities",
+              "market volatility exposure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              4,
-              1
+              1,
+              4
             ]
           },
           {
-            "ticker": "BRK-B",
-            "company": "Berkshire Hathaway",
+            "ticker": "GS",
+            "company": "Goldman Sachs",
             "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Diversified holdings provide some insulation from AI rout, though equity portfolio exposure creates near-term drag from tech selloff.",
+            "conviction": 42,
+            "rationale": "Potential advisory role in major media consolidation, but tech sector weakness limits overall investment banking momentum.",
             "key_themes": [
-              "tech exposure",
-              "market volatility",
-              "diversification"
+              "M&A advisory",
+              "sector headwinds"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
+              1,
               4
             ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
+            "key_themes": [
+              "market volatility",
+              "reduced spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'broad market selloff reduces consumer spending momentum' but articles only document stock declines in specific sectors (AI/tech). No evidence that consumer spending or payment volumes are actually affected, nor that the selloff is 'broad' enough to impact payment processors.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 52,
+            "rationale": "Tech-driven market decline dampens transaction volumes and consumer discretionary spending in near-term.",
+            "key_themes": [
+              "market correction",
+              "spending headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'tech-driven market decline dampens transaction volumes and consumer discretionary spending' but articles show only tech/AI sector weakness. No causal evidence provided that this declines payment transaction volumes or consumer spending generally.",
+            "supporting_article": null
           }
         ],
-        "summary": "The finance sector faces near-term headwinds from a broad AI-driven market rout and escalating U.S.-China trade tensions signaled by summit discussions. Morgan Stanley faces unique regulatory risk from White House media access disputes. Most large financial institutions show neutral positioning as market uncertainty persists, though valuations may compress further if tech volatility spreads.",
+        "summary": "Financial sector faces mixed signals: major media M&A activity offers advisory fee opportunities for investment banks, but broad market AI-driven volatility creates near-term headwinds. Payment processors face headwinds from reduced consumer spending amid tech sector panic, while lower oil prices and precious metal declines have limited direct impact on these financial stocks.",
         "risks": [
-          "U.S.-China trade war escalation",
-          "Sustained AI sector selloff contagion",
-          "Political litigation affecting media-owned financial arms",
-          "Margin compression from market volatility"
+          "AI sector volatility spillover to broader economy",
+          "consumer spending deterioration from market weakness",
+          "deal completion uncertainty for major media consolidation"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Critical error: 'MS NOW' in article [2] refers to a news program, not Morgan Stanley stock. The analyst appears to have conflated a media brand with a ticker symbol, making the entire MS bearish thesis based on a fundamental misidentification.",
-            "The MS signal's rationale about 'First Amendment lawsuit over White House access restrictions' is factually incorrect for Morgan Stanley - it applies to news organizations, not the financial services company."
+            "V and MA signals make unsupported causal leaps from tech sector volatility to actual consumer spending/payment volume declines",
+            "Articles document stock price declines but do not establish that these translate to reduced consumer transaction activity",
+            "Signals treat anticipated future spending impact as fact without sourcing"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "MS": 204.8699951171875,
-        "JPM": 353.31500244140625,
-        "BRK-B": 509.2300109863281
+        "JPM": 352.0400085449219,
+        "GS": 959.3900146484375,
+        "V": 369.95001220703125,
+        "MA": 567.6500244140625
       },
       "spot_check": {
-        "title": "CNN, MS NOW and Politico to Sue Trump Administration Over White House Access",
-        "summary": "In a joint statement, CNN, MS NOW and Politico argued that President Trump\u2019s decision to bar them from the White House grounds violates their First Amendment rights.",
-        "url": "https://www.nytimes.com/2026/09/21/business/media/trump-white-house-ban-lawsuit-cnn-politico-msnow.html",
+        "title": "What\u2019s Next for Paramount",
+        "summary": "Hollywood watchers believe the studio prevailed over states seeking to block its deal for Warner Bros. Discovery. It\u2019s now free to reshape the media industry.",
+        "url": "https://www.nytimes.com/2026/09/22/business/dealbook/paramount-warner-deal-settlement.html",
         "source": "Rss",
-        "published": "21 Sep 2026",
+        "published": "22 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "MS",
-          "company": "Morgan Stanley",
+          "ticker": "V",
+          "company": "Visa",
           "sentiment": "bearish",
-          "conviction": 65,
-          "rationale": "MS NOW faces First Amendment lawsuit over White House access restrictions, creating regulatory and reputational risk.",
+          "conviction": 55,
+          "rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
           "key_themes": [
-            "regulatory risk",
-            "political uncertainty",
-            "media litigation"
+            "market volatility",
+            "reduced spending"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": false,
-          "verification_issue": "Article [2] mentions 'CNN, MS NOW and Politico' suing, but 'MS NOW' appears to be a news program/brand, not Morgan Stanley (ticker: MS). Morgan Stanley is a financial services company with no connection to the White House media access lawsuit described in the articles.",
+          "verification_issue": "Rationale claims 'broad market selloff reduces consumer spending momentum' but articles only document stock declines in specific sectors (AI/tech). No evidence that consumer spending or payment volumes are actually affected, nor that the selloff is 'broad' enough to impact payment processors.",
           "supporting_article": null
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "MS NOW faces First Amendment lawsuit over White House access restrictions, creating regulatory and reputational risk.",
+        "haiku_rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
         "haiku_themes": [
-          "regulatory risk",
-          "political uncertainty",
-          "media litigation"
+          "market volatility",
+          "reduced spending"
         ]
       },
       "config": {

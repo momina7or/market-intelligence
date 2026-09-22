@@ -19908,5 +19908,262 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-22",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI-powered recommendations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mac Neo pricing concerns mentioned (M6 at $899 vs prior $599) suggest margin pressure amid competitive hardware market.",
+            "key_themes": [
+              "hardware pricing",
+              "product positioning"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 354.9700012207031,
+          "AAPL": 338.9800109863281
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Iran Hormuz reopening threat pressures crude prices, but elevated supply-side risks provide offsetting support.",
+            "key_themes": [
+              "geopolitical risk",
+              "crude pricing volatility",
+              "supply disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Mixed signals from Middle East geopolitics; 3% oil price decline offset by persistent supply-side risks.",
+            "key_themes": [
+              "geopolitical volatility",
+              "supply chain disruption",
+              "pricing pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
+            "key_themes": [
+              "geopolitical de-escalation",
+              "oil price headwinds",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP p.l.c.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Saudi Yanbu port restart signals supply normalization, but Middle East tensions remain volatile for international majors.",
+            "key_themes": [
+              "supply recovery",
+              "geopolitical risk",
+              "pricing volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              1
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell p.l.c.",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Elevated supply-side risks and potential Hormuz reopening create conflicting signals for global energy markets.",
+            "key_themes": [
+              "supply disruption",
+              "geopolitical risk",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Iran diplomatic progress threatens crude price recovery; Asian refiner relief from Saudi Yanbu restart pressures upstream.",
+            "key_themes": [
+              "geopolitical de-escalation",
+              "crude price weakness",
+              "supply normalization"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 158.3000030517578,
+          "CVX": 203.6699981689453,
+          "COP": 127.52999877929688,
+          "BP": 43.15999984741211,
+          "SHEL": 93.2699966430664,
+          "TTE": 90.05999755859375
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Media M&A activity (Paramount-Warner Bros) may drive advisory fees, but broader AI sector volatility creates uncertainty.",
+            "key_themes": [
+              "M&A advisory opportunities",
+              "market volatility exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Potential advisory role in major media consolidation, but tech sector weakness limits overall investment banking momentum.",
+            "key_themes": [
+              "M&A advisory",
+              "sector headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
+            "key_themes": [
+              "market volatility",
+              "reduced spending"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'broad market selloff reduces consumer spending momentum' but articles only document stock declines in specific sectors (AI/tech). No evidence that consumer spending or payment volumes are actually affected, nor that the selloff is 'broad' enough to impact payment processors.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 52,
+            "rationale": "Tech-driven market decline dampens transaction volumes and consumer discretionary spending in near-term.",
+            "key_themes": [
+              "market correction",
+              "spending headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'tech-driven market decline dampens transaction volumes and consumer discretionary spending' but articles show only tech/AI sector weakness. No causal evidence provided that this declines payment transaction volumes or consumer spending generally.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 352.0400085449219,
+          "GS": 959.3900146484375,
+          "V": 369.95001220703125,
+          "MA": 567.6500244140625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
