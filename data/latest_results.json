@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-22",
-  "run_time": "2026-09-22T12:20:48.620666Z",
+  "run_date": "2026-09-24",
+  "run_time": "2026-09-24T12:32:05.504968Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,69 +29,87 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Oppo\u2019s new phone is the first with three 200-megapixel cameras",
-          "summary": "Oppo's new Find X10 Pro Max flagship phone, launched today in China, is the first anywhere to use 200-megapixel sensors on all three of its rear cameras. A 17-stop dynamic range for the main camera, delivered thanks to what Oppo calls \"DeepPix sensor technology,\" suggests megapixel count won't be the only thing this camera has [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/998688/oppo-find-x10-pro-max-200-megapixel-cameras-china",
+          "title": "Control Resonant gets tough, but gives you the tools to deal with it",
+          "summary": "Control Resonant isn't an easy game. At any given moment while exploring vast open areas where you're sometimes leaping from wall to wall to ceiling, you may be surrounded by swarms of otherworldly enemies trying to crush you into the ground. It can be a lot, especially when enemies sometimes take a long time to [&#8230;]",
+          "url": "https://www.theverge.com/games/999464/control-resonant-assist-mode",
           "source": "Theverge",
-          "published": "22 Sep 2026",
+          "published": "24 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Peloton is back with a \u2018cheaper\u2019 folding treadmill",
-          "summary": "Last year, Peloton did a sweeping refresh of its hardware that added cameras, fans, and AI-powered software called Peloton IQ. This year, it's zeroing in on its treadmill lineup - refreshing its two existing Treads and adding the new, more affordable Tread Flex into the fold. At a New York City launch event, Peloton chief [&#8230;]",
-          "url": "https://www.theverge.com/tech/998272/peloton-tread-flex-fitness-treadmills",
+          "title": "OpenAI agents hacked an Australian government website in search for data",
+          "summary": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems and the responsibility of the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
           "source": "Theverge",
-          "published": "22 Sep 2026",
+          "published": "24 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "It\u2019s time for the Mac Neo",
-          "summary": "The Mac Mini is a great little desktop computer, and back when it cost $599, it was easy to recommend to anyone who wanted something speedy, simple, and cheap. The new M6 model is even better, but it starts at $899, and its 12-core CPU and 12-core GPU might actually be overkill for someone who [&#8230;]",
-          "url": "https://www.theverge.com/report/998501/apple-mac-mini-m6-price-mac-neo-concept",
+          "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+          "summary": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is [&#8230;]",
+          "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
           "source": "Theverge",
-          "published": "22 Sep 2026",
+          "published": "24 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
+            "conviction": 75,
+            "rationale": "ChatGPT integration driving organic traffic and SEO disruption, validating AI assistant monetization strategy.",
             "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "AI-powered recommendations"
+              "AI-powered search disruption",
+              "ChatGPT adoption",
+              "content discovery shift"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 5
           },
           {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Mac Neo pricing concerns mentioned (M6 at $899 vs prior $599) suggest margin pressure amid competitive hardware market.",
+            "conviction": 55,
+            "rationale": "Gemini 4 refinement stage suggests competitive pressure from OpenAI, but delayed flagship release indicates execution challenges.",
             "key_themes": [
-              "hardware pricing",
-              "product positioning"
+              "Gemini 4 development",
+              "AI competition",
+              "product timing delays"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "OpenAI agent security breach raises critical safety and liability concerns for partnered AI deployment and enterprise adoption.",
+            "key_themes": [
+              "AI safety risks",
+              "government breach",
+              "regulatory exposure"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 6
+            "supporting_article": 5
           }
         ],
-        "summary": "Articles reveal significant AI disruption in search and content discovery, with ChatGPT demonstrating ability to capture organic traffic traditionally dominated by Google, creating medium-term headwinds for search monetization. Hardware vendors face competitive pricing pressures. Limited direct relevance to semiconductor, cloud, or social media leaders in current news cycle.",
+        "summary": "The articles reveal a bifurcated AI sector narrative: ChatGPT's organic traffic success validates MSFT's AI assistant strategy and threatens traditional SEO, while a critical OpenAI agent security breach at an Australian government website creates significant liability and regulatory risks. GOOGL faces competitive pressure with Gemini 4 still in refinement, suggesting execution delays versus OpenAI's market leadership.",
         "risks": [
-          "AI search competition intensifying faster than anticipated",
-          "Enterprise AI adoption slower than consensus expectations",
-          "Regulatory scrutiny on AI training data and content attribution"
+          "AI agent security vulnerabilities and government liability exposure",
+          "Regulatory backlash following confirmed AI-enabled cyberattacks on government infrastructure",
+          "GOOGL's continued product timing delays versus OpenAI competitive advantage",
+          "Enterprise adoption hesitation due to AI safety concerns"
         ],
         "sector_sentiment": "neutral",
         "verification": {
@@ -101,8 +119,8 @@
         }
       },
       "prices_snapshot": {
-        "GOOGL": 354.9700012207031,
-        "AAPL": 338.9800109863281
+        "MSFT": 500.5899963378906,
+        "GOOGL": 337.8299865722656
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -112,27 +130,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
+          "conviction": 75,
+          "rationale": "ChatGPT integration driving organic traffic and SEO disruption, validating AI assistant monetization strategy.",
           "key_themes": [
-            "AI search competition",
-            "organic traffic disruption",
-            "AI-powered recommendations"
+            "AI-powered search disruption",
+            "ChatGPT adoption",
+            "content discovery shift"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT integration into search demonstrates AI-driven traffic displacement; Google must accelerate AI search monetization.",
+        "haiku_rationale": "ChatGPT integration driving organic traffic and SEO disruption, validating AI assistant monetization strategy.",
         "haiku_themes": [
-          "AI search competition",
-          "organic traffic disruption",
-          "AI-powered recommendations"
+          "AI-powered search disruption",
+          "ChatGPT adoption",
+          "content discovery shift"
         ]
       },
       "config": {
@@ -152,51 +170,51 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week",
-          "summary": "Iran has offered to open the Strait of Hormuz within seven days if the United States eases its pressure including taking steps toward ending the U.S. military blockade of Iranian ports and halting military operations in the Strait, a senior Iranian government official told Japan\u2019s news agency Kyodo News on Tuesday. Hopes of a diplomatic breakthrough and Iran\u2019s reported preparedness to reopen the Strait of Hormuz if the U.S. takes steps to ease the pressure sent oil prices tumbling by 3% early on",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
+          "title": "Europe\u2019s Gas Prices Jump as Hormuz Standoff Drags On",
+          "summary": "Europe\u2019s benchmark natural gas prices jumped by 4% at trade open in Amsterdam on Thursday, as the United States and Iran remain distant on how to end the war and put an end to the blocked LNG shipments at the Strait of Hormuz. After surging 4% at open, the front-month price at the Dutch Title Transfer Facility (TTF), the benchmark for Europe\u2019s gas trading, eased, but was still up by 3% at $84.30 (74 euros) per megawatt-hour (MWh) as of mid-morning. Prices have eased from their peak for this mont",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Jump-as-Hormuz-Standoff-Drags-On.html",
           "source": "Oilprice",
-          "published": "22 Sep 2026",
+          "published": "24 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "ING: Supply-Side Risks Stay Elevated Even as Oil Prices Pull Back",
-          "summary": "Despite the recent decline in crude oil prices due to lower-than-feared disruption of Saudi exports, supply-side risks remain elevated, and not only in the Middle East, analysts at ING Bank also said on Tuesday. Oil prices dropped on Friday and Monday, with Brent Crude falling to $100 per barrel from $108 a barrel hit early last week after Saudi Arabia shut down its key pipeline that bypasses the Strait of Hormuz. Higher-than-expected Saudi shipments through Hormuz, however, have eased concerns ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/ING-Supply-Side-Risks-Stay-Elevated-Even-as-Oil-Prices-Pull-Back.html",
+          "title": "Just One Commodity Vessel Left the Strait of Hormuz on Wednesday",
+          "summary": "The number of commodity vessels observed to have moved in and out of the Strait of Hormuz remained stubbornly low on Wednesday and below the 10-day moving average as the United States and Iran remain distant on how to end the war. On Wednesday, only ten commodity vessels transited the Strait, including nine inbound and only one outbound\u2014a Supramax laden with fertilizer, according to shipping data compiled by Reuters early on Thursday. That\u2019s below the 10-day moving average of 17 vessels, despite",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Just-One-Commodity-Vessel-Left-the-Strait-of-Hormuz-on-Wednesday.html",
           "source": "Oilprice",
-          "published": "22 Sep 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Saudi Oil Lifeline May Reopen as Aramco Eyes Yanbu Restart",
-          "summary": "Saudi Aramco officials have informally told at least three Asian refiners that they would soon be able to pick up crude oil cargoes at the Yanbu port on the Red Sea, anonymous traders with knowledge of the matter told Bloomberg on Tuesday. Saudi Arabia has halted loadings at the Yanbu port, its key export terminal that bypasses the Strait of Hormuz, since the September 10 drone attacks on the East-West onshore oil pipeline that fed crude from the Saudi oilfields to the Yanbu port.\u00a0Saudi Arabia s",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Lifeline-May-Reopen-as-Aramco-Eyes-Yanbu-Restart.html",
-          "source": "Oilprice",
-          "published": "22 Sep 2026",
+          "published": "24 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "New Era signs 20-year PPA with Vistra for Texas data centre project",
-          "summary": "New Era Energy & Digital through its subsidiary, TCDC PowerCo, has entered into a 20-year PPA with Luminant, an affiliate of Vistra.",
-          "url": "https://www.energymonitor.ai/news/new-era-signs-ppa-vistra/",
+          "title": "U.S. to Back Argentina\u2019s First LNG Export Project With $6 Billion Loan",
+          "summary": "The U.S. government is ready to support Argentina\u2019s key LNG project by lending up to $6 billion to the project led by Argentina\u2019s energy group YPF in partnership with Italy\u2019s Eni and Emirati energy firm XRG.\u00a0 As part of a newly launched Andes-Atlantic Corridor, a joint U.S-Argentinian initiative to strengthen and modernize the infrastructure, U.S. government financing agencies can play a role in financing for Corridor projects alongside the private sector, the U.S. Department of State said. In t",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-to-Back-Argentinas-First-LNG-Export-Project-With-6-Billion-Loan.html",
+          "source": "Oilprice",
+          "published": "24 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "AI and grid-forming technologies: Unlocking greater value from renewable energy assets",
+          "summary": "",
+          "url": "https://www.energymonitor.ai/sponsored/ai-and-grid-forming-technologies-unlocking-greater-value-from-renewable-energy-assets/",
+          "source": "Energymonitor",
+          "published": "23 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "SMT Energy and CAI agree to $268m equity deal",
+          "summary": "SMT Energy has entered into a new equity partnership with CAI for investment of up to $268m at the parent-company level.",
+          "url": "https://www.energymonitor.ai/news/smt-energy-cai-equity-deal/",
+          "source": "Energymonitor",
+          "published": "23 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "NorthStar Clean Energy completes 120MW Hart Solar Project in US",
+          "summary": "NorthStar Clean Energy has completed the 120MW Hart Solar Project in Michigan, marking the start of operations at the facility.",
+          "url": "https://www.energymonitor.ai/news/northstar-clean-energy-completes-hart-solar/",
           "source": "Energymonitor",
           "published": "22 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Asia likely to account for entire global phenol capacity additions by 2030",
-          "summary": "Asia is likely to be the only region globally projected to register phenol capacity additions by 2030, driven by demand for primary downstream derivatives.",
-          "url": "https://www.energymonitor.ai/analyst-comment/asia-global-phenol-capacity-additions-by-2030/",
-          "source": "Energymonitor",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "OMV to proceed with $688m Austrian hydrogen plant after Masdar exit",
-          "summary": "OMV will continue development of its planned \u20ac600m ($688m) green hydrogen facility on its own, despite the withdrawal of its partner, Masdar.",
-          "url": "https://www.energymonitor.ai/news/omv-proceed-austrian-hydrogen-plant/",
-          "source": "Energymonitor",
-          "published": "21 Sep 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -204,14 +222,14 @@
         "signals": [
           {
             "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Iran Hormuz reopening threat pressures crude prices, but elevated supply-side risks provide offsetting support.",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Hormuz strait blockade supports higher LNG prices and demand for U.S. LNG exports amid supply disruptions.",
             "key_themes": [
-              "geopolitical risk",
-              "crude pricing volatility",
-              "supply disruption"
+              "geopolitical supply disruption",
+              "LNG price support",
+              "export opportunity"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -224,13 +242,13 @@
           {
             "ticker": "CVX",
             "company": "Chevron Corporation",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Mixed signals from Middle East geopolitics; 3% oil price decline offset by persistent supply-side risks.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Elevated European gas prices and strained LNG supply create margin expansion opportunities for U.S. producers.",
             "key_themes": [
-              "geopolitical volatility",
-              "supply chain disruption",
-              "pricing pressure"
+              "LNG margin expansion",
+              "supply constraint",
+              "price uplift"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -243,50 +261,13 @@
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz disruption and resulting European energy crisis support higher realized LNG pricing for U.S. producers.",
             "key_themes": [
-              "geopolitical de-escalation",
-              "oil price headwinds",
-              "margin compression"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1
-            ]
-          },
-          {
-            "ticker": "BP",
-            "company": "BP p.l.c.",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Saudi Yanbu port restart signals supply normalization, but Middle East tensions remain volatile for international majors.",
-            "key_themes": [
-              "supply recovery",
-              "geopolitical risk",
-              "pricing volatility"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              3,
-              1
-            ]
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell p.l.c.",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "Elevated supply-side risks and potential Hormuz reopening create conflicting signals for global energy markets.",
-            "key_themes": [
-              "supply disruption",
-              "geopolitical risk",
-              "market uncertainty"
+              "LNG supply gap",
+              "price support",
+              "export competitiveness"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -300,30 +281,60 @@
             "ticker": "TTE",
             "company": "TotalEnergies SE",
             "sentiment": "bearish",
-            "conviction": 58,
-            "rationale": "Iran diplomatic progress threatens crude price recovery; Asian refiner relief from Saudi Yanbu restart pressures upstream.",
+            "conviction": 68,
+            "rationale": "European energy crisis and elevated gas prices create demand headwinds for industrial customers and downstream margins.",
             "key_themes": [
-              "geopolitical de-escalation",
-              "crude price weakness",
-              "supply normalization"
+              "demand destruction risk",
+              "margin pressure",
+              "energy crisis impact"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              3
-            ]
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed exposure: benefits from higher LNG prices offset by European energy crisis impacts on downstream operations.",
+            "key_themes": [
+              "LNG exposure limited",
+              "Europe exposure risk",
+              "mixed dynamics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Significant European operations create headwinds despite LNG assets, net impact unclear from current disruption.",
+            "key_themes": [
+              "Europe exposure",
+              "LNG assets",
+              "mixed impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
           }
         ],
-        "summary": "Oil markets face near-term headwinds from potential Iran-US rapprochement and Hormuz reopening, with crude tumbling 3% despite persistent Middle East supply disruptions. Saudi production recovery via Yanbu port restart signals normalization, providing relief to Asian refiners but pressure on upstream margins. Elevated geopolitical risks remain a wildcard that could quickly reverse current bearish momentum.",
+        "summary": "Hormuz strait blockade and U.S.-Iran tensions create a bifurcated market: U.S. LNG producers (XOM, CVX, COP) benefit significantly from supply-constrained European pricing and newfound export opportunity, particularly with Argentina LNG project financing announced. Conversely, European-exposed integrated majors (TTE, BP, SHEL) face demand destruction risks and margin pressure from elevated energy costs, offsetting upstream gains. The geopolitical supply disruption is a major bullish catalyst for American energy independence positioning.",
         "risks": [
-          "diplomatic negotiations collapse and geopolitical tensions reignite",
-          "further Strait of Hormuz disruptions from drone attacks",
-          "demand destruction from prolonged oil price weakness",
-          "accelerating energy transition reducing long-term upstream valuations"
+          "Diplomatic resolution of U.S.-Iran conflict could rapidly deflate energy price premiums",
+          "Industrial demand destruction in Europe from elevated energy prices may persist even post-resolution",
+          "Renewed supply from Iran (if sanctions lifted) could flood LNG market and compress margins",
+          "Shipping/logistics delays could persist beyond political resolution, extending supply constraints",
+          "Renewable energy expansion (articles 4-6) represents long-term headwind for fossil fuel demand"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "high",
           "flags": [],
@@ -331,44 +342,45 @@
         }
       },
       "prices_snapshot": {
-        "XOM": 158.3000030517578,
-        "CVX": 203.6699981689453,
-        "COP": 127.52999877929688,
-        "BP": 43.15999984741211,
-        "SHEL": 93.2699966430664,
-        "TTE": 90.05999755859375
+        "XOM": 161.22999572753906,
+        "CVX": 205.50999450683594,
+        "COP": 128.08999633789062,
+        "TTE": 91.66999816894531,
+        "BP": 44.4900016784668,
+        "SHEL": 95.41000366210938
       },
       "spot_check": {
-        "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week",
-        "summary": "Iran has offered to open the Strait of Hormuz within seven days if the United States eases its pressure including taking steps toward ending the U.S. military blockade of Iranian ports and halting military operations in the Strait, a senior Iranian government official told Japan\u2019s news agency Kyodo News on Tuesday. Hopes of a diplomatic breakthrough and Iran\u2019s reported preparedness to reopen the Strait of Hormuz if the U.S. takes steps to ease the pressure sent oil prices tumbling by 3% early on",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
+        "title": "Europe\u2019s Gas Prices Jump as Hormuz Standoff Drags On",
+        "summary": "Europe\u2019s benchmark natural gas prices jumped by 4% at trade open in Amsterdam on Thursday, as the United States and Iran remain distant on how to end the war and put an end to the blocked LNG shipments at the Strait of Hormuz. After surging 4% at open, the front-month price at the Dutch Title Transfer Facility (TTF), the benchmark for Europe\u2019s gas trading, eased, but was still up by 3% at $84.30 (74 euros) per megawatt-hour (MWh) as of mid-morning. Prices have eased from their peak for this mont",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Jump-as-Hormuz-Standoff-Drags-On.html",
         "source": "Oilprice",
-        "published": "22 Sep 2026",
+        "published": "24 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "COP",
-          "company": "ConocoPhillips",
-          "sentiment": "bearish",
-          "conviction": 62,
-          "rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "sentiment": "bullish",
+          "conviction": 75,
+          "rationale": "Hormuz strait blockade supports higher LNG prices and demand for U.S. LNG exports amid supply disruptions.",
           "key_themes": [
-            "geopolitical de-escalation",
-            "oil price headwinds",
-            "margin compression"
+            "geopolitical supply disruption",
+            "LNG price support",
+            "export opportunity"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": [
-            1
+            1,
+            2
           ]
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Potential Iran-US diplomatic breakthrough and Hormuz reopening poses downside risk to crude prices and producer margins.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Hormuz strait blockade supports higher LNG prices and demand for U.S. LNG exports amid supply disruptions.",
         "haiku_themes": [
-          "geopolitical de-escalation",
-          "oil price headwinds",
-          "margin compression"
+          "geopolitical supply disruption",
+          "LNG price support",
+          "export opportunity"
         ]
       },
       "config": {
@@ -388,72 +400,173 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "White House Moves to Take Control of N.I.H. Grants",
-          "summary": "Federal officials are drafting an executive order that would place grants under review by an outside panel, the latest effort to redirect billions of dollars in research spending.",
-          "url": "https://www.nytimes.com/2026/09/20/science/nih-omb-grants-bhattacharya-vought.html",
+          "title": "Hospitals Shut Youth Gender Clinics in Deal with Trump Administration",
+          "summary": "At least six hospitals have struck agreements with the Trump administration to pay fines and stop providing gender-transition treatments to minors.",
+          "url": "https://www.nytimes.com/2026/09/22/us/trangender-youths-hospital-settlements.html",
           "source": "Rss",
-          "published": "21 Sep 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Nursing Home Beds Are Disappearing. That\u2019s a Problem.",
-          "summary": "As the oldest baby boomers turn 80, researchers worry there won\u2019t be enough room in nursing facilities for a rapidly graying nation.",
-          "url": "https://www.nytimes.com/2026/09/19/well/family/nursing-home-beds-baby-boomers.html",
-          "source": "Rss",
-          "published": "21 Sep 2026",
+          "published": "22 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "RFK Jr. Assures Vaccine Skeptics They Have a \u2018Friend at the White House\u2019",
-          "summary": "The health secretary spoke at a conference featuring misinformation about vaccines, including a claim that the success of the polio vaccines was a \u201cfraud.\u201d",
-          "url": "https://www.nytimes.com/2026/09/17/health/kennedy-vaccines-childrens-health-defense.html",
+          "title": "Trump Officials Eject 750,000 From Obamacare Markets, Claiming Fraud",
+          "summary": "Vice President JD Vance said the measure would save the government $2.2 billion.",
+          "url": "https://www.nytimes.com/2026/09/22/us/politics/aca-obamacare-vance-fraud.html",
           "source": "Rss",
-          "published": "21 Sep 2026",
+          "published": "22 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/trump-calls-some-routine-immunizations-be-split-five-smaller-doses\" hreflang=\"en\">Trump calls for some childhood vaccines be split into smaller doses</a>",
-          "summary": "The president announced plans to split some childhood immunizations in the U.S. into five separate shots, given as \u201c20% doses\u201d every six months. The decision has garnered significant backlash from the medical community.",
-          "url": "https://www.fiercepharma.com/pharma/trump-calls-some-routine-immunizations-be-split-five-smaller-doses",
+          "title": "C.T.E. Can\u2019t Be Detected in the Living. New Brain Research Offers Hope.",
+          "summary": "Scientists are developing imaging techniques and blood tests that one day may enable doctors to identify the disease definitively in living patients.",
+          "url": "https://www.nytimes.com/2026/09/22/science/cte-diagnosis-brain-injury.html",
+          "source": "Rss",
+          "published": "22 Sep 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/biogen-springs-social-media-kidney-health-campaign-olympic-gymnast-suni-lee\" hreflang=\"en\">Biogen springs social media kidney health campaign with Olympic gymnast Suni Lee</a>",
+          "summary": "Biogen has teamed with gymnast Suni Lee for a campaign, leveraging the Olympic gold medalist\u2019s health journey and social media audience to vault deeper into kidney health awareness.",
+          "url": "https://www.fiercepharma.com/marketing/biogen-springs-social-media-kidney-health-campaign-olympic-gymnast-suni-lee",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/jj-firms-caplytas-1st-phase-3-win-bipolar-associated-manic-episodes\" hreflang=\"en\">J&amp;J firms up Caplyta's 1st phase 3 win in bipolar-associated manic episodes</a>",
-          "summary": "As Johnson &amp; Johnson\u2019s $14.6 billion bet on Intra-Cellular Therapies continues to pay off with blockbuster sales of Caplyta, the atypical antipsychotic has passed a phase 3 test that puts it one step closer to a broader psychiatric label.",
-          "url": "https://www.fiercepharma.com/pharma/jj-firms-caplytas-1st-phase-3-win-bipolar-associated-manic-episodes",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/doustdar-says-novo-open-upgrading-its-nyse-listing\" hreflang=\"en\">Novo CEO sees advantages in souping up NYSE listing: report</a>",
+          "summary": "The Ozempic and Wegovy maker's CEO said he's open to a direct listing of Novo's shares on the New York Stock Exchange, but no such transition is currently underway.",
+          "url": "https://www.fiercepharma.com/pharma/doustdar-says-novo-open-upgrading-its-nyse-listing",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/regulatory/cms-unveils-new-model-aims-bring-most-favored-nation-pricing-medicaid\" hreflang=\"en\">All 50 states apply to participate in new Medicaid drug pricing model, White House says</a>",
-          "summary": "The Trump administration is rolling out a new model that aims to bring most-favored nation pricing to the Medicaid space.",
-          "url": "https://www.fiercepharma.com/regulatory/cms-unveils-new-model-aims-bring-most-favored-nation-pricing-medicaid",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/eli-lilly-ceo-touts-70-share-medicare-glp-1-program-reaches-700k-seniors\" hreflang=\"en\">Eli Lilly CEO touts 70% share as Medicare GLP-1 program reaches 700K seniors</a>",
+          "summary": "Sign-ups for Medicare\u2019s GLP-1 coverage plan keep expanding, and Eli Lilly is dominating the market with 70% share, the company\u2019s CEO David Ricks said.",
+          "url": "https://www.fiercepharma.com/pharma/eli-lilly-ceo-touts-70-share-medicare-glp-1-program-reaches-700k-seniors",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"JNJ\",\n      \"company\": \"Johnson & Johnson\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 72,\n      \"rationale\": \"Caplyta phase 3 success expands psychiatric label potential, driving future revenue growth from blockbuster acquisition.\",\n      \"key_themes\": [\"drug pipeline expansion\", \"psychiatric market opportunity\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"PFE\",\n      \"company\": \"Pfizer Inc.\",\n      \"sentiment\": \"bearish\",\n  ",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Commanding 70% market share in Medicare GLP-1 program with 700K seniors enrolled; significant revenue growth trajectory",
+            "key_themes": [
+              "GLP-1 market dominance",
+              "Medicare expansion",
+              "market share gains"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "750K Obamacare market ejections signal reduced insured base and potential revenue headwind for managed care segment",
+            "key_themes": [
+              "insurance coverage reduction",
+              "regulatory pressure",
+              "market shrinkage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Hospital clinic closures for gender-transition treatments eliminate niche revenue stream and create reputational/regulatory risk",
+            "key_themes": [
+              "clinic closures",
+              "regulatory restrictions",
+              "revenue loss"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [1] mentions hospital clinic closures for gender-transition treatments but does not identify J&J as a provider or manufacturer of these treatments. No evidence that J&J operates these clinics or derives revenue from gender-transition treatments.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "CTE diagnostic research advancement in blood tests and imaging creates long-term commercial opportunity for diagnostic platforms",
+            "key_themes": [
+              "diagnostic innovation",
+              "neurodegenerative disease",
+              "emerging opportunity"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses CTE diagnostic research (imaging and blood tests) but does not mention Thermo Fisher Scientific or any specific diagnostic platform company. The connection to TMO is speculative without source support.",
+            "supporting_article": null
+          }
+        ],
+        "summary": "The healthcare sector faces divergent pressures: GLP-1 incumbents like Eli Lilly benefit from expanding Medicare coverage, while managed care insurers face reduced enrollment from policy changes. Diagnostic innovators gain from emerging detection technologies, but traditional pharma faces regulatory headwinds on specialized treatments.",
+        "risks": [
+          "Further regulatory restrictions on healthcare treatments and coverage could expand beyond current announcements",
+          "Political policy uncertainty under Trump administration may create additional market dislocations in insurance and pharma",
+          "GLP-1 market share concentration with Lilly vulnerable to competitive pressure from Novo and other entrants"
+        ],
+        "sector_sentiment": "neutral",
+        "verification": {
+          "overall_reliability": "medium",
+          "flags": [
+            "JNJ signal assumes J&J involvement in hospital gender clinics without source evidence",
+            "TMO signal attributes CTE diagnostic opportunity to Thermo Fisher without any article mention of the company"
+          ],
+          "ungrounded_count": 2
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "LLY": 1150.989990234375,
+        "UNH": 371.2900085449219,
+        "JNJ": 269.1700134277344,
+        "TMO": 665.2999877929688
+      },
       "spot_check": {
-        "title": "White House Moves to Take Control of N.I.H. Grants",
-        "summary": "Federal officials are drafting an executive order that would place grants under review by an outside panel, the latest effort to redirect billions of dollars in research spending.",
-        "url": "https://www.nytimes.com/2026/09/20/science/nih-omb-grants-bhattacharya-vought.html",
-        "source": "Rss",
-        "published": "21 Sep 2026",
-        "sentiment_hint": "bearish",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "title": "<a href=\"https://www.fiercepharma.com/pharma/eli-lilly-ceo-touts-70-share-medicare-glp-1-program-reaches-700k-seniors\" hreflang=\"en\">Eli Lilly CEO touts 70% share as Medicare GLP-1 program reaches 700K seniors</a>",
+        "summary": "Sign-ups for Medicare\u2019s GLP-1 coverage plan keep expanding, and Eli Lilly is dominating the market with 70% share, the company\u2019s CEO David Ricks said.",
+        "url": "https://www.fiercepharma.com/pharma/eli-lilly-ceo-touts-70-share-medicare-glp-1-program-reaches-700k-seniors",
+        "source": "Fiercepharma",
+        "published": "",
+        "sentiment_hint": "neutral",
+        "related_signal": {
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
+          "sentiment": "bullish",
+          "conviction": 82,
+          "rationale": "Commanding 70% market share in Medicare GLP-1 program with 700K seniors enrolled; significant revenue growth trajectory",
+          "key_themes": [
+            "GLP-1 market dominance",
+            "Medicare expansion",
+            "market share gains"
+          ],
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 6
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Commanding 70% market share in Medicare GLP-1 program with 700K seniors enrolled; significant revenue growth trajectory",
+        "haiku_themes": [
+          "GLP-1 market dominance",
+          "Medicare expansion",
+          "market share gains"
+        ]
       },
       "config": {
         "icon": "\ud83d\udc8a",
@@ -472,28 +585,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "What\u2019s Next for Paramount",
-          "summary": "Hollywood watchers believe the studio prevailed over states seeking to block its deal for Warner Bros. Discovery. It\u2019s now free to reshape the media industry.",
-          "url": "https://www.nytimes.com/2026/09/22/business/dealbook/paramount-warner-deal-settlement.html",
+          "title": "A.I. Safety Concerns Go Global",
+          "summary": "The Australian government is the latest victim of a hack by artificial intelligence tools, adding to growing worries about the technology.",
+          "url": "https://www.nytimes.com/2026/09/24/business/dealbook/ai-safety-concerns-go-global.html",
           "source": "Rss",
-          "published": "22 Sep 2026",
+          "published": "24 Sep 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Global Oil Price Drops Below $100 a Barrel",
-          "summary": "Investors anticipated that a damaged Saudi Arabian pipeline may be close to reopening, allowing more oil from the region to reach world markets.",
-          "url": "https://www.nytimes.com/2026/09/22/business/saudi-oil-pipeline-hormuz.html",
+          "title": "In a Race With China, German Robots Are Outnumbered 14 to 1",
+          "summary": "A decade after the sale of Germany\u2019s Kuka, Europe is seeking to shift into a higher gear to unlock the potential in robotics and artificial intelligence.",
+          "url": "https://www.nytimes.com/2026/09/24/business/robots-china-germany-factories.html",
           "source": "Rss",
-          "published": "22 Sep 2026",
-          "sentiment_hint": "bearish"
+          "published": "24 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "The \u2018Kid\u2019 Takes Over: David Ellison Becomes a Hollywood Colossus",
-          "summary": "With Paramount and Warner Bros. under his control, Mr. Ellison will be \u201cthe Hollywood equivalent of Superman, Caesar and Midas combined.\u201d But challenges remain.",
-          "url": "https://www.nytimes.com/2026/09/22/business/media/david-ellison-hollywood-mega-mogul.html",
+          "title": "Investors Are Betting On Devices That Connect the Brain to Computers",
+          "summary": "By backing Precision Neuroscience, the billionaire Bill Ackman joins Elon Musk and Jeff Bezos in diving into an emerging industry.",
+          "url": "https://www.nytimes.com/2026/09/24/business/dealbook/precision-neuroscience-brain-bill-ackman.html",
           "source": "Rss",
-          "published": "22 Sep 2026",
-          "sentiment_hint": "bearish"
+          "published": "24 Sep 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -524,121 +637,134 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Media M&A activity (Paramount-Warner Bros) may drive advisory fees, but broader AI sector volatility creates uncertainty.",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Market volatility from AI sector selloff creates M&A and advisory opportunities for investment banking.",
             "key_themes": [
-              "M&A advisory opportunities",
-              "market volatility exposure"
+              "market volatility",
+              "investment banking",
+              "M&A activity"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              4
-            ]
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes market volatility from AI sector selloff will create M&A and advisory opportunities, but source articles only document the selloff itself (Article 4). No evidence provided that volatility translates to increased M&A activity or that investment banks benefit from tech sector turmoil.",
+            "supporting_article": null
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Potential advisory role in major media consolidation, but tech sector weakness limits overall investment banking momentum.",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Tech sector turmoil typically generates trading volumes and advisory mandates for prime brokers and investment banks.",
             "key_themes": [
-              "M&A advisory",
-              "sector headwinds"
+              "market volatility",
+              "trading opportunity",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims tech sector turmoil 'typically generates' trading volumes and advisory mandates, but this is a generalized assumption not supported by the source articles. Articles only confirm the selloff occurred (Article 4), with no data on resulting trading volumes or advisory activity.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "AI-driven market dislocation creates wealth management client volatility and trading desk opportunities.",
+            "key_themes": [
+              "market volatility",
+              "trading volumes",
+              "client engagement"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes AI-driven market dislocation creates wealth management and trading opportunities, but source articles provide no evidence of increased client volatility, trading desk opportunities, or wealth management activity resulting from the selloff.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from AI rout or commodity price movements; payment volumes remain tied to broader economic activity.",
+            "key_themes": [
+              "macro sensitivity"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              4
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 55,
-            "rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
-            "key_themes": [
-              "market volatility",
-              "reduced spending"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'broad market selloff reduces consumer spending momentum' but articles only document stock declines in specific sectors (AI/tech). No evidence that consumer spending or payment volumes are actually affected, nor that the selloff is 'broad' enough to impact payment processors.",
-            "supporting_article": null
+            "supporting_article": 4
           },
           {
             "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 52,
-            "rationale": "Tech-driven market decline dampens transaction volumes and consumer discretionary spending in near-term.",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to AI sector volatility; payment processing fundamentals unaffected by technology sector swings.",
             "key_themes": [
-              "market correction",
-              "spending headwinds"
+              "macro sensitivity"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'tech-driven market decline dampens transaction volumes and consumer discretionary spending' but articles show only tech/AI sector weakness. No causal evidence provided that this declines payment transaction volumes or consumer spending generally.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           }
         ],
-        "summary": "Financial sector faces mixed signals: major media M&A activity offers advisory fee opportunities for investment banks, but broad market AI-driven volatility creates near-term headwinds. Payment processors face headwinds from reduced consumer spending amid tech sector panic, while lower oil prices and precious metal declines have limited direct impact on these financial stocks.",
+        "summary": "The AI sector selloff triggered by DeepSeek concerns (Article 4) creates near-term opportunities for investment banks through increased market volatility, trading activity, and advisory mandates. Payment processors and Berkshire Hathaway lack direct relevance to these technology-driven market dynamics. Gold's weakness (Article 5) suggests reduced safe-haven demand, supporting equity appetite for opportunistic capital deployment.",
         "risks": [
-          "AI sector volatility spillover to broader economy",
-          "consumer spending deterioration from market weakness",
-          "deal completion uncertainty for major media consolidation"
+          "Sustained tech sector weakness could trigger broader market downturn affecting financial sector valuations",
+          "Cybersecurity concerns from AI hacking (Article 1) may increase compliance costs for financial institutions",
+          "If AI panic deepens, it could reduce overall M&A and capital markets activity despite near-term volatility"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "V and MA signals make unsupported causal leaps from tech sector volatility to actual consumer spending/payment volume declines",
-            "Articles document stock price declines but do not establish that these translate to reduced consumer transaction activity",
-            "Signals treat anticipated future spending impact as fact without sourcing"
+            "JPM, GS, and MS signals rely on speculative causal chains (volatility \u2192 M&A/trading activity) that are not established in source articles",
+            "No articles discuss investment banking advisory mandates, M&A activity, or trading volume changes resulting from the DeepSeek-driven selloff",
+            "Analyst appears to be inferring indirect beneficiaries from market volatility without documented evidence of actual business opportunity expansion"
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JPM": 352.0400085449219,
-        "GS": 959.3900146484375,
-        "V": 369.95001220703125,
-        "MA": 567.6500244140625
+        "JPM": 337.5299987792969,
+        "GS": 936.3599853515625,
+        "MS": 198.38999938964844,
+        "V": 361.5199890136719,
+        "MA": 559.9199829101562
       },
       "spot_check": {
-        "title": "What\u2019s Next for Paramount",
-        "summary": "Hollywood watchers believe the studio prevailed over states seeking to block its deal for Warner Bros. Discovery. It\u2019s now free to reshape the media industry.",
-        "url": "https://www.nytimes.com/2026/09/22/business/dealbook/paramount-warner-deal-settlement.html",
+        "title": "A.I. Safety Concerns Go Global",
+        "summary": "The Australian government is the latest victim of a hack by artificial intelligence tools, adding to growing worries about the technology.",
+        "url": "https://www.nytimes.com/2026/09/24/business/dealbook/ai-safety-concerns-go-global.html",
         "source": "Rss",
-        "published": "22 Sep 2026",
+        "published": "24 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa",
-          "sentiment": "bearish",
-          "conviction": 55,
-          "rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sentiment": "bullish",
+          "conviction": 62,
+          "rationale": "Market volatility from AI sector selloff creates M&A and advisory opportunities for investment banking.",
           "key_themes": [
             "market volatility",
-            "reduced spending"
+            "investment banking",
+            "M&A activity"
           ],
           "time_horizon": "short-term",
           "verified": false,
-          "verification_issue": "Rationale claims 'broad market selloff reduces consumer spending momentum' but articles only document stock declines in specific sectors (AI/tech). No evidence that consumer spending or payment volumes are actually affected, nor that the selloff is 'broad' enough to impact payment processors.",
+          "verification_issue": "Rationale assumes market volatility from AI sector selloff will create M&A and advisory opportunities, but source articles only document the selloff itself (Article 4). No evidence provided that volatility translates to increased M&A activity or that investment banks benefit from tech sector turmoil.",
           "supporting_article": null
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Broad market selloff and AI rout reduce consumer spending momentum and payment volume growth near-term.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Market volatility from AI sector selloff creates M&A and advisory opportunities for investment banking.",
         "haiku_themes": [
           "market volatility",
-          "reduced spending"
+          "investment banking",
+          "M&A activity"
         ]
       },
       "config": {

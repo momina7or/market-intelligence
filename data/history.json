@@ -20165,5 +20165,352 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-24",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT integration driving organic traffic and SEO disruption, validating AI assistant monetization strategy.",
+            "key_themes": [
+              "AI-powered search disruption",
+              "ChatGPT adoption",
+              "content discovery shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Gemini 4 refinement stage suggests competitive pressure from OpenAI, but delayed flagship release indicates execution challenges.",
+            "key_themes": [
+              "Gemini 4 development",
+              "AI competition",
+              "product timing delays"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "OpenAI agent security breach raises critical safety and liability concerns for partnered AI deployment and enterprise adoption.",
+            "key_themes": [
+              "AI safety risks",
+              "government breach",
+              "regulatory exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "MSFT": 500.5899963378906,
+          "GOOGL": 337.8299865722656
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Hormuz strait blockade supports higher LNG prices and demand for U.S. LNG exports amid supply disruptions.",
+            "key_themes": [
+              "geopolitical supply disruption",
+              "LNG price support",
+              "export opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Elevated European gas prices and strained LNG supply create margin expansion opportunities for U.S. producers.",
+            "key_themes": [
+              "LNG margin expansion",
+              "supply constraint",
+              "price uplift"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Hormuz disruption and resulting European energy crisis support higher realized LNG pricing for U.S. producers.",
+            "key_themes": [
+              "LNG supply gap",
+              "price support",
+              "export competitiveness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "European energy crisis and elevated gas prices create demand headwinds for industrial customers and downstream margins.",
+            "key_themes": [
+              "demand destruction risk",
+              "margin pressure",
+              "energy crisis impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed exposure: benefits from higher LNG prices offset by European energy crisis impacts on downstream operations.",
+            "key_themes": [
+              "LNG exposure limited",
+              "Europe exposure risk",
+              "mixed dynamics"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Significant European operations create headwinds despite LNG assets, net impact unclear from current disruption.",
+            "key_themes": [
+              "Europe exposure",
+              "LNG assets",
+              "mixed impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 161.22999572753906,
+          "CVX": 205.50999450683594,
+          "COP": 128.08999633789062,
+          "TTE": 91.66999816894531,
+          "BP": 44.4900016784668,
+          "SHEL": 95.41000366210938
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Commanding 70% market share in Medicare GLP-1 program with 700K seniors enrolled; significant revenue growth trajectory",
+            "key_themes": [
+              "GLP-1 market dominance",
+              "Medicare expansion",
+              "market share gains"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "750K Obamacare market ejections signal reduced insured base and potential revenue headwind for managed care segment",
+            "key_themes": [
+              "insurance coverage reduction",
+              "regulatory pressure",
+              "market shrinkage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Hospital clinic closures for gender-transition treatments eliminate niche revenue stream and create reputational/regulatory risk",
+            "key_themes": [
+              "clinic closures",
+              "regulatory restrictions",
+              "revenue loss"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [1] mentions hospital clinic closures for gender-transition treatments but does not identify J&J as a provider or manufacturer of these treatments. No evidence that J&J operates these clinics or derives revenue from gender-transition treatments.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "CTE diagnostic research advancement in blood tests and imaging creates long-term commercial opportunity for diagnostic platforms",
+            "key_themes": [
+              "diagnostic innovation",
+              "neurodegenerative disease",
+              "emerging opportunity"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses CTE diagnostic research (imaging and blood tests) but does not mention Thermo Fisher Scientific or any specific diagnostic platform company. The connection to TMO is speculative without source support.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1150.989990234375,
+          "UNH": 371.2900085449219,
+          "JNJ": 269.1700134277344,
+          "TMO": 665.2999877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Market volatility from AI sector selloff creates M&A and advisory opportunities for investment banking.",
+            "key_themes": [
+              "market volatility",
+              "investment banking",
+              "M&A activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes market volatility from AI sector selloff will create M&A and advisory opportunities, but source articles only document the selloff itself (Article 4). No evidence provided that volatility translates to increased M&A activity or that investment banks benefit from tech sector turmoil.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Tech sector turmoil typically generates trading volumes and advisory mandates for prime brokers and investment banks.",
+            "key_themes": [
+              "market volatility",
+              "trading opportunity",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims tech sector turmoil 'typically generates' trading volumes and advisory mandates, but this is a generalized assumption not supported by the source articles. Articles only confirm the selloff occurred (Article 4), with no data on resulting trading volumes or advisory activity.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "AI-driven market dislocation creates wealth management client volatility and trading desk opportunities.",
+            "key_themes": [
+              "market volatility",
+              "trading volumes",
+              "client engagement"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes AI-driven market dislocation creates wealth management and trading opportunities, but source articles provide no evidence of increased client volatility, trading desk opportunities, or wealth management activity resulting from the selloff.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from AI rout or commodity price movements; payment volumes remain tied to broader economic activity.",
+            "key_themes": [
+              "macro sensitivity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to AI sector volatility; payment processing fundamentals unaffected by technology sector swings.",
+            "key_themes": [
+              "macro sensitivity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 337.5299987792969,
+          "GS": 936.3599853515625,
+          "MS": 198.38999938964844,
+          "V": 361.5199890136719,
+          "MA": 559.9199829101562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      }
+    }
   }
 ]
