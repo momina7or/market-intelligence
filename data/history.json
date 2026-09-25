@@ -20512,5 +20512,311 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-09-25",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Copilot 'super app' launch positions Microsoft as enterprise AI leader with bundled chat, coding, and agent capabilities.",
+            "key_themes": [
+              "AI integration",
+              "enterprise software",
+              "Copilot expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "ChatGPT's organic integration into search workflows threatens Google's traditional search monetization model.",
+            "key_themes": [
+              "AI competition",
+              "search disruption",
+              "organic traffic shift"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Article discusses ChatGPT recommendations but doesn't establish this as a systematic threat to Google's search monetization model; inference goes beyond source material",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "MSFT": 497.92999267578125,
+          "GOOGL": 342.3599853515625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Ukrainian drone attacks on Russian refineries reduce regional supply, supporting margins for Western refiner competitors like Shell.",
+            "key_themes": [
+              "refinery supply disruption",
+              "geopolitical risk premium",
+              "margin support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Russian refinery outages create temporary supply deficit, benefiting European refiners and supporting crude demand fundamentals.",
+            "key_themes": [
+              "supply disruption",
+              "refining margins",
+              "geopolitical impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "EU gas storage policy uncertainty and import demand from India's coal blending could support LNG export valuations for European producers.",
+            "key_themes": [
+              "LNG demand",
+              "energy security",
+              "policy uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale conflates two unrelated events (EU gas storage policy and India's coal blending) to support LNG export valuations. Article [1] covers India's coal blending (domestic energy security, not LNG import signal). Article [3] covers EU gas storage dispute but does not support LNG export demand. No article establishes a causal link between these events and European LNG producer valuations.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 95.5999984741211,
+          "BP": 44.40999984741211,
+          "TTE": 91.88999938964844
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "FDA nominee Overton affirmed vaccine safety/efficacy despite political pressure, supporting vaccine manufacturer interests.",
+            "key_themes": [
+              "vaccine validation",
+              "regulatory support",
+              "political risk mitigation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "FDA nominee's vaccine endorsement benefits vaccine-heavy portfolio; potential mifepristone sales upside from regulatory clarity.",
+            "key_themes": [
+              "vaccine demand",
+              "regulatory clarity",
+              "product portfolio"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Mifepristone sales upside claim is partially grounded but speculative; article confirms Overton called mifepristone 'safe and effective' but doesn't establish MRK as primary beneficiary or discuss sales implications",
+            "supporting_article": 5
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "AI arms race between hospitals and insurers escalating cost disputes, pressuring UNH's pricing power and margins.",
+            "key_themes": [
+              "AI cost escalation",
+              "payer-provider conflict",
+              "margin pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diversified healthcare portfolio provides limited direct exposure to vaccine/FDA/AI themes; no clear material impact identified.",
+            "key_themes": [
+              "diversification",
+              "minimal direct exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale acknowledges 'no clear material impact' which is reasonable, but the claim that JNJ has 'limited direct exposure' is a valid interpretation of the articles despite lack of specific JNJ mention",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "No direct mention in articles; potential indirect benefit from regulatory clarity but insufficient evidence for conviction signal.",
+            "key_themes": [
+              "regulatory environment"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale explicitly states 'No direct mention in articles' and acknowledges 'insufficient evidence for conviction signal'; this is self-aware but the signal contains no factual grounding from source material",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 28.40999984741211,
+          "MRK": 147.97999572753906,
+          "UNH": 375.010009765625,
+          "JNJ": 270.67999267578125,
+          "LLY": 1181.8900146484375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "De-escalating US-China tensions reduce geopolitical risk premiums and support M&A and capital markets activity.",
+            "key_themes": [
+              "geopolitical risk reduction",
+              "capital markets recovery",
+              "China trade normalization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Easing trade tensions and improved US-China relations support broader economic stability and lending demand.",
+            "key_themes": [
+              "trade normalization",
+              "economic stability",
+              "reduced volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "China-US rapprochement may revive cross-border M&A and IPO activity, benefiting investment banking revenues.",
+            "key_themes": [
+              "M&A activity",
+              "capital markets",
+              "investment banking"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Improved US-China business ties and reduced trade uncertainty support institutional client activity and advisory fees.",
+            "key_themes": [
+              "institutional activity",
+              "advisory fees",
+              "geopolitical de-escalation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Chinese CEO absence at state visit suggests limited near-term commercial expansion, offsetting benefits from trade normalization.",
+            "key_themes": [
+              "China business uncertainty",
+              "cross-border commerce",
+              "trade normalization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Lack of Chinese corporate engagement during Xi visit limits immediate growth catalysts despite broader trade improvements.",
+            "key_themes": [
+              "China business uncertainty",
+              "cross-border commerce",
+              "trade normalization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 338.55999755859375,
+          "BAC": 56.029998779296875,
+          "GS": 923.2899780273438,
+          "MS": 196.32000732421875,
+          "V": 367.9800109863281,
+          "MA": 566.0800170898438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
