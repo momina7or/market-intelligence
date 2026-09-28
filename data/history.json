@@ -20818,5 +20818,372 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-09-28",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's dominance in AI search traffic generation poses competitive threat, creating urgency for Google's AI search integration",
+            "key_themes": [
+              "AI-powered search",
+              "organic traffic disruption",
+              "competitive pressure from OpenAI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's proven ability to capture organic search traffic and drive user engagement validates OpenAI partnership investment returns",
+            "key_themes": [
+              "AI monetization",
+              "content discovery",
+              "ChatGPT usage growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "Nvidia Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Launch of AI safety platform addresses rogue agent containment, indicating growing enterprise demand for production-grade AI infrastructure",
+            "key_themes": [
+              "AI safety solutions",
+              "enterprise AI deployment",
+              "GPU demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 340.260009765625,
+          "MSFT": 505.55499267578125,
+          "NVDA": 229.10000610351562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Hormuz LNG supply crisis extends into Q4, supporting higher LNG prices and Shell's global LNG portfolio valuations",
+            "key_themes": [
+              "LNG supply shortage",
+              "Hormuz geopolitical risk",
+              "Asian LNG demand surge"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Qatar LNG force majeure extension through November tightens global LNG markets, benefiting TotalEnergies' LNG export capacity",
+            "key_themes": [
+              "LNG supply constraint",
+              "Middle East crisis",
+              "energy price support"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Indonesia coal export collapse amid quotas creates oil-to-coal switching opportunity; global energy supply tightens favoring oil majors",
+            "key_themes": [
+              "coal supply crisis",
+              "energy substitution",
+              "upstream margin expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] states Indonesia coal exports declined 23% due to government quotas and policy uncertainty, but does NOT mention oil-to-coal switching or support for oil majors. The rationale conflates coal supply tightness with oil demand uplift, which is not established in the source material.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Prolonged Hormuz crisis and LNG supply disruptions support crude and LNG pricing; downstream refining benefits from supply tightness",
+            "key_themes": [
+              "geopolitical supply risk",
+              "LNG market tightness",
+              "crude price support"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Extended Qatar LNG force majeure supports global LNG pricing; Chevron's LNG and upstream assets benefit from sustained supply deficits",
+            "key_themes": [
+              "LNG supply shortage",
+              "geopolitical risk premium",
+              "Asia energy crisis"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "LNG supply crisis supports some assets but BP's renewable transition strategy limits upside from energy crisis-driven commodity surge",
+            "key_themes": [
+              "mixed energy exposure",
+              "energy transition hedge",
+              "LNG price support"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 97.36000061035156,
+          "TTE": 90.88999938964844,
+          "COP": 127.57499694824219,
+          "XOM": 162.947998046875,
+          "CVX": 207.58999633789062,
+          "BP": 44.959999084472656
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "GLP-1 expansion into low/middle-income nations creates substantial growth runway beyond saturated high-income markets.",
+            "key_themes": [
+              "market expansion",
+              "GLP-1 access",
+              "emerging markets",
+              "revenue growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Cerevel acquisition validates with first FDA approval of Juvmo for Parkinson's, demonstrating successful M&A execution.",
+            "key_themes": [
+              "M&A value creation",
+              "neurology portfolio",
+              "FDA approval",
+              "rare disease"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "CDC weakening and measles outbreak expansion suggest deteriorating public health infrastructure threatens vaccine demand.",
+            "key_themes": [
+              "public health deterioration",
+              "regulatory risk",
+              "vaccine market headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Connection to vaccine demand is inferential but reasonable given CDC weakening context",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "U.S. pandemic preparedness rejection and CDC decline weaken regulatory support and reduce vaccine/therapeutic development incentives.",
+            "key_themes": [
+              "geopolitical risk",
+              "vaccine demand",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Pandemic preparedness rejection and CDC decline are documented, but causal link to vaccine development incentives is speculative",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Public health system deterioration and measles outbreak may increase unplanned medical costs and operational complexity.",
+            "key_themes": [
+              "health system stress",
+              "outbreak costs",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No source articles establish causal link between measles outbreak and unplanned medical costs for health insurers; no articles discuss UnitedHealth Group specifically",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1186.875,
+          "ABBV": 266.0899963378906,
+          "JNJ": 272.19000244140625,
+          "PFE": 28.520000457763672,
+          "UNH": 377.20001220703125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "M&A advisory activity from China EV consolidation and potential AI IPO underwriting opportunities offset by AI sector volatility concerns.",
+            "key_themes": [
+              "M&A activity",
+              "IPO underwriting",
+              "sector volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Potential underwriting fees from Anthropic and OpenAI IPOs may offset near-term trading volatility from AI sector uncertainty.",
+            "key_themes": [
+              "IPO underwriting",
+              "AI sector exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 43,
+            "rationale": "Institutional client trading activity elevated amid AI sector volatility, but IPO pipeline uncertainty limits near-term upside.",
+            "key_themes": [
+              "trading activity",
+              "IPO prospects",
+              "volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct exposure to articles; broader market volatility may impact payment transaction volumes modestly.",
+            "key_themes": [
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' but conviction score of 35 suggests material relevance when none exists. Connection to market volatility is speculative and not grounded in any article.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "No direct exposure to articles; broader market volatility may impact payment transaction volumes modestly.",
+            "key_themes": [
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct exposure to articles' but conviction score of 35 suggests material relevance when none exists. Connection to market volatility is speculative and not grounded in any article.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 338.8299865722656,
+          "GS": 915.3300170898438,
+          "MS": 193.47999572753906,
+          "V": 367.5,
+          "MA": 566.8699951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
