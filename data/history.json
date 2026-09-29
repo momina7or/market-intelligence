@@ -21185,5 +21185,262 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-09-29",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT gaining organic traffic traction demonstrates competitive AI search threat; Google must accelerate AI integration.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic monetization",
+              "AI-powered recommendations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's growing adoption as primary search/content discovery interface validates OpenAI partnership investment returns.",
+            "key_themes": [
+              "ChatGPT monetization",
+              "AI platform dominance",
+              "organic traffic displacement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 340.2699890136719,
+          "MSFT": 503.8800048828125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "LNG Canada Phase 2 FID approval doubles capacity by early 2030s, securing long-term LNG revenue growth and strategic positioning.",
+            "key_themes": [
+              "LNG expansion",
+              "capacity growth",
+              "long-term cash flow"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "UAE-India $25B energy sector investment signals growing emerging market LNG demand, benefiting integrated energy majors with Asian exposure.",
+            "key_themes": [
+              "emerging market demand",
+              "energy security",
+              "investment flows"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] mentions UAE-India $25B energy sector investment but does not specify LNG or confirm that this benefits integrated energy majors like TotalEnergies. The rationale assumes LNG demand impact without textual support.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Hormuz supply disruption concerns support oil prices, but news lacks direct BP operational or strategic catalysts.",
+            "key_themes": [
+              "geopolitical risk",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 95.12000274658203,
+          "TTE": 88.44000244140625,
+          "BP": 43.56999969482422
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Measles outbreak creates demand for vaccines; Merck is major MMR vaccine supplier.",
+            "key_themes": [
+              "vaccine demand",
+              "public health crisis",
+              "immunization"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Measles outbreak drives vaccine demand; Pfizer has measles immunization portfolio.",
+            "key_themes": [
+              "vaccine demand",
+              "disease outbreak",
+              "immunization"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "VA consent requirements for psychiatric drugs may reduce antidepressant prescriptions affecting Janssen pharma sales.",
+            "key_themes": [
+              "regulatory headwind",
+              "psychiatric medications",
+              "prescription demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "CDC weakening and vaccine hesitancy signals (measles outbreak) threaten preventive care economics and health plan margins.",
+            "key_themes": [
+              "public health crisis",
+              "CDC deterioration",
+              "preventive care impact"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "UNH signal conflates two separate issues (CDC deterioration and measles outbreak); measles outbreak does not demonstrate vaccine hesitancy per se, and connection to preventive care economics is speculative",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 64,
+            "rationale": "Measles outbreak creates demand for diagnostic testing and lab services across affected counties.",
+            "key_themes": [
+              "diagnostic demand",
+              "disease outbreak",
+              "testing volume"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 149.10000610351562,
+          "PFE": 28.674999237060547,
+          "JNJ": 270.7200012207031,
+          "UNH": 374.75,
+          "TMO": 677.4249877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Anthropic IPO filing signals major capital raise activity; investment banking fees and trading volumes likely to benefit.",
+            "key_themes": [
+              "M&A activity",
+              "IPO pipeline",
+              "capital markets"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 60,
+            "rationale": "Anthropic IPO prospectus indicates strong AI capital raise cycle; advisory and underwriting fees expected to increase.",
+            "key_themes": [
+              "IPO pipeline",
+              "technology capital raises",
+              "investment banking"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Major AI company IPO filing suggests elevated M&A and capital markets activity benefiting investment banking segments.",
+            "key_themes": [
+              "IPO advisory",
+              "tech financing",
+              "capital markets"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 338.2900085449219,
+          "GS": 917.77001953125,
+          "MS": 193.5800018310547
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
