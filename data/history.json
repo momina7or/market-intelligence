@@ -21442,5 +21442,380 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-09-30",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's dominance in AI-driven organic traffic generation threatens Google's search monetization model, creating urgency for competitive AI integration.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic displacement",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes one anecdotal instance of ChatGPT recommending content, but does not establish 'dominance in AI-driven organic traffic generation' or quantifiable threat to Google's search monetization. The claim extrapolates far beyond a single user experience.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's proven capability in content recommendation and organic traffic generation validates Microsoft's OpenAI partnership investment thesis.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI monetization",
+              "content discovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 340.9200134277344,
+          "MSFT": 508.9599914550781
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Russian diesel export ban extension tightens global supply, supporting crude and refined product pricing through Q4 2026.",
+            "key_themes": [
+              "supply constraint",
+              "diesel shortage",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Time horizon states 'Q4 2026' but article only extends ban through Oct. 31 (implied 2024), not 2026",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Russian diesel ban extension and reduced Chinese crude demand create favorable pricing environment for major producers.",
+            "key_themes": [
+              "supply tightness",
+              "margin expansion",
+              "geopolitical support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "European refining focus on flexibility and digitisation aligns with BP's operational strengths; Russian ban supports refined margins.",
+            "key_themes": [
+              "refining margins",
+              "European exposure",
+              "operational efficiency"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              5
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Major European refiner benefits from diesel supply constraints and industry shift toward flexibility and petrochemical integration.",
+            "key_themes": [
+              "refining advantage",
+              "supply tightness",
+              "strategic positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              5
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Russian diesel ban supports refining margins but offset by weaker Chinese crude demand reducing export opportunities.",
+            "key_themes": [
+              "mixed signals",
+              "margin pressure",
+              "demand headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Russian export ban extension supports crude pricing while reduced Chinese imports stabilize at elevated price levels favorable to majors.",
+            "key_themes": [
+              "crude support",
+              "supply shortage",
+              "pricing strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 161.35000610351562,
+          "CVX": 204.3800048828125,
+          "BP": 43.52000045776367,
+          "SHEL": 95.13999938964844,
+          "TTE": 87.70999908447266,
+          "COP": 125.44000244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "VA psychiatric drug consent requirements may increase off-label usage and private sector prescriptions, benefiting JNJ's mental health portfolio.",
+            "key_themes": [
+              "psychiatric medications",
+              "regulatory tailwinds",
+              "market expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] states VA consent requirements may STIGMATIZE mental health treatment and medical groups FEAR negative impacts. Rationale assumes opposite effect (increased off-label usage and private sector prescriptions), which contradicts the source material's concern about deterrent effects.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Pennsylvania measles outbreak (890 cases) will drive demand for Merck's MMR vaccine amid vaccination hesitancy concerns and disease resurgence.",
+            "key_themes": [
+              "vaccine demand",
+              "disease outbreak",
+              "public health crisis"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "White House reshoring initiative for 86 essential medicines benefits PFE's domestic manufacturing footprint and supply chain resilience positioning.",
+            "key_themes": [
+              "domestic production",
+              "supply chain",
+              "government support"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "CDMO expansion and radiopharmaceutical manufacturing growth (NorthStar $180M investment) creates opportunities for TMO's contract manufacturing services.",
+            "key_themes": [
+              "CDMO growth",
+              "radiopharmaceuticals",
+              "manufacturing expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [4] discusses NorthStar Medical Technologies' $180M expansion and CDMO growth, but does not mention Thermo Fisher Scientific (TMO) or create a clear causal link to TMO's contract manufacturing services benefiting from this specific investment.",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "CDC staffing cuts and loss of independence may reduce public health coordination capabilities, creating operational uncertainty for UNH's health services segment.",
+            "key_themes": [
+              "regulatory uncertainty",
+              "public health erosion",
+              "operational risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 267.57000732421875,
+          "MRK": 149.27999877929688,
+          "PFE": 28.719999313354492,
+          "TMO": 679.6099853515625,
+          "UNH": 374.94000244140625
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Inflation persistence supports higher net interest margins and fee-based revenue growth for large banks.",
+            "key_themes": [
+              "inflation environment",
+              "net interest margins",
+              "investment banking"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Continued inflation volatility and elevated consumer concern benefits large diversified bank profitability.",
+            "key_themes": [
+              "inflation volatility",
+              "consumer lending",
+              "wealth management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Market volatility and inflation concerns drive increased M&A advisory and capital markets activity.",
+            "key_themes": [
+              "market volatility",
+              "investment banking",
+              "advisory fees"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Macro uncertainty and market turbulence create stronger demand for advisory and wealth management services.",
+            "key_themes": [
+              "market volatility",
+              "wealth management",
+              "advisory services"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Inflation concerns may pressure consumer spending growth, though payment volumes remain resilient amid volatility.",
+            "key_themes": [
+              "consumer spending",
+              "inflation impact",
+              "payment volume"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rising inflation and consumer concern create headwinds for discretionary spending and cross-border transaction growth.",
+            "key_themes": [
+              "consumer spending",
+              "inflation pressures",
+              "transaction volume"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 334.9800109863281,
+          "BAC": 54.959999084472656,
+          "GS": 916.239990234375,
+          "MS": 192.75999450683594,
+          "V": 365.8800048828125,
+          "MA": 563.5800170898438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      }
+    }
   }
 ]
