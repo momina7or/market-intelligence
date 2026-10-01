@@ -21817,5 +21817,359 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-10-01",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior threatens Google's core business; AI-driven search monetization becomes critical competitive battleground.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic cannibalization",
+              "AI monetization pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT dominance in organic search and content creation drives OpenAI partnership value; enterprise AI adoption accelerates.",
+            "key_themes": [
+              "ChatGPT market penetration",
+              "AI content tools leadership",
+              "enterprise AI integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 343.44000244140625,
+          "MSFT": 518.6099853515625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Crude oil prices sustained above $100/barrel with tight diesel markets supporting refining margins and upstream production values.",
+            "key_themes": [
+              "high crude prices",
+              "tight fuel markets",
+              "refining demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Strong demand from India's power shortages and refining activity supports crude offtake; elevated diesel prices benefit downstream operations.",
+            "key_themes": [
+              "Asian demand growth",
+              "diesel price strength",
+              "refining spreads"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "European refining flexibility investments align with company strategy, but long-term energy transition headwinds offset near-term price tailwinds.",
+            "key_themes": [
+              "refining modernization",
+              "energy transition",
+              "European operations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Article [6] discusses European refining flexibility but does not mention BP specifically or confirm alignment with BP's strategy",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Elevated crude and diesel prices support current earnings, but strategic pivot toward renewables and green energy dilutes traditional oil/gas upside.",
+            "key_themes": [
+              "refining margins",
+              "energy transition investment",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No source article mentions Shell's strategic pivot toward renewables or confirms their energy transition investment posture relative to current earnings support",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Strong Indian crude demand from refiner tanker activity and power shortages provides near-term volume and pricing support for upstream assets.",
+            "key_themes": [
+              "Indian market demand",
+              "crude offtake growth",
+              "geopolitical premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Articles [2] and [3] support Indian demand, but no article explicitly links this to TotalEnergies' upstream assets or crude offtake",
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Sustained $100+ crude pricing and increased Asian demand from India's power crisis and refining activity support production revenues and project returns.",
+            "key_themes": [
+              "crude price strength",
+              "Asian demand surge",
+              "production value"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Article [1] supports $100+ crude pricing; articles [2] and [3] support Asian demand. However, no article explicitly connects these factors to ConocoPhillips' specific production revenues or project returns",
+            "supporting_article": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 162.8699951171875,
+          "CVX": 205.32000732421875,
+          "BP": 44.19499969482422,
+          "SHEL": 94.88999938964844,
+          "TTE": 84.02999877929688,
+          "COP": 125.72000122070312
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Proactive market development in menopause eye health identifies underserved patient segment with growth opportunity.",
+            "key_themes": [
+              "market expansion",
+              "unmet medical need",
+              "patient awareness"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Article on cancer drug resistance and access barriers signals headwinds for targeted therapies despite efficacy.",
+            "key_themes": [
+              "drug resistance",
+              "access barriers",
+              "pricing pressures"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale attributes cancer drug resistance and access barriers to Eli Lilly specifically, but source articles [1] and [3] do not mention Eli Lilly. Article [1] discusses daraxonrasib (no manufacturer specified in summary), and article [3] discusses targeted gene therapies generically without naming Lilly as a primary subject.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Pancreatic cancer drug resistance development raises questions about long-term efficacy and market sustainability.",
+            "key_themes": [
+              "resistance mechanisms",
+              "clinical durability",
+              "competitive risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale attributes pancreatic cancer drug resistance to Merck, but article [1] discusses daraxonrasib and former Senator Ben Sasse without identifying the manufacturer. The analyst has made an unsupported company attribution.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 263.125,
+          "LLY": 1149.3699951171875,
+          "MRK": 144.6750030517578
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising bond yields to 2002 highs expand net interest margins for large banks",
+            "key_themes": [
+              "rising yields",
+              "NIM expansion",
+              "treasury market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Higher yield environment supports improved profitability from lending operations",
+            "key_themes": [
+              "rising yields",
+              "NIM expansion",
+              "fixed income strength"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Elevated bond market volatility and yields create trading and advisory opportunities",
+            "key_themes": [
+              "rising yields",
+              "bond market volatility",
+              "trading revenue"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Global bond rout and yield volatility increase wealth management and trading revenues",
+            "key_themes": [
+              "rising yields",
+              "global bond volatility",
+              "trading strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BRK-B",
+            "company": "Berkshire Hathaway",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Higher yields improve returns on cash holdings but conflict with stock market weakness",
+            "key_themes": [
+              "rising yields",
+              "cash allocation",
+              "equity market uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad stock market decline and economic uncertainty from geopolitical tensions pressures payment volumes",
+            "key_themes": [
+              "market volatility",
+              "economic uncertainty",
+              "payment volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale cites 'geopolitical tensions' as cause of stock market decline, but articles attribute decline to DeepSeek AI rout (Article 4), not geopolitical factors. Article 2 mentions 'war in Iran' affecting bond yields but does not connect this to payment volume risk or consumer spending pressure.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 61,
+            "rationale": "Stock market rout and geopolitical risks reduce consumer spending and transaction growth",
+            "key_themes": [
+              "market volatility",
+              "economic uncertainty",
+              "transaction decline"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale cites 'geopolitical risks' causing transaction decline, but articles attribute stock market decline to DeepSeek AI rout (Article 4), not geopolitical factors. Connection between geopolitical tensions and transaction decline is not supported by source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 327.2799987792969,
+          "BAC": 53.09989929199219,
+          "GS": 886.8599853515625,
+          "MS": 184.61000061035156,
+          "BRK-B": 496.385009765625,
+          "V": 360.1199951171875,
+          "MA": 552.6199951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
