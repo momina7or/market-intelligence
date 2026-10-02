@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-10-01",
-  "run_time": "2026-10-01T14:10:00.192048Z",
+  "run_date": "2026-10-02",
+  "run_time": "2026-10-02T13:33:37.521880Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The best early October Prime Day deals happening now",
-          "summary": "It\u2019s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It\u2019s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you\u2019re on the East [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+          "title": "Star Wars: Galactic Racer is my childhood podracing dream come true",
+          "summary": "The podracing scene in The Phantom Menace is one of my favorite movie sequences ever. It's just so dang cool: The futuristic racers tear over treacherous Tatooine terrain while various Star Wars aliens bark at each other in incomprehensible sci-fi languages. Eventually a young Anakin Skywalker proves his mettle by clawing his way from the [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/1002887/star-wars-galactic-racer-review",
           "source": "Theverge",
-          "published": "01 Oct 2026",
+          "published": "02 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "What even is a \u2018microdrama\u2019?",
-          "summary": "On Monday, Variety reported that RoseBerry Media is recutting episodes of the Australian soap opera Neighbours \"into microdramas.\" These clips will be available on Epis, a short-form vertical video streaming platform. Though Neighbours ran for 41 seasons from 1985 to 2025, at launch, RoseBerry is only recutting two storylines from the late aughts focused on [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/1003297/microdramas-neighbours-epis-roseberry-reelshort-dramabox-vertical-video",
+          "title": "AI hallucinations are making entitled customers even worse",
+          "summary": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name be withheld to [&#8230;]",
+          "url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
           "source": "Theverge",
-          "published": "01 Oct 2026",
-          "sentiment_hint": "bearish"
+          "published": "02 Oct 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Samsung raised prices on the Galaxy S26 by $100",
-          "summary": "The base Galaxy S26 with 256GB of storage costs nearly $1,000 after Samsung raised prices in the US by $100 or more, Phone Arena reports. The Galaxy S26 and S26 Plus were already $100 more expensive than their S25 predecessors when they launched earlier this year, which Samsung said RAM price hikes were partly to [&#8230;]",
-          "url": "https://www.theverge.com/tech/1003328/samsung-s26-price-hikes-us",
+          "title": "If a data center is camouflaged in the woods, will anyone hate it?",
+          "summary": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions of square feet and housing the physical infrastructure for AI. There are now more [&#8230;]",
+          "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
           "source": "Theverge",
-          "published": "01 Oct 2026",
+          "published": "02 Oct 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -60,11 +60,11 @@
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT integration into search behavior threatens Google's core business; AI-driven search monetization becomes critical competitive battleground.",
+            "rationale": "ChatGPT's organic traffic influence demonstrates AI search competition intensifying; Google must innovate search monetization strategies.",
             "key_themes": [
               "AI search disruption",
-              "organic traffic cannibalization",
-              "AI monetization pressure"
+              "organic traffic competition",
+              "content ranking algorithms"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -75,39 +75,70 @@
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT dominance in organic search and content creation drives OpenAI partnership value; enterprise AI adoption accelerates.",
+            "conviction": 75,
+            "rationale": "ChatGPT's demonstrated ability to drive organic traffic validates AI assistant value; strengthens OpenAI partnership strategic importance.",
             "key_themes": [
-              "ChatGPT market penetration",
-              "AI content tools leadership",
+              "ChatGPT adoption",
+              "AI-driven content discovery",
               "enterprise AI integration"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Expansion of hyperscale AI data centers mentioned in article 6 drives GPU infrastructure demand for AI training and inference.",
+            "key_themes": [
+              "data center expansion",
+              "AI infrastructure",
+              "hyperscale computing"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TSM",
+            "company": "Taiwan Semiconductor Manufacturing Company",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Growing hyperscale data center buildout increases demand for advanced semiconductor manufacturing capacity for AI chips.",
+            "key_themes": [
+              "AI chip demand",
+              "data center infrastructure",
+              "semiconductor capacity"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
           }
         ],
-        "summary": "Articles reveal significant AI market shifts with ChatGPT actively disrupting traditional search and content creation workflows. The technology sector shows strong AI adoption momentum, but traditional search players face revenue pressure from AI-powered alternatives. Most relevant signals cluster around search disruption and AI tool monetization rather than hardware or semiconductor catalysts.",
+        "summary": "The articles reveal two critical AI trends: ChatGPT is reshaping organic traffic and search discovery (threatening traditional search models), while hyperscale data center expansion indicates massive AI infrastructure investment requirements. This creates winners in AI services (MSFT/OpenAI) and infrastructure providers (NVDA, TSM) but poses medium-term challenges for search-dependent advertising models (GOOGL). AI hallucinations remain a product safety concern that could impact adoption rates.",
         "risks": [
-          "ChatGPT's content recommendation accuracy and liability concerns could slow adoption",
-          "Regulatory scrutiny on AI search integration and data usage may limit feature deployment",
-          "AI tool market remains highly fragmented with unclear long-term winner economics"
+          "AI hallucinations creating safety/liability issues that slow enterprise adoption",
+          "Regulatory backlash against hyperscale data center expansion affecting capex plans",
+          "ChatGPT organic traffic displacement fragmenting search advertising revenue models",
+          "Competitive pressure from open-source AI models reducing moat advantages"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "GOOGL signal claims 'organic traffic cannibalization' but Article [1] only describes one anecdotal case of ChatGPT recommending a course\u2014insufficient evidence of systematic search behavior disruption",
-            "MSFT signal claims 'AI content tools leadership' and references Article [2] on top 10 AI tools, but Article [2] is generic listicle with no specific mention of ChatGPT or OpenAI's competitive advantage",
-            "Both signals make causal leaps not explicitly supported: Article [1] shows ChatGPT can recommend content but does not establish this as a threat to Google's monetization model or validate enterprise adoption acceleration claims"
-          ],
+          "overall_reliability": "high",
+          "flags": [],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "GOOGL": 343.44000244140625,
-        "MSFT": 518.6099853515625
+        "GOOGL": 343.6000061035156,
+        "MSFT": 519.1900024414062,
+        "NVDA": 235.35960388183594,
+        "TSM": 464.6300048828125
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -117,15 +148,15 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "ChatGPT integration into search behavior threatens Google's core business; AI-driven search monetization becomes critical competitive battleground.",
+          "conviction": 75,
+          "rationale": "ChatGPT's demonstrated ability to drive organic traffic validates AI assistant value; strengthens OpenAI partnership strategic importance.",
           "key_themes": [
-            "AI search disruption",
-            "organic traffic cannibalization",
-            "AI monetization pressure"
+            "ChatGPT adoption",
+            "AI-driven content discovery",
+            "enterprise AI integration"
           ],
           "time_horizon": "medium-term",
           "verified": true,
@@ -133,11 +164,11 @@
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT integration into search behavior threatens Google's core business; AI-driven search monetization becomes critical competitive battleground.",
+        "haiku_rationale": "ChatGPT's demonstrated ability to drive organic traffic validates AI assistant value; strengthens OpenAI partnership strategic importance.",
         "haiku_themes": [
-          "AI search disruption",
-          "organic traffic cannibalization",
-          "AI monetization pressure"
+          "ChatGPT adoption",
+          "AI-driven content discovery",
+          "enterprise AI integration"
         ]
       },
       "config": {
@@ -157,36 +188,44 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "U.S. Threatens Diesel Export Ban Unless Europe Releases Stockpiles",
-          "summary": "The U.S. Administration has urged Germany and France, Europe\u2019s largest economies that hold a sizeable chunk of the EU\u2019s emergency reserves, to release diesel from emergency stockpiles or face a potential U.S. diesel export ban, sources close to the discussions told Reuters on Thursday. Since crude oil prices jumped again in September to above $100 per barrel and the global fuel markets, especially for diesel, continued to tighten, diesel prices hit record highs in many countries, including in th",
-          "url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
+          "title": "Japan\u2019s JERA Creates Oil Storage Firm to Manage National Reserve Sites",
+          "summary": "Japanese energy firm JERA is creating an oil storage company which will exclusively manage the operation of the national petroleum stockpiling bases that JERA currently operates, as the Middle East crisis has upended the oil procurement market in the resource-poor G7 economy of Japan. JERA Co., Inc. said on Friday it had established JERA Oil Storage as a dedicated operating company to manage the operation of national petroleum stockpiling bases currently operated by JERA and its affiliated subsi",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-JERA-Creates-Oil-Storage-Firm-to-Manage-National-Reserve-Sites.html",
           "source": "Oilprice",
-          "published": "01 Oct 2026",
-          "sentiment_hint": "bullish"
+          "published": "02 Oct 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "India's Power Shortages Jump to Three-Year High",
-          "summary": "India's power shortfall surged to a three-year high in September as El Ni\u00f1o and industrial electricity demand drove consumption higher. Last month, India's power shortages jumped to 560 million kilowatt-hours (kWh). This was the highest level since August 2023, Reuters calculations of daily data from the regulator Grid-India showed on Thursday. Total electricity generation increased by 11.3% in September from a year earlier to 174.17 billion kWh, according to the data. Coal-fired and renewable e",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Power-Shortages-Jump-to-Three-Year-High.html",
+          "title": "Alaska LNG Hinges on How Much Asian Buyers Will Pay for Energy Security",
+          "summary": "The Trump Administration\u2019s pet project Alaska LNG may not be commercially investable as costs per production could be more than double the costs at most U.S. Gulf Coast LNG export projects, a Reuters analysis has found.\u00a0 This week, the Trump Administration touted a $50-billion investment from South Korea for the proposed Alaska LNG project.\u00a0 The entire project is estimated to cost between $44 billion and $55 billion in total, according to Glenfarne Group, the majority owner and developer of Alas",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Alaska-LNG-Hinges-on-How-Much-Asian-Buyers-Will-Pay-for-Energy-Security.html",
           "source": "Oilprice",
-          "published": "01 Oct 2026",
-          "sentiment_hint": "bullish"
+          "published": "02 Oct 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Indian Refiners Seek Tankers for Hormuz Oil",
-          "summary": "Indian refining companies are looking for tankers for hire to carry oil out of the Persian Gulf via the Strait of Hormuz, according to a Bloomberg report citing unnamed sources. Two shipping companies have won tenders for Persian Gulf oil, the sources told Bloomberg, while another two submitted bids but their tenders were canceled. Until now, Indian refiners steered clear of using Indian tankers to bring in crude oil from the Persian Gulf because of the heightened risk of attacks. This week just",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Seek-Tankers-for-Hormuz-Oil.html",
+          "title": "WTI Sinks Nearly 4% as EU Weighs Emergency Stockpile Release",
+          "summary": "Oil prices fell sharply on Friday as Europe moved closer to another emergency stock release under pressure from the Trump administration, with WTI dropping nearly 4% and Brent falling below $100. At 6:54 a.m. ET, WTI was trading at $89.36, down 3.78%, while Brent was trading at $99.79/barrel, down 2.46%. The selloff followed reports that European governments are discussing another coordinated release of emergency oil stocks as Washington pushes allies to put more barrels and diesel onto the mark",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/WTI-Sinks-Nearly-4-as-EU-Weighs-Emergency-Stockpile-Release.html",
           "source": "Oilprice",
-          "published": "01 Oct 2026",
+          "published": "02 Oct 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "India approves $19.3bn Green Energy Corridor Phase-III scheme",
-          "summary": "India has approved the Green Energy Corridor Phase-III scheme, designed to develop intra-state transmission systems and deploy BESS.",
-          "url": "https://www.energymonitor.ai/news/india-approves-green-energy-corridor/",
+          "title": "Antin to sell majority stake in Vicinity Energy for $2.9bn",
+          "summary": "Antin has agreed to sell a majority stake in Vicinity Energy, a US-based district energy provider, to Harrison Street Asset Management.",
+          "url": "https://www.energymonitor.ai/news/antin-sell-stake-vicinity-energy/",
           "source": "Energymonitor",
           "published": "01 Oct 2026",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Solar, wind and tidal for renewable fuels: what the research says",
+          "summary": "This episode of Energy Technology considers research into renewable energy for low-carbon fuel production pathways.",
+          "url": "https://www.energymonitor.ai/news/solar-wind-tidal-renewable-fuels/",
+          "source": "Energymonitor",
+          "published": "01 Oct 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Reverion raises $175m to scale carbon-negative power plants",
@@ -195,182 +234,159 @@
           "source": "Energymonitor",
           "published": "30 Sep 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "The future of Europe\u2019s refining is flexibility",
-          "summary": "Europe\u2019s refineries must boost flexibility with digitisation, resilience and petrochemical integration to stay competitive through 2035.",
-          "url": "https://www.energymonitor.ai/sponsored/the-future-of-europes-refining-is-flexibility/",
-          "source": "Energymonitor",
-          "published": "29 Sep 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "bullish",
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Crude oil prices sustained above $100/barrel with tight diesel markets supporting refining margins and upstream production values.",
+            "rationale": "EU emergency stockpile releases and Trump administration pressure reducing oil prices and demand outlook for exporters.",
             "key_themes": [
-              "high crude prices",
-              "tight fuel markets",
-              "refining demand"
+              "oil price pressure",
+              "demand headwinds",
+              "geopolitical risk"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Strong demand from India's power shortages and refining activity supports crude offtake; elevated diesel prices benefit downstream operations.",
-            "key_themes": [
-              "Asian demand growth",
-              "diesel price strength",
-              "refining spreads"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              3
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "BP",
             "company": "BP plc",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "European refining flexibility investments align with company strategy, but long-term energy transition headwinds offset near-term price tailwinds.",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "WTI/Brent crude weakness from coordinated EU stockpile releases pressuring downstream and upstream margins.",
             "key_themes": [
-              "refining modernization",
-              "energy transition",
-              "European operations"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Article [6] discusses European refining flexibility but does not mention BP specifically or confirm alignment with BP's strategy",
-            "supporting_article": 6
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "Elevated crude and diesel prices support current earnings, but strategic pivot toward renewables and green energy dilutes traditional oil/gas upside.",
-            "key_themes": [
-              "refining margins",
-              "energy transition investment",
-              "geopolitical risk"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "No source article mentions Shell's strategic pivot toward renewables or confirms their energy transition investment posture relative to current earnings support",
-            "supporting_article": null
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Strong Indian crude demand from refiner tanker activity and power shortages provides near-term volume and pricing support for upstream assets.",
-            "key_themes": [
-              "Indian market demand",
-              "crude offtake growth",
-              "geopolitical premium"
+              "commodity price weakness",
+              "inventory oversupply",
+              "margin compression"
             ],
             "time_horizon": "short-term",
             "verified": true,
-            "verification_issue": "Articles [2] and [3] support Indian demand, but no article explicitly links this to TotalEnergies' upstream assets or crude offtake",
-            "supporting_article": [
-              2,
-              3
-            ]
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Oil price decline and EU emergency releases creating near-term margin pressure despite potential LNG upside.",
+            "key_themes": [
+              "oil price headwinds",
+              "inventory management",
+              "LNG uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 66,
+            "rationale": "WTI dropping 3.78% on coordinated stockpile releases; near-term margin compression offsets long-term LNG opportunity.",
+            "key_themes": [
+              "price weakness",
+              "supply dynamics",
+              "geopolitical pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 71,
-            "rationale": "Sustained $100+ crude pricing and increased Asian demand from India's power crisis and refining activity support production revenues and project returns.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Oil price selloff and strategic reserves release creating near-term headwind for upstream cash flows and valuations.",
             "key_themes": [
-              "crude price strength",
-              "Asian demand surge",
-              "production value"
+              "crude weakness",
+              "demand uncertainty",
+              "reserve depletion"
             ],
             "time_horizon": "short-term",
             "verified": true,
-            "verification_issue": "Article [1] supports $100+ crude pricing; articles [2] and [3] support Asian demand. However, no article explicitly connects these factors to ConocoPhillips' specific production revenues or project returns",
-            "supporting_article": [
-              1,
-              2,
-              3
-            ]
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 67,
+            "rationale": "EU stockpile releases and oil price collapse near $90/bbl creating integrated margin compression across upstream and downstream.",
+            "key_themes": [
+              "price pressure",
+              "inventory dynamics",
+              "refining headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           }
         ],
-        "summary": "Petroleum majors face a mixed near-term backdrop: crude oil sustained above $100/barrel with tight diesel markets and surging Indian demand providing strong support for upstream and downstream operations. However, structural headwinds from Europe's energy transition push and rising competition from green energy investments temper long-term outlooks. Geopolitical tensions and supply chain constraints (Hormuz tanker dynamics) present both upside risk to prices and operational uncertainty.",
+        "summary": "Petroleum majors face near-term headwinds as Trump administration pressure triggers coordinated EU emergency stockpile releases, driving WTI down 3.78% below $90/bbl and Brent below $100. The broader energy sector faces supply overhang and demand uncertainty, though Alaska LNG viability remains questionable despite South Korean interest. Long-term resilience depends on geopolitical resolution and OPEC response to inventory management.",
         "risks": [
-          "energy transition reducing long-term demand",
-          "geopolitical escalation in Strait of Hormuz disrupting logistics",
-          "rapid renewable energy deployment eroding refining margins",
-          "potential U.S.-Europe policy friction over diesel exports constraining markets",
-          "crude price volatility if recession concerns resurface"
+          "geopolitical escalation reversing supply pressure",
+          "OPEC production cuts supporting prices",
+          "demand recovery from Asian energy security concerns",
+          "Trump administration policy reversal on stockpile releases",
+          "LNG project delays reducing growth optionality"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "Shell (SHEL) rationale claims 'strategic pivot toward renewables and green energy' with no source article supporting this specific company claim",
-            "BP rationale assumes European refining flexibility investments align with BP strategy without article confirmation of BP's involvement or strategy",
-            "TotalEnergies and ConocoPhillips rationales infer company-specific implications from market trends without direct attribution in source articles"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "XOM": 162.8699951171875,
-        "CVX": 205.32000732421875,
-        "BP": 44.19499969482422,
-        "SHEL": 94.88999938964844,
-        "TTE": 84.02999877929688,
-        "COP": 125.72000122070312
+        "TTE": 83.27999877929688,
+        "BP": 44.23500061035156,
+        "XOM": 162.18499755859375,
+        "CVX": 205.6342010498047,
+        "COP": 126.0999984741211,
+        "SHEL": 95.43499755859375
       },
       "spot_check": {
-        "title": "U.S. Threatens Diesel Export Ban Unless Europe Releases Stockpiles",
-        "summary": "The U.S. Administration has urged Germany and France, Europe\u2019s largest economies that hold a sizeable chunk of the EU\u2019s emergency reserves, to release diesel from emergency stockpiles or face a potential U.S. diesel export ban, sources close to the discussions told Reuters on Thursday. Since crude oil prices jumped again in September to above $100 per barrel and the global fuel markets, especially for diesel, continued to tighten, diesel prices hit record highs in many countries, including in th",
-        "url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
+        "title": "Japan\u2019s JERA Creates Oil Storage Firm to Manage National Reserve Sites",
+        "summary": "Japanese energy firm JERA is creating an oil storage company which will exclusively manage the operation of the national petroleum stockpiling bases that JERA currently operates, as the Middle East crisis has upended the oil procurement market in the resource-poor G7 economy of Japan. JERA Co., Inc. said on Friday it had established JERA Oil Storage as a dedicated operating company to manage the operation of national petroleum stockpiling bases currently operated by JERA and its affiliated subsi",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-JERA-Creates-Oil-Storage-Firm-to-Manage-National-Reserve-Sites.html",
         "source": "Oilprice",
-        "published": "01 Oct 2026",
-        "sentiment_hint": "bullish",
+        "published": "02 Oct 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "ExxonMobil Corporation",
-          "sentiment": "bullish",
+          "ticker": "TTE",
+          "company": "TotalEnergies SE",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Crude oil prices sustained above $100/barrel with tight diesel markets supporting refining margins and upstream production values.",
+          "rationale": "EU emergency stockpile releases and Trump administration pressure reducing oil prices and demand outlook for exporters.",
           "key_themes": [
-            "high crude prices",
-            "tight fuel markets",
-            "refining demand"
+            "oil price pressure",
+            "demand headwinds",
+            "geopolitical risk"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 3
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Crude oil prices sustained above $100/barrel with tight diesel markets supporting refining margins and upstream production values.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "EU emergency stockpile releases and Trump administration pressure reducing oil prices and demand outlook for exporters.",
         "haiku_themes": [
-          "high crude prices",
-          "tight fuel markets",
-          "refining demand"
+          "oil price pressure",
+          "demand headwinds",
+          "geopolitical risk"
         ]
       },
       "config": {
@@ -390,6 +406,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "How Did Christa Pike Survive Two Lethal Injections of Pentobarbital?",
+          "summary": "A catheter carrying the drug may not have delivered the doses to Ms. Pike\u2019s bloodstream, experts said. The drug itself may have been degraded.",
+          "url": "https://www.nytimes.com/2026/10/01/science/pike-execution-pentobarbital.html",
+          "source": "Rss",
+          "published": "01 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "Clues to Why a Breakthrough Pancreatic Cancer Drug Eventually Stops Working",
           "summary": "Researchers are asking why patients, like former Senator Ben Sasse, inevitably develop resistance to the drug daraxonrasib.",
           "url": "https://www.nytimes.com/2026/09/30/science/pancreatic-cancer-drug-daraxonrasib-ben-sasse-resistance.html",
@@ -406,111 +430,122 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "New Cancer Drugs Are Revolutionary. Why Don\u2019t More Patients Get Them?",
-          "summary": "Targeted gene therapies are highly effective at stopping cancers, but the very abundance of the treatments, plus cost and sluggish change, are hindering access.",
-          "url": "https://www.nytimes.com/2026/09/30/science/new-cancer-drugs-are-revolutionary-why-dont-more-patients-get-them.html",
-          "source": "Rss",
-          "published": "30 Sep 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/johnson-johnson-survey-finds-women-not-connecting-menopause-eye-health-changes\" hreflang=\"en\">Johnson &amp; Johnson survey finds women not connecting menopause to eye health changes</a>",
-          "summary": "Hot flashes, mood and sleep disturbances are common themes for menopause: But vision changes are not one that makes the list of common symptoms. Now, J&amp;J is looking to highlight this often-overlooked issue.",
-          "url": "https://www.fiercepharma.com/marketing/johnson-johnson-survey-finds-women-not-connecting-menopause-eye-health-changes",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/genentech-amplifies-breast-cancer-conversations-about-damn-time-campaign\" hreflang=\"en\">It's 'About Damn Time' to highlight the post-treatment breast cancer journey, Genentech says in new campaign</a>",
+          "summary": "\"About Damn Time\" focuses on the journey following initial treatment for HR-positive, HER2-negative early breast cancer, when patients turn to preventing recurrence.",
+          "url": "https://www.fiercepharma.com/marketing/genentech-amplifies-breast-cancer-conversations-about-damn-time-campaign",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/real-chemistry-launches-ai-powered-maestrohcp-conduct-omnichannel-campaigns\" hreflang=\"en\">Real Chemistry launches AI-powered MaestroHCP to conduct omnichannel campaigns</a>",
-          "summary": "Real Chemistry has created an artificial intelligence-enabled platform to improve a manual, fragmented stage of the omnichannel marketing process.",
-          "url": "https://www.fiercepharma.com/marketing/real-chemistry-launches-ai-powered-maestrohcp-conduct-omnichannel-campaigns",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/lilly-gives-deeper-glimpse-foundayos-heart-helping-odds-diabetes-obesity-phase-3\" hreflang=\"en\">Lilly gives deeper glimpse at Foundayo's heart-helping odds in diabetes, obesity phase 3</a>",
+          "summary": "In a new update, Lilly tied Foundayo to a 53% reduction in the risk of cardiovascular death and a 57% lower risk of all-cause mortality compared with insulin glargine in a preplanned analysis of its phase 3 Achieve-4 trial.",
+          "url": "https://www.fiercepharma.com/pharma/lilly-gives-deeper-glimpse-foundayos-heart-helping-odds-diabetes-obesity-phase-3",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/asahi-kasei-wraps-years-global-dealmaking-single-brand\" hreflang=\"en\">Asahi Kasei wraps years of global dealmaking into a single brand</a>",
-          "summary": "After years of deal-driven global expansion, Asahi Kasei is rolling its pharma units up under a single brand and forging ahead with efforts to drive sales toward $2 billion by the end of the decade.",
-          "url": "https://www.fiercepharma.com/marketing/asahi-kasei-wraps-years-global-dealmaking-single-brand",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/taiho-scores-ph3-win-oral-chemo-combo-aml-causing-blood-disorders\" hreflang=\"en\">Taiho scores phase 3 win with oral cancer combo for AML-causing blood disorders</a>",
+          "summary": "The oral combination treatment delivered the same exposure to azacitidine as when the chemo was given subcutaneously\u2014meeting Taiho\u2019s primary endpoint.",
+          "url": "https://www.fiercepharma.com/pharma/taiho-scores-ph3-win-oral-chemo-combo-aml-causing-blood-disorders",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
             "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "Proactive market development in menopause eye health identifies underserved patient segment with growth opportunity.",
+            "conviction": 82,
+            "rationale": "Foundayo demonstrates strong cardiovascular mortality benefits (53% reduction) in phase 3, expanding market opportunity beyond diabetes/obesity.",
             "key_themes": [
-              "market expansion",
-              "unmet medical need",
-              "patient awareness"
+              "cardiovascular efficacy",
+              "phase 3 success",
+              "mortality reduction",
+              "expanded indication potential"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": 5
           },
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
             "sentiment": "bearish",
-            "conviction": 58,
-            "rationale": "Article on cancer drug resistance and access barriers signals headwinds for targeted therapies despite efficacy.",
+            "conviction": 71,
+            "rationale": "Pentobarbital delivery failures raise concerns about drug manufacturing quality control and regulatory oversight across pharmaceutical operations.",
+            "key_themes": [
+              "manufacturing quality",
+              "drug degradation",
+              "regulatory risk",
+              "delivery mechanism failures"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses pentobarbital delivery failures in an execution context (Christa Pike case), not a pharmaceutical manufacturing/quality control issue for JNJ's commercial operations. The rationale incorrectly conflates an isolated execution procedure failure with systemic pharmaceutical manufacturing quality concerns.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Pancreatic cancer drug resistance development (daraxonrasib) signals durability challenges common across oncology pipelines, limiting long-term revenue potential.",
             "key_themes": [
               "drug resistance",
-              "access barriers",
-              "pricing pressures"
+              "treatment durability",
+              "oncology challenges",
+              "limited efficacy duration"
             ],
             "time_horizon": "long-term",
             "verified": false,
-            "verification_issue": "Rationale attributes cancer drug resistance and access barriers to Eli Lilly specifically, but source articles [1] and [3] do not mention Eli Lilly. Article [1] discusses daraxonrasib (no manufacturer specified in summary), and article [3] discusses targeted gene therapies generically without naming Lilly as a primary subject.",
-            "supporting_article": null
+            "verification_issue": "Article [2] does not identify the manufacturer of daraxonrasib. The article only mentions that Senator Ben Sasse used the drug and that researchers are studying resistance development. No evidence supports attribution to Pfizer or connection to PFE's portfolio.",
+            "supporting_article": 2
           },
           {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "bearish",
-            "conviction": 55,
-            "rationale": "Pancreatic cancer drug resistance development raises questions about long-term efficacy and market sustainability.",
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Taiho's oral chemotherapy formulation success is tangentially relevant as a preclinical/manufacturing development, but direct impact on TMO's portfolio unclear.",
             "key_themes": [
-              "resistance mechanisms",
-              "clinical durability",
-              "competitive risk"
+              "oral drug formulation",
+              "manufacturing capability"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale attributes pancreatic cancer drug resistance to Merck, but article [1] discusses daraxonrasib and former Senator Ben Sasse without identifying the manufacturer. The analyst has made an unsupported company attribution.",
-            "supporting_article": null
+            "verification_issue": "Article [6] discusses Taiho's oral chemotherapy success but makes no mention of Thermo Fisher Scientific (TMO) or any connection to TMO's operations, portfolio, or manufacturing capabilities. The connection is entirely speculative.",
+            "supporting_article": 6
           }
         ],
-        "summary": "Healthcare sector faces mixed signals: oncology players encounter headwinds from drug resistance mechanisms and access barriers limiting blockbuster potential, while broader healthcare companies identify new market opportunities in overlooked patient segments. Digital transformation through AI-enabled marketing platforms and consolidation trends suggest competitive intensity increasing across the sector.",
+        "summary": "Eli Lilly shows strong momentum with Foundayo's cardiovascular efficacy data supporting broad market expansion, but the sector faces headwinds from manufacturing quality concerns (JNJ) and inherent drug resistance challenges in oncology (PFE). Overall healthcare innovation remains robust, though execution risks around drug durability and manufacturing standards warrant caution.",
         "risks": [
-          "Cancer drug resistance limiting long-term patient outcomes and revenue durability",
-          "Healthcare access barriers and pricing pressures preventing market penetration of novel therapies",
-          "Regulatory scrutiny on opioid-adjacent drugs (ketamine) creating reputational and legal risks",
-          "Competitive consolidation raising barriers for smaller players"
+          "Drug resistance development limiting oncology drug lifecycles and revenue durability",
+          "Pharmaceutical manufacturing and quality control failures undermining regulatory trust",
+          "GLP-1/diabetes-obesity market saturation risk as competition intensifies",
+          "Regulatory scrutiny on drug formulation and delivery mechanisms following safety incidents"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "LLY signal lacks grounding - no article establishes Eli Lilly as subject of cancer drug resistance/access barrier discussion",
-            "MRK signal lacks grounding - pancreatic cancer drug manufacturer not identified in source article [1]",
-            "Analyst may have hallucinated or made external assumptions about drug manufacturer identities not present in provided sources"
+            "JNJ signal misapplies execution procedure failure to commercial pharmaceutical quality control concerns",
+            "PFE signal attributes daraxonrasib to Pfizer without source confirmation",
+            "TMO signal speculates about relevance without any supporting connection in source material"
           ],
-          "ungrounded_count": 2
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JNJ": 263.125,
-        "LLY": 1149.3699951171875,
-        "MRK": 144.6750030517578
+        "LLY": 1149.02001953125,
+        "JNJ": 257.6099853515625,
+        "PFE": 28.079999923706055,
+        "TMO": 656.0399780273438
       },
       "spot_check": {
         "title": "Clues to Why a Breakthrough Pancreatic Cancer Drug Eventually Stops Working",
@@ -520,27 +555,29 @@
         "published": "30 Sep 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
           "sentiment": "bullish",
-          "conviction": 62,
-          "rationale": "Proactive market development in menopause eye health identifies underserved patient segment with growth opportunity.",
+          "conviction": 82,
+          "rationale": "Foundayo demonstrates strong cardiovascular mortality benefits (53% reduction) in phase 3, expanding market opportunity beyond diabetes/obesity.",
           "key_themes": [
-            "market expansion",
-            "unmet medical need",
-            "patient awareness"
+            "cardiovascular efficacy",
+            "phase 3 success",
+            "mortality reduction",
+            "expanded indication potential"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 5
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Proactive market development in menopause eye health identifies underserved patient segment with growth opportunity.",
+        "haiku_rationale": "Foundayo demonstrates strong cardiovascular mortality benefits (53% reduction) in phase 3, expanding market opportunity beyond diabetes/obesity.",
         "haiku_themes": [
-          "market expansion",
-          "unmet medical need",
-          "patient awareness"
+          "cardiovascular efficacy",
+          "phase 3 success",
+          "mortality reduction",
+          "expanded indication potential"
         ]
       },
       "config": {
@@ -560,27 +597,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Federal Watchdog Investigates Adam Kinzinger for Kalshi Bets on His Pardon",
-          "summary": "The inquiry by the Commodity Futures Trading Commission centers on bets the former congressman made on Kalshi in the weeks before he was pardoned in January 2025.",
-          "url": "https://www.nytimes.com/2026/10/01/us/politics/cftc-investigating-kinzinger-pardon-bet.html",
+          "title": "As Gas Prices Rose, Sales of Larger Vehicles Slid",
+          "summary": "Sales of big pickup trucks and sport utility vehicles have dipped as more Americans buy hybrids and smaller cars.",
+          "url": "https://www.nytimes.com/2026/10/02/business/auto-sales-pickup-trucks-suvs.html",
           "source": "Rss",
-          "published": "01 Oct 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "U.S. Bond Yields Hit Highest Level Since 2002",
-          "summary": "The factors pushing up yields, including the war in Iran and high government debt levels, are unlikely to dissipate soon.",
-          "url": "https://www.nytimes.com/2026/10/01/business/bond-yields-10-year-treasury.html",
-          "source": "Rss",
-          "published": "01 Oct 2026",
+          "published": "02 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The Global Bond Rout Reaches Worrying New Levels",
-          "summary": "Investors are on alert as the yield on the 10-year Treasury note hit a new multi-decade high. The sell-off is also broadening in Europe, too.",
-          "url": "https://www.nytimes.com/2026/10/01/business/dealbook/bond-rout-trump-powell.html",
+          "title": "Pay Advance Apps May Be Costlier Than Workers Think",
+          "summary": "The loans tide borrowers over until their next paycheck. The apps offer no-cost options, but most users end up paying high fees, a report finds.",
+          "url": "https://www.nytimes.com/2026/10/02/your-money/pay-advance-apps-fees.html",
           "source": "Rss",
-          "published": "01 Oct 2026",
+          "published": "02 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "The Latest Challenge to Data Centers? Restive Investors.",
+          "summary": "Rising government bond yields are beginning to upend the economics around the artificial intelligence build-out.",
+          "url": "https://www.nytimes.com/2026/10/02/business/dealbook/data-center-ai-bonds.html",
+          "source": "Rss",
+          "published": "02 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -612,174 +649,141 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
+            "company": "JPMorgan Chase & Co.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Rising bond yields to 2002 highs expand net interest margins for large banks",
+            "rationale": "Rising government bond yields improve net interest margins and lending profitability for large banks.",
             "key_themes": [
               "rising yields",
-              "NIM expansion",
-              "treasury market volatility"
+              "net interest margin expansion",
+              "AI infrastructure lending"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
           },
           {
             "ticker": "BAC",
-            "company": "Bank of America",
+            "company": "Bank of America Corp.",
             "sentiment": "bullish",
             "conviction": 70,
-            "rationale": "Higher yield environment supports improved profitability from lending operations",
+            "rationale": "Higher bond yields benefit BAC's net interest income; potential AI lending opportunities offset tech weakness.",
             "key_themes": [
               "rising yields",
-              "NIM expansion",
-              "fixed income strength"
+              "net interest margin",
+              "AI financing"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 3
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Elevated bond market volatility and yields create trading and advisory opportunities",
-            "key_themes": [
-              "rising yields",
-              "bond market volatility",
-              "trading revenue"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 69,
-            "rationale": "Global bond rout and yield volatility increase wealth management and trading revenues",
-            "key_themes": [
-              "rising yields",
-              "global bond volatility",
-              "trading strength"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BRK-B",
-            "company": "Berkshire Hathaway",
+            "company": "Goldman Sachs Group Inc.",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Higher yields improve returns on cash holdings but conflict with stock market weakness",
+            "conviction": 55,
+            "rationale": "Rising yields support trading revenues but tech sector AI selloff may reduce M&A advisory and underwriting activity.",
             "key_themes": [
               "rising yields",
-              "cash allocation",
-              "equity market uncertainty"
+              "tech volatility",
+              "M&A uncertainty"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              3,
+              4
+            ]
           },
           {
             "ticker": "V",
-            "company": "Visa",
+            "company": "Visa Inc.",
             "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Broad stock market decline and economic uncertainty from geopolitical tensions pressures payment volumes",
+            "conviction": 68,
+            "rationale": "Pay-advance app adoption reveals consumer financial stress; reduced discretionary spending pressures payment volumes.",
             "key_themes": [
-              "market volatility",
-              "economic uncertainty",
-              "payment volume risk"
+              "consumer debt burden",
+              "financial distress indicators",
+              "spending pressure"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale cites 'geopolitical tensions' as cause of stock market decline, but articles attribute decline to DeepSeek AI rout (Article 4), not geopolitical factors. Article 2 mentions 'war in Iran' affecting bond yields but does not connect this to payment volume risk or consumer spending pressure.",
-            "supporting_article": null
+            "verification_issue": "Article [2] discusses pay-advance app costs and fees but does not establish that adoption signals consumer financial stress or would materially pressure payment volumes. The connection between app usage and reduced discretionary spending is speculative and not supported by the source material.",
+            "supporting_article": 2
           },
           {
             "ticker": "MA",
-            "company": "Mastercard",
+            "company": "Mastercard Inc.",
             "sentiment": "bearish",
-            "conviction": 61,
-            "rationale": "Stock market rout and geopolitical risks reduce consumer spending and transaction growth",
+            "conviction": 66,
+            "rationale": "Rising use of pay-advance apps signals consumer financial stress; potential headwind for transaction volumes.",
             "key_themes": [
-              "market volatility",
-              "economic uncertainty",
-              "transaction decline"
+              "consumer financial stress",
+              "alternative lending trends",
+              "spending concerns"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale cites 'geopolitical risks' causing transaction decline, but articles attribute stock market decline to DeepSeek AI rout (Article 4), not geopolitical factors. Connection between geopolitical tensions and transaction decline is not supported by source material.",
-            "supporting_article": null
+            "verification_issue": "Article [2] discusses pay-advance app economics but does not establish that rising use signals consumer financial stress or constitutes a headwind for transaction volumes. The inference that app adoption pressures spending is not grounded in the provided source.",
+            "supporting_article": 2
           }
         ],
-        "summary": "Financial sector shows bifurcated outlook: traditional banks benefit from multi-decade high bond yields and increased market volatility, supporting NIM expansion and trading revenues. Conversely, payment processors face headwinds from broad equity market weakness, geopolitical tensions (Iran war), and reduced consumer spending amid economic uncertainty. Rising yields present both opportunities for fixed-income institutions and risks for growth-dependent equities.",
+        "summary": "Financial sector presents mixed signals with large banks (JPM, BAC) positioned to benefit from rising government bond yields improving net interest margins, offset by consumer weakness indicators from pay-advance app adoption suggesting spending stress. Payment processors face headwinds from consumer financial distress, while tech-exposed advisory businesses face near-term uncertainty from AI sector volatility.",
         "risks": [
-          "geopolitical escalation reducing risk appetite",
-          "potential recession limiting loan demand",
-          "regulatory scrutiny of derivatives trading",
-          "payment volume compression from consumer pullback",
-          "yield curve inversion impact on lending margins"
+          "Rapid AI technology breakthroughs could reduce lending demand for infrastructure",
+          "Recession risk if consumer financial stress indicated by pay-advance adoption accelerates",
+          "Tech sector weakness could dampen M&A and investment banking revenue",
+          "Bond yield reversal would eliminate net interest margin expansion benefits"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "Analyst misattributes primary cause of stock market decline: Articles show AI sector selloff (DeepSeek) is primary driver, not geopolitical tensions",
-            "Geopolitical factors mentioned in Article 2 (Iran war) relate to bond yields, not equity market volatility or payment processor performance",
-            "Rationale for V and MA conflates bond market issues with payment volume risk without clear causal link in source articles"
+            "V and MA bearish signals rely on an unsupported inference that pay-advance app usage indicates financial stress affecting discretionary spending",
+            "Sources confirm rising yields benefit bank margins (supporting JPM, BAC, GS) and tech sector volatility (supporting GS neutral view), but payment processor thesis lacks textual support"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 327.2799987792969,
-        "BAC": 53.09989929199219,
-        "GS": 886.8599853515625,
-        "MS": 184.61000061035156,
-        "BRK-B": 496.385009765625,
-        "V": 360.1199951171875,
-        "MA": 552.6199951171875
+        "JPM": 333.4750061035156,
+        "BAC": 53.70000076293945,
+        "GS": 906.0,
+        "V": 357.9599914550781,
+        "MA": 547.0
       },
       "spot_check": {
-        "title": "Federal Watchdog Investigates Adam Kinzinger for Kalshi Bets on His Pardon",
-        "summary": "The inquiry by the Commodity Futures Trading Commission centers on bets the former congressman made on Kalshi in the weeks before he was pardoned in January 2025.",
-        "url": "https://www.nytimes.com/2026/10/01/us/politics/cftc-investigating-kinzinger-pardon-bet.html",
+        "title": "As Gas Prices Rose, Sales of Larger Vehicles Slid",
+        "summary": "Sales of big pickup trucks and sport utility vehicles have dipped as more Americans buy hybrids and smaller cars.",
+        "url": "https://www.nytimes.com/2026/10/02/business/auto-sales-pickup-trucks-suvs.html",
         "source": "Rss",
-        "published": "01 Oct 2026",
-        "sentiment_hint": "bearish",
+        "published": "02 Oct 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "JPM",
-          "company": "JPMorgan Chase",
+          "company": "JPMorgan Chase & Co.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Rising bond yields to 2002 highs expand net interest margins for large banks",
+          "rationale": "Rising government bond yields improve net interest margins and lending profitability for large banks.",
           "key_themes": [
             "rising yields",
-            "NIM expansion",
-            "treasury market volatility"
+            "net interest margin expansion",
+            "AI infrastructure lending"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Rising bond yields to 2002 highs expand net interest margins for large banks",
+        "haiku_rationale": "Rising government bond yields improve net interest margins and lending profitability for large banks.",
         "haiku_themes": [
           "rising yields",
-          "NIM expansion",
-          "treasury market volatility"
+          "net interest margin expansion",
+          "AI infrastructure lending"
         ]
       },
       "config": {
