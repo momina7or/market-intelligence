@@ -22536,5 +22536,322 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-05",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "M6 Mac Mini pricing power and premium positioning demonstrates strong demand for Apple silicon despite $300 price increase YoY.",
+            "key_themes": [
+              "product pricing",
+              "silicon leadership",
+              "premium positioning"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions M6 Mac Mini pricing ($899 vs $599 prior generation) but does NOT discuss demand, pricing power, or validate strong consumer interest. The article only notes the price increase as a 'negative' and mentions a current discount. No evidence of demand strength or premium positioning success.",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT organic recommendation data signals competitive AI search threat, validating Google's urgent need for AI differentiation investments.",
+            "key_themes": [
+              "AI competition",
+              "search disruption",
+              "LLM integration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT dominance in organic recommendations and AI tool proliferation underscores OpenAI partnership value and enterprise AI demand.",
+            "key_themes": [
+              "AI monetization",
+              "ChatGPT adoption",
+              "content creation tools"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 333.3999938964844,
+          "GOOGL": 345.4700012207031,
+          "MSFT": 526.3499755859375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Facing Supreme Court climate liability lawsuit in Colorado; regulatory/legal headwinds increasing",
+            "key_themes": [
+              "climate litigation risk",
+              "regulatory exposure",
+              "stranded asset risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Not directly mentioned; indirect exposure to EU demand destruction from EV surge and climate policy",
+            "key_themes": [
+              "demand headwinds",
+              "energy transition",
+              "macro uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Indirect inference; rationale claims exposure to EV surge demand destruction which is supported by Article 1, but CVX is not mentioned in any source",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "No direct mention; generic exposure to structural EV headwinds and potential refinery disruptions",
+            "key_themes": [
+              "demand destruction",
+              "geopolitical refining risk",
+              "energy transition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale references 'potential refinery disruptions' citing geopolitical risk, but Article 2 (Saudi refinery attack) does not mention ConocoPhillips. EV headwinds are supported by Article 1, but refinery disruption claim is unsupported for this specific company",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 163.91000366210938,
+          "CVX": 206.30999755859375,
+          "COP": 128.30999755859375
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Neuroscience Nobel Prize validates optogenetics field; JNJ has neuroscience portfolio positioned for emerging therapies.",
+            "key_themes": [
+              "neuroscience innovation",
+              "optogenetics applications",
+              "R&D pipeline"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Strong neuroscience capabilities; optogenetics breakthrough could enhance CNS drug development pipeline.",
+            "key_themes": [
+              "neuroscience innovation",
+              "CNS drug development",
+              "R&D advantage"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Patient support program integration becoming competitive necessity; applies broadly but no specific directional catalyst.",
+            "key_themes": [
+              "patient support programs",
+              "commercial differentiation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Flexible manufacturing for specialized therapies increasingly important; relevant to business model but non-differentiating.",
+            "key_themes": [
+              "manufacturing flexibility",
+              "personalized medicine"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 253.83999633789062,
+          "LLY": 1150.6300048828125,
+          "PFE": 27.360000610351562,
+          "ABBV": 262.4175109863281
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Higher rates benefit net interest margins, but AI-driven tech volatility creates uncertainty for investment banking pipeline.",
+            "key_themes": [
+              "interest rate environment",
+              "investment banking uncertainty",
+              "tech sector volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Net interest margin expansion from sustained high rates offset by reduced M&A activity amid tech sector selloff concerns.",
+            "key_themes": [
+              "interest rate environment",
+              "investment banking slowdown",
+              "tech volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Broad AI rout and tech sector volatility significantly reduce investment banking and trading opportunities for capital markets division.",
+            "key_themes": [
+              "AI sector volatility",
+              "investment banking headwinds",
+              "trading volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Nasdaq-led selloff and AI infrastructure collapse directly impact wealth management and capital markets revenue streams.",
+            "key_themes": [
+              "AI sector rout",
+              "market volatility",
+              "wealth management headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Broad market selloff creates near-term headwinds for transaction volumes, though geopolitical concerns support stable cross-border payment demand.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical uncertainty",
+              "transaction volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'geopolitical concerns support stable cross-border payment demand' but source article [3] mentions trade blockages as a constraint, not a demand driver. No direct evidence that geopolitical uncertainty would support payment volumes.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Market volatility pressures transaction growth near-term, but persistent geopolitical trade concerns may support e-commerce and digital payment adoption.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical trade barriers",
+              "digital payments"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'geopolitical trade concerns may support e-commerce and digital payment adoption' but source article [3] discusses trade blockages as impediments, not catalysts. No evidence provided that trade barriers would increase digital payment adoption.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 331.9115905761719,
+          "BAC": 54.08000183105469,
+          "GS": 895.4099731445312,
+          "MS": 189.52000427246094,
+          "V": 365.9800109863281,
+          "MA": 561.8897705078125
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
