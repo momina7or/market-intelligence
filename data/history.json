@@ -22853,5 +22853,365 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-06",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search integration threatens Google's search dominance; prompts AI investment acceleration and competitive pressure.",
+            "key_themes": [
+              "AI search disruption",
+              "competitive threat",
+              "AI infrastructure investment"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's demonstrated value in organic search and content discovery validates OpenAI partnership; strengthens AI ecosystem moat.",
+            "key_themes": [
+              "AI monetization",
+              "ChatGPT adoption",
+              "enterprise AI demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Proliferation of AI content creation tools and ChatGPT integration demand increased GPU compute for model inference and training.",
+            "key_themes": [
+              "AI infrastructure",
+              "compute demand",
+              "data center acceleration"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools could enhance creator economy on Meta platforms, but competitive threats from ChatGPT-driven search alternatives exist.",
+            "key_themes": [
+              "creator tools",
+              "AI content",
+              "platform competition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 344.9049987792969,
+          "MSFT": 532.815673828125,
+          "NVDA": 242.15480041503906,
+          "META": 737.8150024414062
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "EU methane regulation delay reduces compliance costs for major exporters; positive for upstream operations.",
+            "key_themes": [
+              "regulatory relief",
+              "cost savings",
+              "European supply security"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "EU methane flexibility and Ecuador crude supply expansion create growth opportunities for major producers.",
+            "key_themes": [
+              "regulatory relief",
+              "supply diversification",
+              "emerging market exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "EU methane delay benefits European refinery operations; maintains supply stability during energy crisis.",
+            "key_themes": [
+              "regulatory relief",
+              "refinery margins",
+              "European market"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Article mentions 'refinery talks' but does not detail BP-specific refinery operations or margin impacts",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Methane regulation delay reduces compliance burden; refinery talks favor large integrated energy companies.",
+            "key_themes": [
+              "regulatory relief",
+              "operational flexibility",
+              "supply security"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "EU methane flexibility and Ecuador supply discussions benefit major international oil & gas player.",
+            "key_themes": [
+              "regulatory relief",
+              "emerging markets",
+              "supply diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Limited direct exposure to EU regulations or Ecuador operations; Ecuador crude discussions not company-specific.",
+            "key_themes": [
+              "regional exposure",
+              "regulatory framework"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale correctly identifies limited direct exposure, but neutral sentiment is appropriately justified by lack of company-specific information",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 163.41000366210938,
+          "CVX": 205.4149932861328,
+          "BP": 44.28499984741211,
+          "SHEL": 96.26000213623047,
+          "TTE": 84.58999633789062,
+          "COP": 127.9800033569336
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Vaccination program under political attack in Texas could create regulatory headwinds and reputational risks for major vaccine manufacturers.",
+            "key_themes": [
+              "regulatory risk",
+              "political pressure on vaccination",
+              "pediatric vaccines"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Texas attorney general investigations into pediatric vaccination practices pose near-term legal and regulatory risks affecting vaccine uptake and revenue.",
+            "key_themes": [
+              "legal investigations",
+              "vaccine program disruption",
+              "market access risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "Neuroscience optogenetics advances recognized by Nobel Prize could drive long-term growth in neurological and psychiatric drug development pipelines.",
+            "key_themes": [
+              "neuroscience innovation",
+              "optogenetics breakthroughs",
+              "R&D opportunity"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 55,
+            "rationale": "Optogenetics Nobel Prize validates emerging neuroscience field, driving demand for research tools, reagents, and instrumentation across healthcare and biotech.",
+            "key_themes": [
+              "research tools demand",
+              "neuroscience expansion",
+              "biotech enabler"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 253.51499938964844,
+          "PFE": 27.614999771118164,
+          "LLY": 1173.31494140625,
+          "TMO": 684.1199951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Widening U.S. trade deficit may pressure economic growth; mixed signals from market volatility.",
+            "key_themes": [
+              "trade deficit",
+              "market volatility",
+              "economic headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Trade deficit concerns create uncertainty for lending outlook; AI sector selloff adds market volatility.",
+            "key_themes": [
+              "trade deficit",
+              "market uncertainty",
+              "economic slowdown risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Widening trade deficit signals potential economic slowdown; broad market rout creates risk-off sentiment.",
+            "key_themes": [
+              "trade deficit",
+              "economic slowdown",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Trade deficit widening and AI-driven market selloff create near-term headwinds for payment volume growth.",
+            "key_themes": [
+              "trade deficit",
+              "market rout",
+              "economic uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 333.5,
+          "BAC": 54.209999084472656,
+          "V": 369.75,
+          "MA": 565.7899780273438
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      }
+    }
   }
 ]
