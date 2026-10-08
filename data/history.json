@@ -23537,5 +23537,419 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-10-08",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates AI's impact on organic discovery; Google must innovate to defend search monetization.",
+            "key_themes": [
+              "AI-driven search transformation",
+              "organic traffic disruption",
+              "competitive pressure from ChatGPT"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "OpenAI's Dots AI agent and ChatGPT prominence in content discovery validates Microsoft's AI strategy and Copilot ecosystem expansion.",
+            "key_themes": [
+              "AI agents commercialization",
+              "ChatGPT adoption",
+              "consumer AI platforms"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Meta's Muse AI agent entry into consumer AI ecosystem shows competitive positioning in emerging AI agent market alongside OpenAI and Amazon.",
+            "key_themes": [
+              "AI agent development",
+              "consumer AI competition",
+              "platform diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Articles focus on third-party AI tools and agents; limited direct mention of Apple's AI strategy or products in current content landscape.",
+            "key_themes": [
+              "AI tool ecosystem",
+              "third-party competition"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Apple mention is indirect (Echo Show/Alexa ecosystem); article focuses on Amazon/Alexa Plus, not Apple products or strategy",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 352.5299987792969,
+          "MSFT": 530.4149780273438,
+          "META": 721.5,
+          "AAPL": 336.69500732421875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Record supertanker rates ($1.4M/day) and shipping bottlenecks increase crude transport costs and margins for integrated majors.",
+            "key_themes": [
+              "shipping constraints",
+              "supply disruption",
+              "margin expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated tanker rates and Strait of Hormuz congestion support higher realized prices for crude exports.",
+            "key_themes": [
+              "shipping constraints",
+              "supply disruption",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Potential revival of Russian gas to Europe via Nord Stream pipeline negotiations could restore European supply and benefit LNG traders.",
+            "key_themes": [
+              "supply diversification",
+              "geopolitical shift",
+              "gas demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Article discusses pipeline discussions but does not confirm revival or indicate Shell as direct beneficiary; characterization as 'restore European supply' is speculative beyond source material",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Russian gas revival could pressure LNG market share, but supertanker rate strength supports oil trading operations.",
+            "key_themes": [
+              "competitive pressure",
+              "shipping tailwinds",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Supertanker rates supported by Article 2; Russian gas claim supported by Article 3, but claim that it 'could pressure LNG market share' is inferential rather than stated in sources",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Supertanker rate gains offset by strategic shift toward renewables; limited direct crude export exposure vs. integrated peers.",
+            "key_themes": [
+              "shipping tailwinds",
+              "energy transition",
+              "limited upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While supertanker rates are grounded in Article 2, the claim about BP's 'strategic shift toward renewables' and 'limited direct crude export exposure vs. integrated peers' is not supported by any source article provided",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 167.77000427246094,
+          "CVX": 210.77999877929688,
+          "SHEL": 100.11499786376953,
+          "TTE": 86.94000244140625,
+          "BP": 46.18000030517578
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Vaccine safety scrutiny from RFK Jr. initiative and HIV research funding delays threaten vaccine revenue streams.",
+            "key_themes": [
+              "vaccine safety concerns",
+              "regulatory uncertainty",
+              "government funding delays"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Vaccine division exposed to RFK Jr.'s safety initiative and HIV research funding delays affecting immunology portfolio.",
+            "key_themes": [
+              "vaccine scrutiny",
+              "regulatory risk",
+              "R&D funding uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Drug pricing pressure from CMS 'most favored nation' Medicare Part B model threatens margins across portfolio.",
+            "key_themes": [
+              "pricing regulation",
+              "Medicare pressure",
+              "margin compression"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Vaccine portfolio at risk from RFK Jr. safety initiative; HIV research funding delays impact infectious disease pipeline.",
+            "key_themes": [
+              "vaccine safety concerns",
+              "HIV research disruption",
+              "regulatory headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad exposure to pricing regulation through CMS 'most favored nation' model threatening drug reimbursement rates.",
+            "key_themes": [
+              "pricing pressure",
+              "Medicare reform",
+              "revenue risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bullish",
+            "conviction": 55,
+            "rationale": "CMS pricing controls benefit payers through lower drug costs; potential margin expansion from reduced pharmaceutical expenses.",
+            "key_themes": [
+              "drug cost reduction",
+              "pricing advantage",
+              "margin benefit"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 27.648000717163086,
+          "JNJ": 253.36000061035156,
+          "LLY": 1141.21630859375,
+          "MRK": 140.0749969482422,
+          "ABBV": 268.17999267578125,
+          "UNH": 370.625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Rising interest rates from debt crises and geopolitical tensions expand net interest margins for large banks.",
+            "key_themes": [
+              "higher rates",
+              "debt crisis",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated rates from French debt crisis and Middle East tensions benefit net interest income and lending spreads.",
+            "key_themes": [
+              "higher rates",
+              "debt crisis",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "M&A and capital markets activity may benefit from higher rates, but tech sector stress creates conflicting pressures.",
+            "key_themes": [
+              "higher rates",
+              "tech volatility",
+              "market uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Wealth management benefits from higher rates offset by tech sector stress and equities market turbulence.",
+            "key_themes": [
+              "higher rates",
+              "tech volatility",
+              "market uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Broader market selloff and economic uncertainty from geopolitical tensions may reduce transaction volumes and spending.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical risk",
+              "economic uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims geopolitical tensions reduce transaction volumes, but no article establishes this causal link. Article [2] covers Middle East tensions and oil prices, not consumer spending impacts.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Market turmoil and geopolitical escalation create headwinds for payment transaction growth and consumer spending.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical risk",
+              "economic uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims geopolitical escalation creates headwinds for payment growth, but no article demonstrates this connection. Article [2] mentions Middle East tensions affecting oil, not payment volumes.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 327.94500732421875,
+          "BAC": 52.95000076293945,
+          "GS": 885.3350219726562,
+          "MS": 187.36000061035156,
+          "V": 376.08441162109375,
+          "MA": 576.0953979492188
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
