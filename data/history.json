@@ -24338,5 +24338,311 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-12",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT displacing Google Search signals AI-driven traffic monetization opportunity; Android laptops expanding ecosystem reach.",
+            "key_themes": [
+              "AI search disruption",
+              "Android expansion",
+              "content discovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending content, but this demonstrates ChatGPT's capability, not Google's opportunity. The rationale misinterprets the signal as bullish for Google when it actually suggests ChatGPT/AI search is displacing Google Search. Article [6] mentions Android laptops but provides no evidence of 'ecosystem reach expansion' benefiting Google competitively. The rationale conflates Android existence with positive Google business signals.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's proven ability to drive qualified organic traffic validates AI assistant monetization potential and enterprise AI adoption.",
+            "key_themes": [
+              "AI monetization",
+              "content discovery",
+              "ChatGPT traction"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 354.06500244140625,
+          "MSFT": 540.6699829101562
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Q3 energy sector outperformance (16.5% gain) driven by fuel market tightening benefits oilfield services demand",
+            "key_themes": [
+              "fuel market tightening",
+              "energy sector recovery",
+              "services demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Q3 sector gains noted but article states 'biggest winners weren't oil and gas producers,' suggesting muted upside",
+            "key_themes": [
+              "sector rotation away from majors",
+              "energy supply resilience"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to XOM; Q3 gains benefited sector but majors underperformed relative to other energy segments",
+            "key_themes": [
+              "sector rotation away from majors",
+              "fuel tightening"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Oil/gas producer facing sector headwinds; EU sanctions risk on Russian energy presents geopolitical uncertainty",
+            "key_themes": [
+              "EU sanctions complexity",
+              "energy security concerns",
+              "majors underperformance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Sanctions risk is mentioned in Article [3], but article does not specifically discuss BP's exposure or operations",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Major producer facing similar sector rotation; EU-Russia energy dynamics create medium-term regulatory risk",
+            "key_themes": [
+              "EU regulatory risk",
+              "majors underperformance",
+              "sanctions uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "EU-Russia energy dynamics mentioned in Article [3], but Shell is not specifically discussed",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Most exposed to EU sanctions risk on Russian LNG; January 2027 regulatory cliff threatens energy sourcing strategy",
+            "key_themes": [
+              "EU LNG sanctions cliff",
+              "supply chain disruption",
+              "compliance risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Benefits from fuel market tightening but sector data shows oil/gas majors underperformed Q3 energy rally",
+            "key_themes": [
+              "fuel tightening",
+              "majors underperformance",
+              "geopolitical stability"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "SLB": 48.8849983215332,
+          "XOM": 172.02000427246094,
+          "CVX": 215.0800018310547,
+          "BP": 46.82500076293945,
+          "SHEL": 101.79000091552734,
+          "TTE": 88.22000122070312,
+          "COP": 136.81500244140625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Dementia research urgency creates significant long-term pipeline opportunity for CNS drug development and commercialization.",
+            "key_themes": [
+              "dementia research",
+              "CNS pipeline expansion",
+              "unmet medical need"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses dementia research urgency but does not mention Eli Lilly or any specific company. Rationale makes an unsupported leap from general dementia research trends to LLY's pipeline opportunity without evidence of LLY's involvement in this space from the sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Infectious disease focus and rare disease expertise position JNJ well for emerging pathogen threats and orphan indications.",
+            "key_themes": [
+              "infectious disease",
+              "rare disease expertise",
+              "public health preparedness"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses Ebola discovery and infectious disease history, but does not mention Johnson & Johnson specifically or connect to JNJ's current capabilities. No article discusses JNJ's rare disease expertise. Rationale infers JNJ positioning without direct source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Ketamine mechanism insights may support psychiatric medication development, but article lacks direct pharma industry connection.",
+            "key_themes": [
+              "CNS disorder treatment",
+              "psychiatric applications"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] explains ketamine's immobilization mechanism but contains no mention of Pfizer or any pharmaceutical company's development efforts. Analyst correctly notes 'lacks direct pharma industry connection' but still assigns positive conviction despite this acknowledged gap.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1175.7900390625,
+          "JNJ": 263.2699890136719,
+          "PFE": 28.364999771118164
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Market volatility from AI rout may increase trading volumes, but Social Security funding crisis poses long-term deposit risks.",
+            "key_themes": [
+              "market volatility",
+              "social security headwinds",
+              "wealth management uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale conflates two separate events: AI rout (Article 4) and Social Security crisis (Article 1). While both are mentioned in sources, the specific causal link to JPM's deposit risks is not established in any article. No article discusses how Social Security funding affects bank deposits.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Broad market decline may pressure lending spreads; Social Security shortfall threatens retirement savings flows.",
+            "key_themes": [
+              "market decline impact",
+              "consumer retirement concerns",
+              "deposit dynamics"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale connects market decline (Article 4) to Social Security shortfall (Article 1), but no source article discusses how Social Security funding impacts bank lending spreads or deposit dynamics. The connection is speculative.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Market rout and Social Security funding crisis reduce consumer discretionary spending and payment transaction volumes.",
+            "key_themes": [
+              "consumer spending pressure",
+              "market decline",
+              "retirement income squeeze"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims Social Security funding crisis reduces consumer discretionary spending, but Article 1 only describes the 2032 shortfall scenario without quantifying impact on near-term consumer spending. No article links Social Security to payment volume changes for Visa.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Market turmoil and Social Security depletion forecast dampen consumer transaction activity and spending capacity.",
+            "key_themes": [
+              "transaction volume risk",
+              "consumer discretionary weakness",
+              "macro headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Similar to Visa: rationale assumes Social Security depletion directly dampens consumer transaction activity, but Article 1 does not establish this causal relationship or quantify spending impact. No source supports the transaction volume risk claim.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 334.1000061035156,
+          "BAC": 54.34000015258789,
+          "V": 390.8949890136719,
+          "MA": 597.4400024414062
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      }
+    }
   }
 ]
