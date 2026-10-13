@@ -24644,5 +24644,245 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-10-13",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "HomePod Mini 2 launch with S10 chip demonstrates continued AI integration in hardware ecosystem after 6-year gap.",
+            "key_themes": [
+              "AI-enabled hardware",
+              "smart home expansion",
+              "product refresh cycle"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "DLSS 5 AI upscaling technology adoption in gaming faces early skepticism; facial reconstruction concerns may slow enterprise gaming adoption.",
+            "key_themes": [
+              "generative AI gaming",
+              "technology reception risk",
+              "market adoption uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT organic traffic displacement threat evident, but demonstrates growing AI search competition requiring Google's continued AI investment prioritization.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "market share pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale frames as ChatGPT threat to Google, but source article describes ChatGPT's organic recommendation capability, not direct displacement. The connection to Google's market share pressure is inferential rather than explicitly stated in source material.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 346.20001220703125,
+          "NVDA": 225.8404998779297,
+          "GOOGL": 354.4200134277344
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "LNG supply relief from El Ni\u00f1o reduces Asian demand, freeing cargoes for European markets where TTE has significant LNG operations.",
+            "key_themes": [
+              "LNG market dynamics",
+              "European energy security",
+              "weather-driven demand shift"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Super El Ni\u00f1o reduces LNG demand in Asia, benefiting Shell's European LNG positioning and improving gas storage fill rates.",
+            "key_themes": [
+              "LNG arbitrage opportunities",
+              "European supply gains",
+              "seasonal demand patterns"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Russian diesel exports and geopolitical uncertainty create mixed signals; limited direct operational impact from disclosed news.",
+            "key_themes": [
+              "geopolitical volatility",
+              "energy market uncertainty",
+              "Russian competition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] describes Trump defending Russian diesel exports and claims of an energy ceasefire, but does not establish any clear operational impact on BP or substantiate how this creates 'mixed signals' for BP specifically. The rationale lacks connection between the geopolitical event and BP's business positioning.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 89.18499755859375,
+          "SHEL": 102.8499984741211,
+          "BP": 48.45500183105469
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Dementia research urgency creates expanded pipeline opportunities for neurodegenerative disease therapeutics.",
+            "key_themes": [
+              "dementia treatment",
+              "unmet medical need",
+              "R&D expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Inflammatory disease awareness campaigns (HS, psoriasis, PsA) signal market expansion for ABBV's immunology portfolio.",
+            "key_themes": [
+              "inflammatory diseases",
+              "patient awareness",
+              "market development"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "RNA manufacturing infrastructure investment may benefit future pipeline, but current impact unclear for near-term growth.",
+            "key_themes": [
+              "RNA technology",
+              "manufacturing capability",
+              "long-term positioning"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1177.114990234375,
+          "ABBV": 278.8599853515625,
+          "PFE": 28.358800888061523
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Q3 earnings disappointed with higher interest rates pressuring profitability despite prior strong performance.",
+            "key_themes": [
+              "interest rate pressure",
+              "earnings miss",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Posted better-than-expected Q3 results, outperforming JPMorgan amid challenging interest rate environment.",
+            "key_themes": [
+              "earnings beat",
+              "relative outperformance",
+              "operational efficiency"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "No direct mention in articles; sector headwinds from rate pressure affect investment banking and trading divisions.",
+            "key_themes": [
+              "interest rate impact",
+              "sector uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "No mention of Morgan Stanley in any source article; analyst inferred sector impact without direct evidence",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 336.1499938964844,
+          "GS": 904.8699951171875,
+          "MS": 189.1699981689453
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]

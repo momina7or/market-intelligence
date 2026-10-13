@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-10-12",
-  "run_time": "2026-10-12T16:29:12.349486Z",
+  "run_date": "2026-10-13",
+  "run_time": "2026-10-13T14:47:27.370423Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,86 +29,102 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The Yandex outage probably didn\u2019t blitz Russian bots",
-          "summary": "Multiple Ukrainian drone strikes over the last week have taken Russian data centers offline and reportedly caused online bot traffic to plummet - but in reality it's probably not the kind of bot activity most people associate with Russia. A chart citing Cloudflare data has been circulating around social media platforms, showing a sharp decline [&#8230;]",
-          "url": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk",
+          "title": "Apple\u2019s HomePod Mini 2 is available to preorder",
+          "summary": "After nearly six years, Apple debuted a new, improved HomePod Mini. The $149 HomePod Mini 2 will launch on Friday, October 30th, and you can place a preorder now through Apple. The speaker includes the S10 chip, which debuted in the Apple Watch Series 10, and it can power a host of features. It will [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/1009971/apple-homepod-mini-2-preorder-buy",
           "source": "Theverge",
-          "published": "12 Oct 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Mechanism&#8217;s first Switch 2 case is as awesome as I hoped it would be",
-          "summary": "Most companies have slowed down releasing new Switch 2 cases, but one of my favorite accessory makers recently debuted its first, after a few delays. The $49 Basecase from Mechanism is a snap-on shell for the console that taps into the company's modular lineup of mounts. You could already mount the Switch 2 in numerous [&#8230;]",
-          "url": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
-          "source": "Theverge",
-          "published": "12 Oct 2026",
+          "published": "13 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Android is the best and worst thing about Googlebooks",
-          "summary": "My first week with the new Android-powered laptops has been about as rocky as anyone's, but I've slowly learned to like them, even if love still feels a ways off. Every moment that's impressed me has been thanks to Android, whether I've been accessing a native version of a useful app or quickly checking my [&#8230;]",
-          "url": "https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing",
+          "title": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
+          "summary": "When Nvidia originally showed off DLSS 5 earlier this year, the technology immediately got branded as gen AI for video games. To gamers, Nvidia had lost the plot. I personally couldn't get over how faces were transformed using DLSS 5. The 15-year-old student from Hogwarts Legacy suddenly looked much older, and Grace from Resident Evil [&#8230;]",
+          "url": "https://www.theverge.com/news/1009904/dlss-5-hogwarts-legacy-changes-improvements",
           "source": "Theverge",
-          "published": "12 Oct 2026",
+          "published": "13 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Discovery Plus is getting more expensive",
+          "summary": "Discovery Plus is raising prices across its ad-free and ad-supported plans. Starting Tuesday, the ad-supported plan will go from $5.99 to $6.99 / month, while the ad-free tier will jump from $9.99 to $11.99 / month. The price hike comes just one week after Paramount closed its acquisition of Warner Bros. Discovery, which owned Discovery [&#8230;]",
+          "url": "https://www.theverge.com/streaming/1009994/discovery-plus-price-increase",
+          "source": "Theverge",
+          "published": "13 Oct 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT displacing Google Search signals AI-driven traffic monetization opportunity; Android laptops expanding ecosystem reach.",
+            "rationale": "HomePod Mini 2 launch with S10 chip demonstrates continued AI integration in hardware ecosystem after 6-year gap.",
             "key_themes": [
-              "AI search disruption",
-              "Android expansion",
-              "content discovery"
+              "AI-enabled hardware",
+              "smart home expansion",
+              "product refresh cycle"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes ChatGPT recommending content, but this demonstrates ChatGPT's capability, not Google's opportunity. The rationale misinterprets the signal as bullish for Google when it actually suggests ChatGPT/AI search is displacing Google Search. Article [6] mentions Android laptops but provides no evidence of 'ecosystem reach expansion' benefiting Google competitively. The rationale conflates Android existence with positive Google business signals.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "ChatGPT's proven ability to drive qualified organic traffic validates AI assistant monetization potential and enterprise AI adoption.",
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "DLSS 5 AI upscaling technology adoption in gaming faces early skepticism; facial reconstruction concerns may slow enterprise gaming adoption.",
             "key_themes": [
-              "AI monetization",
-              "content discovery",
-              "ChatGPT traction"
+              "generative AI gaming",
+              "technology reception risk",
+              "market adoption uncertainty"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT organic traffic displacement threat evident, but demonstrates growing AI search competition requiring Google's continued AI investment prioritization.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "market share pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale frames as ChatGPT threat to Google, but source article describes ChatGPT's organic recommendation capability, not direct displacement. The connection to Google's market share pressure is inferential rather than explicitly stated in source material.",
             "supporting_article": 1
           }
         ],
-        "summary": "Articles demonstrate AI assistants (ChatGPT) are actively displacing traditional search and becoming primary discovery mechanisms for content, validating enterprise AI investments. Android ecosystem expansion and content creation AI tools show broad AI adoption acceleration. However, article quality is limited and lacks specific financial metrics, limiting conviction on individual stocks beyond Microsoft and Google's direct AI exposure.",
+        "summary": "The technology sector shows mixed AI momentum: while AI tools proliferate in content creation and hardware integration (AAPL, GOOGL), execution challenges emerge with NVDA's DLSS 5 facing early skepticism. AI-driven search disruption via ChatGPT poses a material threat to traditional search monetization, signaling a competitive inflection point requiring rapid innovation cycles across the sector.",
         "risks": [
-          "ChatGPT revenue monetization models remain unproven",
-          "Google's search dominance persistence underestimated",
-          "AI tool commoditization could compress margins",
-          "Limited concrete financial data in source materials"
+          "AI model facial reconstruction artifacts damaging enterprise gaming adoption and brand reputation",
+          "ChatGPT and competitor LLMs permanently cannibalizing organic search traffic and ad-dependent business models",
+          "Consumer AI tool saturation reducing differentiation and pricing power across content creation platforms",
+          "Regulatory scrutiny on generative AI content creation and data training practices"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "GOOGL signal misinterprets ChatGPT traffic displacement as a Google opportunity when it represents potential Google Search disruption",
-            "GOOGL signal claims 'Android laptops expanding ecosystem reach' but Article [6] is a product review with no evidence of market expansion or competitive advantage",
-            "GOOGL bullish conviction (72) appears misaligned with source material showing AI assistants potentially cannibalizing Google Search"
+            "GOOGL rationale conflates ChatGPT's ability to recommend content with actual 'organic traffic displacement threat' - the source article does not present this as a threat to Google, merely as an alternative discovery mechanism",
+            "GOOGL signal frames the ChatGPT scenario as evidence of 'AI search competition requiring Google's continued AI investment' but the article does not discuss Google's response or investment strategy"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "GOOGL": 354.06500244140625,
-        "MSFT": 540.6699829101562
+        "AAPL": 346.20001220703125,
+        "NVDA": 225.8404998779297,
+        "GOOGL": 354.4200134277344
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -118,27 +134,27 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "ChatGPT's proven ability to drive qualified organic traffic validates AI assistant monetization potential and enterprise AI adoption.",
+          "conviction": 72,
+          "rationale": "HomePod Mini 2 launch with S10 chip demonstrates continued AI integration in hardware ecosystem after 6-year gap.",
           "key_themes": [
-            "AI monetization",
-            "content discovery",
-            "ChatGPT traction"
+            "AI-enabled hardware",
+            "smart home expansion",
+            "product refresh cycle"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's proven ability to drive qualified organic traffic validates AI assistant monetization potential and enterprise AI adoption.",
+        "haiku_rationale": "HomePod Mini 2 launch with S10 chip demonstrates continued AI integration in hardware ecosystem after 6-year gap.",
         "haiku_themes": [
-          "AI monetization",
-          "content discovery",
-          "ChatGPT traction"
+          "AI-enabled hardware",
+          "smart home expansion",
+          "product refresh cycle"
         ]
       },
       "config": {
@@ -158,28 +174,36 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Energy Stocks Soared in Q3 as Fuel Markets Tightened",
-          "summary": "The energy sector came roaring back in the third quarter of 2026. After finishing at the bottom of the sector rankings in Q2, Energy gained 16.5% in Q3, easily outpacing every other sector and the S&amp;P 500\u2019s 2.0% return. That was a remarkable turnaround, but the headline sector number doesn\u2019t fully capture what happened beneath the surface, because returns varied dramatically across different parts of the energy business. The biggest winners weren\u2019t the companies producing oil and gas. They w",
-          "url": "https://oilprice.com/Energy/Energy-General/Energy-Stocks-Soared-in-Q3-as-Fuel-Markets-Tightened.html",
+          "title": "Japanese Refiners Buy Middle East Crude Through Ship-to-Ship Transfers",
+          "summary": "Several Japanese oil tankers are returning to the Middle East to pick up crude cargoes for Japan\u2019s refineries, but none of these are moving into the Persian Gulf through the Strait of Hormuz. Instead, a rising number of Japan-owned or Japan-bound tankers \u2013 most of which have steered clear of the Middle East since the Iran war began \u2013 are returning to waters in the Gulf of Oman to participate in ship-to-ship (STS) transfers offshore Oman or Fujairah, Bloomberg reported on Tuesday, quoting shipbro",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Buy-Middle-East-Crude-Through-Ship-to-Ship-Transfers.html",
           "source": "Oilprice",
-          "published": "12 Oct 2026",
+          "published": "13 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Trump Defends Russian Diesel Deal as Energy Ceasefire Claims Unravel",
+          "summary": "US President Donald Trump, in the face of sharp criticism from officials in Ukraine, Europe, and even his Republican party, defended his decision to allow Russian diesel exports and insisted an energy cease-fire between Kyiv and Moscow is in place despite a lack of confirmation from either side. Speaking to reporters on the White House lawn on October 12, Trump maintained that the truce was in place even as Ukrainian officials reported further Russian strikes. Asked whether the two sides had agr",
+          "url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
+          "source": "Oilprice",
+          "published": "13 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Super El Ni\u00f1o Could Ease Asia\u2019s LNG Supply Concerns",
+          "summary": "The super El Ni\u00f1o is expected to raise the winter temperatures in South Korea, Japan, and parts of China, potentially easing the gas supply needs in these key Asian LNG importers and leaving more cargoes for Europe, which struggles to fill its gas storage sites to adequate levels for this time of year.\u00a0 The record El Ni\u00f1o weather pattern in the Pacific is expected to bring warmer winter weather in Japan, South Korea, Vietnam, Taiwan, Thailand, and parts of China, Bloomberg reports, citing major ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Ease-Asias-LNG-Supply-Concerns.html",
+          "source": "Oilprice",
+          "published": "13 Oct 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Saudi Arabia Insists Energy Supply Remains Resilient",
-          "summary": "Despite attacks on Saudi Arabia\u2019s energy and transport infrastructure in recent weeks, the Kingdom\u2019s energy resilience remains strong, Saudi Energy Minister Prince Abdulaziz bin Salman said at the WPC Energy Congress in Riyadh on Monday. \u201cEnergy resilience is beyond barrels of spare capacity, of pipelines and gigawatts of generation,\u201d Prince Abdulaziz said, as carried by Bloomberg. \u201cIt must also be measured by the ability to maintain, repair, reroute, substitute and recover. Above all, it must b",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Insists-Energy-Supply-Remains-Resilient.html",
-          "source": "Oilprice",
-          "published": "12 Oct 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "Inside The Secret Russian-Iranian Military-Energy-Pipeline Laundering Machine",
-          "summary": "As has been proven time and time again in multiple scenarios: \u2018Where there\u2019s a will, there\u2019s a way around any sanctions\u2019 and, despite looming deadlines to end all Russian oil and gas imports -- with promises to keep reducing them before that -- the European Union (EU) appears to be continuing to play a sanctions-skirting game with Moscow. Under the strict terms of Regulation (EU) 2026/261, a hard legal cliff drops on 1 January 2027, completely banning all long-term Russian liquefied natural gas ",
-          "url": "https://oilprice.com/Geopolitics/Middle-East/Inside-The-Secret-Russian-Iranian-Military-Energy-Pipeline-Laundering-Machine.html",
-          "source": "Oilprice",
-          "published": "12 Oct 2026",
-          "sentiment_hint": "bullish"
+          "title": "Powergrid acquires two transmission SPVs in Gujarat and Maharashtra",
+          "summary": "Powergrid has acquired Lakadia C Power Transmission and Jam Khambhaliya REZ Transmission through tariff-based competitive bidding.",
+          "url": "https://www.energymonitor.ai/news/powergrid-acquires-two-transmission-spvs/",
+          "source": "Energymonitor",
+          "published": "13 Oct 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Metacon awarded EU funding for hydrogen production project in Greece",
@@ -190,191 +214,115 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Coca-Cola HBC Bulgaria signs renewable PPA with Enery",
-          "summary": "Coca-Cola HBC Bulgaria has signed a long-term physical PPA with Enery to procure renewable electricity from Enery\u2019s Knizhovnik power plant.",
-          "url": "https://www.energymonitor.ai/news/coca-cola-hbc-ppa-enery/",
+          "title": "UK approves 600MW Steeple renewables project in Nottinghamshire",
+          "summary": "The UK Government has approved RES\u2019s Steeple Renewables Project, a 600MW solar and battery storage scheme set to deliver an estimated \u00a3224m ($296.3m) investment to the Nottinghamshire area.",
+          "url": "https://www.energymonitor.ai/news/uk-approves-600mw-steeple-renewables-project/",
           "source": "Energymonitor",
-          "published": "09 Oct 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Green Hill Solar Farm development secures UK Government consent",
-          "summary": "The UK\u2019s Department for Energy Security and Net Zero has granted a Development Consent Order (DCO) for the Green Hill Solar Farm.",
-          "url": "https://www.energymonitor.ai/news/green-hill-solar-farm-secures-consent/",
-          "source": "Energymonitor",
-          "published": "09 Oct 2026",
+          "published": "12 Oct 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Q3 energy sector outperformance (16.5% gain) driven by fuel market tightening benefits oilfield services demand",
+            "rationale": "LNG supply relief from El Ni\u00f1o reduces Asian demand, freeing cargoes for European markets where TTE has significant LNG operations.",
             "key_themes": [
-              "fuel market tightening",
-              "energy sector recovery",
-              "services demand"
+              "LNG market dynamics",
+              "European energy security",
+              "weather-driven demand shift"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Q3 sector gains noted but article states 'biggest winners weren't oil and gas producers,' suggesting muted upside",
-            "key_themes": [
-              "sector rotation away from majors",
-              "energy supply resilience"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Similar to XOM; Q3 gains benefited sector but majors underperformed relative to other energy segments",
-            "key_themes": [
-              "sector rotation away from majors",
-              "fuel tightening"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Oil/gas producer facing sector headwinds; EU sanctions risk on Russian energy presents geopolitical uncertainty",
-            "key_themes": [
-              "EU sanctions complexity",
-              "energy security concerns",
-              "majors underperformance"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Sanctions risk is mentioned in Article [3], but article does not specifically discuss BP's exposure or operations",
             "supporting_article": 3
           },
           {
             "ticker": "SHEL",
             "company": "Shell plc",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Major producer facing similar sector rotation; EU-Russia energy dynamics create medium-term regulatory risk",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Super El Ni\u00f1o reduces LNG demand in Asia, benefiting Shell's European LNG positioning and improving gas storage fill rates.",
             "key_themes": [
-              "EU regulatory risk",
-              "majors underperformance",
-              "sanctions uncertainty"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "EU-Russia energy dynamics mentioned in Article [3], but Shell is not specifically discussed",
-            "supporting_article": 3
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Most exposed to EU sanctions risk on Russian LNG; January 2027 regulatory cliff threatens energy sourcing strategy",
-            "key_themes": [
-              "EU LNG sanctions cliff",
-              "supply chain disruption",
-              "compliance risk"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Benefits from fuel market tightening but sector data shows oil/gas majors underperformed Q3 energy rally",
-            "key_themes": [
-              "fuel tightening",
-              "majors underperformance",
-              "geopolitical stability"
+              "LNG arbitrage opportunities",
+              "European supply gains",
+              "seasonal demand patterns"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Russian diesel exports and geopolitical uncertainty create mixed signals; limited direct operational impact from disclosed news.",
+            "key_themes": [
+              "geopolitical volatility",
+              "energy market uncertainty",
+              "Russian competition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] describes Trump defending Russian diesel exports and claims of an energy ceasefire, but does not establish any clear operational impact on BP or substantiate how this creates 'mixed signals' for BP specifically. The rationale lacks connection between the geopolitical event and BP's business positioning.",
+            "supporting_article": 2
           }
         ],
-        "summary": "The energy sector rallied 16.5% in Q3 2026 on fuel market tightening, but major integrated oil and gas producers were NOT the biggest beneficiaries, suggesting rotation toward services and alternative energy. TotalEnergies faces significant downside risk from EU's January 2027 Russian LNG import ban, while geopolitical tensions (Saudi infrastructure attacks, Russia-Iran sanctions evasion) create near-term volatility but longer-term structural headwinds for traditional energy majors.",
+        "summary": "Petroleum majors face mixed signals from geopolitical energy dynamics and favorable weather patterns. Super El Ni\u00f1o conditions ease Asian LNG demand, potentially benefiting European-focused operators like TotalEnergies and Shell with improved arbitrage opportunities. However, Russian diesel deal approvals and Ukraine conflict uncertainty create headwinds for broader sector sentiment. Articles 4-6 on renewables and transmission infrastructure signal long-term energy transition pressures on traditional O&G players.",
         "risks": [
-          "EU regulatory cliff on Russian energy (January 2027) creates supply/compliance uncertainty",
-          "Geopolitical escalation (Middle East attacks, Russia-Iran coordination) threatens infrastructure and energy flows",
-          "Sector rotation away from majors toward renewable/services suggests structural demand shift",
-          "Sanctions evasion schemes and EU enforcement create enforcement and counterparty risks"
+          "Geopolitical escalation between Russia/Ukraine could destabilize energy markets and invalidate Trump's ceasefire claims",
+          "Energy transition acceleration (renewables, hydrogen projects) threatens long-term demand for fossil fuels",
+          "El Ni\u00f1o weather pattern reversals could rapidly restore Asian LNG demand, erasing short-term arbitrage gains"
         ],
         "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "BP rationale references EU sanctions risk from Article [3], but the article does not specifically analyze BP's exposure or strategic position regarding Russian energy sanctions",
-            "SHEL rationale references EU regulatory risk and EU-Russia energy dynamics, but Shell is not mentioned in Article [3]; the connection is inferred rather than explicitly stated",
-            "All oil/gas major signals assume Article [1]'s statement that 'biggest winners weren't oil and gas producers' applies to these specific companies, but the article provides no company-level breakdown or individual performance data for SLB, XOM, CVX, COP, BP, or SHEL"
+            "BP signal rationale is vague and speculative. The cited geopolitical events do not directly translate to disclosed operational impacts for BP.",
+            "BP's 'limited direct operational impact' admission contradicts the assignment of 45 conviction level\u2014the rationale does not justify even neutral sentiment with moderate conviction."
           ],
-          "ungrounded_count": 0
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "SLB": 48.8849983215332,
-        "XOM": 172.02000427246094,
-        "CVX": 215.0800018310547,
-        "BP": 46.82500076293945,
-        "SHEL": 101.79000091552734,
-        "TTE": 88.22000122070312,
-        "COP": 136.81500244140625
+        "TTE": 89.18499755859375,
+        "SHEL": 102.8499984741211,
+        "BP": 48.45500183105469
       },
       "spot_check": {
-        "title": "Energy Stocks Soared in Q3 as Fuel Markets Tightened",
-        "summary": "The energy sector came roaring back in the third quarter of 2026. After finishing at the bottom of the sector rankings in Q2, Energy gained 16.5% in Q3, easily outpacing every other sector and the S&amp;P 500\u2019s 2.0% return. That was a remarkable turnaround, but the headline sector number doesn\u2019t fully capture what happened beneath the surface, because returns varied dramatically across different parts of the energy business. The biggest winners weren\u2019t the companies producing oil and gas. They w",
-        "url": "https://oilprice.com/Energy/Energy-General/Energy-Stocks-Soared-in-Q3-as-Fuel-Markets-Tightened.html",
+        "title": "Super El Ni\u00f1o Could Ease Asia\u2019s LNG Supply Concerns",
+        "summary": "The super El Ni\u00f1o is expected to raise the winter temperatures in South Korea, Japan, and parts of China, potentially easing the gas supply needs in these key Asian LNG importers and leaving more cargoes for Europe, which struggles to fill its gas storage sites to adequate levels for this time of year.\u00a0 The record El Ni\u00f1o weather pattern in the Pacific is expected to bring warmer winter weather in Japan, South Korea, Vietnam, Taiwan, Thailand, and parts of China, Bloomberg reports, citing major ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Ease-Asias-LNG-Supply-Concerns.html",
         "source": "Oilprice",
-        "published": "12 Oct 2026",
+        "published": "13 Oct 2026",
         "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "SLB",
-          "company": "Schlumberger Limited",
+          "ticker": "TTE",
+          "company": "TotalEnergies SE",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Q3 energy sector outperformance (16.5% gain) driven by fuel market tightening benefits oilfield services demand",
+          "rationale": "LNG supply relief from El Ni\u00f1o reduces Asian demand, freeing cargoes for European markets where TTE has significant LNG operations.",
           "key_themes": [
-            "fuel market tightening",
-            "energy sector recovery",
-            "services demand"
+            "LNG market dynamics",
+            "European energy security",
+            "weather-driven demand shift"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 3
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Q3 energy sector outperformance (16.5% gain) driven by fuel market tightening benefits oilfield services demand",
+        "haiku_rationale": "LNG supply relief from El Ni\u00f1o reduces Asian demand, freeing cargoes for European markets where TTE has significant LNG operations.",
         "haiku_themes": [
-          "fuel market tightening",
-          "energy sector recovery",
-          "services demand"
+          "LNG market dynamics",
+          "European energy security",
+          "weather-driven demand shift"
         ]
       },
       "config": {
@@ -418,25 +366,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/mirums-its-way-3rd-rare-liver-indication-livmarli\" hreflang=\"en\">Mirum on its way to 3rd rare liver indication for Livmarli</a>",
-          "summary": "Livmarli significantly improved severe itching caused by rare liver diseases. With the phase 3 win in hand, Mirum is looking for a third indication from the FDA early next year.",
-          "url": "https://www.fiercepharma.com/pharma/mirums-its-way-3rd-rare-liver-indication-livmarli",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/ucb-fashions-wear-it-out-project-empowering-t-shirts-community-inflammatory-disease\" hreflang=\"en\">UCB fashions \u2018Wear It Out\u2019 project with empowering t-shirts, community for inflammatory disease patients</a>",
+          "summary": "The t-shirts let those with hidradenitis suppurativa (HS), plaque psoriasis and psoriatic arthritis (PsA) reclaim clothes they may avoid due to their disease.",
+          "url": "https://www.fiercepharma.com/marketing/ucb-fashions-wear-it-out-project-empowering-t-shirts-community-inflammatory-disease",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/bausch-lomb-names-appio-interim-ceo-saunders-hits-exit-again\" hreflang=\"en\">Bausch + Lomb names Appio interim CEO as Saunders hits the exit again</a>",
-          "summary": "Less than four years after returning to Bausch + Lomb to lead the eye health company following its split from Bausch Health, Brent Saunders is hitting the exit once again, as analysts call the transition a surprise.",
-          "url": "https://www.fiercepharma.com/pharma/bausch-lomb-names-appio-interim-ceo-saunders-hits-exit-again",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/arpa-h-program-manager-talks-first-shoring-philosophy-behind-125m-rna-manufacturing-network\" hreflang=\"en\">ARPA-H program manager talks 'first-shoring' philosophy behind $125M RNA manufacturing network challenge</a>",
+          "summary": "Rather than another instance of on-shoring enthusiasm, ARPA-H\u2019s personalized RNA drug production network project should be viewed as more akin to a \u201cfirst-shoring program,\u201d said John Schiel, Ph.D., program manager for GIVE at ARPA-H.",
+          "url": "https://www.fiercepharma.com/pharma/arpa-h-program-manager-talks-first-shoring-philosophy-behind-125m-rna-manufacturing-network",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bullish"
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/invenra-deals-patient-perspectives-adc-game-custom-card-deck\" hreflang=\"en\">Invenra deals patient perspectives into the ADC game with custom card deck</a>",
-          "summary": "Invenra has created playing cards featuring artwork by people affected by cancer as it seeks biopharma buy-in for its antibody-drug conjugate service.",
-          "url": "https://www.fiercepharma.com/marketing/invenra-deals-patient-perspectives-adc-game-custom-card-deck",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/galderma-sculpts-new-narrative-around-menopausal-skin-changes-fill-awareness-gap\" hreflang=\"en\">Galderma sculpts new narrative around menopausal skin changes to fill awareness gap</a>",
+          "summary": "One in two women is unaware that hormonal fluctuations during perimenopause and menopause can affect their skin, a Galderma survey found.",
+          "url": "https://www.fiercepharma.com/marketing/galderma-sculpts-new-narrative-around-menopausal-skin-changes-fill-awareness-gap",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -449,71 +397,67 @@
             "company": "Eli Lilly and Company",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Dementia research urgency creates significant long-term pipeline opportunity for CNS drug development and commercialization.",
+            "rationale": "Dementia research urgency creates expanded pipeline opportunities for neurodegenerative disease therapeutics.",
             "key_themes": [
-              "dementia research",
-              "CNS pipeline expansion",
-              "unmet medical need"
+              "dementia treatment",
+              "unmet medical need",
+              "R&D expansion"
             ],
             "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [2] discusses dementia research urgency but does not mention Eli Lilly or any specific company. Rationale makes an unsupported leap from general dementia research trends to LLY's pipeline opportunity without evidence of LLY's involvement in this space from the sources.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           },
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
             "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Infectious disease focus and rare disease expertise position JNJ well for emerging pathogen threats and orphan indications.",
+            "conviction": 68,
+            "rationale": "Inflammatory disease awareness campaigns (HS, psoriasis, PsA) signal market expansion for ABBV's immunology portfolio.",
             "key_themes": [
-              "infectious disease",
-              "rare disease expertise",
-              "public health preparedness"
+              "inflammatory diseases",
+              "patient awareness",
+              "market development"
             ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [1] discusses Ebola discovery and infectious disease history, but does not mention Johnson & Johnson specifically or connect to JNJ's current capabilities. No article discusses JNJ's rare disease expertise. Rationale infers JNJ positioning without direct source support.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "PFE",
             "company": "Pfizer Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Ketamine mechanism insights may support psychiatric medication development, but article lacks direct pharma industry connection.",
+            "rationale": "RNA manufacturing infrastructure investment may benefit future pipeline, but current impact unclear for near-term growth.",
             "key_themes": [
-              "CNS disorder treatment",
-              "psychiatric applications"
+              "RNA technology",
+              "manufacturing capability",
+              "long-term positioning"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] explains ketamine's immobilization mechanism but contains no mention of Pfizer or any pharmaceutical company's development efforts. Analyst correctly notes 'lacks direct pharma industry connection' but still assigns positive conviction despite this acknowledged gap.",
-            "supporting_article": null
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
           }
         ],
-        "summary": "The healthcare sector shows bullish signals driven by urgent unmet medical needs in dementia research and infectious disease preparedness. LLY and JNJ are positioned to benefit from increased R&D focus on neurodegenerative diseases and rare conditions. Leadership transitions at smaller players (Bausch + Lomb) and emerging biotech innovation in ADCs and rare liver diseases indicate a dynamic but fragmented competitive landscape with opportunities for larger players to acquire or partner.",
+        "summary": "Healthcare sector shows bullish signals driven by emerging disease awareness and R&D investments. Neurodegenerative disease urgency and inflammatory disease patient engagement present significant market expansion opportunities. RNA manufacturing infrastructure development indicates sector-wide commitment to next-generation therapeutics, though near-term commercial impact remains limited.",
         "risks": [
-          "Dementia drug development has historically high clinical failure rates despite heavy R&D investment",
-          "Emerging infectious disease threats remain unpredictable and regulatory pathways complex",
-          "M&A integration risks if major players pursue acquisition-based growth strategy"
+          "regulatory delays in dementia treatments",
+          "ketamine-related safety scrutiny affecting psychiatric drug development",
+          "RNA manufacturing cost and scalability uncertainties"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "All three signals make company-specific inferences not supported by source articles",
-            "LLY signal halluccinates a connection between dementia research urgency and LLY's pipeline without evidence",
-            "JNJ signal incorrectly attributes infectious disease and rare disease expertise claims to JNJ based on general industry articles",
-            "PFE signal acknowledges lack of pharma connection yet maintains 45 conviction score on speculative grounds"
-          ],
-          "ungrounded_count": 3
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "LLY": 1175.7900390625,
-        "JNJ": 263.2699890136719,
-        "PFE": 28.364999771118164
+        "LLY": 1177.114990234375,
+        "ABBV": 278.8599853515625,
+        "PFE": 28.358800888061523
       },
       "spot_check": {
         "title": "He Helped Discover Ebola 50 Years Ago. He\u2019s Still Worried.",
@@ -527,23 +471,23 @@
           "company": "Eli Lilly and Company",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Dementia research urgency creates significant long-term pipeline opportunity for CNS drug development and commercialization.",
+          "rationale": "Dementia research urgency creates expanded pipeline opportunities for neurodegenerative disease therapeutics.",
           "key_themes": [
-            "dementia research",
-            "CNS pipeline expansion",
-            "unmet medical need"
+            "dementia treatment",
+            "unmet medical need",
+            "R&D expansion"
           ],
           "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [2] discusses dementia research urgency but does not mention Eli Lilly or any specific company. Rationale makes an unsupported leap from general dementia research trends to LLY's pipeline opportunity without evidence of LLY's involvement in this space from the sources.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Dementia research urgency creates significant long-term pipeline opportunity for CNS drug development and commercialization.",
+        "haiku_rationale": "Dementia research urgency creates expanded pipeline opportunities for neurodegenerative disease therapeutics.",
         "haiku_themes": [
-          "dementia research",
-          "CNS pipeline expansion",
-          "unmet medical need"
+          "dementia treatment",
+          "unmet medical need",
+          "R&D expansion"
         ]
       },
       "config": {
@@ -563,27 +507,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "How American Retirees at Different Incomes Rely on Social Security",
-          "summary": "Social Security funds are on track to run short by 2032, which would mean a reduction in benefits. Here\u2019s how four hypothetical households rely on the program in retirement.",
-          "url": "https://www.nytimes.com/2026/10/12/business/social-security-income-retirement-benefits.html",
+          "title": "War Collides With Saudi Ambition at a Gathering of Oil Powers",
+          "summary": "The tone of the WPC Energy Congress in Riyadh this week was defiant even as delegates were forced to redirect travel or address the audience from afar.",
+          "url": "https://www.nytimes.com/2026/10/13/business/saudi-arabia-houthi-oil.html",
           "source": "Rss",
-          "published": "12 Oct 2026",
+          "published": "13 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Europeans Have a Love-Hate Relationship With Chinese Cars",
-          "summary": "Consumers across the continent increasingly want to buy low-cost Chinese vehicles. Policymakers are seeking to slow them down.",
-          "url": "https://www.nytimes.com/2026/10/12/business/europe-china-evs-hybrids.html",
+          "title": "Higher Interest Rates Take Bite Out of JPMorgan\u2019s Profits",
+          "summary": "After banner stretch, the bank released surprisingly spotty earnings results for the third quarter. Its rival Goldman Sachs posted better-than-expected results.",
+          "url": "https://www.nytimes.com/2026/10/13/business/bank-earnings-jpmorgan-chase-interest-rates.html",
           "source": "Rss",
-          "published": "12 Oct 2026",
+          "published": "13 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Strikes Put Saudi Arabia\u2019s Economy Under Pressure",
-          "summary": "Deadly attacks on the main Saudi airport add to the challenges facing the country, as it seeks to maintain energy production and keep major events on track.",
-          "url": "https://www.nytimes.com/2026/10/12/business/dealbook/saudi-arabia-strikes-energy-airport.html",
+          "title": "Vance, Altman, Musk, Mamdani, Bieber and More at the DealBook Summit",
+          "summary": "The conference on Nov. 18 will bring together the biggest names in business, politics, culture and more",
+          "url": "https://www.nytimes.com/2026/10/13/business/dealbook/dealbook-summit-lineup.html",
           "source": "Rss",
-          "published": "12 Oct 2026",
+          "published": "13 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -615,123 +559,104 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Market volatility from AI rout may increase trading volumes, but Social Security funding crisis poses long-term deposit risks.",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Q3 earnings disappointed with higher interest rates pressuring profitability despite prior strong performance.",
             "key_themes": [
-              "market volatility",
-              "social security headwinds",
-              "wealth management uncertainty"
+              "interest rate pressure",
+              "earnings miss",
+              "margin compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Posted better-than-expected Q3 results, outperforming JPMorgan amid challenging interest rate environment.",
+            "key_themes": [
+              "earnings beat",
+              "relative outperformance",
+              "operational efficiency"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "No direct mention in articles; sector headwinds from rate pressure affect investment banking and trading divisions.",
+            "key_themes": [
+              "interest rate impact",
+              "sector uncertainty"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale conflates two separate events: AI rout (Article 4) and Social Security crisis (Article 1). While both are mentioned in sources, the specific causal link to JPM's deposit risks is not established in any article. No article discusses how Social Security funding affects bank deposits.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Broad market decline may pressure lending spreads; Social Security shortfall threatens retirement savings flows.",
-            "key_themes": [
-              "market decline impact",
-              "consumer retirement concerns",
-              "deposit dynamics"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale connects market decline (Article 4) to Social Security shortfall (Article 1), but no source article discusses how Social Security funding impacts bank lending spreads or deposit dynamics. The connection is speculative.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Market rout and Social Security funding crisis reduce consumer discretionary spending and payment transaction volumes.",
-            "key_themes": [
-              "consumer spending pressure",
-              "market decline",
-              "retirement income squeeze"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims Social Security funding crisis reduces consumer discretionary spending, but Article 1 only describes the 2032 shortfall scenario without quantifying impact on near-term consumer spending. No article links Social Security to payment volume changes for Visa.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 60,
-            "rationale": "Market turmoil and Social Security depletion forecast dampen consumer transaction activity and spending capacity.",
-            "key_themes": [
-              "transaction volume risk",
-              "consumer discretionary weakness",
-              "macro headwinds"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Similar to Visa: rationale assumes Social Security depletion directly dampens consumer transaction activity, but Article 1 does not establish this causal relationship or quantify spending impact. No source supports the transaction volume risk claim.",
+            "verification_issue": "No mention of Morgan Stanley in any source article; analyst inferred sector impact without direct evidence",
             "supporting_article": null
           }
         ],
-        "summary": "Financial services face headwinds from dual shocks: immediate market volatility from the AI rout pressures trading and asset management, while the looming 2032 Social Security shortfall threatens long-term consumer spending and deposit flows. Payment processors face the most acute near-term pressure as market anxiety dampens discretionary transactions.",
+        "summary": "The banking sector faces mixed signals as higher interest rates compress margins, evidenced by JPMorgan's disappointing Q3 earnings, while Goldman Sachs bucked the trend with better-than-expected results suggesting operational resilience. Payment processors (V, MA) and Berkshire Hathaway remain unaffected by banking-specific headwinds, though the broader market volatility from tech selloffs could impact financial sector sentiment. Bank of America's exposure to rate pressure mirrors JPMorgan's challenges.",
         "risks": [
-          "Social Security reform uncertainty",
-          "continued tech sector selloff contagion",
-          "consumer confidence deterioration",
-          "geopolitical instability in Saudi Arabia affecting energy/economic stability"
+          "Continued elevation in interest rates reducing net interest margins",
+          "Broader market correction from tech sector weakness spreading to financials",
+          "Geopolitical tensions (Saudi oil disputes) creating macroeconomic uncertainty",
+          "Loan loss provisions rising if economic slowdown emerges"
         ],
         "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "All four signals attempt to link Social Security funding concerns to immediate consumer/financial impacts without empirical support from source articles",
-            "The AI rout rationale (Article 4) is tangentially relevant to trading volumes but not substantively connected to deposit or spending dynamics",
-            "Analyst appears to be inferring second-order macroeconomic effects that are not discussed in any provided source material",
-            "Social Security article focuses on hypothetical household scenarios but does not address systemic banking or payment processor impacts"
+            "Morgan Stanley signal lacks direct source support - analyst extrapolated sector headwinds without article evidence for this specific company",
+            "JPM rationale mentions 'margin compression' as key theme but source only states 'higher interest rates' and 'spotty earnings' without explicit margin data",
+            "GS rationale implies operational efficiency but source only states 'better-than-expected results' without detailing the mechanism"
           ],
-          "ungrounded_count": 4
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "JPM": 334.1000061035156,
-        "BAC": 54.34000015258789,
-        "V": 390.8949890136719,
-        "MA": 597.4400024414062
+        "JPM": 336.1499938964844,
+        "GS": 904.8699951171875,
+        "MS": 189.1699981689453
       },
       "spot_check": {
-        "title": "Europeans Have a Love-Hate Relationship With Chinese Cars",
-        "summary": "Consumers across the continent increasingly want to buy low-cost Chinese vehicles. Policymakers are seeking to slow them down.",
-        "url": "https://www.nytimes.com/2026/10/12/business/europe-china-evs-hybrids.html",
+        "title": "Higher Interest Rates Take Bite Out of JPMorgan\u2019s Profits",
+        "summary": "After banner stretch, the bank released surprisingly spotty earnings results for the third quarter. Its rival Goldman Sachs posted better-than-expected results.",
+        "url": "https://www.nytimes.com/2026/10/13/business/bank-earnings-jpmorgan-chase-interest-rates.html",
         "source": "Rss",
-        "published": "12 Oct 2026",
+        "published": "13 Oct 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
           "sentiment": "bearish",
-          "conviction": 62,
-          "rationale": "Market rout and Social Security funding crisis reduce consumer discretionary spending and payment transaction volumes.",
+          "conviction": 72,
+          "rationale": "Q3 earnings disappointed with higher interest rates pressuring profitability despite prior strong performance.",
           "key_themes": [
-            "consumer spending pressure",
-            "market decline",
-            "retirement income squeeze"
+            "interest rate pressure",
+            "earnings miss",
+            "margin compression"
           ],
           "time_horizon": "short-term",
-          "verified": false,
-          "verification_issue": "Rationale claims Social Security funding crisis reduces consumer discretionary spending, but Article 1 only describes the 2032 shortfall scenario without quantifying impact on near-term consumer spending. No article links Social Security to payment volume changes for Visa.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "Market rout and Social Security funding crisis reduce consumer discretionary spending and payment transaction volumes.",
+        "haiku_rationale": "Q3 earnings disappointed with higher interest rates pressuring profitability despite prior strong performance.",
         "haiku_themes": [
-          "consumer spending pressure",
-          "market decline",
-          "retirement income squeeze"
+          "interest rate pressure",
+          "earnings miss",
+          "margin compression"
         ]
       },
       "config": {
