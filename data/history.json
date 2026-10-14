@@ -24884,5 +24884,318 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-14",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search integration demonstrates AI tools disrupting traditional SEO, validating Google's need for AI-powered search evolution.",
+            "key_themes": [
+              "AI search disruption",
+              "content discovery shift",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "HomeView smart display launch expands Apple's ecosystem into connected home segment with consumer-focused hardware innovation.",
+            "key_themes": [
+              "smart home expansion",
+              "ecosystem growth",
+              "hardware innovation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's prominence in organic search recommendations demonstrates OpenAI/Microsoft's AI moat and integration value across applications.",
+            "key_themes": [
+              "AI competitive advantage",
+              "search innovation",
+              "enterprise AI adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 353.7799987792969,
+          "AAPL": 341.2699890136719,
+          "MSFT": 543.4500122070312
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Greenland oil exploration announcement by Trump administration opens new frontier for U.S. majors with significant resource potential.",
+            "key_themes": [
+              "Arctic exploration",
+              "geopolitical opportunity",
+              "long-term supply diversification"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Greenland Arctic exploration initiative positions U.S. independent as key player in emerging high-potential exploration regions.",
+            "key_themes": [
+              "Arctic exploration",
+              "exploration upside",
+              "U.S. resource security"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Article mentions Trump's Greenland exploration announcement but does not specifically identify ConocoPhillips as a key player or indicate the company's involvement in the initiative",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Saudi-China refinery JV signals downstream competition intensifying in Asia; neutral as TTE has limited direct exposure to this JV.",
+            "key_themes": [
+              "downstream pressure",
+              "Asian market dynamics",
+              "crude offtake agreements"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 174.0800018310547,
+          "COP": 140.89999389648438,
+          "TTE": 88.94999694824219
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Dementia research remains urgent priority with growing healthcare focus; LLY's neurology pipeline positions it well for demand.",
+            "key_themes": [
+              "dementia treatment development",
+              "neurology market growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Oncology indications highlighted (lung adenocarcinoma); early-stage detection creates long-term treatment market opportunities.",
+            "key_themes": [
+              "oncology demand",
+              "early cancer detection"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Infectious disease expertise relevant to Ebola and emerging pathogen discussions; validates strong virology/immunology portfolio value.",
+            "key_themes": [
+              "infectious disease",
+              "epidemic preparedness"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Manufacturing innovation focus (Article 4) tangentially relevant but no direct TMO mention; limited direct impact from news.",
+            "key_themes": [
+              "biotech manufacturing"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article 4 discusses NantWorks' Soon-Shiong investing in manufacturing disruptors (Prolific Machines, Multiply Labs), but contains no mention of Thermo Fisher Scientific. The rationale acknowledges 'no direct TMO mention' which undermines the signal's credibility.",
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1166.510009765625,
+          "PFE": 28.3700008392334,
+          "MRK": 141.97999572753906,
+          "TMO": 663.0399780273438
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Geopolitical tensions and Fed political uncertainty create headwinds; payment volume resilience offers modest support.",
+            "key_themes": [
+              "geopolitical risk",
+              "Fed policy uncertainty",
+              "financial stability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Oil price volatility from Iran tensions may support energy lending; Fed governance risk adds uncertainty.",
+            "key_themes": [
+              "energy market volatility",
+              "Fed political uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Investment banking activity may benefit from volatile markets; Fed political risk creates headwinds for financial sector.",
+            "key_themes": [
+              "market volatility",
+              "Fed governance risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Trading revenue potential from geopolitical volatility offset by Fed political uncertainty affecting financial sector.",
+            "key_themes": [
+              "geopolitical volatility",
+              "Fed policy risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad market AI selloff and risk-off sentiment likely suppress transaction volumes and consumer spending near-term.",
+            "key_themes": [
+              "market downturn",
+              "risk-off sentiment",
+              "consumer spending pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "AI market crash and equity volatility create risk-off conditions pressuring payment volumes and transaction growth.",
+            "key_themes": [
+              "market selloff",
+              "risk-off sentiment",
+              "transaction volume pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 331.42999267578125,
+          "BAC": 53.959999084472656,
+          "GS": 891.9099731445312,
+          "MS": 186.63999938964844,
+          "V": 396.05999755859375,
+          "MA": 604.7999877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      }
+    }
   }
 ]
