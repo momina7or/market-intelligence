@@ -25197,5 +25197,250 @@
         "reliability": "high"
       }
     }
+  },
+  {
+    "run_date": "2026-10-15",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search behavior threatens Google's core advertising model; urgency to defend search market position.",
+            "key_themes": [
+              "AI search integration",
+              "organic traffic disruption",
+              "competitive threat"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT dominance in AI-powered content discovery and organic traffic generation validates OpenAI partnership investment thesis.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI monetization",
+              "content creation platform"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools proliferating across ecosystem; unclear impact on Meta's ad-targeting and creator monetization strategies.",
+            "key_themes": [
+              "AI content tools",
+              "creator economy",
+              "platform competition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale is speculative; articles show AI tools exist but provide no evidence of impact on Meta's ad-targeting or creator monetization",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 347.6400146484375,
+          "MSFT": 533.6900024414062,
+          "META": 737.5399780273438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Refining margins tripled to $33.20/bbl in Q3 2026; LNG prices elevated by Middle East conflict.",
+            "key_themes": [
+              "downstream profitability",
+              "refining margin expansion",
+              "LNG pricing strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "Article mentions wind turbine condition monitoring but lacks direct oilfield services impact signals.",
+            "key_themes": [
+              "energy infrastructure investment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] is about wind turbine condition monitoring, not oilfield services. No connection established between wind turbine reliability and Schlumberger's business. The rationale incorrectly attributes a wind energy article to support an oilfield services company signal.",
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 89.63999938964844,
+          "SLB": 48.5099983215332
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Lung cancer treatment advances expanding market; early-stage detection improving survival rates support oncology pipeline demand.",
+            "key_themes": [
+              "oncology expansion",
+              "lung cancer therapy",
+              "early detection benefits"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Articles [2] and [3] discuss lung cancer therapy advances and early-stage survival rates, but neither mentions Merck & Co. or its oncology pipeline. The rationale assumes Merck benefits from these trends without any evidence of their involvement.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Growing lung cancer therapy market with declining mortality rates creating sustained demand for oncology and preventive treatments.",
+            "key_themes": [
+              "oncology growth",
+              "cancer mortality decline",
+              "treatment innovation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Articles [2] and [3] discuss lung cancer therapy advances and declining mortality rates, but neither mentions Pfizer or its oncology/preventive treatment portfolio. The rationale assumes Pfizer benefits from these industry trends without any evidence of their specific involvement.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "MRK": 147.3699951171875,
+          "PFE": 29.209999084472656
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Tech sector volatility and AI spending concerns create M&A and advisory opportunities for investment banking divisions.",
+            "key_themes": [
+              "investment banking",
+              "market volatility",
+              "tech sector disruption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Tech sector uncertainty and broad market selloff drive demand for capital markets advisory and restructuring services.",
+            "key_themes": [
+              "capital markets",
+              "tech volatility",
+              "advisory services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Market dislocation from AI panic creates wealth management and trading opportunities amid equity volatility.",
+            "key_themes": [
+              "trading volatility",
+              "wealth management",
+              "market uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Tech rout and broad market decline may pressure payment volumes short-term, but fundamental growth drivers remain intact.",
+            "key_themes": [
+              "market volatility",
+              "payment volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes tech rout directly impacts payment volumes, but no article establishes this causal link. Articles focus on tech stock declines and AI spending concerns, not consumer spending or payment transaction volumes.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Similar to Visa; tech-led selloff creates near-term headwinds but underlying payment trends supportive.",
+            "key_themes": [
+              "market volatility",
+              "payment volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Same as Visa: assumes tech sector volatility impacts payment volumes without support. Articles do not establish that tech stock declines correlate with reduced payment activity.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.2799987792969,
+          "GS": 878.719970703125,
+          "MS": 181.50999450683594,
+          "V": 391.42999267578125,
+          "MA": 603.239990234375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
