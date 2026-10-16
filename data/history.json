@@ -25442,5 +25442,351 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-16",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "iPhone Duo foldable launch demonstrates innovation pipeline and premium pricing power ($1,999), expanding addressable market",
+            "key_themes": [
+              "product innovation",
+              "premium hardware",
+              "foldable technology"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Surface Laptop Ultra premium offering ($5,900) signals strong enterprise AI hardware strategy competing with Apple ecosystem",
+            "key_themes": [
+              "premium computing",
+              "enterprise focus",
+              "hardware differentiation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT organic search integration demonstrates AI tools increasingly influencing search behavior and content discovery patterns",
+            "key_themes": [
+              "AI competition",
+              "search disruption",
+              "content ranking"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes ChatGPT recommending a course, not ChatGPT integrating into Google search. The rationale conflates ChatGPT's own recommendation behavior with disruption of Google search, which is not supported by the source material.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 342.0,
+          "MSFT": 539.4400024414062,
+          "GOOGL": 349.2200012207031
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Reduced Chinese LNG demand eases global spot prices, benefiting TTE's integrated LNG portfolio and downstream operations.",
+            "key_themes": [
+              "LNG supply relief",
+              "spot price moderation",
+              "Asian demand shift"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Lower Chinese LNG competition and easing spot prices support Shell's LNG margins and global energy trading position.",
+            "key_themes": [
+              "LNG market relief",
+              "pricing pressure reduction",
+              "trading advantages"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diesel supply crunch supports refined product margins, but limited direct exposure to Middle Eastern LNG disruptions.",
+            "key_themes": [
+              "diesel demand strength",
+              "refining margins",
+              "indirect benefit"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 88.48999786376953,
+          "SHEL": 103.55000305175781,
+          "COP": 141.72999572753906
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Drug pricing pressure from Trump administration rhetoric; lack of evidence of actual price relief for consumers threatens margin expansion.",
+            "key_themes": [
+              "drug pricing pressure",
+              "regulatory scrutiny",
+              "political risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Direct exposure to drug pricing reduction initiatives; article highlights unmet expectations on price relief despite political promises.",
+            "key_themes": [
+              "drug pricing pressure",
+              "regulatory risk",
+              "consumer sentiment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Major pharma faces pricing headwinds; 340B rebate program litigation may increase complexity and reduce pricing flexibility.",
+            "key_themes": [
+              "drug pricing pressure",
+              "340B rebate disputes",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bearish",
+            "conviction": 63,
+            "rationale": "Large pharma with significant pricing exposure; ongoing 340B rebate litigation and political pressure on drug costs create headwinds.",
+            "key_themes": [
+              "drug pricing pressure",
+              "340B rebate litigation",
+              "margin risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Company",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "GLP-1 obesity market opportunity partially offset by drug pricing pressures and regulatory uncertainty on rebate programs.",
+            "key_themes": [
+              "obesity market",
+              "pricing pressure",
+              "regulatory risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Drug pricing relief claims unfulfilled suggests continued pressure on PBM margins, but aging population supports healthcare utilization growth.",
+            "key_themes": [
+              "drug pricing",
+              "demographic tailwind",
+              "payer margins"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 253.27999877929688,
+          "PFE": 29.440000534057617,
+          "MRK": 145.19000244140625,
+          "ABBV": 283.3999938964844,
+          "LLY": 1251.6099853515625,
+          "UNH": 406.6700134277344
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Fed rate uncertainty and potential inflation pressures create mixed signals for banking profitability.",
+            "key_themes": [
+              "Fed policy",
+              "interest rate environment",
+              "inflation persistence"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Banking sector faces headwinds from delayed rate action and emerging market volatility affecting global growth.",
+            "key_themes": [
+              "Fed policy uncertainty",
+              "global economic concerns",
+              "emerging market stress"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Broad market selloff and risk-off sentiment reduce M&A and trading activity, pressuring investment banking revenues.",
+            "key_themes": [
+              "market volatility",
+              "AI sector turmoil",
+              "risk-off sentiment"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 60,
+            "rationale": "Tech-heavy market decline and DeepSeek-driven selloff hurt wealth management and trading desk activity.",
+            "key_themes": [
+              "tech sector rout",
+              "market volatility",
+              "asset decline"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Broad market sell-off may temporarily suppress transaction volumes, but payment flows remain structurally sound.",
+            "key_themes": [
+              "market volatility",
+              "transaction volumes",
+              "economic resilience"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims broad market sell-off will suppress transaction volumes, but no source articles discuss payment processor transaction impacts from the market decline",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Near-term market weakness could pressure transaction growth, but long-term payment digitalization tailwinds persist.",
+            "key_themes": [
+              "market volatility",
+              "spending patterns",
+              "digital payments"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims market weakness will pressure transaction growth, but no source articles discuss payment processor transaction impacts from the market decline",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.5299987792969,
+          "BAC": 51.70000076293945,
+          "GS": 891.280029296875,
+          "MS": 182.10000610351562,
+          "V": 399.75,
+          "MA": 616.3200073242188
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
