@@ -26059,5 +26059,229 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-10-20",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Google Home speaker firmware bug causing massive uncontrolled data downloads creates product reliability and user trust issues.",
+            "key_themes": [
+              "product quality concerns",
+              "data infrastructure issues",
+              "user experience degradation"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT integration driving organic discovery and positioning as essential business tool, expanding market penetration without ad spend.",
+            "key_themes": [
+              "AI-powered search disruption",
+              "content discovery",
+              "organic user acquisition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools gaining traction but Meta's position in creator monetization ecosystem remains unclear from articles provided.",
+            "key_themes": [
+              "creator economy",
+              "content generation AI",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims Meta's position in creator monetization is unclear, but Meta is not mentioned in any source articles. Article [4] discusses Spotify's podcast memberships and Article [3] mentions LimeWire's monetization features, neither of which involve Meta.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 344.17999267578125,
+          "MSFT": 533.52001953125,
+          "META": 705.4400024414062
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Rising coal demand and energy transition infrastructure investments create oilfield services demand for transition projects.",
+            "key_themes": [
+              "energy transition capex",
+              "coal-to-gas infrastructure",
+              "mining development"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'coal-to-gas infrastructure' and 'oilfield services demand for transition projects,' but source articles discuss coal demand strength and renewable energy projects (solar, wind). No article mentions oilfield services, coal-to-gas infrastructure projects, or demand for Schlumberger's services. Article [1] discusses gas-to-coal switch (opposite direction), not coal-to-gas.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: high coal prices support energy demand, but aggressive renewable expansion and hydrogen overinvestment limit upside.",
+            "key_themes": [
+              "coal demand strength",
+              "energy transition headwinds",
+              "hydrogen oversupply"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "SLB": 49.09000015258789,
+          "COP": 145.24000549316406
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "AI-driven personalized virus therapy and improved clinical trial recruitment via data analytics represent growth opportunities for life science tools.",
+            "key_themes": [
+              "AI-enabled drug development",
+              "clinical trial innovation",
+              "personalized medicine"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct impact from articles; company exposure to regulatory headwinds (Idaho abortion ban affecting women's healthcare access) is indirect and uncertain.",
+            "key_themes": [
+              "regulatory risk",
+              "women's health access"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale acknowledges indirect/uncertain exposure; signal appropriately reflects this with neutral sentiment and low conviction (45)",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "No material exposure in articles; broader sector benefits from AI-driven drug discovery, but no company-specific catalysts identified.",
+            "key_themes": [
+              "AI in drug development"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'AI-driven drug discovery' benefits but no article directly discusses Eli Lilly or the company's involvement in AI drug development. Articles discuss AI viruses [1] and clinical trial recruitment [4], but neither mentions Lilly specifically.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "TMO": 679.3800048828125,
+          "JNJ": 253.7899932861328,
+          "LLY": 1240.3399658203125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Banking sector faces mixed signals; AI rout may pressure M&A activity but no direct negative impact evident.",
+            "key_themes": [
+              "market volatility",
+              "tech sector weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'AI rout may pressure M&A activity' but no source article discusses M&A impacts or banking sector effects from the AI selloff",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Rising discretionary spending evidenced by soaring Knicks ticket prices suggests robust consumer spending and payment volume growth.",
+            "key_themes": [
+              "consumer spending",
+              "discretionary demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Consumer confidence reflected in premium event ticket demand supports continued payment transaction growth and fee generation.",
+            "key_themes": [
+              "consumer spending",
+              "discretionary demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 333.5299987792969,
+          "V": 402.9200134277344,
+          "MA": 616.4000244140625
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
