@@ -26283,5 +26283,260 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-21",
+    "industries": {
+      "Technology": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Jackdaw gas field approval in North Sea provides new production capacity amid tight global fuel markets through mid-2027.",
+            "key_themes": [
+              "supply tightness",
+              "North Sea production",
+              "energy crisis tailwind"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              2
+            ]
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Global fuel markets remain tight through mid-2027 with peak refinery maintenance in Q2 2027, supporting refined product margins.",
+            "key_themes": [
+              "refinery utilization",
+              "tight markets",
+              "maintenance cycle"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Sustained tight fuel markets through mid-2027 support refining margins and downstream profitability for integrated majors.",
+            "key_themes": [
+              "market tightness",
+              "refining spreads",
+              "capacity constraints"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Limited direct exposure to near-term drivers; benefits from tight markets but no specific project catalysts mentioned.",
+            "key_themes": [
+              "market tightness",
+              "downstream exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'no specific project catalysts mentioned' but BP is not mentioned in any source articles. The Jackdaw field (Article 3) is led by Adura (Shell/Equinor joint venture), not BP. BP receives no specific mention in the tight markets narrative.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 105.54000091552734,
+          "XOM": 177.86000061035156,
+          "CVX": 225.7100067138672,
+          "BP": 49.38999938964844
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Psychedelic medicine market expansion with Trump administration support creates new R&D opportunities in CNS disorders.",
+            "key_themes": [
+              "psychedelic medicines",
+              "ketamine derivatives",
+              "regulatory tailwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses Trump administration's embrace of psychedelic medicine and ketamine drug development, but does not mention Johnson & Johnson specifically or its involvement in this market.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Emerging AI-engineered viral therapies and psychedelic drug development align with company's innovation pipeline expansion.",
+            "key_themes": [
+              "AI-created therapeutics",
+              "psychedelic medicines",
+              "novel modalities"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "While articles [1] and [2] cover psychedelic medicines and AI-engineered viral therapies respectively, neither article mentions Pfizer's involvement in these areas. The rationale conflates general industry trends with company-specific positioning without evidence.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Strong positioning in psychiatric/CNS space benefits from Trump administration's pro-psychedelic medicine stance and ketamine drug market growth.",
+            "key_themes": [
+              "psychedelic medicines",
+              "ketamine market",
+              "mental health focus"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] supports the psychedelic medicine and ketamine market growth trends, but does not mention Eli Lilly or its positioning in this space. The analyst assumes LLY benefits without source evidence of company involvement.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "FDA guidance on prescription drug apps and software creates minor regulatory clarity benefits for diagnostic platforms, but limited direct impact.",
+            "key_themes": [
+              "digital health regulation",
+              "software frameworks"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 259.3599853515625,
+          "PFE": 30.110000610351562,
+          "LLY": 1283.6600341796875,
+          "TMO": 687.3699951171875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Tax evasion investigation of accounting firms creates regulatory risk and potential reputational damage for financial sector.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "tax compliance",
+              "financial sector headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses investigation of 4 accounting firms (not named), but does not mention JPMorgan Chase. Analyst assumes JPM is implicitly targeted without evidence.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "Direct subject of Senate investigation into tax avoidance schemes; elevated regulatory and legal risk ahead.",
+            "key_themes": [
+              "regulatory investigation",
+              "compliance risk",
+              "reputational damage"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions investigation of 4 accounting giants but does not name Goldman Sachs or any specific company. Analyst claims GS is 'direct subject' without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 73,
+            "rationale": "Implicitly targeted in accounting giants tax investigation; exposure to regulatory penalties and operational scrutiny.",
+            "key_themes": [
+              "regulatory pressure",
+              "tax compliance scrutiny",
+              "sector headwinds"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] does not name Morgan Stanley or any specific accounting firms. Analyst infers MS is 'implicitly targeted' without evidence.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; broad tech selloff tangential but payment processors less vulnerable than semiconductor makers.",
+            "key_themes": [
+              "market volatility",
+              "indirect AI exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to articles; similar to Visa, payment processing less impacted by AI or tax investigation concerns.",
+            "key_themes": [
+              "market volatility",
+              "sector resilience"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.260009765625,
+          "GS": 884.8099975585938,
+          "MS": 180.39999389648438,
+          "V": 406.57000732421875,
+          "MA": 620.4199829101562
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      }
+    }
   }
 ]
