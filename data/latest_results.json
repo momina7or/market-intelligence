@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-10-21",
-  "run_time": "2026-10-21T12:42:36.480921Z",
+  "run_date": "2026-10-22",
+  "run_time": "2026-10-22T12:46:31.205528Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,37 +29,99 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "I reviewed the iPhone Duo, ask me anything",
-          "summary": "I'm The Verge's senior smartphone reviewer and I've been using the iPhone Duo for the past week. I've unfolded it, flipped it, and folded it more times than I could count as I've been working on the review alongside our editor-in-chief Nilay Patel, and I'm ready to answer your questions about it. The Duo represents [&#8230;]",
-          "url": "https://www.theverge.com/tech/1014316/iphone-duo-review-ama",
+          "title": "AI agents are ready to shop. Some retailers are wary.",
+          "summary": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic teenager out to the [&#8230;]",
+          "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
           "source": "Theverge",
-          "published": "21 Oct 2026",
+          "published": "22 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Spotify is busting free of CarPlay with the launch of its first native car app",
-          "summary": "Spotify announced Wednesday the launch of its next-generation, fully native in-car app, built directly on Google's Android Automotive operating system. The standalone app, which is launching today in select Audi models, runs directly on the vehicle's infotainment hardware - eliminating the need for phone tethering, Bluetooth connections, or aux cables. It's the clearest sign yet [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay",
+          "title": "Claude did not invent scorpion antivenom",
+          "summary": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
           "source": "Theverge",
-          "published": "21 Oct 2026",
+          "published": "22 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "I can\u2019t get enough of the iPhone Duo\u2019s matte inner display",
-          "summary": "The iPhone Duo has all the messiness of a first-gen product. And while I'm not sure I love all of the decisions Apple made around its design, it got one thing right: the matte finish on the inner screen. I've been using it for the past week to watch movies on a plane, peruse my [&#8230;]",
-          "url": "https://www.theverge.com/tech/1014709/iphone-duo-inner-screen-nano-texture-matte",
+          "title": "The world\u2019s first triple 200-megapixel camera phone is great",
+          "summary": "Oppo's Find X10 Pro Max is the first phone with a triple 200-megapixel camera, which you're likely to see as either a masterful feat of engineering or a load of hyped-up marketing nonsense. The truth is somewhere in the middle. We've seen 200-megapixel cameras in phones before, starting with 2022's Moto X30 Pro. This year's [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/1014332/oppo-find-x10-pro-max-camera-200-megapixels",
           "source": "Theverge",
-          "published": "21 Oct 2026",
+          "published": "22 Oct 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"AAPL\",\n      \"company\": \"Apple Inc.\",\n      \"sentiment\": \"bullish\",\n      \"conviction\": 72,\n      \"rationale\": \"iPhone Duo foldable device launch demonstrates continued hardware innovation and design leadership in premium segment.\",\n      \"key_themes\": [\"new product category\", \"hardware innovation\", \"premium positioning\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"GOOGL\",\n      \"company\": Alphabet Inc.\",\n      \"sentiment\": \"bullish\"",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates competitive threat, validating Google's AI search investments and urgency to monetize AI-driven discovery.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to influence organic traffic and content discovery validates OpenAI partnership value and AI agent commercialization potential.",
+            "key_themes": [
+              "AI agent adoption",
+              "ChatGPT utility",
+              "content creation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools emerging as standard; Meta's generative AI investments relevant but competitive landscape intensifying with multiple players.",
+            "key_themes": [
+              "AI content tools",
+              "creator economy",
+              "competitive intensity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "summary": "The articles reveal AI's growing impact on organic search, content discovery, and creator workflows, with ChatGPT demonstrating tangible influence on user behavior and information retrieval patterns. However, AI agents show limitations in complex tasks like drug development, tempering expectations for near-term transformative applications. Google faces competitive pressure from AI-driven search alternatives, while Microsoft/OpenAI benefit from demonstrated ChatGPT utility in practical use cases.",
+        "risks": [
+          "AI agents showing limited capability in complex tasks reduces near-term revenue expansion potential",
+          "ChatGPT competition to Google Search may pressure ad economics and organic discovery monetization",
+          "Regulatory scrutiny on AI development and drug safety claims could constrain advancement timelines"
+        ],
+        "sector_sentiment": "neutral",
+        "verification": {
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "GOOGL": 334.760009765625,
+        "MSFT": 532.9500122070312,
+        "META": 697.52001953125
+      },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
         "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
@@ -67,10 +129,29 @@
         "source": "Feedburner",
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "related_signal": {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "ChatGPT integration into search behavior demonstrates competitive threat, validating Google's AI search investments and urgency to monetize AI-driven discovery.",
+          "key_themes": [
+            "AI search disruption",
+            "organic traffic monetization",
+            "competitive pressure"
+          ],
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "ChatGPT integration into search behavior demonstrates competitive threat, validating Google's AI search investments and urgency to monetize AI-driven discovery.",
+        "haiku_themes": [
+          "AI search disruption",
+          "organic traffic monetization",
+          "competitive pressure"
+        ]
       },
       "config": {
         "icon": "\ud83d\udcbb",
@@ -89,26 +170,34 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Russia to Send First Diesel Tanker to U.S. on Thursday",
-          "summary": "Russia will send its first diesel tanker to the US on Thursday under the agreement between Presidents Donald Trump and Vladimir Putin, Deputy Prime Minister Alexander Novak told reporters Wednesday, according to TASS and Prime. Novak did not name the port. He gave the tanker's displacement as 40,000 tons and said additional shipments will follow. \"We will meet the United States' needs, to the extent of our capabilities,\" RIA quoted him as saying, via Reuters. Putin told US envoy Steve Witkoff on",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+          "title": "Record Fuel Prices Accelerate Europe\u2019s EV Sales",
+          "summary": "Record-high gasoline and diesel prices across Europe are accelerating a shift toward electric vehicles and hybrids while new registrations of conventional cars continue to plummet by double digits in key markets. Total car sales in Europe, including the UK, Norway, and Switzerland, rose by 10.2% in September from a year earlier, data from the European Automobile Manufacturers\u2019 Association (ACEA) showed on Thursday. Battery electric vehicle (BEV) sales jumped by 60%, plug-in hybrid sales rose by ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Record-Fuel-Prices-Accelerate-Europes-EV-Sales.html",
           "source": "Oilprice",
-          "published": "21 Oct 2026",
+          "published": "22 Oct 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "India's Middle East Oil Imports Jumped 32% in September",
+          "summary": "India saw its crude oil imports from the Middle East rebound in September to pre-war levels amid higher volumes exiting the Strait of Hormuz, while competition from China for Russian oil resulted in declining imports from Russia.\u00a0 India\u2019s crude oil imports from the Middle East jumped to 2.8 million barrels per day (bpd) in September, up by 32% compared to August and the highest level since February, according to vessel-tracking data compiled by Reuters.\u00a0 Middle Eastern oil accounted for 54% of a",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Middle-East-Oil-Imports-Jumped-32-in-September.html",
+          "source": "Oilprice",
+          "published": "22 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Morgan Stanley: Global Fuel Market Will Stay Tight Through Mid-2027",
-          "summary": "Global fuel markets are set to remain tight until at least the middle of next year as the second quarter of 2027 will see unusually high planned maintenance that refiners have deferred from this year, Morgan Stanley analysts say. Planned maintenance at refineries worldwide is set to peak at 3.4 million barrels per day (bpd) in the second quarter of 2027, as many facilities will be overdue for maintenance after currently running at maximum capacity utilization. In recent months, many refiners hav",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Morgan-Stanley-Global-Fuel-Market-Will-Stay-Tight-Through-Mid-2027.html",
+          "title": "Iran Claims Seven Ships Hit in Persian Gulf as Oil Prices Surge",
+          "summary": "Iran\u2019s Islamic Revolutionary Guard Corps (IRGC) Navy on Thursday claimed that seven vessels, including oil tankers, were either hit by Iranian forces or struck mines in the Persian Gulf over the past day, as tensions in the region flared up again this week. \u00a0 The IRGC Navy said that its forces had tracked and hit four tankers carrying out oil transfers in the northern Persian Gulf, while three other vessels hit mines west of the Strait of Hormuz. \u00a0 The IRGC Navy also warned the United States tha",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
           "source": "Oilprice",
-          "published": "21 Oct 2026",
-          "sentiment_hint": "neutral"
+          "published": "22 Oct 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "UK Approves Jackdaw Gas Field as Energy Crisis Deepens",
-          "summary": "The UK government on Wednesday approved the long-delayed Jackdaw gas field in the first approval of a new North Sea project since the Iran war hiked energy prices. Jackdaw will start to supply gas to British homes and businesses from the end of this month, after the UK Energy Secretary agreed that the regulator can grant consent for gas to be produced at the field, Andy Burnham\u2019s Labour government said in a statement. The Jackdaw project, led by Adura, the new company Shell and Equinor have crea",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Approves-Jackdaw-Gas-Field-as-Energy-Crisis-Deepens.html",
-          "source": "Oilprice",
+          "title": "US Department of Energy allocates $967m to modernise power grid",
+          "summary": "The US DOE has confirmed an additional allocation of nearly $967m for projects aimed at modernising the country\u2019s power grid and reducing electricity costs.",
+          "url": "https://www.energymonitor.ai/news/us-doe-allocates-967m-power-grid/",
+          "source": "Energymonitor",
           "published": "21 Oct 2026",
           "sentiment_hint": "neutral"
         },
@@ -127,140 +216,180 @@
           "source": "Energymonitor",
           "published": "19 Oct 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "ACME Solar signs 300MW peak power PPA with India\u2019s SECI",
-          "summary": "ACME Solar has entered into a power purchase agreement (PPA) with SECI to deliver 300MW/1.2GW-hours (GWh) of assured peak power supply.",
-          "url": "https://www.energymonitor.ai/news/acme-solar-300mw-ppa-seci/",
-          "source": "Energymonitor",
-          "published": "19 Oct 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "Jackdaw gas field approval in North Sea provides new production capacity amid tight global fuel markets through mid-2027.",
+            "rationale": "Record EU fuel prices accelerating EV adoption with BEV sales up 60%, structurally reducing long-term hydrocarbon demand.",
             "key_themes": [
-              "supply tightness",
-              "North Sea production",
-              "energy crisis tailwind"
+              "energy transition headwind",
+              "demand destruction",
+              "EV acceleration"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "EU's shift to EVs and hybrids with conventional car sales plummeting signals long-term demand erosion for major integrated oil producers.",
+            "key_themes": [
+              "energy transition risk",
+              "market share loss",
+              "structural decline"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Middle East crude imports to India surge 32% and geopolitical tensions in Persian Gulf support near-term crude price support and margins.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 63,
+            "rationale": "Iran-claimed attacks on tankers and Persian Gulf tensions support oil price volatility and refining spreads in near term.",
+            "key_themes": [
+              "geopolitical risk",
+              "supply uncertainty",
+              "margin support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: Persian Gulf tensions support oil prices short-term, but EU EV surge undermines long-term European demand outlook.",
+            "key_themes": [
+              "offsetting risks",
+              "regional headwinds",
+              "transition exposure"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": [
-              3,
-              2
+              1,
+              3
             ]
           },
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "bullish",
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
             "conviction": 68,
-            "rationale": "Global fuel markets remain tight through mid-2027 with peak refinery maintenance in Q2 2027, supporting refined product margins.",
+            "rationale": "European fuel price-driven EV acceleration threatens structural demand for conventional petroleum across major developed markets.",
             "key_themes": [
-              "refinery utilization",
-              "tight markets",
-              "maintenance cycle"
+              "demand destruction",
+              "energy transition",
+              "market contraction"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "long-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": 1
           },
           {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Sustained tight fuel markets through mid-2027 support refining margins and downstream profitability for integrated majors.",
-            "key_themes": [
-              "market tightness",
-              "refining spreads",
-              "capacity constraints"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
+            "ticker": "SLB",
+            "company": "Schlumberger",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Limited direct exposure to near-term drivers; benefits from tight markets but no specific project catalysts mentioned.",
+            "rationale": "Geopolitical tensions support near-term oil prices benefiting oilfield services, but long-term EV adoption trends create structural headwinds.",
             "key_themes": [
-              "market tightness",
-              "downstream exposure"
+              "cyclical upside offset",
+              "structural risk",
+              "mixed outlook"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'no specific project catalysts mentioned' but BP is not mentioned in any source articles. The Jackdaw field (Article 3) is led by Adura (Shell/Equinor joint venture), not BP. BP receives no specific mention in the tight markets narrative.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
           }
         ],
-        "summary": "Integrated energy majors face a supportive near-term environment with global fuel markets expected to remain tight through mid-2027, driven by deferred refinery maintenance peaking in Q2 2027. Shell receives direct support from North Sea Jackdaw field approval, providing new gas supply amid energy security concerns. Refining-exposed companies (XOM, CVX) benefit most from sustained tight conditions and elevated capacity utilization, though the outlook shifts bearish longer-term as renewable energy projects accelerate globally.",
+        "summary": "The petroleum sector faces contrasting near-term and structural headwinds. Geopolitical tensions in the Persian Gulf and rising Middle East crude imports to India provide short-term price support and margin strength for integrated majors and refiners. However, record European fuel prices are accelerating EV adoption at unprecedented rates (BEV sales +60%, conventional car sales in double-digit decline), signaling structural long-term demand destruction for traditional oil majors.",
         "risks": [
-          "geopolitical escalation reducing Russian fuel flows",
-          "faster-than-expected renewable energy deployment eroding demand",
-          "refinery maintenance cycles creating temporary margin compression",
-          "potential demand destruction from elevated energy prices"
+          "Escalation of Persian Gulf conflicts could trigger supply shocks and geopolitical risk premiums masking structural demand decline",
+          "EV adoption rates may exceed current projections, accelerating demand destruction faster than oil majors can transition portfolios",
+          "Oil price volatility from geopolitical events could mask deteriorating fundamentals and delay necessary strategic pivots by incumbents"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "BP signal incorrectly assumes BP involvement in Jackdaw project; Jackdaw is actually led by Adura (Shell/Equinor partnership)",
-            "BP is not mentioned in any of the source articles, making the 'limited direct exposure' and 'downstream exposure' themes unsupported"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "SHEL": 105.54000091552734,
-        "XOM": 177.86000061035156,
-        "CVX": 225.7100067138672,
-        "BP": 49.38999938964844
+        "XOM": 178.08999633789062,
+        "CVX": 226.77999877929688,
+        "BP": 49.849998474121094,
+        "SHEL": 105.36000061035156,
+        "TTE": 90.33999633789062,
+        "COP": 145.6699981689453,
+        "SLB": 51.099998474121094
       },
       "spot_check": {
-        "title": "UK Approves Jackdaw Gas Field as Energy Crisis Deepens",
-        "summary": "The UK government on Wednesday approved the long-delayed Jackdaw gas field in the first approval of a new North Sea project since the Iran war hiked energy prices. Jackdaw will start to supply gas to British homes and businesses from the end of this month, after the UK Energy Secretary agreed that the regulator can grant consent for gas to be produced at the field, Andy Burnham\u2019s Labour government said in a statement. The Jackdaw project, led by Adura, the new company Shell and Equinor have crea",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Approves-Jackdaw-Gas-Field-as-Energy-Crisis-Deepens.html",
+        "title": "Record Fuel Prices Accelerate Europe\u2019s EV Sales",
+        "summary": "Record-high gasoline and diesel prices across Europe are accelerating a shift toward electric vehicles and hybrids while new registrations of conventional cars continue to plummet by double digits in key markets. Total car sales in Europe, including the UK, Norway, and Switzerland, rose by 10.2% in September from a year earlier, data from the European Automobile Manufacturers\u2019 Association (ACEA) showed on Thursday. Battery electric vehicle (BEV) sales jumped by 60%, plug-in hybrid sales rose by ",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Record-Fuel-Prices-Accelerate-Europes-EV-Sales.html",
         "source": "Oilprice",
-        "published": "21 Oct 2026",
-        "sentiment_hint": "neutral",
+        "published": "22 Oct 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "SHEL",
-          "company": "Shell plc",
-          "sentiment": "bullish",
+          "ticker": "XOM",
+          "company": "ExxonMobil",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Jackdaw gas field approval in North Sea provides new production capacity amid tight global fuel markets through mid-2027.",
+          "rationale": "Record EU fuel prices accelerating EV adoption with BEV sales up 60%, structurally reducing long-term hydrocarbon demand.",
           "key_themes": [
-            "supply tightness",
-            "North Sea production",
-            "energy crisis tailwind"
+            "energy transition headwind",
+            "demand destruction",
+            "EV acceleration"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "long-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            3,
-            2
-          ]
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Jackdaw gas field approval in North Sea provides new production capacity amid tight global fuel markets through mid-2027.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Record EU fuel prices accelerating EV adoption with BEV sales up 60%, structurally reducing long-term hydrocarbon demand.",
         "haiku_themes": [
-          "supply tightness",
-          "North Sea production",
-          "energy crisis tailwind"
+          "energy transition headwind",
+          "demand destruction",
+          "EV acceleration"
         ]
       },
       "config": {
@@ -280,174 +409,179 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Why Drug Companies Are Rushing to Market Ketamine Medicines",
-          "summary": "Spurred on by the Trump administration\u2019s embrace of psychedelic medicine, researchers are experimenting with new \u2014 and not so new \u2014 forms of the anesthetic.",
-          "url": "https://www.nytimes.com/2026/10/20/science/ketamine-fda-spravato-ketafree.html",
+          "title": "C.D.C. Ignored Request From States to Validate a New Measles Test",
+          "summary": "The agency replied two months later, saying it had \u201ccompeting priorities,\u201d officials from a coalition of Western states said.",
+          "url": "https://www.nytimes.com/2026/10/21/health/measles-test-cdc.html",
           "source": "Rss",
-          "published": "20 Oct 2026",
+          "published": "21 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Start-Up Claims to Use A.I.-Created Viruses to Treat a Patient",
-          "summary": "Certain viruses attack bacteria and can sometimes clear antibiotic-resistant infections. Researchers said they had tailored a virus to attack one patient\u2019s illness.",
-          "url": "https://www.nytimes.com/2026/10/20/science/ai-virus-bacteria-radical-numerics.html",
+          "title": "Is Rabies Making a Comeback?",
+          "summary": "As several states report surges in animal cases, federal officials are warning about an apparent increase in human exposures.",
+          "url": "https://www.nytimes.com/2026/10/21/science/rabies-virus-animals.html",
           "source": "Rss",
-          "published": "20 Oct 2026",
+          "published": "21 Oct 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Inside the World of \u2018Dark Nutrition\u2019",
+          "summary": "More Americans are rejecting everything they\u2019ve been taught about food.",
+          "url": "https://www.nytimes.com/2026/10/21/magazine/dark-nutrition-raw-meat-diet.html",
+          "source": "Rss",
+          "published": "21 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A Star Reporter Had AIDS. He Wanted to Make It His Beat.",
-          "summary": "Jeffrey Schmalz wrote unsparingly about why the political and medical cavalry would not arrive in time for him.",
-          "url": "https://www.nytimes.com/2026/10/20/health/aids-hiv-jeffrey-schmalz-new-york-times-history.html",
-          "source": "Rss",
-          "published": "20 Oct 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/gsk-brings-promise-functional-cure-hepatitis-b-finish-line-fda-nod-hibsago\" hreflang=\"en\">GSK brings promise of 'functional cure' to hepatitis B finish line with FDA nod for Hibsago</a>",
-          "summary": "With the FDA\u2019s green light in hepatitis B, GSK and its Ionis-licensed medicine bepirovirsen have racked up several notable distinctions, bringing the antisense oligonucleotide class to bear against the virus for the first time alongside the promise of functional cure-standard efficacy versus pre-existing treatments.",
-          "url": "https://www.fiercepharma.com/pharma/gsk-brings-promise-functional-cure-hepatitis-b-finish-line-fda-nod-hibsago",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/fda-solidifies-stance-prescription-drug-mobile-apps-software-final-guidance\" hreflang=\"en\">FDA solidifies stance on mobile apps, software used with prescription drugs in final guidance</a>",
-          "summary": "The agency clarified its framework for when drugmakers should include prescription drug apps in their labeling submissions or when app content should instead be treated as promotional material.",
-          "url": "https://www.fiercepharma.com/marketing/fda-solidifies-stance-prescription-drug-mobile-apps-software-final-guidance",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/abbvie-pumps-economic-case-early-subcutaneous-parkinsons-treatment\" hreflang=\"en\">AbbVie pumps up the economic case for early subcutaneous Parkinson\u2019s treatment</a>",
+          "summary": "Delaying the use of subcutaneous Parkinson\u2019s disease treatments by one year increases annual medical costs by 59.1%, AbbVie-sponsored research found.",
+          "url": "https://www.fiercepharma.com/marketing/abbvie-pumps-economic-case-early-subcutaneous-parkinsons-treatment",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: Viatris' Ryzumvi wins FDA nod in age-related vision loss</a>",
-          "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
-          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/otsuka-hit-11-marketing-code-breaches-after-event-organizer-blunder\" hreflang=\"en\">Otsuka hit with 11 marketing code breaches after event organizer blunder</a>",
+          "summary": "The PMCPA has ruled that Otsuka Europe\u2019s involvement with a sponsored symposium webpage breached 11 clauses of the U.K. marketing code. While the PMCPA found fault with many aspects of the webpage, the watchdog opted against hitting Otsuka with its toughest punishment.",
+          "url": "https://www.fiercepharma.com/marketing/otsuka-hit-11-marketing-code-breaches-after-event-organizer-blunder",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/direct-patient-pharma-programs-transform-drug-access-survey\" hreflang=\"en\">Direct-to-patient pharma programs transform drug access: survey</a>",
+          "summary": "Many direct-to-patient programs have significantly affected access to medicines, a survey of U.S. life sciences leaders found.",
+          "url": "https://www.fiercepharma.com/marketing/direct-patient-pharma-programs-transform-drug-access-survey",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "AbbVie-sponsored research demonstrates 59.1% annual cost increase from delaying subcutaneous Parkinson's treatment, strengthening economic case for early adoption.",
+            "key_themes": [
+              "Parkinson's disease treatment",
+              "health economics",
+              "subcutaneous delivery",
+              "early intervention value"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Federal rabies surge warnings and animal case increases create demand tailwinds for vaccine and therapeutic manufacturers with rabies treatment portfolios.",
+            "key_themes": [
+              "rabies resurgence",
+              "vaccine demand",
+              "public health alert",
+              "disease prevention"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [2] confirms rabies surge and federal warnings, but does not mention Merck specifically or identify which companies have rabies treatment portfolios. The rationale assumes Merck manufactures rabies vaccines/therapeutics without source evidence.",
+            "supporting_article": 2
+          },
+          {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Psychedelic medicine market expansion with Trump administration support creates new R&D opportunities in CNS disorders.",
+            "conviction": 63,
+            "rationale": "CDC measles test validation delays and disease surveillance gaps highlight opportunity for diagnostic and vaccine solutions from integrated healthcare companies.",
             "key_themes": [
-              "psychedelic medicines",
-              "ketamine derivatives",
-              "regulatory tailwinds"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [1] discusses Trump administration's embrace of psychedelic medicine and ketamine drug development, but does not mention Johnson & Johnson specifically or its involvement in this market.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Emerging AI-engineered viral therapies and psychedelic drug development align with company's innovation pipeline expansion.",
-            "key_themes": [
-              "AI-created therapeutics",
-              "psychedelic medicines",
-              "novel modalities"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "While articles [1] and [2] cover psychedelic medicines and AI-engineered viral therapies respectively, neither article mentions Pfizer's involvement in these areas. The rationale conflates general industry trends with company-specific positioning without evidence.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Strong positioning in psychiatric/CNS space benefits from Trump administration's pro-psychedelic medicine stance and ketamine drug market growth.",
-            "key_themes": [
-              "psychedelic medicines",
-              "ketamine market",
-              "mental health focus"
+              "diagnostic validation",
+              "infectious disease",
+              "vaccine portfolio",
+              "regulatory opportunity"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [1] supports the psychedelic medicine and ketamine market growth trends, but does not mention Eli Lilly or its positioning in this space. The analyst assumes LLY benefits without source evidence of company involvement.",
-            "supporting_article": null
+            "verification_issue": "Article [1] describes CDC delays in measles test validation, but does not mention Johnson & Johnson or identify specific companies positioned to benefit. The rationale assumes JNJ has relevant diagnostic and vaccine solutions without source evidence.",
+            "supporting_article": 1
           },
           {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
             "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "FDA guidance on prescription drug apps and software creates minor regulatory clarity benefits for diagnostic platforms, but limited direct impact.",
+            "conviction": 45,
+            "rationale": "Direct-to-patient pharma programs expanding access present modest tailwind for companies with patient-centric distribution models; limited direct relevance.",
             "key_themes": [
-              "digital health regulation",
-              "software frameworks"
+              "patient access",
+              "distribution channel",
+              "direct engagement"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 5
+            "supporting_article": 6
           }
         ],
-        "summary": "The healthcare sector shows bullish momentum driven by regulatory tailwinds for psychedelic medicine development and breakthrough innovations in AI-engineered viral therapies. Trump administration support for ketamine-based treatments and antisense oligonucleotide advances (GSK/Ionis) signal expanding treatment paradigms. However, most large-cap pharma benefits remain speculative and long-term in nature.",
+        "summary": "Healthcare sector shows mixed signals with selective opportunities. Infectious disease resurgence (rabies, measles) and AbbVie's Parkinson's health economics research support near-term demand drivers. However, broader themes around nutrition skepticism and regulatory compliance breaches suggest caution. Direct-to-patient initiatives offer long-term structural benefits but lack immediate catalysts.",
         "risks": [
-          "Psychedelic medicine regulatory pathway remains uncertain despite political support; clinical efficacy and safety concerns persist",
-          "AI-engineered viral therapies are highly experimental with unproven commercial viability and manufacturing scalability",
-          "Lack of specific financial guidance or pipeline details for most mentioned companies limits conviction",
-          "Geopolitical changes could reverse Trump administration pro-psychedelic stance"
+          "CDC regulatory delays could extend approval timelines for new diagnostics and vaccines",
+          "Nutritional trend skepticism may undermine preventive health adoption and demand",
+          "Marketing compliance scrutiny across pharmaceutical industry could increase regulatory burden",
+          "Macroeconomic pressures may constrain healthcare spending despite disease prevalence"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "JNJ signal lacks company-specific evidence linking Johnson & Johnson to psychedelic medicine or ketamine drug development mentioned in source articles",
-            "PFE signal combines multiple unrelated trends (psychedelics and AI viruses) and attributes both to Pfizer without any supporting mention in sources",
-            "LLY signal assumes company positioning in psychedelic/ketamine market without any source evidence of Eli Lilly's involvement in these therapeutic areas",
-            "Three of four signals appear to be based on general industry trends rather than company-specific information from the source articles"
+            "MRK signal assumes Merck manufactures rabies treatments without confirmation in source articles",
+            "JNJ signal assumes Johnson & Johnson has diagnostic/vaccine solutions for measles without confirmation in source articles",
+            "Both MRK and JNJ signals make unsupported company-specific claims despite relevant healthcare trends being documented"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JNJ": 259.3599853515625,
-        "PFE": 30.110000610351562,
-        "LLY": 1283.6600341796875,
-        "TMO": 687.3699951171875
+        "ABBV": 284.79998779296875,
+        "MRK": 149.8800048828125,
+        "JNJ": 257.7799987792969,
+        "LLY": 1270.75
       },
       "spot_check": {
-        "title": "Why Drug Companies Are Rushing to Market Ketamine Medicines",
-        "summary": "Spurred on by the Trump administration\u2019s embrace of psychedelic medicine, researchers are experimenting with new \u2014 and not so new \u2014 forms of the anesthetic.",
-        "url": "https://www.nytimes.com/2026/10/20/science/ketamine-fda-spravato-ketafree.html",
-        "source": "Rss",
-        "published": "20 Oct 2026",
-        "sentiment_hint": "neutral",
+        "title": "<a href=\"https://www.fiercepharma.com/marketing/abbvie-pumps-economic-case-early-subcutaneous-parkinsons-treatment\" hreflang=\"en\">AbbVie pumps up the economic case for early subcutaneous Parkinson\u2019s treatment</a>",
+        "summary": "Delaying the use of subcutaneous Parkinson\u2019s disease treatments by one year increases annual medical costs by 59.1%, AbbVie-sponsored research found.",
+        "url": "https://www.fiercepharma.com/marketing/abbvie-pumps-economic-case-early-subcutaneous-parkinsons-treatment",
+        "source": "Fiercepharma",
+        "published": "",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly",
+          "ticker": "ABBV",
+          "company": "AbbVie Inc.",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "Strong positioning in psychiatric/CNS space benefits from Trump administration's pro-psychedelic medicine stance and ketamine drug market growth.",
+          "conviction": 72,
+          "rationale": "AbbVie-sponsored research demonstrates 59.1% annual cost increase from delaying subcutaneous Parkinson's treatment, strengthening economic case for early adoption.",
           "key_themes": [
-            "psychedelic medicines",
-            "ketamine market",
-            "mental health focus"
+            "Parkinson's disease treatment",
+            "health economics",
+            "subcutaneous delivery",
+            "early intervention value"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] supports the psychedelic medicine and ketamine market growth trends, but does not mention Eli Lilly or its positioning in this space. The analyst assumes LLY benefits without source evidence of company involvement.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 4
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Strong positioning in psychiatric/CNS space benefits from Trump administration's pro-psychedelic medicine stance and ketamine drug market growth.",
+        "haiku_rationale": "AbbVie-sponsored research demonstrates 59.1% annual cost increase from delaying subcutaneous Parkinson's treatment, strengthening economic case for early adoption.",
         "haiku_themes": [
-          "psychedelic medicines",
-          "ketamine market",
-          "mental health focus"
+          "Parkinson's disease treatment",
+          "health economics",
+          "subcutaneous delivery",
+          "early intervention value"
         ]
       },
       "config": {
@@ -467,27 +601,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "SpaceX Boosts the A.I. Rally",
-          "summary": "Tech stocks are up after the rocket and artificial intelligence company beat earnings estimates \u2014 and Elon Musk confirmed it is weighing a deal with Tesla.",
-          "url": "https://www.nytimes.com/2026/10/21/business/dealbook/spacex-musk-tesla.html",
+          "title": "Zuckerberg\u2019s Big Deal to Stay in California",
+          "summary": "The agreement that Mark Zuckerberg, Meta\u2019s chief executive, cut to stay in California underscores businesses\u2019 fears about a major tax proposal.",
+          "url": "https://www.nytimes.com/2026/10/22/business/dealbook/zuckerbergs-big-deal.html",
           "source": "Rss",
-          "published": "21 Oct 2026",
-          "sentiment_hint": "bullish"
+          "published": "22 Oct 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Elon Musk Says SpaceX and Tesla Are Exploring a Merger",
-          "summary": "A deal would consolidate Elon Musk\u2019s holdings in rockets, cars and artificial intelligence into a company worth well over $3 trillion.",
-          "url": "https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html",
+          "title": "Stocks Fall and Oil Rises as Investors Retreat from Mounting Risks",
+          "summary": "Earnings reports from big technology companies spooked investors and the price of oil jumped to its highest level in months.",
+          "url": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
           "source": "Rss",
-          "published": "21 Oct 2026",
-          "sentiment_hint": "neutral"
+          "published": "22 Oct 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Senator Asks 4 Accounting Giants to Describe Malta Tax Advice",
-          "summary": "Ron Wyden, ranking Democrat on the Senate Finance Committee, is investigating the firms over their role in helping corporations dodge billions in taxes.",
-          "url": "https://www.nytimes.com/2026/10/21/business/ron-wyden-accounting-firms-malta.html",
+          "title": "Global Rush to Fix PHP Security Flaw Leaves Some Websites Offline",
+          "summary": "Governments and businesses in Kenya, the Netherlands and elsewhere were scrambling to prevent hackers from exploiting a vulnerability in PHP, a widely used programming language.",
+          "url": "https://www.nytimes.com/2026/10/22/world/php-vulnerability-websites-cybersecurity-ai.html",
           "source": "Rss",
-          "published": "21 Oct 2026",
+          "published": "22 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -519,137 +653,155 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "bearish",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Tax evasion investigation of accounting firms creates regulatory risk and potential reputational damage for financial sector.",
+            "rationale": "Market volatility and risk-off sentiment typically drive banking revenues through increased trading and advisory activity.",
             "key_themes": [
-              "regulatory scrutiny",
-              "tax compliance",
-              "financial sector headwinds"
+              "market volatility",
+              "flight to quality",
+              "trading volumes"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] discusses investigation of 4 accounting firms (not named), but does not mention JPMorgan Chase. Analyst assumes JPM is implicitly targeted without evidence.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Banking sector benefits from elevated market uncertainty and potential increase in wealth management and M&A advisory demand.",
+            "key_themes": [
+              "market dislocation",
+              "advisory fees",
+              "risk management"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bearish",
-            "conviction": 75,
-            "rationale": "Direct subject of Senate investigation into tax avoidance schemes; elevated regulatory and legal risk ahead.",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Investment banking activity typically increases during market stress; GS well-positioned for M&A and capital markets advisory.",
             "key_themes": [
-              "regulatory investigation",
-              "compliance risk",
-              "reputational damage"
+              "market uncertainty",
+              "M&A activity",
+              "capital markets"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] mentions investigation of 4 accounting giants but does not name Goldman Sachs or any specific company. Analyst claims GS is 'direct subject' without source support.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bearish",
-            "conviction": 73,
-            "rationale": "Implicitly targeted in accounting giants tax investigation; exposure to regulatory penalties and operational scrutiny.",
+            "company": "Morgan Stanley Inc.",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Diversified banking model benefits from trading volatility and increased client hedging activity amid tech sector selloff.",
             "key_themes": [
-              "regulatory pressure",
-              "tax compliance scrutiny",
-              "sector headwinds"
+              "trading volatility",
+              "hedging demand",
+              "wealth management"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] does not name Morgan Stanley or any specific accounting firms. Analyst infers MS is 'implicitly targeted' without evidence.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "No direct exposure to articles; broad tech selloff tangential but payment processors less vulnerable than semiconductor makers.",
+            "rationale": "Payment volumes may soften amid broad market retreat, though long-term secular trends remain intact.",
             "key_themes": [
-              "market volatility",
-              "indirect AI exposure"
+              "consumer spending",
+              "market sentiment",
+              "payment volumes"
             ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes payment volume softening from market retreat, but source articles do not discuss consumer spending impacts or payment transaction trends during the current selloff",
+            "supporting_article": null
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "No direct exposure to articles; similar to Visa, payment processing less impacted by AI or tax investigation concerns.",
+            "rationale": "Similar exposure to V; near-term transaction headwinds from risk-off sentiment offset by structural payment growth trends.",
             "key_themes": [
-              "market volatility",
-              "sector resilience"
+              "consumer spending",
+              "payment processing",
+              "market sentiment"
             ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes payment processing headwinds from risk-off sentiment, but source articles do not provide evidence of consumer spending or transaction volume impacts",
+            "supporting_article": null
           }
         ],
-        "summary": "Financial sector faces significant headwinds from Senate investigation into tax avoidance practices at major accounting and financial firms, creating near-term regulatory and reputational risks. The articles reveal no meaningful exposure for payment processors or diversified conglomerates to either the accounting scandal or broader AI market volatility. Investors should expect heightened compliance scrutiny and potential penalties for major investment banks.",
+        "summary": "Financial sector shows bullish signals as market volatility and tech sector weakness drive banking revenues through trading, advisory, and capital markets activity. Payment processors face near-term headwinds from risk-off sentiment, though secular growth drivers remain intact. Oil price strength and commodity volatility provide additional support for financial sector earnings.",
         "risks": [
-          "regulatory escalation and material penalties",
-          "reputational damage and client exodus",
-          "potential M&A complications for implicated firms",
-          "broad market volatility spillover effects"
+          "Sustained market decline reducing M&A and capital markets activity",
+          "Rapid reversal of risk-off sentiment",
+          "Deteriorating macroeconomic conditions reducing corporate advisory demand",
+          "Cybersecurity concerns from PHP vulnerability affecting digital infrastructure"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "Analyst conflates a Senate investigation of unnamed 'accounting giants' with specific investment bank ticker symbols (JPM, GS, MS) without any source naming these companies",
-            "Three bearish signals (JPM, GS, MS) are based on assumed inclusion in investigation rather than stated facts",
-            "Article [3] investigates accounting firms' role in tax advice schemes; does not establish that major investment banks are among the 4 firms under investigation"
+            "Banking signals (JPM, BAC, GS, MS) are well-grounded in Article 4's broad market selloff, but rationales assume elevated trading/advisory activity without explicit confirmation in sources",
+            "Payment processor signals (V, MA) lack any evidentiary support in source articles; the assumed consumer spending softening is speculative"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 335.260009765625,
-        "GS": 884.8099975585938,
-        "MS": 180.39999389648438,
-        "V": 406.57000732421875,
-        "MA": 620.4199829101562
+        "JPM": 335.19000244140625,
+        "BAC": 50.779998779296875,
+        "GS": 904.719970703125,
+        "MS": 187.00999450683594,
+        "V": 407.8500061035156,
+        "MA": 622.6199951171875
       },
       "spot_check": {
-        "title": "SpaceX Boosts the A.I. Rally",
-        "summary": "Tech stocks are up after the rocket and artificial intelligence company beat earnings estimates \u2014 and Elon Musk confirmed it is weighing a deal with Tesla.",
-        "url": "https://www.nytimes.com/2026/10/21/business/dealbook/spacex-musk-tesla.html",
+        "title": "Zuckerberg\u2019s Big Deal to Stay in California",
+        "summary": "The agreement that Mark Zuckerberg, Meta\u2019s chief executive, cut to stay in California underscores businesses\u2019 fears about a major tax proposal.",
+        "url": "https://www.nytimes.com/2026/10/22/business/dealbook/zuckerbergs-big-deal.html",
         "source": "Rss",
-        "published": "21 Oct 2026",
-        "sentiment_hint": "bullish",
+        "published": "22 Oct 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "GS",
-          "company": "Goldman Sachs",
-          "sentiment": "bearish",
-          "conviction": 75,
-          "rationale": "Direct subject of Senate investigation into tax avoidance schemes; elevated regulatory and legal risk ahead.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "Market volatility and risk-off sentiment typically drive banking revenues through increased trading and advisory activity.",
           "key_themes": [
-            "regulatory investigation",
-            "compliance risk",
-            "reputational damage"
+            "market volatility",
+            "flight to quality",
+            "trading volumes"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [3] mentions investigation of 4 accounting giants but does not name Goldman Sachs or any specific company. Analyst claims GS is 'direct subject' without source support.",
-          "supporting_article": null
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 4
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Direct subject of Senate investigation into tax avoidance schemes; elevated regulatory and legal risk ahead.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Market volatility and risk-off sentiment typically drive banking revenues through increased trading and advisory activity.",
         "haiku_themes": [
-          "regulatory investigation",
-          "compliance risk",
-          "reputational damage"
+          "market volatility",
+          "flight to quality",
+          "trading volumes"
         ]
       },
       "config": {

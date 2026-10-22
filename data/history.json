@@ -26538,5 +26538,391 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-10-22",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search behavior demonstrates competitive threat, validating Google's AI search investments and urgency to monetize AI-driven discovery.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's demonstrated ability to influence organic traffic and content discovery validates OpenAI partnership value and AI agent commercialization potential.",
+            "key_themes": [
+              "AI agent adoption",
+              "ChatGPT utility",
+              "content creation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI content creation tools emerging as standard; Meta's generative AI investments relevant but competitive landscape intensifying with multiple players.",
+            "key_themes": [
+              "AI content tools",
+              "creator economy",
+              "competitive intensity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 334.760009765625,
+          "MSFT": 532.9500122070312,
+          "META": 697.52001953125
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Record EU fuel prices accelerating EV adoption with BEV sales up 60%, structurally reducing long-term hydrocarbon demand.",
+            "key_themes": [
+              "energy transition headwind",
+              "demand destruction",
+              "EV acceleration"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "EU's shift to EVs and hybrids with conventional car sales plummeting signals long-term demand erosion for major integrated oil producers.",
+            "key_themes": [
+              "energy transition risk",
+              "market share loss",
+              "structural decline"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Middle East crude imports to India surge 32% and geopolitical tensions in Persian Gulf support near-term crude price support and margins.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 63,
+            "rationale": "Iran-claimed attacks on tankers and Persian Gulf tensions support oil price volatility and refining spreads in near term.",
+            "key_themes": [
+              "geopolitical risk",
+              "supply uncertainty",
+              "margin support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Mixed signals: Persian Gulf tensions support oil prices short-term, but EU EV surge undermines long-term European demand outlook.",
+            "key_themes": [
+              "offsetting risks",
+              "regional headwinds",
+              "transition exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "European fuel price-driven EV acceleration threatens structural demand for conventional petroleum across major developed markets.",
+            "key_themes": [
+              "demand destruction",
+              "energy transition",
+              "market contraction"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Geopolitical tensions support near-term oil prices benefiting oilfield services, but long-term EV adoption trends create structural headwinds.",
+            "key_themes": [
+              "cyclical upside offset",
+              "structural risk",
+              "mixed outlook"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 178.08999633789062,
+          "CVX": 226.77999877929688,
+          "BP": 49.849998474121094,
+          "SHEL": 105.36000061035156,
+          "TTE": 90.33999633789062,
+          "COP": 145.6699981689453,
+          "SLB": 51.099998474121094
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "AbbVie-sponsored research demonstrates 59.1% annual cost increase from delaying subcutaneous Parkinson's treatment, strengthening economic case for early adoption.",
+            "key_themes": [
+              "Parkinson's disease treatment",
+              "health economics",
+              "subcutaneous delivery",
+              "early intervention value"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Federal rabies surge warnings and animal case increases create demand tailwinds for vaccine and therapeutic manufacturers with rabies treatment portfolios.",
+            "key_themes": [
+              "rabies resurgence",
+              "vaccine demand",
+              "public health alert",
+              "disease prevention"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [2] confirms rabies surge and federal warnings, but does not mention Merck specifically or identify which companies have rabies treatment portfolios. The rationale assumes Merck manufactures rabies vaccines/therapeutics without source evidence.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 63,
+            "rationale": "CDC measles test validation delays and disease surveillance gaps highlight opportunity for diagnostic and vaccine solutions from integrated healthcare companies.",
+            "key_themes": [
+              "diagnostic validation",
+              "infectious disease",
+              "vaccine portfolio",
+              "regulatory opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes CDC delays in measles test validation, but does not mention Johnson & Johnson or identify specific companies positioned to benefit. The rationale assumes JNJ has relevant diagnostic and vaccine solutions without source evidence.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly & Co.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Direct-to-patient pharma programs expanding access present modest tailwind for companies with patient-centric distribution models; limited direct relevance.",
+            "key_themes": [
+              "patient access",
+              "distribution channel",
+              "direct engagement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "ABBV": 284.79998779296875,
+          "MRK": 149.8800048828125,
+          "JNJ": 257.7799987792969,
+          "LLY": 1270.75
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Market volatility and risk-off sentiment typically drive banking revenues through increased trading and advisory activity.",
+            "key_themes": [
+              "market volatility",
+              "flight to quality",
+              "trading volumes"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Banking sector benefits from elevated market uncertainty and potential increase in wealth management and M&A advisory demand.",
+            "key_themes": [
+              "market dislocation",
+              "advisory fees",
+              "risk management"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Investment banking activity typically increases during market stress; GS well-positioned for M&A and capital markets advisory.",
+            "key_themes": [
+              "market uncertainty",
+              "M&A activity",
+              "capital markets"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley Inc.",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Diversified banking model benefits from trading volatility and increased client hedging activity amid tech sector selloff.",
+            "key_themes": [
+              "trading volatility",
+              "hedging demand",
+              "wealth management"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Payment volumes may soften amid broad market retreat, though long-term secular trends remain intact.",
+            "key_themes": [
+              "consumer spending",
+              "market sentiment",
+              "payment volumes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes payment volume softening from market retreat, but source articles do not discuss consumer spending impacts or payment transaction trends during the current selloff",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar exposure to V; near-term transaction headwinds from risk-off sentiment offset by structural payment growth trends.",
+            "key_themes": [
+              "consumer spending",
+              "payment processing",
+              "market sentiment"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale assumes payment processing headwinds from risk-off sentiment, but source articles do not provide evidence of consumer spending or transaction volume impacts",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.19000244140625,
+          "BAC": 50.779998779296875,
+          "GS": 904.719970703125,
+          "MS": 187.00999450683594,
+          "V": 407.8500061035156,
+          "MA": 622.6199951171875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
