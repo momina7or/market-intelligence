@@ -27311,5 +27311,290 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-26",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "New iPad Mini with larger OLED display demonstrates continued hardware innovation and premium product positioning.",
+            "key_themes": [
+              "product innovation",
+              "display technology",
+              "hardware refresh"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "OpenAI's AI model improvements for legacy COBOL systems unlock enterprise modernization opportunities for Microsoft cloud services.",
+            "key_themes": [
+              "enterprise AI",
+              "legacy system modernization",
+              "OpenAI partnership"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [5] discusses OpenAI's COBOL improvements but contains no mention of Microsoft, Microsoft cloud services, or any partnership between OpenAI and Microsoft. The rationale makes an unsupported inference linking OpenAI's technical capability to Microsoft's enterprise opportunities.",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 341.5799865722656,
+          "MSFT": 523.655029296875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Sustained higher energy prices through 2027 per IEA outlook supports upstream cash flows and shareholder returns.",
+            "key_themes": [
+              "price support",
+              "geopolitical supply constraints",
+              "energy security"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Extended elevated energy pricing environment and Middle East supply concerns benefit integrated oil majors with diversified assets.",
+            "key_themes": [
+              "price floor support",
+              "supply tightness",
+              "portfolio diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Persistent energy price inflation and Middle East geopolitical risk maintain favorable crude and gas realizations for 2027.",
+            "key_themes": [
+              "price persistence",
+              "geopolitical premium",
+              "cash generation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "IEA warning of sustained high prices and Saudi production recovery signals continued strong gas/LNG demand and pricing power.",
+            "key_themes": [
+              "LNG demand",
+              "price support",
+              "energy transition hedging"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Extended price cycle and Middle East supply disruption risks benefit diversified European major with strong cash generation.",
+            "key_themes": [
+              "price cycle extension",
+              "supply disruption",
+              "shareholder returns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 73,
+            "rationale": "Saudi production recovery and sustained Hormuz Strait risks indicate continued tight markets favoring independent producers.",
+            "key_themes": [
+              "supply discipline",
+              "market tightness",
+              "production stability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Higher energy prices support upstream spending, but articles lack direct oilfield services commentary; macro benefit indirect.",
+            "key_themes": [
+              "upstream capex support",
+              "energy price backdrop"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale claims articles support upstream spending outlook, but source articles contain no commentary on oilfield services capex, upstream spending trends, or SLB-specific business drivers. The energy price backdrop alone is insufficient to ground an SLB thesis without direct oilfield services evidence.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 183.47000122070312,
+          "CVX": 232.9600067138672,
+          "BP": 51.040000915527344,
+          "SHEL": 107.4000015258789,
+          "TTE": 93.44000244140625,
+          "COP": 151.32000732421875,
+          "SLB": 52.189998626708984
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Increased AI infrastructure financing demand and potential Anthropic IPO advisory fees support investment banking revenue",
+            "key_themes": [
+              "AI financing",
+              "IPO advisory",
+              "debt market activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Major role in Anthropic IPO and AI company financing could generate substantial investment banking and advisory fees",
+            "key_themes": [
+              "AI IPO pipeline",
+              "tech financing",
+              "advisory revenue"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Tech-focused franchise positioned to capture advisory and financing fees from mega-cap AI infrastructure companies",
+            "key_themes": [
+              "AI capital raises",
+              "tech M&A",
+              "financing activity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI market volatility could affect tech spending patterns, but no direct mention of payment processing impact in articles",
+            "key_themes": [
+              "tech sector volatility",
+              "spending uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'AI market volatility could affect tech spending patterns' but no articles discuss payment processing or spending pattern impacts from AI volatility. The neutral conviction (45) is appropriate given lack of evidence, but the rationale itself is speculative.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Similar to Visa; tech volatility may indirectly affect transaction volumes, but no direct connection identified",
+            "key_themes": [
+              "tech sector volatility",
+              "spending uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'tech volatility may indirectly affect transaction volumes' but no articles establish this connection. The neutral conviction (45) is appropriate, but the rationale lacks grounding in the source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.5,
+          "GS": 890.881591796875,
+          "MS": 183.64999389648438,
+          "V": 405.510009765625,
+          "MA": 617.9349975585938
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
