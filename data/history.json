@@ -27596,5 +27596,311 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-27",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT integration into search workflows demonstrates AI monetization opportunity; GOOGL faces direct competition in organic search traffic.",
+            "key_themes": [
+              "AI search disruption",
+              "organic traffic monetization",
+              "competitive pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT dominance in content discovery and AI tools adoption signals strong OpenAI partnership value and enterprise AI demand growth.",
+            "key_themes": [
+              "AI market leadership",
+              "ChatGPT expansion",
+              "enterprise adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Data center backlash creates infrastructure uncertainty; however, AI tools proliferation and autonomous vehicle development maintain underlying demand drivers.",
+            "key_themes": [
+              "data center headwinds",
+              "infrastructure opposition",
+              "AI demand offset"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Data center backlash is mentioned, but autonomous vehicle development support comes from article [5] which discusses GM's roadmap, not NVIDIA-specific demand",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "TSM",
+            "company": "Taiwan Semiconductor Manufacturing",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Data center backlash and infrastructure concerns create near-term supply chain uncertainty despite continued AI chip demand.",
+            "key_themes": [
+              "data center backlash",
+              "supply chain risk",
+              "AI chip demand"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Data center backlash is grounded in article [6], but the connection to TSM supply chain uncertainty and AI chip demand is inferential rather than explicitly stated in sources",
+            "supporting_article": 6
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 316.79998779296875,
+          "MSFT": 532.5999755859375,
+          "NVDA": 216.0,
+          "TSM": 424.3699951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Houthi attacks near Ras Tanura risk regional supply disruptions, supporting downstream refining margins and product pricing.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "supply disruption",
+              "refined product strength"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Middle East tensions and potential crude supply constraints support oil price stability and refining spreads for integrated majors.",
+            "key_themes": [
+              "geopolitical risk",
+              "crude supply risk",
+              "refining upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Ras Tanura fire poses upside risk to crude prices offsetting downstream margin pressure; net impact unclear near-term.",
+            "key_themes": [
+              "supply risk",
+              "price volatility",
+              "mixed exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Indian fuel export boom and Middle East geopolitical tension benefit integrated major with strong downstream and trading operations.",
+            "key_themes": [
+              "product demand strength",
+              "geopolitical premium",
+              "Asian exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "U.S.-focused upstream operator with limited Middle East exposure; benefits from price support but no direct regional involvement.",
+            "key_themes": [
+              "commodity price support",
+              "limited direct exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale relies on geopolitical supply risk from Ras Tanura/Middle East tensions, but articles do not establish that ConocoPhillips has 'limited Middle East exposure' or confirm its U.S.-focused upstream positioning relative to this specific event. The claim about commodity price support is reasonable given Article 1, but the characterization of COP's exposure profile is not substantiated by the sources provided.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 106.91000366210938,
+          "BP": 50.529998779296875,
+          "XOM": 184.5399932861328,
+          "TTE": 93.76000213623047,
+          "COP": 151.3699951171875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Talzenna achieved FDA approval as first PARP inhibitor for metastatic hormone-sensitive prostate cancer, expanding addressable market.",
+            "key_themes": [
+              "prostate cancer treatment",
+              "PARP inhibitor expansion",
+              "label expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Sac-TMT achieved first global phase 3 win with consistent data across geographies, validating post-Keytruda oncology pipeline strategy.",
+            "key_themes": [
+              "TROP2 ADC advancement",
+              "oncology pipeline",
+              "global clinical validation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 35,
+            "rationale": "Cancer vaccine development trend identified but no specific LLY program mentioned; indirect positive sentiment on oncology sector.",
+            "key_themes": [
+              "cancer vaccine trend",
+              "sector tailwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses cancer vaccine trends generally but does not mention Eli Lilly or any LLY-specific program. Signal acknowledges this indirectly but still lacks concrete grounding for the company-specific analysis.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Ebola outbreak expansion presents potential near-term healthcare utilization risk but impact unclear without disease trajectory data.",
+            "key_themes": [
+              "infectious disease risk",
+              "healthcare demand uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [3] mentions Ebola outbreak expansion but contains no information linking this to UnitedHealth Group or healthcare utilization impact. The signal extrapolates beyond source material without factual support.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "PFE": 29.790000915527344,
+          "MRK": 140.61000061035156,
+          "LLY": 1279.1400146484375,
+          "UNH": 410.70001220703125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Named lead underwriter for Anthropic IPO, generating substantial fees and prestige from high-profile tech offering.",
+            "key_themes": [
+              "IPO underwriting fees",
+              "AI sector exposure",
+              "investment banking revenue"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "Co-lead underwriter on Anthropic IPO, positioning firm for significant underwriting fees and advisory opportunities.",
+            "key_themes": [
+              "IPO underwriting fees",
+              "AI sector exposure",
+              "investment banking revenue"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Potential indirect beneficiary of Anthropic IPO activity, but not mentioned as lead underwriter in transaction.",
+            "key_themes": [
+              "investment banking",
+              "financing activities",
+              "tech sector exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "JPMorgan Chase is not mentioned in any source articles as involved in Anthropic IPO. Analyst speculates about 'indirect beneficiary' status without source support.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "GS": 893.280029296875,
+          "MS": 183.49000549316406,
+          "JPM": 334.0400085449219
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      }
+    }
   }
 ]
