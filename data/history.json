@@ -27902,5 +27902,289 @@
         "reliability": "medium"
       }
     }
+  },
+  {
+    "run_date": "2026-10-28",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "TikTok launching restaurant guide directly challenges Google Maps; AI-driven content discovery reducing SEO traffic dependency",
+            "key_themes": [
+              "competitive threat from TikTok",
+              "AI traffic disruption",
+              "search monetization risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "AI content creation tools proliferating across ecosystem; mixed impact as both threat to ad model and opportunity for engagement",
+            "key_themes": [
+              "AI content tools expansion",
+              "advertising pressure",
+              "creator economy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT demonstrating strong organic AI integration and traffic generation; validates LLM monetization beyond direct subscriptions",
+            "key_themes": [
+              "ChatGPT organic adoption",
+              "AI integration value",
+              "enterprise AI demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 323.8399963378906,
+          "META": 617.5,
+          "MSFT": 530.8099975585938
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "LNG supply constraints from QatarEnergy force majeure extend to end-2026, supporting higher energy prices and upstream margins.",
+            "key_themes": [
+              "LNG supply shortage",
+              "energy price support",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Tight global LNG markets and tanker rate spikes benefit integrated energy majors with diversified portfolios and shipping exposure.",
+            "key_themes": [
+              "LNG market tightness",
+              "upstream economics",
+              "integrated operations"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "LNG supply disruptions and geopolitical tensions support oil and gas prices, benefiting independent upstream producer margins.",
+            "key_themes": [
+              "LNG shortage",
+              "commodity price support",
+              "upstream exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "LNG supply constraints provide support, but regulatory headwinds from EPA emissions changes and energy transition investments create offsetting pressures.",
+            "key_themes": [
+              "LNG benefits",
+              "regulatory uncertainty",
+              "energy transition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              5
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "LNG market tightness supports LNG operations, but geopolitical restrictions on Russian fuel complicate trading and logistics strategies.",
+            "key_themes": [
+              "LNG supply tightness",
+              "geopolitical complexity",
+              "trading headwinds"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Higher energy prices from LNG constraints support oilfield services demand, but EPA emissions regulatory changes create operational uncertainty.",
+            "key_themes": [
+              "services demand",
+              "regulatory risk",
+              "emissions compliance"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              5
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 180.96499633789062,
+          "CVX": 229.1199951171875,
+          "COP": 148.85000610351562,
+          "BP": 49.40999984741211,
+          "SHEL": 105.33999633789062,
+          "SLB": 53.369998931884766
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Antidepressant mechanism article highlights evolving understanding of psychiatric drugs, potentially affecting future R&D strategies.",
+            "key_themes": [
+              "psychiatric medication research",
+              "mechanism of action clarity"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses antidepressant mechanisms generally but does not mention Eli Lilly, their R&D strategies, or any company-specific implications. The rationale connects a general psychiatric research article to a specific company without evidence of that company's involvement or relevance.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1289.2750244140625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Banking sector faces mixed signals from tech volatility and geopolitical trade tensions affecting financial markets.",
+            "key_themes": [
+              "market volatility",
+              "geopolitical risk",
+              "financial stability"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'banking sector faces mixed signals from tech volatility and geopolitical trade tensions' but JPMorgan Chase is not mentioned in any source article. While articles [4] and [1] discuss tech volatility and trade tensions, there is no connection drawn to banking sector impacts or JPM specifically.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Investment banking activity may face headwinds from tech sector uncertainty, though M&A pipelines remain relevant.",
+            "key_themes": [
+              "tech sector uncertainty",
+              "investment banking",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'investment banking activity may face headwinds from tech sector uncertainty' but Goldman Sachs is not mentioned in any source article. Article [3] mentions tech earnings reports but provides no analysis of investment banking impacts.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Payment volumes likely stable amid consumer spending; tech sector volatility doesn't directly impact payment processing demand.",
+            "key_themes": [
+              "payment processing",
+              "consumer spending resilience"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'payment volumes likely stable amid consumer spending' but no source article discusses consumer spending trends, payment processing demand, or Visa. The claim about tech volatility not impacting payment processing is reasonable but not grounded in the provided sources.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bullish",
+            "conviction": 61,
+            "rationale": "Payment networks insulated from tech infrastructure concerns; core business driven by transaction volumes, not AI spending.",
+            "key_themes": [
+              "payment processing",
+              "business model resilience"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims payment networks are 'insulated from tech infrastructure concerns' and driven by 'transaction volumes' but no source article discusses Mastercard, payment transaction volumes, or the relationship between tech spending and payment processing demand.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 335.8599853515625,
+          "GS": 914.6699829101562,
+          "V": 403.489990234375,
+          "MA": 611.2000122070312
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
   }
 ]
