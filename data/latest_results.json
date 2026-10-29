@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-10-28",
-  "run_time": "2026-10-28T13:48:52.556440Z",
+  "run_date": "2026-10-29",
+  "run_time": "2026-10-29T13:56:14.127754Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,74 +29,58 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "This is how badly X wants you to pay to promote your posts",
-          "summary": "After Elon Musk warned that \"advertisers who post ads that are ugly, shrill, strident or overstate claims about their product will be barred from advertising\" on X earlier this month, the platform now appears to be using a jarring animated arm that reaches across the screen to draw attention to the \"promote\" button while users [&#8230;]",
-          "url": "https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts",
+          "title": "This $149 digital candle uses AI to accurately simulate a flickering flame",
+          "summary": "After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates' latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It's a far cry from the types of devices Bates is typically known [&#8230;]",
+          "url": "https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame",
           "source": "Theverge",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "TikTok is going after Yelp and Google Maps with an in-app restaurant guide",
-          "summary": "TikTok is launching an in-app restaurant guide in a challenge to other platforms like Yelp and even Google Maps. The company on Wednesday announced the launch of Must Eat, a new section of the TikTok app built on 40 million posts, reviews, and comments about dining on the platform. The new feature uses videos and [&#8230;]",
-          "url": "https://www.theverge.com/news/1020267/tiktok-viral-restaurant-recommendations-must-eat-yelp",
+          "title": "Anthropic\u2019s business plan: Build God or die trying",
+          "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
           "source": "Theverge",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Inside Amazon\u2019s Echo hardware event",
-          "summary": "Amazon swapped its usual big fall hardware showcase this year for a series of smaller launches throughout October. So far this month, it has announced new Fire TV devices, new Kindles, the Alexa Tablet Pro 12, Ring's first smart lock, new hardware from AI-wearable startup Bee, and new Blink 4K cameras. Then this week, it [&#8230;]",
-          "url": "https://www.theverge.com/tech/1020388/inside-amazons-echo-hardware-event",
+          "title": "Apple finally combined a toaster and a refrigerator",
+          "summary": "For more than 15 years, Apple has had a pretty simple answer to the idea of a touchscreen MacBook: no. Yesterday, Apple finally decided to think different and announce one anyway. \"You've gotta touch it to believe it,\" says Apple CEO John Ternus. He might be right: I haven't yet touched it, and I still [&#8230;]",
+          "url": "https://www.theverge.com/report/1022013/apple-touchscreen-macbook-pro-toaster-refrigerator",
           "source": "Theverge",
-          "published": "28 Oct 2026",
-          "sentiment_hint": "bearish"
+          "published": "29 Oct 2026",
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Apple announced touchscreen MacBook, signaling strategic pivot toward AI-integrated hardware and product innovation.",
+            "key_themes": [
+              "product innovation",
+              "AI hardware integration",
+              "consumer tech expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] mentions Apple announced a touchscreen MacBook, but does not mention AI integration or position it as an AI-hardware strategy. The rationale adds interpretive claims ('AI-integrated hardware') not supported by the source material.",
+            "supporting_article": 6
+          },
+          {
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "TikTok launching restaurant guide directly challenges Google Maps; AI-driven content discovery reducing SEO traffic dependency",
-            "key_themes": [
-              "competitive threat from TikTok",
-              "AI traffic disruption",
-              "search monetization risk"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "AI content creation tools proliferating across ecosystem; mixed impact as both threat to ad model and opportunity for engagement",
-            "key_themes": [
-              "AI content tools expansion",
-              "advertising pressure",
-              "creator economy"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT demonstrating strong organic AI integration and traffic generation; validates LLM monetization beyond direct subscriptions",
+            "conviction": 75,
+            "rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
             "key_themes": [
-              "ChatGPT organic adoption",
-              "AI integration value",
-              "enterprise AI demand"
+              "AI competition",
+              "search market disruption",
+              "organic traffic monetization"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -104,58 +88,56 @@
             "supporting_article": 1
           }
         ],
-        "summary": "The articles reveal a shifting digital landscape where AI-driven content discovery (ChatGPT, generative AI tools) is fragmenting traditional search and monetization models. Google faces competitive pressure from TikTok's expansion into location services and AI-powered recommendations, while Microsoft's ChatGPT demonstrates strong organic adoption metrics. The proliferation of AI content creation tools signals sustained demand for AI infrastructure and LLM capabilities, supporting tech sector growth despite redistribution of value.",
+        "summary": "Articles reveal accelerating AI integration across consumer products and content creation workflows, with ChatGPT demonstrating ability to redirect organic traffic through AI recommendations. Apple's touchscreen MacBook launch signals tech giants competing to embed AI into hardware. The broader trend shows AI tools becoming essential infrastructure, but traditional search and content discovery models face disruption from AI-powered alternatives.",
         "risks": [
-          "Regulatory scrutiny on AI content generation and copyright issues",
-          "Advertising market fragmentation as alternative discovery channels bypass traditional platforms",
-          "Rapid commoditization of AI tools reducing competitive moats",
-          "Platform risk from TikTok's diversification into adjacent markets traditionally dominated by GOOGL"
+          "AI-driven search disruption threatens traditional ad-based revenue models",
+          "Regulatory scrutiny on AI training data and content monetization practices",
+          "Commoditization risk as multiple AI tools proliferate in content creation space",
+          "Uncertainty on hardware-AI integration ROI and consumer adoption rates"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
+          "overall_reliability": "medium",
           "flags": [
-            "GOOGL signal claims 'search monetization risk' but sources don't explicitly discuss Google's monetization being at risk",
-            "MSFT signal attributes ChatGPT to Microsoft but source articles don't explicitly confirm OpenAI/ChatGPT ownership by Microsoft",
-            "META signal claims 'mixed impact as both threat to ad model' but sources don't establish clear threat to Meta's ad model from AI content creation tools"
+            "AAPL signal overstates article content by claiming 'AI-integrated hardware' when source only discusses touchscreen MacBook announcement",
+            "AAPL signal interprets touchscreen feature as 'strategic pivot toward AI' without textual support for AI focus in announcement"
           ],
-          "ungrounded_count": 0
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "GOOGL": 323.8399963378906,
-        "META": 617.5,
-        "MSFT": 530.8099975585938
+        "AAPL": 350.010009765625,
+        "GOOGL": 282.7500915527344
       },
       "spot_check": {
-        "title": "TikTok is going after Yelp and Google Maps with an in-app restaurant guide",
-        "summary": "TikTok is launching an in-app restaurant guide in a challenge to other platforms like Yelp and even Google Maps. The company on Wednesday announced the launch of Must Eat, a new section of the TikTok app built on 40 million posts, reviews, and comments about dining on the platform. The new feature uses videos and [&#8230;]",
-        "url": "https://www.theverge.com/news/1020267/tiktok-viral-restaurant-recommendations-must-eat-yelp",
-        "source": "Theverge",
-        "published": "28 Oct 2026",
+        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
+        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
+        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
+        "source": "Feedburner",
+        "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "GOOGL",
           "company": "Alphabet Inc.",
-          "sentiment": "bearish",
-          "conviction": 72,
-          "rationale": "TikTok launching restaurant guide directly challenges Google Maps; AI-driven content discovery reducing SEO traffic dependency",
+          "sentiment": "bullish",
+          "conviction": 75,
+          "rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
           "key_themes": [
-            "competitive threat from TikTok",
-            "AI traffic disruption",
-            "search monetization risk"
+            "AI competition",
+            "search market disruption",
+            "organic traffic monetization"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 1
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "TikTok launching restaurant guide directly challenges Google Maps; AI-driven content discovery reducing SEO traffic dependency",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
         "haiku_themes": [
-          "competitive threat from TikTok",
-          "AI traffic disruption",
-          "search monetization risk"
+          "AI competition",
+          "search market disruption",
+          "organic traffic monetization"
         ]
       },
       "config": {
@@ -175,27 +157,43 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "QatarEnergy Extends LNG Force Majeure to End of 2026",
-          "summary": "State-owned firm QatarEnergy has extended the force majeure on LNG deliveries to the end of the year, leaving Europe and Asia without certain term supply heading into the winter, in a move that drove European natural gas prices to the highest level since the autumn of 2022.\u00a0 Italy\u2019s gas importer and energy provider Edison said it had received a notice from QatarEnergy confirming the extension of the force majeure on deliveries \u2013 in force since April 2026 \u2013 until the end of the year.\u00a0 QatarEnergy",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-to-End-of-2026.html",
+          "title": "Iran War Hikes EU\u2019s Oil Import Bill By $11 Billion Per Month",
+          "summary": "The European Union has been paying $11 billion more to import oil since the Middle East crisis choked crude oil supplies and triggered a global fuel crisis, an analysis by Euronews Business showed on Thursday. The value of the EU\u2019s petroleum imports jumped by 55.8% in the second quarter of 2026, despite the relatively stable volume of imports, according to Eurostat data. Between April and July, right after the closed Strait of Hormuz hiked oil prices, the EU spent an average of $30.7 billion (27",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Hikes-EUs-Oil-Import-Bill-By-11-Billion-Per-Month.html",
           "source": "Oilprice",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "U.S. Lawmakers Warn Banks Against Trump's Russian Diesel Deal",
-          "summary": "A bipartisan group of US lawmakers has warned American banks, port authorities, and fuel-industry groups against facilitating imports of Russian diesel, raising the prospect of congressional investigations and legal action over President Donald Trump\u2019s decision to ease restrictions on Russian fuel. In letters sent to the chief executives of major US banks and the heads of several port authorities, the lawmakers warned that importing Russian diesel could violate federal law and expose companies t",
-          "url": "https://oilprice.com/Energy/Energy-General/US-Lawmakers-Warn-Banks-Against-Trumps-Russian-Diesel-Deal.html",
+          "title": "Shell Profits Nearly Double to $10.8 Billion as Refining Margins Hit Record",
+          "summary": "Record refining margins and higher LNG and gas prices boosted Shell\u2019s third-quarter earnings to over $10.8 billion, nearly double compared to the same period last year, as the Middle East crisis squeezed fuel supplies and hiked oil and gas prices. \u00a0\u00a0 Shell on Thursday reported adjusted earnings of $10.814 billion for the third quarter, the highest since 2022, almost double the $5.432 billion earnings a year ago. The third-quarter earnings \u201creflect strong operational performance in a continued vo",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Profits-Nearly-Double-to-108-Billion-as-Refining-Margins-Hit-Record.html",
           "source": "Oilprice",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Bahri Profit Hits $1.36 Billion as the World Scrambles for Tankers",
-          "summary": "Surging tanker rates amid the oil and shipping crisis helped Saudi Arabia\u2019s shipping giant Bahri post a tenfold jump in net profit for the third quarter from a year earlier. Bahri booked a net profit of $1.36 billion (5.1 billion Saudi riyals) for the third quarter, ten times higher than the profit of $137 million (513 million riyals) for the same period in 2025, driven in particular by the Bahri Oil business unit, the Saudi shipping firm said on Wednesday. Compared to the second quarter, Bahri\u2019",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Bahri-Profit-Hits-136-Billion-as-the-World-Scrambles-for-Tankers.html",
+          "title": "TotalEnergies Profit Doubles as War Boosts Refining and Trading",
+          "summary": "TotalEnergies booked $9.1 billion in third-quarter adjusted net income, doubling earnings from a year earlier amid historically high refining margins, higher oil and gas prices, and strong oil and LNG trading.\u00a0 The French supermajor on Thursday reported an adjusted net income of $9.1 billion, up by 51% from the $6 billion profit for the second quarter, and 127% higher than the $4 billion booked for the third quarter of 2025.\u00a0 The Q3 2026 income beat the average analyst expectation of $8.3 billio",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Profit-Doubles-as-War-Boosts-Refining-and-Trading.html",
           "source": "Oilprice",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "ADS-TEC Energy nears permit for 1GW battery storage facility in Germany",
+          "summary": "ADS-TEC Energy has announced progress on its large-scale battery energy storage project at the Pulverdingen substation in Germany.",
+          "url": "https://www.energymonitor.ai/news/ads-tec-energy-nears-permit-battery-storage/",
+          "source": "Energymonitor",
+          "published": "29 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "GE Vernova signs agreement to buy Trench Group for $9bn",
+          "summary": "GE Vernova has agreed to acquire Trench Group from investment company Triton Partners, for an estimated value of $9bn.",
+          "url": "https://www.energymonitor.ai/news/ge-vernova-to-buy-trench-group/",
+          "source": "Energymonitor",
+          "published": "29 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -205,187 +203,144 @@
           "source": "Energymonitor",
           "published": "28 Oct 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "US EPA proposes changes to oil and gas emissions regulations",
-          "summary": "The US EPA proposed changes to Clean Air Act oil and gas emissions rules, including provisions for marginal wells and associated gas flaring.",
-          "url": "https://www.energymonitor.ai/news/epa-proposes-changes-oil-gas-regulations/",
-          "source": "Energymonitor",
-          "published": "28 Oct 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Minesto, Morteza Capital sign MoU to develop tidal energy in Maldives",
-          "summary": "Minesto has announced the signing of a MoU with Morteza Capital to seek commercial tidal energy opportunities in the Maldives.",
-          "url": "https://www.energymonitor.ai/news/minesto-morteza-capital-sign-mou/",
-          "source": "Energymonitor",
-          "published": "27 Oct 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
+            "ticker": "SHEL",
+            "company": "Shell",
             "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "LNG supply constraints from QatarEnergy force majeure extend to end-2026, supporting higher energy prices and upstream margins.",
+            "conviction": 92,
+            "rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
             "key_themes": [
-              "LNG supply shortage",
-              "energy price support",
-              "geopolitical risk premium"
+              "record refining margins",
+              "LNG price strength",
+              "supply disruption beneficiary"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 90,
+            "rationale": "Q3 adjusted net income doubled to $9.1B, exceeding analyst expectations, boosted by refining margins and strong trading.",
+            "key_themes": [
+              "refining margin expansion",
+              "oil/LNG trading strength",
+              "earnings beat"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Higher oil prices from Middle East supply disruption benefit upstream earnings; EU spending $11B more monthly on oil imports.",
+            "key_themes": [
+              "crude price strength",
+              "supply tightness",
+              "upstream upside"
+            ],
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
           },
           {
             "ticker": "CVX",
-            "company": "Chevron Corporation",
+            "company": "Chevron",
             "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Tight global LNG markets and tanker rate spikes benefit integrated energy majors with diversified portfolios and shipping exposure.",
+            "conviction": 72,
+            "rationale": "Elevated oil prices and refining margins from global supply crisis support both upstream and downstream profitability.",
             "key_themes": [
-              "LNG market tightness",
-              "upstream economics",
-              "integrated operations"
+              "oil price support",
+              "refining upside",
+              "Middle East crisis impact"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              3
-            ]
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "LNG supply disruptions and geopolitical tensions support oil and gas prices, benefiting independent upstream producer margins.",
-            "key_themes": [
-              "LNG shortage",
-              "commodity price support",
-              "upstream exposure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "No source article provides specific financial data or earnings information about Chevron. The rationale infers general benefits from the crisis but lacks direct evidence for this specific company.",
+            "supporting_article": null
           },
           {
             "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "LNG supply constraints provide support, but regulatory headwinds from EPA emissions changes and energy transition investments create offsetting pressures.",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Rising oil/gas prices and record refining margins from Strait of Hormuz disruption benefit integrated portfolio.",
             "key_themes": [
-              "LNG benefits",
-              "regulatory uncertainty",
-              "energy transition"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              5
-            ]
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "LNG market tightness supports LNG operations, but geopolitical restrictions on Russian fuel complicate trading and logistics strategies.",
-            "key_themes": [
-              "LNG supply tightness",
-              "geopolitical complexity",
-              "trading headwinds"
+              "refining margin expansion",
+              "commodity price strength",
+              "crisis beneficiary"
             ],
             "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Higher energy prices from LNG constraints support oilfield services demand, but EPA emissions regulatory changes create operational uncertainty.",
-            "key_themes": [
-              "services demand",
-              "regulatory risk",
-              "emissions compliance"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              5
-            ]
+            "verified": false,
+            "verification_issue": "No source article provides specific financial data or earnings information about BP. The rationale infers general benefits from the crisis but lacks direct evidence for this specific company.",
+            "supporting_article": null
           }
         ],
-        "summary": "European LNG supply crisis from QatarEnergy's extended force majeure through end-2026 creates a bullish near-term backdrop for integrated majors and upstream producers (XOM, CVX, COP), with elevated tanker rates and energy prices supporting margins. However, geopolitical complexities around Russian fuel restrictions and tightening EPA emissions regulations introduce headwinds for integrated players (BP, SHEL) and oilfield services (SLB), creating a mixed sector outlook with near-term energy price tailwinds offset by medium-term regulatory and transition risks.",
+        "summary": "The Middle East crisis and Strait of Hormuz closure are creating a bullish environment for integrated energy majors through elevated crude prices, record refining margins, and strong LNG trading. Shell and TotalEnergies have already reported exceptional Q3 earnings nearly doubling YoY, with margins reaching historic highs. The EU's 55.8% jump in oil import costs signals sustained global price pressure, benefiting upstream production and downstream refining segments across the sector.",
         "risks": [
-          "QatarEnergy force majeure could be lifted earlier than expected, deflating energy prices",
-          "Escalating geopolitical tensions and sanctions could disrupt global oil/gas flows and create regulatory backlash against energy majors",
-          "Accelerating energy transition investment requirements and EPA emissions regulations could pressure downstream margins and capital allocation",
-          "Recession risk could dampen energy demand, offsetting supply-side tightness benefits",
-          "Congressional action on Russian fuel imports could create unforeseen operational/legal complications for integrated energy traders"
+          "geopolitical resolution reducing crude prices and refining margins rapidly",
+          "demand destruction from sustained high energy prices",
+          "energy transition investments underperforming amid crisis focus",
+          "trading volatility normalizing after crisis pass"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "CVX signal lacks direct supporting evidence; rationale generalizes from Shell and TotalEnergies results without company-specific data",
+            "BP signal lacks direct supporting evidence; rationale generalizes from Shell and TotalEnergies results without company-specific data"
+          ],
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "XOM": 180.96499633789062,
-        "CVX": 229.1199951171875,
-        "COP": 148.85000610351562,
-        "BP": 49.40999984741211,
-        "SHEL": 105.33999633789062,
-        "SLB": 53.369998931884766
+        "SHEL": 107.81999969482422,
+        "TTE": 94.23999786376953,
+        "XOM": 183.4149932861328,
+        "CVX": 231.52639770507812,
+        "BP": 50.5099983215332
       },
       "spot_check": {
-        "title": "QatarEnergy Extends LNG Force Majeure to End of 2026",
-        "summary": "State-owned firm QatarEnergy has extended the force majeure on LNG deliveries to the end of the year, leaving Europe and Asia without certain term supply heading into the winter, in a move that drove European natural gas prices to the highest level since the autumn of 2022.\u00a0 Italy\u2019s gas importer and energy provider Edison said it had received a notice from QatarEnergy confirming the extension of the force majeure on deliveries \u2013 in force since April 2026 \u2013 until the end of the year.\u00a0 QatarEnergy",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-to-End-of-2026.html",
+        "title": "Shell Profits Nearly Double to $10.8 Billion as Refining Margins Hit Record",
+        "summary": "Record refining margins and higher LNG and gas prices boosted Shell\u2019s third-quarter earnings to over $10.8 billion, nearly double compared to the same period last year, as the Middle East crisis squeezed fuel supplies and hiked oil and gas prices. \u00a0\u00a0 Shell on Thursday reported adjusted earnings of $10.814 billion for the third quarter, the highest since 2022, almost double the $5.432 billion earnings a year ago. The third-quarter earnings \u201creflect strong operational performance in a continued vo",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Profits-Nearly-Double-to-108-Billion-as-Refining-Margins-Hit-Record.html",
         "source": "Oilprice",
-        "published": "28 Oct 2026",
-        "sentiment_hint": "neutral",
+        "published": "29 Oct 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "ExxonMobil Corporation",
+          "ticker": "SHEL",
+          "company": "Shell",
           "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "LNG supply constraints from QatarEnergy force majeure extend to end-2026, supporting higher energy prices and upstream margins.",
+          "conviction": 92,
+          "rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
           "key_themes": [
-            "LNG supply shortage",
-            "energy price support",
-            "geopolitical risk premium"
+            "record refining margins",
+            "LNG price strength",
+            "supply disruption beneficiary"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 1
+          "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "LNG supply constraints from QatarEnergy force majeure extend to end-2026, supporting higher energy prices and upstream margins.",
+        "haiku_rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
         "haiku_themes": [
-          "LNG supply shortage",
-          "energy price support",
-          "geopolitical risk premium"
+          "record refining margins",
+          "LNG price strength",
+          "supply disruption beneficiary"
         ]
       },
       "config": {
@@ -405,120 +360,72 @@
     "Healthcare": {
       "articles": [
         {
-          "title": "Trump-Appointed CDC Deputy Director Jennifer Shuford Resigns After 4 Months",
-          "summary": "Dr. Jennifer Shuford, a respected former Texas health official, had been appointed by President Trump to help steady the agency.",
-          "url": "https://www.nytimes.com/2026/10/27/health/shuford-cdc-resign.html",
+          "title": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections",
+          "summary": "In a unilateral declaration by the health secretary, several injections promoted by online influencers will become widely available. The F.D.A. had advised against the move.",
+          "url": "https://www.nytimes.com/2026/10/28/health/peptides-kennedy-fda.html",
           "source": "Rss",
-          "published": "27 Oct 2026",
+          "published": "29 Oct 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Can Scientists Make Football Safer?",
+          "summary": "Researchers are exploring novel ways to treat, even prevent, the brain disease C.T.E. One of the most surprising: near-infrared light.",
+          "url": "https://www.nytimes.com/2026/10/28/science/cte-nfl-football-brain-safety.html",
+          "source": "Rss",
+          "published": "28 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "ChatGPT\u2019s Advice to Cut Her Seizure Drug Led to Devastating Consequences",
-          "summary": "The chatbot helped a woman taper off a lifesaving drug and hide the plan from her doctors.",
-          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+          "title": "Brain Disease Is Pervasive in N.F.L., New Estimate Suggests",
+          "summary": "Using statistical techniques, a new study has arrived at a harrowing estimate: Three of four retired pro football players most likely had C.T.E. at death.",
+          "url": "https://www.nytimes.com/2026/10/28/science/brain-disease-cte-nfl-football.html",
           "source": "Rss",
-          "published": "27 Oct 2026",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "Antidepressants Don\u2019t Correct A Chemical Imbalance. How, Then, Do They Work?",
-          "summary": "Here\u2019s how psychiatrists like me think about the most promising hypotheses.",
-          "url": "https://www.nytimes.com/2026/10/27/science/how-antidepressants-ssri-work.html",
-          "source": "Rss",
-          "published": "27 Oct 2026",
+          "published": "28 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion\" hreflang=\"en\">Amgen hit with FDA warning letter for \u2018misleading\u2019 Vectibix promotion</a>",
-          "summary": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said the issues stemmed from an \u201cinadvertent\u201d submission.",
-          "url": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/supernus-shreds-adhd-stigma-olympic-snowboarder-chloe-kim\" hreflang=\"en\">Supernus shreds ADHD stigma with Olympic snowboarder Chloe Kim</a>",
-          "summary": "The Olympic athlete and Qelbree user is the new face of Supernus' \"Ms. Represented\" campaign as it looks to reach a younger audience with its ADHD awareness messaging.",
-          "url": "https://www.fiercepharma.com/marketing/supernus-shreds-adhd-stigma-olympic-snowboarder-chloe-kim",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/geron-rytelo-stumbles-phase-3-novartis-gears-post-jak-inhibitor-blood-cancer-bid\" hreflang=\"en\">Geron\u2019s Rytelo stumbles in phase 3 as Novartis gears up for post-JAK inhibitor blood cancer bid</a>",
+          "summary": "Geron has discontinued a phase 3 trial of its Rytelo in JAK inhibitor-pretreated myelofibrosis after an independent data monitoring committee ruled that the study was unlikely to succeed, just as Novartis is gearing up for a delayed FDA approval bid for its pelabresib.",
+          "url": "https://www.fiercepharma.com/pharma/geron-rytelo-stumbles-phase-3-novartis-gears-post-jak-inhibitor-blood-cancer-bid",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/eversana-combines-forces-uk-based-ai-health-economics-research-firm-estima-acquistion\" hreflang=\"en\">Eversana combines forces with UK-based AI health economics research firm Estima in acquisition</a>",
-          "summary": "Estima's AI and automation capabilities for health economics and outcomes research will help Eversana further leverage the \"technology-first solutions\" infused into its platform.",
-          "url": "https://www.fiercepharma.com/marketing/eversana-combines-forces-uk-based-ai-health-economics-research-firm-estima-acquistion",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides\" hreflang=\"en\">Kennedy's HHS relaxes enforcement on 6 popular wellness peptides</a>",
+          "summary": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides.",
+          "url": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/biogens-claims-return-growth-q3-earnings-boost\" hreflang=\"en\">'Numbers speak for themselves': Biogen's Apellis buyout fuels best quarter since 2020</a>",
+          "summary": "Biogen CEO Chris Viehbacher said, \"We're dramatically changing Biogen\" on third quarter earnings call where the biotech announced revenue increase 11% year-over-yera.",
+          "url": "https://www.fiercepharma.com/pharma/biogens-claims-return-growth-q3-earnings-boost",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
-        "signals": [
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Antidepressant mechanism article highlights evolving understanding of psychiatric drugs, potentially affecting future R&D strategies.",
-            "key_themes": [
-              "psychiatric medication research",
-              "mechanism of action clarity"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [3] discusses antidepressant mechanisms generally but does not mention Eli Lilly, their R&D strategies, or any company-specific implications. The rationale connects a general psychiatric research article to a specific company without evidence of that company's involvement or relevance.",
-            "supporting_article": null
-          }
-        ],
-        "summary": "Healthcare sector faces mixed regulatory and reputational headwinds. FDA enforcement actions against misleading drug promotion (Amgen precedent) raise compliance risks for all pharma companies. AI integration in healthcare shows promise but also regulatory concerns (ChatGPT seizure drug incident). CDC leadership instability could create near-term policy uncertainty. Industry focus on digital health solutions and outcomes research reflects adaptation to evolving regulatory environment.",
-        "risks": [
-          "FDA regulatory enforcement escalation for misleading drug marketing and promotion practices",
-          "AI-assisted healthcare decision-making creating liability and patient safety concerns",
-          "CDC leadership instability under Trump administration affecting policy consistency and industry guidance"
-        ],
-        "sector_sentiment": "bearish",
-        "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "Analyst assumes Eli Lilly (LLY) is implicated by a general article about antidepressant mechanisms without any mention of the company in the source material",
-            "Conviction level (45) appears arbitrary given lack of direct company relevance",
-            "No causal link established between the mechanism-of-action discussion and any LLY-specific business implications"
-          ],
-          "ungrounded_count": 1
-        }
+        "signals": [],
+        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"JNJ\",\n      \"company\": \"Johnson & Johnson\",\n      \"sentiment\": \"bearish\",\n      \"conviction\": 72,\n      \"rationale\": \"RFK Jr.'s relaxed enforcement on unapproved peptides undermines FDA oversight and threatens premium drug pricing power.\",\n      \"key_themes\": [\"regulatory risk\", \"peptide market disruption\", \"FDA authority erosion\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"PFE\",\n      \"company\": Pfizer Inc.\",\n      \"sentiment\": \"be",
+        "risks": [],
+        "sector_sentiment": "neutral"
       },
-      "prices_snapshot": {
-        "LLY": 1289.2750244140625
-      },
+      "prices_snapshot": {},
       "spot_check": {
-        "title": "Trump-Appointed CDC Deputy Director Jennifer Shuford Resigns After 4 Months",
-        "summary": "Dr. Jennifer Shuford, a respected former Texas health official, had been appointed by President Trump to help steady the agency.",
-        "url": "https://www.nytimes.com/2026/10/27/health/shuford-cdc-resign.html",
+        "title": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections",
+        "summary": "In a unilateral declaration by the health secretary, several injections promoted by online influencers will become widely available. The F.D.A. had advised against the move.",
+        "url": "https://www.nytimes.com/2026/10/28/health/peptides-kennedy-fda.html",
         "source": "Rss",
-        "published": "27 Oct 2026",
-        "sentiment_hint": "neutral",
-        "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "neutral",
-          "conviction": 45,
-          "rationale": "Antidepressant mechanism article highlights evolving understanding of psychiatric drugs, potentially affecting future R&D strategies.",
-          "key_themes": [
-            "psychiatric medication research",
-            "mechanism of action clarity"
-          ],
-          "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [3] discusses antidepressant mechanisms generally but does not mention Eli Lilly, their R&D strategies, or any company-specific implications. The rationale connects a general psychiatric research article to a specific company without evidence of that company's involvement or relevance.",
-          "supporting_article": null
-        },
+        "published": "29 Oct 2026",
+        "sentiment_hint": "bullish",
+        "related_signal": null,
         "haiku_sentiment": "neutral",
-        "haiku_rationale": "Antidepressant mechanism article highlights evolving understanding of psychiatric drugs, potentially affecting future R&D strategies.",
-        "haiku_themes": [
-          "psychiatric medication research",
-          "mechanism of action clarity"
-        ]
+        "haiku_rationale": "",
+        "haiku_themes": []
       },
       "config": {
         "icon": "\ud83d\udc8a",
@@ -537,27 +444,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "U.S. Restricts Trade With Chinese Genomics Company",
-          "summary": "The move will block shipments from BGI, a major Chinese firm that U.S. officials allege is associated with forced labor and the abuse of minority groups.",
-          "url": "https://www.nytimes.com/2026/10/28/business/us-china-biotech-trade-ban.html",
+          "title": "Inflation Accelerated in October, PCE Index Shows",
+          "summary": "The Personal Consumption Expenditures index picked up in September, according to data released a day after the Federal Reserve\u2019s decision to hold interest rates steady.",
+          "url": "https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
           "source": "Rss",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Life Magazine, Chronicler of 20th Century America, Rises Again",
-          "summary": "The iconic publication, acclaimed for its visual storytelling, will return as a print quarterly next month in a challenging business environment.",
-          "url": "https://www.nytimes.com/2026/10/28/business/media/life-magazine-karlie-kloss.html",
+          "title": "U.S. GDP Increased 3.4% in Third Quarter",
+          "summary": "The economy grew 3.4 percent in the third quarter, the fastest pace in a year. Strong spending and growth contrast with the poor marks that many voters are giving the economy.",
+          "url": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
           "source": "Rss",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Investors Brace for Big Tech\u2019s A.I. Spending Bill",
-          "summary": "Tech stocks have rebounded before pivotal earnings reports from artificial intelligence hyperscalers like Google and Microsoft.",
-          "url": "https://www.nytimes.com/2026/10/28/business/dealbook/ai-spending-quarterly-results-amazon-microsoft.html",
+          "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
+          "summary": "Investors are showing little patience for lavish spending and meager returns on companies\u2019 artificial intelligence bets.",
+          "url": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
           "source": "Rss",
-          "published": "28 Oct 2026",
+          "published": "29 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -590,116 +497,153 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Banking sector faces mixed signals from tech volatility and geopolitical trade tensions affecting financial markets.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strong GDP growth (3.4%) and steady interest rates support lending volumes and net interest margins for large banks.",
             "key_themes": [
-              "market volatility",
-              "geopolitical risk",
-              "financial stability"
+              "GDP growth",
+              "interest rate stability",
+              "lending demand"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'banking sector faces mixed signals from tech volatility and geopolitical trade tensions' but JPMorgan Chase is not mentioned in any source article. While articles [4] and [1] discuss tech volatility and trade tensions, there is no connection drawn to banking sector impacts or JPM specifically.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Robust economic expansion with 3.4% GDP growth benefits retail and commercial lending profitability.",
+            "key_themes": [
+              "economic growth",
+              "credit demand",
+              "consumer spending"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
             "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Investment banking activity may face headwinds from tech sector uncertainty, though M&A pipelines remain relevant.",
+            "conviction": 55,
+            "rationale": "Strong GDP offsets inflation concerns; investment banking benefits from economic strength but geopolitical tensions create uncertainty.",
             "key_themes": [
-              "tech sector uncertainty",
-              "investment banking",
+              "economic growth",
+              "inflation pressures",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'geopolitical tensions' but no source articles discuss geopolitical events or tensions",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Solid GDP growth supports wealth management and capital markets, but tech selloff and AI rout create near-term headwinds.",
+            "key_themes": [
+              "GDP growth",
+              "tech sector weakness",
               "market volatility"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'investment banking activity may face headwinds from tech sector uncertainty' but Goldman Sachs is not mentioned in any source article. Article [3] mentions tech earnings reports but provides no analysis of investment banking impacts.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           },
           {
             "ticker": "V",
-            "company": "Visa",
+            "company": "Visa Inc.",
             "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "Payment volumes likely stable amid consumer spending; tech sector volatility doesn't directly impact payment processing demand.",
+            "conviction": 75,
+            "rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
             "key_themes": [
-              "payment processing",
-              "consumer spending resilience"
+              "consumer spending",
+              "economic growth",
+              "payment volumes"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'payment volumes likely stable amid consumer spending' but no source article discusses consumer spending trends, payment processing demand, or Visa. The claim about tech volatility not impacting payment processing is reasonable but not grounded in the provided sources.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           },
           {
             "ticker": "MA",
-            "company": "Mastercard",
+            "company": "Mastercard Inc.",
             "sentiment": "bullish",
-            "conviction": 61,
-            "rationale": "Payment networks insulated from tech infrastructure concerns; core business driven by transaction volumes, not AI spending.",
+            "conviction": 74,
+            "rationale": "Accelerating economic growth and consumer spending momentum support higher cross-border and domestic transaction volumes.",
             "key_themes": [
-              "payment processing",
-              "business model resilience"
+              "consumer spending",
+              "economic expansion",
+              "transaction growth"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims payment networks are 'insulated from tech infrastructure concerns' and driven by 'transaction volumes' but no source article discusses Mastercard, payment transaction volumes, or the relationship between tech spending and payment processing demand.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           }
         ],
-        "summary": "Finance sector shows mixed signals as AI-driven tech volatility impacts investment banking sentiment, while payment processors remain structurally insulated from current market turmoil. U.S. trade restrictions on Chinese firms add geopolitical uncertainty affecting broader market stability. Payment networks (V, MA) demonstrate relative strength as their transaction-based models decouple from tech infrastructure cycles.",
+        "summary": "Financial services and payment processors are supported by robust 3.4% GDP growth and strong consumer spending, while banks benefit from stable interest rates. However, broader market volatility driven by tech sector weakness and AI concerns creates near-term uncertainty. Payment processors (V, MA) and large banks (JPM, BAC) are well-positioned to capitalize on economic momentum, though geopolitical risks and inflation warrant cautious positioning.",
         "risks": [
-          "Sustained tech sector selloff reducing M&A and IPO activity",
-          "Escalating U.S.-China trade tensions impacting financial markets broadly",
-          "Potential spillover from AI infrastructure valuation corrections to credit quality"
+          "Inflation acceleration could prompt Fed rate changes",
+          "AI sector selloff creating broader market contagion",
+          "Geopolitical tensions impacting financial stability",
+          "Consumer spending deceleration if economic growth stalls"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "All four signals reference companies not mentioned in any source article",
-            "Rationales make logical inferences about financial sector impacts and consumer spending that are not supported by the provided sources",
-            "No evidentiary basis exists in the sources for claims about banking sector headwinds, investment banking pipelines, payment processing demand, or consumer spending resilience"
+            "Goldman Sachs signal references 'geopolitical tensions' as a factor affecting investment banking outlook, but no geopolitical events are mentioned in any source articles"
           ],
-          "ungrounded_count": 4
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "JPM": 335.8599853515625,
-        "GS": 914.6699829101562,
-        "V": 403.489990234375,
-        "MA": 611.2000122070312
+        "JPM": 343.3800048828125,
+        "BAC": 51.64500045776367,
+        "GS": 927.0449829101562,
+        "MS": 191.14999389648438,
+        "V": 411.42999267578125,
+        "MA": 639.1599731445312
       },
       "spot_check": {
-        "title": "U.S. Restricts Trade With Chinese Genomics Company",
-        "summary": "The move will block shipments from BGI, a major Chinese firm that U.S. officials allege is associated with forced labor and the abuse of minority groups.",
-        "url": "https://www.nytimes.com/2026/10/28/business/us-china-biotech-trade-ban.html",
+        "title": "Inflation Accelerated in October, PCE Index Shows",
+        "summary": "The Personal Consumption Expenditures index picked up in September, according to data released a day after the Federal Reserve\u2019s decision to hold interest rates steady.",
+        "url": "https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
         "source": "Rss",
-        "published": "28 Oct 2026",
+        "published": "29 Oct 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "V",
-          "company": "Visa",
+          "company": "Visa Inc.",
           "sentiment": "bullish",
-          "conviction": 62,
-          "rationale": "Payment volumes likely stable amid consumer spending; tech sector volatility doesn't directly impact payment processing demand.",
+          "conviction": 75,
+          "rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
           "key_themes": [
-            "payment processing",
-            "consumer spending resilience"
+            "consumer spending",
+            "economic growth",
+            "payment volumes"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Rationale claims 'payment volumes likely stable amid consumer spending' but no source article discusses consumer spending trends, payment processing demand, or Visa. The claim about tech volatility not impacting payment processing is reasonable but not grounded in the provided sources.",
-          "supporting_article": null
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Payment volumes likely stable amid consumer spending; tech sector volatility doesn't directly impact payment processing demand.",
+        "haiku_rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
         "haiku_themes": [
-          "payment processing",
-          "consumer spending resilience"
+          "consumer spending",
+          "economic growth",
+          "payment volumes"
         ]
       },
       "config": {

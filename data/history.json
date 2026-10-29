@@ -28186,5 +28186,261 @@
         "reliability": "low"
       }
     }
+  },
+  {
+    "run_date": "2026-10-29",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "AAPL",
+            "company": "Apple Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Apple announced touchscreen MacBook, signaling strategic pivot toward AI-integrated hardware and product innovation.",
+            "key_themes": [
+              "product innovation",
+              "AI hardware integration",
+              "consumer tech expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [6] mentions Apple announced a touchscreen MacBook, but does not mention AI integration or position it as an AI-hardware strategy. The rationale adds interpretive claims ('AI-integrated hardware') not supported by the source material.",
+            "supporting_article": 6
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
+            "key_themes": [
+              "AI competition",
+              "search market disruption",
+              "organic traffic monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "AAPL": 350.010009765625,
+          "GOOGL": 282.7500915527344
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 92,
+            "rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
+            "key_themes": [
+              "record refining margins",
+              "LNG price strength",
+              "supply disruption beneficiary"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 90,
+            "rationale": "Q3 adjusted net income doubled to $9.1B, exceeding analyst expectations, boosted by refining margins and strong trading.",
+            "key_themes": [
+              "refining margin expansion",
+              "oil/LNG trading strength",
+              "earnings beat"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Higher oil prices from Middle East supply disruption benefit upstream earnings; EU spending $11B more monthly on oil imports.",
+            "key_themes": [
+              "crude price strength",
+              "supply tightness",
+              "upstream upside"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Elevated oil prices and refining margins from global supply crisis support both upstream and downstream profitability.",
+            "key_themes": [
+              "oil price support",
+              "refining upside",
+              "Middle East crisis impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "No source article provides specific financial data or earnings information about Chevron. The rationale infers general benefits from the crisis but lacks direct evidence for this specific company.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Rising oil/gas prices and record refining margins from Strait of Hormuz disruption benefit integrated portfolio.",
+            "key_themes": [
+              "refining margin expansion",
+              "commodity price strength",
+              "crisis beneficiary"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "No source article provides specific financial data or earnings information about BP. The rationale infers general benefits from the crisis but lacks direct evidence for this specific company.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 107.81999969482422,
+          "TTE": 94.23999786376953,
+          "XOM": 183.4149932861328,
+          "CVX": 231.52639770507812,
+          "BP": 50.5099983215332
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [],
+        "prices_snapshot": {},
+        "sector_sentiment": "neutral",
+        "reliability": "unknown"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strong GDP growth (3.4%) and steady interest rates support lending volumes and net interest margins for large banks.",
+            "key_themes": [
+              "GDP growth",
+              "interest rate stability",
+              "lending demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Robust economic expansion with 3.4% GDP growth benefits retail and commercial lending profitability.",
+            "key_themes": [
+              "economic growth",
+              "credit demand",
+              "consumer spending"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Strong GDP offsets inflation concerns; investment banking benefits from economic strength but geopolitical tensions create uncertainty.",
+            "key_themes": [
+              "economic growth",
+              "inflation pressures",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'geopolitical tensions' but no source articles discuss geopolitical events or tensions",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Solid GDP growth supports wealth management and capital markets, but tech selloff and AI rout create near-term headwinds.",
+            "key_themes": [
+              "GDP growth",
+              "tech sector weakness",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
+            "key_themes": [
+              "consumer spending",
+              "economic growth",
+              "payment volumes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bullish",
+            "conviction": 74,
+            "rationale": "Accelerating economic growth and consumer spending momentum support higher cross-border and domestic transaction volumes.",
+            "key_themes": [
+              "consumer spending",
+              "economic expansion",
+              "transaction growth"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 343.3800048828125,
+          "BAC": 51.64500045776367,
+          "GS": 927.0449829101562,
+          "MS": 191.14999389648438,
+          "V": 411.42999267578125,
+          "MA": 639.1599731445312
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
   }
 ]
