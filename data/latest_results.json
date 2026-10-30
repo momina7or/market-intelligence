@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-10-29",
-  "run_time": "2026-10-29T13:56:14.127754Z",
+  "run_date": "2026-10-30",
+  "run_time": "2026-10-30T13:49:30.861244Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,85 +29,102 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "This $149 digital candle uses AI to accurately simulate a flickering flame",
-          "summary": "After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates' latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It's a far cry from the types of devices Bates is typically known [&#8230;]",
-          "url": "https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame",
+          "title": "Silicon Valley wants you to invest in miracles",
+          "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
           "source": "Theverge",
-          "published": "29 Oct 2026",
+          "published": "30 Oct 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Sam Altman sympathizes with mathematicians, but says OpenAI\u2019s math onslaught won\u2019t stop",
+          "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+          "source": "Theverge",
+          "published": "30 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Anthropic\u2019s business plan: Build God or die trying",
-          "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+          "title": "The HomeView and Echo Show 16 could be the family computers I\u2019ve been asking for",
+          "summary": "Three years ago, I wrote an obituary for the smart display. The category - smart speakers with touchscreens attached - was stuck with a few underpowered gadgets from Google and Amazon that tried to do too much and did too little well. Back then, I also laid out what they needed to do to improve. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1022592/apple-homeview-amazon-echo-show-16-smart-display-family-computer",
           "source": "Theverge",
-          "published": "29 Oct 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Apple finally combined a toaster and a refrigerator",
-          "summary": "For more than 15 years, Apple has had a pretty simple answer to the idea of a touchscreen MacBook: no. Yesterday, Apple finally decided to think different and announce one anyway. \"You've gotta touch it to believe it,\" says Apple CEO John Ternus. He might be right: I haven't yet touched it, and I still [&#8230;]",
-          "url": "https://www.theverge.com/report/1022013/apple-touchscreen-macbook-pro-toaster-refrigerator",
-          "source": "Theverge",
-          "published": "29 Oct 2026",
+          "published": "30 Oct 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Apple announced touchscreen MacBook, signaling strategic pivot toward AI-integrated hardware and product innovation.",
+            "rationale": "ChatGPT integration driving organic traffic and content discovery, validating AI assistant monetization strategy",
             "key_themes": [
-              "product innovation",
-              "AI hardware integration",
-              "consumer tech expansion"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [6] mentions Apple announced a touchscreen MacBook, but does not mention AI integration or position it as an AI-hardware strategy. The rationale adds interpretive claims ('AI-integrated hardware') not supported by the source material.",
-            "supporting_article": 6
-          },
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
-            "key_themes": [
-              "AI competition",
-              "search market disruption",
-              "organic traffic monetization"
+              "AI search disruption",
+              "ChatGPT adoption",
+              "organic traffic generation"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Traditional SEO disrupted by AI recommendations, but Google's search dominance challenged; smart display innovation shows adaptation",
+            "key_themes": [
+              "search disruption risk",
+              "AI competition",
+              "smart display development"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article 1 discusses ChatGPT disrupting traditional SEO, and Article 6 mentions Google smart display innovation, but the two themes aren't connected in sources to show how Google is adapting to search disruption",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Massive AI model proliferation and content creation tools driving sustained GPU demand for inference and model training",
+            "key_themes": [
+              "AI infrastructure demand",
+              "content creation tools",
+              "computational requirements"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'massive AI model proliferation and content creation tools driving sustained GPU demand for inference and model training,' but source articles lack specific information about GPU computational requirements, infrastructure demand details, or NVIDIA's role. Articles mention AI tools exist but don't discuss hardware infrastructure needs.",
+            "supporting_article": null
           }
         ],
-        "summary": "Articles reveal accelerating AI integration across consumer products and content creation workflows, with ChatGPT demonstrating ability to redirect organic traffic through AI recommendations. Apple's touchscreen MacBook launch signals tech giants competing to embed AI into hardware. The broader trend shows AI tools becoming essential infrastructure, but traditional search and content discovery models face disruption from AI-powered alternatives.",
+        "summary": "Articles emphasize AI tools revolutionizing content creation and search discovery through platforms like ChatGPT, with traditional SEO facing disruption. NVIDIA benefits from sustained computational demand, while Microsoft's ChatGPT integration drives organic engagement. Google faces structural search challenges but shows adaptation through smart displays. The overall trend signals a shift toward AI-mediated discovery and content generation as core technology paradigms.",
         "risks": [
-          "AI-driven search disruption threatens traditional ad-based revenue models",
-          "Regulatory scrutiny on AI training data and content monetization practices",
-          "Commoditization risk as multiple AI tools proliferate in content creation space",
-          "Uncertainty on hardware-AI integration ROI and consumer adoption rates"
+          "Regulatory scrutiny on AI models and their societal impact could constrain deployment",
+          "Market saturation in AI content tools may compress margins and profitability",
+          "Uncertainty around long-term viability of AI-driven search versus traditional models",
+          "Concentration of AI infrastructure spending among few vendors creates geopolitical risk"
         ],
         "sector_sentiment": "bullish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "AAPL signal overstates article content by claiming 'AI-integrated hardware' when source only discusses touchscreen MacBook announcement",
-            "AAPL signal interprets touchscreen feature as 'strategic pivot toward AI' without textual support for AI focus in announcement"
+            "NVDA signal lacks grounding: No source articles discuss GPU infrastructure, computational requirements, or hardware demand for AI model training and inference",
+            "GOOGL signal partially disconnected: Smart display innovation (Article 6) and search disruption risk (Article 1) are presented as related but discussed separately in sources without explicit connection"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "AAPL": 350.010009765625,
-        "GOOGL": 282.7500915527344
+        "MSFT": 521.6400146484375,
+        "GOOGL": 280.8800048828125,
+        "NVDA": 206.5
       },
       "spot_check": {
         "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -117,15 +134,15 @@
         "published": "04 Dec 2025",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
+          "conviction": 72,
+          "rationale": "ChatGPT integration driving organic traffic and content discovery, validating AI assistant monetization strategy",
           "key_themes": [
-            "AI competition",
-            "search market disruption",
-            "organic traffic monetization"
+            "AI search disruption",
+            "ChatGPT adoption",
+            "organic traffic generation"
           ],
           "time_horizon": "medium-term",
           "verified": true,
@@ -133,11 +150,11 @@
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's organic traffic generation demonstrates AI-driven search competition; Google must strengthen AI capabilities to defend search dominance.",
+        "haiku_rationale": "ChatGPT integration driving organic traffic and content discovery, validating AI assistant monetization strategy",
         "haiku_themes": [
-          "AI competition",
-          "search market disruption",
-          "organic traffic monetization"
+          "AI search disruption",
+          "ChatGPT adoption",
+          "organic traffic generation"
         ]
       },
       "config": {
@@ -157,28 +174,36 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Iran War Hikes EU\u2019s Oil Import Bill By $11 Billion Per Month",
-          "summary": "The European Union has been paying $11 billion more to import oil since the Middle East crisis choked crude oil supplies and triggered a global fuel crisis, an analysis by Euronews Business showed on Thursday. The value of the EU\u2019s petroleum imports jumped by 55.8% in the second quarter of 2026, despite the relatively stable volume of imports, according to Eurostat data. Between April and July, right after the closed Strait of Hormuz hiked oil prices, the EU spent an average of $30.7 billion (27",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Hikes-EUs-Oil-Import-Bill-By-11-Billion-Per-Month.html",
+          "title": "Japan to Tap $7 Billion from Government Fund to Subsidize Gasoline Prices",
+          "summary": "Japan\u2019s government on Friday decided to tap $7 billion from its contingency reserves to keep subsidies for gasoline and other fuels, even as it plans to gradually scale back the support from December. The Japanese government decided today to allocate about $7 billion (1.1 trillion Japanese yen) from the reserve funds to continue capping retail gasoline prices amid soaring oil and fuel import costs, Japanese media reported. Introduced in March, soon after the war in the Middle East began, the sub",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Tap-7-Billion-from-Government-Fund-to-Subsidize-Gasoline-Prices.html",
           "source": "Oilprice",
-          "published": "29 Oct 2026",
+          "published": "30 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Shell Profits Nearly Double to $10.8 Billion as Refining Margins Hit Record",
-          "summary": "Record refining margins and higher LNG and gas prices boosted Shell\u2019s third-quarter earnings to over $10.8 billion, nearly double compared to the same period last year, as the Middle East crisis squeezed fuel supplies and hiked oil and gas prices. \u00a0\u00a0 Shell on Thursday reported adjusted earnings of $10.814 billion for the third quarter, the highest since 2022, almost double the $5.432 billion earnings a year ago. The third-quarter earnings \u201creflect strong operational performance in a continued vo",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Profits-Nearly-Double-to-108-Billion-as-Refining-Margins-Hit-Record.html",
+          "title": "Brent Hits $117 as Tanker Catches Fire in Strait of Hormuz",
+          "summary": "Tensions in the Middle East are escalating again as a tanker was reported on fire after explosive devices were attached to its hull while the vessel was attempting to transit outbound in the Strait of Hormuz. The UK Maritime Trade Operations (UKMTO), which is affiliated with the Royal Navy, said in a warning notice that it had received a third report on Thursday that a tanker transiting outbound was on fire 25 nautical miles northeast of Khasab, Oman, in the Strait of Hormuz. In a subsequent upd",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-117-as-Tanker-Catches-Fire-in-Strait-of-Hormuz.html",
           "source": "Oilprice",
-          "published": "29 Oct 2026",
+          "published": "30 Oct 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "TotalEnergies Profit Doubles as War Boosts Refining and Trading",
-          "summary": "TotalEnergies booked $9.1 billion in third-quarter adjusted net income, doubling earnings from a year earlier amid historically high refining margins, higher oil and gas prices, and strong oil and LNG trading.\u00a0 The French supermajor on Thursday reported an adjusted net income of $9.1 billion, up by 51% from the $6 billion profit for the second quarter, and 127% higher than the $4 billion booked for the third quarter of 2025.\u00a0 The Q3 2026 income beat the average analyst expectation of $8.3 billio",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Profit-Doubles-as-War-Boosts-Refining-and-Trading.html",
+          "title": "Oil Markets Caught Between Iran War Risks and Emergency SPR Releases",
+          "summary": "Crude oil gave back ground on Thursday as traders weighed emergency supply against tentative efforts to reopen talks with Iran. Neither side has taken control. The U.S. Strategic Petroleum Reserve is delivering barrels, but the reserve is near its lowest level since 1982. Peace efforts have resurfaced, but no agreement has been reached, and the threat to regional shipping and Saudi energy infrastructure remains. On Friday, at 00:05 GMT, December WTI crude oil futures are trading at $102.77, down",
+          "url": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Caught-Between-Iran-War-Risks-and-Emergency-SPR-Releases.html",
           "source": "Oilprice",
-          "published": "29 Oct 2026",
+          "published": "30 Oct 2026",
           "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Group14 Technologies secures $167m for global and European expansion",
+          "summary": "Group14 Technologies has closed a \u20ac150m ($167m) Series D equity extension to support its international manufacturing expansion.",
+          "url": "https://www.energymonitor.ai/news/group14-technologies-series-d/",
+          "source": "Energymonitor",
+          "published": "30 Oct 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "ADS-TEC Energy nears permit for 1GW battery storage facility in Germany",
@@ -189,34 +214,74 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "GE Vernova signs agreement to buy Trench Group for $9bn",
-          "summary": "GE Vernova has agreed to acquire Trench Group from investment company Triton Partners, for an estimated value of $9bn.",
-          "url": "https://www.energymonitor.ai/news/ge-vernova-to-buy-trench-group/",
+          "title": "Building the next generation of sustainable data centres in pharma",
+          "summary": "With the AI revolution underway, sustainability is now a key consideration for pharma companies building and utilising data centres.",
+          "url": "https://www.energymonitor.ai/features/building-the-next-generation-of-sustainable-data-centres-in-pharma/",
           "source": "Energymonitor",
           "published": "29 Oct 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Elgin to invest $531m in five UK solar and storage projects",
-          "summary": "Elgin has outlined plans to invest nearly \u00a3400m ($531m) in five new projects across the UK, with a combined capacity of 230MW.",
-          "url": "https://www.energymonitor.ai/news/elgin-invest-five-uk-projects/",
-          "source": "Energymonitor",
-          "published": "28 Oct 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "SHEL",
-            "company": "Shell",
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
             "sentiment": "bullish",
-            "conviction": 92,
-            "rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
+            "conviction": 72,
+            "rationale": "Brent crude spike to $117 on Strait of Hormuz tanker fire and Middle East tensions supports upstream production valuations.",
             "key_themes": [
-              "record refining margins",
-              "LNG price strength",
-              "supply disruption beneficiary"
+              "geopolitical risk premium",
+              "crude price support",
+              "supply disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Middle East escalation and Hormuz shipping disruptions elevate crude prices, benefiting integrated oil majors' upstream operations.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "crude price support",
+              "supply disruption"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Brent crude at $117 and regional instability in Middle East production areas support BP's upstream and trading operations.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "crude price support",
+              "Brent exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Tanker fire in Strait of Hormuz and elevated crude prices ($117 Brent) benefit Shell's integrated upstream and downstream positions.",
+            "key_themes": [
+              "geopolitical risk premium",
+              "crude price support",
+              "supply disruption"
             ],
             "time_horizon": "short-term",
             "verified": true,
@@ -225,110 +290,95 @@
           },
           {
             "ticker": "TTE",
-            "company": "TotalEnergies",
+            "company": "TotalEnergies SE",
             "sentiment": "bullish",
-            "conviction": 90,
-            "rationale": "Q3 adjusted net income doubled to $9.1B, exceeding analyst expectations, boosted by refining margins and strong trading.",
+            "conviction": 65,
+            "rationale": "Middle East tensions and Hormuz disruption risks support crude prices; offset partially by Japan subsidy capping demand.",
             "key_themes": [
-              "refining margin expansion",
-              "oil/LNG trading strength",
-              "earnings beat"
+              "geopolitical risk premium",
+              "demand headwinds",
+              "crude price volatility"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": [
+              1,
+              2
+            ]
           },
           {
-            "ticker": "XOM",
-            "company": "ExxonMobil",
+            "ticker": "COP",
+            "company": "ConocoPhillips",
             "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Higher oil prices from Middle East supply disruption benefit upstream earnings; EU spending $11B more monthly on oil imports.",
+            "conviction": 71,
+            "rationale": "Brent crude surge to $117 from Hormuz shipping incident supports upstream margins and production valuations.",
             "key_themes": [
-              "crude price strength",
-              "supply tightness",
-              "upstream upside"
+              "geopolitical risk premium",
+              "crude price support",
+              "supply disruption"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 1
+            "supporting_article": 2
           },
           {
-            "ticker": "CVX",
-            "company": "Chevron",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Elevated oil prices and refining margins from global supply crisis support both upstream and downstream profitability.",
+            "ticker": "SLB",
+            "company": "SLB (Schlumberger)",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct mention; higher oil prices marginally supportive of oilfield services demand but insufficient for conviction.",
             "key_themes": [
-              "oil price support",
-              "refining upside",
-              "Middle East crisis impact"
+              "indirect oil price exposure"
             ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "No source article provides specific financial data or earnings information about Chevron. The rationale infers general benefits from the crisis but lacks direct evidence for this specific company.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "BP",
-            "company": "BP",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Rising oil/gas prices and record refining margins from Strait of Hormuz disruption benefit integrated portfolio.",
-            "key_themes": [
-              "refining margin expansion",
-              "commodity price strength",
-              "crisis beneficiary"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "No source article provides specific financial data or earnings information about BP. The rationale infers general benefits from the crisis but lacks direct evidence for this specific company.",
-            "supporting_article": null
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
           }
         ],
-        "summary": "The Middle East crisis and Strait of Hormuz closure are creating a bullish environment for integrated energy majors through elevated crude prices, record refining margins, and strong LNG trading. Shell and TotalEnergies have already reported exceptional Q3 earnings nearly doubling YoY, with margins reaching historic highs. The EU's 55.8% jump in oil import costs signals sustained global price pressure, benefiting upstream production and downstream refining segments across the sector.",
+        "summary": "Crude prices spiked to $117 Brent following tanker attack in Strait of Hormuz amid escalating Middle East tensions, creating strong near-term tailwinds for integrated oil majors and upstream producers. However, demand headwinds persist as Japan deploys $7 billion in fuel subsidies and the U.S. SPR releases inventory, while peace negotiations with Iran remain tentative, introducing significant volatility.",
         "risks": [
-          "geopolitical resolution reducing crude prices and refining margins rapidly",
-          "demand destruction from sustained high energy prices",
-          "energy transition investments underperforming amid crisis focus",
-          "trading volatility normalizing after crisis pass"
+          "SPR drawdown continues to cap price upside",
+          "Iran peace negotiations could resolve tensions rapidly",
+          "Japan and other demand-side interventions may suppress oil prices",
+          "Escalation could trigger market-disruptive supply shock",
+          "Recession concerns may override geopolitical premium"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "CVX signal lacks direct supporting evidence; rationale generalizes from Shell and TotalEnergies results without company-specific data",
-            "BP signal lacks direct supporting evidence; rationale generalizes from Shell and TotalEnergies results without company-specific data"
-          ],
-          "ungrounded_count": 2
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "SHEL": 107.81999969482422,
-        "TTE": 94.23999786376953,
-        "XOM": 183.4149932861328,
-        "CVX": 231.52639770507812,
-        "BP": 50.5099983215332
+        "XOM": 186.61000061035156,
+        "CVX": 234.7949981689453,
+        "BP": 50.400001525878906,
+        "SHEL": 108.79000091552734,
+        "TTE": 95.5,
+        "COP": 152.17999267578125,
+        "SLB": 53.86989974975586
       },
       "spot_check": {
-        "title": "Shell Profits Nearly Double to $10.8 Billion as Refining Margins Hit Record",
-        "summary": "Record refining margins and higher LNG and gas prices boosted Shell\u2019s third-quarter earnings to over $10.8 billion, nearly double compared to the same period last year, as the Middle East crisis squeezed fuel supplies and hiked oil and gas prices. \u00a0\u00a0 Shell on Thursday reported adjusted earnings of $10.814 billion for the third quarter, the highest since 2022, almost double the $5.432 billion earnings a year ago. The third-quarter earnings \u201creflect strong operational performance in a continued vo",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Profits-Nearly-Double-to-108-Billion-as-Refining-Margins-Hit-Record.html",
+        "title": "Japan to Tap $7 Billion from Government Fund to Subsidize Gasoline Prices",
+        "summary": "Japan\u2019s government on Friday decided to tap $7 billion from its contingency reserves to keep subsidies for gasoline and other fuels, even as it plans to gradually scale back the support from December. The Japanese government decided today to allocate about $7 billion (1.1 trillion Japanese yen) from the reserve funds to continue capping retail gasoline prices amid soaring oil and fuel import costs, Japanese media reported. Introduced in March, soon after the war in the Middle East began, the sub",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Tap-7-Billion-from-Government-Fund-to-Subsidize-Gasoline-Prices.html",
         "source": "Oilprice",
-        "published": "29 Oct 2026",
-        "sentiment_hint": "bullish",
+        "published": "30 Oct 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "SHEL",
-          "company": "Shell",
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
           "sentiment": "bullish",
-          "conviction": 92,
-          "rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
+          "conviction": 72,
+          "rationale": "Brent crude spike to $117 on Strait of Hormuz tanker fire and Middle East tensions supports upstream production valuations.",
           "key_themes": [
-            "record refining margins",
-            "LNG price strength",
-            "supply disruption beneficiary"
+            "geopolitical risk premium",
+            "crude price support",
+            "supply disruption"
           ],
           "time_horizon": "short-term",
           "verified": true,
@@ -336,11 +386,11 @@
           "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Q3 earnings nearly doubled to $10.8B driven by record refining margins and higher LNG/gas prices from Middle East crisis.",
+        "haiku_rationale": "Brent crude spike to $117 on Strait of Hormuz tanker fire and Middle East tensions supports upstream production valuations.",
         "haiku_themes": [
-          "record refining margins",
-          "LNG price strength",
-          "supply disruption beneficiary"
+          "geopolitical risk premium",
+          "crude price support",
+          "supply disruption"
         ]
       },
       "config": {
@@ -360,6 +410,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "These Patients Struggle With Runaway Bones. Finally There\u2019s Hope.",
+          "summary": "F.O.P., a rare genetic condition, causes uncontrolled explosions of bone. A new drug may slow or halt the process.",
+          "url": "https://www.nytimes.com/2026/10/29/science/fop-bones-drugs.html",
+          "source": "Rss",
+          "published": "29 Oct 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections",
           "summary": "In a unilateral declaration by the health secretary, several injections promoted by online influencers will become widely available. The F.D.A. had advised against the move.",
           "url": "https://www.nytimes.com/2026/10/28/health/peptides-kennedy-fda.html",
@@ -376,56 +434,136 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Brain Disease Is Pervasive in N.F.L., New Estimate Suggests",
-          "summary": "Using statistical techniques, a new study has arrived at a harrowing estimate: Three of four retired pro football players most likely had C.T.E. at death.",
-          "url": "https://www.nytimes.com/2026/10/28/science/brain-disease-cte-nfl-football.html",
-          "source": "Rss",
-          "published": "28 Oct 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/geron-rytelo-stumbles-phase-3-novartis-gears-post-jak-inhibitor-blood-cancer-bid\" hreflang=\"en\">Geron\u2019s Rytelo stumbles in phase 3 as Novartis gears up for post-JAK inhibitor blood cancer bid</a>",
-          "summary": "Geron has discontinued a phase 3 trial of its Rytelo in JAK inhibitor-pretreated myelofibrosis after an independent data monitoring committee ruled that the study was unlikely to succeed, just as Novartis is gearing up for a delayed FDA approval bid for its pelabresib.",
-          "url": "https://www.fiercepharma.com/pharma/geron-rytelo-stumbles-phase-3-novartis-gears-post-jak-inhibitor-blood-cancer-bid",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/hunt-enhertu-successor-esmo-data-merck-bms-takeda-and-more\" hreflang=\"en\">Fierce Pharma Asia\u2014The hunt for Enhertu\u2019s successor; ESMO data from Merck, BMS, Takeda and more</a>",
+          "summary": "Next-generation ADCs, bispecifics, radiopharmaceuticals, TKIs ... Fierce provides a deep dive into the hunt for the next Enhertu in breast cancer. ESMO 2026 data featured Chinese assets backed by Big Pharma. Gilead and Astellas struck $1 billion-plus deals for immunology and immuno-oncology assets. And more.",
+          "url": "https://www.fiercepharma.com/pharma/hunt-enhertu-successor-esmo-data-merck-bms-takeda-and-more",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides\" hreflang=\"en\">Kennedy's HHS relaxes enforcement on 6 popular wellness peptides</a>",
-          "summary": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides.",
-          "url": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/biogens-claims-return-growth-q3-earnings-boost\" hreflang=\"en\">'Numbers speak for themselves': Biogen's Apellis buyout fuels best quarter since 2020</a>",
-          "summary": "Biogen CEO Chris Viehbacher said, \"We're dramatically changing Biogen\" on third quarter earnings call where the biotech announced revenue increase 11% year-over-yera.",
-          "url": "https://www.fiercepharma.com/pharma/biogens-claims-return-growth-q3-earnings-boost",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift\" hreflang=\"en\">Lilly breaks down Medicare Bridge boon as GLP-1 sales drive another guidance lift</a>",
+          "summary": "As Lilly\u2019s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors.",
+          "url": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bullish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/lenz-reports-75-workforce-cut-and-ceo-shakeup-q3-update\" hreflang=\"en\">Lenz reports 75% workforce cut, CEO shakeup alongside Q3 earnings update</a>",
+          "summary": "In a massive overhaul of its operating expenses, Lenz is set to reduce staff by 75% before the new year.",
+          "url": "https://www.fiercepharma.com/pharma/lenz-reports-75-workforce-cut-and-ceo-shakeup-q3-update",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bearish"
         }
       ],
       "analysis": {
-        "signals": [],
-        "summary": "{\n  \"signals\": [\n    {\n      \"ticker\": \"JNJ\",\n      \"company\": \"Johnson & Johnson\",\n      \"sentiment\": \"bearish\",\n      \"conviction\": 72,\n      \"rationale\": \"RFK Jr.'s relaxed enforcement on unapproved peptides undermines FDA oversight and threatens premium drug pricing power.\",\n      \"key_themes\": [\"regulatory risk\", \"peptide market disruption\", \"FDA authority erosion\"],\n      \"time_horizon\": \"medium-term\"\n    },\n    {\n      \"ticker\": \"PFE\",\n      \"company\": Pfizer Inc.\",\n      \"sentiment\": \"be",
-        "risks": [],
-        "sector_sentiment": "neutral"
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 85,
+            "rationale": "Tirzepatide franchise delivering strong sales growth with new oral formulations and Medicare access programs driving guidance increases.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "oral obesity medicine launch",
+              "Medicare reimbursement",
+              "guidance acceleration"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ESMO 2026 data showcasing next-generation ADC and oncology pipeline advancement positioning Merck competitively in breast cancer market.",
+            "key_themes": [
+              "oncology pipeline",
+              "ADC development",
+              "ESMO data strength",
+              "cancer drug innovation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Article on F.O.P. treatment represents niche rare disease opportunity but limited financial materiality for large-cap pharma conglomerate.",
+            "key_themes": [
+              "rare disease",
+              "bone disorder treatment",
+              "limited market size"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses F.O.P. treatment but does not identify the developer as Johnson & Johnson or specify JNJ involvement. No connection between JNJ and the F.O.P. drug is established in source materials.",
+            "supporting_article": 1
+          }
+        ],
+        "summary": "Healthcare sector shows mixed signals with strong momentum in GLP-1/metabolic therapies (LLY) and oncology pipeline advancement (MRK) offsetting regulatory headwinds from FDA-unapproved peptide liberalization. Rare disease innovation presents long-term opportunities but limited near-term catalysts for mega-cap diversified pharma. Sector sentiment leans bullish driven by blockbuster franchise execution and clinical data strength.",
+        "risks": [
+          "Regulatory uncertainty from RFK Jr.'s FDA policy shifts could disrupt approval frameworks and competitive dynamics",
+          "GLP-1 market saturation and competitive pricing pressures may limit upside despite strong volume growth",
+          "CTE and rare disease programs remain early-stage with uncertain commercialization timelines and peak sales potential"
+        ],
+        "sector_sentiment": "bullish",
+        "verification": {
+          "overall_reliability": "medium",
+          "flags": [
+            "JNJ signal lacks supporting evidence - F.O.P. drug developer not identified in source article",
+            "Analyst attributed rare disease opportunity to JNJ without source confirmation of company involvement"
+          ],
+          "ungrounded_count": 1
+        }
       },
-      "prices_snapshot": {},
+      "prices_snapshot": {
+        "LLY": 1426.114990234375,
+        "MRK": 150.5449981689453,
+        "JNJ": 279.6199951171875
+      },
       "spot_check": {
-        "title": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections",
-        "summary": "In a unilateral declaration by the health secretary, several injections promoted by online influencers will become widely available. The F.D.A. had advised against the move.",
-        "url": "https://www.nytimes.com/2026/10/28/health/peptides-kennedy-fda.html",
+        "title": "These Patients Struggle With Runaway Bones. Finally There\u2019s Hope.",
+        "summary": "F.O.P., a rare genetic condition, causes uncontrolled explosions of bone. A new drug may slow or halt the process.",
+        "url": "https://www.nytimes.com/2026/10/29/science/fop-bones-drugs.html",
         "source": "Rss",
         "published": "29 Oct 2026",
-        "sentiment_hint": "bullish",
-        "related_signal": null,
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "",
-        "haiku_themes": []
+        "sentiment_hint": "neutral",
+        "related_signal": {
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
+          "sentiment": "bullish",
+          "conviction": 85,
+          "rationale": "Tirzepatide franchise delivering strong sales growth with new oral formulations and Medicare access programs driving guidance increases.",
+          "key_themes": [
+            "GLP-1 market expansion",
+            "oral obesity medicine launch",
+            "Medicare reimbursement",
+            "guidance acceleration"
+          ],
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 5
+        },
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Tirzepatide franchise delivering strong sales growth with new oral formulations and Medicare access programs driving guidance increases.",
+        "haiku_themes": [
+          "GLP-1 market expansion",
+          "oral obesity medicine launch",
+          "Medicare reimbursement",
+          "guidance acceleration"
+        ]
       },
       "config": {
         "icon": "\ud83d\udc8a",
@@ -444,28 +582,28 @@
     "Finance": {
       "articles": [
         {
-          "title": "Inflation Accelerated in October, PCE Index Shows",
-          "summary": "The Personal Consumption Expenditures index picked up in September, according to data released a day after the Federal Reserve\u2019s decision to hold interest rates steady.",
-          "url": "https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
+          "title": "The Tech Tumult Rocks Wall Street",
+          "summary": "Investors are growing nervous about the huge spending bills that tech giants are amassing to pay for their bets on artificial intelligence.",
+          "url": "https://www.nytimes.com/2026/10/30/business/dealbook/tech-tumult-ai-wall-street.html",
           "source": "Rss",
-          "published": "29 Oct 2026",
+          "published": "30 Oct 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "U.S. GDP Increased 3.4% in Third Quarter",
-          "summary": "The economy grew 3.4 percent in the third quarter, the fastest pace in a year. Strong spending and growth contrast with the poor marks that many voters are giving the economy.",
-          "url": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
+          "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+          "summary": "That was almost three times as much as what businesses producing and refining oil in the United States made in the same period in 2025.",
+          "url": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
           "source": "Rss",
-          "published": "29 Oct 2026",
-          "sentiment_hint": "bullish"
+          "published": "30 Oct 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
-          "summary": "Investors are showing little patience for lavish spending and meager returns on companies\u2019 artificial intelligence bets.",
-          "url": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
+          "title": "Tech Stocks Tumble, but Broader Market Is Holding On",
+          "summary": "The S&amp;P 500 is set for a small loss for the month, despite a deeper slide in some of the A.I. stocks that exert a heavy influence on the index.",
+          "url": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
           "source": "Rss",
-          "published": "29 Oct 2026",
-          "sentiment_hint": "neutral"
+          "published": "30 Oct 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -499,151 +637,149 @@
             "company": "JPMorgan Chase",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Strong GDP growth (3.4%) and steady interest rates support lending volumes and net interest margins for large banks.",
+            "rationale": "Banking sector benefits from tech volatility and potential M&A activity as AI investments face scrutiny",
             "key_themes": [
-              "GDP growth",
-              "interest rate stability",
-              "lending demand"
+              "investment banking fees",
+              "market volatility",
+              "AI sector uncertainty"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Robust economic expansion with 3.4% GDP growth benefits retail and commercial lending profitability.",
-            "key_themes": [
-              "economic growth",
-              "credit demand",
-              "consumer spending"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              1,
+              3,
+              4
+            ]
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Strong GDP offsets inflation concerns; investment banking benefits from economic strength but geopolitical tensions create uncertainty.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Advisory and capital markets opportunities from tech sector restructuring and potential AI-related consolidation",
             "key_themes": [
-              "economic growth",
-              "inflation pressures",
-              "market volatility"
+              "M&A advisory",
+              "capital raising",
+              "tech sector transition"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale mentions 'geopolitical tensions' but no source articles discuss geopolitical events or tensions",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
           },
           {
             "ticker": "MS",
             "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Solid GDP growth supports wealth management and capital markets, but tech selloff and AI rout create near-term headwinds.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Institutional clients rebalancing amid AI rout creates wealth management and advisory opportunities",
             "key_themes": [
-              "GDP growth",
-              "tech sector weakness",
-              "market volatility"
+              "wealth management",
+              "institutional advisory",
+              "portfolio rebalancing"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              3,
+              4
+            ]
           },
           {
             "ticker": "V",
             "company": "Visa Inc.",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "No direct exposure to AI turmoil; benefits from broad market stability but lacks specific positive catalysts in articles",
             "key_themes": [
-              "consumer spending",
-              "economic growth",
-              "payment volumes"
+              "payment processing",
+              "market resilience",
+              "macro uncertainty"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              3
+            ]
           },
           {
             "ticker": "MA",
             "company": "Mastercard Inc.",
-            "sentiment": "bullish",
-            "conviction": 74,
-            "rationale": "Accelerating economic growth and consumer spending momentum support higher cross-border and domestic transaction volumes.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Payment networks insulated from AI spending concerns; S&P 500 holding suggests defensive positioning favors stable cashflows",
             "key_themes": [
-              "consumer spending",
-              "economic expansion",
-              "transaction growth"
+              "payment processing",
+              "market stability",
+              "economic resilience"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 2
+            "supporting_article": [
+              3
+            ]
           }
         ],
-        "summary": "Financial services and payment processors are supported by robust 3.4% GDP growth and strong consumer spending, while banks benefit from stable interest rates. However, broader market volatility driven by tech sector weakness and AI concerns creates near-term uncertainty. Payment processors (V, MA) and large banks (JPM, BAC) are well-positioned to capitalize on economic momentum, though geopolitical risks and inflation warrant cautious positioning.",
+        "summary": "The financial sector is positioned to benefit from tech sector turbulence, with investment banks (JPM, GS, MS) well-positioned for advisory fees and restructuring activity as AI investment concerns mount. Payment processors (V, MA) remain resilient but lack catalysts, offering defensive characteristics as the broader market absorbs AI infrastructure disappointments. Banking sector upside is constrained by macro uncertainty but supported by near-term advisory opportunities.",
         "risks": [
-          "Inflation acceleration could prompt Fed rate changes",
-          "AI sector selloff creating broader market contagion",
-          "Geopolitical tensions impacting financial stability",
-          "Consumer spending deceleration if economic growth stalls"
+          "Sustained tech selloff could reduce deal-making activity and investment banking revenues",
+          "Broader market correction beyond tech could impair financial sector asset values and trading volumes",
+          "Geopolitical escalation (Iran War context) could trigger commodity volatility affecting macro stability"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "Goldman Sachs signal references 'geopolitical tensions' as a factor affecting investment banking outlook, but no geopolitical events are mentioned in any source articles"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JPM": 343.3800048828125,
-        "BAC": 51.64500045776367,
-        "GS": 927.0449829101562,
-        "MS": 191.14999389648438,
-        "V": 411.42999267578125,
-        "MA": 639.1599731445312
+        "JPM": 337.3699951171875,
+        "GS": 895.47998046875,
+        "MS": 183.42489624023438,
+        "V": 413.05499267578125,
+        "MA": 637.9149169921875
       },
       "spot_check": {
-        "title": "Inflation Accelerated in October, PCE Index Shows",
-        "summary": "The Personal Consumption Expenditures index picked up in September, according to data released a day after the Federal Reserve\u2019s decision to hold interest rates steady.",
-        "url": "https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
+        "title": "The Tech Tumult Rocks Wall Street",
+        "summary": "Investors are growing nervous about the huge spending bills that tech giants are amassing to pay for their bets on artificial intelligence.",
+        "url": "https://www.nytimes.com/2026/10/30/business/dealbook/tech-tumult-ai-wall-street.html",
         "source": "Rss",
-        "published": "29 Oct 2026",
+        "published": "30 Oct 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa Inc.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase",
           "sentiment": "bullish",
-          "conviction": 75,
-          "rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
+          "conviction": 72,
+          "rationale": "Banking sector benefits from tech volatility and potential M&A activity as AI investments face scrutiny",
           "key_themes": [
-            "consumer spending",
-            "economic growth",
-            "payment volumes"
+            "investment banking fees",
+            "market volatility",
+            "AI sector uncertainty"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 2
+          "supporting_article": [
+            1,
+            3,
+            4
+          ]
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Strong consumer spending (3.4% GDP growth) and robust economic activity directly drive payment volume and transaction growth.",
+        "haiku_rationale": "Banking sector benefits from tech volatility and potential M&A activity as AI investments face scrutiny",
         "haiku_themes": [
-          "consumer spending",
-          "economic growth",
-          "payment volumes"
+          "investment banking fees",
+          "market volatility",
+          "AI sector uncertainty"
         ]
       },
       "config": {
