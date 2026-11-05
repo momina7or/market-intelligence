@@ -1,229 +1,5 @@
 [
   {
-    "run_date": "2026-06-26",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "AAPL",
-            "company": "Apple Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Prime Day discounts on Apple products (Watch Series 11, AirPods Pro 3) signal strong demand and market positioning in wearables.",
-            "key_themes": [
-              "product demand",
-              "services ecosystem",
-              "wearables growth"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
-          },
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "ChatGPT's dominance in AI search recommendations demonstrates competitive threat, validating Google's urgency in AI search integration.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "AI infrastructure demand"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes ChatGPT recommending content, but this demonstrates OpenAI/ChatGPT's capability, not a competitive threat validating Google's urgency in AI search. The article does not provide evidence of ChatGPT's dominance in search or competitive threat to Google Search. Article does not support the rationale's framing about Google's competitive positioning.",
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "AAPL": 275.1499938964844,
-          "GOOGL": 343.7099914550781
-        },
-        "sector_sentiment": "bullish",
-        "reliability": "medium"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Qatar LNG recovery and crude exports resumption post-Iran war benefit major LNG stakeholders with Middle East exposure.",
-            "key_themes": [
-              "LNG exports resumption",
-              "Hormuz shipping normalization",
-              "supply chain recovery"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "\u20ac240m Spain hydrogen hub funding approval signals strategic clean energy pivot and positions BP for transition infrastructure growth.",
-            "key_themes": [
-              "hydrogen investment",
-              "clean energy transition",
-              "European green funding"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Hormuz traffic normalization supports LNG exports but offset by oil price weakness ($73-70/bbl) limiting short-term upside.",
-            "key_themes": [
-              "LNG demand recovery",
-              "crude price pressure",
-              "geopolitical de-escalation"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          }
-        ],
-        "prices_snapshot": {
-          "TTE": 78.27999877929688,
-          "BP": 37.720001220703125,
-          "SHEL": 77.33000183105469
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Regulatory pressure from new health secretary creates uncertainty; no direct operational impact evident from articles.",
-            "key_themes": [
-              "regulatory pressure",
-              "CDC oversight"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
-            "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "Alzheimer's disease gaining pharma focus as competitors expand portfolios; LLY's established position strengthens competitive moat.",
-            "key_themes": [
-              "Alzheimer's disease market expansion",
-              "competitive advantage"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 5
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Clinical trial integrity issues raise compliance concerns across sector; TMO's lab services may face increased validation demands.",
-            "key_themes": [
-              "clinical trial oversight",
-              "regulatory scrutiny"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          }
-        ],
-        "prices_snapshot": {
-          "JNJ": 244.8800048828125,
-          "LLY": 1127.68994140625,
-          "TMO": 505.75
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Broad market volatility from AI rout may increase M&A advisory opportunities but near-term uncertainty pressures earnings.",
-            "key_themes": [
-              "market volatility",
-              "advisory services"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims AI rout may increase M&A advisory opportunities, but source articles do not discuss M&A activity or banking advisory impacts. Article [4] describes the AI rout but does not connect it to M&A opportunities.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Ryanair fee elimination signals regulatory pressure on payment-dependent revenue models; airline sector headwinds.",
-            "key_themes": [
-              "regulatory pressure",
-              "fee compression"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale overgeneralizes from Ryanair's ancillary fee elimination (seating fees) to payment card transaction volumes and regulatory pressure on 'payment-dependent revenue models.' Article [1] does not establish that this regulatory action signals broader pressure on payment processors' core fee structures or transaction volumes. The connection between airline seating fee regulation and card processor earnings is not supported.",
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 60,
-            "rationale": "Ryanair's fee reversal indicates rising regulatory scrutiny on ancillary payment fees, pressuring transaction volumes.",
-            "key_themes": [
-              "regulatory pressure",
-              "fee compression"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale makes the same unsupported leap as the Visa signal. Article [1] covers Ryanair eliminating seating fees due to UK regulator investigation, but does not establish that this indicates regulatory scrutiny on payment card transaction fees or that it will pressure Mastercard's transaction volumes. The analyst conflates airline ancillary fees with payment processor fees.",
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "JPM": 335.1199951171875,
-          "V": 330.5199890136719,
-          "MA": 488.9200134277344
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "low"
-      }
-    }
-  },
-  {
     "run_date": "2026-06-29",
     "industries": {
       "Technology": {
@@ -28452,6 +28228,388 @@
         },
         "sector_sentiment": "bullish",
         "reliability": "high"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-05",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic search recommendations threaten Google's search dominance; urgency to compete in AI-driven content discovery.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "content ranking algorithm"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "OpenAI/ChatGPT gaining traction as primary content recommendation engine signals strong AI monetization opportunity.",
+            "key_themes": [
+              "ChatGPT adoption",
+              "AI platform growth",
+              "search alternative"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "WhatsApp event feature expansion and AI music integration via partnerships drive engagement and platform stickiness.",
+            "key_themes": [
+              "feature expansion",
+              "AI partnerships",
+              "user engagement"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "Proliferation of AI tools (LimeWire, ElevenLabs, content creation platforms) indicates sustained demand for GPU computing infrastructure.",
+            "key_themes": [
+              "AI infrastructure demand",
+              "content creation AI",
+              "platform growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3,
+              6
+            ]
+          },
+          {
+            "ticker": "TSM",
+            "company": "Taiwan Semiconductor Manufacturing Company",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "AI boom supply chain costs and infrastructure expansion require advanced chip manufacturing capacity for AI accelerators.",
+            "key_themes": [
+              "AI supply chain",
+              "manufacturing demand",
+              "chip production"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 285.510009765625,
+          "MSFT": 545.9500122070312,
+          "META": 602.010009765625,
+          "NVDA": 188.7301025390625,
+          "TSM": 369.5799865722656
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Iran deal prospects from Democratic midterm victory could restore Strait of Hormuz LNG flows and reduce geopolitical premium on oil.",
+            "key_themes": [
+              "Iran sanctions relief",
+              "LNG supply restoration",
+              "geopolitical de-escalation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Potential Iran nuclear deal under Democratic Congress could unlock crude oil supplies and normalize energy markets globally.",
+            "key_themes": [
+              "Iran sanctions relief",
+              "crude supply increase",
+              "policy shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "European gas price weakness from Iran deal optimism pressures margins, but de-escalation supports long-term LNG project viability and growth.",
+            "key_themes": [
+              "Iran deal prospects",
+              "LNG market recovery",
+              "European exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 71,
+            "rationale": "Iran deal hopes restore confidence in Asian LNG projects; $67.8B stalled projects could revive under improved geopolitical and financing conditions.",
+            "key_themes": [
+              "LNG project revival",
+              "Asia-Pacific opportunity",
+              "Iran deal catalyst"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Article [2] discusses stalled LNG projects but does not explicitly link project revival to Iran deal prospects or geopolitical improvement",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "Iran sanctions resolution could unlock Iranian gas resources and restore global LNG supply chains beneficial to TotalEnergies' portfolio.",
+            "key_themes": [
+              "Iran sanctions relief",
+              "LNG supply restoration",
+              "geopolitical reset"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 66,
+            "rationale": "Democratic Congress victory signals potential Iran deal, normalizing crude markets and supporting ConocoPhillips' upstream production and returns.",
+            "key_themes": [
+              "Iran sanctions relief",
+              "crude normalization",
+              "policy shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 172.36000061035156,
+          "CVX": 220.9199981689453,
+          "BP": 46.34000015258789,
+          "SHEL": 102.73999786376953,
+          "TTE": 91.36499786376953,
+          "COP": 139.89999389648438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Trump administration targeting arbitration processes that favor insurers; doctor payouts soaring increases cost pressures on UNH's insurance operations.",
+            "key_themes": [
+              "regulatory pressure",
+              "cost inflation",
+              "arbitration reform"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Maternal drape innovation addresses global health crisis; positions JNJ for emerging market expansion and humanitarian healthcare growth opportunities.",
+            "key_themes": [
+              "innovation",
+              "emerging markets",
+              "maternal health"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes the maternal drape innovation but does not identify JNJ as the developer or owner of this technology. The article does not substantiate JNJ's connection to this product or imply JNJ-specific emerging market expansion opportunities.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Competitive bidding war for obesity/rare disease player Rhythm Pharmaceuticals signals strong appetite for obesity assets; validates LLY's GLP-1 strategy focus.",
+            "key_themes": [
+              "obesity market dynamics",
+              "M&A activity",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [5] reports AstraZeneca's $10B offer for Rhythm Pharmaceuticals and mentions analyst speculation of a bidding war, but does not indicate Eli Lilly is participating in or considering bidding. The rationale infers LLY involvement without source support.",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "UNH": 414.1700134277344,
+          "JNJ": 281.6700134277344,
+          "LLY": 1451.574951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Bank of England rate hike signals potential Fed action; higher rates improve net interest margins for large banks.",
+            "key_themes": [
+              "interest rate environment",
+              "monetary policy shift",
+              "NIM expansion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America Corp.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "BoE rate increase suggests global monetary tightening cycle beginning; positive for deposit-rich banks' profitability.",
+            "key_themes": [
+              "interest rate environment",
+              "NIM improvement",
+              "global policy shift"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs Group Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Rising rate environment benefits investment banking advisory fees and trading revenue for global systemically important banks.",
+            "key_themes": [
+              "interest rate cycle",
+              "capital markets activity",
+              "advisory fees"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 69,
+            "rationale": "BoE rate hike supports higher yields; benefits wealth management and trading divisions amid market volatility.",
+            "key_themes": [
+              "interest rate environment",
+              "market volatility",
+              "wealth management"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Rising rates may moderate consumer spending growth; political uncertainty in Texas could affect payment volumes.",
+            "key_themes": [
+              "consumer demand pressure",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "BoE rate hike (Article 3) supports rationale about rising rates moderating consumer spending. However, Article 2 on Texas political shift does not clearly establish how it would affect payment volumes or create regulatory uncertainty specific to Visa's operations. Connection is speculative.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Rising rates may dampen consumer spending; political shifts create uncertainty but direct impact limited.",
+            "key_themes": [
+              "consumer demand pressure",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "BoE rate hike (Article 3) supports the consumer spending pressure rationale. However, Article 2 on Texas political uncertainty does not provide direct evidence of how this would create regulatory uncertainty affecting Mastercard specifically. Connection is underdeveloped.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 349.0150146484375,
+          "BAC": 51.79499816894531,
+          "GS": 892.6300048828125,
+          "MS": 188.33999633789062,
+          "V": 437.54998779296875,
+          "MA": 676.5999755859375
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
       }
     }
   }
