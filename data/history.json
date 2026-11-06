@@ -1,353 +1,5 @@
 [
   {
-    "run_date": "2026-06-29",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT's organic search integration threatens Google's search dominance; urgency to accelerate AI-powered search monetization.",
-            "key_themes": [
-              "AI search integration",
-              "organic traffic disruption",
-              "competitive pressure from OpenAI"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "OpenAI's ChatGPT increasingly capturing search and content recommendation traffic, validating Microsoft's strategic AI investment thesis.",
-            "key_themes": [
-              "AI monetization",
-              "search disruption",
-              "OpenAI partnership value"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "NVDA",
-            "company": "NVIDIA Corporation",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Growing AI tool proliferation and China's GLM-5.2 capability parity signal sustained inference demand but increasing competition.",
-            "key_themes": [
-              "AI inference demand",
-              "competitive pressure from China",
-              "tool proliferation"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": "Partial support only - Article discusses China's GLM-5.2 capability parity in cybersecurity, supporting competitive pressure claim, but does not directly address inference demand or tool proliferation effects on NVIDIA",
-            "supporting_article": 6
-          }
-        ],
-        "prices_snapshot": {
-          "GOOGL": 337.3900146484375,
-          "MSFT": 372.9700012207031,
-          "NVDA": 192.52999877929688
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "U.S.-Iran escalation and Middle East production disruption risks support oil price upside; markets underpricing geopolitical premium.",
-            "key_themes": [
-              "geopolitical risk premium",
-              "oil price support",
-              "inventory drawdown"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1
-            ]
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Geopolitical tensions in Middle East with delayed market pricing creates near-term crude upside; global inventory drawdown supportive.",
-            "key_themes": [
-              "geopolitical risk",
-              "oil price strength",
-              "supply tightness"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1
-            ]
-          },
-          {
-            "ticker": "BP",
-            "company": "BP p.l.c.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Securing \u20ac240m Spanish hydrogen hub funding signals strategic pivot to energy transition; positioned for long-term clean energy growth.",
-            "key_themes": [
-              "hydrogen investment",
-              "energy transition",
-              "government support"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              4
-            ]
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 71,
-            "rationale": "U.S.-Iran tensions and delayed market pricing of geopolitical risks support near-term crude recovery; Middle East production rebound creates volatility premium.",
-            "key_themes": [
-              "geopolitical upside",
-              "oil price recovery",
-              "production volatility"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              3
-            ]
-          }
-        ],
-        "prices_snapshot": {
-          "XOM": 136.5399932861328,
-          "CVX": 171.05999755859375,
-          "BP": 37.130001068115234,
-          "COP": 105.95999908447266
-        },
-        "sector_sentiment": "bullish",
-        "reliability": "high"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Regulatory scrutiny under Kennedy administration may increase compliance costs but JNJ's scale provides resilience.",
-            "key_themes": [
-              "regulatory pressure",
-              "CDC scrutiny",
-              "pesticide safety focus"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale cites 'regulatory pressure', 'CDC scrutiny', and 'pesticide safety focus', but sources show Trump's pesticide order involves no new federal funding, regulations, or legislation (Article 1). Article 3 mentions CDC pressure from Kennedy but provides no specific regulatory actions targeting JNJ. No direct connection to compliance cost increases for JNJ is established.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "CDC operational disruptions under Kennedy pressure could impact health system efficiency and reimbursement predictability.",
-            "key_themes": [
-              "CDC disruption",
-              "regulatory uncertainty",
-              "public health infrastructure pressure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article 3 describes CDC staff facing pressure from Kennedy but does not establish that this causes 'operational disruptions' or impacts 'reimbursement predictability'. The claim about health system efficiency and reimbursement impact is not supported by the source material.",
-            "supporting_article": 3
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Congo Ebola crisis creates urgent vaccine demand; Pfizer positioned to support outbreak response and pandemic preparedness.",
-            "key_themes": [
-              "infectious disease outbreak",
-              "vaccine demand",
-              "global health crisis"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Ebola outbreak increases demand for infectious disease vaccines and therapeutics; Merck has established capabilities in this space.",
-            "key_themes": [
-              "infectious disease outbreak",
-              "vaccine opportunity",
-              "Ebola response"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Ebola contact tracing lag creates urgent demand for diagnostics, testing kits, and laboratory infrastructure support.",
-            "key_themes": [
-              "diagnostic demand",
-              "outbreak response",
-              "testing infrastructure"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          }
-        ],
-        "prices_snapshot": {
-          "JNJ": 254.66000366210938,
-          "UNH": 427.8900146484375,
-          "PFE": 24.290000915527344,
-          "MRK": 128.66000366210938,
-          "TMO": 513.030029296875
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Fed policy shifts under Warsh may affect interest rates and trading volumes; geopolitical tensions could drive advisory work",
-            "key_themes": [
-              "Fed policy uncertainty",
-              "geopolitical risk",
-              "potential advisory opportunities"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              3,
-              1
-            ]
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs Group Inc.",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "M&A activity potential from Comcast NBCUniversal spinoff could drive investment banking fees; Fed uncertainty creates volatility",
-            "key_themes": [
-              "M&A advisory opportunity",
-              "Fed policy shift",
-              "media industry restructuring"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Comcast spinoff presents M&A advisory opportunities; broader market volatility from tech selloff and geopolitical tension affects trading",
-            "key_themes": [
-              "M&A opportunity",
-              "market volatility",
-              "trading revenue potential"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              4,
-              1
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa Inc.",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Broad equity market selloff amid AI rout and geopolitical tensions may reduce consumer spending and payment transaction volumes",
-            "key_themes": [
-              "market downturn",
-              "consumer sentiment risk",
-              "transaction volume pressure"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard Inc.",
-            "sentiment": "bearish",
-            "conviction": 60,
-            "rationale": "Market volatility and geopolitical risks could dampen consumer spending and payment network activity in near term",
-            "key_themes": [
-              "market volatility",
-              "transaction volume uncertainty",
-              "risk-off sentiment"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              4,
-              1
-            ]
-          }
-        ],
-        "prices_snapshot": {
-          "JPM": 329.04998779296875,
-          "GS": 1019.6099853515625,
-          "MS": 212.02999877929688,
-          "V": 336.2300109863281,
-          "MA": 499.0199890136719
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      }
-    }
-  },
-  {
     "run_date": "2026-06-30",
     "industries": {
       "Technology": {
@@ -28609,6 +28261,367 @@
           "MA": 676.5999755859375
         },
         "sector_sentiment": "bullish",
+        "reliability": "medium"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-06",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's organic traffic displacement creates opportunity for Google to integrate AI-powered search recommendations into core products.",
+            "key_themes": [
+              "AI search integration",
+              "organic traffic monetization",
+              "content recommendation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "EU regulatory action against TikTok's recommendation algorithm signals increasing scrutiny of Meta's own algorithmic practices and monetization models.",
+            "key_themes": [
+              "regulatory pressure",
+              "algorithm oversight",
+              "platform liability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Growing AI tool adoption for content creation validates enterprise AI strategy and OpenAI partnership value proposition.",
+            "key_themes": [
+              "AI adoption acceleration",
+              "content creation tools",
+              "enterprise AI"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 288.6600036621094,
+          "META": 617.8049926757812,
+          "MSFT": 530.5599975585938
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Oil price plunge of 11% this week as Iran war premium stripped out; reduced geopolitical risk support",
+            "key_themes": [
+              "crude price decline",
+              "Iran deal pessimism reversal",
+              "war premium erosion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Sharp WTI decline from $102.75 to $86.65 reduces upstream cash generation; low Iran deal odds stabilize prices",
+            "key_themes": [
+              "crude price weakness",
+              "margin compression",
+              "geopolitical risk reduction"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "11% weekly crude loss pressures upstream economics; lower oil volatility reduces near-term upside catalysts",
+            "key_themes": [
+              "WTI price decline",
+              "production economics",
+              "premium compression"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "European grid investment surge signals accelerated energy transition; oil price collapse limits offsetting upstream returns",
+            "key_themes": [
+              "energy transition headwind",
+              "crude decline",
+              "grid decarbonization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 63,
+            "rationale": "Europe's 155% grid spending increase since 2019 accelerates low-carbon transition; 11% oil decline pressures hydrocarbon margins",
+            "key_themes": [
+              "energy transition competition",
+              "crude price weakness",
+              "renewables displacement"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "European energy infrastructure pivot toward renewables threatens core oil/gas revenue; WTI decline adds short-term pressure",
+            "key_themes": [
+              "grid decarbonization",
+              "oil demand headwind",
+              "price decline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 166.13999938964844,
+          "CVX": 213.3699951171875,
+          "COP": 136.86000061035156,
+          "BP": 44.43000030517578,
+          "TTE": 87.62999725341797,
+          "SHEL": 98.9000015258789
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Maternal health innovation (maternal drape) addresses critical healthcare gap, expanding J&J's women's health portfolio.",
+            "key_themes": [
+              "maternal health innovation",
+              "unmet medical needs",
+              "global health expansion"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses a maternal drape innovation but does not attribute it to Johnson & Johnson or mention J&J's involvement. The article does not identify the company behind this technology, making the attribution to J&J unsupported.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "Trump administration moving to oust arbitrators as doctor payouts soar; regulatory scrutiny threatens insurer profitability and dispute resolution mechanisms.",
+            "key_themes": [
+              "regulatory headwind",
+              "rising medical costs",
+              "arbitration reform"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Success of RAS inhibitor daraxonrasib (RevMed competitor) validates LLY's oncology pipeline strength and market demand for innovative cancer therapeutics.",
+            "key_themes": [
+              "oncology market expansion",
+              "pipeline validation",
+              "therapeutic innovation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [5] discusses Revolution Medicines' daraxonrasib (Rasonque), not an Eli Lilly product. The rationale claims this validates 'LLY's oncology pipeline' but Eli Lilly is not mentioned in the article. Success of a competitor's drug does not directly validate LLY's pipeline without explicit connection.",
+            "supporting_article": 5
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 269.17999267578125,
+          "UNH": 395.54998779296875,
+          "LLY": 1370.9998779296875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech sector volatility may reduce investment banking activity; home equity lending risks emerge",
+            "key_themes": [
+              "investment banking uncertainty",
+              "consumer lending headwinds",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "bearish",
+            "conviction": 52,
+            "rationale": "Home equity contract concerns signal potential consumer credit deterioration and regulatory scrutiny",
+            "key_themes": [
+              "consumer lending risk",
+              "home equity exposure",
+              "regulatory risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Tech-heavy investment banking revenue at risk from AI rout and market selloff volatility",
+            "key_themes": [
+              "investment banking uncertainty",
+              "tech sector weakness",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 46,
+            "rationale": "Broad market weakness reduces wealth management and trading revenues; tech exposure creates headwinds",
+            "key_themes": [
+              "market volatility",
+              "wealth management uncertainty",
+              "tech sector rout"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Market selloff and potential consumer spending weakness from tech rout may reduce payment volumes",
+            "key_themes": [
+              "consumer spending risk",
+              "market volatility",
+              "macro uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates that tech rout will reduce consumer spending and payment volumes, but source articles only document market volatility and tech stock declines; no evidence of actual consumer spending weakness or payment volume impact",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 54,
+            "rationale": "Broad market decline and reduced consumer confidence may pressure payment transaction volumes",
+            "key_themes": [
+              "consumer spending risk",
+              "market volatility",
+              "macro uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale speculates that market decline will reduce consumer confidence and payment volumes, but source articles only document market volatility and tech stock declines; no evidence of actual consumer spending weakness or payment volume impact",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 337.1549987792969,
+          "BAC": 49.834999084472656,
+          "GS": 882.6900024414062,
+          "MS": 184.41000366210938,
+          "V": 418.989990234375,
+          "MA": 651.47998046875
+        },
+        "sector_sentiment": "bearish",
         "reliability": "medium"
       }
     }
