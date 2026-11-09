@@ -1,335 +1,5 @@
 [
   {
-    "run_date": "2026-06-30",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT integration into search behavior demonstrates competitive AI threat; validates Google's AI investments urgency",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic disruption",
-              "LLM monetization"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "ChatGPT's demonstrated organic traffic generation capability validates OpenAI partnership value and enterprise AI adoption",
-            "key_themes": [
-              "ChatGPT adoption",
-              "enterprise AI",
-              "content generation tools"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "GOOGL": 353.6499938964844,
-          "MSFT": 368.57000732421875
-        },
-        "sector_sentiment": "bullish",
-        "reliability": "high"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Securing \u20ac240m Spanish hydrogen hub funding signals strategic pivot to energy transition with government backing.",
-            "key_themes": [
-              "hydrogen infrastructure",
-              "energy transition investment",
-              "government support"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Mixed signals: geopolitical tensions ease Hormuz traffic but LNG premium pricing persists from Persian Gulf disruptions.",
-            "key_themes": [
-              "geopolitical risk",
-              "LNG supply disruption",
-              "tanker operations"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Persian Gulf LNG disruptions elevate pricing but recent tension easing limits upside; modest tailwind from supply constraints.",
-            "key_themes": [
-              "LNG premium",
-              "geopolitical volatility",
-              "supply disruption"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "U.S. leading 30% of global CO2 emissions growth in 2025 signals regulatory pressure ahead for major fossil fuel producers.",
-            "key_themes": [
-              "emissions scrutiny",
-              "regulatory risk",
-              "energy transition pressure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          }
-        ],
-        "prices_snapshot": {
-          "BP": 37.349998474121094,
-          "SHEL": 76.88999938964844,
-          "TTE": 77.66999816894531,
-          "XOM": 136.05999755859375
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Congo Ebola crisis and contact tracing gaps create demand for diagnostic and testing infrastructure solutions.",
-            "key_themes": [
-              "infectious disease response",
-              "diagnostic demand",
-              "outbreak management"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Regulatory uncertainty from Kennedy's health secretary pressuring CDC; pesticide order suggests stricter oversight ahead.",
-            "key_themes": [
-              "regulatory pressure",
-              "policy uncertainty",
-              "public health scrutiny"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Ebola outbreak may create vaccine/therapeutic opportunity but regulatory environment uncertainty under Kennedy administration.",
-            "key_themes": [
-              "infectious disease opportunity",
-              "regulatory headwinds",
-              "vaccine demand"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Potential infectious disease vaccine opportunities from Congo Ebola crisis offset by regulatory pressures from Kennedy health agenda.",
-            "key_themes": [
-              "outbreak response",
-              "regulatory uncertainty",
-              "vaccine development"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          }
-        ],
-        "prices_snapshot": {
-          "TMO": 506.4200134277344,
-          "JNJ": 258.510009765625,
-          "PFE": 24.3700008392334,
-          "MRK": 129.3800048828125
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Geopolitical tensions (Iran-U.S.) create near-term volatility; financial intermediary benefits from elevated trading activity.",
-            "key_themes": [
-              "geopolitical risk",
-              "trading volatility",
-              "market uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Broad market volatility from AI concerns and geopolitical tensions may pressure equities but support trading revenues.",
-            "key_themes": [
-              "market volatility",
-              "trading activity",
-              "economic uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              4
-            ]
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Investment banking and trading activity elevated by geopolitical tensions and tech sector volatility provide near-term support.",
-            "key_themes": [
-              "market volatility",
-              "geopolitical risk",
-              "trading revenues"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              4
-            ]
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 46,
-            "rationale": "Market-making and trading opportunities from AI sector rout and geopolitical uncertainty support near-term revenues.",
-            "key_themes": [
-              "tech sector volatility",
-              "trading activity",
-              "market dislocation"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2,
-              4
-            ]
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 58,
-            "rationale": "Broad market selloff and geopolitical tensions create headwinds for consumer spending and payment volume growth.",
-            "key_themes": [
-              "market volatility",
-              "consumer uncertainty",
-              "economic slowdown risk"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims market selloff creates headwinds for consumer spending, but source articles do not establish causal link between market volatility and consumer spending impact. Articles cover geopolitical tensions and AI sector volatility but contain no data on consumer behavior or payment volume effects.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 56,
-            "rationale": "Market rout and geopolitical uncertainty dampen near-term consumer spending and transaction growth prospects.",
-            "key_themes": [
-              "market volatility",
-              "consumer demand risk",
-              "economic uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale assumes market rout and geopolitical uncertainty directly dampen consumer spending and transaction growth, but source articles provide no evidence linking these events to consumer payment behavior or transaction volumes.",
-            "supporting_article": null
-          }
-        ],
-        "prices_snapshot": {
-          "JPM": 329.3900146484375,
-          "BAC": 57.880001068115234,
-          "GS": 1020.2100219726562,
-          "MS": 211.72000122070312,
-          "V": 341.6499938964844,
-          "MA": 509.6400146484375
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      }
-    }
-  },
-  {
     "run_date": "2026-07-01",
     "industries": {
       "Technology": {
@@ -28623,6 +28293,368 @@
         },
         "sector_sentiment": "bearish",
         "reliability": "medium"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-09",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT traffic redirection demonstrates AI search monetization risk; Google must compete aggressively in AI-driven discovery.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic disruption",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's organic traffic dominance validates OpenAI/Microsoft's AI positioning and potential advertising revenue expansion.",
+            "key_themes": [
+              "AI content discovery",
+              "search monetization",
+              "ChatGPT adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Articles highlight AI content creation tools gaining traction; Meta's AI infrastructure investments moderately relevant but not directly addressed.",
+            "key_themes": [
+              "AI content creation tools",
+              "creator economy",
+              "competitive AI landscape"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale is weakly grounded; Article 2 discusses AI content creation tools generally but does not specifically address Meta's AI infrastructure investments or their relevance to the creator economy",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 290.9599914550781,
+          "MSFT": 542.3250122070312,
+          "META": 641.72998046875
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "LNG prices above $30/MMBtu with low European inventories support strong near-term LNG export margins and revenue.",
+            "key_themes": [
+              "LNG price strength",
+              "European energy crisis",
+              "supply constraints"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Elevated LNG pricing and extreme European gas scarcity create favorable conditions for major LNG portfolio monetization.",
+            "key_themes": [
+              "LNG premium pricing",
+              "European gas shortage",
+              "supply gaps"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "High European power prices and renewable generation shortfalls increase near-term demand for gas-fired generation and BP's energy mix.",
+            "key_themes": [
+              "gas demand surge",
+              "renewable intermittency",
+              "power price spikes"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "LNG market strength provides modest support, but limited direct European exposure compared to regional majors reduces immediate upside.",
+            "key_themes": [
+              "LNG prices elevated",
+              "Asia-focused assets",
+              "indirect benefit"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 88.23500061035156,
+          "SHEL": 99.4800033569336,
+          "BP": 44.775001525878906,
+          "CVX": 211.85000610351562
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 62,
+            "rationale": "Icotyde shows strong Phase 3 data in psoriatic arthritis but high-dose miss creates label uncertainty and commercialization risk.",
+            "key_themes": [
+              "clinical trial setback",
+              "psoriatic arthritis",
+              "dose optimization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Foundayo Phase 3 success in sleep apnea with planned label expansion significantly broadens GLP-1 addressable market.",
+            "key_themes": [
+              "label expansion",
+              "GLP-1 platform",
+              "sleep apnea indication"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Global health strategy shift toward fragmented bilateral agreements weakens pandemic prevention capabilities, increasing long-term healthcare system risk.",
+            "key_themes": [
+              "geopolitical risk",
+              "pandemic preparedness",
+              "public health policy"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses U.S. global health strategy and pandemic prevention, but does not specifically mention UnitedHealth Group or connect policy shifts to healthcare system risks. The signal attributes geopolitical/policy risk to a health insurer without direct nexus in source material.",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "High-profile cardiac drug failures raise fundamental questions about disease hypotheses and pipeline efficacy across the pharma sector.",
+            "key_themes": [
+              "clinical failure",
+              "R&D risk",
+              "cardiovascular drugs"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] describes cardiac drug failures but does not identify Pfizer as the manufacturer. The signal attributes these failures to Pfizer without confirmation in the source material. The article does not specify which company's drugs failed.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Hormone replacement therapy scrutiny over cancer risks may pressure revenue but aligns with demand for transparent risk communication.",
+            "key_themes": [
+              "safety communication",
+              "hormone therapy",
+              "regulatory attention"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses hormone replacement therapy and cancer risk concerns, but does not identify AbbVie as a manufacturer or supplier of HRT drugs. No direct connection between the article's content and AbbVie is established in the source material.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JNJ": 279.69000244140625,
+          "LLY": 1393.47998046875,
+          "UNH": 397.0199890136719,
+          "PFE": 29.309999465942383,
+          "ABBV": 292.06500244140625
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Mixed signals: potential AI regulation headwinds offset by lower oil prices benefiting broad economy",
+            "key_themes": [
+              "AI regulation risk",
+              "macroeconomic stability",
+              "energy sector relief"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Modest benefit from lower oil prices and geopolitical de-escalation, but AI rout creates uncertainty",
+            "key_themes": [
+              "energy price decline",
+              "Iran-US peace hopes",
+              "tech sector volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Tech-focused investment banking revenues threatened by AI sector selloff and potential regulatory crackdown",
+            "key_themes": [
+              "AI infrastructure decline",
+              "regulatory headwinds",
+              "deal activity pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bearish",
+            "conviction": 52,
+            "rationale": "Significant tech/AI equity research and advisory exposure amid current AI sector rout and regulatory uncertainty",
+            "key_themes": [
+              "tech sector weakness",
+              "AI market reversal",
+              "volatility impact"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              4
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Lower oil prices support consumer spending, but broader market rout and tech sector weakness create headwinds",
+            "key_themes": [
+              "consumer spending resilience",
+              "market volatility",
+              "geopolitical stability"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 47,
+            "rationale": "Benefits from lower energy costs supporting consumer activity, offset by near-term market uncertainty",
+            "key_themes": [
+              "energy price relief",
+              "consumer transaction volume",
+              "market volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 341.80499267578125,
+          "BAC": 50.66510009765625,
+          "GS": 906.239990234375,
+          "MS": 189.02000427246094,
+          "V": 423.8500061035156,
+          "MA": 658.1290283203125
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "high"
       }
     }
   }
