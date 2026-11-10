@@ -1,283 +1,5 @@
 [
   {
-    "run_date": "2026-07-01",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT's organic search disruption demonstrates AI monetization risk; Google must accelerate AI search integration to defend market share.",
-            "key_themes": [
-              "AI search disruption",
-              "organic traffic shift",
-              "competitive pressure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Rate-limiting AI features and introducing paywalls ($19.99/month) signals monetization struggles and user friction in smart glasses rollout.",
-            "key_themes": [
-              "hardware monetization challenges",
-              "AI feature limitations",
-              "subscription friction"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          }
-        ],
-        "prices_snapshot": {
-          "GOOGL": 357.3699951171875,
-          "META": 563.2899780273438
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Divesting Na Kika stake signals portfolio optimization, but 2027 supply glut poses downstream margin pressure.",
-            "key_themes": [
-              "asset monetization",
-              "supply glut headwind",
-              "deepwater rationalization"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "Na Kika partnership dissolution neutral; exposed to 2027 supply glut despite strong current production assets.",
-            "key_themes": [
-              "Gulf of Mexico portfolio",
-              "supply glut exposure",
-              "asset partnerships"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Upstream producer facing 2027 supply glut and margin compression despite near-term inventory rebuild tailwind.",
-            "key_themes": [
-              "supply glut 2027",
-              "inventory normalization",
-              "pricing pressure"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Goldman Sachs warns of 2027 supply glut offsetting inventory rebuilds; integrated model provides some refining hedge.",
-            "key_themes": [
-              "supply glut 2027",
-              "crude oversupply",
-              "integrated operations"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bearish",
-            "conviction": 66,
-            "rationale": "Pure-play upstream producer vulnerable to projected 2027 supply glut and resulting crude price compression.",
-            "key_themes": [
-              "supply glut 2027",
-              "upstream exposure",
-              "pricing risk"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "SHEL": 77.54000091552734,
-          "BP": 36.95000076293945,
-          "XOM": 136.72000122070312,
-          "CVX": 165.75999450683594,
-          "COP": 103.95999908447266
-        },
-        "sector_sentiment": "bearish",
-        "reliability": "high"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "Medicare GLP-1 coverage expansion (July 1, 2026) significantly broadens addressable market for weight-loss drugs.",
-            "key_themes": [
-              "GLP-1 market expansion",
-              "Medicare reimbursement",
-              "weight-loss indication"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Medicare GLP-1 coverage expands utilization but Medicaid work requirements lawsuit creates regulatory uncertainty affecting members.",
-            "key_themes": [
-              "GLP-1 demand increase",
-              "Medicaid regulation risk",
-              "reimbursement uncertainty"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              3
-            ]
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Medicare GLP-1 coverage expansion benefits J&J's weight-loss portfolio alongside existing pharmaceutical revenue streams.",
-            "key_themes": [
-              "GLP-1 market expansion",
-              "Medicare reimbursement",
-              "portfolio diversification"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] mentions Medicare GLP-1 coverage but does not identify J&J as having a weight-loss portfolio or GLP-1 product in the pilot program. No source confirms J&J participation in the GLP-1 market expansion.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "Limited exposure to GLP-1 market; surgical billing loophole and kickback enforcement create cost/compliance headwinds.",
-            "key_themes": [
-              "competitive disadvantage in GLP-1",
-              "regulatory enforcement risk",
-              "surprise billing impact"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              5
-            ]
-          }
-        ],
-        "prices_snapshot": {
-          "LLY": 1199.4300537109375,
-          "UNH": 415.6300048828125,
-          "JNJ": 253.97000122070312,
-          "PFE": 24.079999923706055
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Trade policy uncertainty from USMCA renegotiation may impact loan portfolio and M&A advisory revenues.",
-            "key_themes": [
-              "trade policy uncertainty",
-              "regulatory environment"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America Corp.",
-            "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Student loan forgiveness court ruling creates regulatory uncertainty affecting consumer lending strategies.",
-            "key_themes": [
-              "regulatory uncertainty",
-              "consumer lending"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs Group Inc.",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Trade policy volatility may increase M&A advisory opportunities but market uncertainty pressures valuations.",
-            "key_themes": [
-              "trade policy",
-              "M&A activity"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "JPM": 327.3299865722656,
-          "BAC": 56.97999954223633,
-          "GS": 1011.3699951171875
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      }
-    }
-  },
-  {
     "run_date": "2026-07-02",
     "industries": {
       "Technology": {
@@ -28655,6 +28377,427 @@
         },
         "sector_sentiment": "bearish",
         "reliability": "high"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-10",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "ChatGPT's direct answer integration threatens Google Search's dominant traffic model and ad-based revenue stream.",
+            "key_themes": [
+              "AI-driven search disruption",
+              "organic traffic redirection",
+              "SEO model erosion"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "ChatGPT's expanding role as primary information source validates OpenAI partnership and enterprise AI monetization opportunity.",
+            "key_themes": [
+              "AI market expansion",
+              "ChatGPT adoption",
+              "enterprise AI services"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Proliferation of AI content creation tools (Articles 2-3) and major AI IPO (Anthropic) signal sustained GPU demand acceleration.",
+            "key_themes": [
+              "AI infrastructure demand",
+              "generative AI expansion",
+              "data center growth"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3,
+              6
+            ]
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "AI tools for content creation (Article 2) could benefit creator ecosystem, but no direct Meta-specific catalysts evident in articles.",
+            "key_themes": [
+              "AI content creation",
+              "creator monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article 2 discusses general AI content creation tools but contains no Meta-specific information, catalysts, or creator ecosystem details. The rationale overstates the connection to Meta's business.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 290.8450012207031,
+          "MSFT": 541.9099731445312,
+          "NVDA": 171.6699981689453,
+          "META": 643.3300170898438
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Iran war causing oil shock and demand destruction; 0.4% drop in fossil fuel emissions expected in 2026.",
+            "key_themes": [
+              "demand destruction",
+              "Hormuz trade shock",
+              "emissions decline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bearish",
+            "conviction": 70,
+            "rationale": "Oil price shock from Iran conflict and accelerating renewable energy adoption reducing fossil fuel demand outlook.",
+            "key_themes": [
+              "energy transition",
+              "demand shock",
+              "margin compression"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Geopolitical tensions (Iran, Ukraine, Falklands) creating supply uncertainty but demand destruction from conflict dominates.",
+            "key_themes": [
+              "geopolitical risk",
+              "demand destruction",
+              "transition uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale cites 'geopolitical tensions (Iran, Ukraine, Falklands)' but Articles [1] and [3] show Ukraine and Falklands disputes are separate from the Iran war; Article [2] only discusses Iran war impact on emissions. The claim that these multiple geopolitical tensions collectively create 'demand destruction' is not supported by source material. Article [1] mentions Ukraine talks intensifying but does not link this to oil demand destruction.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 69,
+            "rationale": "Iran war-induced oil shock and increased renewable penetration (solar/wind) reducing near-term crude demand and margins.",
+            "key_themes": [
+              "demand shock",
+              "renewable competition",
+              "Hormuz exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bearish",
+            "conviction": 66,
+            "rationale": "Global fossil fuel emissions decline and energy price shock from Iran conflict pressure oil and gas revenue outlook.",
+            "key_themes": [
+              "demand destruction",
+              "price shock",
+              "emissions decline"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bearish",
+            "conviction": 71,
+            "rationale": "Oil shock from Iran war and accelerating renewable capacity additions creating structural headwinds for crude demand.",
+            "key_themes": [
+              "supply shock",
+              "demand destruction",
+              "energy transition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Oil market disruption from Iran conflict and fossil fuel demand decline reduce upstream capital spending and oilfield services demand.",
+            "key_themes": [
+              "capex cycle decline",
+              "demand destruction",
+              "margin pressure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 163.7449951171875,
+          "CVX": 209.51499938964844,
+          "BP": 44.01499938964844,
+          "SHEL": 96.98999786376953,
+          "TTE": 87.22129821777344,
+          "COP": 134.86000061035156,
+          "SLB": 49.994998931884766
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "FDA orders new eye risk warnings on Zepbound (GLP-1), adding label risk to major revenue driver.",
+            "key_themes": [
+              "regulatory headwind",
+              "GLP-1 safety concerns",
+              "label expansion"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "High-profile heart drug failures raise questions about cardiovascular hypothesis and pipeline efficacy.",
+            "key_themes": [
+              "clinical trial failure",
+              "R&D risk",
+              "therapeutic hypothesis uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [3] discusses heart drug failures generically but does not identify Pfizer as the manufacturer. The article does not specify which company developed these failed drugs.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Dengue disease localization in US suggests emerging therapeutic opportunity but also public health uncertainty.",
+            "key_themes": [
+              "emerging disease",
+              "market uncertainty",
+              "new indication risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] discusses dengue localization in the US but does not mention Merck or any therapeutic opportunity. No connection to Merck is established in the source material.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "ABBV",
+            "company": "AbbVie",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Diabetes research boycott creates scientific slowdown; unclear impact on pipeline momentum and development timelines.",
+            "key_themes": [
+              "research disruption",
+              "diabetes programs uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses a diabetes research boycott but does not mention AbbVie or its diabetes programs. No connection between the boycott and AbbVie's pipeline is established.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "CDMO expansion news is positive but generic; WuXi AppTec geopolitical resolution reduces competitive threat ambiguity.",
+            "key_themes": [
+              "contract manufacturing",
+              "competitive dynamics",
+              "geopolitical clarity"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [6] discusses Phillips Medisize (a Molex subsidiary CDMO), not Thermo Fisher Scientific. Article [4] discusses WuXi AppTec's removal from a military company list but does not mention TMO or competitive dynamics with TMO.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1421.5450439453125,
+          "PFE": 29.104999542236328,
+          "MRK": 146.77499389648438,
+          "ABBV": 292.6400146484375,
+          "TMO": 718.8049926757812
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "low"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase & Co.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Billionaire wealth tax failure reduces regulatory risk; strong position for M&A advisory on tech IPOs like Anthropic.",
+            "key_themes": [
+              "regulatory relief",
+              "M&A opportunity",
+              "IPO advisory fees"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Lead underwriter potential for mega-IPOs; Anthropic $1.4T listing and tech volatility create advisory opportunities.",
+            "key_themes": [
+              "IPO fees",
+              "investment banking",
+              "tech underwriting"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3
+            ]
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Increased M&A and capital markets activity from tech sector volatility and major IPO pipeline.",
+            "key_themes": [
+              "advisory fees",
+              "market volatility",
+              "IPO participation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3,
+              4
+            ]
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Modest benefit from deal flow but less directly exposed to mega-IPO advisory fees versus pure-play investment banks.",
+            "key_themes": [
+              "financing opportunities",
+              "advisory fees",
+              "market conditions"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              3
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Market volatility and potential AI-driven tech sector correction create uncertainty; no direct catalyst from articles.",
+            "key_themes": [
+              "market volatility",
+              "payment volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'AI-driven tech sector correction' but articles discuss AI stock volatility, not a broader tech correction affecting payment volumes. No direct link established between these events and Visa's business.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 40,
+            "rationale": "Similar to Visa; no clear positive catalyst; broad market sell-off in tech creates near-term headwind.",
+            "key_themes": [
+              "market volatility",
+              "payment volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Same issue as Visa: articles show AI sector volatility but no evidence of broad market sell-off affecting payment volumes or justifying neutral stance on Mastercard.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 342.7200012207031,
+          "GS": 909.7949829101562,
+          "MS": 187.40960693359375,
+          "BAC": 50.724998474121094,
+          "V": 419.5400085449219,
+          "MA": 652.719970703125
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
       }
     }
   }
