@@ -1,260 +1,5 @@
 [
   {
-    "run_date": "2026-07-03",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT organic traffic displacement creates competitive pressure; Google's AI search integration becomes critical differentiator.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic monetization",
-              "AI tool ecosystem"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "New AI-focused Pocket app demonstrates aggressive AI product expansion; CEO commitment to AI platform differentiation.",
-            "key_themes": [
-              "AI product innovation",
-              "content creation tools",
-              "interactive AI applications"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "ChatGPT's organic traffic success validates OpenAI partnership value, but also highlights competitive AI content discovery challenges.",
-            "key_themes": [
-              "AI monetization",
-              "competitive dynamics",
-              "content creation platforms"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Partial support only - Article confirms ChatGPT organic traffic success but does not address competitive AI content discovery challenges or Microsoft-specific implications",
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "GOOGL": 359.9100036621094,
-          "META": 582.9000244140625,
-          "MSFT": 390.489990234375
-        },
-        "sector_sentiment": "bullish",
-        "reliability": "medium"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Canadian Pacific pipeline approval expands market access for North American oil producers to Asia.",
-            "key_themes": [
-              "pipeline expansion",
-              "Asian market access",
-              "Canadian upstream"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Japan's LNG imports falling 7% as utilities shift to cheaper coal; elevated LNG prices persist.",
-            "key_themes": [
-              "LNG demand weakness",
-              "coal competition",
-              "pricing pressure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "XOM",
-            "company": "ExxonMobil",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Extreme heat wave driving maximum generation alerts; boosts near-term energy demand and pricing.",
-            "key_themes": [
-              "demand spike",
-              "power generation",
-              "weather-driven commodity demand"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes PJM grid alerts for electricity generation during heat wave, not oil/energy commodity demand. ExxonMobil is primarily an oil company; the rationale conflates electric grid demand with oil demand without evidence of connection in source material.",
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "COP": 104.7300033569336,
-          "TTE": 76.69000244140625,
-          "XOM": 137.08999633789062
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Opioid addiction treatments losing efficacy as tolerance increases, threatening J&J's pain management portfolio",
-            "key_themes": [
-              "opioid crisis",
-              "drug tolerance",
-              "addiction treatment inefficacy"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Medicaid work requirements lawsuit creates regulatory uncertainty and potential coverage/enrollment disruptions",
-            "key_themes": [
-              "regulatory risk",
-              "Medicaid policy",
-              "legal challenges"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ADC manufacturing capacity expansion by Lonza signals rising demand for antibody-drug conjugate production capabilities",
-            "key_themes": [
-              "ADC demand growth",
-              "manufacturing expansion",
-              "oncology therapeutics"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [6] discusses Lonza's ADC manufacturing expansion, not Thermo Fisher Scientific. No evidence that TMO is involved in or benefits from this capacity expansion. The rationale incorrectly attributes Lonza's partnership expansion to TMO.",
-            "supporting_article": 6
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Not prominently featured in articles; oncology reputation rankings show competitive pressure but no direct impact signal",
-            "key_themes": [
-              "competitive oncology market"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          }
-        ],
-        "prices_snapshot": {
-          "JNJ": 263.0400085449219,
-          "UNH": 425.3599853515625,
-          "TMO": 523.4400024414062,
-          "MRK": 129.55999755859375
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Market volatility from AI sector rout may increase banking advisory and trading revenues, offsetting potential loan stress.",
-            "key_themes": [
-              "market volatility",
-              "trading opportunity",
-              "economic uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims market volatility from AI sector rout may increase banking advisory and trading revenues. While Article [4] confirms AI sector rout occurred, no source article discusses impacts on JPMorgan Chase's advisory or trading revenues.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "BAC",
-            "company": "Bank of America",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Broad market decline and potential recession fears from overheated market cycles pose headwinds to loan growth and deposits.",
-            "key_themes": [
-              "market correction risk",
-              "economic cycle concerns"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BRK-B",
-            "company": "Berkshire Hathaway Inc.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Market panic presents opportunity for value-oriented capital deployment; defensive positioning benefits from tech sector volatility.",
-            "key_themes": [
-              "market dislocation",
-              "value opportunity",
-              "defensive positioning"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          }
-        ],
-        "prices_snapshot": {
-          "JPM": 334.4700012207031,
-          "BAC": 58.72999954223633,
-          "BRK-B": 507.7799987792969
-        },
-        "sector_sentiment": "bearish",
-        "reliability": "medium"
-      }
-    }
-  },
-  {
     "run_date": "2026-07-06",
     "industries": {
       "Technology": {
@@ -28816,6 +28561,281 @@
           "JPM": 342.8800048828125,
           "GS": 918.6799926757812,
           "V": 420.7850036621094
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-12",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "CEO Jensen Huang resignation due to misconduct creates leadership uncertainty and potential governance concerns.",
+            "key_themes": [
+              "executive risk",
+              "leadership transition",
+              "governance"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT integration driving organic AI discovery signals competitive pressure on Google Search; demonstrates AI monetization opportunities.",
+            "key_themes": [
+              "AI competition",
+              "search disruption",
+              "AI tools adoption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale mischaracterizes the signal: Article [1] shows ChatGPT recommending content, which demonstrates AI discovery value but does NOT inherently create 'competitive pressure on Google Search' or a 'bullish' case for Google. The signal reasoning is inverted\u2014this would more logically support a bearish case for Google Search dominance.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "ChatGPT's growing role as content discovery engine validates OpenAI/Microsoft AI strategy and generative AI platform adoption.",
+            "key_themes": [
+              "AI adoption",
+              "ChatGPT success",
+              "content creation"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale is logically sound but overstates certainty: Article [1] demonstrates ChatGPT functioning as a content discovery engine, which does support the premise. However, the conviction level (68) may be inflated as the single anecdote in Article [1] is limited evidence of platform-wide adoption trends.",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "NVDA": 164.2899932861328,
+          "GOOGL": 295.6700134277344,
+          "MSFT": 525.1950073242188
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "EU ban on Russian LNG imports (Jan 2027) reduces competitive LNG supply pressures, but geopolitical tensions limit upside from higher prices.",
+            "key_themes": [
+              "LNG supply dynamics",
+              "EU energy security",
+              "geopolitical risk"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] discusses EU ban on Russian LNG (January, not January 2027), but does not analyze competitive LNG supply pressures, price impacts, or implications for Shell specifically. The rationale makes analytical claims unsupported by source material.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "EU LNG ban supports competitive positioning, but ongoing Ukraine conflict uncertainty and energy transition commitments offset near-term gains.",
+            "key_themes": [
+              "LNG market dynamics",
+              "geopolitical risk",
+              "energy transition"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [1] mentions EU LNG ban and Article [2] discusses Ukraine conflict, but neither article analyzes TotalEnergies' competitive positioning, energy transition commitments, or how these factors offset gains. Rationale is analytical speculation not grounded in sources.",
+            "supporting_article": 1
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Angola's oil revenue windfall supports upstream investment, but economic diversification efforts may gradually reduce crude production dependency.",
+            "key_themes": [
+              "Angola operations",
+              "commodity prices",
+              "economic diversification"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [3] confirms Angola's windfall oil revenues and economic diversification efforts, but does not mention ConocoPhillips, its Angola operations, or potential impacts on crude production dependency. The connection between Angola's diversification and ConocoPhillips' operations is assumed but not stated in sources.",
+            "supporting_article": 3
+          }
+        ],
+        "prices_snapshot": {
+          "SHEL": 98.18000030517578,
+          "TTE": 88.94000244140625,
+          "COP": 138.7449951171875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly and Company",
+            "sentiment": "bullish",
+            "conviction": 82,
+            "rationale": "First oral GLP-1 weight loss drug approval in China expands market reach and revenue opportunities in key geography.",
+            "key_themes": [
+              "geographic expansion",
+              "GLP-1 market leadership",
+              "regulatory wins"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "Medicaid work rules and deep funding cuts starting Jan 1 will reduce member enrollment and increase operational complexity.",
+            "key_themes": [
+              "Medicaid headwinds",
+              "enrollment risk",
+              "regulatory pressure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer Inc.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Loss of U.S. measles-elimination status creates urgent vaccination demand and potential government procurement opportunities.",
+            "key_themes": [
+              "vaccine demand uptick",
+              "public health crisis",
+              "revenue opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article confirms measles-elimination status loss, but does not specify Pfizer's role or vaccines or government procurement details",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Loss of U.S. measles-elimination status drives demand for measles-containing vaccines like MMRV.",
+            "key_themes": [
+              "vaccine demand",
+              "public health opportunity",
+              "childhood immunization"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article confirms measles-elimination status loss, but does not mention Merck, MMRV, or specific vaccine demand implications",
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Prostate cancer screening guideline evolution may benefit diagnostics/oncology but impact remains uncertain without specific recommendations.",
+            "key_themes": [
+              "oncology market",
+              "screening protocols",
+              "indirect exposure"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": "Partial support: Article discusses prostate cancer screening as controversial topic, but contains no specific recommendations or details on diagnostics/oncology business impact",
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "LLY": 1450.2449951171875,
+          "UNH": 404.6400146484375,
+          "PFE": 29.100000381469727,
+          "MRK": 148.10000610351562,
+          "JNJ": 283.57000732421875
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "bullish",
+            "conviction": 62,
+            "rationale": "AI infrastructure selloff creates M&A and advisory opportunities; financial stability amid tech volatility.",
+            "key_themes": [
+              "M&A advisory",
+              "market volatility",
+              "tech sector disruption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale claims AI infrastructure selloff creates M&A and advisory opportunities, but source articles do not discuss JPMorgan Chase, M&A activity, or how financial institutions benefit from tech sector volatility. Articles focus on Nvidia's decline and Jensen Huang's resignation, not downstream advisory opportunities.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 58,
+            "rationale": "AI sector panic may trigger restructuring advisory work and trading opportunities from market dislocation.",
+            "key_themes": [
+              "advisory services",
+              "trading volatility",
+              "sector rotation"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims AI sector panic triggers restructuring advisory work and trading opportunities, but source articles provide no evidence of Goldman Sachs involvement, restructuring advisory demand, or specific trading dislocations benefiting GS. Articles document the selloff but not advisory pipeline implications.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "neutral",
+            "conviction": 52,
+            "rationale": "Mixed signals: volatility supports trading revenue but AI selloff reduces tech investment banking pipeline.",
+            "key_themes": [
+              "trading revenue",
+              "investment banking pressure",
+              "market uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale references trading revenue gains from volatility and reduced tech investment banking pipeline, but source articles do not discuss Morgan Stanley's trading or investment banking activities. The tech selloff is documented, but no analysis of its impact on Morgan Stanley specifically is provided.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 343.5625915527344,
+          "GS": 921.0449829101562,
+          "MS": 189.9550018310547
         },
         "sector_sentiment": "neutral",
         "reliability": "low"
