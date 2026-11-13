@@ -1,280 +1,5 @@
 [
   {
-    "run_date": "2026-07-06",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT integration into search behavior demonstrates AI-driven content discovery competing with traditional SEO, pressuring Google's core search model.",
-            "key_themes": [
-              "AI search disruption",
-              "organic traffic shifting to LLMs",
-              "content monetization evolution"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT dominance in content discovery and AI tool adoption signals strong OpenAI partnership value and enterprise AI integration opportunities.",
-            "key_themes": [
-              "ChatGPT adoption acceleration",
-              "AI content tools",
-              "creator economy monetization"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "GOOGL": null,
-          "MSFT": null
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "XOM",
-            "company": "ExxonMobil Corporation",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Increased German LNG imports from US suppliers strengthens demand outlook for American LNG producers.",
-            "key_themes": [
-              "LNG demand growth",
-              "energy security",
-              "US export opportunity"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Rising European LNG dependency on US suppliers supports long-term LNG project economics and margins.",
-            "key_themes": [
-              "LNG export demand",
-              "geopolitical supply shifts",
-              "European energy security"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Growing US LNG export demand to Europe amid Strait of Hormuz disruptions benefits Alaska LNG operations.",
-            "key_themes": [
-              "LNG exports",
-              "supply security",
-              "geopolitical risk premium"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Article mentions Strait of Hormuz disruptions and US LNG supply growth, but does not specifically reference Alaska LNG operations or ConocoPhillips",
-            "supporting_article": 1
-          },
-          {
-            "ticker": "BP",
-            "company": "BP p.l.c.",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Institutional investor opposition to Arctic drilling limits future exploration upside and constrains portfolio growth.",
-            "key_themes": [
-              "energy transition",
-              "ESG pressure",
-              "Arctic exploration headwinds"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "European pension and asset managers opposing Arctic drilling signal reputational and capital access risks for majors.",
-            "key_themes": [
-              "investor activism",
-              "energy transition priorities",
-              "Arctic exposure"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "LNG demand strength offers offset to Arctic opposition, but European investor sentiment remains mixed on oil/gas growth.",
-            "key_themes": [
-              "LNG opportunity",
-              "energy transition conflict",
-              "European operations"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Article 3 mentions French pension fund Ircantec opposing Arctic drilling, which connects TTE to the opposition narrative",
-            "supporting_article": [
-              1,
-              3
-            ]
-          }
-        ],
-        "prices_snapshot": {
-          "XOM": null,
-          "CVX": null,
-          "COP": null,
-          "BP": null,
-          "SHEL": null,
-          "TTE": null
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Fentanyl tolerance crisis creates urgent demand for novel opioid addiction treatments and next-generation therapeutics.",
-            "key_themes": [
-              "opioid addiction treatment",
-              "therapeutic innovation",
-              "unmet medical need"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Cyclospora outbreak and potential infectious disease clusters may drive demand for diagnostic and treatment solutions.",
-            "key_themes": [
-              "infectious disease",
-              "outbreak response",
-              "diagnostic demand"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": "Rationale overstates specificity: article confirms cyclospora outbreak but does not mention diagnostic or treatment solutions, nor does it link demand to specific companies",
-            "supporting_article": 1
-          },
-          {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Diverse portfolio provides exposure to infectious disease and addiction treatment markets, but articles lack specificity on company involvement.",
-            "key_themes": [
-              "infectious disease",
-              "addiction therapeutics",
-              "broad exposure"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale acknowledges lack of specificity on company involvement, but the articles contain no information about JNJ's portfolio exposure to these markets or any company involvement whatsoever",
-            "supporting_article": null
-          }
-        ],
-        "prices_snapshot": {
-          "LLY": null,
-          "PFE": null,
-          "JNJ": null
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "JPM",
-            "company": "JPMorgan Chase & Co.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "AI market volatility may increase M&A advisory activity, but near-term uncertainty limits conviction.",
-            "key_themes": [
-              "AI sector volatility",
-              "advisory opportunities"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims AI market volatility may increase M&A advisory activity. Source articles [4] and [6] discuss AI sector volatility and stock declines, but neither discusses M&A advisory opportunities or their relationship to JPMorgan Chase specifically.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "V",
-            "company": "Visa Inc.",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Broad market selloff pressures payment volumes, but no direct exposure to AI infrastructure rout.",
-            "key_themes": [
-              "market volatility",
-              "consumer spending uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard Inc.",
-            "sentiment": "neutral",
-            "conviction": 40,
-            "rationale": "Similar to Visa; broad market weakness may impact transaction volumes despite stable business model.",
-            "key_themes": [
-              "market volatility",
-              "consumer spending uncertainty"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          }
-        ],
-        "prices_snapshot": {
-          "JPM": null,
-          "V": null,
-          "MA": null
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "medium"
-      }
-    }
-  },
-  {
     "run_date": "2026-07-07",
     "industries": {
       "Technology": {
@@ -28839,6 +28564,396 @@
         },
         "sector_sentiment": "neutral",
         "reliability": "low"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-13",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into search workflows demonstrates AI-powered alternatives gaining traction; raises competitive pressure on Google Search dominance.",
+            "key_themes": [
+              "AI search competition",
+              "organic traffic displacement",
+              "AI monetization"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "Revelation of alleged plan to attack critic Jonathan Haidt creates significant reputational and regulatory risk amid ongoing antitrust scrutiny.",
+            "key_themes": [
+              "regulatory risk",
+              "reputational damage",
+              "antitrust concerns"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "CEO Jensen Huang's resignation amid China dealings investigation introduces leadership uncertainty and potential geopolitical/regulatory headwinds for the company.",
+            "key_themes": [
+              "executive risk",
+              "China exposure",
+              "geopolitical uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions Jensen Huang's resignation but provides no details about China dealings investigation or the specific reason for resignation. The article summary is incomplete and does not support the claimed rationale of 'CEO Jensen Huang's resignation amid China dealings investigation.'",
+            "supporting_article": 4
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "No direct mention; however, competitive AI landscape with ChatGPT alternatives and Anthropic's Claude advancing may pressure Copilot differentiation strategy.",
+            "key_themes": [
+              "AI competition",
+              "copilot positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct mention' and speculates about competitive pressure from ChatGPT and Claude. This is inference rather than grounding in source material. Articles discuss these AI tools but make no specific claims about Microsoft Copilot differentiation or pressure on Microsoft's strategy.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "GOOGL": 300.19000244140625,
+          "META": 633.0900268554688,
+          "NVDA": 162.07000732421875,
+          "MSFT": 519.989990234375
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strait of Hormuz disruptions and LNG supply shortages support elevated crude and LNG prices benefiting integrated majors.",
+            "key_themes": [
+              "supply disruption",
+              "LNG premium pricing",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Global LNG deficit (Pakistan crisis, Hormuz attacks) increases demand for upstream LNG production and export capabilities.",
+            "key_themes": [
+              "LNG supply shortage",
+              "geopolitical disruption",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell plc",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Major LNG trader/producer positioned to benefit from acute supply deficit in South Asia and Middle East disruptions.",
+            "key_themes": [
+              "LNG trading advantage",
+              "supply crisis",
+              "arbitrage opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Less exposed to LNG trading than peers; medium-term headwinds from global renewable energy investment shifts at COP31.",
+            "key_themes": [
+              "energy transition competition",
+              "mixed exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Strong renewable portfolio mitigates short-term LNG upside; strategic positioning but unclear direct exposure to current disruptions.",
+            "key_themes": [
+              "energy transition focus",
+              "limited LNG exposure"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Global supply disruptions and LNG scarcity support crude pricing and LNG project economics for integrated producers.",
+            "key_themes": [
+              "supply disruption",
+              "LNG demand spike",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Oil services beneficiary from production support, but renewable energy investments at COP31 pose long-term headwinds.",
+            "key_themes": [
+              "mixed signals",
+              "energy transition risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
+          }
+        ],
+        "prices_snapshot": {
+          "XOM": 170.01499938964844,
+          "CVX": 217.60000610351562,
+          "SHEL": 98.87000274658203,
+          "BP": 45.47999954223633,
+          "TTE": 90.43499755859375,
+          "COP": 141.375,
+          "SLB": 51.189998626708984
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "high"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Medicaid funding cuts and new work rules effective Jan 1 will pressure enrollment and margins for major insurers.",
+            "key_themes": [
+              "Medicaid reimbursement pressure",
+              "regulatory headwinds",
+              "patient eligibility changes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Kennedy's vaccine skepticism as health secretary poses regulatory and reputational risks to vaccine portfolio.",
+            "key_themes": [
+              "vaccine regulation uncertainty",
+              "political risk",
+              "regulatory environment"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "GLP-1 market expansion evidenced by aggressive Novo marketing; LLY's mounjaro and obesity franchise benefits from category growth.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "obesity treatment demand",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 61,
+            "rationale": "Kennedy's anti-vaccine stance creates uncertainty for Pfizer's vaccine revenues and regulatory approval pathway.",
+            "key_themes": [
+              "vaccine policy risk",
+              "regulatory uncertainty",
+              "political headwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          }
+        ],
+        "prices_snapshot": {
+          "UNH": 403.3500061035156,
+          "JNJ": 285.6549987792969,
+          "LLY": 1426.6700439453125,
+          "PFE": 28.805099487304688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "high"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market volatility from AI rout may increase trading volumes and advisory fees, offsetting equity market weakness.",
+            "key_themes": [
+              "market volatility",
+              "trading activity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tech sector selloff impacts investment banking pipelines, but increased market volatility supports trading revenue.",
+            "key_themes": [
+              "tech sector weakness",
+              "volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Nasdaq weakness may reduce M&A activity in tech while higher volatility supports fixed income and trading operations.",
+            "key_themes": [
+              "M&A activity",
+              "volatility trading"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Broad stock market rout and consumer sentiment concerns from market turmoil could suppress transaction volumes near-term.",
+            "key_themes": [
+              "market correction",
+              "consumer confidence"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions stock market decline and Nasdaq weakness, but does not establish causality between market rout and consumer sentiment concerns or provide evidence that payment transaction volumes would be suppressed near-term",
+            "supporting_article": null
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 53,
+            "rationale": "Market volatility and investor risk-off sentiment may dampen consumer spending and payment transaction growth.",
+            "key_themes": [
+              "market volatility",
+              "transaction volume risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] documents market volatility from AI rout, but does not provide evidence linking this volatility to dampened consumer spending or payment transaction volume risk",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 344.55999755859375,
+          "BAC": 50.685001373291016,
+          "GS": 910.8239135742188,
+          "V": 425.1400146484375,
+          "MA": 659.9550170898438
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
       }
     }
   }

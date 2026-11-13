@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-11-12",
-  "run_time": "2026-11-12T15:46:15.298656Z",
+  "run_date": "2026-11-13",
+  "run_time": "2026-11-13T15:05:53.095278Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,132 +29,149 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A power bank that can quickly charge three gadgets is just $49",
-          "summary": "Amazon Prime subscribers can jump on a pretty nice deal happening on Ecoflow\u2019s laptop power bank that can deliver up to 140W of power through either of its two USB-C ports. You can snag the limited-time deal happening on the black or silver-colored models for $48.99 (originally $85.79) at Amazon. The 25,000mAh / 90Wh battery [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/1031951/fast-laptop-power-bank-battery-obsession-gaming-deal-sale",
+          "title": "What&#8217;s really at stake in the Jensen Huang saga",
+          "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness [&#8230;]",
+          "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
           "source": "Theverge",
-          "published": "12 Nov 2026",
+          "published": "13 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
-          "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "title": "Meta discussed attacking Jonathan Haidt \u2014 now even his haters are annoyed",
+          "summary": "Three years ago, Meta apparently considered a plan to turn public opinion against one of its most influential opponents, Jonathan Haidt. But since the proposal was revealed in court filings last month, it's backfired. In fact, if there's one thing Anxious Generation author Haidt and his critics can agree on, it's being mad at Meta. [&#8230;]",
+          "url": "https://www.theverge.com/policy/1032645/jonathan-haidt-critics-response-meta",
           "source": "Theverge",
-          "published": "12 Nov 2026",
-          "sentiment_hint": "bearish"
+          "published": "13 Nov 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "Lego\u2019s BrickLink marketplace has been offline for a week following \u2018unusual activity\u2019",
-          "summary": "Bricklink, a popular online marketplace that Lego bought in 2019 where fans can buy and sell parts and sets, has been down for a week and the company doesn't know when it will return. The team who runs the site has been sharing updates over the past week including estimates of when it will be [&#8230;]",
-          "url": "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
+          "title": "Claude\u2019s Duet agent is a little neurotic and surprisingly helpful",
+          "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
           "source": "Theverge",
-          "published": "12 Nov 2026",
+          "published": "13 Nov 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "NVDA",
-            "company": "NVIDIA Corporation",
-            "sentiment": "bearish",
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "CEO Jensen Huang resignation due to misconduct creates leadership uncertainty and potential governance concerns.",
+            "rationale": "ChatGPT's integration into search workflows demonstrates AI-powered alternatives gaining traction; raises competitive pressure on Google Search dominance.",
             "key_themes": [
-              "executive risk",
-              "leadership transition",
-              "governance"
+              "AI search competition",
+              "organic traffic displacement",
+              "AI monetization"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 75,
+            "rationale": "Revelation of alleged plan to attack critic Jonathan Haidt creates significant reputational and regulatory risk amid ongoing antitrust scrutiny.",
+            "key_themes": [
+              "regulatory risk",
+              "reputational damage",
+              "antitrust concerns"
+            ],
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 5
           },
           {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "ChatGPT integration driving organic AI discovery signals competitive pressure on Google Search; demonstrates AI monetization opportunities.",
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "CEO Jensen Huang's resignation amid China dealings investigation introduces leadership uncertainty and potential geopolitical/regulatory headwinds for the company.",
             "key_themes": [
-              "AI competition",
-              "search disruption",
-              "AI tools adoption"
+              "executive risk",
+              "China exposure",
+              "geopolitical uncertainty"
             ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Rationale mischaracterizes the signal: Article [1] shows ChatGPT recommending content, which demonstrates AI discovery value but does NOT inherently create 'competitive pressure on Google Search' or a 'bullish' case for Google. The signal reasoning is inverted\u2014this would more logically support a bearish case for Google Search dominance.",
-            "supporting_article": 1
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions Jensen Huang's resignation but provides no details about China dealings investigation or the specific reason for resignation. The article summary is incomplete and does not support the claimed rationale of 'CEO Jensen Huang's resignation amid China dealings investigation.'",
+            "supporting_article": 4
           },
           {
             "ticker": "MSFT",
             "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT's growing role as content discovery engine validates OpenAI/Microsoft AI strategy and generative AI platform adoption.",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "No direct mention; however, competitive AI landscape with ChatGPT alternatives and Anthropic's Claude advancing may pressure Copilot differentiation strategy.",
             "key_themes": [
-              "AI adoption",
-              "ChatGPT success",
-              "content creation"
+              "AI competition",
+              "copilot positioning"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Rationale is logically sound but overstates certainty: Article [1] demonstrates ChatGPT functioning as a content discovery engine, which does support the premise. However, the conviction level (68) may be inflated as the single anecdote in Article [1] is limited evidence of platform-wide adoption trends.",
-            "supporting_article": 1
+            "verified": false,
+            "verification_issue": "Rationale acknowledges 'no direct mention' and speculates about competitive pressure from ChatGPT and Claude. This is inference rather than grounding in source material. Articles discuss these AI tools but make no specific claims about Microsoft Copilot differentiation or pressure on Microsoft's strategy.",
+            "supporting_article": null
           }
         ],
-        "summary": "Articles reveal accelerating AI-driven content creation disruption and ChatGPT's emergence as a search alternative, supporting MSFT's AI strategy but challenging GOOGL's search dominance. NVDA faces near-term leadership uncertainty from CEO misconduct. Overall tech sector sentiment remains bullish on AI trends despite governance headwinds.",
+        "summary": "The tech sector faces divergent pressures: AI tools are fragmenting search and content creation markets, creating both opportunities and competitive threats. NVDA and META face significant headwinds from regulatory/leadership issues, while GOOGL must address emerging AI-powered search competition. Broader AI adoption remains positive, but execution risks and geopolitical tensions are intensifying.",
         "risks": [
-          "NVDA leadership vacuum may disrupt execution on AI chip roadmap",
-          "Regulatory scrutiny on AI-generated content and copyright implications",
-          "GOOGL search monetization pressure from AI chatbots as free alternatives"
+          "Regulatory scrutiny on AI companies intensifying (META, NVDA precedent)",
+          "China-related geopolitical tensions affecting chip supply and AI companies",
+          "Fragmentation of AI market reducing pricing power and switching costs",
+          "Potential antitrust actions against dominant tech platforms",
+          "Leadership instability at critical AI infrastructure providers"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "GOOGL signal sentiment appears logically reversed: ChatGPT acting as discovery engine threatens Google Search dominance, suggesting bearish rather than bullish positioning",
-            "GOOGL rationale contains contradictory logic: claims ChatGPT integration demonstrates 'AI monetization opportunities' for Google, but article shows third-party content being promoted by competitor's AI tool",
-            "MSFT conviction (68) based on single anecdotal example from Article [1]; limited sample size for platform adoption claims"
+            "NVDA signal lacks evidentiary support: Article [4] summary is truncated and does not confirm 'China dealings investigation' as the reason for Huang's resignation",
+            "MSFT signal is speculative rather than grounded: analyst explicitly states 'no direct mention' but frames competitive inference as investment rationale"
           ],
-          "ungrounded_count": 0
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "NVDA": 164.2899932861328,
-        "GOOGL": 295.6700134277344,
-        "MSFT": 525.1950073242188
+        "GOOGL": 300.19000244140625,
+        "META": 633.0900268554688,
+        "NVDA": 162.07000732421875,
+        "MSFT": 519.989990234375
       },
       "spot_check": {
-        "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
-        "summary": "Three weeks ago, I tested something that completely changed how I think about organic traffic. I opened ChatGPT and asked a simple question: \"What's the best course on building SaaS with WordPress?\" The answer that appeared stopped me cold. My course showed up as the first result, recommended directly by the AI with specific reasons why it was valuable. I hadn't paid for advertising. I hadn't done any special promotion. The AI simply decided my content was the best answer to that question and se",
-        "url": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
-        "source": "Feedburner",
-        "published": "04 Dec 2025",
-        "sentiment_hint": "neutral",
+        "title": "Meta discussed attacking Jonathan Haidt \u2014 now even his haters are annoyed",
+        "summary": "Three years ago, Meta apparently considered a plan to turn public opinion against one of its most influential opponents, Jonathan Haidt. But since the proposal was revealed in court filings last month, it's backfired. In fact, if there's one thing Anxious Generation author Haidt and his critics can agree on, it's being mad at Meta. [&#8230;]",
+        "url": "https://www.theverge.com/policy/1032645/jonathan-haidt-critics-response-meta",
+        "source": "Theverge",
+        "published": "13 Nov 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
+          "ticker": "META",
+          "company": "Meta Platforms Inc.",
           "sentiment": "bearish",
-          "conviction": 72,
-          "rationale": "CEO Jensen Huang resignation due to misconduct creates leadership uncertainty and potential governance concerns.",
+          "conviction": 75,
+          "rationale": "Revelation of alleged plan to attack critic Jonathan Haidt creates significant reputational and regulatory risk amid ongoing antitrust scrutiny.",
           "key_themes": [
-            "executive risk",
-            "leadership transition",
-            "governance"
+            "regulatory risk",
+            "reputational damage",
+            "antitrust concerns"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 5
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "CEO Jensen Huang resignation due to misconduct creates leadership uncertainty and potential governance concerns.",
+        "haiku_rationale": "Revelation of alleged plan to attack critic Jonathan Haidt creates significant reputational and regulatory risk amid ongoing antitrust scrutiny.",
         "haiku_themes": [
-          "executive risk",
-          "leadership transition",
-          "governance"
+          "regulatory risk",
+          "reputational damage",
+          "antitrust concerns"
         ]
       },
       "config": {
@@ -174,157 +191,243 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "EU Imports of Russian LNG Top 2025 Value Ahead of January Ban",
-          "summary": "The EU has already paid more to import Russian LNG than it did for the whole of 2025, with a month and a half left until the full EU ban on imports of liquefied natural gas from Russia, German campaign group Urgewald said on Thursday. Between January and October, the EU paid as much as $9.6 billion (8.7 billion euros) to import gas from the Russian Yamal LNG project, according to Urgewald\u2019s estimates based on vessel-tracking data by Kpler. The EU\u2019s bill for importing Russian LNG has already topp",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Imports-of-Russian-LNG-Top-2025-Value-Ahead-of-January-Ban.html",
+          "title": "How Global Energy Markets Survived Eight Months of Iran War Disruptions",
+          "summary": "Six months ago, I wrote that Americans were experiencing the Iran war primarily through higher prices, while much of the rest of the world was confronting something more serious: actual shortages of fuel and other critical products.\u00a0 In \u201cThe U.S. Feels Higher Prices While The World Is Facing Fuel Shortages,\u201d I highlighted several pressure points created by the disruption of traffic through the Strait of Hormuz. India was struggling to secure liquefied petroleum gas, or LPG, fertilizer markets we",
+          "url": "https://oilprice.com/Energy/Energy-General/How-Global-Energy-Markets-Survived-Eight-Months-of-Iran-War-Disruptions.html",
           "source": "Oilprice",
-          "published": "12 Nov 2026",
+          "published": "13 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Ukraine Peace Talks Yield Prisoner Deal but No Path to Peace",
-          "summary": "The first trilateral negotiations between Russia, Ukraine, and the US since early this year produced a measured humanitarian breakthrough, but little tangible progress toward ending the war. The two days of talks in Abu Dhabi on November 10 -11 reached an agreement in principle on a large-scale prisoner exchange and opened discussions on broader European security arrangements. But the sides appear to be no closer to peace than they were 48 hours earlier. \"The fundamental obstacle to ending this ",
-          "url": "https://oilprice.com/Energy/Energy-General/Ukraine-Peace-Talks-Yield-Prisoner-Deal-but-No-Path-to-Peace.html",
+          "title": "Pakistan Scrambles for LNG as Winter Gas Crisis Deepens",
+          "summary": "State-owned Pakistan LNG Limited (PLL) has issued a tender to purchase two LNG cargoes from international suppliers for delivery in mid-December and early January, Business Recorder reports, citing a tender notice. Winning bidders in the tender are expected to deliver the LNG cargoes on a delivered ex-ship (DES) basis at Port Qasim, one in the December 14-16 window, and the other between January 9 and 11, 2027. The new tender is a re-issue of a previous one, in which Pakistan had rejected bids f",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Scrambles-for-LNG-as-Winter-Gas-Crisis-Deepens.html",
           "source": "Oilprice",
-          "published": "12 Nov 2026",
+          "published": "13 Nov 2026",
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "Iran Says Gas Tanker Hit Mine in Strait of Hormuz",
+          "summary": "A tanker carrying liquefied gas hit a mine and suffered an explosion on Friday while attempting to transit the Strait of Hormuz via a route not authorized by Iran, the Islamic Revolutionary Guard Corps (IRGC) Navy said. The vessel was using an \u201cunauthorised and dangerous route\u201d in the Strait of Hormuz, according to Iran\u2019s state media cited by Reuters. The attacks on vessels carrying energy products through the Strait of Hormuz have intensified in the past month, with Iran reporting incidents nea",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Gas-Tanker-Hit-Mine-in-Strait-of-Hormuz.html",
+          "source": "Oilprice",
+          "published": "13 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Angola Looks to Diversify from Crude with Windfall Oil Revenues",
-          "summary": "Angola has accelerated efforts to diversify its economy away from heavy dependence on oil by using this year\u2019s windfall oil revenues to fund reforms and investments in transport corridors, minerals, banking, and tourism industries, according to Citigroup.\u00a0\u00a0 \u201cWe\u2019re definitely seeing a lot of activity and it has the benefit of longer-term political stability, economic stability, which is making it more attractive for foreign direct investment, infrastructure projects, and other longer-term investm",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Angola-Looks-to-Diversify-from-Crude-with-Windfall-Oil-Revenues.html",
-          "source": "Oilprice",
-          "published": "12 Nov 2026",
-          "sentiment_hint": "bearish"
+          "title": "Oman signs green hydrogen deals at COP31 in T\u00fcrkiye",
+          "summary": "Oman has awarded two integrated green hydrogen projects in Duqm with a combined planned annual production capacity of about 121,000t by 2032.",
+          "url": "https://www.energymonitor.ai/news/oman-signs-hydrogen-deals-cop31/",
+          "source": "Energymonitor",
+          "published": "13 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Indonesia secures carbon market agreement with Norway at COP31",
-          "summary": "Indonesia and Norway have entered into a Mitigation Outcome Purchase Agreement (MOPA) at the 31st United Nations COP31 in Antalya, T\u00fcrkiye.",
-          "url": "https://www.energymonitor.ai/news/indonesia-carbon-agreement-norway-cop31/",
+          "title": "China and T\u00fcrkiye sign $15bn MoU for wind and solar projects at COP31",
+          "summary": "China and T\u00fcrkiye have reached an initial agreement for Beijing to invest up to $15bn in the construction of solar and wind power plants on Turkish soil.",
+          "url": "https://www.energymonitor.ai/news/china-turkiye-sign-mou-cop31/",
+          "source": "Energymonitor",
+          "published": "13 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Finland\u2019s nuclear and wind expansion to drive clean power surge, says GlobalData",
+          "summary": "Finland\u2019s capacity is set to reach 45.6GW by 2035 as wind and solar scale up alongside Olkiluoto 3 nuclear baseload.",
+          "url": "https://www.energymonitor.ai/analyst-comment/finland-nuclear-wind-expansion/",
           "source": "Energymonitor",
           "published": "12 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "EBRD pledges $6bn for T\u00fcrkiye\u2019s REACT platform at COP31",
-          "summary": "EBRD has announced plans to invest $6bn in projects under the T\u00fcrkiye REACT platform over the next five years.",
-          "url": "https://www.energymonitor.ai/news/ebrd-pledges-6bn-turkiyes-react/",
-          "source": "Energymonitor",
-          "published": "12 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Archrock to expand into microgrids with HiVolt acquisition",
-          "summary": "Archrock, an energy infrastructure company, has agreed to acquire HiVolt Energy in an all-cash transaction valued at up to $450m.",
-          "url": "https://www.energymonitor.ai/news/archrock-hivolt-acquisition/",
-          "source": "Energymonitor",
-          "published": "11 Nov 2026",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
         "signals": [
           {
+            "ticker": "XOM",
+            "company": "ExxonMobil Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Strait of Hormuz disruptions and LNG supply shortages support elevated crude and LNG prices benefiting integrated majors.",
+            "key_themes": [
+              "supply disruption",
+              "LNG premium pricing",
+              "geopolitical risk premium"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Global LNG deficit (Pakistan crisis, Hormuz attacks) increases demand for upstream LNG production and export capabilities.",
+            "key_themes": [
+              "LNG supply shortage",
+              "geopolitical disruption",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
             "ticker": "SHEL",
             "company": "Shell plc",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "EU ban on Russian LNG imports (Jan 2027) reduces competitive LNG supply pressures, but geopolitical tensions limit upside from higher prices.",
+            "sentiment": "bullish",
+            "conviction": 75,
+            "rationale": "Major LNG trader/producer positioned to benefit from acute supply deficit in South Asia and Middle East disruptions.",
             "key_themes": [
-              "LNG supply dynamics",
-              "EU energy security",
-              "geopolitical risk"
+              "LNG trading advantage",
+              "supply crisis",
+              "arbitrage opportunity"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "BP",
+            "company": "BP plc",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Less exposed to LNG trading than peers; medium-term headwinds from global renewable energy investment shifts at COP31.",
+            "key_themes": [
+              "energy transition competition",
+              "mixed exposure"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] discusses EU ban on Russian LNG (January, not January 2027), but does not analyze competitive LNG supply pressures, price impacts, or implications for Shell specifically. The rationale makes analytical claims unsupported by source material.",
-            "supporting_article": 1
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
           },
           {
             "ticker": "TTE",
             "company": "TotalEnergies SE",
             "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "EU LNG ban supports competitive positioning, but ongoing Ukraine conflict uncertainty and energy transition commitments offset near-term gains.",
+            "conviction": 50,
+            "rationale": "Strong renewable portfolio mitigates short-term LNG upside; strategic positioning but unclear direct exposure to current disruptions.",
             "key_themes": [
-              "LNG market dynamics",
-              "geopolitical risk",
-              "energy transition"
+              "energy transition focus",
+              "limited LNG exposure"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] mentions EU LNG ban and Article [2] discusses Ukraine conflict, but neither article analyzes TotalEnergies' competitive positioning, energy transition commitments, or how these factors offset gains. Rationale is analytical speculation not grounded in sources.",
-            "supporting_article": 1
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              4,
+              5,
+              6
+            ]
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Angola's oil revenue windfall supports upstream investment, but economic diversification efforts may gradually reduce crude production dependency.",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Global supply disruptions and LNG scarcity support crude pricing and LNG project economics for integrated producers.",
             "key_themes": [
-              "Angola operations",
-              "commodity prices",
-              "economic diversification"
+              "supply disruption",
+              "LNG demand spike",
+              "price support"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              3
+            ]
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Oil services beneficiary from production support, but renewable energy investments at COP31 pose long-term headwinds.",
+            "key_themes": [
+              "mixed signals",
+              "energy transition risk"
             ],
             "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [3] confirms Angola's windfall oil revenues and economic diversification efforts, but does not mention ConocoPhillips, its Angola operations, or potential impacts on crude production dependency. The connection between Angola's diversification and ConocoPhillips' operations is assumed but not stated in sources.",
-            "supporting_article": 3
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              5,
+              6
+            ]
           }
         ],
-        "summary": "The petroleum sector faces mixed signals: EU's January 2027 Russian LNG import ban could benefit European LNG suppliers like Shell and TotalEnergies short-term, but unresolved Ukraine tensions and accelerating energy transition investments create headwinds. Angola's oil windfall supports upstream activity, though long-term diversification efforts signal reduced crude dependency. Overall, geopolitical uncertainty and the structural shift toward renewables constrain upside.",
+        "summary": "Global energy markets face acute near-term supply disruptions: Iran-Strait of Hormuz instability and South Asian LNG crises create immediate tailwinds for integrated oil majors and LNG traders (XOM, CVX, SHEL, COP). However, COP31 renewable commitments ($15bn China-Turkey deals, Oman green hydrogen, Nordic clean power expansion) signal structural energy transition pressure on traditional oil & gas majors over 3+ year horizons. Short-term commodity price support contrasts with long-term energy mix headwinds.",
         "risks": [
-          "Ukraine peace talks could rapidly shift LNG supply dynamics if conflict resolves",
-          "Accelerating energy transition reducing long-term fossil fuel demand",
-          "Commodity price volatility amid persistent geopolitical tensions",
-          "Capital reallocation toward renewables limiting upstream investment returns"
+          "Geopolitical escalation could severely disrupt Hormuz shipping (40% global crude passes through)",
+          "Rapid renewable deployment acceleration could compress fossil fuel demand faster than supply disruptions support prices",
+          "LNG supply restoration could quickly deflate current premium pricing as new projects come online",
+          "Economic recession could reduce energy demand across commodities despite supply constraints"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "SHEL rationale: 'Jan 2027' appears to be an error; Article [1] indicates 'January' ban with '1.5 months left,' suggesting January 2026",
-            "All three rationales contain analytical inferences about company-specific impacts not explicitly addressed in source articles",
-            "COP rationale assumes ConocoPhillips has Angola operations and would be affected by diversification, but this connection is not established in Article [3]"
-          ],
-          "ungrounded_count": 3
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "SHEL": 98.18000030517578,
-        "TTE": 88.94000244140625,
-        "COP": 138.7449951171875
+        "XOM": 170.01499938964844,
+        "CVX": 217.60000610351562,
+        "SHEL": 98.87000274658203,
+        "BP": 45.47999954223633,
+        "TTE": 90.43499755859375,
+        "COP": 141.375,
+        "SLB": 51.189998626708984
       },
       "spot_check": {
-        "title": "EU Imports of Russian LNG Top 2025 Value Ahead of January Ban",
-        "summary": "The EU has already paid more to import Russian LNG than it did for the whole of 2025, with a month and a half left until the full EU ban on imports of liquefied natural gas from Russia, German campaign group Urgewald said on Thursday. Between January and October, the EU paid as much as $9.6 billion (8.7 billion euros) to import gas from the Russian Yamal LNG project, according to Urgewald\u2019s estimates based on vessel-tracking data by Kpler. The EU\u2019s bill for importing Russian LNG has already topp",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Imports-of-Russian-LNG-Top-2025-Value-Ahead-of-January-Ban.html",
+        "title": "How Global Energy Markets Survived Eight Months of Iran War Disruptions",
+        "summary": "Six months ago, I wrote that Americans were experiencing the Iran war primarily through higher prices, while much of the rest of the world was confronting something more serious: actual shortages of fuel and other critical products.\u00a0 In \u201cThe U.S. Feels Higher Prices While The World Is Facing Fuel Shortages,\u201d I highlighted several pressure points created by the disruption of traffic through the Strait of Hormuz. India was struggling to secure liquefied petroleum gas, or LPG, fertilizer markets we",
+        "url": "https://oilprice.com/Energy/Energy-General/How-Global-Energy-Markets-Survived-Eight-Months-of-Iran-War-Disruptions.html",
         "source": "Oilprice",
-        "published": "12 Nov 2026",
+        "published": "13 Nov 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "SHEL",
           "company": "Shell plc",
-          "sentiment": "bearish",
-          "conviction": 72,
-          "rationale": "EU ban on Russian LNG imports (Jan 2027) reduces competitive LNG supply pressures, but geopolitical tensions limit upside from higher prices.",
+          "sentiment": "bullish",
+          "conviction": 75,
+          "rationale": "Major LNG trader/producer positioned to benefit from acute supply deficit in South Asia and Middle East disruptions.",
           "key_themes": [
-            "LNG supply dynamics",
-            "EU energy security",
-            "geopolitical risk"
+            "LNG trading advantage",
+            "supply crisis",
+            "arbitrage opportunity"
           ],
-          "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [1] discusses EU ban on Russian LNG (January, not January 2027), but does not analyze competitive LNG supply pressures, price impacts, or implications for Shell specifically. The rationale makes analytical claims unsupported by source material.",
-          "supporting_article": 1
+          "time_horizon": "short-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": [
+            2,
+            3
+          ]
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "EU ban on Russian LNG imports (Jan 2027) reduces competitive LNG supply pressures, but geopolitical tensions limit upside from higher prices.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Major LNG trader/producer positioned to benefit from acute supply deficit in South Asia and Middle East disruptions.",
         "haiku_themes": [
-          "LNG supply dynamics",
-          "EU energy security",
-          "geopolitical risk"
+          "LNG trading advantage",
+          "supply crisis",
+          "arbitrage opportunity"
         ]
       },
       "config": {
@@ -344,6 +447,14 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "Kennedy\u2019s Future: Will Democrats Try to Impeach Him, or Actually Work With Him?",
+          "summary": "Most Democrats abhor the health secretary\u2019s stance on vaccines, but some see an opportunity to win voters from his MAHA movement by joining with him on food and environmental issues.",
+          "url": "https://www.nytimes.com/2026/11/12/us/politics/rfk-jr-democrats-impeach.html",
+          "source": "Rss",
+          "published": "13 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "What to Know About New Prostate Cancer Screening Recommendations",
           "summary": "Universal screening for the disease has long been a subject of controversy.",
           "url": "https://www.nytimes.com/2026/11/12/well/prostate-cancer-screening-guideline.html",
@@ -360,175 +471,146 @@
           "sentiment_hint": "bearish"
         },
         {
-          "title": "The U.S. Has Lost Its Measles-Elimination Status, Data Suggests",
-          "summary": "An international panel of scientific experts will convene on Tuesday to evaluate the status, but genetic data already shows the virus is once again entrenched in the United States.",
-          "url": "https://www.nytimes.com/2026/11/10/health/measles-united-states-elimination-rfk.html",
-          "source": "Rss",
-          "published": "10 Nov 2026",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: Lilly beats Novo to land China's 1st oral GLP-1 weight loss nod</a>",
-          "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
-          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bullish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/biotech/bristol-myers-reunites-rd-divisions-under-cristian-massacesi\" hreflang=\"en\">BMS reunites R&amp;D divisions under Cristian Massacesi, while Robert Plenge departs</a>",
-          "summary": "Bristol Myers Squibb is merging its research and development divisions under the leadership of Cristian Massacesi, M.D.",
-          "url": "https://www.fiercepharma.com/biotech/bristol-myers-reunites-rd-divisions-under-cristian-massacesi",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/china-big-pharma-dream-treasury-china-crackdown-takeda-narcolepsy-launch\" hreflang=\"en\">Fierce Pharma Asia\u2014China\u2019s Big Pharma ambition; Treasury\u2019s China crackdown; Takeda\u2019s narcolepsy launch</a>",
+          "summary": "Chinese companies have a Big Pharma dream. Experts told Fierce that the U.S. Treasury's draft policy on banning certain U.S. investments in China is too ambiguous and could backfire. Takeda's novel orexin drug has won a favorable DEA designation. And more.",
+          "url": "https://www.fiercepharma.com/pharma/china-big-pharma-dream-treasury-china-crackdown-takeda-narcolepsy-launch",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/ai-models-google-anthropic-and-more-lean-recommending-promoted-drugs\" hreflang=\"en\">AI models from Google, Anthropic and more lean on recommending promoted drugs: study</a>",
-          "summary": "New research out from Mount Sinai has found that a dozen AI models it tested from major tech companies were more likely to recommend an advertised drug when it was promoted alongside a clinician\u2019s question about treatment.",
-          "url": "https://www.fiercepharma.com/marketing/ai-models-google-anthropic-and-more-lean-recommending-promoted-drugs",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/sanofi-teams-british-comic-beano-type-1-diabetes-education-push\" hreflang=\"en\">Sanofi teams with British comic Beano for Type 1 diabetes education push</a>",
+          "summary": "Sanofi\u2019s U.K. business is partnering up with British comic stalwart the Beano once again to help British schools boost awareness of Type 1 diabetes.",
+          "url": "https://www.fiercepharma.com/marketing/sanofi-teams-british-comic-beano-type-1-diabetes-education-push",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "neutral"
+          "sentiment_hint": "bullish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/novo-amps-wegovy-marketing-dj-khaled-spinning-his-weight-loss-tale\" hreflang=\"en\">Novo amps up Wegovy marketing with DJ Khaled spinning his weight-loss tale</a>",
+          "summary": "Novo and DJ Khaled have teamed up to share how the DJ, rapper and record producer has incorporated the GLP-1 drug Wegovy into his weight-loss routine.",
+          "url": "https://www.fiercepharma.com/marketing/novo-amps-wegovy-marketing-dj-khaled-spinning-his-weight-loss-tale",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bullish"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "First oral GLP-1 weight loss drug approval in China expands market reach and revenue opportunities in key geography.",
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "Medicaid funding cuts and new work rules effective Jan 1 will pressure enrollment and margins for major insurers.",
             "key_themes": [
-              "geographic expansion",
-              "GLP-1 market leadership",
-              "regulatory wins"
+              "Medicaid reimbursement pressure",
+              "regulatory headwinds",
+              "patient eligibility changes"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bearish",
-            "conviction": 75,
-            "rationale": "Medicaid work rules and deep funding cuts starting Jan 1 will reduce member enrollment and increase operational complexity.",
-            "key_themes": [
-              "Medicaid headwinds",
-              "enrollment risk",
-              "regulatory pressure"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Loss of U.S. measles-elimination status creates urgent vaccination demand and potential government procurement opportunities.",
-            "key_themes": [
-              "vaccine demand uptick",
-              "public health crisis",
-              "revenue opportunity"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": "Partial support: Article confirms measles-elimination status loss, but does not specify Pfizer's role or vaccines or government procurement details",
-            "supporting_article": 3
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck & Co.",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Loss of U.S. measles-elimination status drives demand for measles-containing vaccines like MMRV.",
-            "key_themes": [
-              "vaccine demand",
-              "public health opportunity",
-              "childhood immunization"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": "Partial support: Article confirms measles-elimination status loss, but does not mention Merck, MMRV, or specific vaccine demand implications",
             "supporting_article": 3
           },
           {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Prostate cancer screening guideline evolution may benefit diagnostics/oncology but impact remains uncertain without specific recommendations.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Kennedy's vaccine skepticism as health secretary poses regulatory and reputational risks to vaccine portfolio.",
             "key_themes": [
-              "oncology market",
-              "screening protocols",
-              "indirect exposure"
+              "vaccine regulation uncertainty",
+              "political risk",
+              "regulatory environment"
             ],
             "time_horizon": "long-term",
             "verified": true,
-            "verification_issue": "Partial support: Article discusses prostate cancer screening as controversial topic, but contains no specific recommendations or details on diagnostics/oncology business impact",
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "GLP-1 market expansion evidenced by aggressive Novo marketing; LLY's mounjaro and obesity franchise benefits from category growth.",
+            "key_themes": [
+              "GLP-1 market expansion",
+              "obesity treatment demand",
+              "competitive positioning"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "bearish",
+            "conviction": 61,
+            "rationale": "Kennedy's anti-vaccine stance creates uncertainty for Pfizer's vaccine revenues and regulatory approval pathway.",
+            "key_themes": [
+              "vaccine policy risk",
+              "regulatory uncertainty",
+              "political headwinds"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
             "supporting_article": 1
           }
         ],
-        "summary": "The healthcare sector faces mixed signals: near-term vaccine demand upside from measles re-emergence benefits PFE/MRK, while LLY gains momentum from international GLP-1 expansion. However, UNH faces significant headwinds from Medicaid funding cuts and work requirements effective Jan 1, creating near-term pressure on managed care. AI-driven drug promotion and regulatory restructuring at competitors adds uncertainty.",
+        "summary": "Healthcare sector faces mixed signals with significant headwinds from Medicaid funding cuts and vaccine regulatory uncertainty under Kennedy's health secretary role, offsetting growth tailwinds from expanding GLP-1 market adoption. Insurers face near-term pressure while pharmaceutical companies face divergent fortunes based on portfolio exposure to vaccines versus metabolic disease treatments.",
         "risks": [
-          "Medicaid policy implementation delays or litigation",
-          "Vaccine hesitancy despite elimination status loss",
-          "Competitive pressure in GLP-1 market from Novo Nordisk",
-          "Unintended consequences of AI drug recommendations on pricing/utilization"
+          "Kennedy's anti-vaccine policy agenda could reshape immunization programs and reimbursement",
+          "Medicaid work rules may reduce insured populations and lower margins across healthcare",
+          "Political instability in healthcare regulation could create sustained uncertainty",
+          "GLP-1 market saturation and competition could limit upside for obesity treatment players"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "PFE rationale assumes Pfizer manufactures measles vaccines and will benefit from government procurement, but article [3] does not identify vaccine manufacturers or procurement plans",
-            "MRK rationale assumes Merck manufactures MMRV and will benefit, but article [3] does not name Merck or specify which vaccine products will see demand increases",
-            "JNJ rationale lacks specificity: article [1] mentions controversy but provides no actual new screening recommendations that would impact J&J's business"
-          ],
+          "overall_reliability": "high",
+          "flags": [],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "LLY": 1450.2449951171875,
-        "UNH": 404.6400146484375,
-        "PFE": 29.100000381469727,
-        "MRK": 148.10000610351562,
-        "JNJ": 283.57000732421875
+        "UNH": 403.3500061035156,
+        "JNJ": 285.6549987792969,
+        "LLY": 1426.6700439453125,
+        "PFE": 28.805099487304688
       },
       "spot_check": {
-        "title": "<a href=\"https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2\" hreflang=\"en\">Regulatory tracker: Lilly beats Novo to land China's 1st oral GLP-1 weight loss nod</a>",
-        "summary": "In this tracker, Fierce Pharma is recording the regulatory progress of in-market products, including expansions into key geographies and new indications. Some of these updates may not meet the bar for standalone stories, but we think they are still worth mentioning.",
-        "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
-        "source": "Fiercepharma",
-        "published": "",
-        "sentiment_hint": "bullish",
+        "title": "Kennedy\u2019s Future: Will Democrats Try to Impeach Him, or Actually Work With Him?",
+        "summary": "Most Democrats abhor the health secretary\u2019s stance on vaccines, but some see an opportunity to win voters from his MAHA movement by joining with him on food and environmental issues.",
+        "url": "https://www.nytimes.com/2026/11/12/us/politics/rfk-jr-democrats-impeach.html",
+        "source": "Rss",
+        "published": "13 Nov 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "bullish",
-          "conviction": 82,
-          "rationale": "First oral GLP-1 weight loss drug approval in China expands market reach and revenue opportunities in key geography.",
+          "ticker": "UNH",
+          "company": "UnitedHealth Group",
+          "sentiment": "bearish",
+          "conviction": 72,
+          "rationale": "Medicaid funding cuts and new work rules effective Jan 1 will pressure enrollment and margins for major insurers.",
           "key_themes": [
-            "geographic expansion",
-            "GLP-1 market leadership",
-            "regulatory wins"
+            "Medicaid reimbursement pressure",
+            "regulatory headwinds",
+            "patient eligibility changes"
           ],
           "time_horizon": "medium-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": 3
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "First oral GLP-1 weight loss drug approval in China expands market reach and revenue opportunities in key geography.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Medicaid funding cuts and new work rules effective Jan 1 will pressure enrollment and margins for major insurers.",
         "haiku_themes": [
-          "geographic expansion",
-          "GLP-1 market leadership",
-          "regulatory wins"
+          "Medicaid reimbursement pressure",
+          "regulatory headwinds",
+          "patient eligibility changes"
         ]
       },
       "config": {
@@ -548,27 +630,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Jensen Huang Joins a Growing Club: C.E.O.s Brought Down by Affairs",
-          "summary": "The Nvidia founder and chief executive, who resigned on Thursday, is among a group of top bosses whose romantic relationships got them in trouble.",
-          "url": "https://www.nytimes.com/2026/11/12/business/nvidia-jensen-huang-ceo-affairs.html",
+          "title": "Deed Theft Is Rising, Along With Property Values",
+          "summary": "The victims are often older people or immigrants, with thieves going after vacant land or unoccupied homes. But there are ways to protect yourself.",
+          "url": "https://www.nytimes.com/2026/11/13/your-money/deed-title-theft-houses.html",
           "source": "Rss",
-          "published": "12 Nov 2026",
-          "sentiment_hint": "bearish"
+          "published": "13 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Jensen Huang Was the Face of the A.I. Boom Powering the U.S. Economy",
-          "summary": "Nvidia\u2019s ousted leader was a rhetorical and financial booster for investments that are driving economic growth.",
-          "url": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
+          "title": "A Scorecard for Huang\u2019s Exit From Nvidia",
+          "summary": "The ouster of Jensen Huang from the chipmaker he helped found is reverberating throughout Silicon Valley, Washington and beyond.",
+          "url": "https://www.nytimes.com/2026/11/13/business/dealbook/huang-nvidia-ouster-repercussions.html",
           "source": "Rss",
-          "published": "12 Nov 2026",
-          "sentiment_hint": "bullish"
+          "published": "13 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Jensen Huang\u2019s Affairs That Upended Nvidia: Timeline of Events",
-          "summary": "News of the Nvidia co-founder\u2019s relationship with a suspected Chinese spy, and his affair with an executive who reports to him, prompted his exit from the multi-trillion-dollar company.",
-          "url": "https://www.nytimes.com/2026/11/12/business/nvidia-jensen-huang-affairs-timeline.html",
+          "title": "Jensen Huang\u2019s Fall Costs Asia an A.I. Ambassador to the U.S.",
+          "summary": "The ex-Nvidia C.E.O. was a bridge between companies and governments. His exit will reverberate, especially in China where it could accelerate a self-reliance drive.",
+          "url": "https://www.nytimes.com/2026/11/13/business/jensen-huang-nvidia-china-asia.html",
           "source": "Rss",
-          "published": "12 Nov 2026",
+          "published": "13 Nov 2026",
           "sentiment_hint": "bearish"
         },
         {
@@ -601,105 +683,130 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 62,
-            "rationale": "AI infrastructure selloff creates M&A and advisory opportunities; financial stability amid tech volatility.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Broad market volatility from AI rout may increase trading volumes and advisory fees, offsetting equity market weakness.",
             "key_themes": [
-              "M&A advisory",
               "market volatility",
-              "tech sector disruption"
+              "trading activity"
             ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims AI infrastructure selloff creates M&A and advisory opportunities, but source articles do not discuss JPMorgan Chase, M&A activity, or how financial institutions benefit from tech sector volatility. Articles focus on Nvidia's decline and Jensen Huang's resignation, not downstream advisory opportunities.",
-            "supporting_article": null
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Tech sector selloff impacts investment banking pipelines, but increased market volatility supports trading revenue.",
+            "key_themes": [
+              "tech sector weakness",
+              "volatility"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 58,
-            "rationale": "AI sector panic may trigger restructuring advisory work and trading opportunities from market dislocation.",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Nasdaq weakness may reduce M&A activity in tech while higher volatility supports fixed income and trading operations.",
             "key_themes": [
-              "advisory services",
-              "trading volatility",
-              "sector rotation"
+              "M&A activity",
+              "volatility trading"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 4
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "bearish",
+            "conviction": 55,
+            "rationale": "Broad stock market rout and consumer sentiment concerns from market turmoil could suppress transaction volumes near-term.",
+            "key_themes": [
+              "market correction",
+              "consumer confidence"
             ],
             "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale claims AI sector panic triggers restructuring advisory work and trading opportunities, but source articles provide no evidence of Goldman Sachs involvement, restructuring advisory demand, or specific trading dislocations benefiting GS. Articles document the selloff but not advisory pipeline implications.",
+            "verification_issue": "Article [4] mentions stock market decline and Nasdaq weakness, but does not establish causality between market rout and consumer sentiment concerns or provide evidence that payment transaction volumes would be suppressed near-term",
             "supporting_article": null
           },
           {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "neutral",
-            "conviction": 52,
-            "rationale": "Mixed signals: volatility supports trading revenue but AI selloff reduces tech investment banking pipeline.",
+            "ticker": "MA",
+            "company": "Mastercard",
+            "sentiment": "bearish",
+            "conviction": 53,
+            "rationale": "Market volatility and investor risk-off sentiment may dampen consumer spending and payment transaction growth.",
             "key_themes": [
-              "trading revenue",
-              "investment banking pressure",
-              "market uncertainty"
+              "market volatility",
+              "transaction volume risk"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Rationale references trading revenue gains from volatility and reduced tech investment banking pipeline, but source articles do not discuss Morgan Stanley's trading or investment banking activities. The tech selloff is documented, but no analysis of its impact on Morgan Stanley specifically is provided.",
+            "verification_issue": "Article [4] documents market volatility from AI rout, but does not provide evidence linking this volatility to dampened consumer spending or payment transaction volume risk",
             "supporting_article": null
           }
         ],
-        "summary": "The articles reveal significant disruption in the AI sector following Jensen Huang's resignation at Nvidia and DeepSeek's emergence as a competitive threat, triggering a broad tech selloff. Financial services firms face a bifurcated outlook: near-term trading and M&A advisory opportunities from market dislocation, offset by reduced tech investment banking activity. The panic appears overdone per expert commentary, suggesting potential mean reversion once clarity emerges.",
+        "summary": "The AI sector rout triggered by DeepSeek concerns has created broad market volatility that pressures payment processors (V, MA) facing transaction volume headwinds, while major banks (JPM, BAC, GS) experience mixed signals from reduced tech M&A but increased volatility-driven trading revenue. Financial services are in a defensive posture as equity markets reprrice AI investment expectations.",
         "risks": [
-          "Deeper tech sector contraction than anticipated",
-          "Prolonged AI capex slowdown affecting financial advisory volumes",
-          "Geopolitical tensions escalating via Chinese AI competition",
-          "Leadership uncertainty at major tech firms creating deal pipeline uncertainty"
+          "Contagion risk if tech selloff spreads to broader sectors",
+          "Payment volume deterioration if consumer confidence weakens",
+          "Extended M&A drought impacting investment banking fees",
+          "Emerging geopolitical tensions from U.S.-China AI competition"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "All three signals make assumptions about financial services firm opportunities that are not grounded in the source material",
-            "Analyst conflates general market volatility with specific business opportunities for JPM, GS, and MS without evidentiary support",
-            "No source articles discuss M&A advisory pipelines, restructuring work, or investment banking implications for any financial services firms",
-            "Signals appear to be speculative reasoning rather than fact-based analysis derived from the articles provided"
+            "Visa and Mastercard bearish signals extrapolate beyond source material - articles confirm market volatility and tech sector weakness but do not establish direct impact on consumer payment behavior",
+            "The connection between equity market weakness and consumer spending/transaction volumes is assumed rather than supported by the provided sources"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JPM": 343.5625915527344,
-        "GS": 921.0449829101562,
-        "MS": 189.9550018310547
+        "JPM": 344.55999755859375,
+        "BAC": 50.685001373291016,
+        "GS": 910.8239135742188,
+        "V": 425.1400146484375,
+        "MA": 659.9550170898438
       },
       "spot_check": {
-        "title": "Jensen Huang Joins a Growing Club: C.E.O.s Brought Down by Affairs",
-        "summary": "The Nvidia founder and chief executive, who resigned on Thursday, is among a group of top bosses whose romantic relationships got them in trouble.",
-        "url": "https://www.nytimes.com/2026/11/12/business/nvidia-jensen-huang-ceo-affairs.html",
+        "title": "Deed Theft Is Rising, Along With Property Values",
+        "summary": "The victims are often older people or immigrants, with thieves going after vacant land or unoccupied homes. But there are ways to protect yourself.",
+        "url": "https://www.nytimes.com/2026/11/13/your-money/deed-title-theft-houses.html",
         "source": "Rss",
-        "published": "12 Nov 2026",
-        "sentiment_hint": "bearish",
+        "published": "13 Nov 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
-          "sentiment": "bullish",
-          "conviction": 62,
-          "rationale": "AI infrastructure selloff creates M&A and advisory opportunities; financial stability amid tech volatility.",
+          "ticker": "V",
+          "company": "Visa",
+          "sentiment": "bearish",
+          "conviction": 55,
+          "rationale": "Broad stock market rout and consumer sentiment concerns from market turmoil could suppress transaction volumes near-term.",
           "key_themes": [
-            "M&A advisory",
-            "market volatility",
-            "tech sector disruption"
+            "market correction",
+            "consumer confidence"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": false,
-          "verification_issue": "Rationale claims AI infrastructure selloff creates M&A and advisory opportunities, but source articles do not discuss JPMorgan Chase, M&A activity, or how financial institutions benefit from tech sector volatility. Articles focus on Nvidia's decline and Jensen Huang's resignation, not downstream advisory opportunities.",
+          "verification_issue": "Article [4] mentions stock market decline and Nasdaq weakness, but does not establish causality between market rout and consumer sentiment concerns or provide evidence that payment transaction volumes would be suppressed near-term",
           "supporting_article": null
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "AI infrastructure selloff creates M&A and advisory opportunities; financial stability amid tech volatility.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Broad stock market rout and consumer sentiment concerns from market turmoil could suppress transaction volumes near-term.",
         "haiku_themes": [
-          "M&A advisory",
-          "market volatility",
-          "tech sector disruption"
+          "market correction",
+          "consumer confidence"
         ]
       },
       "config": {
