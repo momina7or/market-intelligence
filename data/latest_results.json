@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-11-16",
-  "run_time": "2026-11-16T16:44:56.320107Z",
+  "run_date": "2026-11-17",
+  "run_time": "2026-11-17T16:40:34.708375Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,27 +29,27 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Trump says it \u2018certainly isn\u2019t a bad idea\u2019 for Jensen Huang to return to Nvidia",
-          "summary": "Following Jensen Huang's resignation as Nvidia's CEO last week, Trump told reporters on Monday that he's open to seeing Huang return and that he's not certain that the woman Huang reportedly had an affair with was in fact a spy. \"I think having Jensen go back- a lot of people are asking Jensen, they think [&#8230;]",
-          "url": "https://www.theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
+          "title": "The DOJ says it\u2019s investigating Megaspeed",
+          "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address [&#8230;]",
+          "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
           "source": "Theverge",
-          "published": "16 Nov 2026",
+          "published": "17 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The Verge\u2019s guide to the best gifts under $100",
-          "summary": "Even in an era of inflation like the one we're living through now, $100 can still buy a lot\u2026 if you know where to look. In fact, it's enough to get something useful and well-made, but not so pricey that it's likely to leave you with lingering guilt or lead to insurmountable debt. As reviewers, [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
+          "title": "Banning phones really does help kids learn, researchers say",
+          "summary": "A new nationwide study found that in-school cellphone bans can lead to modest improvements in learning. Now, researchers want to understand whether kids' phone use outside the classroom might contribute to the rest of students' learning loss - using the conditions of Meta's multibillion-dollar settlement from earlier this year. Banning cellphones in schools has the [&#8230;]",
+          "url": "https://www.theverge.com/policy/1035401/school-cell-phone-ban-study-meta-settlement",
           "source": "Theverge",
-          "published": "16 Nov 2026",
-          "sentiment_hint": "neutral"
+          "published": "17 Nov 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "Why NJ\u2019s governor thinks Republicans are trapped in an X bubble",
-          "summary": "Today I\u2019m talking with Mikie Sherrill, who\u2019s been New Jersey governor for just a little under a year, and you\u2019ll hear her say her election was a preview of the huge Democratic victories in these recent midterms because she ran on the dual themes of affordability and accountability. So I wanted to ask the governor [&#8230;]",
-          "url": "https://www.theverge.com/podcast/1034141/nj-midterm-sherill-democrats-musk-x-ai",
+          "title": "Jensen Huang says he\u2019s willing to return as Nvidia CEO",
+          "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me [&#8230;]",
+          "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
           "source": "Theverge",
-          "published": "16 Nov 2026",
+          "published": "17 Nov 2026",
           "sentiment_hint": "neutral"
         }
       ],
@@ -57,73 +57,76 @@
         "signals": [
           {
             "ticker": "NVDA",
-            "company": "NVIDIA Corporation",
+            "company": "Nvidia Corporation",
             "sentiment": "bearish",
             "conviction": 72,
-            "rationale": "CEO Jensen Huang's resignation raises corporate governance concerns and leadership uncertainty at critical AI inflection point.",
+            "rationale": "CEO Jensen Huang's resignation and DOJ investigation into Megaspeed create governance and regulatory uncertainty.",
             "key_themes": [
               "leadership transition",
-              "corporate governance risk",
-              "CEO departure"
+              "regulatory investigation",
+              "governance risk"
             ],
             "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 4
+            "supporting_article": [
+              4,
+              6
+            ]
           },
           {
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
             "sentiment": "bullish",
             "conviction": 65,
-            "rationale": "ChatGPT's integration into search results demonstrates AI-powered content ranking, validating demand for GOOGL's AI search capabilities.",
+            "rationale": "ChatGPT's organic traffic recommendations pose competitive threat to Google Search, driving AI innovation urgency.",
             "key_themes": [
-              "AI search integration",
-              "organic traffic monetization",
-              "competitive pressure from AI assistants"
+              "AI competition",
+              "search disruption",
+              "market share risk"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": "Article describes ChatGPT recommending content, but rationale overstates this as 'validating demand for GOOGL's AI search capabilities' - the article actually demonstrates ChatGPT as a competing discovery mechanism, not validation of Google's search strategy",
+            "verified": false,
+            "verification_issue": "Article [2] describes ChatGPT recommending a creator's course, but this is a single anecdotal example, not evidence of a systematic competitive threat to Google Search. The rationale incorrectly generalizes one instance into a broader 'organic traffic recommendations' competitive dynamic. No article discusses Google's market share risk or AI innovation urgency in response to ChatGPT.",
             "supporting_article": 2
           },
           {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT's growing role in content discovery and traffic generation strengthens OpenAI partnership value and enterprise AI adoption.",
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Study on cellphone bans improving learning linked to Meta's multibillion-dollar settlement, suggesting ongoing regulatory/reputational pressure.",
             "key_themes": [
-              "ChatGPT monetization",
-              "AI assistant adoption",
-              "content discovery platform"
+              "regulatory scrutiny",
+              "youth safety concerns",
+              "settlement impact"
             ],
             "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Article documents ChatGPT's content discovery role, supporting the rationale about ChatGPT adoption and monetization potential",
-            "supporting_article": 2
+            "verification_issue": null,
+            "supporting_article": 5
           }
         ],
-        "summary": "AI tools are reshaping digital ecosystems with ChatGPT becoming a primary traffic source and content discovery mechanism, benefiting AI platform providers. However, NVIDIA faces near-term headwinds from CEO leadership transition. The broader AI sector shows strong structural demand with open-source tools gaining traction and enterprise AI integration accelerating across content creation and search workflows.",
+        "summary": "The tech sector faces mixed signals with AI tools disrupting traditional search models (favoring innovation but threatening Google's dominance) while governance and regulatory pressures mount on Nvidia and Meta. Open-source AI advancement and ChatGPT's organic reach represent structural shifts in how users discover information, requiring established players to accelerate AI integration.",
         "risks": [
-          "NVIDIA CEO resignation creates execution risk and potential talent flight in competitive AI chip market",
-          "ChatGPT's organic traffic generation may cannibalize traditional search revenue and disrupt SEO-dependent business models",
-          "Regulatory scrutiny on AI tools, content attribution, and data usage could impact growth trajectories"
+          "Nvidia leadership vacuum and DOJ investigation could impact product roadmap and investor confidence",
+          "Regulatory momentum against big tech companies may intensify across multiple fronts",
+          "AI disruption to search and advertising models remains unpredictable in scope and timeline"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "GOOGL rationale mischaracterizes the competitive dynamic - Article [2] shows ChatGPT as an alternative to search, not validation of Google's AI search capabilities",
-            "GOOGL rationale's key theme 'competitive pressure from AI assistants' contradicts the bullish sentiment - the evidence actually suggests threat to traditional search monetization"
+            "GOOGL signal misinterprets article [2]: A single user's experience of ChatGPT recommending their course is not evidence of systematic competitive threat to Google Search or market share risk",
+            "GOOGL rationale overstates the significance of anecdotal evidence to support a 'medium-term' bearish investment thesis"
           ],
-          "ungrounded_count": 0
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "NVDA": 159.42999267578125,
-        "GOOGL": 288.25,
-        "MSFT": 525.3099975585938
+        "NVDA": 153.74000549316406,
+        "GOOGL": 280.6700134277344,
+        "META": 616.1199951171875
       },
       "spot_check": {
         "title": "REA: The Open-Source AI Tool That Can Reverse Engineer Almost Anything (2026 Guide)",
@@ -134,26 +137,29 @@
         "sentiment_hint": "neutral",
         "related_signal": {
           "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
+          "company": "Nvidia Corporation",
           "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "CEO Jensen Huang's resignation raises corporate governance concerns and leadership uncertainty at critical AI inflection point.",
+          "rationale": "CEO Jensen Huang's resignation and DOJ investigation into Megaspeed create governance and regulatory uncertainty.",
           "key_themes": [
             "leadership transition",
-            "corporate governance risk",
-            "CEO departure"
+            "regulatory investigation",
+            "governance risk"
           ],
           "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": 4
+          "supporting_article": [
+            4,
+            6
+          ]
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "CEO Jensen Huang's resignation raises corporate governance concerns and leadership uncertainty at critical AI inflection point.",
+        "haiku_rationale": "CEO Jensen Huang's resignation and DOJ investigation into Megaspeed create governance and regulatory uncertainty.",
         "haiku_themes": [
           "leadership transition",
-          "corporate governance risk",
-          "CEO departure"
+          "regulatory investigation",
+          "governance risk"
         ]
       },
       "config": {
@@ -173,28 +179,44 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "Europe Has Already Drained 10% of Its Summer Gas Injections",
-          "summary": "Europe has not only entered the heating season with the lowest gas levels in storage sites in decades, but it has also withdrawn in recent weeks 10% of the natural gas injected during the summer filling season, leaving supply vulnerable to potentially extreme cold winter weather. So far into the heating season, which has just started, the net withdrawals of European countries have reached about 10% of the 51.2 billion cubic meters of gas they had injected into storage sites this summer, Azeri ou",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-10-of-Its-Summer-Gas-Injections.html",
+          "title": "Reliance Bets $1.6 Billion on India's Biogas Boom",
+          "summary": "India\u2019s biggest conglomerate and top private refiner, Reliance Industries, plans to invest $1.6 billion in 100 biogas plants in the country by the end of the decade, Vikas Rathi, CFO at Reliance Bio Energy Limited, said on Tuesday. Reliance Industries, chaired by Indian billionaire Mukesh Ambani, operates the world\u2019s largest refining complex at Jamnagar. The site was the launch pad for two demo Compressed Biogas (CBG) units earlier this decade. Reliance is currently focused on establishing CBG p",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Reliance-Bets-16-Billion-on-Indias-Biogas-Boom.html",
           "source": "Oilprice",
-          "published": "16 Nov 2026",
+          "published": "17 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Houthi Advance Puts Saudi Crude Exports at Risk",
-          "summary": "Houthi fighters have advanced to within 100 km of Aden, the temporary capital of Yemen\u2019s Saudi-backed government, after government forces withdrew from positions near the Bab el-Mandeb Strait, Yemeni military sources said on Monday. Tankers carrying Saudi crude from the Red Sea port of Yanbu to buyers in Asia pass through the strait. Brent crude futures fell 2.32% to $93.62 a barrel at 9:43 a.m. ET, and West Texas Intermediate (WTI) dropped 1.93% to 86.85. Murban, Abu Dhabi\u2019s benchmark crude, ro",
-          "url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.html",
+          "title": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
+          "summary": "In this week\u2019s newsletter, we will take a quick look at some of the critical figures and data in the energy markets this week.\u00a0 We will then look at some of the key market movers early this week before providing you with the latest analysis of the top news events taking place in the global energy complex over the past few days. We hope you enjoy. - US shale producers are increasingly moving away from oil hedging after reporting hundreds of millions of dollars in derivative losses in their Q3 202",
+          "url": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html",
           "source": "Oilprice",
-          "published": "16 Nov 2026",
-          "sentiment_hint": "bearish"
+          "published": "17 Nov 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "China\u2019s Coal Power Generation Slumps as Wind and Solar Surge",
-          "summary": "China\u2019s thermal power generation fell from a year earlier for the fourth consecutive month in October, with year-to-date thermal power output down by 0.1%, according to official data compiled by Bloomberg. In October alone, China\u2019s fossil fuel power generation, heavily dominated by coal, plunged by 7.3% compared to the same month last year, the data from China\u2019s National Bureau of Statistics showed on Monday. The slump in October extended the annual drop in fossil fuel-powered generation to a fo",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Power-Generation-Slumps-as-Wind-and-Solar-Surge.html",
+          "title": "Kazakhstan Unveils $85 Million Oil and Gas Manufacturing Push",
+          "summary": "Kazakhstan expects to launch 15 projects to manufacture goods for the oil and gas sector in a plan worth $84.7 million (37.7 billion Kazakh tenge), Energy Minister Yerlan Akkenzhenov said on Tuesday. \u201cThese projects will create new jobs and help Kazakhstan develop domestic manufacturing expertise, enabling the production of higher-value goods,\u201d Akkenzhenov said at a government meeting, as carried by Kazakhstan\u2019s Qazinform News Agency. Following the launch of 10 local manufacturing sites for the ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Unveils-85-Million-Oil-and-Gas-Manufacturing-Push.html",
           "source": "Oilprice",
-          "published": "16 Nov 2026",
-          "sentiment_hint": "bullish"
+          "published": "17 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "New international energy storage alliance launched at COP31",
+          "summary": "A new international platform aimed at enhancing cooperation on energy storage was launched at the China Pavilion during COP31.",
+          "url": "https://www.energymonitor.ai/news/new-energy-storage-alliance-launched-cop31/",
+          "source": "Energymonitor",
+          "published": "17 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "CIP awards offshore substation EPC contract for Fengmiao II in Taiwan",
+          "summary": "CIP has signed an EPC contract for the offshore substation (OSS) of the 600MW Fengmiao II Offshore Wind Farm (OWF) in Taiwan.",
+          "url": "https://www.energymonitor.ai/news/cip-offshore-substation-contract-fengmiao-ii/",
+          "source": "Energymonitor",
+          "published": "17 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Africa and Europe press for green industry investment at COP31",
@@ -203,221 +225,89 @@
           "source": "Energymonitor",
           "published": "16 Nov 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "UK, Canada and Norway agree $10bn climate finance partnership",
-          "summary": "UK, Norway, and Canada launch climate finance initiative targeting $10bn by 2030 for projects in emerging markets.",
-          "url": "https://www.energymonitor.ai/news/uk-canada-norway-10bn-partnership/",
-          "source": "Energymonitor",
-          "published": "16 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Oman signs green hydrogen deals at COP31 in T\u00fcrkiye",
-          "summary": "Oman has awarded two integrated green hydrogen projects in Duqm with a combined planned annual production capacity of about 121,000t by 2032.",
-          "url": "https://www.energymonitor.ai/news/oman-signs-hydrogen-deals-cop31/",
-          "source": "Energymonitor",
-          "published": "13 Nov 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "European gas storage depletion supports LNG export demand; geopolitical tensions sustain crude prices.",
-            "key_themes": [
-              "LNG demand surge",
-              "supply security concerns",
-              "geopolitical risk premium"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Low European gas inventories and Red Sea shipping risks elevate crude demand and pricing support.",
-            "key_themes": [
-              "energy security",
-              "supply chain disruption",
-              "LNG opportunity"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "COP31 climate commitments and green hydrogen expansion signal reduced fossil fuel focus; structural headwind.",
-            "key_themes": [
-              "energy transition risk",
-              "policy pressure",
-              "capital reallocation"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              4,
-              5,
-              6
-            ]
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "COP31 climate finance deals and global renewable momentum undermine conventional oil/gas growth trajectory.",
-            "key_themes": [
-              "energy transition",
-              "regulatory pressure",
-              "green competition"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              4,
-              5,
-              6
-            ]
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
             "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Balanced exposure: European gas crisis supports short-term returns; COP31 climate focus creates long-term headwinds.",
+            "conviction": 45,
+            "rationale": "Kazakhstan's $85M oil/gas manufacturing push may create moderate oilfield services demand, but scale is limited.",
             "key_themes": [
-              "dual exposure",
-              "transition uncertainty",
-              "near-term support"
+              "manufacturing growth",
+              "regional diversification"
             ],
             "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              4,
-              5,
-              6
-            ]
+            "supporting_article": 3
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 70,
-            "rationale": "Geopolitical supply disruptions and depleted European gas stocks support crude demand and LNG margins.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Brent crude near $93 provides stable pricing; Hormuz tensions offer upside but are offset by Gulf production gains.",
             "key_themes": [
-              "supply disruption",
-              "LNG opportunity",
-              "price support"
+              "price stability",
+              "geopolitical risk"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Global green hydrogen expansion and renewable energy investment reduce upstream capex and oilfield services demand.",
-            "key_themes": [
-              "capex reduction",
-              "energy transition risk",
-              "market shift"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              4,
-              5,
-              6
-            ]
+            "verification_issue": "Rationale references specific Brent price ($93) and Hormuz tensions, which are mentioned in Article [2], but the article summary is incomplete and does not provide sufficient detail to fully verify the claim about 'Gulf production gains' offsetting tensions",
+            "supporting_article": 2
           }
         ],
-        "summary": "Near-term bullish drivers include European gas storage depletion (supporting LNG exports and crude demand) and Red Sea geopolitical tensions sustaining oil prices\u2014favoring integrated majors like XOM, CVX, and COP. However, COP31 climate commitments and accelerating green hydrogen investments signal structural headwinds for traditional oil/gas companies, particularly BP, SHEL, and oilfield services providers like SLB, over a 3+ year horizon.",
+        "summary": "Articles reflect a sector in transition with limited near-term catalysts for major IOCs. Energy storage and renewable infrastructure dominate COP31 discourse, signaling structural headwinds for traditional oil/gas. Crude price stability near $93 offers no directional impetus, while regional manufacturing initiatives (Kazakhstan) and renewable pivots (Reliance biogas) underscore long-term energy mix shift away from integrated majors' core competencies.",
         "risks": [
-          "Warmer-than-expected winter reducing European gas demand and near-term price support",
-          "Resolution of Houthi/Red Sea tensions eliminating geopolitical risk premium and crude volatility",
-          "Slower renewable energy adoption delaying energy transition impact on fossil fuel demand",
-          "Major recession reducing global oil/gas demand faster than green hydrogen ramp",
-          "Regulatory policy reversals or climate accord delays extending incumbent oil/gas competitiveness"
+          "Energy transition accelerating faster than traditional oil/gas capex cycles can adapt",
+          "Persistent geopolitical premium in crude may reverse if Hormuz tensions ease",
+          "Renewable infrastructure investments by non-traditional players eroding market share",
+          "Global focus on storage and green manufacturing diminishes traditional upstream/downstream competitive moat"
         ],
         "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
+          "overall_reliability": "medium",
+          "flags": [
+            "Article [2] summary is truncated and incomplete, limiting ability to fully verify the COP signal's claim about Gulf export surge offsetting Hormuz attacks",
+            "SLB signal correctly identifies Kazakhstan manufacturing push from Article [3], but characterization of scale as 'limited' is analyst interpretation not explicitly stated in source"
+          ],
           "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "XOM": 167.66000366210938,
-        "CVX": 217.57000732421875,
-        "BP": 45.1150016784668,
-        "SHEL": 98.04000091552734,
-        "TTE": 90.20999908447266,
-        "COP": 140.72000122070312,
-        "SLB": 50.709999084472656
+        "SLB": 49.14500045776367,
+        "COP": 141.22500610351562
       },
       "spot_check": {
-        "title": "Europe Has Already Drained 10% of Its Summer Gas Injections",
-        "summary": "Europe has not only entered the heating season with the lowest gas levels in storage sites in decades, but it has also withdrawn in recent weeks 10% of the natural gas injected during the summer filling season, leaving supply vulnerable to potentially extreme cold winter weather. So far into the heating season, which has just started, the net withdrawals of European countries have reached about 10% of the 51.2 billion cubic meters of gas they had injected into storage sites this summer, Azeri ou",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-10-of-Its-Summer-Gas-Injections.html",
-        "source": "Oilprice",
-        "published": "16 Nov 2026",
+        "title": "New international energy storage alliance launched at COP31",
+        "summary": "A new international platform aimed at enhancing cooperation on energy storage was launched at the China Pavilion during COP31.",
+        "url": "https://www.energymonitor.ai/news/new-energy-storage-alliance-launched-cop31/",
+        "source": "Energymonitor",
+        "published": "17 Nov 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "European gas storage depletion supports LNG export demand; geopolitical tensions sustain crude prices.",
+          "ticker": "COP",
+          "company": "ConocoPhillips",
+          "sentiment": "neutral",
+          "conviction": 50,
+          "rationale": "Brent crude near $93 provides stable pricing; Hormuz tensions offer upside but are offset by Gulf production gains.",
           "key_themes": [
-            "LNG demand surge",
-            "supply security concerns",
-            "geopolitical risk premium"
+            "price stability",
+            "geopolitical risk"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
-          "verification_issue": null,
-          "supporting_article": [
-            1,
-            2
-          ]
+          "verification_issue": "Rationale references specific Brent price ($93) and Hormuz tensions, which are mentioned in Article [2], but the article summary is incomplete and does not provide sufficient detail to fully verify the claim about 'Gulf production gains' offsetting tensions",
+          "supporting_article": 2
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "European gas storage depletion supports LNG export demand; geopolitical tensions sustain crude prices.",
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "Brent crude near $93 provides stable pricing; Hormuz tensions offer upside but are offset by Gulf production gains.",
         "haiku_themes": [
-          "LNG demand surge",
-          "supply security concerns",
-          "geopolitical risk premium"
+          "price stability",
+          "geopolitical risk"
         ]
       },
       "config": {
@@ -437,6 +327,22 @@
     "Healthcare": {
       "articles": [
         {
+          "title": "How the Measles Virus Makes Your Immune System Forget",
+          "summary": "The United States is losing its measles-elimination status, signaling the return of a virus that can cause lasting health consequences.",
+          "url": "https://www.nytimes.com/2026/11/17/science/measles-virus-immune-system.html",
+          "source": "Rss",
+          "published": "17 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Fearing Chinese Rivals, U.S. Biotech Adopts a New Norm: Share Nothing",
+          "summary": "Concerns that well-funded Chinese companies will swoop in to grab new ideas for their own drug development are shaping an industry unaccustomed to such secrecy.",
+          "url": "https://www.nytimes.com/2026/11/17/science/fearing-chinese-rivals-us-biotech-adopts-a-new-norm-share-nothing.html",
+          "source": "Rss",
+          "published": "17 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
           "title": "American Global Health Aid Isn\u2019t Dead. It\u2019s Changing.",
           "summary": "The Trump administration promised to make aid programs more \u201cAmerica First.\u201d Some countries are balking.",
           "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
@@ -445,41 +351,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "This Cancer Kills Children in a Year. Research Has Been Stalled for a Year.",
-          "summary": "For 27 years, the Pediatric Brain Tumor Consortium worked to save kids with brain cancer. But just before 5-year-old Ryleigh Schecter was diagnosed, the government shut it down.",
-          "url": "https://www.nytimes.com/2026/11/15/well/brain-cancer-children-dipg.html",
-          "source": "Rss",
-          "published": "16 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
-          "summary": "The treatment, called ivonescimab, has become a symbol of China\u2019s rise in drug development.",
-          "url": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
-          "source": "Rss",
-          "published": "15 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/roche-gazyva-adds-3rd-immune-indication-first-fda-nod-primary-membranous-nephropathy\" hreflang=\"en\">Roche\u2019s Gazyva adds 3rd immune indication with first FDA nod for primary membranous nephropathy</a>",
-          "summary": "As Roche\u2019s Gazyva comes under pressure in blood cancer, the anti-CD20 antibody keeps expanding its reach in autoimmune diseases.",
-          "url": "https://www.fiercepharma.com/pharma/roche-gazyva-adds-3rd-immune-indication-first-fda-nod-primary-membranous-nephropathy",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/az-deflects-health-plan-lawsuit-alleging-soliris-antitrust-maneuvers\" hreflang=\"en\">AZ defeats health plan lawsuit alleging Soliris antitrust maneuvers</a>",
+          "summary": "Winning a ruling in their favor Monday, AstraZeneca and its rare disease unit Alexion have successfully sidestepped U.S. antitrust allegations linked to aging rare disease drug Soliris.",
+          "url": "https://www.fiercepharma.com/pharma/az-deflects-health-plan-lawsuit-alleging-soliris-antitrust-maneuvers",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/eisai-linus-health-launch-brain-health-digital-resource\" hreflang=\"en\">Eisai, Linus Health launch \u2018brain health\u2019 digital resource</a>",
-          "summary": "Japanese Big Pharma Eisai is teaming up with Boston-based digital health company Linus Health to create new \u201cBrain Health Reports.\u201d",
-          "url": "https://www.fiercepharma.com/marketing/eisai-linus-health-launch-brain-health-digital-resource",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/viatris-takes-wheel-cadillac-f1-teams-new-global-pharma-partner\" hreflang=\"en\">Viatris takes the wheel as Cadillac F1 team's new global pharma partner</a>",
+          "summary": "The multi-year partnership with Cadillac's Formula 1 Team makes Viatris the latest pharma to rev up a marketing play in the auto racing zone.",
+          "url": "https://www.fiercepharma.com/marketing/viatris-takes-wheel-cadillac-f1-teams-new-global-pharma-partner",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/klygefa-approvals-az-expands-myasthenia-gravis-domain-beyond-soliris-ultomiris\" hreflang=\"en\">With Klygefa approvals, AZ expands myasthenia gravis domain beyond Soliris, Ultomiris</a>",
-          "summary": "Continuing to harvest a bounty of autumn approvals, AstraZeneca has picked up nods for its C5 inhibitor gefurulimab to treat generalized myasthenia gravis (gMG) on both sides of the Atlantic.",
-          "url": "https://www.fiercepharma.com/pharma/klygefa-approvals-az-expands-myasthenia-gravis-domain-beyond-soliris-ultomiris",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/roche-next-big-breast-cancer-drug-wilserdly-secures-fda-approval-4th-oral-serd\" hreflang=\"en\">Roche\u2019s next big breast cancer drug, Wilserdly, secures FDA approval as 4th oral SERD</a>",
+          "summary": "Roche\u2019s giredestrant took the first step toward what some analysts project could exceed $10 billion in peak annual sales, winning FDA approval for certain patients with HR-positive, HER2-negative breast cancer.",
+          "url": "https://www.fiercepharma.com/pharma/roche-next-big-breast-cancer-drug-wilserdly-secures-fda-approval-4th-oral-serd",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -488,47 +378,31 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "LLY",
-            "company": "Eli Lilly and Company",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Pediatric brain tumor research funding shutdown threatens R&D pipeline for rare oncology indications.",
-            "key_themes": [
-              "government funding cuts",
-              "pediatric oncology vulnerability",
-              "R&D pipeline risk"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [2] discusses pediatric brain tumor research shutdown but does not mention Eli Lilly. No evidence Lilly is involved in or dependent on this specific consortium's funding.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "PFE",
-            "company": "Pfizer Inc.",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "FDA rejection of Chinese lung cancer drug signals intensified regulatory scrutiny; reduced global health aid impacts emerging market pharma sales.",
-            "key_themes": [
-              "geopolitical trade tensions",
-              "emerging market headwinds",
-              "reduced aid funding"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [3] covers FDA rejection of Chinese lung cancer drug but does not mention Pfizer or indicate this impacts Pfizer's pipeline. Article [1] discusses aid changes but does not specify impact on Pfizer sales. Connection is speculative.",
-            "supporting_article": null
-          },
-          {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "No direct impact from articles; broader pharma headwinds from policy changes and reduced international aid programs.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Measles outbreak signals increased demand for vaccines and immunization programs, JNJ's core strength.",
             "key_themes": [
-              "policy uncertainty",
-              "international market access",
-              "competitive landscape"
+              "vaccine demand",
+              "public health crisis",
+              "immunization opportunity"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck & Co.",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "Measles resurgence directly benefits vaccine manufacturers; Merck is major supplier of immunization products.",
+            "key_themes": [
+              "vaccine demand",
+              "public health crisis",
+              "immunization opportunity"
             ],
             "time_horizon": "medium-term",
             "verified": true,
@@ -539,74 +413,84 @@
             "ticker": "TMO",
             "company": "Thermo Fisher Scientific",
             "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Digital health innovation initiatives suggest equipment/services demand, but limited direct exposure to these specific developments.",
+            "conviction": 45,
+            "rationale": "Increased IP protection secrecy in biotech may modestly benefit lab services and diagnostics suppliers.",
             "key_themes": [
-              "digital health expansion",
-              "diagnostic tools",
-              "clinical support systems"
+              "biotech secrecy",
+              "competitive dynamics"
             ],
             "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 58,
+            "rationale": "Global health aid shifts to 'America First' policy may reduce international drug demand and insurance expansion.",
+            "key_themes": [
+              "policy headwinds",
+              "reduced international exposure"
+            ],
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [5] mentions Eisai and Linus Health partnership on brain health digital resource, but does not mention Thermo Fisher Scientific. No clear connection between this initiative and TMO's business exposure.",
-            "supporting_article": null
+            "verification_issue": "Article 3 discusses 'America First' aid policy shift, but does not establish a clear causal link to UNH's international drug demand or insurance expansion. The rationale makes speculative inferences about insurance business impact that are not supported by the source material.",
+            "supporting_article": 3
           }
         ],
-        "summary": "Healthcare sector faces headwinds from policy uncertainty and reduced government funding for research initiatives, while regulatory protectionism against foreign competition intensifies. International aid program restructuring threatens emerging market access and global development partnerships. Domestic oncology and rare disease research pipelines face funding constraints despite continued specialty pharma approvals elsewhere.",
+        "summary": "Healthcare sector shows mixed signals with vaccine makers JNJ and MRK positioned for near-term upside from measles resurgence, while UNH faces headwinds from restrictive global health aid policies. Biotech IP protection trends and rare disease litigation outcomes have minimal direct impact on the named cohort.",
         "risks": [
-          "government R&D funding cuts",
-          "geopolitical trade tensions affecting pharma",
-          "emerging market access restrictions",
-          "regulatory policy uncertainty under new administration",
-          "reduced international health aid impact on pharma demand"
+          "measles outbreak may be temporary; vaccine demand surge could be short-lived",
+          "policy reversals on global health aid",
+          "Chinese biotech competition may still pressure pricing across therapeutic areas",
+          "antitrust scrutiny remains present despite recent wins"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "LLY signal assumes unstated connection between Pediatric Brain Tumor Consortium shutdown and Eli Lilly's oncology R&D without evidence of Lilly's involvement",
-            "PFE signal conflates FDA rejection of Chinese drug (geopolitical issue) with impact on Pfizer emerging market sales without supporting evidence linking Pfizer to these markets or drug classes",
-            "TMO signal cites Eisai-Linus Health partnership as evidence of digital health demand but provides no evidence Thermo Fisher participates in or benefits from this specific collaboration",
-            "No articles directly mention Eli Lilly, Pfizer, or Thermo Fisher in relevant contexts, making conviction levels questionable"
+            "UNH bearish signal relies on inference about insurance expansion impact that is not explicitly addressed in the source article about global health aid policy"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "LLY": 1448.8800048828125,
-        "PFE": 28.969999313354492,
-        "JNJ": 284.44000244140625,
-        "TMO": 696.9500122070312
+        "JNJ": 279.5,
+        "MRK": 143.22999572753906,
+        "TMO": 690.3499755859375,
+        "UNH": 397.5849914550781
       },
       "spot_check": {
-        "title": "American Global Health Aid Isn\u2019t Dead. It\u2019s Changing.",
-        "summary": "The Trump administration promised to make aid programs more \u201cAmerica First.\u201d Some countries are balking.",
-        "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
+        "title": "How the Measles Virus Makes Your Immune System Forget",
+        "summary": "The United States is losing its measles-elimination status, signaling the return of a virus that can cause lasting health consequences.",
+        "url": "https://www.nytimes.com/2026/11/17/science/measles-virus-immune-system.html",
         "source": "Rss",
-        "published": "16 Nov 2026",
+        "published": "17 Nov 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sentiment": "bearish",
+          "ticker": "JNJ",
+          "company": "Johnson & Johnson",
+          "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Pediatric brain tumor research funding shutdown threatens R&D pipeline for rare oncology indications.",
+          "rationale": "Measles outbreak signals increased demand for vaccines and immunization programs, JNJ's core strength.",
           "key_themes": [
-            "government funding cuts",
-            "pediatric oncology vulnerability",
-            "R&D pipeline risk"
+            "vaccine demand",
+            "public health crisis",
+            "immunization opportunity"
           ],
-          "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [2] discusses pediatric brain tumor research shutdown but does not mention Eli Lilly. No evidence Lilly is involved in or dependent on this specific consortium's funding.",
-          "supporting_article": null
+          "time_horizon": "medium-term",
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Pediatric brain tumor research funding shutdown threatens R&D pipeline for rare oncology indications.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Measles outbreak signals increased demand for vaccines and immunization programs, JNJ's core strength.",
         "haiku_themes": [
-          "government funding cuts",
-          "pediatric oncology vulnerability",
-          "R&D pipeline risk"
+          "vaccine demand",
+          "public health crisis",
+          "immunization opportunity"
         ]
       },
       "config": {
@@ -626,27 +510,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
-          "summary": "For years, engineers have shuffled between Tesla and SpaceX and the companies have worked on major projects together.",
-          "url": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
+          "title": "Jensen Huang Says He Would Return to Nvidia if Asked",
+          "summary": "Mr. Huang resigned as chief executive of the company last week after revelations that he had affairs with an employee and a woman linked to Chinese intelligence.",
+          "url": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html",
           "source": "Rss",
-          "published": "16 Nov 2026",
+          "published": "17 Nov 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Fed Governor Cook Won\u2019t Attend White House Hearing Without Changes",
+          "summary": "Lawyers for Lisa Cook, the Federal Reserve governor President Trump is trying to fire, called the hearing process a \u201cfacade.\u201d",
+          "url": "https://www.nytimes.com/2026/11/17/business/economy/fed-governor-lisa-cook-trump-white-house-hearing.html",
+          "source": "Rss",
+          "published": "17 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
-          "summary": "The history of the sprawling corporate combinations is rich, colorful and mostly disappointing. Could a SpaceX-Tesla merger be a success story?",
-          "url": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex-conglomerate.html",
+          "title": "Nvidia\u2019s Earnings Call Is a High-Stakes Moment",
+          "summary": "Wall Street is bracing for the chip maker\u2019s latest earnings call, as analysts seek clues about the artificial intelligence giant\u2019s future.",
+          "url": "https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
           "source": "Rss",
-          "published": "16 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "Robert Pattinson Named as the Next James Bond",
-          "summary": "The announcement ends years of speculation over who would take over the role after Daniel Craig\u2019s five-film run.",
-          "url": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
-          "source": "Rss",
-          "published": "16 Nov 2026",
+          "published": "17 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -678,116 +562,104 @@
         "signals": [
           {
             "ticker": "JPM",
-            "company": "JPMorgan Chase",
+            "company": "JPMorgan Chase & Co.",
             "sentiment": "neutral",
             "conviction": 45,
-            "rationale": "Tech sector volatility from AI concerns may increase M&A advisory opportunities but near-term market uncertainty limits upside.",
+            "rationale": "Banking sector faces uncertainty from Fed governance instability and market volatility from AI sector turmoil.",
             "key_themes": [
+              "Fed policy uncertainty",
               "market volatility",
-              "M&A advisory potential"
+              "financial stability"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Articles confirm tech sector volatility and AI concerns (Article 4), but no source material discusses M&A advisory opportunities or JPMorgan Chase's potential benefit from market disruption",
+            "verification_issue": "Rationale cites 'Fed governance instability' from Cook hearing (Article 2) and 'AI sector turmoil' (Articles 4, 6), but no article establishes how these specifically impact JPMorgan Chase's banking operations or creates 'uncertainty' requiring a neutral stance. The connection between Fed governance disputes and JPM's business outlook is not substantiated.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 42,
+            "rationale": "Banking sector exposed to Fed policy risks and broader market instability amid AI sector selloff and governance disputes.",
+            "key_themes": [
+              "Fed policy uncertainty",
+              "market volatility"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale references Fed policy risks and AI sector selloff, but provides no evidence that Bank of America specifically faces material exposure or that these factors warrant a neutral conviction of 42. Articles do not establish BAC's vulnerability to these conditions.",
             "supporting_article": null
           },
           {
             "ticker": "GS",
             "company": "Goldman Sachs",
             "sentiment": "neutral",
-            "conviction": 42,
-            "rationale": "Tech stock selloff could spur restructuring advisory work, but immediate market instability constrains investment banking pipeline.",
+            "conviction": 48,
+            "rationale": "Investment banking operations may benefit from tech sector volatility, but Fed governance uncertainty creates headwinds.",
             "key_themes": [
-              "tech sector dislocation",
-              "advisory services"
+              "Fed policy uncertainty",
+              "tech sector volatility",
+              "M&A activity"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Articles confirm tech stock selloff (Article 4), but no source material discusses restructuring advisory work, investment banking pipeline, or Goldman Sachs specifically",
+            "verification_issue": "Rationale claims Goldman Sachs 'may benefit from tech sector volatility' through M&A activity, but no source article discusses M&A trends, tech sector deal activity, or Goldman Sachs' positioning. The speculation about investment banking benefits is unsupported by the provided articles.",
             "supporting_article": null
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
-            "sentiment": "bearish",
-            "conviction": 55,
-            "rationale": "Broad market selloff from AI rout reduces consumer spending momentum and payment volume growth in near term.",
-            "key_themes": [
-              "market downturn",
-              "consumer spending decline"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article 4 confirms broad market selloff from AI concerns, but contains no data linking this to consumer spending momentum or payment volume growth. The connection between stock market decline and payment processing is speculative and unsupported",
-            "supporting_article": 4
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "bearish",
-            "conviction": 54,
-            "rationale": "Tech-led market decline dampens consumer activity and payment processing volumes as risk-off sentiment spreads.",
-            "key_themes": [
-              "risk-off sentiment",
-              "transaction volume pressure"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Article 4 confirms tech-led market decline and risk-off sentiment, but provides no evidence linking this to consumer activity levels or payment processing volumes. The causal relationship is assumed but not supported by sources",
-            "supporting_article": 4
           }
         ],
-        "summary": "The AI selloff triggered by DeepSeek concerns creates near-term headwinds for payment processors V and MA through reduced consumer spending, while financial advisors JPM and GS face mixed signals as market volatility may increase M&A activity but client uncertainty constrains immediate deal flow. BAC, MS, and BRK-B lack direct exposure to the articles' themes and are omitted.",
+        "summary": "The financial sector faces headwinds from significant Fed governance instability (Cook hearing) and broader market turmoil triggered by China's DeepSeek AI breakthrough, which sparked a major AI infrastructure selloff. While traditional banks may see some advisory opportunities from tech sector volatility, the fundamental uncertainty around Federal Reserve leadership and policy direction creates a cautious outlook. Payment processors appear insulated from these developments.",
         "risks": [
-          "AI panic may be overblown and reversal could whipsaw sentiment",
-          "broader recession concerns if tech selloff spreads to fundamentals",
-          "regulatory uncertainty in fintech and payments sector"
+          "Fed governance crisis could disrupt monetary policy",
+          "Continued AI sector selloff may trigger broader market contagion",
+          "Nvidia leadership turmoil adds to tech sector uncertainty",
+          "Banking sector exposed to market volatility and credit risks"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "low",
           "flags": [
-            "All four signals lack direct sourcing to the provided articles",
-            "JPM and GS rationales assume banking advisory opportunity from market stress without supporting evidence",
-            "V and MA rationales assume consumer spending impact from equity market volatility without supporting evidence in sources",
-            "Analyst appears to be making logical inferences rather than grounding claims in actual reported facts"
+            "All three signals make unsubstantiated leaps connecting Fed governance issues and AI sector volatility to specific banking sector impacts without evidence from source articles",
+            "GS signal speculates about M&A activity benefits with zero supporting information in source material",
+            "No articles provide analysis of how banking stocks specifically are affected by the events mentioned"
           ],
-          "ungrounded_count": 4
+          "ungrounded_count": 3
         }
       },
       "prices_snapshot": {
-        "JPM": 342.739990234375,
-        "GS": 896.6799926757812,
-        "V": 429.6600036621094,
-        "MA": 666.0399780273438
+        "JPM": 330.1199951171875,
+        "BAC": 49.1349983215332,
+        "GS": 872.0499877929688
       },
       "spot_check": {
-        "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
-        "summary": "For years, engineers have shuffled between Tesla and SpaceX and the companies have worked on major projects together.",
-        "url": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
+        "title": "Nvidia\u2019s Earnings Call Is a High-Stakes Moment",
+        "summary": "Wall Street is bracing for the chip maker\u2019s latest earnings call, as analysts seek clues about the artificial intelligence giant\u2019s future.",
+        "url": "https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
         "source": "Rss",
-        "published": "16 Nov 2026",
+        "published": "17 Nov 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa",
-          "sentiment": "bearish",
-          "conviction": 55,
-          "rationale": "Broad market selloff from AI rout reduces consumer spending momentum and payment volume growth in near term.",
+          "ticker": "GS",
+          "company": "Goldman Sachs",
+          "sentiment": "neutral",
+          "conviction": 48,
+          "rationale": "Investment banking operations may benefit from tech sector volatility, but Fed governance uncertainty creates headwinds.",
           "key_themes": [
-            "market downturn",
-            "consumer spending decline"
+            "Fed policy uncertainty",
+            "tech sector volatility",
+            "M&A activity"
           ],
-          "time_horizon": "short-term",
+          "time_horizon": "medium-term",
           "verified": false,
-          "verification_issue": "Article 4 confirms broad market selloff from AI concerns, but contains no data linking this to consumer spending momentum or payment volume growth. The connection between stock market decline and payment processing is speculative and unsupported",
-          "supporting_article": 4
+          "verification_issue": "Rationale claims Goldman Sachs 'may benefit from tech sector volatility' through M&A activity, but no source article discusses M&A trends, tech sector deal activity, or Goldman Sachs' positioning. The speculation about investment banking benefits is unsupported by the provided articles.",
+          "supporting_article": null
         },
-        "haiku_sentiment": "bearish",
-        "haiku_rationale": "Broad market selloff from AI rout reduces consumer spending momentum and payment volume growth in near term.",
+        "haiku_sentiment": "neutral",
+        "haiku_rationale": "Investment banking operations may benefit from tech sector volatility, but Fed governance uncertainty creates headwinds.",
         "haiku_themes": [
-          "market downturn",
-          "consumer spending decline"
+          "Fed policy uncertainty",
+          "tech sector volatility",
+          "M&A activity"
         ]
       },
       "config": {
