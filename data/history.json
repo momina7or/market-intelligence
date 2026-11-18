@@ -1,261 +1,5 @@
 [
   {
-    "run_date": "2026-07-09",
-    "industries": {
-      "Technology": {
-        "signals": [
-          {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Xbox strategic reset with studio reorganization and 3,200 layoffs signals cost-cutting but unclear gaming revenue impact.",
-            "key_themes": [
-              "gaming strategy shift",
-              "restructuring",
-              "project cancellations"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Development of always-on AI-enabled smart glasses represents significant new hardware category and AI integration opportunity.",
-            "key_themes": [
-              "wearable AI",
-              "hardware expansion",
-              "always-on recording"
-            ],
-            "time_horizon": "long-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
-            "ticker": "GOOGL",
-            "company": "Alphabet Inc.",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "ChatGPT's prominence in organic search recommendations highlights AI's growing influence on web traffic and search disruption.",
-            "key_themes": [
-              "AI search competition",
-              "organic traffic shifts",
-              "content discovery"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale claims ChatGPT's prominence in search highlights AI's influence on Google, but ChatGPT is an OpenAI product, not Google/Alphabet. Article [1] describes ChatGPT recommending content, not Google search being disrupted. This conflates competitors and misattributes the competitive threat.",
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "MSFT": 383.3399963378906,
-          "META": 603.1199951171875,
-          "GOOGL": 361.9200134277344
-        },
-        "sector_sentiment": "bullish",
-        "reliability": "medium"
-      },
-      "Petroleum & Energy": {
-        "signals": [
-          {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "bullish",
-            "conviction": 82,
-            "rationale": "Strait of Hormuz escalation threatens 10.5M bbl/day supply gap; major upstream producer benefits from price surge and supply constraints.",
-            "key_themes": [
-              "supply disruption",
-              "geopolitical risk premium",
-              "production recovery delays"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "CVX",
-            "company": "Chevron Corporation",
-            "sentiment": "bullish",
-            "conviction": 80,
-            "rationale": "Iran-U.S. hostilities create extended supply disruption risk; large-cap integrated producer gains from crude price surge and margin expansion.",
-            "key_themes": [
-              "supply disruption",
-              "price volatility",
-              "margin expansion"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "BP",
-            "company": "BP plc",
-            "sentiment": "bullish",
-            "conviction": 75,
-            "rationale": "Persian Gulf disruptions slow Middle East production recovery; integrated player benefits from 5-7% oil price spike and tightened markets.",
-            "key_themes": [
-              "supply tightening",
-              "price surge",
-              "geopolitical premium"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
-          },
-          {
-            "ticker": "SHEL",
-            "company": "Shell plc",
-            "sentiment": "bullish",
-            "conviction": 77,
-            "rationale": "Hormuz escalation threatens oil flows; major trader and producer positioned to capitalize on crude volatility and supply uncertainty.",
-            "key_themes": [
-              "supply disruption",
-              "trading opportunities",
-              "crude volatility"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
-            "sentiment": "bullish",
-            "conviction": 76,
-            "rationale": "Middle East production delays and Hormuz disruption risk support oil prices; large Persian Gulf upstream exposure benefits from supply tightness.",
-            "key_themes": [
-              "supply disruption",
-              "production delays",
-              "price support"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "COP",
-            "company": "ConocoPhillips",
-            "sentiment": "bullish",
-            "conviction": 74,
-            "rationale": "Geopolitical escalation halts production recovery; integrated producer benefits from sustained crude price elevation amid supply concerns.",
-            "key_themes": [
-              "supply disruption",
-              "price volatility",
-              "production delays"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 3
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Supply disruption delays Middle East production recovery, offsetting near-term service demand; long-term energy transition headwinds persist.",
-            "key_themes": [
-              "production delays",
-              "service demand uncertainty",
-              "energy transition"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale cites 'long-term energy transition headwinds' but this appears to conflate unrelated source material (Articles 4-6 cover green hydrogen and solar, not oil service sector headwinds from geopolitical disruption). The supply disruption rationale is supported by Articles 1-3, but the energy transition claim lacks grounding in the Hormuz escalation context.",
-            "supporting_article": null
-          }
-        ],
-        "prices_snapshot": {
-          "XOM": 141.1300048828125,
-          "CVX": 175.97000122070312,
-          "BP": 39.209999084472656,
-          "SHEL": 82.23999786376953,
-          "TTE": 78.87000274658203,
-          "COP": 110.72000122070312,
-          "SLB": 47.43000030517578
-        },
-        "sector_sentiment": "bullish",
-        "reliability": "medium"
-      },
-      "Healthcare": {
-        "signals": [
-          {
-            "ticker": "UNH",
-            "company": "UnitedHealth Group",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "Legislative scrutiny targeting UNH's control over prescription drugs poses regulatory risk and potential operational restructuring.",
-            "key_themes": [
-              "regulatory pressure",
-              "antitrust concerns",
-              "market consolidation risk"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "UNH": 425.6000061035156
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "high"
-      },
-      "Finance": {
-        "signals": [
-          {
-            "ticker": "V",
-            "company": "Visa Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Global travel activity referenced in rental car article suggests continued payment processing demand, but no direct financial impact evident.",
-            "key_themes": [
-              "travel spending",
-              "payment processing"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] describes a billing dispute over rental car fuel charges in Germany. This is a consumer complaint about a specific transaction error, not evidence of 'continued payment processing demand' or broader travel spending trends that would support Visa's business outlook.",
-            "supporting_article": 1
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "International travel transactions implied in rental car scenario support payment volume, but macro uncertainty from tech selloff dominates sentiment.",
-            "key_themes": [
-              "cross-border payments",
-              "travel transactions"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [1] is a single anecdotal story about a rental car refueling dispute. This does not constitute evidence of 'international travel transactions' driving payment volume for Mastercard, nor does it support conviction in the company's medium-term outlook.",
-            "supporting_article": 1
-          }
-        ],
-        "prices_snapshot": {
-          "V": 347.5299987792969,
-          "MA": 519.8599853515625
-        },
-        "sector_sentiment": "neutral",
-        "reliability": "low"
-      }
-    }
-  },
-  {
     "run_date": "2026-07-10",
     "industries": {
       "Technology": {
@@ -28972,6 +28716,319 @@
           "JPM": 330.1199951171875,
           "BAC": 49.1349983215332,
           "GS": 872.0499877929688
+        },
+        "sector_sentiment": "neutral",
+        "reliability": "low"
+      }
+    }
+  },
+  {
+    "run_date": "2026-11-18",
+    "industries": {
+      "Technology": {
+        "signals": [
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's integration into organic search/discovery creates new revenue streams and enterprise adoption pathways for AI services.",
+            "key_themes": [
+              "AI-driven content discovery",
+              "ChatGPT monetization",
+              "search market disruption"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "GOOGL",
+            "company": "Alphabet Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "ChatGPT's ability to deliver direct answers threatens Google's search advertising model and traffic acquisition channels.",
+            "key_themes": [
+              "search disruption",
+              "AI competitive threat",
+              "ad revenue risk"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 65,
+            "rationale": "Internal documents reveal school safety initiative was primarily user acquisition tactic, raising regulatory and reputational risks.",
+            "key_themes": [
+              "regulatory scrutiny",
+              "child safety concerns",
+              "deceptive practices"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 6
+          },
+          {
+            "ticker": "NVDA",
+            "company": "NVIDIA Corporation",
+            "sentiment": "bullish",
+            "conviction": 61,
+            "rationale": "Frontier AI development acceleration and enterprise AI tool proliferation drive sustained demand for high-end GPU computing infrastructure.",
+            "key_themes": [
+              "AI infrastructure demand",
+              "frontier model training",
+              "compute scaling"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [4] mentions OpenAI pausing frontier training and security concerns, but does not establish a causal link to increased GPU demand or suggest acceleration of frontier AI development. The article actually describes a pause, not acceleration.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "MSFT": 506.2699890136719,
+          "GOOGL": 282.32000732421875,
+          "META": 613.8300170898438,
+          "NVDA": 152.8300018310547
+        },
+        "sector_sentiment": "bullish",
+        "reliability": "medium"
+      },
+      "Petroleum & Energy": {
+        "signals": [
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Chinese LNG demand surge via Venture Global deal signals strong long-term gas export growth benefiting integrated energy players",
+            "key_themes": [
+              "LNG demand",
+              "China energy imports",
+              "long-term contracts"
+            ],
+            "time_horizon": "long-term",
+            "verified": false,
+            "verification_issue": "Article [2] confirms China Gas doubled LNG volumes from Venture Global, but TotalEnergies is not mentioned. The rationale assumes TTE benefits from this China-US LNG deal, but no connection is established in source material.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "COP",
+            "company": "ConocoPhillips",
+            "sentiment": "neutral",
+            "conviction": 55,
+            "rationale": "Rising US oil inventories create near-term price headwinds, though geopolitical tension in Strait of Hormuz provides offsetting supply risk premium",
+            "key_themes": [
+              "inventory buildup",
+              "geopolitical risk",
+              "supply concerns"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Rationale is supported by articles [1] and [3]. Article [1] documents rising US oil inventories (3.4M barrels increase), and article [3] covers US-Iran tensions in the Strait of Hormuz. Both claims are grounded.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "US-Iran tensions support crude volatility and Middle East premium, but rising inventories and renewable energy investments create mixed directional signals",
+            "key_themes": [
+              "geopolitical premium",
+              "inventory headwind",
+              "energy transition"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Rationale references geopolitical premium (article [3]: US-Iran tensions), rising inventories (article [1]), and renewable investments. However, article [4] covers Google's geothermal deal and article [5] covers DOE's grid project loan\u2014neither specifically mention XOM's renewable investments. The renewable energy transition point lacks direct XOM connection.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "SLB",
+            "company": "Schlumberger Limited",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Rising US oil inventories and accelerating renewable energy infrastructure (DOE loans, storage alliances) signal weakening upstream capex cycle demand",
+            "key_themes": [
+              "capex cycle weakness",
+              "energy transition",
+              "inventory buildup"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": "Rationale cites rising US oil inventories (article [1]), renewable energy infrastructure (articles [4] and [5] on geothermal PPA and DOE grid loan), and energy transition. These are grounded, though the causal link to SLB capex cycle weakness is inferential rather than explicitly stated in sources.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "TTE": 87.90540313720703,
+          "COP": 136.35000610351562,
+          "XOM": 162.64999389648438,
+          "SLB": 48.619998931884766
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Healthcare": {
+        "signals": [
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Measles resurgence and cybersecurity threats to hospitals create demand for diagnostics and IT infrastructure solutions.",
+            "key_themes": [
+              "disease outbreak response",
+              "healthcare IT security"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              2,
+              3
+            ]
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "FDA leadership uncertainty and measles outbreak create mixed signals; vaccine relevance offset by regulatory instability.",
+            "key_themes": [
+              "FDA commissioner uncertainty",
+              "vaccine demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "PFE",
+            "company": "Pfizer",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Measles resurgence supports vaccine demand, but FDA commissioner withdrawal creates regulatory uncertainty for approvals.",
+            "key_themes": [
+              "vaccine demand",
+              "regulatory uncertainty"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "MRK",
+            "company": "Merck",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Measles outbreak may benefit vaccine portfolio, but FDA leadership vacuum creates near-term approval and policy uncertainty.",
+            "key_themes": [
+              "vaccine opportunity",
+              "regulatory instability"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": [
+              1,
+              2
+            ]
+          },
+          {
+            "ticker": "LLY",
+            "company": "Eli Lilly",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "FDA approval process disruption and cybersecurity risks to hospitals threaten clinical trial operations and drug approvals.",
+            "key_themes": [
+              "FDA uncertainty",
+              "healthcare IT vulnerabilities"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims cybersecurity risks threaten 'clinical trial operations' but Article [3] discusses hospital IT vulnerabilities generally, not specific impact on clinical trials. No direct connection established in source material.",
+            "supporting_article": null
+          }
+        ],
+        "prices_snapshot": {
+          "TMO": 687.489990234375,
+          "JNJ": 274.92999267578125,
+          "PFE": 28.11840057373047,
+          "MRK": 139.5500030517578,
+          "LLY": 1387.39501953125
+        },
+        "sector_sentiment": "bearish",
+        "reliability": "medium"
+      },
+      "Finance": {
+        "signals": [
+          {
+            "ticker": "JPM",
+            "company": "JPMorgan Chase",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Tech sector volatility from AI concerns may increase M&A advisory opportunities but near-term uncertainty persists.",
+            "key_themes": [
+              "market volatility",
+              "tech sector uncertainty"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "While Article [4] documents AI sector volatility and stock declines, there is no evidence in the sources that this creates M&A advisory opportunities for JPMorgan Chase. The rationale speculates about downstream effects without source support.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Amazon delivery drone regulatory battles may impact e-commerce growth rates, affecting payment volume trajectories.",
+            "key_themes": [
+              "e-commerce regulation",
+              "payment volumes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] describes Amazon's drone delivery regulatory battles in Massachusetts, but provides no analysis or evidence linking this local regulatory dispute to e-commerce growth rates or payment volume trajectories. The connection is speculative.",
+            "supporting_article": 2
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "Amazon delivery drone regulatory battles may impact e-commerce growth rates, affecting payment volume trajectories.",
+            "key_themes": [
+              "e-commerce regulation",
+              "payment volumes"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Article [2] describes Amazon's drone delivery regulatory battles in Massachusetts, but provides no analysis or evidence linking this local regulatory dispute to e-commerce growth rates or payment volume trajectories. The connection is speculative.",
+            "supporting_article": 2
+          }
+        ],
+        "prices_snapshot": {
+          "JPM": 326.25,
+          "V": 414.78009033203125,
+          "MA": 640.5800170898438
         },
         "sector_sentiment": "neutral",
         "reliability": "low"
