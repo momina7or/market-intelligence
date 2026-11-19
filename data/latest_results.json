@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-11-18",
-  "run_time": "2026-11-18T16:09:36.028375Z",
+  "run_date": "2026-11-19",
+  "run_time": "2026-11-19T16:17:35.159675Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,28 +29,28 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Remember the frontier AI pause? Chip companies don\u2019t either",
-          "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+          "title": "You can grab two months of Paramount Plus for just $2.99 for Black Friday",
+          "summary": "Ahead of Black Friday, you can subscribe to Paramount Plus for just $2.99 per month for the first two months. After the introductory period, you can cancel your subscription or automatically renew at the then-current rate, which, as of now, is $8.99 per month for the ad-supported Essential plan or $13.99 per month for the [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/1036229/paramount-plus-black-friday-deal-2026-sale",
           "source": "Theverge",
-          "published": "18 Nov 2026",
+          "published": "19 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "The Verge\u2019s 2026 holiday gift guide for travelers",
-          "summary": "Everyone has that traveler in their life. That person who feels more at home on a 14-hour train ride than a quiet Sunday on the couch. They speak multiple languages, have a gut like a goat, and make friends wherever they go. Whether they're your kindred spirit or the person you live vicariously through, one [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
+          "title": "JPMorgan Chase reveals data breach, but says it&#8217;s unrelated to this week&#8217;s banking outage",
+          "summary": "JPMorgan Chase says its third-party vendors suffered a cyberattack, exposing marketing data like customer names and email addresses. The confirmation follows a report from Cybernews, which says a ransomware group leaked email addresses belonging to around 16,000 JPMorgan Chase customers. In a post about the attack, JPMorgan Chase says \"there is no connection\" to the [&#8230;]",
+          "url": "https://www.theverge.com/tech/1037695/jpmorgan-chase-cyberattack",
           "source": "Theverge",
-          "published": "18 Nov 2026",
+          "published": "19 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "Instagram\u2019s \u2018school safety\u2019 push was also a way to get more teens on the app",
-          "summary": "Meta's initiative to make Instagram safer for schools stemmed from efforts to increase user \"acquisition,\" \"friending,\" and \"invites,\" according to a report from NPR. Internal documents revealed as part of a group of child safety lawsuits against Meta reference a \"Project Gryffindor\" - a school program that would \"fuel organic and unattributed acquisition\" of users. [&#8230;]",
-          "url": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+          "title": "The Verge\u2019s 2026 fitness and wellness gift guide",
+          "summary": "We could all use a hand when it comes to being more mindful about our health and fitness. The holidays provide plenty of reasons to focus on wellness in body and mind, and a good gift can be just the thing to spur a new hobby or support healthy habits. With that in mind, we're [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/1021241/best-fitness-wellness-gifts-2026",
           "source": "Theverge",
-          "published": "18 Nov 2026",
-          "sentiment_hint": "bullish"
+          "published": "19 Nov 2026",
+          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
@@ -60,88 +60,55 @@
             "company": "Microsoft Corporation",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "ChatGPT's integration into organic search/discovery creates new revenue streams and enterprise adoption pathways for AI services.",
+            "rationale": "ChatGPT integration driving organic traffic and AI-powered search relevance, strengthening competitive moat in AI-assisted discovery.",
             "key_themes": [
-              "AI-driven content discovery",
+              "AI search integration",
               "ChatGPT monetization",
-              "search market disruption"
+              "organic traffic generation"
             ],
             "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
+            "verified": false,
+            "verification_issue": "Article [2] describes ChatGPT recommending content organically, but does not establish this as a Microsoft/MSFT competitive advantage. ChatGPT is OpenAI's product; the article does not discuss Microsoft's role, integration strategy, or how this strengthens MSFT's 'competitive moat.' The rationale conflates ChatGPT's capabilities with Microsoft's business benefits without evidence from the sources.",
             "supporting_article": 2
           },
           {
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "ChatGPT's ability to deliver direct answers threatens Google's search advertising model and traffic acquisition channels.",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "ChatGPT's direct AI recommendations pose competitive threat to traditional search, but Google's AI capabilities remain strong; near-term pressure on search monetization.",
             "key_themes": [
-              "search disruption",
-              "AI competitive threat",
-              "ad revenue risk"
+              "AI search disruption",
+              "competitive threat",
+              "content ranking changes"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": null,
+            "verification_issue": "Partially grounded. Article [2] does describe ChatGPT making direct AI recommendations that bypass traditional search, which supports the 'competitive threat' theme. However, the article does not discuss Google's AI capabilities, search monetization pressure, or provide evidence for 'near-term pressure on search monetization.' The competitive threat claim is supported, but broader rationale lacks source support.",
             "supporting_article": 2
-          },
-          {
-            "ticker": "META",
-            "company": "Meta Platforms Inc.",
-            "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Internal documents reveal school safety initiative was primarily user acquisition tactic, raising regulatory and reputational risks.",
-            "key_themes": [
-              "regulatory scrutiny",
-              "child safety concerns",
-              "deceptive practices"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 6
-          },
-          {
-            "ticker": "NVDA",
-            "company": "NVIDIA Corporation",
-            "sentiment": "bullish",
-            "conviction": 61,
-            "rationale": "Frontier AI development acceleration and enterprise AI tool proliferation drive sustained demand for high-end GPU computing infrastructure.",
-            "key_themes": [
-              "AI infrastructure demand",
-              "frontier model training",
-              "compute scaling"
-            ],
-            "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [4] mentions OpenAI pausing frontier training and security concerns, but does not establish a causal link to increased GPU demand or suggest acceleration of frontier AI development. The article actually describes a pause, not acceleration.",
-            "supporting_article": null
           }
         ],
-        "summary": "AI infrastructure and enterprise adoption are accelerating despite safety concerns, benefiting chipmakers like NVIDIA while creating existential threats to Google's search dominance via AI-powered alternatives. Meta faces mounting regulatory pressure over deceptive user acquisition practices. Microsoft gains from ChatGPT's expanding role in content discovery and enterprise AI services.",
+        "summary": "AI tools are fundamentally reshaping digital discovery and content creation workflows in 2025-2026. ChatGPT's integration into user decision-making represents a significant shift away from traditional search, benefiting Microsoft while creating uncertainty for Google's core search business. The proliferation of specialized AI tools indicates sustained investment momentum in the AI sector, though content creators face new monetization challenges.",
         "risks": [
-          "Regulatory crackdown on AI safety and child protection",
-          "Google's AI search counteroffensive",
-          "Frontier AI pause momentum gaining policy support",
-          "Reputational damage to META limiting advertiser spending"
+          "ChatGPT and AI assistants cannibalizing traditional search traffic and advertising revenue",
+          "Regulatory scrutiny on data usage for AI training and third-party vendor cybersecurity vulnerabilities",
+          "Open-source AI tools like REA democratizing reverse engineering capabilities, creating IP and security concerns"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "NVDA rationale claims 'frontier AI development acceleration' but source article [4] describes a pause in frontier training, not acceleration",
-            "NVDA conviction (61) is based on a mischaracterization of the source material regarding frontier model development trends"
+            "MSFT signal attributes ChatGPT's organic traffic generation to Microsoft without evidence; OpenAI/ChatGPT ownership and Microsoft's specific role are not discussed in source articles",
+            "MSFT rationale overstates connection between ChatGPT recommendations and MSFT competitive positioning",
+            "GOOGL signal's claim about 'search monetization pressure' is not substantiated in the provided articles",
+            "Neither signal acknowledges that ChatGPT is an OpenAI product, not a Microsoft-exclusive service, limiting the relevance to MSFT equity thesis"
           ],
           "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "MSFT": 506.2699890136719,
-        "GOOGL": 282.32000732421875,
-        "META": 613.8300170898438,
-        "NVDA": 152.8300018310547
+        "MSFT": 514.4199829101562,
+        "GOOGL": 288.50750732421875
       },
       "spot_check": {
         "title": "REA: The Open-Source AI Tool That Can Reverse Engineer Almost Anything (2026 Guide)",
@@ -155,23 +122,23 @@
           "company": "Microsoft Corporation",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT's integration into organic search/discovery creates new revenue streams and enterprise adoption pathways for AI services.",
+          "rationale": "ChatGPT integration driving organic traffic and AI-powered search relevance, strengthening competitive moat in AI-assisted discovery.",
           "key_themes": [
-            "AI-driven content discovery",
+            "AI search integration",
             "ChatGPT monetization",
-            "search market disruption"
+            "organic traffic generation"
           ],
           "time_horizon": "medium-term",
-          "verified": true,
-          "verification_issue": null,
+          "verified": false,
+          "verification_issue": "Article [2] describes ChatGPT recommending content organically, but does not establish this as a Microsoft/MSFT competitive advantage. ChatGPT is OpenAI's product; the article does not discuss Microsoft's role, integration strategy, or how this strengthens MSFT's 'competitive moat.' The rationale conflates ChatGPT's capabilities with Microsoft's business benefits without evidence from the sources.",
           "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT's integration into organic search/discovery creates new revenue streams and enterprise adoption pathways for AI services.",
+        "haiku_rationale": "ChatGPT integration driving organic traffic and AI-powered search relevance, strengthening competitive moat in AI-assisted discovery.",
         "haiku_themes": [
-          "AI-driven content discovery",
+          "AI search integration",
           "ChatGPT monetization",
-          "search market disruption"
+          "organic traffic generation"
         ]
       },
       "config": {
@@ -191,28 +158,44 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "US Oil Inventories On the Rise",
-          "summary": "Crude oil inventories in the United States saw an increase of 3.4 million barrels during the week ending November 13, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The increase brings commercial stockpiles to 417.8 million barrels, according to government data, which is now 3% below the five-year average for this time of year. Total commercial petroleum inventories increased by 9.2 million barrels during the reporting period. The EIA\u2019s data re",
-          "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-On-the-Rise.html",
+          "title": "AI Jitters Haven't Slowed the Bet on U.S. Power Demand",
+          "summary": "We finally have hard data to show us exactly how much energy data centers are using in the United States, and the results are staggering. Driven by the artificial intelligence boom, energy-hungry data centers are popping up in record numbers around the country and driving up domestic energy demand after decades of plateaued growth. Data center hyperscalers in the United States alone now rival the energy demand of entire other nations, with worrying implications for energy security, economic infl",
+          "url": "https://oilprice.com/Energy/Energy-General/AI-Jitters-Havent-Slowed-the-Bet-on-US-Power-Demand.html",
           "source": "Oilprice",
-          "published": "18 Nov 2026",
-          "sentiment_hint": "neutral"
+          "published": "19 Nov 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "China Gas Upsizes Long-Term LNG Supply with U.S. Venture Global",
-          "summary": "China Gas Holdings Limited, a major Chinese natural gas distributor and operator, has doubled the LNG volumes it will receive from U.S. exporter Venture Global under a recent 20-year deal. China Gas and Venture Global on Wednesday announced the execution of an increased Sales and Purchase Agreement (SPA) for the total purchase of 1.0 million tonnes per annum (MTPA) of U.S. LNG from Venture Global for 20 years starting in 2030. This agreement upsizes the previous SPA announced in September 2026 f",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Gas-Upsizes-Long-Term-LNG-Supply-with-US-Venture-Global.html",
+          "title": "Venezuela Turns to AI to Cut Methane Leaks",
+          "summary": "Venezuela is using artificial intelligence to reduce emissions and increase efficiency in its oil and gas industry, a senior official told Reuters on the sidelines of the COP31 summit in Antalya, as the world\u2019s biggest crude reserves holder looks to boost production.\u00a0 Venezuela will not stop pumping oil, Albania del Mar Villarroel Gomez, vice minister for AI and efficiency in hydrocarbons, told Reuters.\u00a0 \u201cOur policy is not to stop producing hydrocarbons,\u201d the official told Reuters, as Venezuela ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Turns-to-AI-to-Cut-Methane-Leaks.html",
           "source": "Oilprice",
-          "published": "18 Nov 2026",
+          "published": "19 Nov 2026",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "U.S.-Iran Conflict Flares Again as Gulf Nations Brace for Attacks",
-          "summary": "US and Iranian forces exchanged tit-for-tat air strikes in the Middle East, while Gulf nations issued fresh warnings to residents amid threats of incoming projectiles as the currently low-level conflict continued to brew despite the efforts of regional mediators. US officials told news agencies on November 17 that American forces had struck Iran's Qeshm Island in the Strait of Hormuz after Iran's Islamic Revolutionary Guard Corps (IRGC) said it had launched an attack on a US military site in Bah",
-          "url": "https://oilprice.com/Geopolitics/Middle-East/US-Iran-Conflict-Flares-Again-as-Gulf-Nations-Brace-for-Attacks.html",
+          "title": "Russia Faces a Logistics Nightmare After Crimea Bridge Collapse",
+          "summary": "It\u2019s a $4 billion engineering showpiece, bridging 19 kilometers of Black Sea waterway and cementing Moscow\u2019s grip on Crimea, the Ukrainian peninsula Russia occupied in 2014. Now, more than 200 meters of the Crimea Bridge lie wrecked in 9 meters of water, leaving an asphalt-and-steel debris field cluttering the Kerch Strait shipping channel and a gaping hole in Russia\u2019s efforts to keep Crimea occupied and functional. The missile-and-drone attack was not the first time Ukraine has targeted the str",
+          "url": "https://oilprice.com/Geopolitics/Europe/Russia-Faces-a-Logistics-Nightmare-After-Crimea-Bridge-Collapse.html",
           "source": "Oilprice",
-          "published": "18 Nov 2026",
-          "sentiment_hint": "bullish"
+          "published": "19 Nov 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Pe\u00f1oles and Atlas sign 20-year solar and storage deal in Mexico",
+          "summary": "Pe\u00f1oles signs 20-year renewable energy agreement with Atlas Renewable Energy to develop solar and battery storage project in Coahuila.",
+          "url": "https://www.energymonitor.ai/news/penoles-atlas-sign-20-year-deal/",
+          "source": "Energymonitor",
+          "published": "19 Nov 2026",
+          "sentiment_hint": "neutral"
+        },
+        {
+          "title": "Searenergy Poland to support Ba\u0142tyk 2 and 3 offshore wind farm projects",
+          "summary": "Searenergy Poland has been selected to perform hook-up and commissioning activities at the Ba\u0142tyk 2 and Ba\u0142tyk 3 offshore wind farms.",
+          "url": "https://www.energymonitor.ai/news/searenergy-poland-support-baltyk-2-and-3/",
+          "source": "Energymonitor",
+          "published": "19 Nov 2026",
+          "sentiment_hint": "bearish"
         },
         {
           "title": "Google signs PPA to buy 50MW geothermal power from Quaise Energy",
@@ -221,143 +204,124 @@
           "source": "Energymonitor",
           "published": "18 Nov 2026",
           "sentiment_hint": "neutral"
-        },
-        {
-          "title": "US DOE grants $2.8bn conditional loan for Wyoming grid project",
-          "summary": "The US DOE Office of Energy Dominance Financing has announced up to $2.8bn conditional loan commitment for the Wyoming Intertie project.",
-          "url": "https://www.energymonitor.ai/news/us-grants-conditional-loan-wyoming-intertie/",
-          "source": "Energymonitor",
-          "published": "18 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "New international energy storage alliance launched at COP31",
-          "summary": "A new international platform aimed at enhancing cooperation on energy storage was launched at the China Pavilion during COP31.",
-          "url": "https://www.energymonitor.ai/news/new-energy-storage-alliance-launched-cop31/",
-          "source": "Energymonitor",
-          "published": "17 Nov 2026",
-          "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "TTE",
-            "company": "TotalEnergies SE",
+            "ticker": "XOM",
+            "company": "Exxon Mobil Corporation",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Chinese LNG demand surge via Venture Global deal signals strong long-term gas export growth benefiting integrated energy players",
+            "rationale": "Surging US data center energy demand creates long-term upstream and downstream growth opportunities",
             "key_themes": [
-              "LNG demand",
-              "China energy imports",
-              "long-term contracts"
+              "data center demand",
+              "energy security",
+              "US power demand growth"
             ],
             "time_horizon": "long-term",
-            "verified": false,
-            "verification_issue": "Article [2] confirms China Gas doubled LNG volumes from Venture Global, but TotalEnergies is not mentioned. The rationale assumes TTE benefits from this China-US LNG deal, but no connection is established in source material.",
-            "supporting_article": 2
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "CVX",
+            "company": "Chevron Corporation",
+            "sentiment": "bullish",
+            "conviction": 70,
+            "rationale": "US data center expansion drives sustained domestic energy demand after decades of plateau",
+            "key_themes": [
+              "data center demand",
+              "domestic energy growth",
+              "energy security"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
-            "sentiment": "neutral",
-            "conviction": 55,
-            "rationale": "Rising US oil inventories create near-term price headwinds, though geopolitical tension in Strait of Hormuz provides offsetting supply risk premium",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "US-focused upstream player positioned to benefit from structural data center energy demand surge",
             "key_themes": [
-              "inventory buildup",
-              "geopolitical risk",
-              "supply concerns"
+              "data center demand",
+              "US energy demand",
+              "long-term growth"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "long-term",
             "verified": true,
-            "verification_issue": "Rationale is supported by articles [1] and [3]. Article [1] documents rising US oil inventories (3.4M barrels increase), and article [3] covers US-Iran tensions in the Strait of Hormuz. Both claims are grounded.",
-            "supporting_article": null
-          },
-          {
-            "ticker": "XOM",
-            "company": "Exxon Mobil Corporation",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "US-Iran tensions support crude volatility and Middle East premium, but rising inventories and renewable energy investments create mixed directional signals",
-            "key_themes": [
-              "geopolitical premium",
-              "inventory headwind",
-              "energy transition"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": "Rationale references geopolitical premium (article [3]: US-Iran tensions), rising inventories (article [1]), and renewable investments. However, article [4] covers Google's geothermal deal and article [5] covers DOE's grid project loan\u2014neither specifically mention XOM's renewable investments. The renewable energy transition point lacks direct XOM connection.",
-            "supporting_article": null
+            "verification_issue": null,
+            "supporting_article": 1
           },
           {
             "ticker": "SLB",
             "company": "Schlumberger Limited",
-            "sentiment": "bearish",
-            "conviction": 68,
-            "rationale": "Rising US oil inventories and accelerating renewable energy infrastructure (DOE loans, storage alliances) signal weakening upstream capex cycle demand",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Venezuela's AI-driven efficiency improvements may modestly boost production but geopolitical risks remain significant",
             "key_themes": [
-              "capex cycle weakness",
-              "energy transition",
-              "inventory buildup"
+              "Venezuela production",
+              "AI efficiency",
+              "emissions reduction"
             ],
             "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Rationale cites rising US oil inventories (article [1]), renewable energy infrastructure (articles [4] and [5] on geothermal PPA and DOE grid loan), and energy transition. These are grounded, though the causal link to SLB capex cycle weakness is inferential rather than explicitly stated in sources.",
-            "supporting_article": null
+            "verification_issue": null,
+            "supporting_article": 2
           }
         ],
-        "summary": "Energy markets face divergent headwinds: rising US crude inventories and renewable energy acceleration pressure traditional oil/gas operators and oilservices, while China's LNG deal and Middle East tensions create offsetting bullish signals. Long-term structural shift toward renewables and storage is accelerating, with significant government backing undermining traditional energy investment thesis.",
+        "summary": "The petroleum sector faces a structurally bullish tailwind from explosive US data center energy demand driven by AI proliferation, benefiting integrated majors and upstream producers with US exposure. However, this is partially offset by accelerating renewable energy adoption (solar, geothermal, offshore wind) and production headwinds from Russian logistics disruption. Near-term, traditional oil & gas faces competition from alternative energy sources, but multi-year data center demand should sustain elevated commodity prices.",
         "risks": [
-          "Geopolitical escalation in Strait of Hormuz could rapidly reverse inventory dynamics",
-          "Accelerating energy transition reducing long-term hydrocarbon demand",
-          "Chinese economic slowdown could dampen LNG import growth"
+          "Energy transition acceleration reducing oil demand faster than data center growth offsets",
+          "Geopolitical disruptions (Russia logistics, Venezuela sanctions) constraining supply recovery",
+          "Data center energy demand projections may prove overstated if AI capex cycle moderates",
+          "Renewable energy PPAs indicate structural competition for power generation market share"
         ],
-        "sector_sentiment": "bearish",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "medium",
-          "flags": [
-            "TTE signal assumes direct benefit from Venture Global-China Gas deal without establishing TotalEnergies' involvement or stake",
-            "XOM signal claims renewable energy investments by Exxon but sources only mention Google and DOE initiatives, not XOM specifically",
-            "SLB bearish conviction (68%) relies on inferential connection between inventory/renewable trends and upstream capex demand, not explicit statements about Schlumberger"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "TTE": 87.90540313720703,
-        "COP": 136.35000610351562,
-        "XOM": 162.64999389648438,
-        "SLB": 48.619998931884766
+        "XOM": 159.89999389648438,
+        "CVX": 206.47000122070312,
+        "COP": 134.3542938232422,
+        "SLB": 48.54999923706055
       },
       "spot_check": {
-        "title": "US Oil Inventories On the Rise",
-        "summary": "Crude oil inventories in the United States saw an increase of 3.4 million barrels during the week ending November 13, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The increase brings commercial stockpiles to 417.8 million barrels, according to government data, which is now 3% below the five-year average for this time of year. Total commercial petroleum inventories increased by 9.2 million barrels during the reporting period. The EIA\u2019s data re",
-        "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-On-the-Rise.html",
+        "title": "AI Jitters Haven't Slowed the Bet on U.S. Power Demand",
+        "summary": "We finally have hard data to show us exactly how much energy data centers are using in the United States, and the results are staggering. Driven by the artificial intelligence boom, energy-hungry data centers are popping up in record numbers around the country and driving up domestic energy demand after decades of plateaued growth. Data center hyperscalers in the United States alone now rival the energy demand of entire other nations, with worrying implications for energy security, economic infl",
+        "url": "https://oilprice.com/Energy/Energy-General/AI-Jitters-Havent-Slowed-the-Bet-on-US-Power-Demand.html",
         "source": "Oilprice",
-        "published": "18 Nov 2026",
-        "sentiment_hint": "neutral",
+        "published": "19 Nov 2026",
+        "sentiment_hint": "bullish",
         "related_signal": {
-          "ticker": "TTE",
-          "company": "TotalEnergies SE",
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Chinese LNG demand surge via Venture Global deal signals strong long-term gas export growth benefiting integrated energy players",
+          "rationale": "Surging US data center energy demand creates long-term upstream and downstream growth opportunities",
           "key_themes": [
-            "LNG demand",
-            "China energy imports",
-            "long-term contracts"
+            "data center demand",
+            "energy security",
+            "US power demand growth"
           ],
           "time_horizon": "long-term",
-          "verified": false,
-          "verification_issue": "Article [2] confirms China Gas doubled LNG volumes from Venture Global, but TotalEnergies is not mentioned. The rationale assumes TTE benefits from this China-US LNG deal, but no connection is established in source material.",
-          "supporting_article": 2
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Chinese LNG demand surge via Venture Global deal signals strong long-term gas export growth benefiting integrated energy players",
+        "haiku_rationale": "Surging US data center energy demand creates long-term upstream and downstream growth opportunities",
         "haiku_themes": [
-          "LNG demand",
-          "China energy imports",
-          "long-term contracts"
+          "data center demand",
+          "energy security",
+          "US power demand growth"
         ]
       },
       "config": {
@@ -397,29 +361,29 @@
           "summary": "Artificial intelligence is accelerating the threats facing health systems that have been under attack from hackers for years.",
           "url": "https://www.nytimes.com/2026/11/18/business/hospitals-java-artificial-intelligence.html",
           "source": "Rss",
-          "published": "18 Nov 2026",
+          "published": "19 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/fda-moves-yank-salernos-liquid-cholesterol-med-approval-missing-reports\" hreflang=\"en\">FDA moves to yank Salerno's liquid cholesterol drug approval on missing reports</a>",
-          "summary": "In a notice posted on the Federal Register Wednesday, the FDA said that it has proposed withdrawing the approval for Salerno\u2019s FloLipid, an oral suspension formulation of the long-approved cholesterol lowering medication simvastatin.",
-          "url": "https://www.fiercepharma.com/pharma/fda-moves-yank-salernos-liquid-cholesterol-med-approval-missing-reports",
+          "title": "<a href=\"https://www.fiercepharma.com/marketing/jj-draws-fda-rebuke-misstating-inlexzos-bladder-sparing-benefits\" hreflang=\"en\">J&amp;J draws FDA rebuke for misstating Inlexzo\u2019s bladder-sparing benefits</a>",
+          "summary": "The FDA has slammed Johnson &amp; Johnson over misleading claims about its bladder cancer drug Inlexzo, accusing the pharma company of basing statements on uninterpretable data.",
+          "url": "https://www.fiercepharma.com/marketing/jj-draws-fda-rebuke-misstating-inlexzos-bladder-sparing-benefits",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "bearish"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/novo-expands-dtc-program-novocare-support-wegovy-users-through-holistic-health-journey\" hreflang=\"en\">Novo expands DTC program Novocare to support Wegovy users through holistic health journey</a>",
-          "summary": "Members who sign up for Novo's new Novocare can benefit from holistic health services meant to support Wegovy users throughout the entirety of their weight loss journey.",
-          "url": "https://www.fiercepharma.com/marketing/novo-expands-dtc-program-novocare-support-wegovy-users-through-holistic-health-journey",
+          "title": "<a href=\"https://www.fiercepharma.com/manufacturing/lotte-inks-production-deal-cdmo-preps-open-33b-south-korean-plant\" hreflang=\"en\">CDMO Lotte inks commercial production deal as work on South Korean plant wraps</a>",
+          "summary": "Lotte Biologics, which was established in 2022, inked a major manufacturing deal with an unnamed pharmaceutical company as the South Korean CDMO gears up for commercial production at its new multi-billion-dollar Songdo Bio Campus near Seoul.",
+          "url": "https://www.fiercepharma.com/manufacturing/lotte-inks-production-deal-cdmo-preps-open-33b-south-korean-plant",
           "source": "Fiercepharma",
           "published": "",
-          "sentiment_hint": "bearish"
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/pharma/overtons-fda-nomination-has-been-pulled-white-house\" hreflang=\"en\">Heidi Overton\u2019s FDA nomination pulled by White House</a>",
-          "summary": "The White House is pulling Heidi Overton\u2019s nomination to lead the FDA just hours before the Senate was scheduled to vote on her confirmation.",
-          "url": "https://www.fiercepharma.com/pharma/overtons-fda-nomination-has-been-pulled-white-house",
+          "title": "<a href=\"https://www.fiercepharma.com/sponsored/ais-real-prize-building-tomorrows-ci-capability\" hreflang=\"en\">AI\u2019s Real Prize: Building Tomorrow\u2019s CI Capability</a>",
+          "summary": "AI is becoming a commodity. Javier Vega explains why the next advantage in competitive intelligence comes from people, judgment and scale.",
+          "url": "https://www.fiercepharma.com/sponsored/ais-real-prize-building-tomorrows-ci-capability",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -428,115 +392,92 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "TMO",
-            "company": "Thermo Fisher Scientific",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Measles resurgence and cybersecurity threats to hospitals create demand for diagnostics and IT infrastructure solutions.",
-            "key_themes": [
-              "disease outbreak response",
-              "healthcare IT security"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              2,
-              3
-            ]
-          },
-          {
             "ticker": "JNJ",
             "company": "Johnson & Johnson",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "FDA leadership uncertainty and measles outbreak create mixed signals; vaccine relevance offset by regulatory instability.",
+            "sentiment": "bearish",
+            "conviction": 72,
+            "rationale": "FDA rebuke for misleading Inlexzo claims damages credibility and invites regulatory scrutiny on marketing practices.",
             "key_themes": [
-              "FDA commissioner uncertainty",
-              "vaccine demand"
+              "regulatory risk",
+              "marketing compliance",
+              "product credibility"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
+            "supporting_article": 4
           },
           {
             "ticker": "PFE",
-            "company": "Pfizer",
-            "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Measles resurgence supports vaccine demand, but FDA commissioner withdrawal creates regulatory uncertainty for approvals.",
-            "key_themes": [
-              "vaccine demand",
-              "regulatory uncertainty"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "MRK",
-            "company": "Merck",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Measles outbreak may benefit vaccine portfolio, but FDA leadership vacuum creates near-term approval and policy uncertainty.",
-            "key_themes": [
-              "vaccine opportunity",
-              "regulatory instability"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": [
-              1,
-              2
-            ]
-          },
-          {
-            "ticker": "LLY",
-            "company": "Eli Lilly",
+            "company": "Pfizer Inc.",
             "sentiment": "bearish",
-            "conviction": 62,
-            "rationale": "FDA approval process disruption and cybersecurity risks to hospitals threaten clinical trial operations and drug approvals.",
+            "conviction": 65,
+            "rationale": "Measles resurgence and FDA commissioner nomination withdrawal signal vaccine hesitancy headwinds and policy uncertainty.",
             "key_themes": [
-              "FDA uncertainty",
-              "healthcare IT vulnerabilities"
+              "vaccine demand risk",
+              "regulatory uncertainty",
+              "public health policy"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale connects measles resurgence and FDA commissioner nomination withdrawal to Pfizer vaccine demand, but neither article links these events to Pfizer specifically or vaccine hesitancy. Article [1] concerns abortion/vaccine stances generically, not vaccine demand. Article [2] discusses measles but not vaccine hesitancy as cause or vaccine manufacturer impact.",
+            "supporting_article": null
+          },
+          {
+            "ticker": "UNH",
+            "company": "UnitedHealth Group",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "Hospital cybersecurity vulnerabilities create operational and cost risks; healthcare IT failures could increase claims and liabilities.",
+            "key_themes": [
+              "cybersecurity risk",
+              "operational disruption",
+              "liability exposure"
             ],
             "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
+          },
+          {
+            "ticker": "TMO",
+            "company": "Thermo Fisher Scientific",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Measles outbreak may drive modest demand for diagnostic and testing capabilities, but impact is uncertain and limited.",
+            "key_themes": [
+              "diagnostic demand",
+              "public health response"
+            ],
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Rationale claims cybersecurity risks threaten 'clinical trial operations' but Article [3] discusses hospital IT vulnerabilities generally, not specific impact on clinical trials. No direct connection established in source material.",
+            "verification_issue": "Article [2] mentions measles resurgence but does not discuss diagnostic or testing demand, nor does it mention Thermo Fisher Scientific or similar diagnostic companies. The connection between measles outbreak and diagnostic demand is assumed but not stated in sources.",
             "supporting_article": null
           }
         ],
-        "summary": "The healthcare sector faces near-term headwinds from FDA leadership uncertainty following the withdrawn nomination of Heidi Overton, which creates regulatory ambiguity for drug approvals. Conversely, the measles resurgence and hospital cybersecurity vulnerabilities present opportunities for diagnostic, vaccine, and healthcare IT security providers. Overall sentiment tilts bearish due to regulatory unpredictability outweighing disease-driven demand tailwinds.",
+        "summary": "Healthcare sector faces multiple headwinds: regulatory pressure (JNJ FDA rebuke), vaccine hesitancy amid measles resurgence (PFE), and escalating cybersecurity threats to hospital operations (UNH). FDA leadership uncertainty adds policy risk. Defensive positioning warranted in near term.",
         "risks": [
-          "Prolonged FDA leadership vacancy may delay drug approvals and create policy uncertainty",
-          "Hospital cybersecurity incidents could disrupt clinical operations and reduce investment in R&D",
-          "Measles outbreak trajectory and vaccination rates remain unpredictable",
-          "Regulatory stance on vaccines and pharmaceuticals under new FDA leadership remains unknown"
+          "Hospital cyber attacks accelerating costs and operational disruption",
+          "Vaccine hesitancy momentum if measles spreads further",
+          "Increased pharma regulatory scrutiny post-FDA nomination withdrawal",
+          "Healthcare IT vulnerabilities creating systemic industry risk"
         ],
         "sector_sentiment": "bearish",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "LLY bearish signal overreaches: while FDA uncertainty (Article 1) and hospital cybersecurity threats (Article 3) are sourced, the specific claim about threat to 'clinical trial operations' is an inference not explicitly stated in articles"
+            "PFE signal conflates abortion/vaccine stance political controversy with actual vaccine demand headwinds without evidentiary connection",
+            "TMO signal speculates on diagnostic demand from measles without source support",
+            "No articles directly address vaccine hesitancy as a measles cause or future trend"
           ],
-          "ungrounded_count": 1
+          "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "TMO": 687.489990234375,
-        "JNJ": 274.92999267578125,
-        "PFE": 28.11840057373047,
-        "MRK": 139.5500030517578,
-        "LLY": 1387.39501953125
+        "JNJ": 265.05999755859375,
+        "PFE": 27.575000762939453,
+        "UNH": 331.4949951171875,
+        "TMO": 696.8925170898438
       },
       "spot_check": {
         "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
@@ -546,28 +487,27 @@
         "published": "18 Nov 2026",
         "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "TMO",
-          "company": "Thermo Fisher Scientific",
-          "sentiment": "bullish",
+          "ticker": "JNJ",
+          "company": "Johnson & Johnson",
+          "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "Measles resurgence and cybersecurity threats to hospitals create demand for diagnostics and IT infrastructure solutions.",
+          "rationale": "FDA rebuke for misleading Inlexzo claims damages credibility and invites regulatory scrutiny on marketing practices.",
           "key_themes": [
-            "disease outbreak response",
-            "healthcare IT security"
+            "regulatory risk",
+            "marketing compliance",
+            "product credibility"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
-          "supporting_article": [
-            2,
-            3
-          ]
+          "supporting_article": 4
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Measles resurgence and cybersecurity threats to hospitals create demand for diagnostics and IT infrastructure solutions.",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "FDA rebuke for misleading Inlexzo claims damages credibility and invites regulatory scrutiny on marketing practices.",
         "haiku_themes": [
-          "disease outbreak response",
-          "healthcare IT security"
+          "regulatory risk",
+          "marketing compliance",
+          "product credibility"
         ]
       },
       "config": {
@@ -587,27 +527,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Google Buys Worker Data From Spirit Airlines in a New Market to Feed A.I.",
-          "summary": "A flight attendants\u2019 union challenged Google\u2019s plans to protect personal information in the data in court, saying the company\u2019s measures were not enough to protect Spirit\u2019s employees.",
-          "url": "https://www.nytimes.com/2026/11/18/business/economy/google-spirit-employee-data-ai.html",
+          "title": "Meet Anthropic\u2019s seven founders. Each is now worth about $20 billion.",
+          "summary": "",
+          "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/meet-anthropics-seven-founders-each-is-now-worth-about-20-billion",
           "source": "Rss",
-          "published": "18 Nov 2026",
+          "published": "19 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "A Massachusetts Town Revolts Against Amazon\u2019s Delivery Drones",
-          "summary": "Amazon wants to offer fast delivery. Residents want quiet skies. A Massachusetts suburb wages an epic battle over control of its airspace.",
-          "url": "https://www.nytimes.com/2026/11/18/us/politics/amazon-delivery-drones-massachusetts.html",
+          "title": "China Is Shut Out of Anthropic\u2019s Blockbuster I.P.O.",
+          "summary": "Anthropic excluded investment firms from China and Hong Kong from buying shares in advance of its initial public offering.",
+          "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-china-hong-kong.html",
           "source": "Rss",
-          "published": "18 Nov 2026",
-          "sentiment_hint": "bullish"
+          "published": "19 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Hospitals Rush to Patch Java Vulnerabilities",
-          "summary": "Artificial intelligence is accelerating the threats facing health systems that have been under attack from hackers for years.",
-          "url": "https://www.nytimes.com/2026/11/18/business/hospitals-java-artificial-intelligence.html",
+          "title": "How Anthropic\u2019s Dario Amodei thinks about A.I.",
+          "summary": "",
+          "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropics-dario-amodei-thinks-about-ai",
           "source": "Rss",
-          "published": "18 Nov 2026",
+          "published": "19 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -640,98 +580,151 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Tech sector volatility from AI concerns may increase M&A advisory opportunities but near-term uncertainty persists.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "Financial services benefit from major AI IPO activity; Anthropic's $20B+ valuation signals continued fintech M&A opportunities",
             "key_themes": [
-              "market volatility",
-              "tech sector uncertainty"
+              "AI IPO financing",
+              "investment banking fees",
+              "wealth management growth"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Lead underwriter exposure to major AI unicorn IPOs like Anthropic generates significant advisory and underwriting revenue",
+            "key_themes": [
+              "IPO underwriting",
+              "M&A advisory",
+              "tech sector financing"
+            ],
+            "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "While Article [4] documents AI sector volatility and stock declines, there is no evidence in the sources that this creates M&A advisory opportunities for JPMorgan Chase. The rationale speculates about downstream effects without source support.",
+            "verification_issue": "Articles mention Anthropic IPO but do not identify Goldman Sachs as lead underwriter or confirm GS involvement in this transaction",
             "supporting_article": null
           },
           {
-            "ticker": "V",
-            "company": "Visa Inc.",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Amazon delivery drone regulatory battles may impact e-commerce growth rates, affecting payment volume trajectories.",
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "Strong positioning in AI sector financing and wealth management for newly minted billionaire founders from tech IPOs",
             "key_themes": [
-              "e-commerce regulation",
-              "payment volumes"
+              "founder wealth management",
+              "tech IPO participation",
+              "investment banking"
             ],
             "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "V",
+            "company": "Visa",
+            "sentiment": "neutral",
+            "conviction": 50,
+            "rationale": "No direct impact from AI IPO news or DeepSeek selloff; payment volumes remain stable amid market volatility",
+            "key_themes": [
+              "market neutral positioning",
+              "economic resilience"
+            ],
+            "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Article [2] describes Amazon's drone delivery regulatory battles in Massachusetts, but provides no analysis or evidence linking this local regulatory dispute to e-commerce growth rates or payment volume trajectories. The connection is speculative.",
-            "supporting_article": 2
+            "verification_issue": "Rationale claims 'no direct impact' but sources do not provide payment volume data or Visa-specific analysis to support this neutral stance",
+            "supporting_article": null
           },
           {
             "ticker": "MA",
-            "company": "Mastercard Inc.",
+            "company": "Mastercard",
             "sentiment": "neutral",
             "conviction": 50,
-            "rationale": "Amazon delivery drone regulatory battles may impact e-commerce growth rates, affecting payment volume trajectories.",
+            "rationale": "Similar to Visa, no meaningful exposure to AI valuation shifts or commodity moves affecting this analysis",
             "key_themes": [
-              "e-commerce regulation",
-              "payment volumes"
+              "market neutral positioning",
+              "stable operations"
             ],
-            "time_horizon": "medium-term",
+            "time_horizon": "short-term",
             "verified": false,
-            "verification_issue": "Article [2] describes Amazon's drone delivery regulatory battles in Massachusetts, but provides no analysis or evidence linking this local regulatory dispute to e-commerce growth rates or payment volume trajectories. The connection is speculative.",
-            "supporting_article": 2
+            "verification_issue": "Rationale claims 'no meaningful exposure' but sources do not provide Mastercard-specific analysis or payment data to support this neutral stance",
+            "supporting_article": null
+          },
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Generic exposure to tech financing but less direct involvement than investment banking-focused peers; market volatility neutral",
+            "key_themes": [
+              "commercial banking stability",
+              "tech sector exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Rationale claims 'less direct involvement than investment banking-focused peers' but sources do not differentiate Bank of America's role versus other banks in tech financing",
+            "supporting_article": null
           }
         ],
-        "summary": "Finance sector exposure to these articles is minimal and indirect. The primary themes\u2014AI infrastructure deflation (DeepSeek), regulatory headwinds for tech (Amazon drones, data privacy), and cybersecurity threats (hospital Java vulnerabilities)\u2014create near-term market uncertainty but lack direct fundamental impact on banking or payment processors. Payment networks face modest headwinds from e-commerce slowdown risks if delivery innovation stalls.",
+        "summary": "Investment banks (JPM, GS, MS) show bullish signals driven by Anthropic's major IPO activity and founder wealth creation, generating significant underwriting and advisory fees. Payment processors (V, MA) remain neutral as they lack direct AI sector exposure, while market volatility from DeepSeek news does not materially affect financial services valuations in this timeframe.",
         "risks": [
-          "Continued tech sector selloff reducing M&A activity",
-          "E-commerce growth deceleration from regulatory barriers",
-          "Cybersecurity incidents affecting institutional clients"
+          "AI valuation correction could reduce IPO pipeline and M&A activity",
+          "geopolitical tensions limiting tech financing opportunities",
+          "DeepSeek competition could dampen AI sector investor enthusiasm"
         ],
-        "sector_sentiment": "neutral",
+        "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "low",
+          "overall_reliability": "medium",
           "flags": [
-            "JPM rationale assumes M&A advisory opportunities from tech volatility without source evidence",
-            "V and MA rationales assume Amazon drone regulations will impact e-commerce growth rates and payment volumes, but sources only describe a local Massachusetts regulatory conflict with no macroeconomic impact analysis",
-            "All three signals make causal claims (volatility \u2192 opportunities; regulation \u2192 growth impact) that exceed what the source articles establish"
+            "GS signal assumes Goldman Sachs is lead underwriter on Anthropic IPO without source confirmation",
+            "V and MA signals lack supporting data on payment volumes or market neutrality claims",
+            "BAC signal makes comparative claims about bank roles without source evidence"
           ],
-          "ungrounded_count": 3
+          "ungrounded_count": 4
         }
       },
       "prices_snapshot": {
-        "JPM": 326.25,
-        "V": 414.78009033203125,
-        "MA": 640.5800170898438
+        "JPM": 321.489990234375,
+        "GS": 868.5850219726562,
+        "MS": 177.74000549316406,
+        "V": 402.9599914550781,
+        "MA": 629.760009765625,
+        "BAC": 48.669898986816406
       },
       "spot_check": {
-        "title": "A Massachusetts Town Revolts Against Amazon\u2019s Delivery Drones",
-        "summary": "Amazon wants to offer fast delivery. Residents want quiet skies. A Massachusetts suburb wages an epic battle over control of its airspace.",
-        "url": "https://www.nytimes.com/2026/11/18/us/politics/amazon-delivery-drones-massachusetts.html",
+        "title": "Meet Anthropic\u2019s seven founders. Each is now worth about $20 billion.",
+        "summary": "",
+        "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/meet-anthropics-seven-founders-each-is-now-worth-about-20-billion",
         "source": "Rss",
-        "published": "18 Nov 2026",
-        "sentiment_hint": "bullish",
+        "published": "19 Nov 2026",
+        "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "V",
-          "company": "Visa Inc.",
-          "sentiment": "neutral",
-          "conviction": 50,
-          "rationale": "Amazon delivery drone regulatory battles may impact e-commerce growth rates, affecting payment volume trajectories.",
+          "ticker": "JPM",
+          "company": "JPMorgan Chase",
+          "sentiment": "bullish",
+          "conviction": 72,
+          "rationale": "Financial services benefit from major AI IPO activity; Anthropic's $20B+ valuation signals continued fintech M&A opportunities",
           "key_themes": [
-            "e-commerce regulation",
-            "payment volumes"
+            "AI IPO financing",
+            "investment banking fees",
+            "wealth management growth"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [2] describes Amazon's drone delivery regulatory battles in Massachusetts, but provides no analysis or evidence linking this local regulatory dispute to e-commerce growth rates or payment volume trajectories. The connection is speculative.",
-          "supporting_article": 2
+          "verified": true,
+          "verification_issue": null,
+          "supporting_article": 1
         },
-        "haiku_sentiment": "neutral",
-        "haiku_rationale": "Amazon delivery drone regulatory battles may impact e-commerce growth rates, affecting payment volume trajectories.",
+        "haiku_sentiment": "bullish",
+        "haiku_rationale": "Financial services benefit from major AI IPO activity; Anthropic's $20B+ valuation signals continued fintech M&A opportunities",
         "haiku_themes": [
-          "e-commerce regulation",
-          "payment volumes"
+          "AI IPO financing",
+          "investment banking fees",
+          "wealth management growth"
         ]
       },
       "config": {
