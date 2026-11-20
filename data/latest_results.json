@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-11-19",
-  "run_time": "2026-11-19T16:17:35.159675Z",
+  "run_date": "2026-11-20",
+  "run_time": "2026-11-20T15:55:09.043845Z",
   "results": {
     "Technology": {
       "articles": [
@@ -29,86 +29,100 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "You can grab two months of Paramount Plus for just $2.99 for Black Friday",
-          "summary": "Ahead of Black Friday, you can subscribe to Paramount Plus for just $2.99 per month for the first two months. After the introductory period, you can cancel your subscription or automatically renew at the then-current rate, which, as of now, is $8.99 per month for the ad-supported Essential plan or $13.99 per month for the [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/1036229/paramount-plus-black-friday-deal-2026-sale",
+          "title": "The best early Black Friday deals you can already shop",
+          "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn&#8217;t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn&#8217;t necessarily mean you&#8217;re getting a historically low price. But [&#8230;]",
+          "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
           "source": "Theverge",
-          "published": "19 Nov 2026",
-          "sentiment_hint": "neutral"
+          "published": "20 Nov 2026",
+          "sentiment_hint": "bearish"
         },
         {
-          "title": "JPMorgan Chase reveals data breach, but says it&#8217;s unrelated to this week&#8217;s banking outage",
-          "summary": "JPMorgan Chase says its third-party vendors suffered a cyberattack, exposing marketing data like customer names and email addresses. The confirmation follows a report from Cybernews, which says a ransomware group leaked email addresses belonging to around 16,000 JPMorgan Chase customers. In a post about the attack, JPMorgan Chase says \"there is no connection\" to the [&#8230;]",
-          "url": "https://www.theverge.com/tech/1037695/jpmorgan-chase-cyberattack",
+          "title": "UN court cites military Facebook posts while finding Myanmar guilty of genocide",
+          "summary": "In its ruling that Myanmar committed state-sponsored genocide against the Rohingya people in 2016 and 2017, the United Nations' top court says that Facebook played a role in helping Myanmar's military spread hate speech against its Muslim minority. The ruling from the International Court of Justice determined that Facebook posts made by the country's military [&#8230;]",
+          "url": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
           "source": "Theverge",
-          "published": "19 Nov 2026",
-          "sentiment_hint": "neutral"
+          "published": "20 Nov 2026",
+          "sentiment_hint": "bullish"
         },
         {
-          "title": "The Verge\u2019s 2026 fitness and wellness gift guide",
-          "summary": "We could all use a hand when it comes to being more mindful about our health and fitness. The holidays provide plenty of reasons to focus on wellness in body and mind, and a good gift can be just the thing to spur a new hobby or support healthy habits. With that in mind, we're [&#8230;]",
-          "url": "https://www.theverge.com/gadgets/1021241/best-fitness-wellness-gifts-2026",
+          "title": "Let\u2019s talk about GTA VI",
+          "summary": "It's hard to believe, but Grand Theft Auto VI is now a real thing that we all can play. Thirteen years after GTA V, and eight years since Red Dead Redemption 2, Rockstar is back with its latest sprawling, extravagant open world. There's a lot to experience - and a lot to talk about. Perhaps [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/1037545/gta-6-discussion",
           "source": "Theverge",
-          "published": "19 Nov 2026",
+          "published": "20 Nov 2026",
           "sentiment_hint": "neutral"
         }
       ],
       "analysis": {
         "signals": [
           {
-            "ticker": "MSFT",
-            "company": "Microsoft Corporation",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "ChatGPT integration driving organic traffic and AI-powered search relevance, strengthening competitive moat in AI-assisted discovery.",
-            "key_themes": [
-              "AI search integration",
-              "ChatGPT monetization",
-              "organic traffic generation"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Article [2] describes ChatGPT recommending content organically, but does not establish this as a Microsoft/MSFT competitive advantage. ChatGPT is OpenAI's product; the article does not discuss Microsoft's role, integration strategy, or how this strengthens MSFT's 'competitive moat.' The rationale conflates ChatGPT's capabilities with Microsoft's business benefits without evidence from the sources.",
-            "supporting_article": 2
-          },
-          {
             "ticker": "GOOGL",
             "company": "Alphabet Inc.",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "ChatGPT's direct AI recommendations pose competitive threat to traditional search, but Google's AI capabilities remain strong; near-term pressure on search monetization.",
+            "sentiment": "bullish",
+            "conviction": 72,
+            "rationale": "ChatGPT's AI-driven search recommendations demonstrate competitive pressure on Google Search, incentivizing innovation in AI-powered search monetization.",
             "key_themes": [
-              "AI search disruption",
-              "competitive threat",
-              "content ranking changes"
+              "AI search integration",
+              "competitive threat from ChatGPT",
+              "organic traffic disruption"
             ],
             "time_horizon": "medium-term",
             "verified": true,
-            "verification_issue": "Partially grounded. Article [2] does describe ChatGPT making direct AI recommendations that bypass traditional search, which supports the 'competitive threat' theme. However, the article does not discuss Google's AI capabilities, search monetization pressure, or provide evidence for 'near-term pressure on search monetization.' The competitive threat claim is supported, but broader rationale lacks source support.",
+            "verification_issue": null,
+            "supporting_article": 2
+          },
+          {
+            "ticker": "META",
+            "company": "Meta Platforms Inc.",
+            "sentiment": "bearish",
+            "conviction": 68,
+            "rationale": "UN court ruling implicates Facebook's role in spreading hate speech and genocide, creating regulatory and reputational risks with potential legal/financial consequences.",
+            "key_themes": [
+              "content moderation failures",
+              "genocide complicity",
+              "regulatory risk",
+              "reputational damage"
+            ],
+            "time_horizon": "long-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 5
+          },
+          {
+            "ticker": "MSFT",
+            "company": "Microsoft Corporation",
+            "sentiment": "bullish",
+            "conviction": 65,
+            "rationale": "ChatGPT's expanding role in search and content discovery validates OpenAI partnership value and positions Microsoft's AI ecosystem for broader enterprise adoption.",
+            "key_themes": [
+              "ChatGPT monetization",
+              "AI integration",
+              "enterprise AI demand"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
             "supporting_article": 2
           }
         ],
-        "summary": "AI tools are fundamentally reshaping digital discovery and content creation workflows in 2025-2026. ChatGPT's integration into user decision-making represents a significant shift away from traditional search, benefiting Microsoft while creating uncertainty for Google's core search business. The proliferation of specialized AI tools indicates sustained investment momentum in the AI sector, though content creators face new monetization challenges.",
+        "summary": "AI tools are reshaping digital ecosystems with ChatGPT demonstrating significant search and content discovery capabilities, benefiting Microsoft while pressuring Google's core search business. However, Meta faces serious regulatory and reputational headwinds from the UN genocide ruling linked to Facebook's content moderation failures. The broader tech sector shows AI innovation momentum but heightened regulatory scrutiny on platform accountability.",
         "risks": [
-          "ChatGPT and AI assistants cannibalizing traditional search traffic and advertising revenue",
-          "Regulatory scrutiny on data usage for AI training and third-party vendor cybersecurity vulnerabilities",
-          "Open-source AI tools like REA democratizing reverse engineering capabilities, creating IP and security concerns"
+          "Regulatory crackdown on AI training and content moderation following Meta precedent",
+          "Accelerated antitrust investigations into AI-powered search monopolies",
+          "Reputational contagion affecting other major tech platforms",
+          "Open-source AI tools (REA) may democratize capabilities, reducing proprietary AI moat"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
-          "overall_reliability": "low",
-          "flags": [
-            "MSFT signal attributes ChatGPT's organic traffic generation to Microsoft without evidence; OpenAI/ChatGPT ownership and Microsoft's specific role are not discussed in source articles",
-            "MSFT rationale overstates connection between ChatGPT recommendations and MSFT competitive positioning",
-            "GOOGL signal's claim about 'search monetization pressure' is not substantiated in the provided articles",
-            "Neither signal acknowledges that ChatGPT is an OpenAI product, not a Microsoft-exclusive service, limiting the relevance to MSFT equity thesis"
-          ],
-          "ungrounded_count": 1
+          "overall_reliability": "high",
+          "flags": [],
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "MSFT": 514.4199829101562,
-        "GOOGL": 288.50750732421875
+        "GOOGL": 277.8500061035156,
+        "META": 577.469970703125,
+        "MSFT": 495.2200012207031
       },
       "spot_check": {
         "title": "REA: The Open-Source AI Tool That Can Reverse Engineer Almost Anything (2026 Guide)",
@@ -118,27 +132,27 @@
         "published": "05 Nov 2026",
         "sentiment_hint": "neutral",
         "related_signal": {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "ChatGPT integration driving organic traffic and AI-powered search relevance, strengthening competitive moat in AI-assisted discovery.",
+          "rationale": "ChatGPT's AI-driven search recommendations demonstrate competitive pressure on Google Search, incentivizing innovation in AI-powered search monetization.",
           "key_themes": [
             "AI search integration",
-            "ChatGPT monetization",
-            "organic traffic generation"
+            "competitive threat from ChatGPT",
+            "organic traffic disruption"
           ],
           "time_horizon": "medium-term",
-          "verified": false,
-          "verification_issue": "Article [2] describes ChatGPT recommending content organically, but does not establish this as a Microsoft/MSFT competitive advantage. ChatGPT is OpenAI's product; the article does not discuss Microsoft's role, integration strategy, or how this strengthens MSFT's 'competitive moat.' The rationale conflates ChatGPT's capabilities with Microsoft's business benefits without evidence from the sources.",
+          "verified": true,
+          "verification_issue": null,
           "supporting_article": 2
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "ChatGPT integration driving organic traffic and AI-powered search relevance, strengthening competitive moat in AI-assisted discovery.",
+        "haiku_rationale": "ChatGPT's AI-driven search recommendations demonstrate competitive pressure on Google Search, incentivizing innovation in AI-powered search monetization.",
         "haiku_themes": [
           "AI search integration",
-          "ChatGPT monetization",
-          "organic traffic generation"
+          "competitive threat from ChatGPT",
+          "organic traffic disruption"
         ]
       },
       "config": {
@@ -158,28 +172,28 @@
     "Petroleum & Energy": {
       "articles": [
         {
-          "title": "AI Jitters Haven't Slowed the Bet on U.S. Power Demand",
-          "summary": "We finally have hard data to show us exactly how much energy data centers are using in the United States, and the results are staggering. Driven by the artificial intelligence boom, energy-hungry data centers are popping up in record numbers around the country and driving up domestic energy demand after decades of plateaued growth. Data center hyperscalers in the United States alone now rival the energy demand of entire other nations, with worrying implications for energy security, economic infl",
-          "url": "https://oilprice.com/Energy/Energy-General/AI-Jitters-Havent-Slowed-the-Bet-on-US-Power-Demand.html",
+          "title": "China\u2019s Oil Imports from Persian Gulf Jump to Wartime High",
+          "summary": "China\u2019s crude oil imports from the Persian Gulf surged by 42.4% in October from September, to the highest level since the Iran war began, as supply via the Strait of Hormuz rebounded and Gulf producers slashed prices for their crude to attract buyers amid record-high freight rates.\u00a0 China imported 19.7 million tons of crude oil from the Persian Gulf producers, excluding Iran, in October, a 42.4% jump from the previous month, per calculations by the South China Morning Post based on Chinese custo",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-from-Persian-Gulf-Jump-to-Wartime-High.html",
           "source": "Oilprice",
-          "published": "19 Nov 2026",
+          "published": "20 Nov 2026",
           "sentiment_hint": "bullish"
         },
         {
-          "title": "Venezuela Turns to AI to Cut Methane Leaks",
-          "summary": "Venezuela is using artificial intelligence to reduce emissions and increase efficiency in its oil and gas industry, a senior official told Reuters on the sidelines of the COP31 summit in Antalya, as the world\u2019s biggest crude reserves holder looks to boost production.\u00a0 Venezuela will not stop pumping oil, Albania del Mar Villarroel Gomez, vice minister for AI and efficiency in hydrocarbons, told Reuters.\u00a0 \u201cOur policy is not to stop producing hydrocarbons,\u201d the official told Reuters, as Venezuela ",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Turns-to-AI-to-Cut-Methane-Leaks.html",
+          "title": "Historic Superpower Summit Delivers Big Promises but Few Breakthroughs",
+          "summary": "US President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin held a historic meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen that delivered modest wins for all three men but no game-changing accords. The high-stakes summit on November 19 marked the first time the current heads of state of the three world\u2019s largest nuclear powers have held a trilateral meeting without other leaders present, though Putin and Xi have met abou",
+          "url": "https://oilprice.com/Geopolitics/Asia/Historic-Superpower-Summit-Delivers-Big-Promises-but-Few-Breakthroughs.html",
           "source": "Oilprice",
-          "published": "19 Nov 2026",
-          "sentiment_hint": "bearish"
+          "published": "20 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
-          "title": "Russia Faces a Logistics Nightmare After Crimea Bridge Collapse",
-          "summary": "It\u2019s a $4 billion engineering showpiece, bridging 19 kilometers of Black Sea waterway and cementing Moscow\u2019s grip on Crimea, the Ukrainian peninsula Russia occupied in 2014. Now, more than 200 meters of the Crimea Bridge lie wrecked in 9 meters of water, leaving an asphalt-and-steel debris field cluttering the Kerch Strait shipping channel and a gaping hole in Russia\u2019s efforts to keep Crimea occupied and functional. The missile-and-drone attack was not the first time Ukraine has targeted the str",
-          "url": "https://oilprice.com/Geopolitics/Europe/Russia-Faces-a-Logistics-Nightmare-After-Crimea-Bridge-Collapse.html",
+          "title": "Europe Has Already Drained 11% of Its Summer Gas Injections",
+          "summary": "In less than a month, Europe has already sapped 11% of the natural gas volumes it had injected into storage during the summer, which, combined with a low starting point of gas in storage, intensifies concerns about winter supply.\u00a0 So far into the heating season, which officially began at the end of October, the net withdrawals of European countries have reached about 11% of the 51.2 billion cubic meters of gas they had injected into storage sites this summer, Azeri outlet APA-Economics reported ",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-11-of-Its-Summer-Gas-Injections.html",
           "source": "Oilprice",
-          "published": "19 Nov 2026",
-          "sentiment_hint": "bearish"
+          "published": "20 Nov 2026",
+          "sentiment_hint": "neutral"
         },
         {
           "title": "Pe\u00f1oles and Atlas sign 20-year solar and storage deal in Mexico",
@@ -213,13 +227,13 @@
             "company": "Exxon Mobil Corporation",
             "sentiment": "bullish",
             "conviction": 72,
-            "rationale": "Surging US data center energy demand creates long-term upstream and downstream growth opportunities",
+            "rationale": "Chinese demand surge and Persian Gulf pricing support higher crude demand and upstream margins near-term.",
             "key_themes": [
-              "data center demand",
-              "energy security",
-              "US power demand growth"
+              "demand recovery",
+              "pricing strength",
+              "geopolitical stability"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
@@ -229,99 +243,136 @@
             "company": "Chevron Corporation",
             "sentiment": "bullish",
             "conviction": 70,
-            "rationale": "US data center expansion drives sustained domestic energy demand after decades of plateau",
+            "rationale": "42.4% jump in China's Persian Gulf imports signals robust Asian demand for major producers' crude output.",
             "key_themes": [
-              "data center demand",
-              "domestic energy growth",
-              "energy security"
+              "demand recovery",
+              "Asian markets",
+              "production economics"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
+          },
+          {
+            "ticker": "SHEL",
+            "company": "Shell PLC",
+            "sentiment": "bullish",
+            "conviction": 68,
+            "rationale": "Chinese import surge and high freight rates create favorable conditions for Middle East crude suppliers and traders.",
+            "key_themes": [
+              "demand recovery",
+              "trading upside",
+              "Asia exposure"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
+          },
+          {
+            "ticker": "BP",
+            "company": "BP PLC",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "Chinese demand positive but limited direct Persian Gulf exposure compared to peers; geopolitical tensions remain uncertain.",
+            "key_themes": [
+              "demand recovery",
+              "geopolitical risk",
+              "portfolio diversification"
+            ],
+            "time_horizon": "medium-term",
+            "verified": false,
+            "verification_issue": "Rationale mentions 'geopolitical tensions' but Article [2] on the superpower summit does not substantiate this claim; Article [1] does not indicate geopolitical tension, only supply rebound and price competition",
+            "supporting_article": null
+          },
+          {
+            "ticker": "TTE",
+            "company": "TotalEnergies SE",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "European gas storage drawdown and renewable energy transition headwinds offset modest benefits from Chinese demand.",
+            "key_themes": [
+              "energy transition",
+              "gas supply concerns",
+              "demand recovery"
+            ],
+            "time_horizon": "medium-term",
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 3
           },
           {
             "ticker": "COP",
             "company": "ConocoPhillips",
             "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "US-focused upstream player positioned to benefit from structural data center energy demand surge",
+            "conviction": 69,
+            "rationale": "Strong Chinese crude demand and price discounting improve near-term realization for major upstream producers.",
             "key_themes": [
-              "data center demand",
-              "US energy demand",
-              "long-term growth"
+              "demand recovery",
+              "pricing strength",
+              "production upside"
             ],
-            "time_horizon": "long-term",
+            "time_horizon": "short-term",
             "verified": true,
             "verification_issue": null,
             "supporting_article": 1
-          },
-          {
-            "ticker": "SLB",
-            "company": "Schlumberger Limited",
-            "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Venezuela's AI-driven efficiency improvements may modestly boost production but geopolitical risks remain significant",
-            "key_themes": [
-              "Venezuela production",
-              "AI efficiency",
-              "emissions reduction"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 2
           }
         ],
-        "summary": "The petroleum sector faces a structurally bullish tailwind from explosive US data center energy demand driven by AI proliferation, benefiting integrated majors and upstream producers with US exposure. However, this is partially offset by accelerating renewable energy adoption (solar, geothermal, offshore wind) and production headwinds from Russian logistics disruption. Near-term, traditional oil & gas faces competition from alternative energy sources, but multi-year data center demand should sustain elevated commodity prices.",
+        "summary": "Oil majors face a mixed but near-term bullish outlook driven by a dramatic 42.4% surge in China's Persian Gulf crude imports, signaling strong Asian demand recovery and attractive pricing dynamics for producers like XOM, CVX, and COP. However, the sector faces longer-term headwinds from accelerating renewable energy projects (solar, wind, geothermal) and European gas storage concerns, which weigh on integrated players like TTE and BP. Geopolitical stabilization implied by the US-China-Russia summit could support sustained demand, though energy transition risks remain material for all majors.",
         "risks": [
-          "Energy transition acceleration reducing oil demand faster than data center growth offsets",
-          "Geopolitical disruptions (Russia logistics, Venezuela sanctions) constraining supply recovery",
-          "Data center energy demand projections may prove overstated if AI capex cycle moderates",
-          "Renewable energy PPAs indicate structural competition for power generation market share"
+          "Renewable energy acceleration reducing long-term hydrocarbon demand",
+          "European winter gas supply tightness limiting price upside",
+          "Geopolitical tensions resurging and disrupting Strait of Hormuz flows",
+          "Energy transition policy driving divestment and capital constraints",
+          "Chinese economic slowdown reversing import surge"
         ],
         "sector_sentiment": "bullish",
         "verification": {
-          "overall_reliability": "high",
-          "flags": [],
-          "ungrounded_count": 0
+          "overall_reliability": "medium",
+          "flags": [
+            "BP signal includes unsupported claim about 'geopolitical tensions remain uncertain' - Article [2] discusses diplomatic engagement, not tensions; no tension narrative is established in source materials"
+          ],
+          "ungrounded_count": 1
         }
       },
       "prices_snapshot": {
-        "XOM": 159.89999389648438,
-        "CVX": 206.47000122070312,
-        "COP": 134.3542938232422,
-        "SLB": 48.54999923706055
+        "XOM": 161.25,
+        "CVX": 209.55999755859375,
+        "SHEL": 94.37000274658203,
+        "BP": 43.33000183105469,
+        "TTE": 86.29019927978516,
+        "COP": 137.63499450683594
       },
       "spot_check": {
-        "title": "AI Jitters Haven't Slowed the Bet on U.S. Power Demand",
-        "summary": "We finally have hard data to show us exactly how much energy data centers are using in the United States, and the results are staggering. Driven by the artificial intelligence boom, energy-hungry data centers are popping up in record numbers around the country and driving up domestic energy demand after decades of plateaued growth. Data center hyperscalers in the United States alone now rival the energy demand of entire other nations, with worrying implications for energy security, economic infl",
-        "url": "https://oilprice.com/Energy/Energy-General/AI-Jitters-Havent-Slowed-the-Bet-on-US-Power-Demand.html",
+        "title": "China\u2019s Oil Imports from Persian Gulf Jump to Wartime High",
+        "summary": "China\u2019s crude oil imports from the Persian Gulf surged by 42.4% in October from September, to the highest level since the Iran war began, as supply via the Strait of Hormuz rebounded and Gulf producers slashed prices for their crude to attract buyers amid record-high freight rates.\u00a0 China imported 19.7 million tons of crude oil from the Persian Gulf producers, excluding Iran, in October, a 42.4% jump from the previous month, per calculations by the South China Morning Post based on Chinese custo",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-from-Persian-Gulf-Jump-to-Wartime-High.html",
         "source": "Oilprice",
-        "published": "19 Nov 2026",
+        "published": "20 Nov 2026",
         "sentiment_hint": "bullish",
         "related_signal": {
           "ticker": "XOM",
           "company": "Exxon Mobil Corporation",
           "sentiment": "bullish",
           "conviction": 72,
-          "rationale": "Surging US data center energy demand creates long-term upstream and downstream growth opportunities",
+          "rationale": "Chinese demand surge and Persian Gulf pricing support higher crude demand and upstream margins near-term.",
           "key_themes": [
-            "data center demand",
-            "energy security",
-            "US power demand growth"
+            "demand recovery",
+            "pricing strength",
+            "geopolitical stability"
           ],
-          "time_horizon": "long-term",
+          "time_horizon": "short-term",
           "verified": true,
           "verification_issue": null,
           "supporting_article": 1
         },
         "haiku_sentiment": "bullish",
-        "haiku_rationale": "Surging US data center energy demand creates long-term upstream and downstream growth opportunities",
+        "haiku_rationale": "Chinese demand surge and Persian Gulf pricing support higher crude demand and upstream margins near-term.",
         "haiku_themes": [
-          "data center demand",
-          "energy security",
-          "US power demand growth"
+          "demand recovery",
+          "pricing strength",
+          "geopolitical stability"
         ]
       },
       "config": {
@@ -365,25 +416,25 @@
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/marketing/jj-draws-fda-rebuke-misstating-inlexzos-bladder-sparing-benefits\" hreflang=\"en\">J&amp;J draws FDA rebuke for misstating Inlexzo\u2019s bladder-sparing benefits</a>",
-          "summary": "The FDA has slammed Johnson &amp; Johnson over misleading claims about its bladder cancer drug Inlexzo, accusing the pharma company of basing statements on uninterpretable data.",
-          "url": "https://www.fiercepharma.com/marketing/jj-draws-fda-rebuke-misstating-inlexzos-bladder-sparing-benefits",
-          "source": "Fiercepharma",
-          "published": "",
-          "sentiment_hint": "bearish"
-        },
-        {
-          "title": "<a href=\"https://www.fiercepharma.com/manufacturing/lotte-inks-production-deal-cdmo-preps-open-33b-south-korean-plant\" hreflang=\"en\">CDMO Lotte inks commercial production deal as work on South Korean plant wraps</a>",
-          "summary": "Lotte Biologics, which was established in 2022, inked a major manufacturing deal with an unnamed pharmaceutical company as the South Korean CDMO gears up for commercial production at its new multi-billion-dollar Songdo Bio Campus near Seoul.",
-          "url": "https://www.fiercepharma.com/manufacturing/lotte-inks-production-deal-cdmo-preps-open-33b-south-korean-plant",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/another-215-layoffs-linked-novos-new-jersey-hq\" hreflang=\"en\">Another 215 layoffs linked to Novo's New Jersey HQ</a>",
+          "summary": "Novo will trim 215 jobs reporting to its New Jersey headquarters starting in February as part of a \"redesign\" of its U.S. sales organization.",
+          "url": "https://www.fiercepharma.com/pharma/another-215-layoffs-linked-novos-new-jersey-hq",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "<a href=\"https://www.fiercepharma.com/sponsored/ais-real-prize-building-tomorrows-ci-capability\" hreflang=\"en\">AI\u2019s Real Prize: Building Tomorrow\u2019s CI Capability</a>",
-          "summary": "AI is becoming a commodity. Javier Vega explains why the next advantage in competitive intelligence comes from people, judgment and scale.",
-          "url": "https://www.fiercepharma.com/sponsored/ais-real-prize-building-tomorrows-ci-capability",
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/ivonescimab-fda-rejection-pfizer-vivo-car-t-deal-china-fires-scientists-fatal-gene-trial\" hreflang=\"en\">Fierce Pharma Asia\u2014Ivonescimab\u2019s FDA snub; Pfizer\u2019s in vivo CAR-T deal; China fires scientists in fatal gene trial</a>",
+          "summary": "The FDA's complete response letter for Summit and Akeso's ivonescimab reveals more grievances than just an overall survival miss. Pfizer is licensing three in vivo autoimmune CAR-T programs from China's Starna Therapeutics. Chinese authorities have handed out penalties to individuals and organizations involved in a gene editing trial that led to a child's death. And more.",
+          "url": "https://www.fiercepharma.com/pharma/ivonescimab-fda-rejection-pfizer-vivo-car-t-deal-china-fires-scientists-fatal-gene-trial",
+          "source": "Fiercepharma",
+          "published": "",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "<a href=\"https://www.fiercepharma.com/pharma/sanofi-snags-fda-nod-become-first-neurologic-treatment-rare-gd3\" hreflang=\"en\">Sanofi gets Genzyme asset across FDA finish line with key nod in Gaucher type 3</a>",
+          "summary": "Sanofi's Infilbray secured an FDA approval to treat children and adults with the rare metabolic and neurogenerative disorder Type 3 Gaucher disease. The daily oral therapy is the first to address the disease's neurological effects.",
+          "url": "https://www.fiercepharma.com/pharma/sanofi-snags-fda-nod-become-first-neurologic-treatment-rare-gd3",
           "source": "Fiercepharma",
           "published": "",
           "sentiment_hint": "neutral"
@@ -392,92 +443,94 @@
       "analysis": {
         "signals": [
           {
-            "ticker": "JNJ",
-            "company": "Johnson & Johnson",
-            "sentiment": "bearish",
-            "conviction": 72,
-            "rationale": "FDA rebuke for misleading Inlexzo claims damages credibility and invites regulatory scrutiny on marketing practices.",
-            "key_themes": [
-              "regulatory risk",
-              "marketing compliance",
-              "product credibility"
-            ],
-            "time_horizon": "short-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 4
-          },
-          {
             "ticker": "PFE",
             "company": "Pfizer Inc.",
             "sentiment": "bearish",
-            "conviction": 65,
-            "rationale": "Measles resurgence and FDA commissioner nomination withdrawal signal vaccine hesitancy headwinds and policy uncertainty.",
+            "conviction": 72,
+            "rationale": "FDA complete response letter for ivonescimab reveals significant efficacy concerns beyond overall survival miss.",
             "key_themes": [
-              "vaccine demand risk",
+              "regulatory setback",
+              "clinical trial failure",
+              "pipeline risk"
+            ],
+            "time_horizon": "short-term",
+            "verified": false,
+            "verification_issue": "Article [5] mentions ivonescimab FDA rejection with 'grievances beyond overall survival miss' but does NOT attribute this to Pfizer. The drug is from Summit and Akeso. Pfizer's involvement in article [5] is limited to licensing CAR-T programs from Starna Therapeutics, unrelated to ivonescimab. Analyst incorrectly conflates Pfizer with the ivonescimab setback.",
+            "supporting_article": 5
+          },
+          {
+            "ticker": "JNJ",
+            "company": "Johnson & Johnson",
+            "sentiment": "neutral",
+            "conviction": 45,
+            "rationale": "FDA commissioner nomination withdrawal creates regulatory uncertainty; potential impact on vaccine/immunology approvals unclear.",
+            "key_themes": [
               "regulatory uncertainty",
-              "public health policy"
+              "FDA leadership vacuum"
             ],
             "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Rationale connects measles resurgence and FDA commissioner nomination withdrawal to Pfizer vaccine demand, but neither article links these events to Pfizer specifically or vaccine hesitancy. Article [1] concerns abortion/vaccine stances generically, not vaccine demand. Article [2] discusses measles but not vaccine hesitancy as cause or vaccine manufacturer impact.",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": null,
+            "supporting_article": 1
           },
           {
             "ticker": "UNH",
             "company": "UnitedHealth Group",
             "sentiment": "bearish",
             "conviction": 68,
-            "rationale": "Hospital cybersecurity vulnerabilities create operational and cost risks; healthcare IT failures could increase claims and liabilities.",
+            "rationale": "Measles resurgence and cybersecurity vulnerabilities (Java exploits) threaten healthcare system operations and cost structure.",
             "key_themes": [
-              "cybersecurity risk",
-              "operational disruption",
-              "liability exposure"
+              "disease outbreak",
+              "cyber threats",
+              "operational risk"
             ],
-            "time_horizon": "short-term",
+            "time_horizon": "medium-term",
             "verified": true,
             "verification_issue": null,
-            "supporting_article": 3
+            "supporting_article": [
+              2,
+              3
+            ]
           },
           {
             "ticker": "TMO",
             "company": "Thermo Fisher Scientific",
             "sentiment": "neutral",
-            "conviction": 45,
-            "rationale": "Measles outbreak may drive modest demand for diagnostic and testing capabilities, but impact is uncertain and limited.",
+            "conviction": 40,
+            "rationale": "Hospital cyber vulnerabilities may increase demand for diagnostic/lab services, but impact timing and magnitude remain uncertain.",
             "key_themes": [
-              "diagnostic demand",
-              "public health response"
+              "healthcare infrastructure risk",
+              "potential service demand"
             ],
             "time_horizon": "medium-term",
             "verified": false,
-            "verification_issue": "Article [2] mentions measles resurgence but does not discuss diagnostic or testing demand, nor does it mention Thermo Fisher Scientific or similar diagnostic companies. The connection between measles outbreak and diagnostic demand is assumed but not stated in sources.",
-            "supporting_article": null
+            "verification_issue": "Article [3] mentions hospital cyber vulnerabilities and Java exploits but contains no information about increased demand for diagnostic or lab services. The rationale speculates on potential service demand without textual support.",
+            "supporting_article": 3
           }
         ],
-        "summary": "Healthcare sector faces multiple headwinds: regulatory pressure (JNJ FDA rebuke), vaccine hesitancy amid measles resurgence (PFE), and escalating cybersecurity threats to hospital operations (UNH). FDA leadership uncertainty adds policy risk. Defensive positioning warranted in near term.",
+        "summary": "Healthcare sector faces headwinds from regulatory uncertainty (FDA leadership gap), infectious disease resurgence (measles re-emergence), and escalating cybersecurity threats. Pipeline setbacks at PFE add to concerns, though potential silver linings exist for diagnostic/infrastructure providers. Near-term sentiment is mixed-to-negative with medium-term structural challenges.",
         "risks": [
-          "Hospital cyber attacks accelerating costs and operational disruption",
-          "Vaccine hesitancy momentum if measles spreads further",
-          "Increased pharma regulatory scrutiny post-FDA nomination withdrawal",
-          "Healthcare IT vulnerabilities creating systemic industry risk"
+          "FDA regulatory gaps affecting vaccine approvals",
+          "Measles outbreak expansion and public health response costs",
+          "Accelerating hospital cyberattacks threatening operations",
+          "Pipeline failures reducing growth visibility",
+          "Potential mandate changes affecting immunization rates"
         ],
         "sector_sentiment": "bearish",
         "verification": {
-          "overall_reliability": "medium",
+          "overall_reliability": "low",
           "flags": [
-            "PFE signal conflates abortion/vaccine stance political controversy with actual vaccine demand headwinds without evidentiary connection",
-            "TMO signal speculates on diagnostic demand from measles without source support",
-            "No articles directly address vaccine hesitancy as a measles cause or future trend"
+            "PFE signal attributes ivonescimab setback to Pfizer when the drug belongs to Summit and Akeso; Pfizer's only mentioned involvement is an unrelated CAR-T licensing deal",
+            "TMO signal speculates about diagnostic/lab service demand increase without any supporting evidence in source articles"
           ],
           "ungrounded_count": 2
         }
       },
       "prices_snapshot": {
-        "JNJ": 265.05999755859375,
-        "PFE": 27.575000762939453,
-        "UNH": 331.4949951171875,
-        "TMO": 696.8925170898438
+        "PFE": 27.78499984741211,
+        "JNJ": 271.9967956542969,
+        "UNH": 344.67999267578125,
+        "TMO": 679.469970703125
       },
       "spot_check": {
         "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
@@ -487,27 +540,27 @@
         "published": "18 Nov 2026",
         "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
+          "ticker": "PFE",
+          "company": "Pfizer Inc.",
           "sentiment": "bearish",
           "conviction": 72,
-          "rationale": "FDA rebuke for misleading Inlexzo claims damages credibility and invites regulatory scrutiny on marketing practices.",
+          "rationale": "FDA complete response letter for ivonescimab reveals significant efficacy concerns beyond overall survival miss.",
           "key_themes": [
-            "regulatory risk",
-            "marketing compliance",
-            "product credibility"
+            "regulatory setback",
+            "clinical trial failure",
+            "pipeline risk"
           ],
           "time_horizon": "short-term",
-          "verified": true,
-          "verification_issue": null,
-          "supporting_article": 4
+          "verified": false,
+          "verification_issue": "Article [5] mentions ivonescimab FDA rejection with 'grievances beyond overall survival miss' but does NOT attribute this to Pfizer. The drug is from Summit and Akeso. Pfizer's involvement in article [5] is limited to licensing CAR-T programs from Starna Therapeutics, unrelated to ivonescimab. Analyst incorrectly conflates Pfizer with the ivonescimab setback.",
+          "supporting_article": 5
         },
         "haiku_sentiment": "bearish",
-        "haiku_rationale": "FDA rebuke for misleading Inlexzo claims damages credibility and invites regulatory scrutiny on marketing practices.",
+        "haiku_rationale": "FDA complete response letter for ivonescimab reveals significant efficacy concerns beyond overall survival miss.",
         "haiku_themes": [
-          "regulatory risk",
-          "marketing compliance",
-          "product credibility"
+          "regulatory setback",
+          "clinical trial failure",
+          "pipeline risk"
         ]
       },
       "config": {
@@ -527,27 +580,27 @@
     "Finance": {
       "articles": [
         {
-          "title": "Meet Anthropic\u2019s seven founders. Each is now worth about $20 billion.",
-          "summary": "",
-          "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/meet-anthropics-seven-founders-each-is-now-worth-about-20-billion",
+          "title": "C.F.T.C. Officials Considered Investigating Trump\u2019s Memecoin, Then Punted",
+          "summary": "Lawyers at the Commodity Futures Trading Commission looked into possible fraud soon after the digital token\u2019s launch, then decided they would not get the commission\u2019s support.",
+          "url": "https://www.nytimes.com/2026/11/20/us/politics/cftc-cryptocurrency-trump-memecoin.html",
           "source": "Rss",
-          "published": "19 Nov 2026",
+          "published": "20 Nov 2026",
+          "sentiment_hint": "bearish"
+        },
+        {
+          "title": "Savings Bonds Offer Enticing Rates. You Need to Prove Your Identity First.",
+          "summary": "The Treasury Department is working with a private service, ID.me, to grant access to the TreasuryDirect website. Some users reported trouble getting in.",
+          "url": "https://www.nytimes.com/2026/11/20/your-money/us-savings-bonds.html",
+          "source": "Rss",
+          "published": "20 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
-          "title": "China Is Shut Out of Anthropic\u2019s Blockbuster I.P.O.",
-          "summary": "Anthropic excluded investment firms from China and Hong Kong from buying shares in advance of its initial public offering.",
-          "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-china-hong-kong.html",
+          "title": "Can Anthropic Revive the A.I. Trade?",
+          "summary": "Shares in the artificial intelligence giant jumped in their debut. But that didn\u2019t lift the technology sector, as investors worry about the future of the A.I. boom.",
+          "url": "https://www.nytimes.com/2026/11/20/business/dealbook/anthropic-ipo-ai-rally.html",
           "source": "Rss",
-          "published": "19 Nov 2026",
-          "sentiment_hint": "neutral"
-        },
-        {
-          "title": "How Anthropic\u2019s Dario Amodei thinks about A.I.",
-          "summary": "",
-          "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropics-dario-amodei-thinks-about-ai",
-          "source": "Rss",
-          "published": "19 Nov 2026",
+          "published": "20 Nov 2026",
           "sentiment_hint": "neutral"
         },
         {
@@ -580,151 +633,146 @@
           {
             "ticker": "JPM",
             "company": "JPMorgan Chase",
-            "sentiment": "bullish",
-            "conviction": 72,
-            "rationale": "Financial services benefit from major AI IPO activity; Anthropic's $20B+ valuation signals continued fintech M&A opportunities",
-            "key_themes": [
-              "AI IPO financing",
-              "investment banking fees",
-              "wealth management growth"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "GS",
-            "company": "Goldman Sachs",
-            "sentiment": "bullish",
-            "conviction": 68,
-            "rationale": "Lead underwriter exposure to major AI unicorn IPOs like Anthropic generates significant advisory and underwriting revenue",
-            "key_themes": [
-              "IPO underwriting",
-              "M&A advisory",
-              "tech sector financing"
-            ],
-            "time_horizon": "medium-term",
-            "verified": false,
-            "verification_issue": "Articles mention Anthropic IPO but do not identify Goldman Sachs as lead underwriter or confirm GS involvement in this transaction",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MS",
-            "company": "Morgan Stanley",
-            "sentiment": "bullish",
-            "conviction": 65,
-            "rationale": "Strong positioning in AI sector financing and wealth management for newly minted billionaire founders from tech IPOs",
-            "key_themes": [
-              "founder wealth management",
-              "tech IPO participation",
-              "investment banking"
-            ],
-            "time_horizon": "medium-term",
-            "verified": true,
-            "verification_issue": null,
-            "supporting_article": 1
-          },
-          {
-            "ticker": "V",
-            "company": "Visa",
             "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "No direct impact from AI IPO news or DeepSeek selloff; payment volumes remain stable amid market volatility",
+            "conviction": 45,
+            "rationale": "Broad market volatility from AI rout may increase trading volumes, but regulatory uncertainty around crypto assets creates mixed headwinds.",
             "key_themes": [
-              "market neutral positioning",
-              "economic resilience"
+              "market volatility",
+              "regulatory uncertainty",
+              "trading opportunities"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'no direct impact' but sources do not provide payment volume data or Visa-specific analysis to support this neutral stance",
-            "supporting_article": null
-          },
-          {
-            "ticker": "MA",
-            "company": "Mastercard",
-            "sentiment": "neutral",
-            "conviction": 50,
-            "rationale": "Similar to Visa, no meaningful exposure to AI valuation shifts or commodity moves affecting this analysis",
-            "key_themes": [
-              "market neutral positioning",
-              "stable operations"
-            ],
-            "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'no meaningful exposure' but sources do not provide Mastercard-specific analysis or payment data to support this neutral stance",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": "Partial grounding: AI rout and market volatility are documented [4], but crypto regulatory uncertainty is not substantiated in sources. Only Trump memecoin investigation mentioned [1], not systematic regulatory uncertainty.",
+            "supporting_article": [
+              4
+            ]
           },
           {
             "ticker": "BAC",
             "company": "Bank of America",
             "sentiment": "neutral",
-            "conviction": 48,
-            "rationale": "Generic exposure to tech financing but less direct involvement than investment banking-focused peers; market volatility neutral",
+            "conviction": 42,
+            "rationale": "Market selloff may drive advisory and trading revenue, but sustained tech weakness could pressure overall market conditions and client activity.",
             "key_themes": [
-              "commercial banking stability",
-              "tech sector exposure"
+              "market volatility",
+              "trading revenue"
             ],
             "time_horizon": "short-term",
-            "verified": false,
-            "verification_issue": "Rationale claims 'less direct involvement than investment banking-focused peers' but sources do not differentiate Bank of America's role versus other banks in tech financing",
-            "supporting_article": null
+            "verified": true,
+            "verification_issue": "Partial grounding: Market selloff documented [4], but claim about 'trading revenue' benefit and 'client activity pressure' are inferred, not explicitly stated in articles.",
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "GS",
+            "company": "Goldman Sachs",
+            "sentiment": "neutral",
+            "conviction": 48,
+            "rationale": "Market dislocation from AI sell-off creates near-term trading opportunities, but regulatory focus on crypto fraud increases compliance costs.",
+            "key_themes": [
+              "market volatility",
+              "regulatory risk",
+              "trading opportunities"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial grounding: AI sell-off trading opportunities grounded in [4]. Crypto fraud regulatory focus mentioned in [1], but connection to Goldman Sachs compliance costs is speculative inference.",
+            "supporting_article": [
+              4,
+              1
+            ]
+          },
+          {
+            "ticker": "V",
+            "company": "Visa Inc.",
+            "sentiment": "bearish",
+            "conviction": 62,
+            "rationale": "Broad market equity sell-off and risk-off sentiment likely reduce transaction volumes and consumer spending in short term.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial grounding: Market equity sell-off documented [4], but direct causal link to reduced transaction volumes and consumer spending is not explicitly stated in sources.",
+            "supporting_article": [
+              4
+            ]
+          },
+          {
+            "ticker": "MA",
+            "company": "Mastercard Inc.",
+            "sentiment": "bearish",
+            "conviction": 61,
+            "rationale": "Market rout and risk-aversion sentiment may suppress consumer transaction activity and cross-border payment volumes near-term.",
+            "key_themes": [
+              "market volatility",
+              "consumer spending weakness"
+            ],
+            "time_horizon": "short-term",
+            "verified": true,
+            "verification_issue": "Partial grounding: Market rout documented [4], but specific claims about suppressed transaction activity and cross-border payment volumes are inferred rather than explicitly supported.",
+            "supporting_article": [
+              4
+            ]
           }
         ],
-        "summary": "Investment banks (JPM, GS, MS) show bullish signals driven by Anthropic's major IPO activity and founder wealth creation, generating significant underwriting and advisory fees. Payment processors (V, MA) remain neutral as they lack direct AI sector exposure, while market volatility from DeepSeek news does not materially affect financial services valuations in this timeframe.",
+        "summary": "Financial sector faces mixed headwinds from the AI-driven market rout centered on DeepSeek concerns, with payment processors more vulnerable to reduced consumer activity than investment banks positioned to benefit from trading volatility. Regulatory uncertainty around crypto assets adds compliance risks for large financial institutions, while capital markets activity may provide near-term revenue opportunities despite broader equity weakness.",
         "risks": [
-          "AI valuation correction could reduce IPO pipeline and M&A activity",
-          "geopolitical tensions limiting tech financing opportunities",
-          "DeepSeek competition could dampen AI sector investor enthusiasm"
+          "Sustained technology sector weakness could reduce overall market liquidity and advisory fees",
+          "Retail investor confidence erosion from AI selloff may suppress transaction volumes for extended periods",
+          "Regulatory escalation on cryptocurrency and digital assets could increase compliance burden and enforcement risk",
+          "Contagion effects from tech selloff to broader market could impact investment banking and capital markets activity"
         ],
-        "sector_sentiment": "bullish",
+        "sector_sentiment": "neutral",
         "verification": {
           "overall_reliability": "medium",
           "flags": [
-            "GS signal assumes Goldman Sachs is lead underwriter on Anthropic IPO without source confirmation",
-            "V and MA signals lack supporting data on payment volumes or market neutrality claims",
-            "BAC signal makes comparative claims about bank roles without source evidence"
+            "JPM rationale invokes 'regulatory uncertainty around crypto assets' as systematic headwind, but sources only document one specific Trump memecoin CFTC investigation, not broad regulatory uncertainty",
+            "V and MA bearish sentiments on consumer spending are inferred from market volatility alone; no source articles directly discuss impact on payment transaction volumes",
+            "GS rationale connects crypto fraud enforcement to Goldman Sachs compliance costs, but no source suggests this applies to major investment banks"
           ],
-          "ungrounded_count": 4
+          "ungrounded_count": 0
         }
       },
       "prices_snapshot": {
-        "JPM": 321.489990234375,
-        "GS": 868.5850219726562,
-        "MS": 177.74000549316406,
-        "V": 402.9599914550781,
-        "MA": 629.760009765625,
-        "BAC": 48.669898986816406
+        "JPM": 317.1520080566406,
+        "BAC": 48.14500045776367,
+        "GS": 808.0700073242188,
+        "V": 407.6700134277344,
+        "MA": 634.280029296875
       },
       "spot_check": {
-        "title": "Meet Anthropic\u2019s seven founders. Each is now worth about $20 billion.",
-        "summary": "",
-        "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/meet-anthropics-seven-founders-each-is-now-worth-about-20-billion",
+        "title": "C.F.T.C. Officials Considered Investigating Trump\u2019s Memecoin, Then Punted",
+        "summary": "Lawyers at the Commodity Futures Trading Commission looked into possible fraud soon after the digital token\u2019s launch, then decided they would not get the commission\u2019s support.",
+        "url": "https://www.nytimes.com/2026/11/20/us/politics/cftc-cryptocurrency-trump-memecoin.html",
         "source": "Rss",
-        "published": "19 Nov 2026",
-        "sentiment_hint": "neutral",
+        "published": "20 Nov 2026",
+        "sentiment_hint": "bearish",
         "related_signal": {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase",
-          "sentiment": "bullish",
-          "conviction": 72,
-          "rationale": "Financial services benefit from major AI IPO activity; Anthropic's $20B+ valuation signals continued fintech M&A opportunities",
+          "ticker": "V",
+          "company": "Visa Inc.",
+          "sentiment": "bearish",
+          "conviction": 62,
+          "rationale": "Broad market equity sell-off and risk-off sentiment likely reduce transaction volumes and consumer spending in short term.",
           "key_themes": [
-            "AI IPO financing",
-            "investment banking fees",
-            "wealth management growth"
+            "market volatility",
+            "consumer spending weakness"
           ],
-          "time_horizon": "medium-term",
+          "time_horizon": "short-term",
           "verified": true,
-          "verification_issue": null,
-          "supporting_article": 1
+          "verification_issue": "Partial grounding: Market equity sell-off documented [4], but direct causal link to reduced transaction volumes and consumer spending is not explicitly stated in sources.",
+          "supporting_article": [
+            4
+          ]
         },
-        "haiku_sentiment": "bullish",
-        "haiku_rationale": "Financial services benefit from major AI IPO activity; Anthropic's $20B+ valuation signals continued fintech M&A opportunities",
+        "haiku_sentiment": "bearish",
+        "haiku_rationale": "Broad market equity sell-off and risk-off sentiment likely reduce transaction volumes and consumer spending in short term.",
         "haiku_themes": [
-          "AI IPO financing",
-          "investment banking fees",
-          "wealth management growth"
+          "market volatility",
+          "consumer spending weakness"
         ]
       },
       "config": {
